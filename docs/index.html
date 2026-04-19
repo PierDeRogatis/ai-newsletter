@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gradient Descent — Daily AI intelligence for the analytical mind</title>
+  <meta name="description" content="Daily AI briefing on data tools, finance, sports performance, and research. Curated for analysts, athletes, and researchers who want signal, not noise.">
+  <meta property="og:title" content="Gradient Descent">
+  <meta property="og:description" content="Daily AI intelligence briefing at the intersection of data science, finance, sports, and research.">
+  <meta property="og:type" content="website">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #080E1C;
+      --surface:       #0F1829;
+      --surface-hover: #162035;
+      --border:        #1E2D45;
+      --accent:        #00C9A7;
+      --accent-dim:    #00A389;
+      --accent-glow:   rgba(0, 201, 167, 0.12);
+      --text:          #F0F4F8;
+      --muted:         #8B9CB8;
+      --dim:           #4E6280;
+      --indigo:  #818CF8;
+      --green:   #34D399;
+      --red:     #F87171;
+      --violet:  #A78BFA;
+      --amber:   #FCD34D;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(8, 14, 28, 0.88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1080px; margin: 0 auto;
+      height: 58px; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      font-size: 15px; font-weight: 700; color: var(--text);
+      text-decoration: none; letter-spacing: -0.01em;
+    }
+    .nav-logo em { color: var(--accent); font-style: normal; }
+    .btn-subscribe {
+      background: var(--accent); color: #080E1C;
+      padding: 8px 18px; border-radius: 8px;
+      font-size: 13px; font-weight: 700; text-decoration: none;
+      transition: background 0.18s, transform 0.12s;
+      white-space: nowrap;
+    }
+    .btn-subscribe:hover { background: var(--accent-dim); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 88px 24px 76px; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; top: -60px; left: 50%; transform: translateX(-50%);
+      width: 800px; height: 500px;
+      background: radial-gradient(ellipse at center, rgba(0,201,167,0.10) 0%, transparent 68%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: var(--accent-glow);
+      border: 1px solid rgba(0,201,167,0.28);
+      color: var(--accent);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
+      padding: 5px 13px; border-radius: 20px;
+      margin-bottom: 28px;
+    }
+    .hero-badge::before { content: '●'; font-size: 7px; }
+    .hero h1 {
+      font-size: clamp(34px, 5.5vw, 60px);
+      font-weight: 800; line-height: 1.1; letter-spacing: -0.025em;
+      margin-bottom: 22px;
+    }
+    .hero h1 .accent { color: var(--accent); }
+    .hero-sub {
+      font-size: 17px; color: var(--muted); line-height: 1.75;
+      max-width: 500px; margin: 0 auto 38px;
+    }
+    .hero-actions {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: var(--accent); color: #080E1C;
+      padding: 13px 28px; border-radius: 10px;
+      font-size: 15px; font-weight: 700; text-decoration: none;
+      transition: background 0.18s, transform 0.12s;
+    }
+    .btn-primary:hover { background: var(--accent-dim); transform: translateY(-1px); }
+    .btn-ghost {
+      background: transparent; color: var(--text);
+      padding: 13px 24px; border-radius: 10px;
+      font-size: 15px; font-weight: 600; text-decoration: none;
+      border: 1px solid var(--border);
+      transition: background 0.18s, border-color 0.18s;
+    }
+    .btn-ghost:hover { background: var(--surface); border-color: var(--muted); }
+
+    /* ── STATS ── */
+    .stats-bar {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 24px;
+    }
+    .stats-inner {
+      max-width: 700px; margin: 0 auto;
+      display: flex; justify-content: center; gap: 56px; flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-val { font-size: 26px; font-weight: 800; color: var(--accent); line-height: 1; }
+    .stat-lbl { font-size: 12px; color: var(--muted); margin-top: 5px; font-weight: 500; }
+
+    /* ── ARCHIVE ── */
+    .archive {
+      max-width: 1080px; margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+    .section-eyebrow {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
+      color: var(--dim); margin-bottom: 28px;
+    }
+    .issue-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 18px;
+    }
+    .issue-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px; padding: 24px;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 12px;
+      position: relative; overflow: hidden;
+      transition: background 0.18s, border-color 0.18s, transform 0.14s;
+    }
+    .issue-card::after {
+      content: '';
+      position: absolute; top: 0; left: 0;
+      width: 100%; height: 2px;
+      background: linear-gradient(90deg, var(--accent), transparent);
+      opacity: 0; transition: opacity 0.2s;
+    }
+    .issue-card:hover {
+      background: var(--surface-hover);
+      border-color: rgba(0,201,167,0.28);
+      transform: translateY(-2px);
+    }
+    .issue-card:hover::after { opacity: 1; }
+    .issue-date {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--accent);
+    }
+    .issue-brief {
+      font-size: 13.5px; color: var(--muted); line-height: 1.68;
+      flex: 1;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .issue-footer {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;
+    }
+    .pills { display: flex; flex-wrap: wrap; gap: 5px; }
+    .pill {
+      font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 20px; letter-spacing: 0.04em;
+    }
+    .pill-data     { background: rgba(79,70,229,0.15);  color: var(--indigo); }
+    .pill-finance  { background: rgba(5,150,105,0.15);  color: var(--green);  }
+    .pill-sports   { background: rgba(220,38,38,0.15);  color: var(--red);    }
+    .pill-research { background: rgba(124,58,237,0.15); color: var(--violet); }
+    .pill-podcast  { background: rgba(217,119,6,0.15);  color: var(--amber);  }
+    .issue-count {
+      font-size: 11px; color: var(--dim); white-space: nowrap;
+    }
+    .placeholder {
+      grid-column: 1 / -1;
+      text-align: center; color: var(--dim);
+      font-size: 15px; padding: 60px 0;
+    }
+
+    /* ── ABOUT ── */
+    .about {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 72px 24px;
+    }
+    .about-inner { max-width: 640px; margin: 0 auto; text-align: center; }
+    .about h2 {
+      font-size: 26px; font-weight: 800; letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+    .about p {
+      font-size: 15px; color: var(--muted); line-height: 1.8; margin-bottom: 14px;
+    }
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px; margin-top: 36px;
+    }
+    .sched-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 10px; padding: 16px 14px; text-align: left;
+    }
+    .sched-icon { font-size: 20px; margin-bottom: 8px; }
+    .sched-name { font-size: 12px; font-weight: 700; color: var(--text); }
+    .sched-when { font-size: 11px; color: var(--dim); margin-top: 3px; }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 36px 24px; text-align: center;
+      color: var(--dim); font-size: 12px; line-height: 2;
+    }
+    footer a { color: var(--muted); text-decoration: none; transition: color 0.15s; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 600px) {
+      .stats-inner { gap: 28px; }
+      .issue-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"><em>Gradient</em> Descent</a>
+      <a href="#" class="btn-subscribe" id="nav-subscribe">Subscribe Free →</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-badge">Free daily briefing &bull; ~3 min read</div>
+    <h1>Intelligence for the<br><span class="accent">AI-native</span> analyst</h1>
+    <p class="hero-sub">AI tools, finance, sports science, and research — curated every morning for analysts, athletes, and researchers who want signal, not noise.</p>
+    <div class="hero-actions">
+      <a href="#" class="btn-primary" id="hero-subscribe">Subscribe on Substack →</a>
+      <a href="#archive" class="btn-ghost">Browse archive</a>
+    </div>
+  </section>
+
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat"><div class="stat-val" id="stat-issues">—</div><div class="stat-lbl">Issues published</div></div>
+      <div class="stat"><div class="stat-val" id="stat-articles">—</div><div class="stat-lbl">Articles curated</div></div>
+      <div class="stat"><div class="stat-val">~3 min</div><div class="stat-lbl">Daily read time</div></div>
+      <div class="stat"><div class="stat-val">5</div><div class="stat-lbl">Coverage areas</div></div>
+    </div>
+  </div>
+
+  <section class="archive" id="archive">
+    <div class="section-eyebrow">Past issues</div>
+    <div class="issue-grid" id="issue-grid">
+      <p class="placeholder">Loading archive…</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-inner">
+      <h2>What you get every morning</h2>
+      <p>A sharp intelligence briefing for professionals at the intersection of data science, finance, sports performance, and AI research. No filler, no press releases — just concrete findings and what they mean for your work.</p>
+      <p>Each issue opens with a <strong>cross-domain brief</strong> — the hidden signal connecting all the day's stories — followed by 2–3 articles per active topic, each with a specific implication you can act on.</p>
+      <div class="schedule-grid">
+        <div class="sched-card"><div class="sched-icon">📊</div><div class="sched-name">AI &amp; Data Tools</div><div class="sched-when">Every day</div></div>
+        <div class="sched-card"><div class="sched-icon">📈</div><div class="sched-name">AI in Finance</div><div class="sched-when">Mon, Fri &amp; weekends</div></div>
+        <div class="sched-card"><div class="sched-icon">🏃</div><div class="sched-name">AI in Sports</div><div class="sched-when">Tue, Thu &amp; weekends</div></div>
+        <div class="sched-card"><div class="sched-icon">📚</div><div class="sched-name">Research</div><div class="sched-when">Wed &amp; weekends</div></div>
+        <div class="sched-card"><div class="sched-icon">🎧</div><div class="sched-name">Podcast pick</div><div class="sched-when">Every day</div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Powered by <a href="https://groq.com" target="_blank" rel="noopener">Groq</a>
+    &bull; Curated from 15+ RSS sources
+    &bull; <a href="#" id="footer-subscribe">Subscribe on Substack</a>
+    &bull; <a href="https://github.com/pierderogatis/ai-newsletter" target="_blank" rel="noopener">Source on GitHub</a>
+  </footer>
+
+  <script>
+    const TOPIC_PILL = {
+      "AI & Data Tools":    { cls: "pill-data",     label: "Data" },
+      "AI in Finance":      { cls: "pill-finance",   label: "Finance" },
+      "AI in Sports":       { cls: "pill-sports",    label: "Sports" },
+      "Research & Academia":{ cls: "pill-research",  label: "Research" },
+      "Podcasts":           { cls: "pill-podcast",   label: "Podcast" },
+    };
+
+    function fmtDate(s) {
+      const [y, m, d] = s.split("-").map(Number);
+      return new Date(y, m - 1, d).toLocaleDateString("en-US", {
+        weekday: "long", year: "numeric", month: "long", day: "numeric"
+      });
+    }
+
+    function renderCard(issue) {
+      const pills = (issue.topics || []).map(t => {
+        const p = TOPIC_PILL[t] || { cls: "", label: t };
+        return `<span class="pill ${p.cls}">${p.label}</span>`;
+      }).join("");
+      return `
+        <a href="${issue.path}" class="issue-card">
+          <div class="issue-date">${fmtDate(issue.date)}</div>
+          <p class="issue-brief">${issue.brief || "No brief available."}</p>
+          <div class="issue-footer">
+            <div class="pills">${pills}</div>
+            <span class="issue-count">${issue.article_count} articles</span>
+          </div>
+        </a>`;
+    }
+
+    async function loadArchive() {
+      try {
+        const r = await fetch("manifest.json?v=" + Date.now());
+        if (!r.ok) throw new Error("not found");
+        const manifest = await r.json();
+        if (!Array.isArray(manifest) || !manifest.length) {
+          document.getElementById("issue-grid").innerHTML =
+            '<p class="placeholder">First issue coming soon. Subscribe to get notified.</p>';
+          return;
+        }
+        const totalArticles = manifest.reduce((s, m) => s + (m.article_count || 0), 0);
+        document.getElementById("stat-issues").textContent = manifest.length;
+        document.getElementById("stat-articles").textContent = totalArticles + "+";
+        document.getElementById("issue-grid").innerHTML = manifest.map(renderCard).join("");
+      } catch {
+        document.getElementById("issue-grid").innerHTML =
+          '<p class="placeholder">Archive coming soon.</p>';
+      }
+    }
+
+    // Wire up subscribe links — replace SUBSTACK_HREF at deploy time or leave as "#"
+    const SUBSTACK_HREF = "https://pierluigiderogatis.substack.com";
+    ["nav-subscribe", "hero-subscribe", "footer-subscribe"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.href = SUBSTACK_HREF;
+    });
+
+    loadArchive();
+  </script>
+</body>
+</html>
