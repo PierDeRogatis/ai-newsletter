@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-20",
+    "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t",
+    "topics": [
+      "AI & Data Tools",
+      "Podcasts"
+    ],
+    "article_count": 4,
+    "path": "issues/2026-04-20.html"
+  },
+  {
     "date": "2026-04-19",
     "brief": "Reduced inference cost curves are driving the rapid development of smaller, more efficient AI models, which is why multiple labs have released compact models this week. This shift is likely to have a second-order consequence on capital markets, where",
     "topics": [
