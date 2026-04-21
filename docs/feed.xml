@@ -9,30 +9,37 @@
   <language>en-us</language>
   <atom:link href="https://gradient-descent-newsletter.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, April 21, 2026</title>
+    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-21.html</link>
+    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-21.html</guid>
+    <pubDate>Tue, 21 Apr 2026 06:00:00 +0000</pubDate>
+    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable </description>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, April 21, 2026&ensp;·&ensp;4 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable teams to optimize player training and strategy with greater precision, potentially altering the balance of competition in professional sports. You should be considering how to integrate open-source language models like Kimi K2.6 into your existing workflow for sports performance analysis, specifically to enhance player profiling and predictive modeling capabilities.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/04/20/a-coding-implementation-on-microsofts-phi-4-mini-for-quantized-inference-reasoning-tool-use-rag-and-lora-fine-tuning/">A Coding Implementation on Microsoft’s Phi-4-Mini for Quantized Inference Reasoning Tool Use RAG and LoRA Fine-Tuning</a></h3>
+<p>Researchers built a pipeline on Phi-4-mini to explore how a compact language model can handle modern LLM tasks, achieving promising results with RAG and LoRA fine-tuning. This development changes your workflow for model optimization, as you can now leverage Phi-4-mini for more efficient inference and fine-tuning of language models.&ensp;<a href="https://www.marktechpost.com/2026/04/20/a-coding-implementation-on-microsofts-phi-4-mini-for-quantized-inference-reasoning-tool-use-rag-and-lora-fine-tuning/">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://the-decoder.com/open-weight-kimi-k2-6-takes-on-gpt-5-4-and-claude-opus-4-6-with-agent-swarms/">Open-weight Kimi K2.6 takes on GPT-5.4 and Claude Opus 4.6 with agent swarms</a></h3>
+<p>Moonshot AI released Kimi K2.6, an open-weight model that matches GPT-5.4 and Claude Opus 4.6 on coding benchmarks, and can run up to 300 sub-agents and 4,000 coordinated steps. This changes your approach to coding tasks, as Kimi K2.6 offers a highly capable and scalable alternative to existing models.&ensp;<a href="https://the-decoder.com/open-weight-kimi-k2-6-takes-on-gpt-5-4-and-claude-opus-4-6-with-agent-swarms/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1795257">Strategic hotel management in sport tourism: balancing economic performance and social responsibility</a></h3>
+<p>Researchers explored the strategic management of hotels in sport tourism, highlighting the need to balance economic performance and social responsibility. This study changes your perspective on the business side of sports, as you consider the broader economic and social implications of team travel and accommodation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1795257">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://www.nytimes.com/athletic/7213125/2026/04/20/sixers-joel-embiid-conditioning-celtics-series/">Sixers' Joel Embiid begins strength and conditioning program</a></h3>
+<p>Joel Embiid has started a strength and conditioning program, aiming to return to the playoffs, and this development changes your assessment of the Sixers' chances, as Embiid's potential return could significantly impact the team's performance.&ensp;<a href="https://www.nytimes.com/athletic/7213125/2026/04/20/sixers-joel-embiid-conditioning-celtics-series/">→ Read</a></p>
+<hr>
+<p><em>Gradient Descent is free and takes 3 minutes a day. <a href="https://pierluigiderogatis.substack.com/subscribe">Subscribe and share</a> with someone who'd find it useful.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, April 20, 2026</title>
     <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-20.html</link>
     <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-20.html</guid>
     <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t</description>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, April 20, 2026&ensp;·&ensp;4 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where the ability to securely serve AI models at scale will become a key differentiator for financial institutions, potentially altering the competitive landscape in areas like fraud detection and instant payments. You should be evaluating whether your current workflow for integrating AI models into your financial analysis toolkit is optimized for the new cost curves, and considering a review of your technology investments to ensure they align with the emerging regulatory landscape in Europe and Asia.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/19/moonshot-ai-and-tsinghua-researchers-propose-prfaas-a-cross-datacenter-kvcache-architecture-that-rethinks-how-llms-are-served-at-scale/">Moonshot AI and Tsinghua Researchers Propose PrfaaS: A Cross-Datacenter KVCache Architecture that Rethinks How LLMs are Served at Scale</a></h3>
-<p>Researchers have proposed a new cross-datacenter KVCache architecture that rethinks how large language models are served at scale, potentially reducing inference costs. This changes your workflow for evaluating AI model performance, as you will need to consider the impact of datacenter architecture on model serving costs.&ensp;<a href="https://www.marktechpost.com/2026/04/19/moonshot-ai-and-tsinghua-researchers-propose-prfaas-a-cross-datacenter-kvcache-architecture-that-rethinks-how-llms-are-served-at-scale/">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything">Claude Token Counter, now with model comparisons</a></h3>
-<p>The Claude Token Counter tool now allows for model comparisons, enabling you to evaluate the performance of different AI models on the same task. This changes your metric for evaluating AI model performance, as you will need to consider the token count and model comparisons when selecting a model for your workflow.&ensp;<a href="https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://the-decoder.com/even-the-best-ai-models-lose-about-half-their-performance-when-charts-get-complicated-new-benchmark-finds/">Even the best AI models lose about half their performance when charts get complicated, new benchmark finds</a></h3>
-<p>A new benchmark has found that even the best AI models lose about half their performance when dealing with complicated charts, highlighting the need for more robust model evaluation. This changes your decision to use AI models for data analysis, as you will need to carefully evaluate the limitations of the models and consider alternative approaches for complex data visualizations.&ensp;<a href="https://the-decoder.com/even-the-best-ai-models-lose-about-half-their-performance-when-charts-get-complicated-new-benchmark-finds/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/how-capital-one-delivers-multi-agent-systems">How Capital One Delivers Multi-Agent Systems with Rashmi Shetty - #765</a></h3>
-<p>Capital One is designing and delivering multi-agent systems using AI, highlighting the potential for more effective and efficient financial systems. This changes your decision to invest in AI research and development, as you will need to consider the potential applications and benefits of multi-agent systems in finance.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-capital-one-delivers-multi-agent-systems">→ Listen</a></p>
-<hr>
-<p><em>Gradient Descent is free and takes 3 minutes a day. <a href="https://pierluigiderogatis.substack.com/subscribe">Subscribe and share</a> with someone who'd find it useful.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, April 19, 2026</title>

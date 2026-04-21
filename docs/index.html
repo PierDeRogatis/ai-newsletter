@@ -8,7 +8,13 @@
   <meta property="og:title" content="Gradient Descent — Daily AI Intelligence">
   <meta property="og:description" content="Your analytical edge, delivered by 6am. AI tools, finance, sports science, and research — curated daily.">
   <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1C'/%3E%3Ctext x='16' y='22' font-size='15' text-anchor='middle' fill='%2300C9A7' font-family='-apple-system%2Csans-serif' font-weight='800'%3EG%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <meta property="og:image" content="https://gradient-descent-newsletter.netlify.app/logo.png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1080">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://gradient-descent-newsletter.netlify.app/logo.png">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -156,6 +162,16 @@
       transition: color 0.14s;
     }
     .btn-ghost:hover { color: var(--text); }
+    .btn-tg {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: rgba(41,182,246,0.08);
+      border: 1px solid rgba(41,182,246,0.18);
+      color: #29B6F6;
+      padding: 11px 20px; border-radius: 8px;
+      font-size: 13px; font-weight: 600; text-decoration: none;
+      transition: background 0.14s, border-color 0.14s, transform 0.1s;
+    }
+    .btn-tg:hover { background: rgba(41,182,246,0.14); border-color: rgba(41,182,246,0.3); transform: translateY(-1px); }
 
     /* Hero preview card */
     .hero-card {
@@ -195,6 +211,32 @@
       transition: color 0.14s;
     }
     .hc-read:hover { color: var(--text); }
+
+    /* ─── CHANNELS BAR ─── */
+    .channels-bar {
+      border-bottom: 1px solid var(--border);
+      padding: 14px 32px;
+      background: var(--surface);
+    }
+    .channels-inner {
+      max-width: 1120px; margin: 0 auto;
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    }
+    .ch-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--dim); margin-right: 4px;
+    }
+    .ch-pill {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 11px; font-weight: 600; text-decoration: none;
+      padding: 4px 11px; border-radius: 20px;
+      border: 1px solid var(--border2); color: var(--muted);
+      transition: border-color 0.14s, color 0.14s;
+    }
+    .ch-pill:hover { color: var(--text); border-color: var(--dim); }
+    .ch-pill-tg { border-color: rgba(41,182,246,0.2); color: #29B6F6; }
+    .ch-pill-tg:hover { border-color: rgba(41,182,246,0.4); color: #7DD8FA; }
+    .ch-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 
     /* ─── STRIP ─── */
     .strip {
@@ -411,7 +453,7 @@
   <nav>
     <div class="nav-inner">
       <a href="/" class="nav-brand">
-        <span class="nav-mark">G</span>
+        <img src="logo.png" alt="Gradient Descent" class="nav-mark" style="object-fit:cover;border-radius:6px;">
         <span class="nav-name">Gradient Descent</span>
         <span class="nav-divider"></span>
         <span class="nav-tagline">Daily AI Intelligence</span>
@@ -433,8 +475,12 @@
         <p class="hero-sub">AI tools, finance, sports science, and research — distilled into a 3-minute brief for analysts, athletes, and researchers who need signal, not noise.</p>
         <div class="hero-btns">
           <a href="#" class="btn-main" id="hero-subscribe">Subscribe on Substack →</a>
-          <a href="#archive" class="btn-ghost">Browse archive</a>
+          <a href="#" class="btn-tg" id="hero-telegram">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+            Join on Telegram
+          </a>
         </div>
+        <div style="margin-top:14px"><a href="#archive" class="btn-ghost">Browse archive ↓</a></div>
       </div>
 
       <div class="hero-card" id="hero-card">
@@ -451,6 +497,22 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="channels-bar">
+    <div class="channels-inner">
+      <span class="ch-label">Read on</span>
+      <a href="#" class="ch-pill" id="ch-email">
+        <span class="ch-dot" style="background:#34D399"></span>Gmail
+      </a>
+      <a href="#" class="ch-pill" id="ch-substack">
+        <span class="ch-dot" style="background:#FF6719"></span>Substack
+      </a>
+      <a href="#" class="ch-pill ch-pill-tg" id="ch-telegram">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+        Telegram
+      </a>
     </div>
   </div>
 
@@ -522,6 +584,7 @@
       <span class="footer-copy">© 2026 Gradient Descent · Powered by Groq</span>
       <div class="footer-links">
         <a href="#" id="footer-subscribe">Subscribe</a>
+        <a href="#" id="footer-telegram">Telegram</a>
         <a href="feed.xml">RSS Feed</a>
         <a href="https://groq.com" target="_blank" rel="noopener">Groq</a>
         <a href="https://github.com/pierderogatis/ai-newsletter" target="_blank" rel="noopener">GitHub</a>
@@ -531,6 +594,7 @@
 
   <script>
     const SUBSTACK_HREF = "https://pierluigiderogatis.substack.com";
+    const TELEGRAM_HREF = "https://t.me/gradient_descent_ai";
 
     const TOPIC_PILL = {
       "AI & Data Tools":     { cls: "pill-data",     label: "Data" },
@@ -638,10 +702,16 @@
       document.querySelectorAll(".fade").forEach(el => io.observe(el));
     }
 
-    ["nav-subscribe", "hero-subscribe", "footer-subscribe"].forEach(id => {
+    ["nav-subscribe", "hero-subscribe", "footer-subscribe", "ch-substack"].forEach(id => {
       const el = document.getElementById(id);
       if (el) el.href = SUBSTACK_HREF;
     });
+    ["hero-telegram", "footer-telegram", "ch-telegram"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.href = TELEGRAM_HREF;
+    });
+    const chEmail = document.getElementById("ch-email");
+    if (chEmail) chEmail.href = SUBSTACK_HREF;
 
     loadArchive();
   </script>

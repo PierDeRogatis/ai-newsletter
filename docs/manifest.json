@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-21",
+    "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports"
+    ],
+    "article_count": 4,
+    "path": "issues/2026-04-21.html"
+  },
+  {
     "date": "2026-04-20",
     "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t",
     "topics": [
