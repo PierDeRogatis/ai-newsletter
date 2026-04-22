@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-22",
+    "brief": "The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern ",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia"
+    ],
+    "article_count": 4,
+    "path": "issues/2026-04-22.html"
+  },
+  {
     "date": "2026-04-21",
     "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable ",
     "topics": [
