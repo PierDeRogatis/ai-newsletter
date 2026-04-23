@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-23",
+    "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-04-23.html"
+  },
+  {
     "date": "2026-04-22",
     "brief": "The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern ",
     "topics": [

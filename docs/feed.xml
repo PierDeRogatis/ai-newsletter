@@ -9,30 +9,47 @@
   <language>en-us</language>
   <atom:link href="https://gradient-descent-newsletter.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, April 23, 2026</title>
+    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-23.html</link>
+    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-23.html</guid>
+    <pubDate>Thu, 23 Apr 2026 06:00:00 +0000</pubDate>
+    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per</description>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, April 23, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic performance, as coaches and trainers can leverage these tools to optimize training workflows and gain a competitive edge. You should be evaluating how to integrate automation platforms into your current workflow to streamline data analysis and decision-making for your sport performance analysis clients, specifically by assessing the potential of workspace agents to automate complex team workflows and improve customer research.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/">OpenAI launches workspace agents that turn ChatGPT from a chatbot into a team automation platform</a></h3>
+<p>OpenAI is rolling out workspace agents in ChatGPT, an evolution of custom GPTs, which automate complex team workflows and keep data organized. This changes your workflow by allowing you to use Codex-powered agents to automate tasks and improve team collaboration.&ensp;<a href="https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/">From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills</a></h3>
+<p>The author turned LLM persona interviews into a repeatable customer research workflow using Claude Code Skills. This changes your metric for evaluating AI workflows by providing a framework for turning ad-hoc prompting into repeatable and scalable workflows.&ensp;<a href="https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/">Unauthorized users breach Anthropic's restricted Mythos AI model</a></h3>
+<p>A small group of unauthorized users gained access to Anthropic's new AI model Claude Mythos, highlighting the need for robust security measures. This changes your decision to implement stricter access controls and monitoring for sensitive AI models.&ensp;<a href="https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71095353/runners-world-staff-training-tips/">10 Training Tips to Boost Your Performance in 2026, From the Runner’s World Staff</a></h3>
+<p>The Runner's World staff shares 10 training tips to boost performance in 2026, including tweaks to training, recovery, and mindset. This changes your tool for coaching athletes by providing actionable tips and strategies for improving performance.&ensp;<a href="https://www.runnersworld.com/training/a71095353/runners-world-staff-training-tips/">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823271">Case Report: Unilateral resistance and impact loading during knee rehabilitation after grade-2 MCL injury was associated with hip-specific aBMD accrual in an elite female road cyclist</a></h3>
+<p>A case report found that unilateral resistance and impact loading during knee rehabilitation was associated with hip-specific aBMD accrual in an elite female road cyclist. This changes your metric for evaluating rehabilitation protocols by highlighting the importance of considering the impact on bone mineral density.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823271">→ Read</a></p>
+<p style="color:#D1D5DB;text-align:center;">· · ·</p>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1798062">Integrative psychological interventions for stress regulation in sport: a mini-review</a></h3>
+<p>A mini-review examines three major categories of integrative psychological interventions for stress regulation in sport. This changes your workflow for working with athletes by providing a framework for incorporating psychological interventions into training programs.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1798062">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://futureoflife.org/podcast/why-ai-evaluation-science-cant-keep-up-with-carina-prunkl/">Why AI Evaluation Science Can’t Keep Up (with Carina Prunkl)</a></h3>
+<p>Carina Prunkl discusses why AI evaluation science can't keep up with the rapid development of AI systems. This changes your decision to invest in AI evaluation tools by highlighting the need for more robust and adaptive evaluation methods.&ensp;<a href="https://futureoflife.org/podcast/why-ai-evaluation-science-cant-keep-up-with-carina-prunkl/">→ Listen</a></p>
+<hr>
+<p><em>Gradient Descent is free and takes 3 minutes a day. <a href="https://pierluigiderogatis.substack.com/subscribe">Subscribe and share</a> with someone who'd find it useful.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, April 22, 2026</title>
     <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-22.html</link>
     <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-22.html</guid>
     <pubDate>Wed, 22 Apr 2026 06:00:00 +0000</pubDate>
     <description>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern </description>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, April 22, 2026&ensp;·&ensp;4 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern and Euphony. This shift has significant implications for your work in athletic performance analysis, where the use of open-source tools can facilitate more collaborative and transparent research, potentially leading to breakthroughs in areas like personalized coaching and injury prevention. You should be considering how to integrate open-source AI tools into your existing workflow, specifically exploring how ml-intern can automate post-training workflows for large language models and how Euphony can enhance visualization and debugging capabilities for chat data and session logs, and write a one-page memo outlining the potential benefits and challenges of adopting these tools in your current projects.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow/">Hugging Face Releases ml-intern: An Open-Source AI Agent that Automates the LLM Post-Training Workflow</a></h3>
-<p>Hugging Face has released ml-intern, an open-source AI agent designed to automate end-to-end post-training workflows for large language models, which changes your workflow by allowing for more efficient model deployment and testing using tools like ml-intern and Euphony. This development impacts your use of the Hugging Face platform, as you can now leverage ml-intern to streamline your model development process and focus on higher-level tasks like model fine-tuning and evaluation.&ensp;<a href="https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow/">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://www.marktechpost.com/2026/04/21/openai-open-sources-euphony-a-browser-based-visualization-tool-for-harmony-chat-data-and-codex-session-logs/">OpenAI Open-Sources Euphony: A Browser-Based Visualization Tool for Harmony Chat Data and Codex Session Logs</a></h3>
-<p>OpenAI has open-sourced Euphony, a browser-based visualization tool for harmony chat data and codex session logs, which affects your debugging and visualization workflow by providing a more intuitive and interactive way to explore and analyze chat data and session logs using Euphony, and you should consider integrating Euphony into your existing debugging toolkit to enhance your ability to identify and resolve issues in your models.&ensp;<a href="https://www.marktechpost.com/2026/04/21/openai-open-sources-euphony-a-browser-based-visualization-tool-for-harmony-chat-data-and-codex-session-logs/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2604.19069">Product-of-Experts Training Reduces Dataset Artifacts in Natural Language Inference</a></h3>
-<p>Product-of-Experts training has been shown to reduce dataset artifacts in natural language inference, which changes your approach to model training by highlighting the importance of using techniques like product-of-experts to mitigate overfitting and improve model generalizability, and you should consider incorporating this technique into your model training workflow to enhance the robustness and reliability of your models. This development impacts your use of the arXiv platform, as you can now leverage research like this to inform your model development and training decisions.&ensp;<a href="https://arxiv.org/abs/2604.19069">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://arxiv.org/abs/2604.19001">When Safety Fails Before the Answer: Benchmarking Harmful Behavior Detection in Reasoning Chains</a></h3>
-<p>Researchers have proposed a benchmark for detecting harmful behavior in reasoning chains, which affects your evaluation workflow by providing a new metric for assessing the safety and reliability of your models, and you should consider incorporating this benchmark into your evaluation toolkit to ensure that your models are aligned with the latest safety standards and best practices.&ensp;<a href="https://arxiv.org/abs/2604.19001">→ Read</a></p>
-<hr>
-<p><em>Gradient Descent is free and takes 3 minutes a day. <a href="https://pierluigiderogatis.substack.com/subscribe">Subscribe and share</a> with someone who'd find it useful.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, April 21, 2026</title>
