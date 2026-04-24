@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-24",
+    "brief": "The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-04-24.html"
+  },
+  {
     "date": "2026-04-23",
     "brief": "Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per",
     "topics": [

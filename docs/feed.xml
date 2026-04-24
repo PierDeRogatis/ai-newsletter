@@ -4,80 +4,108 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>Gradient Descent</title>
-  <link>https://gradient-descent-newsletter.netlify.app</link>
+  <link>https://pierderogatis.github.io/ai-newsletter</link>
   <description>Daily AI intelligence briefing — data science, finance, sports, and research.</description>
   <language>en-us</language>
-  <atom:link href="https://gradient-descent-newsletter.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Gradient Descent — Thursday, April 23, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-23.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-23.html</guid>
-    <pubDate>Thu, 23 Apr 2026 06:00:00 +0000</pubDate>
-    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per</description>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, April 23, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+    <title>Gradient Descent — Friday, April 24, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</guid>
+    <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
+    <description>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance</description>
+    <category>AI & Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, April 24, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
 <hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic performance, as coaches and trainers can leverage these tools to optimize training workflows and gain a competitive edge. You should be evaluating how to integrate automation platforms into your current workflow to streamline data analysis and decision-making for your sport performance analysis clients, specifically by assessing the potential of workspace agents to automate complex team workflows and improve customer research.</p></blockquote>
+<blockquote><p><strong>Today's Brief</strong></p><p>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance analysis you do, as more efficient data tools could enable real-time adjustments to athlete training protocols based on newly-automated data analysis. Determine whether your current workflow for signal generation in finance can be automated by the tools released this week, and estimate the potential reduction in manual data processing time that could be redirected to higher-level strategy decisions.</p></blockquote>
 <hr>
 <h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/">OpenAI launches workspace agents that turn ChatGPT from a chatbot into a team automation platform</a></h3>
-<p>OpenAI is rolling out workspace agents in ChatGPT, an evolution of custom GPTs, which automate complex team workflows and keep data organized. This changes your workflow by allowing you to use Codex-powered agents to automate tasks and improve team collaboration.&ensp;<a href="https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/">From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills</a></h3>
-<p>The author turned LLM persona interviews into a repeatable customer research workflow using Claude Code Skills. This changes your metric for evaluating AI workflows by providing a framework for turning ad-hoc prompting into repeatable and scalable workflows.&ensp;<a href="https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/">Unauthorized users breach Anthropic's restricted Mythos AI model</a></h3>
-<p>A small group of unauthorized users gained access to Anthropic's new AI model Claude Mythos, highlighting the need for robust security measures. This changes your decision to implement stricter access controls and monitoring for sensitive AI models.&ensp;<a href="https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/">→ Read</a></p>
+<h3><a href="https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/">OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval</a></h3>
+<p>OpenAI's GPT-5.5 model achieves high scores on Terminal-Bench 2.0 and GDPval, demonstrating its potential for full-stack automation. This development changes the workflow for data analysis, as models like GPT-5.5 could automate tasks currently done manually, freeing up time for more strategic work.&ensp;<a href="https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/">Using a Local LLM as a Zero-Shot Classifier</a></h3>
+<p>A locally hosted LLM can be used for zero-shot classification, eliminating the need for labeled training data. This approach changes the metric for evaluating the efficiency of data classification tasks, as it reduces the reliance on human-labeled data and enables faster categorization of large datasets.&ensp;<a href="https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/">Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures</a></h3>
+<p>Google Cloud AI Research's ReasoningBank framework allows LLM agents to learn from their successes and failures, improving their reasoning strategies over time. This development changes the decision-making process for AI model deployment, as it enables the creation of agents that can adapt and improve based on their experiences.&ensp;<a href="https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/">→ Read</a></p>
 <hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a71095353/runners-world-staff-training-tips/">10 Training Tips to Boost Your Performance in 2026, From the Runner’s World Staff</a></h3>
-<p>The Runner's World staff shares 10 training tips to boost performance in 2026, including tweaks to training, recovery, and mindset. This changes your tool for coaching athletes by providing actionable tips and strategies for improving performance.&ensp;<a href="https://www.runnersworld.com/training/a71095353/runners-world-staff-training-tips/">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823271">Case Report: Unilateral resistance and impact loading during knee rehabilitation after grade-2 MCL injury was associated with hip-specific aBMD accrual in an elite female road cyclist</a></h3>
-<p>A case report found that unilateral resistance and impact loading during knee rehabilitation was associated with hip-specific aBMD accrual in an elite female road cyclist. This changes your metric for evaluating rehabilitation protocols by highlighting the importance of considering the impact on bone mineral density.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823271">→ Read</a></p>
-<p style="color:#D1D5DB;text-align:center;">· · ·</p>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1798062">Integrative psychological interventions for stress regulation in sport: a mini-review</a></h3>
-<p>A mini-review examines three major categories of integrative psychological interventions for stress regulation in sport. This changes your workflow for working with athletes by providing a framework for incorporating psychological interventions into training programs.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1798062">→ Read</a></p>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-04-24/tsmc-shares-surge-as-taiwan-lifts-single-stock-limit-for-funds">TSMC Shares Surge as Taiwan Lifts Single-Stock Limit for Funds</a></h3>
+<p>The removal of single-stock limits for funds in Taiwan has led to a surge in TSMC shares, potentially drawing in over $6 billion in inflows. This event changes the portfolio optimization strategy, as the increased liquidity and reduced regulatory barriers could impact the risk profile of investments in the semiconductor sector.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-04-24/tsmc-shares-surge-as-taiwan-lifts-single-stock-limit-for-funds">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-04-23/intel-beats-earnings-closing-bell-video">Stocks on the Backfoot, Intel Beats Earnings | Closing Bell</a></h3>
+<p>Intel's earnings beat has been reported amidst a broader market downturn, highlighting the importance of individual equity curve analysis. This changes the workflow for financial analysts, as they need to incorporate real-time market data and earnings reports into their portfolio assessments to make informed decisions.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-04-23/intel-beats-earnings-closing-bell-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://quantpedia.com/how-to-analyze-individual-equity-curves/">How to Analyze Individual Equity Curves</a></h3>
+<p>Quantpedia's platform allows for the analysis of individual equity curves, enabling users to assess portfolio performance at a granular level. This tool changes the performance evaluation metric, as it provides a more detailed understanding of asset returns and facilitates data-driven investment decisions.&ensp;<a href="https://quantpedia.com/how-to-analyze-individual-equity-curves/">→ Read</a></p>
 <hr>
 <h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://futureoflife.org/podcast/why-ai-evaluation-science-cant-keep-up-with-carina-prunkl/">Why AI Evaluation Science Can’t Keep Up (with Carina Prunkl)</a></h3>
-<p>Carina Prunkl discusses why AI evaluation science can't keep up with the rapid development of AI systems. This changes your decision to invest in AI evaluation tools by highlighting the need for more robust and adaptive evaluation methods.&ensp;<a href="https://futureoflife.org/podcast/why-ai-evaluation-science-cant-keep-up-with-carina-prunkl/">→ Listen</a></p>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis">Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis</a></h3>
+<p>Dr. Erich Jarvis discusses the neuroscience underlying speech, language, and music, providing insights into the brain's functions. This podcast changes the approach to sports performance analysis, as understanding the neurological basis of human behavior could inform the development of more effective training protocols and athlete assessments.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis">→ Listen</a></p>
 <hr>
-<p><em>Gradient Descent is free and takes 3 minutes a day. <a href="https://pierluigiderogatis.substack.com/subscribe">Subscribe and share</a> with someone who'd find it useful.</em></p>]]></content:encoded>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
+    <title>Gradient Descent — Thursday, April 23, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-23.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-23.html</guid>
+    <pubDate>Thu, 23 Apr 2026 06:00:00 +0000</pubDate>
+    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per</description>
+    <category>AI & Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, April 22, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-22.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-22.html</guid>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html</guid>
     <pubDate>Wed, 22 Apr 2026 06:00:00 +0000</pubDate>
     <description>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern </description>
+    <category>AI & Data Tools</category>
+    <category>Research & Academia</category>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, April 21, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-21.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-21.html</guid>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-21.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-21.html</guid>
     <pubDate>Tue, 21 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable </description>
+    <category>AI & Data Tools</category>
+    <category>AI in Sports</category>
   </item>
   <item>
     <title>Gradient Descent — Monday, April 20, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-20.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-20.html</guid>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-20.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-20.html</guid>
     <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t</description>
+    <category>AI & Data Tools</category>
+    <category>Podcasts</category>
   </item>
   <item>
     <title>Gradient Descent — Sunday, April 19, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-19.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-19.html</guid>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-19.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-19.html</guid>
     <pubDate>Sun, 19 Apr 2026 06:00:00 +0000</pubDate>
     <description>Reduced inference cost curves are driving the rapid development of smaller, more efficient AI models, which is why multiple labs have released compact models this week. This shift is likely to have a second-order consequence on capital markets, where</description>
+    <category>AI & Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
   </item>
   <item>
     <title>Gradient Descent — Saturday, April 18, 2026</title>
-    <link>https://gradient-descent-newsletter.netlify.app/issues/2026-04-18.html</link>
-    <guid isPermaLink="true">https://gradient-descent-newsletter.netlify.app/issues/2026-04-18.html</guid>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html</guid>
     <pubDate>Sat, 18 Apr 2026 06:00:00 +0000</pubDate>
     <description>Consider the potential risks of AI-driven technological transformation in finance and sports, as well as the limitations of current AI evaluation methods, and how these factors may impact your data analysis and decision-making processes.</description>
+    <category>AI & Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research & Academia</category>
+    <category>Podcasts</category>
   </item>
 </channel>
 </rss>
