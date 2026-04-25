@@ -9,6 +9,23 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, April 25, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-25.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-25.html</guid>
+    <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
+    <description>It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c</description>
+    <category>AI & Data Tools</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, April 25, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that can handle one-million-token contexts. This lands on trading desks as a scramble to integrate these new models into existing workflows, because the cost savings are too big to ignore - and it's not just about the models themselves, but about how they're changing the way we think about event contracts and prediction markets. Now you need to ask your team: are we using the right model for our specific problem, or are we just using the biggest one because it's the newest shiny thing?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://simonwillison.net/2026/Apr/24/llm/#atom-everything">llm 0.31</a></h3>
+<p>Simon Willison released llm 0.31, which includes a new GPT-5.5 OpenAI model and options for setting text verbosity and image detail levels. This changes how developers interact with OpenAI models, making it easier to fine-tune them for specific tasks and potentially leading to more efficient workflows.&ensp;<a href="https://simonwillison.net/2026/Apr/24/llm/#atom-everything">→ Read</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, April 24, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</guid>
@@ -17,35 +34,6 @@
     <category>AI & Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, April 24, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance analysis you do, as more efficient data tools could enable real-time adjustments to athlete training protocols based on newly-automated data analysis. Determine whether your current workflow for signal generation in finance can be automated by the tools released this week, and estimate the potential reduction in manual data processing time that could be redirected to higher-level strategy decisions.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/">OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval</a></h3>
-<p>OpenAI's GPT-5.5 model achieves high scores on Terminal-Bench 2.0 and GDPval, demonstrating its potential for full-stack automation. This development changes the workflow for data analysis, as models like GPT-5.5 could automate tasks currently done manually, freeing up time for more strategic work.&ensp;<a href="https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/">Using a Local LLM as a Zero-Shot Classifier</a></h3>
-<p>A locally hosted LLM can be used for zero-shot classification, eliminating the need for labeled training data. This approach changes the metric for evaluating the efficiency of data classification tasks, as it reduces the reliance on human-labeled data and enables faster categorization of large datasets.&ensp;<a href="https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/">Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures</a></h3>
-<p>Google Cloud AI Research's ReasoningBank framework allows LLM agents to learn from their successes and failures, improving their reasoning strategies over time. This development changes the decision-making process for AI model deployment, as it enables the creation of agents that can adapt and improve based on their experiences.&ensp;<a href="https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-04-24/tsmc-shares-surge-as-taiwan-lifts-single-stock-limit-for-funds">TSMC Shares Surge as Taiwan Lifts Single-Stock Limit for Funds</a></h3>
-<p>The removal of single-stock limits for funds in Taiwan has led to a surge in TSMC shares, potentially drawing in over $6 billion in inflows. This event changes the portfolio optimization strategy, as the increased liquidity and reduced regulatory barriers could impact the risk profile of investments in the semiconductor sector.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-04-24/tsmc-shares-surge-as-taiwan-lifts-single-stock-limit-for-funds">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-04-23/intel-beats-earnings-closing-bell-video">Stocks on the Backfoot, Intel Beats Earnings | Closing Bell</a></h3>
-<p>Intel's earnings beat has been reported amidst a broader market downturn, highlighting the importance of individual equity curve analysis. This changes the workflow for financial analysts, as they need to incorporate real-time market data and earnings reports into their portfolio assessments to make informed decisions.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-04-23/intel-beats-earnings-closing-bell-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://quantpedia.com/how-to-analyze-individual-equity-curves/">How to Analyze Individual Equity Curves</a></h3>
-<p>Quantpedia's platform allows for the analysis of individual equity curves, enabling users to assess portfolio performance at a granular level. This tool changes the performance evaluation metric, as it provides a more detailed understanding of asset returns and facilitates data-driven investment decisions.&ensp;<a href="https://quantpedia.com/how-to-analyze-individual-equity-curves/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis">Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis</a></h3>
-<p>Dr. Erich Jarvis discusses the neuroscience underlying speech, language, and music, providing insights into the brain's functions. This podcast changes the approach to sports performance analysis, as understanding the neurological basis of human behavior could inform the development of more effective training protocols and athlete assessments.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, April 23, 2026</title>

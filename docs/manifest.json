@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-04-25",
+    "brief": "It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c",
+    "topics": [
+      "AI & Data Tools"
+    ],
+    "article_count": 1,
+    "path": "issues/2026-04-25.html"
+  },
+  {
     "date": "2026-04-24",
     "brief": "The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance",
     "topics": [
