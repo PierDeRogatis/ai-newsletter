@@ -1,21 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow/",
-    "date": "2026-04-22"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/04/21/openai-open-sources-euphony-a-browser-based-visualization-tool-for-harmony-chat-data-and-codex-session-logs/",
-    "date": "2026-04-22"
-  },
-  {
-    "url": "https://arxiv.org/abs/2604.19069",
-    "date": "2026-04-22"
-  },
-  {
-    "url": "https://arxiv.org/abs/2604.19001",
-    "date": "2026-04-22"
-  },
-  {
     "url": "https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/",
     "date": "2026-04-23"
   },
@@ -74,5 +58,45 @@
   {
     "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
     "date": "2026-04-25"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://feeds.feedblitz.com/~/954538931/0/marginalrevolution~Will-AI-save-the-US-fiscal-situation.html",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.nytimes.com/2026/04/25/technology/trump-memecoin-conference.html",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/25/why-some-young-americans-are-dating-less-in-2026.html",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7229658/2026/04/26/de-zerbi-surprised-xavi-simons/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7218388/2026/04/26/late-goals-pitch-invasions-and-a-wild-ride-from-despair-to-joy-was-this-footballs-most-dramatic-title-finale/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7228462/2026/04/26/fifpro-aif-fifa-finances-explained/",
+    "date": "2026-04-26"
+  },
+  {
+    "url": "https://braininspired.co/podcast/236/",
+    "date": "2026-04-26"
   }
 ]

@@ -1,27 +1,31 @@
 {
   "https://theathletic.com/rss/news/": {
     "recent_hits": [
+      1,
       1
     ],
-    "last_run": "2026-04-25"
+    "last_run": "2026-04-26"
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
+      1,
       1
     ],
-    "last_run": "2026-04-25"
+    "last_run": "2026-04-26"
   },
   "https://the-decoder.com/feed/": {
     "recent_hits": [
+      1,
       1
     ],
-    "last_run": "2026-04-25"
+    "last_run": "2026-04-26"
   },
   "https://www.marktechpost.com/feed/": {
     "recent_hits": [
+      1,
       1
     ],
-    "last_run": "2026-04-25"
+    "last_run": "2026-04-26"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
@@ -64,5 +68,23 @@
       1
     ],
     "last_run": "2026-04-25"
+  },
+  "https://braininspired.co/feed/podcast/": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-26"
+  },
+  "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-26"
+  },
+  "https://feeds.feedburner.com/marginalrevolution/feed": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-26"
   }
 }

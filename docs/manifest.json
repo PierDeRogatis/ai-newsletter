@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-04-26",
+    "brief": "The cost of using AI tools has dropped to the point where it's now a no-brainer for many applications, much like when cloud storage became so cheap that it killed the hard drive market. This shift is already being felt on trading desks, where firms a",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-04-26.html"
+  },
+  {
     "date": "2026-04-25",
     "brief": "It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c",
     "topics": [
