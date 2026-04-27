@@ -8,6 +8,9 @@
   <meta property="og:title" content="Gradient Descent — Daily AI Intelligence">
   <meta property="og:description" content="Your analytical edge, delivered by 6am. AI tools, finance, sports science, and research — curated daily.">
   <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="logo.png">
   <link rel="apple-touch-icon" href="logo.png">
   <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
@@ -41,7 +44,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -180,8 +183,8 @@
       border-radius: 14px;
       overflow: hidden;
       box-shadow: 0 28px 72px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.3);
-      display: none;
     }
+    .hero-card:not(.hero-card--loaded) { display: none; }
     .hc-header {
       padding: 18px 24px 16px;
       border-bottom: 1px solid var(--border);
@@ -197,9 +200,13 @@
       background: linear-gradient(90deg, var(--accent) 0%, transparent 65%);
     }
     .hc-body { padding: 22px 24px 20px; }
+    .hc-headline {
+      font-size: 13px; font-weight: 700; color: var(--text);
+      line-height: 1.4; margin-bottom: 8px;
+    }
     .hc-brief {
-      font-size: 13px; color: var(--muted); line-height: 1.75;
-      display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden;
+      font-size: 12px; color: var(--muted); line-height: 1.75;
+      display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
       margin-bottom: 18px;
     }
     .hc-footer {
@@ -236,6 +243,8 @@
     .ch-pill:hover { color: var(--text); border-color: var(--dim); }
     .ch-pill-tg { border-color: rgba(41,182,246,0.2); color: #29B6F6; }
     .ch-pill-tg:hover { border-color: rgba(41,182,246,0.4); color: #7DD8FA; }
+    .ch-pill-x { border-color: rgba(231,233,234,0.15); color: #E7E9EA; }
+    .ch-pill-x:hover { border-color: rgba(231,233,234,0.35); color: #fff; }
     .ch-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 
     /* ─── STRIP ─── */
@@ -299,9 +308,13 @@
       text-transform: uppercase; color: var(--accent);
       margin-bottom: 14px;
     }
+    .feat-headline {
+      font-size: 22px; font-weight: 800; letter-spacing: -0.02em;
+      color: var(--text); line-height: 1.25; margin-bottom: 8px;
+    }
     .feat-date {
-      font-size: 24px; font-weight: 800; letter-spacing: -0.02em;
-      color: var(--text); margin-bottom: 18px;
+      font-size: 13px; font-weight: 500;
+      color: var(--dim); margin-bottom: 18px;
     }
     .feat-brief {
       font-size: 15px; color: var(--muted);
@@ -347,8 +360,12 @@
     }
     .issue-row:hover .row-date { color: var(--accent); }
     .row-right {}
+    .row-headline {
+      font-size: 14px; font-weight: 700; color: var(--text);
+      margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
     .row-brief {
-      font-size: 13.5px; color: var(--muted); line-height: 1.68;
+      font-size: 13px; color: var(--muted); line-height: 1.68;
       margin-bottom: 10px;
       display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     }
@@ -404,20 +421,130 @@
     .cov-name { font-size: 13px; font-weight: 600; color: var(--text); }
     .cov-when { font-size: 11px; color: var(--dim); font-weight: 500; white-space: nowrap; }
 
+    /* ─── PIPELINE SECTION ─── */
+    .pipeline {
+      border-top: 1px solid var(--border);
+      padding: 80px 32px;
+    }
+    .pipeline-inner { max-width: 1120px; margin: 0 auto; }
+    .pipeline-head { margin-bottom: 52px; }
+    .pipeline-head h2 {
+      font-size: 28px; font-weight: 800;
+      letter-spacing: -0.025em; line-height: 1.22;
+      margin-bottom: 10px;
+    }
+    .pipeline-head p { font-size: 14px; color: var(--muted); line-height: 1.72; }
+    .pipeline-steps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 640px) { .pipeline-steps { grid-template-columns: 1fr; } }
+    .pipeline-step {
+      background: var(--surface);
+      border: 1px solid var(--border2);
+      border-radius: 12px;
+      padding: 28px 28px 26px;
+      position: relative;
+      overflow: hidden;
+    }
+    .pipeline-step::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 2px;
+    }
+    .step-01::before { background: var(--c-data); }
+    .step-02::before { background: var(--c-finance); }
+    .step-03::before { background: var(--accent); }
+    .step-04::before { background: var(--c-research); }
+    .step-num {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+      color: var(--accent); margin-bottom: 10px;
+    }
+    .step-title {
+      font-size: 16px; font-weight: 800;
+      letter-spacing: -0.01em; color: var(--text);
+      margin-bottom: 8px;
+    }
+    .step-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
+    .step-detail {
+      display: inline-block; margin-top: 12px;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--dim);
+    }
+    .pipeline-foot {
+      display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+      padding-top: 32px; border-top: 1px solid var(--border);
+    }
+    .pipeline-stat {
+      font-size: 13px; font-weight: 700; color: var(--accent);
+    }
+    .pipeline-sep { color: var(--dim); }
+    .pipeline-foot a {
+      font-size: 13px; font-weight: 700; color: var(--muted);
+      text-decoration: none; margin-left: auto;
+      transition: color 0.14s;
+    }
+    .pipeline-foot a:hover { color: var(--text); }
+
     /* ─── FOOTER ─── */
-    .footer-wrap {
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .footer-cols {
       max-width: 1120px; margin: 0 auto;
-      padding: 28px 32px;
+      padding: 56px 32px 48px;
+      display: grid;
+      grid-template-columns: 1.6fr 1fr 1fr;
+      gap: 48px;
+    }
+    @media (max-width: 700px) {
+      .footer-cols { grid-template-columns: 1fr; padding: 40px 20px 32px; gap: 36px; }
+    }
+    .footer-brand {}
+    .footer-brand-name {
+      display: flex; align-items: center; gap: 9px;
+      font-size: 15px; font-weight: 800; color: var(--text);
+      letter-spacing: -0.01em; margin-bottom: 8px; text-decoration: none;
+    }
+    .footer-brand-mark {
+      width: 26px; height: 26px; border-radius: 6px;
+      background: var(--accent);
+      display: grid; place-items: center;
+      font-size: 11px; font-weight: 800; color: #080E1C;
+      flex-shrink: 0;
+    }
+    .footer-tagline { font-size: 12px; color: var(--muted); line-height: 1.65; margin-bottom: 20px; max-width: 220px; }
+    .footer-subscribe {
+      display: inline-flex; align-items: center;
+      background: var(--accent); color: #080E1C;
+      padding: 8px 16px; border-radius: 7px;
+      font-size: 12px; font-weight: 700; text-decoration: none;
+      transition: background 0.14s;
+    }
+    .footer-subscribe:hover { background: var(--accent-d); }
+    .footer-col-head {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.13em;
+      text-transform: uppercase; color: var(--dim);
+      margin-bottom: 16px;
+    }
+    .footer-col-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-col-links a {
+      font-size: 13px; color: var(--muted); text-decoration: none;
+      transition: color 0.14s;
+    }
+    .footer-col-links a:hover { color: var(--text); }
+    .footer-bar {
+      max-width: 1120px; margin: 0 auto;
+      padding: 18px 32px;
+      border-top: 1px solid var(--border);
       display: flex; align-items: center; justify-content: space-between;
       flex-wrap: wrap; gap: 12px;
     }
+    @media (max-width: 700px) { .footer-bar { padding: 16px 20px; } }
     .footer-copy { font-size: 11px; color: var(--dim); }
-    .footer-links { display: flex; gap: 18px; flex-wrap: wrap; }
-    .footer-links a {
-      font-size: 11px; color: var(--dim);
-      text-decoration: none; transition: color 0.14s;
-    }
-    .footer-links a:hover { color: var(--accent); }
 
     /* ─── ANIMATIONS ─── */
     .fade {
@@ -425,6 +552,22 @@
       transition: opacity 0.45s ease, transform 0.45s ease;
     }
     .fade.in { opacity: 1; transform: none; }
+
+    /* ─── FILTER BAR ─── */
+    .filter-bar {
+      display: flex; gap: 6px; flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+    .filter-btn {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 5px 13px; border-radius: 20px;
+      border: 1px solid var(--border2); background: transparent;
+      color: var(--muted); cursor: pointer;
+      transition: color 0.14s, border-color 0.14s, background 0.14s;
+      font-family: inherit;
+    }
+    .filter-btn:hover { color: var(--text); border-color: var(--dim); }
+    .filter-btn.active { background: var(--accent); color: #080E1C; border-color: var(--accent); }
 
     /* ─── PLACEHOLDER ─── */
     .placeholder {
@@ -490,6 +633,7 @@
           <span class="hc-date" id="hc-date">—</span>
         </div>
         <div class="hc-body">
+          <p class="hc-headline" id="hc-headline"></p>
           <p class="hc-brief" id="hc-brief">Loading…</p>
           <div class="hc-footer">
             <div class="pills" id="hc-pills"></div>
@@ -504,7 +648,7 @@
     <div class="channels-inner">
       <span class="ch-label">Read on</span>
       <a href="#" class="ch-pill" id="ch-email">
-        <span class="ch-dot" style="background:#34D399"></span>Gmail
+        <span class="ch-dot" style="background:var(--accent)"></span>Email
       </a>
       <a href="#" class="ch-pill" id="ch-substack">
         <span class="ch-dot" style="background:#FF6719"></span>Substack
@@ -512,6 +656,10 @@
       <a href="#" class="ch-pill ch-pill-tg" id="ch-telegram">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
         Telegram
+      </a>
+      <a href="https://x.com/PierDeRog" target="_blank" rel="noopener" class="ch-pill ch-pill-x">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Follow on X
       </a>
     </div>
   </div>
@@ -531,8 +679,8 @@
         <div class="strip-lbl">Daily read</div>
       </div>
       <div class="strip-item">
-        <div class="strip-val">6 am</div>
-        <div class="strip-lbl">Delivered UTC</div>
+        <div class="strip-val">$0</div>
+        <div class="strip-lbl">Monthly cost</div>
       </div>
     </div>
   </div>
@@ -541,6 +689,14 @@
     <div class="sec-head">
       <span class="sec-label">Archive</span>
       <span class="sec-count" id="sec-count"></span>
+    </div>
+    <div class="filter-bar" id="filter-bar" style="display:none">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="AI &amp; Data Tools">Data</button>
+      <button class="filter-btn" data-filter="AI in Finance">Finance</button>
+      <button class="filter-btn" data-filter="AI in Sports">Sports</button>
+      <button class="filter-btn" data-filter="Research &amp; Academia">Research</button>
+      <button class="filter-btn" data-filter="Podcasts">Podcast</button>
     </div>
     <div id="featured-issue"></div>
     <div class="issue-list" id="issue-grid">
@@ -579,23 +735,94 @@
     </div>
   </section>
 
-  <div style="border-top:1px solid var(--border)">
-    <div class="footer-wrap">
-      <span class="footer-copy">© 2026 Gradient Descent · Powered by Groq</span>
-      <div class="footer-links">
-        <a href="#" id="footer-subscribe">Subscribe</a>
-        <a href="#" id="footer-telegram">Telegram</a>
-        <a href="https://x.com/PierDeRog" target="_blank" rel="noopener">Twitter / X</a>
-        <a href="https://linkedin.com/in/pierluigiderogatis" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="feed.xml">RSS Feed</a>
-        <a href="https://groq.com" target="_blank" rel="noopener">Groq</a>
-        <a href="https://github.com/pierderogatis/ai-newsletter" target="_blank" rel="noopener">GitHub</a>
+  <section class="pipeline">
+    <div class="pipeline-inner">
+      <div class="pipeline-head fade">
+        <div class="hero-kicker" style="margin-bottom:16px">
+          <span class="kicker-rule"></span>
+          <span class="kicker-text">Under the hood</span>
+        </div>
+        <h2>Built to run itself.</h2>
+        <p>Every morning at 3:55 AM UTC, a pipeline runs without human intervention.<br>From 70+ RSS feeds to five distribution channels in about 15 seconds.</p>
       </div>
-      <a href="https://www.producthunt.com/products/gradient-descent?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-gradient-descent" target="_blank" rel="noopener noreferrer">
-        <img alt="Gradient Descent - Free AI newsletter that writes itself every morning | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1133457&theme=dark&t=1777294590489">
-      </a>
+      <div class="pipeline-steps">
+        <div class="pipeline-step step-01 fade">
+          <div class="step-num">01</div>
+          <div class="step-title">Fetch</div>
+          <p class="step-desc">70+ curated RSS feeds pulled concurrently via ThreadPoolExecutor. Each feed gets an 8-second timeout — slow or dead feeds are skipped silently.</p>
+          <span class="step-detail">70+ sources · 8s timeout each</span>
+        </div>
+        <div class="pipeline-step step-02 fade">
+          <div class="step-num">02</div>
+          <div class="step-title">Score &amp; Deduplicate</div>
+          <p class="step-desc">Articles scored by keyword relevance against per-topic lists. Three dedup layers: within-run, cross-topic, and a 3-day rolling URL store. Top 3 per topic survive.</p>
+          <span class="step-detail">No ML · keyword match · JSON store</span>
+        </div>
+        <div class="pipeline-step step-03 fade">
+          <div class="step-num">03</div>
+          <div class="step-title">Summarise</div>
+          <p class="step-desc">One Groq API call — llama-3.3-70b-versatile — generates the headline, 2-sentence article summaries, and a 3-sentence daily brief that connects the dots across all domains.</p>
+          <span class="step-detail">1 API call · ~10s · 4096 tokens</span>
+        </div>
+        <div class="pipeline-step step-04 fade">
+          <div class="step-num">04</div>
+          <div class="step-title">Distribute</div>
+          <p class="step-desc">Gmail SMTP, GitHub Pages archive, Telegram channel, and X/Twitter — all updated simultaneously. Substack ingests the RSS feed automatically after each run.</p>
+          <span class="step-detail">4 channels · simultaneous · RSS → Substack</span>
+        </div>
+      </div>
+      <div class="pipeline-foot fade">
+        <span class="pipeline-stat">~15 seconds total</span>
+        <span class="pipeline-sep">·</span>
+        <span class="pipeline-stat">$0 / month</span>
+        <span class="pipeline-sep">·</span>
+        <span class="pipeline-stat">0 servers</span>
+        <a href="https://github.com/PierDeRogatis/ai-newsletter" target="_blank" rel="noopener">View source on GitHub →</a>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-cols">
+      <div class="footer-brand">
+        <a href="/" class="footer-brand-name">
+          <img src="logo.png" alt="" class="footer-brand-mark" style="object-fit:cover;border-radius:6px;">
+          Gradient Descent
+        </a>
+        <p class="footer-tagline">A 3-minute AI intelligence briefing at the intersection of data, finance, sports science, and research. Free. Daily. Automated.</p>
+        <a href="#" class="footer-subscribe" id="footer-subscribe">Subscribe free →</a>
+      </div>
+
+      <div>
+        <div class="footer-col-head">Navigate</div>
+        <div class="footer-col-links">
+          <a href="#archive">Archive</a>
+          <a href="feed.xml">RSS Feed</a>
+          <a href="https://github.com/PierDeRogatis/ai-newsletter" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://groq.com" target="_blank" rel="noopener">Powered by Groq</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-head">Follow</div>
+        <div class="footer-col-links">
+          <a href="#" id="footer-telegram">Telegram</a>
+          <a href="https://x.com/PierDeRog" target="_blank" rel="noopener">X / Twitter</a>
+          <a href="https://linkedin.com/in/pierluigiderogatis" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://pierluigiderogatis.substack.com" target="_blank" rel="noopener">Substack</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <span class="footer-copy">© 2026 Gradient Descent · Powered by Groq</span>
+      <span id="ph-badge" style="display:none">
+        <a href="https://www.producthunt.com/products/gradient-descent?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-gradient-descent" target="_blank" rel="noopener noreferrer">
+          <img alt="Gradient Descent - Free AI newsletter that writes itself every morning | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1133457&theme=dark&t=1777294590489">
+        </a>
+      </span>
+    </div>
+  </footer>
 
   <script>
     const SUBSTACK_HREF = "https://pierluigiderogatis.substack.com";
@@ -631,10 +858,17 @@
     }
 
     function renderFeatured(issue) {
+      const headlineHtml = issue.headline
+        ? `<div class="feat-headline">${issue.headline}</div>`
+        : `<div class="feat-headline">${fmtLong(issue.date)}</div>`;
+      const dateHtml = issue.headline
+        ? `<div class="feat-date">${fmtLong(issue.date)}</div>`
+        : "";
       return `
         <a href="${issue.path}" class="featured fade">
           <div class="feat-tag">Latest Issue</div>
-          <div class="feat-date">${fmtLong(issue.date)}</div>
+          ${headlineHtml}
+          ${dateHtml}
           <p class="feat-brief">${issue.brief || "Read today's intelligence briefing."}</p>
           <div class="feat-foot">
             <div class="pills">${pills(issue.topics)}</div>
@@ -644,10 +878,15 @@
     }
 
     function renderRow(issue) {
+      const headlineHtml = issue.headline
+        ? `<div class="row-headline">${issue.headline}</div>`
+        : "";
+      const topicsAttr = JSON.stringify(issue.topics || []).replace(/"/g, "&quot;");
       return `
-        <a href="${issue.path}" class="issue-row fade">
+        <a href="${issue.path}" class="issue-row fade" data-topics="${topicsAttr}">
           <div class="row-date">${fmtShort(issue.date)}</div>
           <div class="row-right">
+            ${headlineHtml}
             <p class="row-brief">${issue.brief || "No brief available."}</p>
             <div class="row-meta">
               <div class="pills">${pills(issue.topics)}</div>
@@ -677,10 +916,13 @@
 
         const latest = manifest[0];
         document.getElementById("hc-date").textContent = fmtShort(latest.date);
+        const hcHeadline = document.getElementById("hc-headline");
+        if (latest.headline) { hcHeadline.textContent = latest.headline; }
+        else { hcHeadline.style.display = "none"; }
         document.getElementById("hc-brief").textContent = latest.brief || "Read today's brief.";
         document.getElementById("hc-pills").innerHTML = pills(latest.topics);
         document.getElementById("hc-link").href = latest.path;
-        document.getElementById("hero-card").style.display = "block";
+        document.getElementById("hero-card").classList.add("hero-card--loaded");
 
         document.getElementById("featured-issue").innerHTML = renderFeatured(latest);
         document.getElementById("issue-grid").innerHTML =
@@ -688,11 +930,85 @@
             ? manifest.slice(1).map(renderRow).join("")
             : "";
 
+        initCounters(manifest.length, totalArticles);
         initFade();
+        initFilter(manifest[0]);
       } catch {
         document.getElementById("issue-grid").innerHTML =
           '<p class="placeholder">Archive coming soon.</p>';
       }
+    }
+
+    function initFilter(latestIssue) {
+      const bar = document.getElementById("filter-bar");
+      bar.style.display = "";
+      const featured = document.getElementById("featured-issue");
+      const featuredTopics = latestIssue.topics || [];
+
+      bar.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          bar.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          const f = btn.dataset.filter;
+
+          // show/hide featured card
+          if (f === "all" || featuredTopics.includes(f)) {
+            featured.style.display = "";
+          } else {
+            featured.style.display = "none";
+          }
+
+          // show/hide archive rows
+          let visible = 0;
+          document.querySelectorAll(".issue-row").forEach(row => {
+            const topics = JSON.parse(row.dataset.topics || "[]");
+            const show = f === "all" || topics.includes(f);
+            row.style.display = show ? "" : "none";
+            if (show) visible++;
+          });
+
+          // empty state
+          let empty = document.getElementById("filter-empty");
+          if (visible === 0 && f !== "all") {
+            if (!empty) {
+              empty = document.createElement("p");
+              empty.id = "filter-empty";
+              empty.className = "placeholder";
+              document.getElementById("issue-grid").after(empty);
+            }
+            empty.textContent = "No issues for this topic yet.";
+            empty.style.display = "";
+          } else if (empty) {
+            empty.style.display = "none";
+          }
+        });
+      });
+    }
+
+    function animateCounter(el, target) {
+      const suffix = el.textContent.replace(/[\d,]/g, "");
+      const duration = 900;
+      const start = performance.now();
+      function tick(now) {
+        const p = Math.min((now - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(ease * target) + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    function initCounters(issueCount, articleCount) {
+      const strip = document.querySelector(".strip");
+      if (!strip) return;
+      const io = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          animateCounter(document.getElementById("stat-issues"), issueCount);
+          animateCounter(document.getElementById("stat-articles"), articleCount);
+          io.disconnect();
+        }
+      }, { threshold: 0.2 });
+      io.observe(strip);
     }
 
     function initFade() {
@@ -719,6 +1035,10 @@
     if (chEmail) chEmail.href = SUBSTACK_HREF;
 
     loadArchive();
+
+    if (new Date() >= new Date("2026-05-04")) {
+      document.getElementById("ph-badge").style.display = "";
+    }
   </script>
 </body>
 </html>

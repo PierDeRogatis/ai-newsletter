@@ -259,6 +259,7 @@ def save_to_archive(result: dict, date_str: str) -> None:
     manifest = [m for m in manifest if m.get("date") != date_str]
     manifest.insert(0, {
         "date": date_str,
+        "headline": result.get("headline", "")[:120],
         "brief": brief[:250],
         "topics": topics,
         "article_count": article_count,
