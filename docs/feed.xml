@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, April 27, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</guid>
+    <pubDate>Mon, 27 Apr 2026 06:00:00 +0000</pubDate>
+    <description>It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ri</description>
+    <category>AI & Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, April 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ripple effect on trading desks, where analysts are starting to use AI tools to augment their own decision-making, rather than relying on them to make trades. You might want to ask your team whether you're using AI to automate the right tasks, or just using it to generate more work for humans to review and correct.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/">Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models</a></h3>
+<p>Researchers have identified seven key benchmarks for evaluating the performance of large language models in real-world tasks, and found that current models are still struggling to meet these benchmarks. This changes the way we think about evaluating AI models, and means that we need to focus on more practical, task-based assessments rather than just looking at abstract metrics like perplexity scores.&ensp;<a href="https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">500 investment bankers review AI outputs and find none ready for client delivery</a></h3>
+<p>A recent study found that 500 investment bankers reviewed the output of top AI models and found that none of them were ready for client delivery, due to issues with precision and accuracy. This changes the way we think about using AI in high-stakes applications, and means that we need to be careful about relying on AI models to make critical decisions.&ensp;<a href="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">OpenAI kills its dedicated coding model Codex again, folding it into GPT-5.5</a></h3>
+<p>OpenAI has retired its dedicated coding model Codex and folded its capabilities into the main GPT-5.5 model, which promises stronger agentic coding and lower token usage. This changes the way we think about using AI for coding tasks, and means that we need to consider the trade-offs between specialized models and more general-purpose models.&ensp;<a href="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/04/26/top-wall-street-analysts-pick-these-3-stocks-for-reliable-income.html">Top Wall Street analysts pick these 3 dividend stocks for reliable income</a></h3>
+<p>Top Wall Street analysts have identified three dividend stocks that are likely to provide reliable income for investors, based on their strong track records and financial performance. This changes the way we think about investing in dividend stocks, and means that we need to focus on finding companies with a history of consistent payouts and stable financials.&ensp;<a href="https://www.cnbc.com/2026/04/26/top-wall-street-analysts-pick-these-3-stocks-for-reliable-income.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html">Iran reportedly proposes Hormuz Strait deal to U.S. Here’s where things stand — and what’s next for markets</a></h3>
+<p>Iran has reportedly proposed a deal to the US regarding the Hormuz Strait, which could have significant implications for global markets and oil prices. This changes the way we think about geopolitical risk, and means that we need to be prepared for potential disruptions to global trade and finance.&ensp;<a href="https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/04/27/european-markets-stoxx-600-ftse-dax-cac-iran-oil-prices.html">European markets to start the week broadly higher despite Iran-U.S. impasse</a></h3>
+<p>European markets are expected to start the week on a positive note, despite the ongoing impasse between the US and Iran, as investors remain optimistic about the prospects for global economic growth. This changes the way we think about market sentiment, and means that we need to be careful about reading too much into short-term market movements.&ensp;<a href="https://www.cnbc.com/2026/04/27/european-markets-stoxx-600-ftse-dax-cac-iran-oil-prices.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://braininspired.co/podcast/236/">BI 236 Liset de la Prida: Neurons, Ripples, and Manifolds</a></h3>
+<p>A recent podcast episode featured an interview with Liset de la Prida, who discussed the latest research on neurons, ripples, and manifolds, and how they relate to brain function and cognition. This changes the way we think about the neural basis of intelligence, and means that we need to consider the complex interactions between different brain regions and systems.&ensp;<a href="https://braininspired.co/podcast/236/">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, April 26, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-26.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-26.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, April 26, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>The cost of using AI tools has dropped to the point where it's now a no-brainer for many applications, much like when cloud storage became so cheap that it killed the hard drive market. This shift is already being felt on trading desks, where firms are rethinking their strategies now that they can afford to automate more tasks and process larger datasets. As you consider your own team's workflow, ask yourself: what's the one task that's been too expensive to automate until now, and how would changing that change your entire approach?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/">A Coding Tutorial on Datashader</a></h3>
-<p>Datashader can render massive datasets quickly, and a new tutorial shows how to use it in Google Colab. This changes the game for data visualization, making it possible to work with huge datasets in a way that was previously impossible, so you can revisit your old projects and see if Datashader can help you find new insights.&ensp;<a href="https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/">A Coding Implementation on kvcached</a></h3>
-<p>Kvcached is a dynamic KV-cache implementation that can transform GPU memory usage for large language models, and a new tutorial shows how to use it. This changes the way you think about deploying language models, making it possible to use more complex models without breaking the bank, so you can start experimenting with kvcached to see what it can do for your projects.&ensp;<a href="https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/">OpenAI unveils GPT-5.5</a></h3>
-<p>OpenAI has announced GPT-5.5, a new model that can work through complex tasks autonomously, but it comes at double the API price. This changes the decision of whether to upgrade to the new model, forcing you to weigh the benefits of the new capabilities against the increased cost, so you should calculate whether the new features are worth the extra expense for your specific use case.&ensp;<a href="https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://feeds.feedblitz.com/~/954538931/0/marginalrevolution~Will-AI-save-the-US-fiscal-situation.html">Will AI save the U.S. fiscal situation?</a></h3>
-<p>A small increase in productivity growth due to AI could raise the fundamental value of U.S. government debt by $1.3 trillion. This changes the way you think about the impact of AI on the economy, making it clear that even small changes can have huge effects, so you should start thinking about how AI could affect your own investments and financial plans.&ensp;<a href="https://feeds.feedblitz.com/~/954538931/0/marginalrevolution~Will-AI-save-the-US-fiscal-situation.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/2026/04/25/technology/trump-memecoin-conference.html">A Year Later, Trump’s ‘Most Exclusive’ Memecoin Event Is a Lot Less Exclusive</a></h3>
-<p>A memecoin event that was once exclusive is now less so, causing outrage and raising questions about the value of such events. This changes the way you think about the value of exclusive events, making it clear that they can lose their luster quickly, so you should be skeptical of any event that promises exclusive access to something that may not be as valuable as it seems.&ensp;<a href="https://www.nytimes.com/2026/04/25/technology/trump-memecoin-conference.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/04/25/why-some-young-americans-are-dating-less-in-2026.html">Some young Americans scale back dating as costs and apps add pressure</a></h3>
-<p>Dating is becoming a financial decision for young Americans, with higher costs and paid apps leading many to cut back on dates. This changes the way you think about the dating market, making it clear that financial considerations are playing a bigger role, so you should consider how this shift could affect your own social life or business plans.&ensp;<a href="https://www.cnbc.com/2026/04/25/why-some-young-americans-are-dating-less-in-2026.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7229658/2026/04/26/de-zerbi-surprised-xavi-simons/">De Zerbi surprised Spurs have the 'right spirit' to survive</a></h3>
-<p>Tottenham's coach is surprised that his team has the right spirit to survive, despite a worrying injury to a key player. This changes the way you think about team dynamics, making it clear that a team's spirit can be just as important as its talent, so you should consider how to build a strong team culture in your own organization.&ensp;<a href="https://www.nytimes.com/athletic/7229658/2026/04/26/de-zerbi-surprised-xavi-simons/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7218388/2026/04/26/late-goals-pitch-invasions-and-a-wild-ride-from-despair-to-joy-was-this-footballs-most-dramatic-title-finale/">Late goals, pitch invasions and a wild ride from despair to joy</a></h3>
-<p>A remarkable football season ended in dramatic fashion, with a team winning the title in the last minute of the game. This changes the way you think about the excitement of sports, making it clear that even the most unexpected events can happen, so you should be prepared for anything when watching or participating in sports.&ensp;<a href="https://www.nytimes.com/athletic/7218388/2026/04/26/late-goals-pitch-invasions-and-a-wild-ride-from-despair-to-joy-was-this-footballs-most-dramatic-title-finale/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7228462/2026/04/26/fifpro-aif-fifa-finances-explained/">FIFPro, the state of its finances, and how will it deal with a new rival global players' union?</a></h3>
-<p>The International Association of Footballers is facing a new rival union, which could change the way it operates and negotiates with FIFA. This changes the way you think about the power dynamics of sports unions, making it clear that new challenges can arise at any time, so you should stay informed about the latest developments in the sports world.&ensp;<a href="https://www.nytimes.com/athletic/7228462/2026/04/26/fifpro-aif-fifa-finances-explained/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://braininspired.co/podcast/236/">BI 236 Liset de la Prida: Neurons, Ripples, and Manifolds</a></h3>
-<p>A new podcast episode explores the latest research on neurons, ripples, and manifolds, and how they relate to brain function. This changes the way you think about the complexities of the brain, making it clear that there is still much to be learned, so you should keep up with the latest research and discoveries in the field of neuroscience.&ensp;<a href="https://braininspired.co/podcast/236/">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, April 25, 2026</title>

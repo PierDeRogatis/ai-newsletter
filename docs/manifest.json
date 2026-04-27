@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-27",
+    "brief": "It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ri",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-04-27.html"
+  },
+  {
     "date": "2026-04-26",
     "brief": "The cost of using AI tools has dropped to the point where it's now a no-brainer for many applications, much like when cloud storage became so cheap that it killed the hard drive market. This shift is already being felt on trading desks, where firms a",
     "topics": [
