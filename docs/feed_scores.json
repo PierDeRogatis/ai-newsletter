@@ -2,9 +2,10 @@
   "https://theathletic.com/rss/news/": {
     "recent_hits": [
       1,
+      1,
       1
     ],
-    "last_run": "2026-04-26"
+    "last_run": "2026-04-28"
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
@@ -26,15 +27,17 @@
     "recent_hits": [
       1,
       1,
+      1,
       1
     ],
-    "last_run": "2026-04-27"
+    "last_run": "2026-04-28"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
+      1,
       1
     ],
-    "last_run": "2026-04-25"
+    "last_run": "2026-04-28"
   },
   "https://www.sportspromedia.com/feed/": {
     "recent_hits": [
@@ -90,5 +93,23 @@
       1
     ],
     "last_run": "2026-04-26"
+  },
+  "https://changelog.com/practicalai/feed": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-28"
+  },
+  "https://www.kdnuggets.com/feed": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-28"
+  },
+  "https://www.espn.com/espn/rss/news": {
+    "recent_hits": [
+      1
+    ],
+    "last_run": "2026-04-28"
   }
 }

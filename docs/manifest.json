@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-28",
+    "headline": "AI gets physical in robots and sports",
+    "brief": "It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands ",
+    "topics": [
+      "AI in Sports"
+    ],
+    "article_count": 3,
+    "path": "issues/2026-04-28.html"
+  },
+  {
     "date": "2026-04-27",
     "brief": "It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ri",
     "topics": [

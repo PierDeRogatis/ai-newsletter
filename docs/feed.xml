@@ -9,6 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, April 28, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-28.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-28.html</guid>
+    <pubDate>Tue, 28 Apr 2026 06:00:00 +0000</pubDate>
+    <description>It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands </description>
+    <category>AI in Sports</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, April 28, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands on a trading desk as a question about how to price the risk of athletes getting caught up in sports betting scandals, now that the NCAA's rules are evolving. You might want to ask your team how they're thinking about the intersection of athlete mental health and the sports betting boom, given that even protein-enhanced foods are now a thing in the sports world, but the real action is in the data on athlete behavior and how that informs both team strategy and betting markets.</p></blockquote>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.outsideonline.com/health/nutrition/what-know-about-protein-maxxing/">I’m a Registered Dietitian. These Are the Best Protein-Enhanced Foods That Are Worth Buying.</a></h3>
+<p>Protein-enriched foods are everywhere, but this trend has very little to do with sports nutrition, according to a registered dietitian. This changes the conversation around sports nutrition, where athletes and teams need to separate marketing hype from real nutritional value.&ensp;<a href="https://www.outsideonline.com/health/nutrition/what-know-about-protein-maxxing/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.espn.com/college-football/story/_/id/48610760/texas-tech-brendan-sorsby-college-gambling-scandal">Wetzel: Heisman hopes and career in jeopardy after college football's latest gambling scandal</a></h3>
+<p>Texas Tech QB Brendan Sorsby's decision to get treatment for gambling addiction feels like an inevitable result of a sports betting boom, with implications for the NCAA and college athletes. This changes the risk calculus for teams and leagues, who need to think about the intersection of athlete mental health and sports betting.&ensp;<a href="https://www.espn.com/college-football/story/_/id/48610760/texas-tech-brendan-sorsby-college-gambling-scandal">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7235313/2026/04/27/ncaa-gambling-rules-penalties-betting/">What are the NCAA's rules and penalties when it comes to sports gambling?</a></h3>
+<p>The NCAA has lessened some penalties for sports gambling, but college athletes are still not allowed to bet on college or pro sports, with evolving rules and implications for teams and leagues. This changes the compliance landscape for college sports, where athletes and teams need to navigate complex rules and regulations.&ensp;<a href="https://www.nytimes.com/athletic/7235313/2026/04/27/ncaa-gambling-rules-penalties-betting/">→ Read</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, April 27, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</guid>
@@ -17,35 +40,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, April 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ripple effect on trading desks, where analysts are starting to use AI tools to augment their own decision-making, rather than relying on them to make trades. You might want to ask your team whether you're using AI to automate the right tasks, or just using it to generate more work for humans to review and correct.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/">Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models</a></h3>
-<p>Researchers have identified seven key benchmarks for evaluating the performance of large language models in real-world tasks, and found that current models are still struggling to meet these benchmarks. This changes the way we think about evaluating AI models, and means that we need to focus on more practical, task-based assessments rather than just looking at abstract metrics like perplexity scores.&ensp;<a href="https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">500 investment bankers review AI outputs and find none ready for client delivery</a></h3>
-<p>A recent study found that 500 investment bankers reviewed the output of top AI models and found that none of them were ready for client delivery, due to issues with precision and accuracy. This changes the way we think about using AI in high-stakes applications, and means that we need to be careful about relying on AI models to make critical decisions.&ensp;<a href="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">OpenAI kills its dedicated coding model Codex again, folding it into GPT-5.5</a></h3>
-<p>OpenAI has retired its dedicated coding model Codex and folded its capabilities into the main GPT-5.5 model, which promises stronger agentic coding and lower token usage. This changes the way we think about using AI for coding tasks, and means that we need to consider the trade-offs between specialized models and more general-purpose models.&ensp;<a href="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/04/26/top-wall-street-analysts-pick-these-3-stocks-for-reliable-income.html">Top Wall Street analysts pick these 3 dividend stocks for reliable income</a></h3>
-<p>Top Wall Street analysts have identified three dividend stocks that are likely to provide reliable income for investors, based on their strong track records and financial performance. This changes the way we think about investing in dividend stocks, and means that we need to focus on finding companies with a history of consistent payouts and stable financials.&ensp;<a href="https://www.cnbc.com/2026/04/26/top-wall-street-analysts-pick-these-3-stocks-for-reliable-income.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html">Iran reportedly proposes Hormuz Strait deal to U.S. Here’s where things stand — and what’s next for markets</a></h3>
-<p>Iran has reportedly proposed a deal to the US regarding the Hormuz Strait, which could have significant implications for global markets and oil prices. This changes the way we think about geopolitical risk, and means that we need to be prepared for potential disruptions to global trade and finance.&ensp;<a href="https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/04/27/european-markets-stoxx-600-ftse-dax-cac-iran-oil-prices.html">European markets to start the week broadly higher despite Iran-U.S. impasse</a></h3>
-<p>European markets are expected to start the week on a positive note, despite the ongoing impasse between the US and Iran, as investors remain optimistic about the prospects for global economic growth. This changes the way we think about market sentiment, and means that we need to be careful about reading too much into short-term market movements.&ensp;<a href="https://www.cnbc.com/2026/04/27/european-markets-stoxx-600-ftse-dax-cac-iran-oil-prices.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://braininspired.co/podcast/236/">BI 236 Liset de la Prida: Neurons, Ripples, and Manifolds</a></h3>
-<p>A recent podcast episode featured an interview with Liset de la Prida, who discussed the latest research on neurons, ripples, and manifolds, and how they relate to brain function and cognition. This changes the way we think about the neural basis of intelligence, and means that we need to consider the complex interactions between different brain regions and systems.&ensp;<a href="https://braininspired.co/podcast/236/">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, April 26, 2026</title>
