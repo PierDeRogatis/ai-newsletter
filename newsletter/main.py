@@ -67,7 +67,9 @@ def main() -> int:
     logger.info("Feed scores loaded (%d feeds tracked)", len(feed_scores))
 
     # Step 2: fetch articles (skipping already-seen URLs, boosting high-quality feeds)
-    articles_by_topic = fetcher.fetch_all(cross_day_seen=cross_day_seen, feed_scores=feed_scores)
+    articles_by_topic, attempted_feeds = fetcher.fetch_all(
+        cross_day_seen=cross_day_seen, feed_scores=feed_scores
+    )
     total_fetched = sum(len(v) for v in articles_by_topic.values())
     logger.info("Fetched %d articles total across %d topics", total_fetched, len(articles_by_topic))
 
@@ -113,7 +115,7 @@ def main() -> int:
 
     # Step 6b: update per-feed quality scores
     try:
-        publisher.update_feed_scores(articles_by_topic, date_str)
+        publisher.update_feed_scores(articles_by_topic, attempted_feeds, date_str)
     except Exception as e:
         logger.error("Step 6b (feed_scores) failed: %s", e)
         step_errors.append(f"Step 6b (feed_scores): {e}")

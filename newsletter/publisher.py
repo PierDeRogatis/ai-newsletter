@@ -141,22 +141,52 @@ def load_feed_scores() -> dict:
         return {}
 
 
-def update_feed_scores(articles_by_topic: dict[str, list[dict]], date_str: str) -> None:
-    """Record which feeds produced articles today (one update per feed per run)."""
+def update_feed_scores(
+    articles_by_topic: dict[str, list[dict]],
+    attempted_feeds: set[str],
+    date_str: str,
+) -> None:
+    """Record a 1 (win) or 0 (miss) for every attempted feed this run.
+
+    A feed wins if it placed ≥1 article in the final selected set.
+    Recording misses is what makes the hit-rate meaningful — without them
+    every entry would be all-1s and the multiplier would differentiate nothing.
+    """
     scores = load_feed_scores()
-    winning_feeds: set[str] = set()
-    for articles in articles_by_topic.values():
-        for a in articles:
-            feed_url = a.get("feed_url", "")
-            if feed_url:
-                winning_feeds.add(feed_url)
-    for feed_url in winning_feeds:
+
+    winning_feeds: set[str] = {
+        a["feed_url"]
+        for articles in articles_by_topic.values()
+        for a in articles
+        if a.get("feed_url")
+    }
+
+    for feed_url in attempted_feeds:
+        if not feed_url:
+            continue
         entry = scores.setdefault(feed_url, {"recent_hits": [], "last_run": ""})
-        if entry.get("last_run") != date_str:
-            entry["recent_hits"] = (entry["recent_hits"] + [1])[-_MAX_RECENT_RUNS:]
-            entry["last_run"] = date_str
+        if entry.get("last_run") == date_str:
+            continue  # already recorded this run
+        hit = 1 if feed_url in winning_feeds else 0
+        entry["recent_hits"] = (entry["recent_hits"] + [hit])[-_MAX_RECENT_RUNS:]
+        entry["last_run"] = date_str
+
     _FEED_SCORES_PATH.write_text(json.dumps(scores, indent=2, ensure_ascii=False), "utf-8")
-    logger.info("Feed scores updated (%d feeds tracked)", len(scores))
+    logger.info(
+        "Feed scores: %d attempted, %d won, %d total tracked",
+        len(attempted_feeds), len(winning_feeds), len(scores),
+    )
+
+    # Warn about persistently low-quality feeds (≥7 data points, <20% hit rate)
+    for feed_url, s in scores.items():
+        hits = s.get("recent_hits", [])
+        if len(hits) >= 7 and hits:
+            rate = sum(hits) / len(hits)
+            if rate < 0.2:
+                logger.warning(
+                    "Low-quality feed (%.0f%% hit rate over %d runs): %s",
+                    rate * 100, len(hits), feed_url,
+                )
 
 
 # ── Telegram ─────────────────────────────────────────────────────────────────

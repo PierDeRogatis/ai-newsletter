@@ -1,0 +1,69 @@
+name: Daily AI Newsletter
+
+on:
+  schedule:
+    - cron: '55 3 * * *'   # 3:55 AM UTC daily (5:55 CEST / 4:55 CET)
+  workflow_dispatch:        # also triggerable manually from GitHub Actions UI
+
+permissions:
+  contents: write  # needed to push archive updates to docs/
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Audit dependencies
+        run: pip install pip-audit~=2.7 && pip-audit -r requirements.txt
+
+      - name: Run newsletter
+        env:
+          GROQ_API: ${{ secrets.GROQ_API }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SUBSTACK_SID: ${{ secrets.SUBSTACK_SID }}
+          SUBSTACK_URL: ${{ secrets.SUBSTACK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+          ARCHIVE_BASE_URL: "https://pierderogatis.github.io/ai-newsletter"
+        run: python -m newsletter.main
+
+      - name: Commit archive and sync docs to main for GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/          # includes seen_urls.json + manifest + issues/
+          git diff --staged --quiet && exit 0
+          git commit -m "archive: $(date -u +%Y-%m-%d)"
+          FEATURE_SHA=$(git rev-parse HEAD)
+          git push origin HEAD
+          # Mirror docs/ to main so GitHub Pages picks it up
+          git fetch origin main
+          git checkout main
+          git checkout "$FEATURE_SHA" -- docs/
+          git add docs/
+          git diff --staged --quiet || git commit -m "archive: $(date -u +%Y-%m-%d)"
+          git push origin main
+          git checkout -
