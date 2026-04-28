@@ -308,7 +308,7 @@ def _write_rss(manifest: list, results_by_date: dict | None = None) -> None:
 
         # Category tags per topic so Substack and feed readers can auto-tag posts
         categories = "".join(
-            f"\n    <category>{t}</category>"
+            f"\n    <category>{t.replace('&', '&amp;')}</category>"
             for t in (m.get("topics") or [])
         )
 

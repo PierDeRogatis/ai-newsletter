@@ -14,7 +14,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</guid>
     <pubDate>Mon, 27 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ri</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
     <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, April 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
@@ -53,7 +53,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-26.html</guid>
     <pubDate>Sun, 26 Apr 2026 06:00:00 +0000</pubDate>
     <description>The cost of using AI tools has dropped to the point where it's now a no-brainer for many applications, much like when cloud storage became so cheap that it killed the hard drive market. This shift is already being felt on trading desks, where firms a</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
@@ -64,7 +64,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-25.html</guid>
     <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
   </item>
   <item>
     <title>Gradient Descent — Friday, April 24, 2026</title>
@@ -72,7 +72,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</guid>
     <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
     <description>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
@@ -82,7 +82,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-23.html</guid>
     <pubDate>Thu, 23 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
@@ -92,8 +92,8 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html</guid>
     <pubDate>Wed, 22 Apr 2026 06:00:00 +0000</pubDate>
     <description>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern </description>
-    <category>AI & Data Tools</category>
-    <category>Research & Academia</category>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, April 21, 2026</title>
@@ -101,7 +101,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-21.html</guid>
     <pubDate>Tue, 21 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable </description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
   </item>
   <item>
@@ -110,7 +110,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-20.html</guid>
     <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>Podcasts</category>
   </item>
   <item>
@@ -119,7 +119,7 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-19.html</guid>
     <pubDate>Sun, 19 Apr 2026 06:00:00 +0000</pubDate>
     <description>Reduced inference cost curves are driving the rapid development of smaller, more efficient AI models, which is why multiple labs have released compact models this week. This shift is likely to have a second-order consequence on capital markets, where</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
@@ -130,10 +130,10 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html</guid>
     <pubDate>Sat, 18 Apr 2026 06:00:00 +0000</pubDate>
     <description>Consider the potential risks of AI-driven technological transformation in finance and sports, as well as the limitations of current AI evaluation methods, and how these factors may impact your data analysis and decision-making processes.</description>
-    <category>AI & Data Tools</category>
+    <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Research & Academia</category>
+    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
