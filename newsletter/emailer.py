@@ -1,0 +1,279 @@
+import os
+import logging
+import smtplib
+import ssl
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from datetime import datetime, timezone
+
+from newsletter.config import RECIPIENT_EMAIL, SENDER_EMAIL, TOPIC_COLORS
+
+_SMTP_HOST = "smtp.gmail.com"
+_SMTP_PORT = 587
+
+logger = logging.getLogger(__name__)
+
+_DEFAULT_COLOR = "#374151"
+
+# HTML-entity icons — kept here because email clients render emoji unreliably;
+# Substack/Telegram use the emoji version from config.TOPIC_ICONS instead.
+_TOPIC_ICONS: dict[str, str] = {
+    "AI & Data Tools":     "&#128202;",  # chart
+    "AI in Finance":       "&#128200;",  # chart up
+    "AI in Sports":        "&#127939;",  # running
+    "Research & Academia": "&#128218;",  # books
+    "Podcasts":            "&#127911;",  # headphones
+}
+
+
+def _smtp_send(sender: str, password: str, recipient: str, msg) -> None:
+    """Open a Gmail SMTP connection and deliver msg."""
+    context = ssl.create_default_context()
+    with smtplib.SMTP(_SMTP_HOST, _SMTP_PORT) as smtp:
+        smtp.ehlo()
+        smtp.starttls(context=context)
+        smtp.ehlo()
+        smtp.login(sender, password)
+        smtp.sendmail(sender, recipient, msg.as_string())
+
+
+def _section_html(topic: str, articles: list[dict]) -> str:
+    if not articles:
+        return ""
+    color = TOPIC_COLORS.get(topic, _DEFAULT_COLOR)
+    icon = _TOPIC_ICONS.get(topic, "")
+    rows = ""
+    for a in articles:
+        title = a.get("title", "")
+        url = a.get("url", "#")
+        summary = a.get("summary", "")
+        source = a.get("source", "")
+        label = "Listen" if topic == "Podcasts" else "Read"
+        rows += f"""
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="{url}" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">{title}</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">{summary}</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;">{source}</span>
+              &nbsp;&bull;&nbsp;
+              <a href="{url}" style="color:{color};font-size:12px;font-weight:600;text-decoration:none;">&rarr; {label}</a>
+            </p>
+          </td>
+        </tr>"""
+    return f"""
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:{color};color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            {icon} {topic}
+          </span>
+        </td>
+      </tr>
+      {rows}
+    </table>"""
+
+
+def build_html(result: dict, iso_date: str | None = None) -> str:
+    daily_brief: str = result.get("daily_brief", "")
+    sections: dict[str, list[dict]] = result.get("sections", {})
+
+    if iso_date:
+        now = datetime.strptime(iso_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    else:
+        now = datetime.now(timezone.utc)
+        iso_date = now.strftime("%Y-%m-%d")
+    date_str = now.strftime("%A, %B %-d %Y")
+    total = sum(len(v) for v in sections.values())
+
+    pub_base = os.environ.get(
+        "ARCHIVE_BASE_URL", "https://pierderogatis.github.io/ai-newsletter"
+    ).rstrip("/")
+    issue_url = f"{pub_base}/issues/{iso_date}.html"
+    meta_desc = (daily_brief or "")[:160].replace('"', "&quot;")
+
+    brief_block = ""
+    if daily_brief:
+        brief_block = f"""
+        <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+          <tr>
+            <td style="background:#F0FDF4;border-left:4px solid #059669;border-radius:0 8px 8px 0;padding:16px 20px;">
+              <p style="margin:0 0 6px;color:#065F46;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;">Today's Brief</p>
+              <p style="margin:0;color:#1F2937;font-size:14px;line-height:1.7;">{daily_brief}</p>
+            </td>
+          </tr>
+        </table>"""
+
+    sections_html = "".join(
+        _section_html(topic, articles)
+        for topic, articles in sections.items()
+        if articles
+    )
+
+    substack_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gradient Descent — {date_str} | Daily AI Intelligence</title>
+  <meta name="description" content="{meta_desc}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Gradient Descent — {date_str} | Daily AI Intelligence">
+  <meta property="og:description" content="{meta_desc}">
+  <meta property="og:image" content="{pub_base}/logo.png">
+  <meta property="og:url" content="{issue_url}">
+  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {{
+      body {{ background: #03080F !important; }}
+      body::before {{
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }}
+      table[width="100%"]:first-of-type > tbody > tr > td {{
+        background: transparent !important; position: relative; z-index: 1;
+      }}
+      table[width="600"] {{ border-radius: 16px; overflow: hidden; }}
+      table[width="600"] > tbody > tr:first-child > td {{
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }}
+      table[width="600"] > tbody > tr:nth-child(2) > td {{
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }}
+      table[width="600"] td {{ color: #C8E0F0 !important; }}
+      table[width="600"] td a[style*="color:#111827"] {{ color: #ECF5FF !important; }}
+      table[width="600"] td p[style*="color:#4B5563"] {{ color: #7A95B0 !important; }}
+      td[style*="background:#F0FDF4"] {{
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }}
+      td[style*="background:#F0FDF4"] p:first-child {{ color: #00FFC8 !important; }}
+      td[style*="background:#F0FDF4"] p:last-child  {{ color: #B8D4E8 !important; }}
+      td[style*="border-bottom:1px solid #F3F4F6"] {{
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }}
+      td[style*="background:#080E1C"] {{
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }}
+    }}
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="{pub_base}/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="{substack_url}/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+    <tr><td align="center" style="padding:32px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+              <tr>
+                <td style="padding-right:12px;vertical-align:middle;">
+                  <img src="{pub_base}/logo.png"
+                       alt="Gradient Descent" width="44" height="44"
+                       style="display:block;border-radius:8px;">
+                </td>
+                <td style="vertical-align:middle;">
+                  <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+                  <p style="margin:2px 0 0;color:#9CA3AF;font-size:11px;">Daily AI Intelligence</p>
+                </td>
+              </tr>
+            </table>
+            <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">{date_str}</h1>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; {total} items &bull; ~3 min read</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
+            {brief_block}
+            {sections_html}
+
+            <!-- Outro -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
+              <tr>
+                <td style="background:#080E1C;border-radius:10px;padding:24px 28px;">
+                  <p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">That's your edge for today.</p>
+                  <p style="margin:0 0 16px;color:#9CA3AF;font-size:13px;line-height:1.7;">
+                    See you tomorrow morning with the next gradient step.
+                  </p>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="padding-right:10px;">
+                        <a href="{substack_url}/subscribe"
+                           style="display:inline-block;background:#00FFC8;color:#080E1C;
+                                  font-size:12px;font-weight:700;padding:8px 16px;
+                                  border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
+                          Subscribe on Substack &rarr;
+                        </a>
+                      </td>
+                      <td>
+                        <a href="{substack_url}"
+                           style="display:inline-block;color:#6B7280;font-size:12px;
+                                  font-weight:600;text-decoration:none;padding:8px 0;">
+                          Forward to a colleague
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Footer -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+              <tr>
+                <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
+                  Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
+                  Delivered to {RECIPIENT_EMAIL}
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
+
+
+def send(result: dict) -> None:
+    password = os.environ.get("SMTP_PASSWORD", "")
+    if not password:
+        raise EnvironmentError("SMTP_PASSWORD is not set")
+    if not SENDER_EMAIL:
+        raise EnvironmentError("SENDER_EMAIL is not set")
+
+    now = datetime.now(timezone.utc)
+    headline = result.get("headline", "").strip()
+    subject = f"Gradient Descent — {now.strftime('%a %b %-d')}"
+    if headline:
+        subject = f"{subject} · {headline}"
+    html_content = build_html(result)
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = SENDER_EMAIL
+    msg["To"] = RECIPIENT_EMAIL
+    msg.attach(MIMEText(html_content, "html", "utf-8"))
+
+    _smtp_send(SENDER_EMAIL, password, RECIPIENT_EMAIL, msg)
+    logger.info("Email sent via Gmail SMTP to %s", RECIPIENT_EMAIL)

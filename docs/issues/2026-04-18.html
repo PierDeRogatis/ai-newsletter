@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {
+      body { background: #03080F !important; }
+      body::before {
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+      table[width="100%"]:first-of-type > tbody > tr > td {
+        background: transparent !important; position: relative; z-index: 1;
+      }
+      table[width="600"] { border-radius: 16px; overflow: hidden; }
+      table[width="600"] > tbody > tr:first-child > td {
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }
+      table[width="600"] > tbody > tr:nth-child(2) > td {
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }
+      table[width="600"] td { color: #C8E0F0 !important; }
+      table[width="600"] td a[style*="color:#111827"] { color: #ECF5FF !important; }
+      table[width="600"] td p[style*="color:#4B5563"] { color: #7A95B0 !important; }
+      td[style*="background:#F0FDF4"] {
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }
+      td[style*="background:#F0FDF4"] p:first-child { color: #00FFC8 !important; }
+      td[style*="background:#F0FDF4"] p:last-child  { color: #B8D4E8 !important; }
+      td[style*="border-bottom:1px solid #F3F4F6"] {
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }
+      td[style*="background:#080E1C"] {
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }
+    }
+  </style>
+</head>
 <body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="https://pierderogatis.github.io/ai-newsletter/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="https://pierluigiderogatis.substack.com/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
     <tr><td align="center" style="padding:32px 16px;">
       <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
@@ -9,7 +56,7 @@
         <!-- Header -->
         <tr>
           <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
-            <p style="margin:0;color:#6EE7B7;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+            <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
             <h1 style="margin:6px 0 0;color:#FFFFFF;font-size:22px;font-weight:700;">Saturday, April 18 2026</h1>
             <p style="margin:8px 0 0;color:#9CA3AF;font-size:13px;">Good morning, Pierluigi &mdash; 7 items &bull; ~3 min read</p>
           </td>
