@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gradient Descent — Wednesday, April 29 2026 | Daily AI Intelligence</title>
+  <meta name="description" content="It's like the AI world finally figured out how to get the 'brains' and 'brawn' to work together - language models are now informing and improving physical model">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Gradient Descent — Wednesday, April 29 2026 | Daily AI Intelligence">
+  <meta property="og:description" content="It's like the AI world finally figured out how to get the 'brains' and 'brawn' to work together - language models are now informing and improving physical model">
+  <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <meta property="og:url" content="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html">
+  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {
+      body { background: #03080F !important; }
+      body::before {
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+      table[width="100%"]:first-of-type > tbody > tr > td {
+        background: transparent !important; position: relative; z-index: 1;
+      }
+      table[width="600"] { border-radius: 16px; overflow: hidden; }
+      table[width="600"] > tbody > tr:first-child > td {
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }
+      table[width="600"] > tbody > tr:nth-child(2) > td {
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }
+      table[width="600"] td { color: #C8E0F0 !important; }
+      table[width="600"] td a[style*="color:#111827"] { color: #ECF5FF !important; }
+      table[width="600"] td p[style*="color:#4B5563"] { color: #7A95B0 !important; }
+      td[style*="background:#F0FDF4"] {
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }
+      td[style*="background:#F0FDF4"] p:first-child { color: #00FFC8 !important; }
+      td[style*="background:#F0FDF4"] p:last-child  { color: #B8D4E8 !important; }
+      td[style*="border-bottom:1px solid #F3F4F6"] {
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }
+      td[style*="background:#080E1C"] {
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"><div style="background:#080E1C;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"><a href="https://pierderogatis.github.io/ai-newsletter" style="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a><a href="https://pierluigiderogatis.substack.com/subscribe" style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a></div>
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="https://pierderogatis.github.io/ai-newsletter/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="https://pierluigiderogatis.substack.com/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+    <tr><td align="center" style="padding:32px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+              <tr>
+                <td style="padding-right:12px;vertical-align:middle;">
+                  <img src="https://pierderogatis.github.io/ai-newsletter/logo.png"
+                       alt="Gradient Descent" width="44" height="44"
+                       style="display:block;border-radius:8px;">
+                </td>
+                <td style="vertical-align:middle;">
+                  <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+                  <p style="margin:2px 0 0;color:#9CA3AF;font-size:11px;">Daily AI Intelligence</p>
+                </td>
+              </tr>
+            </table>
+            <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">Wednesday, April 29 2026</h1>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; 5 items &bull; ~3 min read</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
+            
+        <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+          <tr>
+            <td style="background:#F0FDF4;border-left:4px solid #059669;border-radius:0 8px 8px 0;padding:16px 20px;">
+              <p style="margin:0 0 6px;color:#065F46;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;">Today's Brief</p>
+              <p style="margin:0;color:#1F2937;font-size:14px;line-height:1.7;">It's like the AI world finally figured out how to get the 'brains' and 'brawn' to work together - language models are now informing and improving physical models, which is why you're seeing robots and autonomous vehicles get significantly smarter. This shift is already changing how data teams approach automation, because they can now focus on optimizing workflows rather than just coding efficiency. Now that AI can handle both the 'thinking' and 'doing', the question is: what tasks are you going to trust to a model that's only been trained on data up to 1930?</p>
+            </td>
+          </tr>
+        </table>
+            
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#4F46E5;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128202; AI & Data Tools
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Here is what an LLM that knows nothing after 1930 thinks our world looks like in 2026</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">A 13B-parameter language model trained only on texts written before 1931 thinks 2026 is a world of steamships and railroads, which is a fascinating thought experiment. This changes how we think about model training data and the potential for bias in our current models.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Top 10 Physical AI Models Powering Real-World Robots in 2026</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">A new class of foundation models is now running on real hardware across factories and warehouses, which is a big deal for automation. This changes the workflow for robotics engineers, who can now focus on designing tasks rather than coding them from scratch.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#7C3AED;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128218; Research & Academia
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://arxiv.org/abs/2408.16322" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autonomous Driving</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Current research in semantic bird's-eye view segmentation focuses solely on optimizing neural network models using a single dataset, which leads to highly specialized models. This changes the approach to model evaluation, which should now consider multiple datasets to ensure generalizability.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://arxiv.org/abs/2408.16322" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://arxiv.org/abs/2604.25891" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Finetuning a language model can lead to emergent misalignment, which can be hidden by contextual triggers, which is a concern for model safety. This changes the approach to model testing, which should now consider potential misalignment scenarios.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://arxiv.org/abs/2604.25891" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#D97706;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127911; Podcasts
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://share.transistor.fm/s/b11bd219" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">The mythos of Mythos and Allbirds takes flight to the neocloud</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">The podcast discusses Anthropic's Mythos frontier model and its potential implications for cybersecurity, which is a topic of interest for data teams. This changes the conversation around model security, which should now consider the potential risks and benefits of advanced models.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://share.transistor.fm/s/b11bd219" style="color:#D97706;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Listen</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+
+            <!-- Outro -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
+              <tr>
+                <td style="background:#080E1C;border-radius:10px;padding:24px 28px;">
+                  <p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">That's your edge for today.</p>
+                  <p style="margin:0 0 16px;color:#9CA3AF;font-size:13px;line-height:1.7;">
+                    See you tomorrow morning with the next gradient step.
+                  </p>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="padding-right:10px;">
+                        <a href="https://pierluigiderogatis.substack.com/subscribe"
+                           style="display:inline-block;background:#00FFC8;color:#080E1C;
+                                  font-size:12px;font-weight:700;padding:8px 16px;
+                                  border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
+                          Subscribe on Substack &rarr;
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://pierluigiderogatis.substack.com"
+                           style="display:inline-block;color:#6B7280;font-size:12px;
+                                  font-weight:600;text-decoration:none;padding:8px 0;">
+                          Forward to a colleague
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Footer -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+              <tr>
+                <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
+                  Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
+                  Delivered to pierluigi.derogatis@live.com
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>

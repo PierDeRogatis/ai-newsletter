@@ -9,27 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, April 29, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</guid>
+    <pubDate>Wed, 29 Apr 2026 06:00:00 +0000</pubDate>
+    <description>It's like the AI world finally figured out how to get the 'brains' and 'brawn' to work together - language models are now informing and improving physical models, which is why you're seeing robots and autonomous vehicles get significantly smarter. Th</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, April 29, 2026&ensp;·&ensp;5 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the AI world finally figured out how to get the 'brains' and 'brawn' to work together - language models are now informing and improving physical models, which is why you're seeing robots and autonomous vehicles get significantly smarter. This shift is already changing how data teams approach automation, because they can now focus on optimizing workflows rather than just coding efficiency. Now that AI can handle both the 'thinking' and 'doing', the question is: what tasks are you going to trust to a model that's only been trained on data up to 1930?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/">Here is what an LLM that knows nothing after 1930 thinks our world looks like in 2026</a></h3>
+<p>A 13B-parameter language model trained only on texts written before 1931 thinks 2026 is a world of steamships and railroads, which is a fascinating thought experiment. This changes how we think about model training data and the potential for bias in our current models.&ensp;<a href="https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/">Top 10 Physical AI Models Powering Real-World Robots in 2026</a></h3>
+<p>A new class of foundation models is now running on real hardware across factories and warehouses, which is a big deal for automation. This changes the workflow for robotics engineers, who can now focus on designing tasks rather than coding them from scratch.&ensp;<a href="https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2408.16322">BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autonomous Driving</a></h3>
+<p>Current research in semantic bird's-eye view segmentation focuses solely on optimizing neural network models using a single dataset, which leads to highly specialized models. This changes the approach to model evaluation, which should now consider multiple datasets to ensure generalizability.&ensp;<a href="https://arxiv.org/abs/2408.16322">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2604.25891">Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers</a></h3>
+<p>Finetuning a language model can lead to emergent misalignment, which can be hidden by contextual triggers, which is a concern for model safety. This changes the approach to model testing, which should now consider potential misalignment scenarios.&ensp;<a href="https://arxiv.org/abs/2604.25891">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/b11bd219">The mythos of Mythos and Allbirds takes flight to the neocloud</a></h3>
+<p>The podcast discusses Anthropic's Mythos frontier model and its potential implications for cybersecurity, which is a topic of interest for data teams. This changes the conversation around model security, which should now consider the potential risks and benefits of advanced models.&ensp;<a href="https://share.transistor.fm/s/b11bd219">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, April 28, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-28.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-28.html</guid>
     <pubDate>Tue, 28 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands </description>
     <category>AI in Sports</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, April 28, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands on a trading desk as a question about how to price the risk of athletes getting caught up in sports betting scandals, now that the NCAA's rules are evolving. You might want to ask your team how they're thinking about the intersection of athlete mental health and the sports betting boom, given that even protein-enhanced foods are now a thing in the sports world, but the real action is in the data on athlete behavior and how that informs both team strategy and betting markets.</p></blockquote>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.outsideonline.com/health/nutrition/what-know-about-protein-maxxing/">I’m a Registered Dietitian. These Are the Best Protein-Enhanced Foods That Are Worth Buying.</a></h3>
-<p>Protein-enriched foods are everywhere, but this trend has very little to do with sports nutrition, according to a registered dietitian. This changes the conversation around sports nutrition, where athletes and teams need to separate marketing hype from real nutritional value.&ensp;<a href="https://www.outsideonline.com/health/nutrition/what-know-about-protein-maxxing/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.espn.com/college-football/story/_/id/48610760/texas-tech-brendan-sorsby-college-gambling-scandal">Wetzel: Heisman hopes and career in jeopardy after college football's latest gambling scandal</a></h3>
-<p>Texas Tech QB Brendan Sorsby's decision to get treatment for gambling addiction feels like an inevitable result of a sports betting boom, with implications for the NCAA and college athletes. This changes the risk calculus for teams and leagues, who need to think about the intersection of athlete mental health and sports betting.&ensp;<a href="https://www.espn.com/college-football/story/_/id/48610760/texas-tech-brendan-sorsby-college-gambling-scandal">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7235313/2026/04/27/ncaa-gambling-rules-penalties-betting/">What are the NCAA's rules and penalties when it comes to sports gambling?</a></h3>
-<p>The NCAA has lessened some penalties for sports gambling, but college athletes are still not allowed to bet on college or pro sports, with evolving rules and implications for teams and leagues. This changes the compliance landscape for college sports, where athletes and teams need to navigate complex rules and regulations.&ensp;<a href="https://www.nytimes.com/athletic/7235313/2026/04/27/ncaa-gambling-rules-penalties-betting/">→ Read</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, April 27, 2026</title>
