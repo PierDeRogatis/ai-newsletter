@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-30",
+    "headline": "Nvidia opens up multimodal models",
+    "brief": "It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is ",
+    "topics": [
+      "AI & Data Tools"
+    ],
+    "article_count": 3,
+    "path": "issues/2026-04-30.html"
+  },
+  {
     "date": "2026-04-29",
     "headline": "New AI models reach 72.5% on SWE-bench",
     "brief": "The common thread today is that AI tooling is getting both cheaper and more capable, which is like watching a high-performance sports car become affordable enough for weekend racers - suddenly the question is no longer whether you can afford the car,",

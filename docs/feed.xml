@@ -9,6 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, April 30, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</guid>
+    <pubDate>Thu, 30 Apr 2026 06:00:00 +0000</pubDate>
+    <description>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is </description>
+    <category>AI &amp; Data Tools</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, April 30, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is bound to influence how data teams approach model development, particularly in sports analytics where injury prediction and player performance models can greatly benefit from such comprehensive insights. Now that the 'secret sauce' is out, will your team revisit its model development strategy to incorporate more open and diverse data sources, potentially leading to more accurate predictions and better decision-making?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/">With Nemotron 3 Nano Omni, Nvidia reveals what really goes into a modern multimodal model</a></h3>
+<p>Nvidia releases Nemotron 3 Nano Omni, an open multimodal model for text, image, video, and audio, trained on data from Qwen, GPT-OSS, Kimi, and DeepSeek OCR. This changes the way data teams can approach model development, allowing for more transparency and potentially more accurate models.&ensp;<a href="https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/04/29/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/">Qwen Team Releases FlashQLA: a High-Performance Linear Attention Kernel Library That Achieves Up to 3× Speedup on NVIDIA Hopper GPUs</a></h3>
+<p>The QwenLM team releases FlashQLA, a kernel library that accelerates the forward and backward passes of Gated Delta Network (GDN) Chunked Prefill, targeting large-scale pretraining and edge-side agentic inference scenarios. This changes the workflow for developers working with GDN models, enabling faster and more efficient processing.&ensp;<a href="https://www.marktechpost.com/2026/04/29/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/">Step by Step Guide to Build a Complete PII Detection and Redaction Pipeline with OpenAI Privacy Filter</a></h3>
+<p>A tutorial on building a complete PII detection and redaction pipeline using the OpenAI Privacy Filter, including setting up the environment and loading a token classification model. This changes the toolset for data privacy teams, providing a straightforward guide to implementing sensitive data protection.&ensp;<a href="https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/">→ Read</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, April 29, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</guid>
@@ -17,29 +40,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, April 29, 2026&ensp;·&ensp;5 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>The common thread today is that AI tooling is getting both cheaper and more capable, which is like watching a high-performance sports car become affordable enough for weekend racers - suddenly the question is no longer whether you can afford the car, but whether you can handle the speed. This lands on a trading desk as a question of how to use these new models to automate tasks that were previously too expensive or difficult to automate, like predicting stock prices or analyzing market trends. As you're considering which tasks to automate, ask yourself whether the goal is to simply speed up existing workflows or to use the new capability to ask entirely different questions, like what would happen if you applied these models to predicting athlete performance or optimizing team strategy,</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/04/28/poolside-ai-introduces-laguna-xs-2-and-m-1-agentic-coding-models-reaching-68-2-and-72-5-on-swe-bench-verified/">Poolside AI Introduces Laguna XS.2 and M.1</a></h3>
-<p>Poolside AI's new models, Laguna XS.2 and M.1, have reached 68.2% and 72.5% on the SWE-bench verified benchmark, indicating significant advancements in agentic coding models. This changes the tooling landscape for developers, who can now use these models for long-horizon tasks and expect better performance.&ensp;<a href="https://www.marktechpost.com/2026/04/28/poolside-ai-introduces-laguna-xs-2-and-m-1-agentic-coding-models-reaching-68-2-and-72-5-on-swe-bench-verified/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/">How to Build Traceable and Evaluated LLM Workflows</a></h3>
-<p>A new tutorial demonstrates how to build complete LLM workflows using Promptflow, Prompty, and OpenAI, enabling developers to create production-ready workflows with secure connections and clean workspaces. This changes the workflow for developers, who can now create more reliable and efficient LLM workflows.&ensp;<a href="https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2508.16198">OMHBench: Benchmarking Balanced and Grounded Omni-Modal Multi-Hop Reasoning</a></h3>
-<p>Researchers have introduced OMHBench, a new benchmark for evaluating omni-modal multi-hop reasoning in large language models, addressing limitations in existing evaluation frameworks. This changes the benchmarking tool for researchers, who can now use OMHBench to evaluate their models' performance in a more comprehensive way.&ensp;<a href="https://arxiv.org/abs/2508.16198">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2512.12072">VOYAGER: A Training Free Approach for Generating Diverse Datasets</a></h3>
-<p>A new paper proposes VOYAGER, a training-free approach for generating diverse datasets using large language models, which can help address the lack of diversity in generated data. This changes the dataset generation workflow for researchers, who can now use VOYAGER to create more diverse and realistic datasets.&ensp;<a href="https://arxiv.org/abs/2512.12072">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://share.transistor.fm/s/b11bd219">The mythos of Mythos and Allbirds takes flight to the neocloud</a></h3>
-<p>A recent podcast episode discusses Anthropic's Mythos frontier model and its potential implications for cybersecurity, as well as the concept of neocloud and its potential applications. This changes the conversation around AI and cybersecurity, which can now include the potential benefits and risks of using models like Mythos.&ensp;<a href="https://share.transistor.fm/s/b11bd219">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, April 28, 2026</title>
