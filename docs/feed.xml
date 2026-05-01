@@ -9,27 +9,51 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, May 1, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-01.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-01.html</guid>
+    <pubDate>Fri, 01 May 2026 06:00:00 +0000</pubDate>
+    <description>You're seeing a wave of AI engineers move away from pre-built frameworks like LangChain and towards custom, native agent architectures - it's like switching from a pre-fab house to a custom build, because the first wave of AI apps was all about provi</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 1, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>You're seeing a wave of AI engineers move away from pre-built frameworks like LangChain and towards custom, native agent architectures - it's like switching from a pre-fab house to a custom build, because the first wave of AI apps was all about proving the concept, but now it's about scaling and optimizing. This shift is already landing on trading desks, where quant funds are rethinking their entire workflow to take advantage of these new architectures. Now you have to ask yourself: are you still using frameworks just because they're easy, or are you really optimizing for your specific use case?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows/">A Coding Deep Dive into Agentic UI, Generative UI, State Synchronization, and Interrupt-Driven Approval Flows</a></h3>
+<p>Engineers are building custom Agentic UI stacks from scratch using plain Python, which allows for more control and flexibility. This changes the way you approach UI design, making it more modular and scalable, so you can start thinking about your UI as a collection of interchangeable components rather than a monolithic block.&ensp;<a href="https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/">Why AI Engineers Are Moving Beyond LangChain to Native Agent Architectures</a></h3>
+<p>AI engineers are moving away from frameworks like LangChain and towards native agent architectures, which offer more flexibility and customization. This changes the way you approach AI development, making it more focused on specific use cases and optimization, so you can start thinking about your AI apps as bespoke solutions rather than generic frameworks.&ensp;<a href="https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropics-new-benchmark-claims-claude-can-match-human-experts-in-bioinformatics/">Anthropic's new benchmark claims Claude can match human experts in bioinformatics</a></h3>
+<p>Anthropic's new benchmark shows that Claude can match human experts in bioinformatics, which has significant implications for the field. This changes the way you approach bioinformatics research, making it more focused on validation and verification, so you can start thinking about how to use AI to augment human expertise rather than replace it.&ensp;<a href="https://the-decoder.com/anthropics-new-benchmark-claims-claude-can-match-human-experts-in-bioinformatics/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html">Inside Wealth: Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby</a></h3>
+<p>Markets are underestimating the risk of a Middle East pullback in AI investments, according to tech investor Jack Selby. This changes the way you approach investment decisions, making it more focused on geopolitical risk assessment, so you can start thinking about how to hedge against potential losses. Middle East investors account for roughly a quarter of global AI investments over the next 5 years, which makes this a significant factor to consider.&ensp;<a href="https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-04-30/citadel-securities-rubner-on-tech-selloff-video">Citadel Securities’ Rubner Sees Tech Selloff as Buying Opportunity</a></h3>
+<p>Citadel Securities' Scott Rubner sees the tech selloff as a buying opportunity, citing continued demand for AI and consumer trading. This changes the way you approach investment strategies, making it more focused on long-term growth potential, so you can start thinking about how to capitalize on the current market trends.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-04-30/citadel-securities-rubner-on-tech-selloff-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html">Apple delivers a nearly perfect quarter, with a CEO change and an AI update ahead</a></h3>
+<p>Apple delivered a strong quarter, with a CEO change and an AI update on the horizon. This changes the way you approach tech investments, making it more focused on company-specific developments, so you can start thinking about how to position yourself for the upcoming changes in the tech landscape.&ensp;<a href="https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">How to Engineer AI Inference Systems with Philip Kiely - #766</a></h3>
+<p>Philip Kiely discusses the importance of inference engineering in AI systems, highlighting the need for custom solutions. This changes the way you approach AI development, making it more focused on optimization and scalability, so you can start thinking about how to build AI systems that are tailored to your specific needs.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, April 30, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</guid>
     <pubDate>Thu, 30 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is </description>
     <category>AI &amp; Data Tools</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, April 30, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is bound to influence how data teams approach model development, particularly in sports analytics where injury prediction and player performance models can greatly benefit from such comprehensive insights. Now that the 'secret sauce' is out, will your team revisit its model development strategy to incorporate more open and diverse data sources, potentially leading to more accurate predictions and better decision-making?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/">With Nemotron 3 Nano Omni, Nvidia reveals what really goes into a modern multimodal model</a></h3>
-<p>Nvidia releases Nemotron 3 Nano Omni, an open multimodal model for text, image, video, and audio, trained on data from Qwen, GPT-OSS, Kimi, and DeepSeek OCR. This changes the way data teams can approach model development, allowing for more transparency and potentially more accurate models.&ensp;<a href="https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/04/29/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/">Qwen Team Releases FlashQLA: a High-Performance Linear Attention Kernel Library That Achieves Up to 3× Speedup on NVIDIA Hopper GPUs</a></h3>
-<p>The QwenLM team releases FlashQLA, a kernel library that accelerates the forward and backward passes of Gated Delta Network (GDN) Chunked Prefill, targeting large-scale pretraining and edge-side agentic inference scenarios. This changes the workflow for developers working with GDN models, enabling faster and more efficient processing.&ensp;<a href="https://www.marktechpost.com/2026/04/29/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/">Step by Step Guide to Build a Complete PII Detection and Redaction Pipeline with OpenAI Privacy Filter</a></h3>
-<p>A tutorial on building a complete PII detection and redaction pipeline using the OpenAI Privacy Filter, including setting up the environment and loading a token classification model. This changes the toolset for data privacy teams, providing a straightforward guide to implementing sensitive data protection.&ensp;<a href="https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/">→ Read</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, April 29, 2026</title>

@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-01",
+    "headline": "AI engineers ditch frameworks",
+    "brief": "You're seeing a wave of AI engineers move away from pre-built frameworks like LangChain and towards custom, native agent architectures - it's like switching from a pre-fab house to a custom build, because the first wave of AI apps was all about provi",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-01.html"
+  },
+  {
     "date": "2026-04-30",
     "headline": "Nvidia opens up multimodal models",
     "brief": "It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is ",

@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/",
-    "date": "2026-04-27"
-  },
-  {
-    "url": "https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/",
-    "date": "2026-04-27"
-  },
-  {
-    "url": "https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/",
-    "date": "2026-04-27"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/04/26/top-wall-street-analysts-pick-these-3-stocks-for-reliable-income.html",
-    "date": "2026-04-27"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html",
-    "date": "2026-04-27"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/04/27/european-markets-stoxx-600-ftse-dax-cac-iran-oil-prices.html",
-    "date": "2026-04-27"
-  },
-  {
     "url": "https://www.outsideonline.com/health/nutrition/what-know-about-protein-maxxing/",
     "date": "2026-04-28"
   },
@@ -82,5 +58,33 @@
   {
     "url": "https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/",
     "date": "2026-04-30"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows/",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://the-decoder.com/anthropics-new-benchmark-claims-claude-can-match-human-experts-in-bioinformatics/",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-04-30/citadel-securities-rubner-on-tech-selloff-video",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html",
+    "date": "2026-05-01"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems",
+    "date": "2026-05-01"
   }
 ]
