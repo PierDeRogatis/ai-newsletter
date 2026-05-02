@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-02",
+    "headline": "AI automation gets cheaper",
+    "brief": "It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This change lands on a trading desk as a chance to automat",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 12,
+    "path": "issues/2026-05-02.html"
+  },
+  {
     "date": "2026-05-01",
     "headline": "AI engineers ditch frameworks",
     "brief": "You're seeing a wave of AI engineers move away from pre-built frameworks like LangChain and towards custom, native agent architectures - it's like switching from a pre-fab house to a custom build, because the first wave of AI apps was all about provi",

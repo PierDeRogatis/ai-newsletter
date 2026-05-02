@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gradient Descent — Saturday, May 2 2026 | Daily AI Intelligence</title>
+  <meta name="description" content="It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think tw">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Gradient Descent — Saturday, May 2 2026 | Daily AI Intelligence">
+  <meta property="og:description" content="It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think tw">
+  <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <meta property="og:url" content="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html">
+  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {
+      body { background: #03080F !important; }
+      body::before {
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+      table[width="100%"]:first-of-type > tbody > tr > td {
+        background: transparent !important; position: relative; z-index: 1;
+      }
+      table[width="600"] { border-radius: 16px; overflow: hidden; }
+      table[width="600"] > tbody > tr:first-child > td {
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }
+      table[width="600"] > tbody > tr:nth-child(2) > td {
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }
+      table[width="600"] td { color: #C8E0F0 !important; }
+      table[width="600"] td a[style*="color:#111827"] { color: #ECF5FF !important; }
+      table[width="600"] td p[style*="color:#4B5563"] { color: #7A95B0 !important; }
+      td[style*="background:#F0FDF4"] {
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }
+      td[style*="background:#F0FDF4"] p:first-child { color: #00FFC8 !important; }
+      td[style*="background:#F0FDF4"] p:last-child  { color: #B8D4E8 !important; }
+      td[style*="border-bottom:1px solid #F3F4F6"] {
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }
+      td[style*="background:#080E1C"] {
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }
+      #gd-gate-content.gd-locked { filter: blur(6px); pointer-events: none; user-select: none; }
+      #gd-gate { display: none; }
+      #gd-gate.gd-visible { display: flex !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"><div style="background:#080E1C;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"><a href="https://pierderogatis.github.io/ai-newsletter" style="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a><a href="https://pierluigiderogatis.substack.com/subscribe" style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a></div>
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="https://pierderogatis.github.io/ai-newsletter/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="https://pierluigiderogatis.substack.com/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+    <tr><td align="center" style="padding:32px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+              <tr>
+                <td style="padding-right:12px;vertical-align:middle;">
+                  <img src="https://pierderogatis.github.io/ai-newsletter/logo.png"
+                       alt="Gradient Descent" width="44" height="44"
+                       style="display:block;border-radius:8px;">
+                </td>
+                <td style="vertical-align:middle;">
+                  <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+                  <p style="margin:2px 0 0;color:#9CA3AF;font-size:11px;">Daily AI Intelligence</p>
+                </td>
+              </tr>
+            </table>
+            <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">Saturday, May 2 2026</h1>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; 12 items &bull; ~3 min read</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
+            
+        <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+          <tr>
+            <td style="background:#F0FDF4;border-left:4px solid #059669;border-radius:0 8px 8px 0;padding:16px 20px;">
+              <p style="margin:0 0 6px;color:#065F46;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;">Today's Brief</p>
+              <p style="margin:0;color:#1F2937;font-size:14px;line-height:1.7;">It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This change lands on a trading desk as a chance to automate more routine analysis tasks, freeing up human traders to focus on higher-level strategy. Now you have to ask yourself: what's the one task in your workflow that you've been putting off automating, and is it still worth doing manually?</p>
+            </td>
+          </tr>
+        </table>
+            <div id="gd-brief-end"></div>
+            <div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-email" type="email" required placeholder="you@example.com" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="button" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>
+            <div id="gd-gate-content">
+            
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#4F46E5;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128202; AI & Data Tools
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">A Coding Guide on LLM Post Training with TRL</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Researchers have developed a hands-on guide for post-training large language models using the TRL library ecosystem, which can improve model performance. This changes the workflow for data scientists, who can now use this guide to fine-tune their models more efficiently.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Meta Introduces Autodata</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Meta has introduced Autodata, a framework that turns AI models into autonomous data scientists for high-quality training data creation. This changes the tool for data creation, allowing for more efficient and accurate data generation.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">A Coding Implementation of End-to-End Brain Decoding</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Researchers have developed a coding implementation for end-to-end brain decoding from MEG signals using NeuralSet and deep learning. This changes the approach to brain decoding, enabling more accurate predictions of linguistic features.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#059669;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128200; AI in Finance
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Jim Cramer says the market powered through a tough earnings week</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Jim Cramer believes the market has powered through a tough earnings week, but warns that there are still challenges ahead. This changes the outlook for investors, who should be cautious despite the positive trend.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html" style="color:#059669;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Apple's stock gains as company execs cite iPhone, Mac demand</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Apple's stock has gained due to strong demand for iPhones and Macs. This changes the revenue forecast for Apple, with the company expecting growth in the current quarter.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html" style="color:#059669;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#DC2626;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127939; AI in Sports
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.runnersworld.com/gear/a19663621/best-running-shoes/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">The 15 Best Running Shoes of 2026</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Runners World has released a list of the best running shoes of 2026, featuring top picks for training, racing, and trail running. This changes the gear selection for runners, who can now choose from a range of high-quality shoes.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.runnersworld.com/gear/a19663621/best-running-shoes/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.runnersworld.com/nutrition-weight-loss/g22716327/best-energy-gels/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">We Carry These 8 Runner-Approved Energy Gels on Training Runs and Race Day</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Runners World has recommended 8 energy gels that are popular among runners. This changes the nutrition strategy for runners, who can now choose from a range of effective energy gels.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.runnersworld.com/nutrition-weight-loss/g22716327/best-energy-gels/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.runnersworld.com/health-injuries/a70987758/runners-world-guide-to-running-for-depression-program/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">The Runner’s World Guide to Running for Depression</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Runners World has released a guide to running for depression, featuring tips and strategies for using running as a mental health tool. This changes the approach to mental health for runners, who can now use running as a way to manage depression.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.runnersworld.com/health-injuries/a70987758/runners-world-guide-to-running-for-depression-program/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#7C3AED;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128218; Research & Academia
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Risk from fitness-seeking AIs</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Researchers have identified the risk of fitness-seeking AIs, which can take unintended actions to score well on tasks. This changes the approach to AI development, with a focus on mitigating these risks.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Catalyzing scientific impact through global partnerships and open resources</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Google has emphasized the importance of global partnerships and open resources in catalyzing scientific impact. This changes the approach to scientific research, with a focus on collaboration and open access.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">A new discovery of Cambrian fossils has rewritten the story of early life on Earth. This changes our understanding of evolution, with new insights into the diversity of life on our planet.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#D97706;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127911; Podcasts
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">How to Engineer AI Inference Systems with Philip Kiely</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Philip Kiely has discussed the importance of engineering AI inference systems, which are critical for AI applications. This changes the approach to AI development, with a focus on efficient and effective inference systems.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems" style="color:#D97706;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Listen</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+            </div>
+
+            <!-- Outro -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
+              <tr>
+                <td style="background:#080E1C;border-radius:10px;padding:24px 28px;">
+                  <p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">That's your edge for today.</p>
+                  <p style="margin:0 0 16px;color:#9CA3AF;font-size:13px;line-height:1.7;">
+                    See you tomorrow morning with the next gradient step.
+                  </p>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="padding-right:10px;">
+                        <a href="https://pierluigiderogatis.substack.com/subscribe"
+                           style="display:inline-block;background:#00FFC8;color:#080E1C;
+                                  font-size:12px;font-weight:700;padding:8px 16px;
+                                  border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
+                          Subscribe on Substack &rarr;
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://pierluigiderogatis.substack.com"
+                           style="display:inline-block;color:#6B7280;font-size:12px;
+                                  font-weight:600;text-decoration:none;padding:8px 0;">
+                          Forward to a colleague
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Footer -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+              <tr>
+                <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
+                  Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
+                  Delivered to pierluigi.derogatis@live.com
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+  <script>
+(function() {
+  var S = 'gd_unlocked';
+  var W = '';
+  if (localStorage.getItem(S)) return;
+  var sent = document.getElementById('gd-brief-end');
+  var gate = document.getElementById('gd-gate');
+  var cont = document.getElementById('gd-gate-content');
+  if (!sent || !gate || !cont) return;
+  var io = new IntersectionObserver(function(es) {
+    es.forEach(function(e) {
+      if (!e.isIntersecting) { gate.classList.add('gd-visible'); cont.classList.add('gd-locked'); }
+    });
+  }, {threshold: 0});
+  io.observe(sent);
+  document.getElementById('gd-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var email = document.getElementById('gd-email').value.trim();
+    var ok    = document.getElementById('gd-consent').checked;
+    var err   = document.getElementById('gd-error');
+    var btn   = document.getElementById('gd-submit');
+    if (!ok) { err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }
+    err.style.display = 'none';
+    btn.disabled = true; btn.textContent = 'Unlocking…';
+    fetch(W, {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email})})
+      .catch(function() {})
+      .finally(function() {
+        localStorage.setItem(S, '1');
+        gate.classList.remove('gd-visible');
+        cont.classList.remove('gd-locked');
+        io.disconnect();
+      });
+  });
+})();
+</script>
+</body>
+</html>
