@@ -138,10 +138,12 @@ def main() -> int:
         logger.error("Step 9 (twitter) failed: %s", e)
         step_errors.append(f"Step 9 (twitter): {e}")
 
-    # Step 10: LinkedIn direct post — disabled. LinkedIn's UGC Posts API requires
-    # manual OAuth token refresh every 60 days; daily automation is not reliable.
-    # Post manually from the personal profile instead.
-    # publisher.post_to_linkedin(result, date_str)
+    # Step 10: LinkedIn post (token expires every 60 days — refresh manually in GitHub secrets)
+    try:
+        publisher.post_to_linkedin(result, date_str)
+    except Exception as e:
+        logger.error("Step 10 (linkedin) failed: %s", e)
+        step_errors.append(f"Step 10 (linkedin): {e}")
 
     if step_errors:
         _send_failure_alert(date_str, "", step_errors=step_errors)
