@@ -68,3 +68,49 @@ def test_build_html_meta_description_truncated_at_160(sample_result):
     match = re.search(r'name="description"\s+content="([^"]*)"', html)
     assert match is not None
     assert len(match.group(1)) <= 160
+
+
+# ── content gate ──────────────────────────────────────────────────────────────
+
+def test_build_html_has_gate_sentinel(sample_result):
+    html = build_html(sample_result)
+    assert 'id="gd-brief-end"' in html
+
+def test_build_html_has_gate_overlay(sample_result):
+    html = build_html(sample_result)
+    assert 'id="gd-gate"' in html
+    assert "Unlock today" in html
+
+def test_build_html_has_gate_content_wrapper(sample_result):
+    html = build_html(sample_result)
+    assert 'id="gd-gate-content"' in html
+
+def test_build_html_has_gate_css(sample_result):
+    html = build_html(sample_result)
+    assert "gd-locked" in html
+    assert "gd-visible" in html
+
+def test_build_html_has_gate_js(sample_result):
+    html = build_html(sample_result)
+    assert "gd_unlocked" in html
+    assert "capture-email.yml" in html
+
+def test_build_html_sections_inside_gate_content(sample_result):
+    html = build_html(sample_result)
+    gate_open  = html.index('id="gd-gate-content"')
+    gate_close = html.index("</div>", gate_open + 50)
+    # Both article titles must appear between the gate div open and its close
+    assert html.index("LLMs Get Cheaper Again") > gate_open
+    assert html.index("LLMs Get Cheaper Again") < gate_close
+
+def test_build_html_gate_sentinel_before_sections(sample_result):
+    html = build_html(sample_result)
+    sentinel_pos = html.index('id="gd-brief-end"')
+    content_pos  = html.index('id="gd-gate-content"')
+    assert sentinel_pos < content_pos
+
+def test_build_html_gate_present_with_empty_brief(sample_result):
+    sample_result["daily_brief"] = ""
+    html = build_html(sample_result)
+    assert 'id="gd-brief-end"' in html
+    assert 'id="gd-gate"' in html
