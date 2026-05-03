@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, May 3, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-03.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-03.html</guid>
+    <pubDate>Sun, 03 May 2026 06:00:00 +0000</pubDate>
+    <description>It looks like the AI tooling market just crossed a threshold where price is the main differentiator, kind of like when cloud storage got cheap enough that hard drives started to seem obsolete. This means that trading desks and sports teams might star</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 3, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It looks like the AI tooling market just crossed a threshold where price is the main differentiator, kind of like when cloud storage got cheap enough that hard drives started to seem obsolete. This means that trading desks and sports teams might start to care less about which AI model they're using and more about how they can use it without breaking the bank. You might want to ask your team whether you're still getting a good return on investment from your current AI setup, or if it's time to shop around for a better deal.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/02/a-coding-implementation-to-parsing-analyzing-visualizing-and-fine-tuning-agent-reasoning-traces-using-the-lambda-hermes-agent-reasoning-traces-dataset/">A Coding Implementation to Parsing, Analyzing, Visualizing, and Fine-Tuning Agent Reasoning Traces Using the lambda/hermes-agent-reasoning-traces Dataset</a></h3>
+<p>Researchers can now parse, analyze, and visualize agent reasoning traces using the lambda/hermes-agent-reasoning-traces dataset, which could lead to better understanding of agent-based models. This changes the game for anyone working on multi-turn conversation models, as they can now fine-tune their models using this dataset.&ensp;<a href="https://www.marktechpost.com/2026/05/02/a-coding-implementation-to-parsing-analyzing-visualizing-and-fine-tuning-agent-reasoning-traces-using-the-lambda-hermes-agent-reasoning-traces-dataset/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/">Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows</a></h3>
+<p>The ARC Prize Foundation found that even the latest AI models, like OpenAI's GPT-5.5 and Anthropic's Opus 4.7, make systematic reasoning errors that explain their poor performance on certain tasks. This changes the way we evaluate AI models, as we can now identify specific error patterns that need to be addressed.&ensp;<a href="https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/xai-drops-grok-4-3-with-steep-price-cuts-and-an-imagine-agent-mode-for-creative-projects/">xAI drops Grok 4.3 with steep price cuts and an Imagine agent mode for creative projects</a></h3>
+<p>xAI just released Grok 4.3, which offers steep price cuts and a new Imagine agent mode for creative projects, making it a more competitive option in the AI tooling market. This changes the calculation for anyone considering which AI model to use for their projects, as Grok 4.3 is now a more affordable option.&ensp;<a href="https://the-decoder.com/xai-drops-grok-4-3-with-steep-price-cuts-and-an-imagine-agent-mode-for-creative-projects/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://feeds.feedblitz.com/~/955073297/0/marginalrevolution~Saturday-assorted-links.html">Saturday assorted links</a></h3>
+<p>Travel experts are warning that delaying buying plane tickets during the Iran war could be risky, as airfare prices may not drop as expected. This changes the decision-making process for anyone planning to travel, as they need to weigh the risks of waiting against the potential benefits of getting a better deal.&ensp;<a href="https://feeds.feedblitz.com/~/955073297/0/marginalrevolution~Saturday-assorted-links.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/02/iran-war-airfare-travel-airlines-plane-tickets-when-to-buy.html">Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks</a></h3>
+<p>The U.S.-Iran war is causing a global economic ripple effect, affecting credit scores and mortgage applications, which could impact people's ability to buy or rent homes. This changes the way lenders and banks assess credit risk, as they need to take into account the potential impact of the war on individuals' financial situations.&ensp;<a href="https://www.cnbc.com/2026/05/02/iran-war-airfare-travel-airlines-plane-tickets-when-to-buy.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html">The U.S.-Iran war is coming for your credit score and mortgage application</a></h3>
+<p>The war is also affecting the airfare market, with experts advising travelers to buy tickets now rather than waiting for prices to drop. This changes the strategy for travel planning, as people need to balance the risk of price increases against the potential benefits of waiting for a better deal.&ensp;<a href="https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71154785/better-marathon-training-schedule/">Your 7-Day Training Cycle Isn’t Long Enough. Here’s a Coach’s Fix for Boosting Performance Without Stealing More of Your Time.</a></h3>
+<p>A new training schedule is being proposed that can help athletes boost their performance without requiring more time, by incorporating rest days and extra workouts. This changes the way coaches and athletes approach training, as they can now optimize their schedules for better results.&ensp;<a href="https://www.runnersworld.com/training/a71154785/better-marathon-training-schedule/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7247908/2026/05/03/manchedter-united-liverpool-biggest-rivals/">Who are Manchester United's biggest rivals?</a></h3>
+<p>The rivalry between Manchester United and Liverpool is still significant, but its importance may be waning, which could impact the teams' strategies and fan engagement. This changes the dynamic between the two teams, as they need to adapt to changing fan expectations and priorities.&ensp;<a href="https://www.nytimes.com/athletic/7247908/2026/05/03/manchedter-united-liverpool-biggest-rivals/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7249346/2026/05/03/connections-sports-edition-hints-answers-may-3-2026/">Connections: Sports Edition today: Hints and answers for May 3, 2026, puzzle No. 587</a></h3>
+<p>The Connections: Sports Edition puzzle is a new challenge for sports fans, requiring them to gather clues and discuss scores, which could enhance their engagement and knowledge of sports. This changes the way fans interact with sports, as they can now participate in a more immersive and interactive experience.&ensp;<a href="https://www.nytimes.com/athletic/7249346/2026/05/03/connections-sports-edition-hints-answers-may-3-2026/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">How to Engineer AI Inference Systems with Philip Kiely - #766</a></h3>
+<p>The discipline of inference engineering is evolving rapidly, and experts like Philip Kiely are sharing their knowledge on how to engineer AI inference systems, which could improve the efficiency and effectiveness of AI models. This changes the way developers and engineers approach AI model deployment, as they can now optimize their systems for better performance.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, May 2, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html</guid>
@@ -19,52 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 2, 2026&ensp;·&ensp;12 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This change lands on a trading desk as a chance to automate more routine analysis tasks, freeing up human traders to focus on higher-level strategy. Now you have to ask yourself: what's the one task in your workflow that you've been putting off automating, and is it still worth doing manually?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/">A Coding Guide on LLM Post Training with TRL</a></h3>
-<p>Researchers have developed a hands-on guide for post-training large language models using the TRL library ecosystem, which can improve model performance. This changes the workflow for data scientists, who can now use this guide to fine-tune their models more efficiently.&ensp;<a href="https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation/">Meta Introduces Autodata</a></h3>
-<p>Meta has introduced Autodata, a framework that turns AI models into autonomous data scientists for high-quality training data creation. This changes the tool for data creation, allowing for more efficient and accurate data generation.&ensp;<a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features/">A Coding Implementation of End-to-End Brain Decoding</a></h3>
-<p>Researchers have developed a coding implementation for end-to-end brain decoding from MEG signals using NeuralSet and deep learning. This changes the approach to brain decoding, enabling more accurate predictions of linguistic features.&ensp;<a href="https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html">Jim Cramer says the market powered through a tough earnings week</a></h3>
-<p>Jim Cramer believes the market has powered through a tough earnings week, but warns that there are still challenges ahead. This changes the outlook for investors, who should be cautious despite the positive trend.&ensp;<a href="https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html">Apple's stock gains as company execs cite iPhone, Mac demand</a></h3>
-<p>Apple's stock has gained due to strong demand for iPhones and Macs. This changes the revenue forecast for Apple, with the company expecting growth in the current quarter.&ensp;<a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/gear/a19663621/best-running-shoes/">The 15 Best Running Shoes of 2026</a></h3>
-<p>Runners World has released a list of the best running shoes of 2026, featuring top picks for training, racing, and trail running. This changes the gear selection for runners, who can now choose from a range of high-quality shoes.&ensp;<a href="https://www.runnersworld.com/gear/a19663621/best-running-shoes/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/nutrition-weight-loss/g22716327/best-energy-gels/">We Carry These 8 Runner-Approved Energy Gels on Training Runs and Race Day</a></h3>
-<p>Runners World has recommended 8 energy gels that are popular among runners. This changes the nutrition strategy for runners, who can now choose from a range of effective energy gels.&ensp;<a href="https://www.runnersworld.com/nutrition-weight-loss/g22716327/best-energy-gels/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/health-injuries/a70987758/runners-world-guide-to-running-for-depression-program/">The Runner’s World Guide to Running for Depression</a></h3>
-<p>Runners World has released a guide to running for depression, featuring tips and strategies for using running as a mental health tool. This changes the approach to mental health for runners, who can now use running as a way to manage depression.&ensp;<a href="https://www.runnersworld.com/health-injuries/a70987758/runners-world-guide-to-running-for-depression-program/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations">Risk from fitness-seeking AIs</a></h3>
-<p>Researchers have identified the risk of fitness-seeking AIs, which can take unintended actions to score well on tasks. This changes the approach to AI development, with a focus on mitigating these risks.&ensp;<a href="https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/">Catalyzing scientific impact through global partnerships and open resources</a></h3>
-<p>Google has emphasized the importance of global partnerships and open resources in catalyzing scientific impact. This changes the approach to scientific research, with a focus on collaboration and open access.&ensp;<a href="https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/">A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life</a></h3>
-<p>A new discovery of Cambrian fossils has rewritten the story of early life on Earth. This changes our understanding of evolution, with new insights into the diversity of life on our planet.&ensp;<a href="https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">How to Engineer AI Inference Systems with Philip Kiely</a></h3>
-<p>Philip Kiely has discussed the importance of engineering AI inference systems, which are critical for AI applications. This changes the approach to AI development, with a focus on efficient and effective inference systems.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, May 1, 2026</title>

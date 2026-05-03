@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-03",
+    "headline": "AI price war heats up",
+    "brief": "It looks like the AI tooling market just crossed a threshold where price is the main differentiator, kind of like when cloud storage got cheap enough that hard drives started to seem obsolete. This means that trading desks and sports teams might star",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-05-03.html"
+  },
+  {
     "date": "2026-05-02",
     "headline": "AI automation gets cheaper",
     "brief": "It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This change lands on a trading desk as a chance to automat",
