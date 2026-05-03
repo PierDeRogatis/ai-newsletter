@@ -1,0 +1,54 @@
+name: Capture email signup
+
+on:
+  workflow_dispatch:
+    inputs:
+      email:
+        description: "Subscriber email address"
+        required: true
+        type: string
+
+jobs:
+  add-contact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Add to Brevo list 3
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, json, urllib.request, urllib.error
+
+          email = os.environ.get("EMAIL", "").strip()
+          if not re.match(r'^[^@\s]{1,64}@[^@\s]{1,253}\.[^@\s]{1,63}$', email):
+              print(f"Skipping invalid email: {email!r}")
+              exit(0)
+
+          payload = json.dumps(
+              {"email": email, "listIds": [3], "updateEnabled": True}
+          ).encode()
+
+          req = urllib.request.Request(
+              "https://api.brevo.com/v3/contacts",
+              data=payload,
+              headers={
+                  "api-key": os.environ["BREVO_KEY"],
+                  "Content-Type": "application/json",
+              },
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(req) as resp:
+                  print(f"Contact added: {resp.status}")
+          except urllib.error.HTTPError as e:
+              body = e.read().decode()
+              if e.code == 204:
+                  print("Contact added (204).")
+              elif "already exist" in body.lower():
+                  print("Contact already exists — updated.")
+              else:
+                  print(f"Brevo error {e.code}: {body}")
+                  exit(1)
+          PYEOF
+        env:
+          EMAIL: ${{ github.event.inputs.email }}
+          BREVO_KEY: ${{ secrets.BREVO_KEY }}

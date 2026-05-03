@@ -13,6 +13,9 @@ _SMTP_PORT = 587
 
 logger = logging.getLogger(__name__)
 
+_GATE_GH_PAT  = os.environ.get("GATE_GH_PAT", "")
+_GATE_GH_REPO = "PierDeRogatis/ai-newsletter"
+
 _DEFAULT_COLOR = "#374151"
 
 # HTML-entity icons — kept here because email clients render emoji unreliably;
@@ -24,6 +27,58 @@ _TOPIC_ICONS: dict[str, str] = {
     "Research & Academia": "&#128218;",  # books
     "Podcasts":            "&#127911;",  # headphones
 }
+
+
+_GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-email" type="email" required placeholder="you@example.com" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="button" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
+
+
+def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
+    dispatch_url = f"https://api.github.com/repos/{gh_repo}/actions/workflows/capture-email.yml/dispatches"
+    return f"""<script>
+(function() {{
+  var S   = 'gd_unlocked';
+  var URL = '{dispatch_url}';
+  var PAT = '{gh_pat}';
+  if (localStorage.getItem(S)) return;
+  var sent = document.getElementById('gd-brief-end');
+  var gate = document.getElementById('gd-gate');
+  var cont = document.getElementById('gd-gate-content');
+  if (!sent || !gate || !cont) return;
+  var io = new IntersectionObserver(function(es) {{
+    es.forEach(function(e) {{
+      if (!e.isIntersecting) {{ gate.classList.add('gd-visible'); cont.classList.add('gd-locked'); }}
+    }});
+  }}, {{threshold: 0}});
+  io.observe(sent);
+  document.getElementById('gd-form').addEventListener('submit', function(e) {{
+    e.preventDefault();
+    var email = document.getElementById('gd-email').value.trim();
+    var ok    = document.getElementById('gd-consent').checked;
+    var err   = document.getElementById('gd-error');
+    var btn   = document.getElementById('gd-submit');
+    if (!ok) {{ err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }}
+    err.style.display = 'none';
+    btn.disabled = true; btn.textContent = 'Unlocking…';
+    fetch(URL, {{
+      method: 'POST',
+      headers: {{
+        'Authorization': 'Bearer ' + PAT,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      }},
+      body: JSON.stringify({{ref: 'main', inputs: {{email: email}}}})
+    }})
+      .catch(function() {{}})
+      .finally(function() {{
+        localStorage.setItem(S, '1');
+        gate.classList.remove('gd-visible');
+        cont.classList.remove('gd-locked');
+        io.disconnect();
+      }});
+  }});
+}})();
+</script>"""
 
 
 def _smtp_send(sender: str, password: str, recipient: str, msg) -> None:
@@ -166,6 +221,9 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
         border: 1px solid rgba(0,255,200,0.12) !important;
         border-radius: 12px !important;
       }}
+      #gd-gate-content.gd-locked {{ filter: blur(6px); pointer-events: none; user-select: none; }}
+      #gd-gate {{ display: none; }}
+      #gd-gate.gd-visible {{ display: flex !important; }}
     }}
   </style>
 </head>
@@ -203,7 +261,11 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
         <tr>
           <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
             {brief_block}
+            <div id="gd-brief-end"></div>
+            {_GATE_OVERLAY}
+            <div id="gd-gate-content">
             {sections_html}
+            </div>
 
             <!-- Outro -->
             <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
@@ -251,6 +313,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
       </table>
     </td></tr>
   </table>
+  {_build_gate_js(_GATE_GH_PAT, _GATE_GH_REPO)}
 </body>
 </html>"""
 
