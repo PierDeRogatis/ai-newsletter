@@ -48,7 +48,7 @@ GATE_OVERLAY = (
     'I agree to receive Gradient Descent by email. Unsubscribe anytime.</span>'
     '</label>'
     '<p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p>'
-    '<button id="gd-submit" type="button" '
+    '<button id="gd-submit" type="submit" '
     'style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;'
     'padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;'
     'font-family:inherit;">Unlock today&#8217;s issue</button>'
