@@ -1,0 +1,6 @@
+# ~= (compatible release) pins the minor version and allows only patch upgrades.
+# To upgrade: change the version here intentionally, test locally, then commit.
+groq~=1.2.0
+feedparser~=6.0.0
+python-dateutil~=2.9.0
+tweepy~=4.14
