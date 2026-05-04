@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/",
-    "date": "2026-04-30"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/04/29/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/",
-    "date": "2026-04-30"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/",
-    "date": "2026-04-30"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows/",
     "date": "2026-05-01"
   },
@@ -118,5 +106,29 @@
   {
     "url": "https://www.nytimes.com/athletic/7249346/2026/05/03/connections-sports-edition-hints-answers-may-3-2026/",
     "date": "2026-05-03"
+  },
+  {
+    "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/",
+    "date": "2026-05-04"
+  },
+  {
+    "url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
+    "date": "2026-05-04"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/03/what-is-tokenization-drift-and-how-to-fix-it/",
+    "date": "2026-05-04"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/04/asia-markets-live-updates-today-hang-seng-kospi-asx-oil-us-iran-trump-hormuz.html",
+    "date": "2026-05-04"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-05-04/asx-warns-firms-about-ramping-ai-upside-to-push-stock-prices",
+    "date": "2026-05-04"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/04/european-markets-stoxx-600-ftse-dax-cac-iran-latest-news.html",
+    "date": "2026-05-04"
   }
 ]
