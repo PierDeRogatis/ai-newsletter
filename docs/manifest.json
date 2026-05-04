@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-04",
+    "headline": "AI ethics diverge in practice",
+    "brief": "It's like watching different referees call the same game - the latest AI models can give wildly different answers to the same ethical question, which raises the question of who gets to decide what's right. This matters on a trading desk, where the di",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-04.html"
+  },
+  {
     "date": "2026-05-03",
     "headline": "AI price war heats up",
     "brief": "It looks like the AI tooling market just crossed a threshold where price is the main differentiator, kind of like when cloud storage got cheap enough that hard drives started to seem obsolete. This means that trading desks and sports teams might star",
