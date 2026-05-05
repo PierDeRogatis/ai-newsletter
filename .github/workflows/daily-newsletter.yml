@@ -49,6 +49,7 @@ jobs:
           LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
           ARCHIVE_BASE_URL: "https://pierderogatis.github.io/ai-newsletter"
           GATE_GH_PAT: ${{ secrets.GATE_GH_PAT }}
+          BREVO_KEY: ${{ secrets.BREVO_KEY }}
         run: python -m newsletter.main
 
       - name: Commit archive and sync docs to main for GitHub Pages

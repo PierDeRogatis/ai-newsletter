@@ -1,15 +1,11 @@
+import json
 import os
 import logging
-import smtplib
-import ssl
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 
-from newsletter.config import RECIPIENT_EMAIL, SENDER_EMAIL, TOPIC_COLORS
-
-_SMTP_HOST = "smtp.gmail.com"
-_SMTP_PORT = 587
+from newsletter.config import SENDER_EMAIL, TOPIC_COLORS
 
 logger = logging.getLogger(__name__)
 
@@ -83,15 +79,42 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
 </script>"""
 
 
-def _smtp_send(sender: str, password: str, recipient: str, msg) -> None:
-    """Open a Gmail SMTP connection and deliver msg."""
-    context = ssl.create_default_context()
-    with smtplib.SMTP(_SMTP_HOST, _SMTP_PORT) as smtp:
-        smtp.ehlo()
-        smtp.starttls(context=context)
-        smtp.ehlo()
-        smtp.login(sender, password)
-        smtp.sendmail(sender, recipient, msg.as_string())
+
+def _fetch_brevo_contacts(api_key: str, list_id: int) -> list[str]:
+    emails: list[str] = []
+    offset = 0
+    while True:
+        url = f"https://api.brevo.com/v3/contacts?listId={list_id}&limit=500&offset={offset}"
+        req = urllib.request.Request(
+            url, headers={"api-key": api_key, "Accept": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+        page = [c["email"] for c in data.get("contacts", []) if c.get("email")]
+        emails += page
+        if len(emails) >= data.get("count", 0) or not page:
+            break
+        offset += 500
+    return emails
+
+
+def _brevo_send(
+    api_key: str, sender_email: str, recipients: list[str], subject: str, html: str
+) -> None:
+    payload = json.dumps({
+        "sender":      {"name": "Gradient Descent", "email": sender_email},
+        "to":          [{"email": e} for e in recipients],
+        "subject":     subject,
+        "htmlContent": html,
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.brevo.com/v3/smtp/email",
+        data=payload,
+        headers={"api-key": api_key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        logger.info("Brevo send OK (HTTP %d) to %d recipients", resp.status, len(recipients))
 
 
 def _section_html(topic: str, articles: list[dict]) -> str:
@@ -305,7 +328,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
               <tr>
                 <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
                   Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
-                  Delivered to {RECIPIENT_EMAIL}
+                  You&rsquo;re receiving this because you subscribed to Gradient Descent.
                 </td>
               </tr>
             </table>
@@ -321,9 +344,9 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
 
 
 def send(result: dict) -> None:
-    password = os.environ.get("SMTP_PASSWORD", "")
-    if not password:
-        raise EnvironmentError("SMTP_PASSWORD is not set")
+    api_key = os.environ.get("BREVO_KEY", "")
+    if not api_key:
+        raise EnvironmentError("BREVO_KEY is not set")
     if not SENDER_EMAIL:
         raise EnvironmentError("SENDER_EMAIL is not set")
 
@@ -332,13 +355,13 @@ def send(result: dict) -> None:
     subject = f"Gradient Descent — {now.strftime('%a %b %-d')}"
     if headline:
         subject = f"{subject} · {headline}"
-    html_content = build_html(result)
 
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"] = SENDER_EMAIL
-    msg["To"] = RECIPIENT_EMAIL
-    msg.attach(MIMEText(html_content, "html", "utf-8"))
+    html = build_html(result)
 
-    _smtp_send(SENDER_EMAIL, password, RECIPIENT_EMAIL, msg)
-    logger.info("Email sent via Gmail SMTP to %s", RECIPIENT_EMAIL)
+    from newsletter.config import BREVO_LIST_ID
+    recipients = _fetch_brevo_contacts(api_key, BREVO_LIST_ID)
+    if not recipients:
+        logger.warning("Brevo list %d has no contacts — skipping send", BREVO_LIST_ID)
+        return
+
+    _brevo_send(api_key, SENDER_EMAIL, recipients, subject, html)
