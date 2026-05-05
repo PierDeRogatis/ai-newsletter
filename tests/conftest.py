@@ -12,6 +12,7 @@ os.environ.setdefault("RECIPIENT_EMAIL", "test-recipient@example.com")
 os.environ.setdefault("SENDER_EMAIL", "test-sender@example.com")
 os.environ.setdefault("GROQ_API", "test_groq_key_for_tests")
 os.environ.setdefault("SMTP_PASSWORD", "test_smtp_password")
+os.environ.setdefault("BREVO_KEY", "test_brevo_key_for_tests")
 
 
 @pytest.fixture

@@ -1,5 +1,7 @@
 import logging
 import os
+import smtplib
+import ssl
 import sys
 import traceback
 from datetime import datetime, timezone
@@ -15,7 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-_REQUIRED_ENV_VARS = ["GROQ_API", "SMTP_PASSWORD", "SENDER_EMAIL", "RECIPIENT_EMAIL"]
+_REQUIRED_ENV_VARS = ["GROQ_API", "BREVO_KEY", "SENDER_EMAIL", "RECIPIENT_EMAIL"]
 
 
 def _validate_env() -> None:
@@ -49,7 +51,13 @@ def _send_failure_alert(
         msg["Subject"] = f"Gradient Descent — delivery FAILED ({date_str})"
         msg["From"]    = sender
         msg["To"]      = RECIPIENT_EMAIL
-        emailer._smtp_send(sender, password, RECIPIENT_EMAIL, msg)
+        context = ssl.create_default_context()
+        with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
+            smtp.ehlo()
+            smtp.starttls(context=context)
+            smtp.ehlo()
+            smtp.login(sender, password)
+            smtp.sendmail(sender, RECIPIENT_EMAIL, msg.as_string())
         logger.info("Failure alert sent to %s", RECIPIENT_EMAIL)
     except Exception as e:
         logger.error("Could not send failure alert: %s", e)
@@ -92,7 +100,7 @@ def main() -> int:
 
     step_errors: list[str] = []
 
-    # Step 4: send personal copy via Gmail SMTP
+    # Step 4: send to all Brevo list subscribers
     try:
         emailer.send(result)
     except Exception as e:
@@ -138,10 +146,12 @@ def main() -> int:
         logger.error("Step 9 (twitter) failed: %s", e)
         step_errors.append(f"Step 9 (twitter): {e}")
 
-    # Step 10: LinkedIn direct post — disabled. LinkedIn's UGC Posts API requires
-    # manual OAuth token refresh every 60 days; daily automation is not reliable.
-    # Post manually from the personal profile instead.
-    # publisher.post_to_linkedin(result, date_str)
+    # Step 10: LinkedIn post (token expires every 60 days — refresh manually in GitHub secrets)
+    try:
+        publisher.post_to_linkedin(result, date_str)
+    except Exception as e:
+        logger.error("Step 10 (linkedin) failed: %s", e)
+        step_errors.append(f"Step 10 (linkedin): {e}")
 
     if step_errors:
         _send_failure_alert(date_str, "", step_errors=step_errors)

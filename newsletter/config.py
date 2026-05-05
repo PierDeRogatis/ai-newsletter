@@ -2,7 +2,8 @@ import os
 
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "")
-SUBSTACK_URL = os.environ.get("SUBSTACK_URL", "")  # e.g. "https://morningaibrief.substack.com"
+SUBSTACK_URL  = os.environ.get("SUBSTACK_URL", "")  # e.g. "https://morningaibrief.substack.com"
+BREVO_LIST_ID = int(os.environ.get("BREVO_LIST_ID", "3"))
 
 MAX_ARTICLES_PER_TOPIC = 3
 SNIPPET_MAX_CHARS = 300
@@ -94,7 +95,6 @@ TOPICS: dict[str, list[str]] = {
         "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
         # Fintech & AI in banking
-        "https://www.finextra.com/rss/headlines.aspx",
         # Quant, systematic & algo trading
         "https://alphaarchitect.com/feed/",
         "https://quantpedia.com/blog/feed/",
@@ -110,8 +110,6 @@ TOPICS: dict[str, list[str]] = {
     "AI in Sports": [
         # Sports tech media
         "https://www.sportspromedia.com/feed/",
-        "https://sporttechie.com/feed/",
-        "https://www.wearable-technologies.com/feed/",
         "https://hnrss.org/best?q=sports+analytics+AI",
         "https://hnrss.org/best?q=wearable+athlete+performance",
         # Major sports outlets (filtered by keywords)
@@ -125,10 +123,8 @@ TOPICS: dict[str, list[str]] = {
         "https://www.scienceofrunning.com/feed/",
         # Academic sports science
         "https://bjsm.bmj.com/rss/current.xml",
-        "https://journals.humankinetics.com/rss/journals/ijspp",
         "https://www.tandfonline.com/feed/rss/rjsp20",
         # The Conversation — exercise & sport
-        "https://theconversation.com/sport/articles.atom",
     ],
     "Research & Academia": [
         # arXiv — core ML tracks
@@ -140,11 +136,9 @@ TOPICS: dict[str, list[str]] = {
         "https://arxiv.org/rss/stat.ML",  # statistical ML
         # Science journalism
         "https://www.quantamagazine.org/feed/",
-        "https://theconversation.com/technology/articles.atom",
         "https://news.mit.edu/rss/topic/artificial-intelligence2",
         "https://hai.stanford.edu/news/rss.xml",
         # Lab & institute blogs
-        "https://www.deeplearning.ai/the-batch/feed/",
         "https://research.google/blog/rss/",
         "https://www.microsoft.com/en-us/research/feed/",
         # Safety, alignment & policy
@@ -162,7 +156,6 @@ TOPICS: dict[str, list[str]] = {
         "https://www.dwarkeshpatel.com/podcast?format=rss",
         # AI strategy & industry
         "https://feeds.simplecast.com/ORdGvPNL",   # No Priors (a16z)
-        "https://feeds.transistor.fm/the-cognitive-revolution",
         # Technical ML
         "https://changelog.com/practicalai/feed",
         "https://twimlai.com/feed/",
