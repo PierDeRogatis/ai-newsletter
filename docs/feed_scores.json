@@ -6,9 +6,10 @@
       1,
       0,
       0,
+      1,
       1
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
@@ -32,9 +33,10 @@
       1,
       0,
       1,
+      1,
       1
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.marktechpost.com/feed/": {
     "recent_hits": [
@@ -47,9 +49,9 @@
       1,
       1,
       1,
-      1
+      0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
@@ -57,18 +59,20 @@
       1,
       0,
       0,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.sportspromedia.com/feed/": {
     "recent_hits": [
       1,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://simonwillison.net/atom/everything/": {
     "recent_hits": [
@@ -78,9 +82,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://news.mit.edu/rss/topic/artificial-intelligence2": {
     "recent_hits": [
@@ -157,18 +162,20 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.espn.com/espn/rss/news": {
     "recent_hits": [
       1,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.alignmentforum.org/feed.xml": {
     "recent_hits": [
@@ -193,9 +200,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.technologyreview.com/feed/": {
     "recent_hits": [
@@ -204,9 +212,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://deepmind.google/blog/rss.xml": {
     "recent_hits": [
@@ -215,9 +224,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.fast.ai/index.xml": {
     "recent_hits": [
@@ -226,9 +236,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://towardsdatascience.com/feed": {
     "recent_hits": [
@@ -237,9 +248,10 @@
       1,
       0,
       0,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.oneusefulthing.org/feed": {
     "recent_hits": [
@@ -248,9 +260,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://arxiv.org/rss/cs.CL": {
     "recent_hits": [
@@ -283,9 +296,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://feeds.feedburner.com/oreilly/radar/atom": {
     "recent_hits": [
@@ -294,9 +308,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://hnrss.org/best?q=LLM+agent+tool": {
     "recent_hits": [
@@ -305,9 +320,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://hnrss.org/best?q=neural+network+benchmark": {
     "recent_hits": [
@@ -332,9 +348,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://www.wired.com/feed/rss": {
     "recent_hits": [
@@ -343,9 +360,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://arxiv.org/rss/cs.LG": {
     "recent_hits": [
@@ -378,9 +396,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://bair.berkeley.edu/blog/feed.xml": {
     "recent_hits": [
@@ -389,9 +408,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://distill.pub/rss.xml": {
     "recent_hits": [
@@ -424,9 +444,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://eugeneyan.com/rss/": {
     "recent_hits": [
@@ -435,9 +456,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://huggingface.co/blog/feed.xml": {
     "recent_hits": [
@@ -446,9 +468,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://blog.google/technology/ai/rss/": {
     "recent_hits": [
@@ -457,9 +480,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://paperswithcode.com/latest/rss": {
     "recent_hits": [
@@ -468,9 +492,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://arxiv.org/rss/stat.ML": {
     "recent_hits": [
@@ -495,9 +520,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://theconversation.com/technology/articles.atom": {
     "recent_hits": [
@@ -514,9 +540,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://hnrss.org/best?q=AI+machine+learning": {
     "recent_hits": [
@@ -525,105 +552,118 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-04"
+    "last_run": "2026-05-05"
   },
   "https://theconversation.com/sport/articles.atom": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.trainingpeaks.com/blog/feed/": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.frontiersin.org/journals/sports-and-active-living/rss": {
     "recent_hits": [
       1,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://hnrss.org/best?q=wearable+athlete+performance": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.wearable-technologies.com/feed/": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.runnersworld.com/rss/all.xml/": {
     "recent_hits": [
       0,
       1,
+      1,
       1
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.scienceofrunning.com/feed/": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://www.tandfonline.com/feed/rss/rjsp20": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://sporttechie.com/feed/": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://bjsm.bmj.com/rss/current.xml": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://journals.humankinetics.com/rss/journals/ijspp": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://hnrss.org/best?q=sports+analytics+AI": {
     "recent_hits": [
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-05-03"
+    "last_run": "2026-05-05"
   },
   "https://blogs.cfainstitute.org/investor/feed/": {
     "recent_hits": [

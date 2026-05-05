@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows/",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://the-decoder.com/anthropics-new-benchmark-claims-claude-can-match-human-experts-in-bioinformatics/",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-04-30/citadel-securities-rubner-on-tech-selloff-video",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html",
-    "date": "2026-05-01"
-  },
-  {
-    "url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems",
-    "date": "2026-05-01"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/",
     "date": "2026-05-02"
   },
@@ -130,5 +102,33 @@
   {
     "url": "https://www.cnbc.com/2026/05/04/european-markets-stoxx-600-ftse-dax-cac-iran-latest-news.html",
     "date": "2026-05-04"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7253703/2026/05/04/walker-jenkins-twins-shoulder-injury/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://www.runnersworld.com/gear/a26028922/running-shoes-for-men/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://www.outsideonline.com/outdoor-adventure/biking/women-building-cycling-industry/",
+    "date": "2026-05-05"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems",
+    "date": "2026-05-05"
   }
 ]
