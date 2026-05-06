@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-06",
+    "headline": "AI gets better at reasoning",
+    "brief": "It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis",
+    "topics": [
+      "AI & Data Tools"
+    ],
+    "article_count": 3,
+    "path": "issues/2026-05-06.html"
+  },
+  {
     "date": "2026-05-05",
     "headline": "AI sellers need services now",
     "brief": "It's like the moment when every car manufacturer realized they needed to offer financing plans - the cost of entry for AI adoption just got a lot higher because Anthropic and OpenAI are now selling services around their models, not just the models th",

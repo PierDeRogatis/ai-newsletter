@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.runnersworld.com/nutrition-weight-loss/g22716327/best-energy-gels/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.runnersworld.com/health-injuries/a70987758/runners-world-guide-to-running-for-depression-program/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/",
-    "date": "2026-05-02"
-  },
-  {
-    "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
-    "date": "2026-05-02"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/02/a-coding-implementation-to-parsing-analyzing-visualizing-and-fine-tuning-agent-reasoning-traces-using-the-lambda-hermes-agent-reasoning-traces-dataset/",
     "date": "2026-05-03"
   },
@@ -130,5 +86,17 @@
   {
     "url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems",
     "date": "2026-05-05"
+  },
+  {
+    "url": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
+    "date": "2026-05-06"
+  },
+  {
+    "url": "https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/",
+    "date": "2026-05-06"
+  },
+  {
+    "url": "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
+    "date": "2026-05-06"
   }
 ]
