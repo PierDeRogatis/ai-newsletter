@@ -73,6 +73,11 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
         gate.classList.remove('gd-visible');
         cont.classList.remove('gd-locked');
         io.disconnect();
+        var t = document.createElement('div');
+        t.textContent = '✓ Subscribed! Check your spam folder and mark us as safe.';
+        t.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:9001;background:#06101A;border:1px solid rgba(0,255,200,0.3);color:#ECF5FF;padding:12px 16px;border-radius:8px;font-size:12px;max-width:300px;line-height:1.5;';
+        document.body.appendChild(t);
+        setTimeout(function(){{t.remove();}},7000);
       }});
   }});
 }})();
