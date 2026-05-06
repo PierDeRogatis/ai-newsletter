@@ -154,7 +154,21 @@ def _wrap_sections(m: re.Match) -> str:
     )
 
 
-issues_dir = os.path.join(os.path.dirname(__file__), "..", "docs", "issues")
+docs_dir   = os.path.join(os.path.dirname(__file__), "..", "docs")
+issues_dir = os.path.join(docs_dir, "issues")
+
+# Patch index.html homepage form PAT
+_INDEX_PAT_PATTERN = re.compile(r'const _GH_PAT = "[^"]*" \+ "[^"]*";')
+index_path = os.path.join(docs_dir, "index.html")
+with open(index_path) as f:
+    index_html = f.read()
+new_index = _INDEX_PAT_PATTERN.sub(f"const _GH_PAT = '{_PAT_A}' + '{_PAT_B}';", index_html, count=1)
+if new_index != index_html:
+    with open(index_path, "w") as f:
+        f.write(new_index)
+    print("Updated PAT: index.html")
+else:
+    print("Skip (index.html PAT unchanged)")
 
 patched = updated = 0
 for fname in sorted(os.listdir(issues_dir)):
