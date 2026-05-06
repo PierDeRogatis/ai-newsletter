@@ -28,6 +28,45 @@ _TOPIC_ICONS: dict[str, str] = {
 _GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-email" type="email" required placeholder="you@example.com" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
 
 
+def _build_jsonld(iso_date: str, date_str: str, meta_desc: str, pub_base: str, issue_url: str) -> str:
+    data = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "NewsArticle",
+                "headline": f"Gradient Descent — {date_str}",
+                "description": meta_desc,
+                "datePublished": iso_date,
+                "dateModified": iso_date,
+                "author": {"@type": "Person", "name": "Pier Luigi De Rogatis"},
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Gradient Descent",
+                    "url": pub_base,
+                    "logo": {"@type": "ImageObject", "url": f"{pub_base}/logo.png"},
+                },
+                "mainEntityOfPage": issue_url,
+                "url": issue_url,
+                "image": {
+                    "@type": "ImageObject",
+                    "url": f"{pub_base}/logo.png",
+                    "width": 1080,
+                    "height": 1080,
+                },
+                "isPartOf": {"@type": "Periodical", "name": "Gradient Descent", "url": pub_base},
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Gradient Descent", "item": f"{pub_base}/"},
+                    {"@type": "ListItem", "position": 2, "name": date_str, "item": issue_url},
+                ],
+            },
+        ],
+    }
+    return f'<script type="application/ld+json">\n{json.dumps(data, indent=2, ensure_ascii=False)}\n</script>'
+
+
 def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
     dispatch_url = f"https://api.github.com/repos/{gh_repo}/actions/workflows/capture-email.yml/dispatches"
     mid = len(gh_pat) // 2
@@ -204,11 +243,18 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Gradient Descent — {date_str} | Daily AI Intelligence</title>
   <meta name="description" content="{meta_desc}">
+  <link rel="canonical" href="{issue_url}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Gradient Descent">
   <meta property="og:title" content="Gradient Descent — {date_str} | Daily AI Intelligence">
   <meta property="og:description" content="{meta_desc}">
   <meta property="og:image" content="{pub_base}/logo.png">
   <meta property="og:url" content="{issue_url}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gradient Descent — {date_str} | Daily AI Intelligence">
+  <meta name="twitter:description" content="{meta_desc}">
+  <meta name="twitter:image" content="{pub_base}/logo.png">
   <style>
     /* ── web-only overrides (email clients ignore <style> blocks) ── */
     @media screen {{
@@ -342,6 +388,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
     </td></tr>
   </table>
   {_build_gate_js(_GATE_GH_PAT, _GATE_GH_REPO)}
+  {_build_jsonld(iso_date, date_str, meta_desc, pub_base, issue_url)}
 </body>
 </html>"""
 
