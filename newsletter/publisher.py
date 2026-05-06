@@ -302,10 +302,17 @@ def save_to_archive(result: dict, date_str: str) -> None:
 
 def _write_sitemap(manifest: list, pub_base: str) -> None:
     """Write docs/sitemap.xml listing the archive index and all issue pages."""
-    entries = [f"  <url><loc>{pub_base}/</loc></url>"]
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    def _entry(loc: str, lastmod: str, freq: str, pri: str) -> str:
+        return (
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <lastmod>{lastmod}</lastmod>\n"
+            f"    <changefreq>{freq}</changefreq>\n"
+            f"    <priority>{pri}</priority>\n  </url>"
+        )
+    entries = [_entry(f"{pub_base}/", today, "daily", "1.0")]
     for m in manifest:
-        url = f"{pub_base}/{m['path']}"
-        entries.append(f"  <url><loc>{url}</loc><lastmod>{m['date']}</lastmod></url>")
+        entries.append(_entry(f"{pub_base}/{m['path']}", m["date"], "never", "0.8"))
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
