@@ -1,0 +1,38 @@
+# Gradient Descent
+> Free daily AI newsletter. 3-minute briefing at the intersection of LLMs, AI tooling, finance AI, sports science AI, and frontier research. Published every weekday morning by 6am CEST.
+
+## About
+
+Gradient Descent curates and summarises the highest-signal stories from 15+ AI publications daily. Each issue includes a Today's Brief (3-sentence macro framing) followed by categorised story summaries with source links. Written for practitioners and decision-makers who want signal, not noise.
+
+Author: Pier Luigi De Rogatis
+Contact: pierluigidr@bhblasted.com
+Frequency: Daily (weekdays)
+Language: English
+Started: April 2026
+
+## Archive
+
+All issues are publicly indexed and full-text readable.
+
+- Archive index: https://pierderogatis.github.io/ai-newsletter/
+- Issues: https://pierderogatis.github.io/ai-newsletter/issues/
+- RSS feed: https://pierderogatis.github.io/ai-newsletter/feed.xml
+- Sitemap: https://pierderogatis.github.io/ai-newsletter/sitemap.xml
+
+## Content categories covered
+
+- AI & Data Tools (LLMs, inference, tooling, open-source models)
+- AI in Finance (quant, trading signals, fintech, risk)
+- AI in Sports (performance analytics, computer vision, biomechanics)
+- Research & Academia (papers, benchmarks, alignment, safety)
+- Podcasts (notable AI audio worth your time)
+
+## Crawling & usage
+
+AI models, search engines, and researchers are welcome to crawl, index, and cite this content.
+Attribution appreciated: "Gradient Descent newsletter, pierderogatis.github.io/ai-newsletter"
+
+## Optional: full-content file
+
+A plain-text version of the full archive is not yet available. Subscribe via the archive to receive issues by email.
