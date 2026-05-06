@@ -253,9 +253,29 @@ def _load_manifest() -> list:
 
 def save_to_archive(result: dict, date_str: str) -> None:
     """Write a dated issue HTML file, update manifest.json, and regenerate RSS feed."""
+    import re as _re
     _ISSUES_DIR.mkdir(parents=True, exist_ok=True)
 
     html = emailer.build_html(result, date_str)
+
+    # Inject a thin web navigation bar into the archive page without touching the
+    # email HTML itself. The email template is designed for email clients; this
+    # wrapper makes issue pages navigable when opened in a browser.
+    pub_base = os.environ.get(
+        "ARCHIVE_BASE_URL", "https://pierderogatis.github.io/ai-newsletter"
+    ).rstrip("/")
+    _web_nav = (
+        '<div style="background:#080E1C;padding:10px 24px;display:flex;'
+        'justify-content:space-between;align-items:center;'
+        'font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;">'
+        f'<a href="{pub_base}" style="color:#6EE7B7;font-size:13px;'
+        'font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a>'
+        '<a href="https://pierluigiderogatis.substack.com/subscribe" '
+        'style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;'
+        'padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a>'
+        '</div>'
+    )
+    html = _re.sub(r'(<body[^>]*>)', r'\1' + _web_nav, html, count=1)
 
     issue_path = _ISSUES_DIR / f"{date_str}.html"
     issue_path.write_text(html, encoding="utf-8")
@@ -283,18 +303,16 @@ def save_to_archive(result: dict, date_str: str) -> None:
 def _write_sitemap(manifest: list, pub_base: str) -> None:
     """Write docs/sitemap.xml listing the archive index and all issue pages."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    entries = [
-        f"  <url><loc>{pub_base}/</loc>"
-        f"<lastmod>{today}</lastmod>"
-        f"<changefreq>daily</changefreq><priority>1.0</priority></url>"
-    ]
-    for m in manifest:
-        url = f"{pub_base}/{m['path']}"
-        entries.append(
-            f"  <url><loc>{url}</loc>"
-            f"<lastmod>{m['date']}</lastmod>"
-            f"<changefreq>never</changefreq><priority>0.8</priority></url>"
+    def _entry(loc: str, lastmod: str, freq: str, pri: str) -> str:
+        return (
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <lastmod>{lastmod}</lastmod>\n"
+            f"    <changefreq>{freq}</changefreq>\n"
+            f"    <priority>{pri}</priority>\n  </url>"
         )
+    entries = [_entry(f"{pub_base}/", today, "daily", "1.0")]
+    for m in manifest:
+        entries.append(_entry(f"{pub_base}/{m['path']}", m["date"], "never", "0.8"))
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

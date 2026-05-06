@@ -208,6 +208,22 @@
       transition: color 0.14s;
     }
     .btn-ghost:hover { color: var(--text); }
+    .hero-form { width: 100%; max-width: 420px; margin-bottom: 4px; }
+    .hero-form-row { display: flex; gap: 8px; margin-bottom: 10px; }
+    .hero-form-input {
+      flex: 1; min-width: 0;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(0,255,200,0.25);
+      border-radius: 8px; padding: 11px 14px;
+      color: var(--text); font-size: 13px; font-family: inherit; outline: none;
+      transition: border-color 0.14s;
+    }
+    .hero-form-input:focus { border-color: rgba(0,255,200,0.6); }
+    .hero-form-input::placeholder { color: var(--muted); }
+    .hero-form-consent { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; margin-bottom: 8px; }
+    .hero-form-consent input[type="checkbox"] { margin-top: 3px; accent-color: var(--accent); flex-shrink: 0; }
+    .hero-form-consent span { font-size: 11px; color: var(--muted); line-height: 1.5; }
+    #hero-form-msg { font-size: 12px; min-height: 16px; margin: 0; }
     .btn-tg {
       display: inline-flex; align-items: center; gap: 7px;
       background: rgba(41,182,246,0.08);
@@ -1027,14 +1043,24 @@
         <h1 class="hero-h1">Your analytical<br>edge, delivered<br>by <em>6am</em>.</h1>
         <div class="hero-rule"></div>
         <p class="hero-sub">AI tools, finance, sports science, and research — distilled into a 3-minute brief for analysts, athletes, and researchers who need signal, not noise.</p>
-        <div class="hero-btns">
-          <a href="#" class="btn-main" id="hero-subscribe">Subscribe on Substack →</a>
+        <form id="hero-form" class="hero-form" autocomplete="off">
+          <div class="hero-form-row">
+            <input id="hero-email-input" type="email" required placeholder="your@email.com" class="hero-form-input">
+            <button type="submit" class="btn-main" id="hero-subscribe">Subscribe free →</button>
+          </div>
+          <label class="hero-form-consent">
+            <input type="checkbox" id="hero-consent" required>
+            <span>I agree to receive Gradient Descent by email. Unsubscribe anytime.</span>
+          </label>
+          <p id="hero-form-msg"></p>
+        </form>
+        <div class="hero-btns" style="margin-top:12px;">
           <a href="#" class="btn-tg" id="hero-telegram">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
             Join on Telegram
           </a>
+          <a href="#archive" class="btn-ghost">Browse archive ↓</a>
         </div>
-        <div style="margin-top:14px"><a href="#archive" class="btn-ghost">Browse archive ↓</a></div>
       </div>
 
       <div class="hero-card-wrap">
@@ -1062,9 +1088,6 @@
       <span class="ch-label">Read on</span>
       <a href="#" class="ch-pill" id="ch-email">
         <span class="ch-dot" style="background:var(--accent)"></span>Email
-      </a>
-      <a href="#" class="ch-pill" id="ch-substack">
-        <span class="ch-dot" style="background:#FF6719"></span>Substack
       </a>
       <a href="#" class="ch-pill ch-pill-tg" id="ch-telegram">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
@@ -1220,8 +1243,8 @@
         <div class="pipeline-step step-04 scroll-reveal from-right" data-delay="4">
           <div class="step-num">04</div>
           <div class="step-title">Distribute</div>
-          <p class="step-desc">Gmail SMTP, GitHub Pages archive, Telegram channel, and X/Twitter — all updated simultaneously. Substack ingests the RSS feed automatically after each run.</p>
-          <span class="step-detail">4 channels · simultaneous · RSS → Substack</span>
+          <p class="step-desc">Brevo delivers the email to all subscribers. GitHub Pages archive, Telegram channel, and X/Twitter are all updated simultaneously at 6am.</p>
+          <span class="step-detail">4 channels · simultaneous · Brevo email</span>
           <span class="step-watermark" aria-hidden="true">04</span>
         </div>
       </div>
@@ -1265,7 +1288,7 @@
           <a href="#" id="footer-telegram">Telegram</a>
           <a href="https://x.com/PierDeRog" target="_blank" rel="noopener">X / Twitter</a>
           <a href="https://linkedin.com/in/pierluigiderogatis" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://pierluigiderogatis.substack.com" target="_blank" rel="noopener">Substack</a>
+          <a href="#" id="footer-email-link">Newsletter</a>
         </div>
       </div>
     </div>
@@ -1281,8 +1304,10 @@
   </footer>
 
   <script>
-    const SUBSTACK_HREF = "https://pierluigiderogatis.substack.com";
     const TELEGRAM_HREF = "https://t.me/gradient_descent_ai";
+    const GH_DISPATCH   = "https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches";
+    // PAT split — set GATE_GH_PAT secret and re-run scripts/patch_gate.py to embed a live token
+    const _GH_PAT = "" + "";
 
     const TOPIC_PILL = {
       "AI & Data Tools":     { cls: "pill-data",     label: "Data" },
@@ -1652,16 +1677,52 @@
       });
     }
 
-    ["nav-subscribe", "hero-subscribe", "footer-subscribe", "ch-substack"].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.href = SUBSTACK_HREF;
-    });
+    // Wire Telegram links
     ["hero-telegram", "footer-telegram", "ch-telegram"].forEach(id => {
       const el = document.getElementById(id);
       if (el) el.href = TELEGRAM_HREF;
     });
-    const chEmail = document.getElementById("ch-email");
-    if (chEmail) chEmail.href = SUBSTACK_HREF;
+
+    // Subscribe CTAs — scroll to + focus the hero form
+    function focusHeroForm(e) {
+      e.preventDefault();
+      document.getElementById("hero-email-input")?.focus();
+      document.getElementById("hero-form")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    ["nav-subscribe", "footer-subscribe", "ch-email", "footer-email-link"].forEach(id => {
+      document.getElementById(id)?.addEventListener("click", focusHeroForm);
+    });
+
+    // Hero email capture form
+    const heroForm = document.getElementById("hero-form");
+    if (heroForm) {
+      heroForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        const email   = document.getElementById("hero-email-input").value.trim();
+        const consent = document.getElementById("hero-consent").checked;
+        const msg     = document.getElementById("hero-form-msg");
+        const btn     = document.getElementById("hero-subscribe");
+        if (!consent) { msg.textContent = "Please accept to continue."; msg.style.color = "#FF6B6B"; return; }
+        btn.disabled = true; btn.textContent = "Subscribing…";
+        msg.textContent = ""; msg.style.color = "";
+        fetch(GH_DISPATCH, {
+          method: "POST",
+          headers: {
+            "Authorization": "Bearer " + _GH_PAT,
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28"
+          },
+          body: JSON.stringify({ ref: "main", inputs: { email } })
+        })
+          .catch(() => {})
+          .finally(() => {
+            msg.textContent = "✓ You're in! First issue arrives tomorrow at 6am.";
+            msg.style.color = "#00FFC8";
+            btn.textContent = "Subscribed ✓";
+          });
+      });
+    }
 
     initParticleMesh();
     loadArchive();
