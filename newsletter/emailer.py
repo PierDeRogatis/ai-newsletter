@@ -197,8 +197,6 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
         if articles
     )
 
-    substack_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -260,7 +258,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
 <body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
   <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
     <a href="{pub_base}/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
-    <a href="{substack_url}/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+    <a href="{pub_base}/index.html" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Get every issue free &rarr;</a>
   </div>
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
     <tr><td align="center" style="padding:32px 16px;">
@@ -308,18 +306,18 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
                   <table cellpadding="0" cellspacing="0">
                     <tr>
                       <td style="padding-right:10px;">
-                        <a href="{substack_url}/subscribe"
+                        <a href="{pub_base}/index.html"
                            style="display:inline-block;background:#00FFC8;color:#080E1C;
                                   font-size:12px;font-weight:700;padding:8px 16px;
                                   border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
-                          Subscribe on Substack &rarr;
+                          Subscribe free &rarr;
                         </a>
                       </td>
                       <td>
-                        <a href="{substack_url}"
+                        <a href="{issue_url}"
                            style="display:inline-block;color:#6B7280;font-size:12px;
                                   font-weight:600;text-decoration:none;padding:8px 0;">
-                          Forward to a colleague
+                          Share this issue
                         </a>
                       </td>
                     </tr>
