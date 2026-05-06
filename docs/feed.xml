@@ -9,6 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, May 6, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</guid>
+    <pubDate>Wed, 06 May 2026 06:00:00 +0000</pubDate>
+    <description>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis</description>
+    <category>AI &amp; Data Tools</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 6, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decision-making. This shift is landing on trading desks as a way to build more reliable risk models, and on sports teams as a way to analyze player decision-making with more nuance. Now that we can see which data points are driving specific predictions, the question is what other 'black box' systems in our workflows can we start to dissect and improve with similar techniques?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">Amazon brings agentic fine-tuning to SageMaker</a></h3>
+<p>Amazon SageMaker now includes an AI agent that helps developers customize language models, supporting Llama, Qwen, Deepseek, and Nova. This changes the game for developers who need to fine-tune models for specific tasks, as they can now use a more automated and guided process to get the results they need.&ensp;<a href="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/">ChatGPT update rolls out GPT-5.5 Instant</a></h3>
+<p>The new GPT-5.5 Instant model reduces hallucinations by 52.5% and adds a 'memory sources' feature to show which context shaped a response. This changes how we interact with chatbots, as we can now get more accurate and transparent answers, and even see the reasoning behind them.&ensp;<a href="https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/">Surviving High Uncertainty in Logistics with MARL</a></h3>
+<p>A new approach using Multi-Agent Reinforcement Learning (MARL) helps build scale-invariant agents that can adapt to changing contexts in logistics. This changes the way we optimize logistics systems, as we can now use more flexible and adaptive models to handle uncertainty and improve performance.&ensp;<a href="https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/">→ Read</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, May 5, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-05.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-05.html</guid>
@@ -17,35 +40,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 5, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment when every car manufacturer realized they needed to offer financing plans - the cost of entry for AI adoption just got a lot higher because Anthropic and OpenAI are now selling services around their models, not just the models themselves. This changes the workflow for data teams, who now have to consider the total cost of ownership, including support and customization, when choosing an AI tool, and it lands on the trading desk as a question of how to value these new service-based AI companies. You should be asking your team whether you're still getting a good deal on your current AI tools, or if it's time to renegotiate for more comprehensive services, like the kind that come with buying a new car - with a warranty and maintenance package included, and consider how this shift will impact your budget and resource allocation in the next quarter,</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/">Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI</a></h3>
-<p>Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs are launching a new AI services company to help mid-market businesses adopt Claude, which means that selling AI now requires a lot more than just the AI itself. This changes the way data teams approach AI adoption, as they now need to consider the total cost of ownership, including support and customization, when choosing an AI tool.&ensp;<a href="https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/">Single Agent vs Multi-Agent: When to Build a Multi-Agent System</a></h3>
-<p>A practical guide to understanding AI agent design, ReAct workflows, and when to scale from a single agent to a multi-agent system, which is crucial for building efficient knowledge bases for AI models. This changes the tool that data scientists use to design and deploy AI systems, as they now have a clear framework for deciding between single and multi-agent systems.&ensp;<a href="https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/">How to Build an Efficient Knowledge Base for AI Models</a></h3>
-<p>Building a knowledge base for AI models isn’t a one-time task but an iterative process of refinement, which requires a deep understanding of AI agent design and multi-agent systems. This changes the workflow for data teams, as they now need to prioritize knowledge base maintenance and updates to ensure their AI models remain accurate and efficient.&ensp;<a href="https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7253703/2026/05/04/walker-jenkins-twins-shoulder-injury/">Twins top prospect Walker Jenkins to miss more time with left shoulder injury</a></h3>
-<p>Jenkins, the No. 5 pick in the 2023 MLB Draft, has had trouble staying healthy as a pro, which highlights the importance of using AI and data analysis to predict and prevent injuries in sports. This changes the way sports teams approach player health and safety, as they now need to consider using AI-powered tools to identify potential injury risks and develop personalized prevention plans.&ensp;<a href="https://www.nytimes.com/athletic/7253703/2026/05/04/walker-jenkins-twins-shoulder-injury/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/a26028922/running-shoes-for-men/">The 10 Best Running Shoes for Men</a></h3>
-<p>From road to trail, daily training to racing, these are our top trainers for every kind of runner, which shows how AI can be used to personalize product recommendations based on individual preferences and needs. This changes the way sports equipment manufacturers approach product design and marketing, as they now need to consider using AI-powered tools to create personalized product recommendations and improve customer satisfaction.&ensp;<a href="https://www.runnersworld.com/gear/a26028922/running-shoes-for-men/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.outsideonline.com/outdoor-adventure/biking/women-building-cycling-industry/">Meet the Women Who Have Been Building the Cycling Industry All Along</a></h3>
-<p>I met the women leaders building the bikes millions of people ride—and the sport millions of us love, which highlights the importance of diversity and inclusion in the sports industry, and how AI can be used to promote and support underrepresented groups. This changes the way sports organizations approach diversity and inclusion, as they now need to consider using AI-powered tools to identify and address biases, and promote more inclusive and equitable environments.&ensp;<a href="https://www.outsideonline.com/outdoor-adventure/biking/women-building-cycling-industry/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">How to Engineer AI Inference Systems with Philip Kiely - #766</a></h3>
-<p>In this episode, Philip Kiely, head of AI education at Baseten, joins us to unpack the fast-evolving discipline of inference engineering, which is crucial for building efficient AI systems. This changes the way data scientists approach AI system design, as they now need to prioritize inference engineering and consider the total cost of ownership, including support and customization, when choosing an AI tool.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, May 4, 2026</title>
