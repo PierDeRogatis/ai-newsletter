@@ -1142,6 +1142,12 @@
       <button class="filter-btn" data-filter="Research &amp; Academia">Research</button>
       <button class="filter-btn" data-filter="Podcasts">Podcast</button>
     </div>
+    <input id="archive-search" type="search" placeholder="Search issues…"
+      aria-label="Search archive"
+      style="width:100%;max-width:480px;display:block;margin:0 auto 24px;
+             background:#06101A;border:1px solid rgba(0,255,200,0.15);
+             border-radius:8px;padding:10px 16px;color:#ECF5FF;font-size:14px;
+             font-family:inherit;outline:none;box-sizing:border-box;">
     <div id="featured-issue"></div>
     <div class="issue-list" id="issue-grid">
       <p class="placeholder">Loading archive…</p>
@@ -1733,6 +1739,40 @@
 
     initParticleMesh();
     loadArchive();
+
+    document.getElementById('archive-search').addEventListener('input', function() {
+      const q = this.value.trim().toLowerCase();
+      const grid = document.getElementById('issue-grid');
+      const featured = document.getElementById('featured-issue');
+      const lmw = document.getElementById('load-more-wrap');
+      const filterBar = document.getElementById('filter-bar');
+      if (!q) {
+        if (featured) featured.style.display = '';
+        if (lmw) lmw.style.display = '';
+        if (filterBar) filterBar.style.display = '';
+        grid.innerHTML = '';
+        currentPage = 1;
+        renderPage(1);
+        updateLoadMoreCount();
+        return;
+      }
+      if (featured) featured.style.display = 'none';
+      if (lmw) lmw.style.display = 'none';
+      if (filterBar) filterBar.style.display = 'none';
+      const matches = fullManifest.filter(e =>
+        (e.headline || '').toLowerCase().includes(q) ||
+        (e.brief || '').toLowerCase().includes(q) ||
+        (e.date || '').includes(q)
+      );
+      if (!matches.length) {
+        grid.innerHTML = '<p class="placeholder">No issues match your search.</p>';
+        return;
+      }
+      grid.innerHTML = matches.map((issue, i) => renderRow(issue, i)).join('');
+      grid.querySelectorAll('.scroll-reveal:not(.in)').forEach(el => {
+        if (revealObserver) revealObserver.observe(el);
+      });
+    });
 
     // Structured data for search engines and AI crawlers
     const _ld = document.createElement("script");

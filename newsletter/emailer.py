@@ -381,12 +381,20 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
               </tr>
             </table>
 
+            <!-- Share CTA -->
+            <p style="text-align:center;margin:24px 0 8px;">
+              <a href="{issue_url}" style="color:#00FFC8;font-size:13px;font-weight:700;text-decoration:none;">
+                Share this issue &rarr;
+              </a>
+            </p>
+
             <!-- Footer -->
             <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
               <tr>
                 <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
                   Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
-                  You&rsquo;re receiving this because you subscribed to Gradient Descent.
+                  You&rsquo;re receiving this because you subscribed to Gradient Descent.<br>
+                  <a href="{{{{unsubscribe}}}}" style="color:#3A5070;font-size:11px;text-decoration:none;">Unsubscribe</a>
                 </td>
               </tr>
             </table>
