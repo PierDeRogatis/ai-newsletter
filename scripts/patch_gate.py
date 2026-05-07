@@ -38,6 +38,7 @@ GATE_OVERLAY = (
     'Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p>'
     '<form id="gd-form" style="text-align:left;">'
     '<input id="gd-email" type="email" required placeholder="you@example.com" '
+    'aria-label="Email address" '
     'style="display:block;width:100%;box-sizing:border-box;background:#03080F;'
     'border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;'
     'color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;">'
@@ -112,6 +113,11 @@ GATE_JS = f"""<script>
 # Regex that matches any gate JS block we previously injected (to replace it)
 _OLD_JS_PATTERN = re.compile(r"<script>\s*\(function\(\) \{.*?gd_unlocked.*?\}\)\(\);\s*</script>", re.DOTALL)
 
+# Regex to add aria-label to the gate email input on already-patched pages
+_INPUT_ARIA_PATTERN = re.compile(
+    r'(<input id="gd-email" type="email" required placeholder="you@example\.com" )(?!aria-label)'
+)
+
 CSS_TARGET = (
     "      td[style*=\"background:#080E1C\"] {\n"
     "        background: #030810 !important;\n"
@@ -179,15 +185,16 @@ for fname in sorted(os.listdir(issues_dir)):
         html = f.read()
 
     if MARKER in html:
-        # Already has the gate structure — just replace the JS block
+        # Already has the gate structure — replace JS and patch aria-label
         new_html = _OLD_JS_PATTERN.sub(GATE_JS, html, count=1)
+        new_html = _INPUT_ARIA_PATTERN.sub(r'\1aria-label="Email address" ', new_html, count=1)
         if new_html != html:
             with open(path, "w") as f:
                 f.write(new_html)
-            print(f"Updated JS: {fname}")
+            print(f"Updated JS+aria: {fname}")
             updated += 1
         else:
-            print(f"Skip (JS unchanged): {fname}")
+            print(f"Skip (unchanged): {fname}")
         continue
 
     # First-time patch
