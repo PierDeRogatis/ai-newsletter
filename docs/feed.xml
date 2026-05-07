@@ -9,27 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, May 7, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</guid>
+    <pubDate>Thu, 07 May 2026 06:00:00 +0000</pubDate>
+    <description>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new netwo</description>
+    <category>AI &amp; Data Tools</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 7, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new networking protocol. This shift in AI tooling is going to land on a trading desk as a cheaper way to backtest models or on a sports team as a way to analyze player performance with more precision. Now you have to ask yourself: are you using last year's map to navigate this new highway system, or are you taking advantage of the fact that 760M parameters can outperform models many times its size?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/">Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power Claude</a></h3>
+<p>Anthropic is taking over the full computing capacity of SpaceX's Colossus 1 data center, with over 220,000 NVIDIA GPUs, and doubling rate limits for Claude Code. This changes the game for large-scale AI model training, allowing for faster and more efficient processing of complex tasks, which means you can now train models that were previously too expensive to run.&ensp;<a href="https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/">→ Read</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, May 6, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</guid>
     <pubDate>Wed, 06 May 2026 06:00:00 +0000</pubDate>
     <description>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis</description>
     <category>AI &amp; Data Tools</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 6, 2026&ensp;·&ensp;3 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decision-making. This shift is landing on trading desks as a way to build more reliable risk models, and on sports teams as a way to analyze player decision-making with more nuance. Now that we can see which data points are driving specific predictions, the question is what other 'black box' systems in our workflows can we start to dissect and improve with similar techniques?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">Amazon brings agentic fine-tuning to SageMaker</a></h3>
-<p>Amazon SageMaker now includes an AI agent that helps developers customize language models, supporting Llama, Qwen, Deepseek, and Nova. This changes the game for developers who need to fine-tune models for specific tasks, as they can now use a more automated and guided process to get the results they need.&ensp;<a href="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/">ChatGPT update rolls out GPT-5.5 Instant</a></h3>
-<p>The new GPT-5.5 Instant model reduces hallucinations by 52.5% and adds a 'memory sources' feature to show which context shaped a response. This changes how we interact with chatbots, as we can now get more accurate and transparent answers, and even see the reasoning behind them.&ensp;<a href="https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/">Surviving High Uncertainty in Logistics with MARL</a></h3>
-<p>A new approach using Multi-Agent Reinforcement Learning (MARL) helps build scale-invariant agents that can adapt to changing contexts in logistics. This changes the way we optimize logistics systems, as we can now use more flexible and adaptive models to handle uncertainty and improve performance.&ensp;<a href="https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/">→ Read</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, May 5, 2026</title>

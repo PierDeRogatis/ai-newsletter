@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-07",
+    "headline": "AI just scaled up",
+    "brief": "It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new netwo",
+    "topics": [
+      "AI & Data Tools"
+    ],
+    "article_count": 1,
+    "path": "issues/2026-05-07.html"
+  },
+  {
     "date": "2026-05-06",
     "headline": "AI gets better at reasoning",
     "brief": "It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis",
