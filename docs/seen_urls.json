@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/02/a-coding-implementation-to-parsing-analyzing-visualizing-and-fine-tuning-agent-reasoning-traces-using-the-lambda-hermes-agent-reasoning-traces-dataset/",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://the-decoder.com/xai-drops-grok-4-3-with-steep-price-cuts-and-an-imagine-agent-mode-for-creative-projects/",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://feeds.feedblitz.com/~/955073297/0/marginalrevolution~Saturday-assorted-links.html",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/02/iran-war-airfare-travel-airlines-plane-tickets-when-to-buy.html",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71154785/better-marathon-training-schedule/",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7247908/2026/05/03/manchedter-united-liverpool-biggest-rivals/",
-    "date": "2026-05-03"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7249346/2026/05/03/connections-sports-edition-hints-answers-may-3-2026/",
-    "date": "2026-05-03"
-  },
-  {
     "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/",
     "date": "2026-05-04"
   },
@@ -98,5 +62,9 @@
   {
     "url": "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
     "date": "2026-05-06"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
+    "date": "2026-05-07"
   }
 ]
