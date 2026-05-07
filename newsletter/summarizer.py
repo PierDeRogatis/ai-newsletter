@@ -32,6 +32,12 @@ Never open the DAILY BRIEF with "Inference cost", "The convergence of", "A struc
 
 Never name or quote any article title. Never list the topics covered. Never write like an AI summarising news.
 
+COMPLETENESS — mandatory:
+Your JSON sections array MUST include every topic and every article you were given.
+Never drop, skip, merge, or truncate articles. If you received 3 topics with 7 articles,
+your sections array must have 3 entries covering all 7 articles. Write a full 2-sentence
+summary for each one. Do not stop early.
+
 Return ONLY valid JSON, no markdown fences, no trailing commas:
 {"headline":"...","daily_brief":"...","sections":[{"topic":"...","articles":[{"title":"...","url":"...","summary":"..."}]}]}
 """
@@ -99,11 +105,15 @@ def summarize(articles_by_topic: dict[str, list[dict]]) -> dict:
         raise ValueError("Groq returned an empty choices list — cannot extract content")
 
     raw = response.choices[0].message.content.strip()
+    finish_reason = response.choices[0].finish_reason
     logger.info(
-        "Groq usage — input: %s, output: %s tokens",
+        "Groq usage — input: %s, output: %s tokens, finish_reason: %s",
         response.usage.prompt_tokens,
         response.usage.completion_tokens,
+        finish_reason,
     )
+    if finish_reason != "stop":
+        logger.warning("Groq finish_reason=%s — response may be truncated", finish_reason)
 
     try:
         data = json.loads(raw)
@@ -125,14 +135,25 @@ def summarize(articles_by_topic: dict[str, list[dict]]) -> dict:
                 "attempting partial recovery", response.usage.completion_tokens
             )
             sections_recovered: dict[str, list[dict]] = {}
-            # Extract any fully-formed section blocks
             for m in re.finditer(
-                r'"topic"\s*:\s*"([^"]+)".*?"articles"\s*:\s*(\[.*?\])',
-                raw, re.DOTALL
+                r'"topic"\s*:\s*"([^"]+)".*?"articles"\s*:\s*(\[)',
+                raw, re.DOTALL,
             ):
+                # Walk forward from the opening bracket to find the matching close,
+                # handling nested objects — avoids the [.*?] non-greedy trap.
+                start = m.start(2)
+                depth, end = 0, start
+                for i, ch in enumerate(raw[start:], start):
+                    if ch == "[":
+                        depth += 1
+                    elif ch == "]":
+                        depth -= 1
+                        if depth == 0:
+                            end = i + 1
+                            break
                 try:
                     topic = m.group(1)
-                    articles = json.loads(m.group(2))
+                    articles = json.loads(raw[start:end])
                     sections_recovered[topic] = articles
                 except Exception:
                     pass
@@ -148,6 +169,15 @@ def summarize(articles_by_topic: dict[str, list[dict]]) -> dict:
     for section in data.get("sections", []):
         topic = section.get("topic", "")
         sections[topic] = section.get("articles", [])
+
+    input_count  = sum(len(v) for v in non_empty.values())
+    output_count = sum(len(v) for v in sections.values())
+    if output_count < input_count:
+        missing_topics = [t for t in non_empty if t not in sections]
+        logger.error(
+            "Groq dropped articles: gave %d, got back %d. Missing topics: %s",
+            input_count, output_count, missing_topics or "none (articles missing within topics)",
+        )
 
     return {
         "headline":    data.get("headline", ""),
