@@ -9,21 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, May 8, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</guid>
+    <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
+    <description>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frame</description>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 8, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frameworks. This lands on a trading desk as a chance to automate more routine analysis tasks, freeing up human traders to focus on the tricky stuff. Now you have to ask yourself: what's the one task in your workflow that you've been putting off automating because it seemed too expensive, and is it time to revisit that decision?</p></blockquote>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr">[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized</a></h3>
+<p>Anthropic and SpaceX just announced a massive deal for Colossus I, a new AI data center that will require 300MW of power and cost $5 billion per year, with ARR growth of 8000% annualized. This changes the scale of investment in AI infrastructure, which is now seeing massive deals that are redefining the industry's growth prospects.&ensp;<a href="https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, May 7, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</guid>
     <pubDate>Thu, 07 May 2026 06:00:00 +0000</pubDate>
     <description>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new netwo</description>
     <category>AI &amp; Data Tools</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 7, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new networking protocol. This shift in AI tooling is going to land on a trading desk as a cheaper way to backtest models or on a sports team as a way to analyze player performance with more precision. Now you have to ask yourself: are you using last year's map to navigate this new highway system, or are you taking advantage of the fact that 760M parameters can outperform models many times its size?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/">Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power Claude</a></h3>
-<p>Anthropic is taking over the full computing capacity of SpaceX's Colossus 1 data center, with over 220,000 NVIDIA GPUs, and doubling rate limits for Claude Code. This changes the game for large-scale AI model training, allowing for faster and more efficient processing of complex tasks, which means you can now train models that were previously too expensive to run.&ensp;<a href="https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/">→ Read</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, May 6, 2026</title>
@@ -197,18 +205,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, April 18, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html</guid>
-    <pubDate>Sat, 18 Apr 2026 06:00:00 +0000</pubDate>
-    <description>Consider the potential risks of AI-driven technological transformation in finance and sports, as well as the limitations of current AI evaluation methods, and how these factors may impact your data analysis and decision-making processes.</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
