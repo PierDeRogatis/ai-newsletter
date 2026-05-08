@@ -184,3 +184,16 @@ def test_send_html_body_contains_article_titles(sample_result):
     body = json.loads(req.data.decode())
     assert "LLMs Get Cheaper Again" in body["htmlContent"]
     assert "Quant Funds Shift to Foundation Models" in body["htmlContent"]
+
+
+# ── compliance / CTA ──────────────────────────────────────────────────────────
+
+def test_build_html_has_unsubscribe_link(sample_result):
+    html = build_html(sample_result)
+    assert "{{unsubscribe}}" in html
+
+
+def test_build_html_has_share_cta(sample_result):
+    html = build_html(sample_result)
+    assert "Share this issue" in html
+    assert "pierderogatis.github.io" in html

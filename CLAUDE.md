@@ -202,9 +202,9 @@ GitHub Actions uses Python 3.11. Match this locally to avoid surprises.
 
 ## Known issues and deferred work
 
-See `ROADMAP.md` for the full prioritised list. Critical items:
+See `ROADMAP.md` for the full prioritised list.
 
-1. `RECIPIENT_EMAIL` is hardcoded in `config.py:3` — move to env var.
-2. `os.environ["GROQ_API"]` in `summarizer.py:57` throws `KeyError` with no message — validate all env vars at startup.
-3. The Groq API call in `summarizer.py:61` has no error handling and no timeout — wrap in try/except, add `timeout` param.
-4. Steps 4–7 in `main.py` are not individually error-handled — a failure in one silently skips the rest.
+- `RECIPIENT_EMAIL` in `config.py` reads from `os.environ.get("RECIPIENT_EMAIL", "")`.
+  The env var is required; validated at startup by `_validate_env()` in `main.py`.
+- `feed_discovery.py` writes `docs/discovered_feeds.json` and `docs/feed_archive.json`.
+  These files are created on first pipeline run and auto-committed by the daily workflow.
