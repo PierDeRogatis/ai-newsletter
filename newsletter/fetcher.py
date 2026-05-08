@@ -169,8 +169,12 @@ def _fetch_podcast_of_day(urls: list[str], cutoff: datetime, now: datetime) -> l
 def fetch_all(
     cross_day_seen: set[str] | None = None,
     feed_scores: dict | None = None,
+    extra_feeds: dict[str, list[str]] | None = None,
 ) -> tuple[dict[str, list[Article]], set[str]]:
     """Return (articles_by_topic, attempted_feed_urls).
+
+    extra_feeds: additional feed URLs per topic (from feed_discovery) merged
+    with the static TOPICS list at runtime without modifying config.
 
     attempted_feed_urls is every non-podcast feed URL that was passed to the
     HTTP layer today — used by publisher.update_feed_scores() to record misses
@@ -186,6 +190,7 @@ def fetch_all(
     logger.info("Weekday %d — active topics: %s", weekday, active_topics)
 
     cross_day_seen = cross_day_seen or set()
+    extra_feeds = extra_feeds or {}
     result: dict[str, list[Article]] = {}
     seen_urls: set[str] = set()
     seen_titles: set[str] = set()
@@ -195,19 +200,23 @@ def fetch_all(
         if topic not in active_topics:
             continue
         try:
+            # Merge in any feeds discovered at runtime (without modifying config)
+            discovered = extra_feeds.get(topic, [])
+            merged_urls = urls + [u for u in discovered if u not in urls]
+
             is_podcast = topic == "Podcasts"
             cutoff = podcast_cutoff if is_podcast else regular_cutoff
             keywords = TOPIC_KEYWORDS.get(topic, [])
 
-            logger.info("Fetching topic '%s' from %d feeds…", topic, len(urls))
+            logger.info("Fetching topic '%s' from %d feeds…", topic, len(merged_urls))
 
             if is_podcast:
-                result[topic] = _fetch_podcast_of_day(urls, cutoff, now)
+                result[topic] = _fetch_podcast_of_day(merged_urls, cutoff, now)
                 logger.info("  → kept %d articles for 'Podcasts'", len(result[topic]))
                 continue
 
-            attempted_feeds.update(urls)
-            raw_entries = _entries_from_urls(urls)
+            attempted_feeds.update(merged_urls)
+            raw_entries = _entries_from_urls(merged_urls)
 
             articles: list[Article] = []
             for entry in raw_entries:

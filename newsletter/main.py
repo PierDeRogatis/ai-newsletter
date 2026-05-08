@@ -7,8 +7,8 @@ import traceback
 from datetime import datetime, timezone
 from email.mime.text import MIMEText
 
-from newsletter import fetcher, summarizer, emailer, publisher
-from newsletter.config import RECIPIENT_EMAIL, SENDER_EMAIL
+from newsletter import fetcher, summarizer, emailer, publisher, feed_discovery
+from newsletter.config import RECIPIENT_EMAIL, SENDER_EMAIL, TOPIC_ROTATION, TOPICS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -73,13 +73,39 @@ def main() -> int:
     logger.info("Cross-day dedup: %d URLs remembered from last 3 days", len(cross_day_seen))
     feed_scores = publisher.load_feed_scores()
     logger.info("Feed scores loaded (%d feeds tracked)", len(feed_scores))
+    extra_feeds = feed_discovery.load_discovered()
+    if extra_feeds:
+        total_extra = sum(len(v) for v in extra_feeds.values())
+        logger.info("Discovered feeds loaded: %d extra feeds across %d topics", total_extra, len(extra_feeds))
 
     # Step 2: fetch articles (skipping already-seen URLs, boosting high-quality feeds)
     articles_by_topic, attempted_feeds = fetcher.fetch_all(
-        cross_day_seen=cross_day_seen, feed_scores=feed_scores
+        cross_day_seen=cross_day_seen, feed_scores=feed_scores, extra_feeds=extra_feeds
     )
     total_fetched = sum(len(v) for v in articles_by_topic.values())
     logger.info("Fetched %d articles total across %d topics", total_fetched, len(articles_by_topic))
+
+    # Step 2b: if below threshold, discover new sources and re-fetch once
+    if total_fetched < feed_discovery.MIN_ARTICLES_TRIGGER:
+        logger.warning(
+            "Only %d articles fetched (threshold: %d) — running feed discovery",
+            total_fetched, feed_discovery.MIN_ARTICLES_TRIGGER,
+        )
+        weekday = datetime.now(timezone.utc).weekday()
+        active_topics = TOPIC_ROTATION.get(weekday, list(TOPICS.keys()))
+        new_feeds = feed_discovery.run_discovery(active_topics)
+        if new_feeds:
+            merged: dict[str, list[str]] = dict(extra_feeds)
+            for topic, urls in new_feeds.items():
+                existing = set(merged.get(topic, []))
+                merged[topic] = merged.get(topic, []) + [u for u in urls if u not in existing]
+            articles_by_topic, attempted_feeds = fetcher.fetch_all(
+                cross_day_seen=cross_day_seen, feed_scores=feed_scores, extra_feeds=merged
+            )
+            total_fetched = sum(len(v) for v in articles_by_topic.values())
+            logger.info("Re-fetched %d articles after discovery", total_fetched)
+        else:
+            logger.warning("Discovery found no new feeds — proceeding with %d articles", total_fetched)
 
     if total_fetched == 0:
         logger.warning("No articles found — skipping.")
