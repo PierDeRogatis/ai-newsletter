@@ -66,13 +66,10 @@ TOPICS: dict[str, list[str]] = {
         "https://www.marktechpost.com/feed/",
         # AI lab official blogs
         "https://openai.com/blog/rss.xml",
-        "https://deepmind.google/blog/rss.xml",
         # Practitioner / independent — high-signal
-        "https://simonwillison.net/atom/everything/",
         "https://towardsdatascience.com/feed",
         # Community aggregators
         "https://hnrss.org/frontpage",
-        "https://hnrss.org/best?q=AI+machine+learning",
     ],
     "AI in Finance": [
         # Major news outlets
@@ -132,7 +129,6 @@ TOPICS: dict[str, list[str]] = {
         "https://hnrss.org/best?q=LLM+research+paper",
         "https://hnrss.org/best?q=neural+network+benchmark",
         # Papers index
-        "https://paperswithcode.com/latest/rss",
         "https://distill.pub/rss.xml",
     ],
     "Podcasts": [
