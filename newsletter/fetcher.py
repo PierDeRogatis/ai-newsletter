@@ -1,5 +1,7 @@
+import ipaddress
 import re
 import logging
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
@@ -21,6 +23,38 @@ from newsletter.config import (
 logger = logging.getLogger(__name__)
 
 Article = dict  # {title, url, snippet, source, published, score, feed_url}
+
+_PRIVATE_NETS = [
+    ipaddress.ip_network("127.0.0.0/8"),
+    ipaddress.ip_network("10.0.0.0/8"),
+    ipaddress.ip_network("172.16.0.0/12"),
+    ipaddress.ip_network("192.168.0.0/16"),
+    ipaddress.ip_network("169.254.0.0/16"),  # link-local / cloud metadata
+    ipaddress.ip_network("::1/128"),
+    ipaddress.ip_network("fc00::/7"),
+]
+
+
+_BLOCKED_HOSTNAMES = {"localhost"}
+
+
+def _is_safe_url(url: str) -> bool:
+    """Return False for non-http(s) schemes and bare private/loopback IP hosts."""
+    try:
+        p = urllib.parse.urlparse(url)
+        if p.scheme not in ("http", "https"):
+            return False
+        host = p.hostname or ""
+        if host in _BLOCKED_HOSTNAMES:
+            return False
+        try:
+            addr = ipaddress.ip_address(host)
+            return not any(addr in net for net in _PRIVATE_NETS)
+        except ValueError:
+            pass  # hostname, not a bare IP — allow
+        return True
+    except Exception:
+        return False
 
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
 _WHITESPACE_RE = re.compile(r"\s+")
@@ -69,6 +103,9 @@ _FEED_TIMEOUT = 8  # seconds per HTTP request
 
 def _fetch_feed(url: str) -> tuple[str, list]:
     """Fetch one RSS feed. Returns (url, entries) so callers know the source."""
+    if not _is_safe_url(url):
+        logger.warning("Skipping feed with unsafe URL: %s", url)
+        return url, []
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "ai-newsletter/1.0"})
         with urllib.request.urlopen(req, timeout=_FEED_TIMEOUT) as resp:

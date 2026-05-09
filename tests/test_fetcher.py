@@ -9,6 +9,7 @@ from newsletter.fetcher import (
     _domain,
     _parse_date,
     _extract_article,
+    _is_safe_url,
     fetch_all,
 )
 from newsletter.config import TOPICS
@@ -179,3 +180,24 @@ def test_fetch_all_extra_feeds_merged():
         fetch_all(extra_feeds={topic: [extra_url]})
 
     assert extra_url in fetched_urls
+
+
+# ── _is_safe_url ──────────────────────────────────────────────────────────────
+
+def test_is_safe_url_accepts_https():
+    assert _is_safe_url("https://techcrunch.com/feed/")
+
+def test_is_safe_url_accepts_http():
+    assert _is_safe_url("http://example.com/feed")
+
+def test_is_safe_url_rejects_localhost():
+    assert not _is_safe_url("http://localhost/admin")
+
+def test_is_safe_url_rejects_metadata():
+    assert not _is_safe_url("http://169.254.169.254/latest")
+
+def test_is_safe_url_rejects_private():
+    assert not _is_safe_url("http://10.0.0.1/secret")
+
+def test_is_safe_url_rejects_javascript():
+    assert not _is_safe_url("javascript:alert(1)")

@@ -18,6 +18,7 @@ from datetime import datetime, timezone, timedelta
 import feedparser
 
 from newsletter.config import TOPICS, TOPIC_ROTATION
+from newsletter.fetcher import _is_safe_url
 
 logger = logging.getLogger(__name__)
 
@@ -110,6 +111,9 @@ def _known_urls() -> set[str]:
 
 def test_feed(url: str) -> bool:
     """Return True if the feed is parseable and has ≥1 entry from the last 7 days."""
+    if not _is_safe_url(url):
+        logger.warning("Skipping feed with unsafe URL: %s", url)
+        return False
     cutoff = datetime.now(timezone.utc) - timedelta(days=7)
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "ai-newsletter/1.0"})
