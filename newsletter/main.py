@@ -78,6 +78,11 @@ def main() -> int:
         total_extra = sum(len(v) for v in extra_feeds.values())
         logger.info("Discovered feeds loaded: %d extra feeds across %d topics", total_extra, len(extra_feeds))
 
+    # Purge stale feed_scores entries before the pipeline uses them
+    all_active: set[str] = {url for urls in TOPICS.values() for url in urls}
+    all_active.update(url for urls in extra_feeds.values() for url in urls)
+    feed_scores = publisher.clean_feed_scores(feed_scores, all_active)
+
     # Step 2: fetch articles (skipping already-seen URLs, boosting high-quality feeds)
     articles_by_topic, attempted_feeds = fetcher.fetch_all(
         cross_day_seen=cross_day_seen, feed_scores=feed_scores, extra_feeds=extra_feeds

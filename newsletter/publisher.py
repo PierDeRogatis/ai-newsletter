@@ -143,6 +143,16 @@ def load_feed_scores() -> dict:
         return {}
 
 
+def clean_feed_scores(scores: dict, active_urls: set[str]) -> dict:
+    """Remove score entries for feeds no longer active in config or discovered."""
+    cleaned = {url: s for url, s in scores.items() if url in active_urls}
+    removed = len(scores) - len(cleaned)
+    if removed:
+        logger.info("Feed scores: purged %d stale entries", removed)
+        _FEED_SCORES_PATH.write_text(json.dumps(cleaned, indent=2, ensure_ascii=False), "utf-8")
+    return cleaned
+
+
 def update_feed_scores(
     articles_by_topic: dict[str, list[dict]],
     attempted_feeds: set[str],

@@ -8,10 +8,12 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
+import newsletter.publisher as publisher
 from newsletter.publisher import (
     load_seen_urls,
     update_seen_urls,
     build_substack_post,
+    clean_feed_scores,
     _write_sitemap,
     _build_tweet_text,
     post_to_twitter,
@@ -418,3 +420,24 @@ def test_post_to_linkedin_handles_generic_exception(sample_result, caplog):
          caplog.at_level(logging.ERROR, logger="newsletter.publisher"):
         post_to_linkedin(sample_result, "2026-04-21")
     assert any("LinkedIn post failed" in r.message for r in caplog.records)
+
+
+# ── clean_feed_scores ─────────────────────────────────────────────────────────
+
+def test_clean_feed_scores_removes_stale(tmp_path, monkeypatch):
+    scores = {
+        "https://active.com/feed": {"recent_hits": [1], "last_run": "2026-05-01"},
+        "https://stale.com/feed":  {"recent_hits": [0], "last_run": "2026-05-01"},
+    }
+    active = {"https://active.com/feed"}
+    monkeypatch.setattr(publisher, "_FEED_SCORES_PATH", tmp_path / "feed_scores.json")
+    result = clean_feed_scores(scores, active)
+    assert "https://stale.com/feed" not in result
+    assert "https://active.com/feed" in result
+
+def test_clean_feed_scores_no_change_when_all_active(tmp_path, monkeypatch):
+    scores = {"https://active.com/feed": {"recent_hits": [1], "last_run": "2026-05-01"}}
+    active = {"https://active.com/feed"}
+    monkeypatch.setattr(publisher, "_FEED_SCORES_PATH", tmp_path / "feed_scores.json")
+    result = clean_feed_scores(scores, active)
+    assert result == scores
