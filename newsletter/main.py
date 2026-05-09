@@ -172,12 +172,8 @@ def main() -> int:
         logger.error("Step 9 (twitter) failed: %s", e)
         step_errors.append(f"Step 9 (twitter): {e}")
 
-    # Step 10: LinkedIn post (token expires every 60 days — refresh manually in GitHub secrets)
-    try:
-        publisher.post_to_linkedin(result, date_str)
-    except Exception as e:
-        logger.error("Step 10 (linkedin) failed: %s", e)
-        step_errors.append(f"Step 10 (linkedin): {e}")
+    # Step 10: LinkedIn post — disabled, manual posting preferred
+    # publisher.post_to_linkedin(result, date_str)
 
     if step_errors:
         _send_failure_alert(date_str, "", step_errors=step_errors)
