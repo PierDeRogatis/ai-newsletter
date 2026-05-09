@@ -389,7 +389,7 @@ def _write_rss(manifest: list, results_by_date: dict | None = None) -> None:
 
 def _build_tweet_text(headline: str, brief: str, issue_url: str) -> str:
     """Compose tweet text, trimming the brief to keep the total under 280 chars."""
-    sub_url = "https://pierluigiderogatis.substack.com"
+    sub_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
     footer = f"\n\n{issue_url}\n\nSubscribe: {sub_url}"
     budget = 280 - len(headline) - len(footer) - 2  # -2 for '\n\n' before brief
     if brief and budget >= 4:
@@ -438,7 +438,7 @@ def post_to_twitter(result: dict, date_str: str) -> None:
 
 def _build_linkedin_post_text(headline: str, brief: str, issue_url: str) -> str:
     """Compose LinkedIn post text, capped at LinkedIn's 3,000-char limit."""
-    sub_url = "https://pierluigiderogatis.substack.com"
+    sub_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
     parts = [headline]
     if brief:
         parts.append(f"\n{brief}")
