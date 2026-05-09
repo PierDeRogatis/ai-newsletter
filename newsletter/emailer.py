@@ -88,7 +88,7 @@ def _fetch_brevo_contacts(api_key: str, list_id: int) -> list[str]:
         req = urllib.request.Request(
             url, headers={"api-key": api_key, "Accept": "application/json"}
         )
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode())
         page = [c["email"] for c in data.get("contacts", []) if c.get("email")]
         emails += page

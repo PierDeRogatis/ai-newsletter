@@ -419,7 +419,9 @@ def post_to_twitter(result: dict, date_str: str) -> None:
         tweet_id = response.data["id"]
         logger.info("Twitter post published (tweet id: %s)", tweet_id)
     except tweepy.errors.TweepyException as e:
-        logger.error("Twitter post failed (HTTP %s): %s", getattr(e, 'response', {}) and getattr(e.response, 'status_code', '?'), e)
+        status = getattr(getattr(e, 'response', None), 'status_code', None)
+        level = logger.warning if status == 402 else logger.error
+        level("Twitter post failed (HTTP %s): %s", status or '?', e)
 
 
 def _build_linkedin_post_text(headline: str, brief: str, issue_url: str) -> str:

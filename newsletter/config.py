@@ -66,12 +66,10 @@ TOPICS: dict[str, list[str]] = {
         "https://www.marktechpost.com/feed/",
         # AI lab official blogs
         "https://openai.com/blog/rss.xml",
-        "https://www.anthropic.com/news/rss.json",
         "https://deepmind.google/blog/rss.xml",
         # Practitioner / independent — high-signal
         "https://simonwillison.net/atom/everything/",
         "https://towardsdatascience.com/feed",
-        "https://www.infoq.com/ai-ml-data-eng/rss/",
         # Community aggregators
         "https://hnrss.org/frontpage",
         "https://hnrss.org/best?q=AI+machine+learning",
