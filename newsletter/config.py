@@ -9,6 +9,11 @@ MAX_ARTICLES_PER_TOPIC = 3
 SNIPPET_MAX_CHARS = 300
 DAYS_LOOKBACK = 1
 
+GROQ_MODEL             = "llama-3.3-70b-versatile"
+GROQ_MAX_OUTPUT_TOKENS = 4096
+GROQ_TEMPERATURE       = 0.5
+GROQ_API_TIMEOUT       = 60  # seconds
+
 TOPIC_COLORS: dict[str, str] = {
     "AI & Data Tools":     "#4F46E5",  # indigo
     "AI in Finance":       "#059669",  # emerald

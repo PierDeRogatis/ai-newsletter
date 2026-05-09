@@ -6,9 +6,9 @@ import re
 
 from groq import Groq, APIConnectionError, APIStatusError, APITimeoutError, RateLimitError
 
-logger = logging.getLogger(__name__)
+from newsletter.config import GROQ_MODEL, GROQ_MAX_OUTPUT_TOKENS, GROQ_TEMPERATURE, GROQ_API_TIMEOUT
 
-_MODEL = "llama-3.3-70b-versatile"
+logger = logging.getLogger(__name__)
 
 _TOPIC_SYSTEM_PROMPT = """\
 Write a 2-sentence summary for each article.
@@ -77,10 +77,10 @@ def _parse_json(raw: str) -> dict | None:
 
 def _call_groq(client, system_prompt: str, user_message: str) -> str:
     response = client.chat.completions.create(
-        model=_MODEL,
-        max_tokens=4096,
-        temperature=0.5,
-        timeout=60,
+        model=GROQ_MODEL,
+        max_tokens=GROQ_MAX_OUTPUT_TOKENS,
+        temperature=GROQ_TEMPERATURE,
+        timeout=GROQ_API_TIMEOUT,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_message},
@@ -147,7 +147,7 @@ def summarize(articles_by_topic: dict[str, list[dict]]) -> dict:
 
     client = Groq(api_key=os.environ.get("GROQ_API", ""))
     n_articles = sum(len(v) for v in non_empty.values())
-    logger.info("Calling Groq (%s) — %d topics, %d articles", _MODEL, len(non_empty), n_articles)
+    logger.info("Calling Groq (%s) — %d topics, %d articles", GROQ_MODEL, len(non_empty), n_articles)
 
     sections: dict[str, list[dict]] = {}
     for topic, articles in non_empty.items():
