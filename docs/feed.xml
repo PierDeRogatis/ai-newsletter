@@ -9,21 +9,29 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, May 9, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-09.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-09.html</guid>
+    <pubDate>Sat, 09 May 2026 06:00:00 +0000</pubDate>
+    <description>It's like the moment the first antivirus software appeared - suddenly everyone remembers that code can be hostile. Three separate stories today show how AI tooling is forcing a rethink of security, from the way models fake their own reasoning traces </description>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 9, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment the first antivirus software appeared - suddenly everyone remembers that code can be hostile. Three separate stories today show how AI tooling is forcing a rethink of security, from the way models fake their own reasoning traces to the discovery of 271 unknown Firefox vulnerabilities by an AI pipeline. This lands on a trading desk as a question about how to model the new risks of AI-driven market manipulation, and on a sports lab as a reminder that athlete data is just as vulnerable. You should be asking your team whether your current security protocols are ready for an AI-driven attack - and what that would even look like.</p></blockquote>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/6095edc5">The Myth of Model Wars: Open vs Closed AI in 2026</a></h3>
+<p>In this podcast, Dan and Chris break down one of the biggest questions in AI today: do open vs. closed models still matter? They explore whether the 'model wars' are becoming irrelevant, from the rise of physical AI and edge devices to the shifting landscape of open-source models like LLaMA.&ensp;<a href="https://share.transistor.fm/s/6095edc5">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, May 8, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</guid>
     <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frame</description>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 8, 2026&ensp;·&ensp;1 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frameworks. This lands on a trading desk as a chance to automate more routine analysis tasks, freeing up human traders to focus on the tricky stuff. Now you have to ask yourself: what's the one task in your workflow that you've been putting off automating because it seemed too expensive, and is it time to revisit that decision?</p></blockquote>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr">[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized</a></h3>
-<p>Anthropic and SpaceX just announced a massive deal for Colossus I, a new AI data center that will require 300MW of power and cost $5 billion per year, with ARR growth of 8000% annualized. This changes the scale of investment in AI infrastructure, which is now seeing massive deals that are redefining the industry's growth prospects.&ensp;<a href="https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, May 7, 2026</title>
@@ -194,17 +202,6 @@
     <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
     <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is rethinking how large language models are served at scale. This shift has second-order consequences for capital markets, where t</description>
     <category>AI &amp; Data Tools</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, April 19, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-19.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-19.html</guid>
-    <pubDate>Sun, 19 Apr 2026 06:00:00 +0000</pubDate>
-    <description>Reduced inference cost curves are driving the rapid development of smaller, more efficient AI models, which is why multiple labs have released compact models this week. This shift is likely to have a second-order consequence on capital markets, where</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-09",
+    "headline": "AI security gets real",
+    "brief": "It's like the moment the first antivirus software appeared - suddenly everyone remembers that code can be hostile. Three separate stories today show how AI tooling is forcing a rethink of security, from the way models fake their own reasoning traces ",
+    "topics": [
+      "Podcasts"
+    ],
+    "article_count": 1,
+    "path": "issues/2026-05-09.html"
+  },
+  {
     "date": "2026-05-08",
     "headline": "AI inference gets cheaper",
     "brief": "It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frame",
