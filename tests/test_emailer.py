@@ -188,6 +188,19 @@ def test_send_html_body_contains_article_titles(sample_result):
 
 # ── compliance / CTA ──────────────────────────────────────────────────────────
 
+def test_build_html_escapes_malicious_title(sample_result):
+    sample_result["sections"]["AI & Data Tools"][0]["title"] = "<script>alert(1)</script>"
+    html = build_html(sample_result)
+    assert "<script>alert(1)</script>" not in html
+    assert "&lt;script&gt;" in html
+
+
+def test_build_html_sanitises_javascript_url(sample_result):
+    sample_result["sections"]["AI & Data Tools"][0]["url"] = "javascript:alert(1)"
+    html = build_html(sample_result)
+    assert 'href="javascript:' not in html
+
+
 def test_build_html_has_unsubscribe_link(sample_result):
     html = build_html(sample_result)
     assert "{{unsubscribe}}" in html

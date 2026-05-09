@@ -1,3 +1,4 @@
+import html as _html
 import json
 import logging
 import os
@@ -52,10 +53,11 @@ def build_substack_post(result: dict) -> str:
         parts.append(f"<h2>{icon}&ensp;{topic}</h2>")
 
         for i, a in enumerate(articles):
-            title = a.get("title", "")
-            url = a.get("url", "#")
-            summary = a.get("summary", "")
-            source = a.get("source", "")
+            title   = _html.escape(a.get("title", ""))
+            summary = _html.escape(a.get("summary", ""))
+            source  = _html.escape(a.get("source", ""))
+            raw_url = a.get("url", "#")
+            url     = raw_url if raw_url.startswith(("http://", "https://")) else "#"
             source_tag = (
                 f'&ensp;<span style="color:#9CA3AF;font-size:12px;font-weight:400;">— {source}</span>'
                 if source else ""

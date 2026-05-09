@@ -1,3 +1,4 @@
+import html as _html
 import json
 import os
 import logging
@@ -124,10 +125,11 @@ def _section_html(topic: str, articles: list[dict]) -> str:
     icon = _TOPIC_ICONS.get(topic, "")
     rows = ""
     for a in articles:
-        title = a.get("title", "")
-        url = a.get("url", "#")
-        summary = a.get("summary", "")
-        source = a.get("source", "")
+        title   = _html.escape(a.get("title", ""))
+        summary = _html.escape(a.get("summary", ""))
+        source  = _html.escape(a.get("source", ""))
+        raw_url = a.get("url", "#")
+        url     = raw_url if raw_url.startswith(("http://", "https://")) else "#"
         label = "Listen" if topic == "Podcasts" else "Read"
         rows += f"""
         <tr>
