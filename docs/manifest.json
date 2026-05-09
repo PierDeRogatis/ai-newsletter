@@ -1,12 +1,16 @@
 [
   {
     "date": "2026-05-09",
-    "headline": "AI security gets real",
-    "brief": "It's like the moment the first antivirus software appeared - suddenly everyone remembers that code can be hostile. Three separate stories today show how AI tooling is forcing a rethink of security, from the way models fake their own reasoning traces ",
+    "headline": "AI Hides Its Tracks",
+    "brief": "Think of AI security like a house with increasingly complex locks, but now the locks can also pretend to be something they're not, making it harder to know if they're secure. This changes the game for traders relying on AI-driven market trends, as th",
     "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
       "Podcasts"
     ],
-    "article_count": 1,
+    "article_count": 12,
     "path": "issues/2026-05-09.html"
   },
   {
