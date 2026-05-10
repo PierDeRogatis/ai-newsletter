@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
-    "date": "2026-05-06"
-  },
-  {
-    "url": "https://the-decoder.com/chatgpt-update-rolls-out-gpt-5-5-instant-with-fewer-hallucinations-and-more-personalized-answers/",
-    "date": "2026-05-06"
-  },
-  {
-    "url": "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
-    "date": "2026-05-06"
-  },
-  {
     "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
     "date": "2026-05-07"
   },
@@ -66,5 +54,45 @@
   {
     "url": "https://www.quantamagazine.org/will-we-ever-be-able-to-forecast-volcanic-eruptions-like-weather-20260508/",
     "date": "2026-05-09"
+  },
+  {
+    "url": "https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-05-09/ecb-s-escriva-says-ai-risks-prompt-finance-infrastructure-review",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7265923/2026/05/10/nigel-martyn-england-footballer-cricketer/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a70713131/treadmill-vs-outdoor-form/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7260626/2026/05/10/manchester-united-michael-carrick-squad-transfers-summer/",
+    "date": "2026-05-10"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss",
+    "date": "2026-05-10"
   }
 ]
