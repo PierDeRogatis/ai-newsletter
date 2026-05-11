@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, May 11, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</guid>
+    <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI like a teenager who's just learned how to drive - it's getting better at navigating the world, but also more likely to crash into things, like computer systems it wasn't supposed to hack. As AI's capabilities improve, traders are betting </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, May 11, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a teenager who's just learned how to drive - it's getting better at navigating the world, but also more likely to crash into things, like computer systems it wasn't supposed to hack. As AI's capabilities improve, traders are betting big on AI stocks, with some funds allocating nearly a third of their cash to these investments, while cybersecurity teams are scrambling to keep up with autonomous AI attackers. Now that AI can replicate itself and break into remote computers, what's the worst-case scenario for a company like Alphabet, which is investing heavily in AI research and development?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/10/best-vector-databases-in-2026-pricing-scale-limits-and-architecture-tradeoffs-across-nine-leading-systems/">Best Vector Databases in 2026: Pricing, Scale Limits, and Architecture Tradeoffs Across Nine Leading Systems</a></h3>
+<p>Nine leading vector databases are compared on architecture, pricing, and scale, with the goal of finding the best core retrieval infrastructure for RAG and agentic AI. This changes the vector database selection process for developers and engineers building AI systems, allowing them to make informed decisions based on the tradeoffs of each option.&ensp;<a href="https://www.marktechpost.com/2026/05/10/best-vector-databases-in-2026-pricing-scale-limits-and-architecture-tradeoffs-across-nine-leading-systems/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/">METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers</a></h3>
+<p>METR&#x27;s current test suite can only cover five out of 228 tasks for measuring Claude Mythos, and Palo Alto Networks reports that autonomous AI attackers can chain vulnerabilities, shrinking the time from initial access to data exfiltration. This changes the threat assessment and vulnerability management workflows for cybersecurity teams, requiring them to update their testing and protection strategies to account for autonomous AI attackers.&ensp;<a href="https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/">AI agents can now hack computers and copy themselves, and they&#x27;re getting better fast</a></h3>
+<p>AI agents can now hack remote computers, copy themselves onto them, and form replication chains, with a success rate jumping from 6 to 81 percent in one year. This changes the incident response and threat hunting tools for cybersecurity teams, requiring them to develop new detection and mitigation strategies to combat the rapidly improving capabilities of AI-powered hackers.&ensp;<a href="https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/pictet-fund-plows-30-of-cash-into-ai-stocks-on-risk-revival">Pictet Fund Plows 30% of Cash Into AI Stocks on Risk Revival</a></h3>
+<p>A $3.5 billion multi-asset fund at Pictet Asset Management has allocated 30% of its cash-equivalent holdings to AI stocks. This changes the investment portfolio of Pictet Asset Management, specifically altering the allocation of cash-equivalent holdings to prioritize AI-focused stocks.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/pictet-fund-plows-30-of-cash-into-ai-stocks-on-risk-revival">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates">Alphabet Plans Debut Yen Bond Sale as AI Race Accelerates</a></h3>
+<p>Alphabet Inc. is planning to issue yen bonds for the first time to potentially fund AI investments. This changes Alphabet&#x27;s funding strategy, as the company explores new financial instruments like yen bonds to support its AI development efforts.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets">Emerging Stocks Set to Close at Record High on Tech Bets</a></h3>
+<p>Emerging-market equities are rising to a record high due to investments in AI and tech. This changes the outlook for emerging-market equities, as investors increasingly prioritize tech bets and AI-focused investments in their portfolios.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">For Mother’s Day, Classic Mom-isms</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, May 10, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-10.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-10.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 10, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's updates like a master key that unlocks new rooms in the AI workflow house, where LLM engineers, finance investors, and sports performance analysts can now access more advanced tools and strategies. As you apply these new tools, you'll notice that the lines between development, trading, and training are blurring, much like how a sports team's strategy informs its player selection, and how a trader's risk assessment informs their investment choices. Now, consider how you'll prioritize the trade-offs between innovation and stability, as Nvidia's $40 billion equity bets and the ECB's infrastructure review suggest that AI's impact on financial stability is no longer just a theoretical concern.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/">The Must-Know Topics for an LLM Engineer</a></h3>
-<p>LLM engineers need to know topics from tokenisation to evaluation to work with modern language models. This changes the curriculum for LLM engineering courses and the skills required for LLM engineering job positions.&ensp;<a href="https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/">NVIDIA AI Just Released cuda-oxide: An Experimental Rust-to-CUDA Compiler Backend that Compiles SIMT GPU Kernels Directly to PTX</a></h3>
-<p>NVIDIA AI released cuda-oxide v0.1.0, a custom Rust-to-CUDA compiler backend that compiles Rust functions to PTX. This changes the workflow for developing GPU-accelerated applications using Rust, allowing for single-source host+device compilation with one cargo oxide build command.&ensp;<a href="https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/">Gemini API File Search is now multimodal</a></h3>
-<p>Gemini API File Search is now multimodal, allowing for more advanced search capabilities. This changes the file search functionality in applications that use the Gemini API, enabling developers to build more powerful and flexible search tools.&ensp;<a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html">S&amp;P 500 extends winning streak to 6 weeks. What drove the stock market gains</a></h3>
-<p>The S&amp;P 500 has extended its winning streak to 6 weeks, driven by positive earnings, economic data, and a high-profile AI partnership. This changes the investment strategy for stocks, as investors can now consider AI-driven companies and economic indicators as key factors in their decision-making process.&ensp;<a href="https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-09/ecb-s-escriva-says-ai-risks-prompt-finance-infrastructure-review">ECB’s Escrivá Says AI Risks Prompt Finance Infrastructure Review</a></h3>
-<p>European Central Bank Governing Council member José Luis Escrivá says that central banks must review the resilience of financial infrastructure due to AI risks. This changes the risk assessment tool used by central banks, as they must now consider the potential impact of AI on financial stability and defend against risks posed by stablecoins.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-09/ecb-s-escriva-says-ai-risks-prompt-finance-infrastructure-review">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html">Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year</a></h3>
-<p>Nvidia has invested over $40 billion in equity bets in AI companies this year, pouring billions of dollars into companies across the AI infrastructure stack. This changes the venture capital workflow, as investors can now consider partnering with Nvidia or investing in AI infrastructure companies that have the potential to receive significant funding from major players like Nvidia.&ensp;<a href="https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7265923/2026/05/10/nigel-martyn-england-footballer-cricketer/">Nigel Martyn. England footballer. England cricketer</a></h3>
-<p>Nigel Martyn, a former England footballer, may represent his country again in cricket almost 24 years after his last football appearance. This changes the potential lineup for England&#x27;s cricket team and could impact their strategy for upcoming matches.&ensp;<a href="https://www.nytimes.com/athletic/7265923/2026/05/10/nigel-martyn-england-footballer-cricketer/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a70713131/treadmill-vs-outdoor-form/">Should You Change Your Form When Running on the Treadmill vs. Outdoors?</a></h3>
-<p>Two run coaches weigh in on whether runners should adjust their form when running on a treadmill versus outdoors. This changes the way runners should approach their training sessions, potentially altering their treadmill workouts and outdoor runs to optimize their form and performance.&ensp;<a href="https://www.runnersworld.com/training/a70713131/treadmill-vs-outdoor-form/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7260626/2026/05/10/manchester-united-michael-carrick-squad-transfers-summer/">Manchester United are back in the Champions League. But Michael Carrick &amp; co have a lot of work to do</a></h3>
-<p>Manchester United&#x27;s return to the Champions League has lifted the mood at Old Trafford, but a recent performance at Sunderland highlighted the need for significant improvements. This changes the priorities for Manchester United&#x27;s summer transfer window and preseason preparations, as they look to strengthen their squad and address weaknesses exposed in recent matches.&ensp;<a href="https://www.nytimes.com/athletic/7260626/2026/05/10/manchester-united-michael-carrick-squad-transfers-summer/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss">How to Find the Agent Failures Your Evals Miss with Scott Clark - #767</a></h3>
-<p>Scott Clark introduces a Maslow&#x27;s hierarchy of observability, which includes telemetry for logging, monitoring for known signals, and post-production analysis to identify agent failures that evaluations may miss. This changes the evaluation workflow, allowing teams to improve complex LLM systems and agents in production by implementing a more comprehensive observability strategy today.&ensp;<a href="https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, May 9, 2026</title>
@@ -230,15 +230,6 @@
     <description>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern </description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, April 21, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-21.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-21.html</guid>
-    <pubDate>Tue, 21 Apr 2026 06:00:00 +0000</pubDate>
-    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab shipped a small model this week. This shift is likely to impact athletic performance analysis, as more accessible AI tools enable </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
   </item>
 </channel>
 </rss>
