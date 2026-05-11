@@ -26,7 +26,47 @@ _TOPIC_ICONS: dict[str, str] = {
 }
 
 
-_GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-email" type="email" required placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
+_GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;"><input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
+
+# Self-contained prev/next nav bar injected into all issue pages (new and backfilled).
+# JS parses the current date from the canonical URL so no template params are needed.
+_ISSUE_NAV_SNIPPET = (
+    '<div id="gd-issue-nav" style="display:none;position:fixed;bottom:0;left:0;right:0;'
+    'background:rgba(6,16,26,0.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);'
+    'border-top:1px solid rgba(0,255,200,0.15);padding:10px 24px;'
+    'justify-content:space-between;align-items:center;z-index:500;'
+    "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;\">"
+    '</div>'
+    '<script>(function(){'
+    'var canon=document.querySelector(\'link[rel="canonical"]\');'
+    'if(!canon)return;'
+    'var href=canon.getAttribute("href");'
+    'var dm=href.match(/\\/([\\d]{4}-[\\d]{2}-[\\d]{2})\\.html$/);'
+    'if(!dm)return;'
+    'var curr=dm[1];'
+    'var base=href.replace(/\\/issues\\/.*$/,"");'
+    'fetch(base+"/manifest.json",{cache:"no-cache"})'
+    '.then(function(r){return r.json();})'
+    '.then(function(m){'
+    'var idx=m.findIndex(function(x){return x.date===curr;});'
+    'if(idx===-1)return;'
+    'var prev=idx+1<m.length?m[idx+1]:null;'
+    'var next=idx>0?m[idx-1]:null;'
+    'if(!prev&&!next)return;'
+    'var nav=document.getElementById("gd-issue-nav");'
+    'if(!nav)return;'
+    'function fmt(d){'
+    'var dt=new Date(d+"T12:00:00Z");'
+    'return dt.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});}'
+    'var ns="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;";'
+    'var ld=prev?\'<a href="\'+base+\'/issues/\'+prev.date+\'.html" style="\'+ns+\'">← \'+fmt(prev.date)+\'</a>\':\'<span></span>\';'
+    'var rd=next?\'<a href="\'+base+\'/issues/\'+next.date+\'.html" style="\'+ns+\'">\'+fmt(next.date)+\' →</a>\':\'<span></span>\';'
+    'nav.innerHTML=ld+rd;'
+    'nav.style.display="flex";'
+    '})'
+    '.catch(function(){});'
+    '})();</script>'
+)
 
 
 def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
@@ -49,17 +89,39 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
     }});
   }}, {{threshold: 0}});
   io.observe(sent);
+  function _gd_done(ok) {{
+    var form = document.getElementById('gd-form');
+    form.innerHTML = ok
+      ? '<p style="color:#00FFC8;font-size:15px;font-weight:600;text-align:center;padding:20px 0;">You\'re in! &#x1F389; First issue lands tomorrow morning.</p>'
+      : '<p style="color:#7A95B0;font-size:14px;text-align:center;padding:20px 0;">Done! If it doesn\'t arrive tomorrow, check your spam folder.</p>';
+    setTimeout(function() {{
+      localStorage.setItem(S, '1');
+      gate.classList.remove('gd-visible');
+      cont.classList.remove('gd-locked');
+      io.disconnect();
+    }}, 2000);
+  }}
   document.getElementById('gd-form').addEventListener('submit', function(e) {{
     e.preventDefault();
     var email = document.getElementById('gd-email').value.trim();
     var ok    = document.getElementById('gd-consent').checked;
     var err   = document.getElementById('gd-error');
     var btn   = document.getElementById('gd-submit');
+    var hp    = document.getElementById('gd-hp');
+    if (hp && hp.value) return;  // honeypot triggered — silent drop
+    if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {{
+      err.textContent = 'Please enter a valid email address.';
+      err.style.display = 'block';
+      return;
+    }}
     if (!ok) {{ err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }}
     err.style.display = 'none';
-    btn.disabled = true; btn.textContent = 'Unlocking…';
+    btn.disabled = true; btn.textContent = 'Sending…';
+    var ctrl = new AbortController();
+    var to   = setTimeout(function() {{ ctrl.abort(); }}, 9000);
     fetch(URL, {{
       method: 'POST',
+      signal: ctrl.signal,
       headers: {{
         'Authorization': 'Bearer ' + PAT,
         'Accept': 'application/vnd.github+json',
@@ -68,13 +130,8 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
       }},
       body: JSON.stringify({{ref: 'main', inputs: {{email: email}}}})
     }})
-      .catch(function() {{}})
-      .finally(function() {{
-        localStorage.setItem(S, '1');
-        gate.classList.remove('gd-visible');
-        cont.classList.remove('gd-locked');
-        io.disconnect();
-      }});
+      .then(function(r) {{ clearTimeout(to); _gd_done(r.ok); }})
+      .catch(function()  {{ clearTimeout(to); _gd_done(false); }});
   }});
 }})();
 </script>"""
@@ -266,6 +323,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
   <meta name="twitter:title" content="Gradient Descent — {date_str} | Daily AI Intelligence">
   <meta name="twitter:description" content="{meta_desc}">
   <meta name="twitter:image" content="{pub_base}/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Gradient Descent" href="{pub_base}/feed.xml">
   <style>
     /* ── web-only overrides (email clients ignore <style> blocks) ── */
     @media screen {{
@@ -407,6 +465,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
     </td></tr>
   </table>
   {_build_gate_js(_GATE_GH_PAT, _GATE_GH_REPO)}
+  {_ISSUE_NAV_SNIPPET}
   {_build_jsonld(iso_date, result.get("headline", "").replace('"', "&quot;"), meta_desc, issue_url, pub_base, list(sections.keys()))}
 </body>
 </html>"""

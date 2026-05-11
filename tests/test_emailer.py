@@ -119,6 +119,31 @@ def test_build_html_gate_present_with_empty_brief(sample_result):
     assert 'id="gd-brief-end"' in html
     assert 'id="gd-gate"' in html
 
+def test_build_html_gate_has_honeypot(sample_result):
+    html = build_html(sample_result)
+    assert 'id="gd-hp"' in html
+
+def test_build_html_gate_js_has_email_validation(sample_result):
+    html = build_html(sample_result)
+    assert r"\s@" in html  # regex in gate JS
+
+def test_build_html_gate_js_has_success_state(sample_result):
+    html = build_html(sample_result)
+    assert "tomorrow morning" in html
+
+def test_build_html_gate_js_has_abort_controller(sample_result):
+    html = build_html(sample_result)
+    assert "AbortController" in html
+
+def test_build_html_has_rss_autodiscovery(sample_result):
+    html = build_html(sample_result)
+    assert 'type="application/rss+xml"' in html
+    assert "feed.xml" in html
+
+def test_build_html_has_issue_nav(sample_result):
+    html = build_html(sample_result)
+    assert 'id="gd-issue-nav"' in html
+
 
 # ── send() — Brevo API ────────────────────────────────────────────────────────
 

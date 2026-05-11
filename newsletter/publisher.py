@@ -10,6 +10,7 @@ from pathlib import Path
 import tweepy
 
 from newsletter import emailer
+from newsletter.emailer import _ISSUE_NAV_SNIPPET
 from newsletter.config import TOPIC_ICONS
 
 logger = logging.getLogger(__name__)
@@ -263,6 +264,21 @@ def _load_manifest() -> list:
     return []
 
 
+def _backfill_issue_nav() -> None:
+    """Inject prev/next navigation into old issue pages that pre-date the feature."""
+    patched = 0
+    for html_path in sorted(_ISSUES_DIR.glob("*.html")):
+        content = html_path.read_text("utf-8")
+        if 'id="gd-issue-nav"' in content:
+            continue
+        updated = content.replace("</body>", _ISSUE_NAV_SNIPPET + "\n</body>", 1)
+        if updated != content:
+            html_path.write_text(updated, encoding="utf-8")
+            patched += 1
+    if patched:
+        logger.info("Issue nav: backfilled %d old issue pages", patched)
+
+
 def save_to_archive(result: dict, date_str: str) -> None:
     """Write a dated issue HTML file, update manifest.json, and regenerate RSS feed."""
     import re as _re
@@ -309,6 +325,7 @@ def save_to_archive(result: dict, date_str: str) -> None:
     })
     _MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     _write_rss(manifest, results_by_date={date_str: result})
+    _backfill_issue_nav()
     logger.info("Archive saved: docs/issues/%s.html — manifest updated (%d issues)", date_str, len(manifest))
 
 
