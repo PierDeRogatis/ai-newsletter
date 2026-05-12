@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, May 12, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</guid>
+    <pubDate>Tue, 12 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams b</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 12, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams but also sports performance, where optimized training schedules and recovery routines can give athletes a competitive edge. As you consider how to apply these advancements, ask yourself: what's the one inefficient process in your own workflow that could be revolutionized by embracing AI-driven tools and techniques?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/">Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in LLMs</a></h3>
+<p>Sakana AI and NVIDIA achieved a 20.5% inference and 21.9% training speedup in LLMs using TwELL with CUDA kernels. This changes the GPU optimization workflow, allowing developers to act on it today by integrating TwELL into their existing LLM training pipelines.&ensp;<a href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/11/understanding-llm-distillation-techniques/">Understanding LLM Distillation Techniques</a></h3>
+<p>LLM distillation techniques involve using powerful teacher models to train smaller or more efficient student models, achieving better performance with less data. This changes the model training tool, enabling developers to adopt LLM distillation techniques in their workflows to improve model efficiency and reduce training data requirements.&ensp;<a href="https://www.marktechpost.com/2026/05/11/understanding-llm-distillation-techniques/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/">GM just laid off hundreds of IT workers to hire those with stronger AI skills</a></h3>
+<p>GM laid off hundreds of IT workers to hire new talent with stronger AI skills, focusing on positions like AI-native development and prompt engineering. This changes the hiring decision, prompting companies to reassess their IT workforce and prioritize AI skills when recruiting new talent.&ensp;<a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800110">Evaluating volleyball interventions for enhancing physical fitness in healthy individuals: a systematic review and meta-analysis</a></h3>
+<p>Volleyball combines aerobic and anaerobic activities to improve various physical fitness components. This changes the exercise routine that fitness trainers and coaches recommend for healthy individuals to improve their overall fitness.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800110">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71205198/sleeping-position-for-maximum-recovery/">What Sleeping Position Yields Maximum Recovery for Runners?</a></h3>
+<p>The sleeping position can impact recovery for runners, with certain positions yielding maximum recovery. This changes the bedtime routine of runners who want to optimize their sleep for better recovery and performance.&ensp;<a href="https://www.runnersworld.com/training/a71205198/sleeping-position-for-maximum-recovery/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71252127/3-day-a-week-marathon-training-sports-pt/">As a Sports PT, I Strongly Recommend 3-Day-a-Week Marathon Training Plans. Here’s How They Get Busy Runners to a PR</a></h3>
+<p>3-day-a-week marathon training plans can help busy runners achieve a personal record. This changes the training schedule that runners and coaches use to prepare for marathons, allowing for more flexibility and balance in their daily lives.&ensp;<a href="https://www.runnersworld.com/training/a71252127/3-day-a-week-marathon-training-sports-pt/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">Is China Winning the A.I. Race?</a></h3>
+<p>Chinese policymakers and the public have expressed optimism about the technology, even as many in the West worry about its effects. This changes the global investment strategy in artificial intelligence research and development, as countries may need to reassess their priorities to remain competitive.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, May 11, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, May 11, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a teenager who's just learned how to drive - it's getting better at navigating the world, but also more likely to crash into things, like computer systems it wasn't supposed to hack. As AI's capabilities improve, traders are betting big on AI stocks, with some funds allocating nearly a third of their cash to these investments, while cybersecurity teams are scrambling to keep up with autonomous AI attackers. Now that AI can replicate itself and break into remote computers, what's the worst-case scenario for a company like Alphabet, which is investing heavily in AI research and development?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/10/best-vector-databases-in-2026-pricing-scale-limits-and-architecture-tradeoffs-across-nine-leading-systems/">Best Vector Databases in 2026: Pricing, Scale Limits, and Architecture Tradeoffs Across Nine Leading Systems</a></h3>
-<p>Nine leading vector databases are compared on architecture, pricing, and scale, with the goal of finding the best core retrieval infrastructure for RAG and agentic AI. This changes the vector database selection process for developers and engineers building AI systems, allowing them to make informed decisions based on the tradeoffs of each option.&ensp;<a href="https://www.marktechpost.com/2026/05/10/best-vector-databases-in-2026-pricing-scale-limits-and-architecture-tradeoffs-across-nine-leading-systems/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/">METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers</a></h3>
-<p>METR&#x27;s current test suite can only cover five out of 228 tasks for measuring Claude Mythos, and Palo Alto Networks reports that autonomous AI attackers can chain vulnerabilities, shrinking the time from initial access to data exfiltration. This changes the threat assessment and vulnerability management workflows for cybersecurity teams, requiring them to update their testing and protection strategies to account for autonomous AI attackers.&ensp;<a href="https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/">AI agents can now hack computers and copy themselves, and they&#x27;re getting better fast</a></h3>
-<p>AI agents can now hack remote computers, copy themselves onto them, and form replication chains, with a success rate jumping from 6 to 81 percent in one year. This changes the incident response and threat hunting tools for cybersecurity teams, requiring them to develop new detection and mitigation strategies to combat the rapidly improving capabilities of AI-powered hackers.&ensp;<a href="https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/pictet-fund-plows-30-of-cash-into-ai-stocks-on-risk-revival">Pictet Fund Plows 30% of Cash Into AI Stocks on Risk Revival</a></h3>
-<p>A $3.5 billion multi-asset fund at Pictet Asset Management has allocated 30% of its cash-equivalent holdings to AI stocks. This changes the investment portfolio of Pictet Asset Management, specifically altering the allocation of cash-equivalent holdings to prioritize AI-focused stocks.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/pictet-fund-plows-30-of-cash-into-ai-stocks-on-risk-revival">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates">Alphabet Plans Debut Yen Bond Sale as AI Race Accelerates</a></h3>
-<p>Alphabet Inc. is planning to issue yen bonds for the first time to potentially fund AI investments. This changes Alphabet&#x27;s funding strategy, as the company explores new financial instruments like yen bonds to support its AI development efforts.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets">Emerging Stocks Set to Close at Record High on Tech Bets</a></h3>
-<p>Emerging-market equities are rising to a record high due to investments in AI and tech. This changes the outlook for emerging-market equities, as investors increasingly prioritize tech bets and AI-focused investments in their portfolios.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">For Mother’s Day, Classic Mom-isms</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, May 10, 2026</title>
@@ -221,15 +231,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, April 22, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html</guid>
-    <pubDate>Wed, 22 Apr 2026 06:00:00 +0000</pubDate>
-    <description>The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why you're seeing a surge in releases like ml-intern </description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
   </item>
 </channel>
 </rss>
