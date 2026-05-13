@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-13",
+    "headline": "Memory Matters",
+    "brief": "Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trad",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-13.html"
+  },
+  {
     "date": "2026-05-12",
     "headline": "AI Speeds Up",
     "brief": "Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams b",

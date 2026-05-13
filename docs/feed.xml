@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, May 13, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</guid>
+    <pubDate>Wed, 13 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trad</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 13, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trading desks, where more interactive and efficient AI tools could revolutionize risk analysis and portfolio management. As you consider the potential of these new agents, ask yourself: what happens when autonomous agents can remember and act on vast amounts of data, but their 'forgetting' mechanisms are still unclear?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/">Build a Hybrid-Memory Autonomous Agent with Modular Architecture and Tool Dispatch Using OpenAI</a></h3>
+<p>A hybrid-memory autonomous agent combines semantic vector search, keyword-based retrieval, and a modular tool-dispatching loop to create an agent capable of reasoning, remembering, and acting autonomously. This changes the autonomous agent development workflow by allowing developers to create more complex and interactive agents using OpenAI tools.&ensp;<a href="https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/12/meet-antangelmed-a-103b-parameter-open-source-medical-language-model-built-on-a-1-32-activation-ratio-moe-architecture/">Meet AntAngelMed: A 103B-Parameter Open-Source Medical Language Model Built on a 1/32 Activation-Ratio MoE Architecture</a></h3>
+<p>AntAngelMed, a 103B-parameter open-source medical language model, uses a 1/32 activation-ratio Mixture-of-Experts (MoE) architecture to activate only 6.1B parameters at inference time, matching the performance of roughly 40B dense models. This changes the medical language model development tool by providing a more efficient and open-source alternative for medical language processing tasks.&ensp;<a href="https://www.marktechpost.com/2026/05/12/meet-antangelmed-a-103b-parameter-open-source-medical-language-model-built-on-a-1-32-activation-ratio-moe-architecture/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/">Thinking Machines Lab ships its first model and argues interactivity is what OpenAI gets wrong about voice</a></h3>
+<p>Thinking Machines Lab&#x27;s first AI model processes audio, video, and text in 200-millisecond chunks in parallel, aiming to beat OpenAI&#x27;s GPT Realtime 2 and Google&#x27;s Gemini Live in terms of interaction quality. This changes the voice AI interaction design by focusing on interactivity and parallel processing of multiple input types, allowing for more natural and engaging user experiences.&ensp;<a href="https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2605.11518">AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive</a></h3>
+<p>Poor configuration choices in large language model experiments can waste substantial computational resources, and automating experiment configuration is crucial for advancing LLM research. This changes the experiment configuration workflow, allowing researchers to optimize their experimental design and hyperparameter tuning today.&ensp;<a href="https://arxiv.org/abs/2605.11518">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2602.07892">Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection</a></h3>
+<p>Safety post-training can improve the harmfulness and policy compliance of Large Language Models, but it may also reduce general utility, known as the alignment tax. This changes the safety post-training tool, enabling developers to mitigate the alignment tax and improve the overall performance of their LLMs.&ensp;<a href="https://arxiv.org/abs/2602.07892">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.12241">Pretraining Strategies and Scaling for ECG Foundation Models: A Systematic Study</a></h3>
+<p>Specialized foundation models are emerging in medical subdomains, but pretraining methodologies and parametric scaling are rarely assessed systematically, and this study provides a systematic evaluation. This changes the pretraining strategy for ECG foundation models, allowing developers to optimize their model&#x27;s performance and scaling today.&ensp;<a href="https://arxiv.org/abs/2605.12241">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/">Why We Should Build AI Tools, Not AI Replacements (with Anthony Aguirre)</a></h3>
+<p>&ensp;<a href="https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, May 12, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 12, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams but also sports performance, where optimized training schedules and recovery routines can give athletes a competitive edge. As you consider how to apply these advancements, ask yourself: what's the one inefficient process in your own workflow that could be revolutionized by embracing AI-driven tools and techniques?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/">Sakana AI and NVIDIA Introduce TwELL with CUDA Kernels for 20.5% Inference and 21.9% Training Speedup in LLMs</a></h3>
-<p>Sakana AI and NVIDIA achieved a 20.5% inference and 21.9% training speedup in LLMs using TwELL with CUDA kernels. This changes the GPU optimization workflow, allowing developers to act on it today by integrating TwELL into their existing LLM training pipelines.&ensp;<a href="https://www.marktechpost.com/2026/05/11/sakana-ai-and-nvidia-introduce-twell-with-cuda-kernels-for-20-5-inference-and-21-9-training-speedup-in-llms/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/11/understanding-llm-distillation-techniques/">Understanding LLM Distillation Techniques</a></h3>
-<p>LLM distillation techniques involve using powerful teacher models to train smaller or more efficient student models, achieving better performance with less data. This changes the model training tool, enabling developers to adopt LLM distillation techniques in their workflows to improve model efficiency and reduce training data requirements.&ensp;<a href="https://www.marktechpost.com/2026/05/11/understanding-llm-distillation-techniques/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/">GM just laid off hundreds of IT workers to hire those with stronger AI skills</a></h3>
-<p>GM laid off hundreds of IT workers to hire new talent with stronger AI skills, focusing on positions like AI-native development and prompt engineering. This changes the hiring decision, prompting companies to reassess their IT workforce and prioritize AI skills when recruiting new talent.&ensp;<a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800110">Evaluating volleyball interventions for enhancing physical fitness in healthy individuals: a systematic review and meta-analysis</a></h3>
-<p>Volleyball combines aerobic and anaerobic activities to improve various physical fitness components. This changes the exercise routine that fitness trainers and coaches recommend for healthy individuals to improve their overall fitness.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800110">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71205198/sleeping-position-for-maximum-recovery/">What Sleeping Position Yields Maximum Recovery for Runners?</a></h3>
-<p>The sleeping position can impact recovery for runners, with certain positions yielding maximum recovery. This changes the bedtime routine of runners who want to optimize their sleep for better recovery and performance.&ensp;<a href="https://www.runnersworld.com/training/a71205198/sleeping-position-for-maximum-recovery/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71252127/3-day-a-week-marathon-training-sports-pt/">As a Sports PT, I Strongly Recommend 3-Day-a-Week Marathon Training Plans. Here’s How They Get Busy Runners to a PR</a></h3>
-<p>3-day-a-week marathon training plans can help busy runners achieve a personal record. This changes the training schedule that runners and coaches use to prepare for marathons, allowing for more flexibility and balance in their daily lives.&ensp;<a href="https://www.runnersworld.com/training/a71252127/3-day-a-week-marathon-training-sports-pt/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Is China Winning the A.I. Race?</a></h3>
-<p>Chinese policymakers and the public have expressed optimism about the technology, even as many in the West worry about its effects. This changes the global investment strategy in artificial intelligence research and development, as countries may need to reassess their priorities to remain competitive.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, May 11, 2026</title>
@@ -220,16 +230,6 @@
     <description>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, April 23, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-23.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-23.html</guid>
-    <pubDate>Thu, 23 Apr 2026 06:00:00 +0000</pubDate>
-    <description>Inference cost curves are now driving product decisions faster than capability benchmarks, which is why every major lab is shipping automation tools this week. This convergence of AI and automation will have a second-order consequence on athletic per</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
