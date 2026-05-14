@@ -298,6 +298,21 @@ def save_to_archive(result: dict, date_str: str) -> None:
     _MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     _write_rss(manifest, results_by_date={date_str: result})
     logger.info("Archive saved: docs/issues/%s.html — manifest updated (%d issues)", date_str, len(manifest))
+    _backfill_mobile_css()
+
+
+def _backfill_mobile_css() -> None:
+    marker = "max-width:620px"
+    patched = 0
+    for html_path in sorted(_ISSUES_DIR.glob("*.html")):
+        text = html_path.read_text("utf-8")
+        if marker in text:
+            continue
+        text = text.replace("</head>", f"<style>{emailer._MOBILE_CSS}</style>\n</head>", 1)
+        html_path.write_text(text, "utf-8")
+        patched += 1
+    if patched:
+        logger.info("Mobile CSS: backfilled %d issue pages", patched)
 
 
 def _write_sitemap(manifest: list, pub_base: str) -> None:
