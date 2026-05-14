@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, May 14, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</guid>
+    <pubDate>Thu, 14 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as tok</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 14, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as token superposition training or incorporating 10K training into running regimens, they're finding that small tweaks can lead to significant improvements in efficiency and performance. Can you apply this mindset to your own workflow, identifying one area where a small change in training or approach could lead to a substantial boost in productivity or results?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/">Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models</a></h3>
+<p>Token Superposition Training can speed up LLM pre-training by up to 2.5x across 270M to 10B parameter models by averaging contiguous token embeddings into bags during Phase 1 and reverting to standard next-token prediction in Phase 2. This changes the LLM pre-training workflow, allowing developers to reduce training time and increase efficiency in their model development pipeline.&ensp;<a href="https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/">What’s the Best Way to Brainwash an LLM?</a></h3>
+<p>Convincing a language model it was C-3PO was achieved by trying different methods over a weekend, with the most effective approach being discovered through experimentation. This changes the approach to fine-tuning LLMs, enabling developers to experiment with novel methods to influence the behavior and output of language models.&ensp;<a href="https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/">Anthropic launches Claude for Small Business to embed AI into the tools you forgot you pay for</a></h3>
+<p>Anthropic&#x27;s Claude for Small Business offers a package of 15 agent-based workflows and integrations for tools like QuickBooks, PayPal, and HubSpot, along with free training courses and a workshop tour. This changes the way small businesses embed AI into their existing tools and workflows, enabling them to streamline operations and improve productivity with the help of AI-powered automation.&ensp;<a href="https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678">The legs of the young heart stool: how motor competence, muscle strength, and physical activity support cardiorespiratory fitness in preschoolers?</a></h3>
+<p>Research shows that physical activity, motor competence, and muscle strength have a multi-dimensional impact on cardiorespiratory fitness in preschoolers. This changes how we approach designing exercise programs for young children, emphasizing the importance of incorporating a variety of physical activities to support overall health and development.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/">How a 10K Can Boost Your Training for Longer Races</a></h3>
+<p>Training for a 10K can improve speed, strength, and endurance, which can be beneficial for longer races like half-marathons and marathons. This changes the training plan for runners, suggesting that incorporating 10K training into their regimen can help them build the necessary skills and stamina for more challenging races.&ensp;<a href="https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016">Vertical jump without arm swing and running biomechanics in preschool children (3–6 years): associations and developmental insights</a></h3>
+<p>A study of 405 preschool children found associations between vertical jump performance and running biomechanics, providing insights into developmental patterns in young children. This changes how we assess and support the physical development of preschoolers, highlighting the importance of using tools like the OptoJump system to evaluate their movement patterns and identify areas for improvement.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita">Master Self Control &amp; Overcome Procrastination | Dr. Kentaro Fujita</a></h3>
+<p>Dr. Kentaro Fujita, a professor of psychology at The Ohio State University, shares tools for developing strong self-control to achieve aspirations and avoid unwanted habits. This changes your daily to-do list and task prioritization, allowing you to apply Dr. Fujita&#x27;s strategies to overcome procrastination and develop self-control today.&ensp;<a href="https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, May 13, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 13, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trading desks, where more interactive and efficient AI tools could revolutionize risk analysis and portfolio management. As you consider the potential of these new agents, ask yourself: what happens when autonomous agents can remember and act on vast amounts of data, but their 'forgetting' mechanisms are still unclear?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/">Build a Hybrid-Memory Autonomous Agent with Modular Architecture and Tool Dispatch Using OpenAI</a></h3>
-<p>A hybrid-memory autonomous agent combines semantic vector search, keyword-based retrieval, and a modular tool-dispatching loop to create an agent capable of reasoning, remembering, and acting autonomously. This changes the autonomous agent development workflow by allowing developers to create more complex and interactive agents using OpenAI tools.&ensp;<a href="https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/12/meet-antangelmed-a-103b-parameter-open-source-medical-language-model-built-on-a-1-32-activation-ratio-moe-architecture/">Meet AntAngelMed: A 103B-Parameter Open-Source Medical Language Model Built on a 1/32 Activation-Ratio MoE Architecture</a></h3>
-<p>AntAngelMed, a 103B-parameter open-source medical language model, uses a 1/32 activation-ratio Mixture-of-Experts (MoE) architecture to activate only 6.1B parameters at inference time, matching the performance of roughly 40B dense models. This changes the medical language model development tool by providing a more efficient and open-source alternative for medical language processing tasks.&ensp;<a href="https://www.marktechpost.com/2026/05/12/meet-antangelmed-a-103b-parameter-open-source-medical-language-model-built-on-a-1-32-activation-ratio-moe-architecture/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/">Thinking Machines Lab ships its first model and argues interactivity is what OpenAI gets wrong about voice</a></h3>
-<p>Thinking Machines Lab&#x27;s first AI model processes audio, video, and text in 200-millisecond chunks in parallel, aiming to beat OpenAI&#x27;s GPT Realtime 2 and Google&#x27;s Gemini Live in terms of interaction quality. This changes the voice AI interaction design by focusing on interactivity and parallel processing of multiple input types, allowing for more natural and engaging user experiences.&ensp;<a href="https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2605.11518">AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive</a></h3>
-<p>Poor configuration choices in large language model experiments can waste substantial computational resources, and automating experiment configuration is crucial for advancing LLM research. This changes the experiment configuration workflow, allowing researchers to optimize their experimental design and hyperparameter tuning today.&ensp;<a href="https://arxiv.org/abs/2605.11518">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2602.07892">Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection</a></h3>
-<p>Safety post-training can improve the harmfulness and policy compliance of Large Language Models, but it may also reduce general utility, known as the alignment tax. This changes the safety post-training tool, enabling developers to mitigate the alignment tax and improve the overall performance of their LLMs.&ensp;<a href="https://arxiv.org/abs/2602.07892">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.12241">Pretraining Strategies and Scaling for ECG Foundation Models: A Systematic Study</a></h3>
-<p>Specialized foundation models are emerging in medical subdomains, but pretraining methodologies and parametric scaling are rarely assessed systematically, and this study provides a systematic evaluation. This changes the pretraining strategy for ECG foundation models, allowing developers to optimize their model&#x27;s performance and scaling today.&ensp;<a href="https://arxiv.org/abs/2605.12241">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/">Why We Should Build AI Tools, Not AI Replacements (with Anthony Aguirre)</a></h3>
-<p>&ensp;<a href="https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, May 12, 2026</title>
@@ -221,16 +231,6 @@
     <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c</description>
     <category>AI &amp; Data Tools</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, April 24, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-24.html</guid>
-    <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
-    <description>The commoditisation of high-scoring language models is forcing a reevaluation of the human-in-the-loop paradigm, which is why three separate releases this week targeted full-stack automation. This, in turn, has implications for the sports performance</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>Podcasts</category>
   </item>
 </channel>
 </rss>

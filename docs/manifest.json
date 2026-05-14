@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-14",
+    "headline": "Training gets smarter",
+    "brief": "Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as tok",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-14.html"
+  },
+  {
     "date": "2026-05-13",
     "headline": "Memory Matters",
     "brief": "Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trad",
