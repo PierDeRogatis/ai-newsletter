@@ -266,13 +266,15 @@ def save_to_archive(result: dict, date_str: str) -> None:
     ).rstrip("/")
     _web_nav = (
         '<div style="background:#080E1C;padding:10px 24px;display:flex;'
-        'justify-content:space-between;align-items:center;'
+        'justify-content:space-between;align-items:center;gap:16px;'
         'font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;">'
         f'<a href="{pub_base}" style="color:#6EE7B7;font-size:13px;'
         'font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a>'
-        '<a href="https://pierluigiderogatis.substack.com/subscribe" '
+        f'<a href="{pub_base}/about.html" style="color:#6B82A0;font-size:13px;'
+        'font-weight:500;text-decoration:none;">About</a>'
+        f'<a href="{pub_base}" '
         'style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;'
-        'padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a>'
+        'padding:6px 14px;border-radius:6px;text-decoration:none;margin-left:auto;">Subscribe free</a>'
         '</div>'
     )
     html = _re.sub(r'(<body[^>]*>)', r'\1' + _web_nav, html, count=1)
