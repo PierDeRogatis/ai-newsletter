@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-05-09/ecb-s-escriva-says-ai-risks-prompt-finance-infrastructure-review",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7265923/2026/05/10/nigel-martyn-england-footballer-cricketer/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a70713131/treadmill-vs-outdoor-form/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7260626/2026/05/10/manchester-united-michael-carrick-squad-transfers-summer/",
-    "date": "2026-05-10"
-  },
-  {
-    "url": "https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss",
-    "date": "2026-05-10"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/10/best-vector-databases-in-2026-pricing-scale-limits-and-architecture-tradeoffs-across-nine-leading-systems/",
     "date": "2026-05-11"
   },
@@ -118,5 +78,33 @@
   {
     "url": "https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/",
     "date": "2026-05-13"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016",
+    "date": "2026-05-14"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita",
+    "date": "2026-05-14"
   }
 ]
