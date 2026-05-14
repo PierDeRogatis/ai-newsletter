@@ -748,6 +748,31 @@
       filter: blur(4px);
     }
 
+    /* ─── TOPIC STRIP ─── */
+    .topics-strip {
+      max-width: 1120px; margin: 0 auto; padding: 28px 32px;
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    }
+    .topics-strip-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--muted); margin-right: 8px;
+    }
+    .topic-chip {
+      display: inline-block;
+      background: var(--surface); border: 1px solid var(--border2);
+      color: var(--dim); font-size: 12px; font-weight: 600;
+      padding: 6px 14px; border-radius: 20px; text-decoration: none;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+      white-space: nowrap;
+    }
+    .topic-chip:hover {
+      border-color: var(--accent); color: var(--accent);
+      background: rgba(0,255,200,0.05);
+    }
+    @media (max-width: 700px) {
+      .topics-strip { padding: 20px 20px; }
+    }
+
     /* ─── SCROLL REVEAL ─── */
     .scroll-reveal {
       opacity: 0; transform: translateY(32px) scale(0.98);
@@ -1176,6 +1201,15 @@
   </div>
 
   <div class="section-divider"></div>
+
+  <div class="topics-strip">
+    <span class="topics-strip-label">Browse by topic</span>
+    <a href="topics/ai-data-tools.html" class="topic-chip">AI &amp; Data Tools</a>
+    <a href="topics/ai-finance.html" class="topic-chip">AI in Finance</a>
+    <a href="topics/ai-sports.html" class="topic-chip">AI in Sports</a>
+    <a href="topics/research-academia.html" class="topic-chip">Research &amp; Academia</a>
+    <a href="topics/podcasts.html" class="topic-chip">Podcasts</a>
+  </div>
 
   <section class="archive-section" id="archive">
     <div class="sec-head">

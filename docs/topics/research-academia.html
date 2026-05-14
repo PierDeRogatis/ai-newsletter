@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Research & Academia — Gradient Descent</title>
+  <meta name="description" content="Every issue covering frontier AI research, papers, and academic developments.">
+  <link rel="canonical" href="https://pierderogatis.github.io/ai-newsletter/topics/research-academia.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Research & Academia — Gradient Descent">
+  <meta property="og:description" content="Every issue covering frontier AI research, papers, and academic developments.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pierderogatis.github.io/ai-newsletter/topics/research-academia.html">
+  <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Gradient Descent" href="https://pierderogatis.github.io/ai-newsletter/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Gradient Descent \u2014 Research & Academia", "description": "Every issue covering frontier AI research, papers, and academic developments.", "url": "https://pierderogatis.github.io/ai-newsletter/topics/research-academia.html", "isPartOf": {"@type": "WebSite", "name": "Gradient Descent", "url": "https://pierderogatis.github.io/ai-newsletter/"}}</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:      #03080F;
+      --surface: #06101A;
+      --border:  #0D1C2E;
+      --accent:  #00FFC8;
+      --text:    #ECF5FF;
+      --muted:   #6B82A0;
+      --dim:     #7A95B0;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(3,8,15,0.92);
+      backdrop-filter: blur(20px) saturate(1.6);
+      -webkit-backdrop-filter: blur(20px) saturate(1.6);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px; height: 56px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      color: var(--accent); font-size: 14px; font-weight: 700;
+      text-decoration: none; letter-spacing: 0.06em;
+      text-shadow: 0 0 8px rgba(0,255,200,0.35);
+    }
+    .nav-links { display: flex; gap: 24px; align-items: center; }
+    .nav-links a { color: var(--muted); font-size: 13px; font-weight: 500; text-decoration: none; transition: color 0.15s; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta { background: var(--accent); color: #03080F !important; font-size: 12px; font-weight: 700; padding: 7px 16px; border-radius: 6px; letter-spacing: 0.02em; }
+    .page-wrap { max-width: 760px; margin: 0 auto; padding: 64px 32px 96px; }
+    .breadcrumb { font-size: 12px; color: var(--muted); margin-bottom: 24px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .page-label { display: inline-block; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: 32px; font-weight: 800; line-height: 1.15; color: var(--text); letter-spacing: -0.02em; margin-bottom: 10px; }
+    .count-badge { display: inline-block; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 3px 12px; font-size: 12px; color: var(--muted); font-weight: 500; margin-left: 12px; vertical-align: middle; }
+    .subtitle { font-size: 15px; color: var(--dim); margin-top: 10px; margin-bottom: 40px; }
+    .issue-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+    .issue-row {
+      display: grid; grid-template-columns: 90px 1fr auto;
+      gap: 16px; align-items: start;
+      padding: 20px 0; border-bottom: 1px solid var(--border);
+    }
+    .issue-row:first-child { border-top: 1px solid var(--border); }
+    .issue-date { font-size: 12px; color: var(--muted); font-weight: 500; padding-top: 3px; white-space: nowrap; }
+    .issue-body { min-width: 0; }
+    .issue-headline { display: block; font-size: 15px; font-weight: 600; color: var(--text); text-decoration: none; margin-bottom: 5px; line-height: 1.4; }
+    .issue-headline:hover { color: var(--accent); }
+    .issue-brief { font-size: 13px; color: var(--dim); line-height: 1.65; }
+    .issue-cta { font-size: 12px; color: var(--accent); font-weight: 600; text-decoration: none; white-space: nowrap; padding-top: 3px; }
+    .issue-cta:hover { text-decoration: underline; }
+    .back-link { display: inline-block; margin-top: 40px; font-size: 13px; color: var(--muted); text-decoration: none; font-weight: 500; }
+    .back-link:hover { color: var(--accent); }
+    .empty { color: var(--dim); font-size: 15px; padding: 40px 0; }
+    @media (max-width: 600px) {
+      nav { padding: 0 20px; }
+      .page-wrap { padding: 40px 20px 72px; }
+      h1 { font-size: 24px; }
+      .issue-row { grid-template-columns: 1fr; gap: 6px; }
+      .issue-date { padding-top: 0; }
+      .issue-cta { display: none; }
+    }
+    @media screen and (max-width:620px){table[width='600']{width:100%!important;max-width:100%!important;}td[align='center']{padding:12px 0!important;}td[style*='padding:28px 32px']{padding:20px 16px!important;}td[style*='padding:24px 28px']{padding:16px 16px!important;}h1[style*='font-size:22px']{font-size:18px!important;}body{-webkit-text-size-adjust:100%;}}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="https://pierderogatis.github.io/ai-newsletter/" class="nav-logo">Gradient Descent</a>
+    <div class="nav-links">
+      <a href="https://pierderogatis.github.io/ai-newsletter/">Archive</a>
+      <a href="https://pierderogatis.github.io/ai-newsletter/about.html">About</a>
+      <a href="https://pierderogatis.github.io/ai-newsletter/" class="nav-cta">Subscribe free</a>
+    </div>
+  </nav>
+  <div class="page-wrap">
+    <p class="breadcrumb"><a href="https://pierderogatis.github.io/ai-newsletter/">Archive</a> &rsaquo; Topics &rsaquo; Research & Academia</p>
+    <span class="page-label">Topic</span>
+    <h1>Research & Academia<span class="count-badge">6 issues</span></h1>
+    <p class="subtitle">Every issue covering frontier AI research, papers, and academic developments.</p>
+    <ul class="issue-list">
+      <li class="issue-row">
+        <span class="issue-date">May 13, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html" class="issue-headline">Memory Matters</a>
+          <p class="issue-brief">Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks wit…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html" class="issue-cta">Read &rarr;</a>
+      </li>
+      <li class="issue-row">
+        <span class="issue-date">May 9, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-09.html" class="issue-headline">AI Hides Its Tracks</a>
+          <p class="issue-brief">Think of AI security like a house with increasingly complex locks, but now the locks can also pretend to be something they're not, making it harder to know if they're secure. This changes the game for…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-09.html" class="issue-cta">Read &rarr;</a>
+      </li>
+      <li class="issue-row">
+        <span class="issue-date">May 2, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html" class="issue-headline">AI automation gets cheaper</a>
+          <p class="issue-brief">It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This cha…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html" class="issue-cta">Read &rarr;</a>
+      </li>
+      <li class="issue-row">
+        <span class="issue-date">Apr 29, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html" class="issue-headline">New AI models reach 72.5% on SWE-bench</a>
+          <p class="issue-brief">The common thread today is that AI tooling is getting both cheaper and more capable, which is like watching a high-performance sports car become affordable enough for weekend racers - suddenly the que…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html" class="issue-cta">Read &rarr;</a>
+      </li>
+      <li class="issue-row">
+        <span class="issue-date">Apr 22, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html" class="issue-headline"></a>
+          <p class="issue-brief">The convergence of open-source AI tools and research is driving a structural shift in the industry, where labs are now prioritizing accessibility and transparency over proprietary models, which is why…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-22.html" class="issue-cta">Read &rarr;</a>
+      </li>
+      <li class="issue-row">
+        <span class="issue-date">Apr 18, 2026</span>
+        <div class="issue-body">
+          <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html" class="issue-headline"></a>
+          <p class="issue-brief">Consider the potential risks of AI-driven technological transformation in finance and sports, as well as the limitations of current AI evaluation methods, and how these factors may impact your data an…</p>
+        </div>
+        <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-04-18.html" class="issue-cta">Read &rarr;</a>
+      </li></ul>
+    <a href="https://pierderogatis.github.io/ai-newsletter/" class="back-link">&larr; Back to archive</a>
+  </div>
+</body>
+</html>
