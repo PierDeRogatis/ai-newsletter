@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, May 15, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-15.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-15.html</guid>
+    <pubDate>Fri, 15 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars - they can only go as fast as the road they're on, and right now, that road is the inference system. As investors and traders, you're likely watching the surge in stocks like Ford and Cerebras, but</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 15, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars - they can only go as fast as the road they're on, and right now, that road is the inference system. As investors and traders, you're likely watching the surge in stocks like Ford and Cerebras, but the real question is how these companies will optimize their AI systems for better overall performance, not just model capability. Can you afford to wait for the inference system to catch up, or will you be left in the dust, like a athlete who's perfected their technique but neglects to train their endurance?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/14/poetiqs-meta-system-automatically-builds-a-model-agnostic-harness-that-improved-every-llm-tested-on-livecodebench-pro-without-fine-tuning/">Poetiq’s Meta-System Automatically Builds a Model-Agnostic Harness That Improved Every LLM Tested on LiveCodeBench Pro Without Fine-Tuning</a></h3>
+<p>Poetiq&#x27;s Meta-System improved every LLM tested on LiveCodeBench Pro without fine-tuning by automatically constructing an optimized inference harness. This changes the model deployment workflow, allowing developers to use a single harness across multiple models like GPT 5.5 High and Gemini 3.0 Flash without modification.&ensp;<a href="https://www.marktechpost.com/2026/05/14/poetiqs-meta-system-automatically-builds-a-model-agnostic-harness-that-improved-every-llm-tested-on-livecodebench-pro-without-fine-tuning/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/">The Next AI Bottleneck Isn’t the Model: It’s the Inference System</a></h3>
+<p>Enterprise AI systems are entering a phase where inference design matters as much as model capability itself. This changes the priorities of AI system development, shifting focus from solely improving model performance to also optimizing the inference system for better overall performance.&ensp;<a href="https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/14/a-coding-implementation-to-master-gpu-computing-with-cupy-custom-cuda-kernels-streams-sparse-matrices-and-profiling/">A Coding Implementation to Master GPU Computing with CuPy, Custom CUDA Kernels, Streams, Sparse Matrices, and Profiling</a></h3>
+<p>CuPy provides a powerful GPU-accelerated alternative to NumPy for high-performance numerical computing in Python. This changes the tool used for numerical computing, allowing developers to use CuPy for tasks like inspecting CUDA devices, checking GPU memory, and utilizing custom CUDA kernels for improved performance.&ensp;<a href="https://www.marktechpost.com/2026/05/14/a-coding-implementation-to-master-gpu-computing-with-cupy-custom-cuda-kernels-streams-sparse-matrices-and-profiling/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/05/14/ford-surges-20percent-in-two-days-it-might-be-an-ai-meme-stock-after-energy-pivot.html">Ford surges nearly 20% in two days. It might be an AI &#x27;meme&#x27; stock after energy pivot</a></h3>
+<p>Ford Motor shares surged nearly 20% in two days due to its ties to the energy storage market. This changes the stock trading strategy for investors looking to capitalize on the energy storage and AI trend, who may now consider adding Ford to their portfolios.&ensp;<a href="https://www.cnbc.com/2026/05/14/ford-surges-20percent-in-two-days-it-might-be-an-ai-meme-stock-after-energy-pivot.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/14/clarity-act-congress-crypto-senate.html">Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle</a></h3>
+<p>The Clarity Act regulation bill passed the Senate Banking Committee with a 15-9 vote, marking a significant win for the crypto industry. This changes the regulatory compliance workflow for crypto companies, which may now need to adapt to the new rules-of-the-road outlined in the Clarity Act.&ensp;<a href="https://www.cnbc.com/2026/05/14/clarity-act-congress-crypto-senate.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html">Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up</a></h3>
+<p>Cerebras, an AI chip maker, saw its stock rise 89% in its market debut, indicating strong investor interest in AI technology. This changes the investment decision for venture capital firms and investors, who may now prioritize AI-focused startups like Cerebras, SpaceX, OpenAI, and Anthropic for potential funding and partnerships.&ensp;<a href="https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression">Essentials: Understanding &amp; Controlling Aggression</a></h3>
+<p>Hormones, genes, and environmental factors like day length can shift our aggressive tendencies, and neural circuits play a key role in activating and controlling aggressive states and behaviors. This changes our approach to managing conflict and emotions, allowing us to use science-based tools to modulate aggression in our daily lives.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, May 14, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 14, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as token superposition training or incorporating 10K training into running regimens, they're finding that small tweaks can lead to significant improvements in efficiency and performance. Can you apply this mindset to your own workflow, identifying one area where a small change in training or approach could lead to a substantial boost in productivity or results?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/">Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models</a></h3>
-<p>Token Superposition Training can speed up LLM pre-training by up to 2.5x across 270M to 10B parameter models by averaging contiguous token embeddings into bags during Phase 1 and reverting to standard next-token prediction in Phase 2. This changes the LLM pre-training workflow, allowing developers to reduce training time and increase efficiency in their model development pipeline.&ensp;<a href="https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/">What’s the Best Way to Brainwash an LLM?</a></h3>
-<p>Convincing a language model it was C-3PO was achieved by trying different methods over a weekend, with the most effective approach being discovered through experimentation. This changes the approach to fine-tuning LLMs, enabling developers to experiment with novel methods to influence the behavior and output of language models.&ensp;<a href="https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/">Anthropic launches Claude for Small Business to embed AI into the tools you forgot you pay for</a></h3>
-<p>Anthropic&#x27;s Claude for Small Business offers a package of 15 agent-based workflows and integrations for tools like QuickBooks, PayPal, and HubSpot, along with free training courses and a workshop tour. This changes the way small businesses embed AI into their existing tools and workflows, enabling them to streamline operations and improve productivity with the help of AI-powered automation.&ensp;<a href="https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678">The legs of the young heart stool: how motor competence, muscle strength, and physical activity support cardiorespiratory fitness in preschoolers?</a></h3>
-<p>Research shows that physical activity, motor competence, and muscle strength have a multi-dimensional impact on cardiorespiratory fitness in preschoolers. This changes how we approach designing exercise programs for young children, emphasizing the importance of incorporating a variety of physical activities to support overall health and development.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/">How a 10K Can Boost Your Training for Longer Races</a></h3>
-<p>Training for a 10K can improve speed, strength, and endurance, which can be beneficial for longer races like half-marathons and marathons. This changes the training plan for runners, suggesting that incorporating 10K training into their regimen can help them build the necessary skills and stamina for more challenging races.&ensp;<a href="https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016">Vertical jump without arm swing and running biomechanics in preschool children (3–6 years): associations and developmental insights</a></h3>
-<p>A study of 405 preschool children found associations between vertical jump performance and running biomechanics, providing insights into developmental patterns in young children. This changes how we assess and support the physical development of preschoolers, highlighting the importance of using tools like the OptoJump system to evaluate their movement patterns and identify areas for improvement.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita">Master Self Control &amp; Overcome Procrastination | Dr. Kentaro Fujita</a></h3>
-<p>Dr. Kentaro Fujita, a professor of psychology at The Ohio State University, shares tools for developing strong self-control to achieve aspirations and avoid unwanted habits. This changes your daily to-do list and task prioritization, allowing you to apply Dr. Fujita&#x27;s strategies to overcome procrastination and develop self-control today.&ensp;<a href="https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, May 13, 2026</title>
@@ -223,14 +233,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, April 25, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-25.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-25.html</guid>
-    <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
-    <description>It's like the hard drive market all over again: AI running costs are dropping so fast that 'is it worth automating?' is no longer a real question, which is why you're seeing labs and companies rush to release new, giant models like DeepSeek-V4 that c</description>
-    <category>AI &amp; Data Tools</category>
   </item>
 </channel>
 </rss>
