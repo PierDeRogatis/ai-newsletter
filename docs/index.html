@@ -748,31 +748,6 @@
       filter: blur(4px);
     }
 
-    /* ─── TOPIC STRIP ─── */
-    .topics-strip {
-      max-width: 1120px; margin: 0 auto; padding: 28px 32px;
-      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-    }
-    .topics-strip-label {
-      font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--muted); margin-right: 8px;
-    }
-    .topic-chip {
-      display: inline-block;
-      background: var(--surface); border: 1px solid var(--border2);
-      color: var(--dim); font-size: 12px; font-weight: 600;
-      padding: 6px 14px; border-radius: 20px; text-decoration: none;
-      transition: border-color 0.15s, color 0.15s, background 0.15s;
-      white-space: nowrap;
-    }
-    .topic-chip:hover {
-      border-color: var(--accent); color: var(--accent);
-      background: rgba(0,255,200,0.05);
-    }
-    @media (max-width: 700px) {
-      .topics-strip { padding: 20px 20px; }
-    }
-
     /* ─── SCROLL REVEAL ─── */
     .scroll-reveal {
       opacity: 0; transform: translateY(32px) scale(0.98);
@@ -1043,53 +1018,6 @@
       .footer-wrap { padding: 24px 20px; }
     }
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "name": "Gradient Descent",
-        "description": "Free daily AI newsletter covering LLMs, AI tooling, finance AI, sports science AI, and frontier research.",
-        "url": "https://pierderogatis.github.io/ai-newsletter/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
-          "width": 1080,
-          "height": 1080
-        },
-        "founder": {"@type": "Person", "name": "Pierluigi De Rogatis"},
-        "foundingDate": "2026-04-18",
-        "sameAs": ["https://github.com/PierDeRogatis/ai-newsletter"],
-        "knowsAbout": ["Artificial Intelligence", "Large Language Models", "Machine Learning", "AI Finance", "AI Research"]
-      },
-      {
-        "@type": "WebSite",
-        "name": "Gradient Descent",
-        "url": "https://pierderogatis.github.io/ai-newsletter/",
-        "description": "Daily AI newsletter archive — every issue free to read.",
-        "publisher": {"@type": "Organization", "name": "Gradient Descent"},
-        "inLanguage": "en"
-      },
-      {
-        "@type": "Periodical",
-        "name": "Gradient Descent",
-        "description": "A 3-minute intelligence briefing at the intersection of AI, finance, sports science, and research. Signal, not noise.",
-        "url": "https://pierderogatis.github.io/ai-newsletter/",
-        "inLanguage": "en",
-        "genre": "Newsletter",
-        "dateCreated": "2026-04-18",
-        "publisher": {"@type": "Organization", "name": "Gradient Descent"},
-        "about": [
-          {"@type": "Thing", "name": "Artificial Intelligence"},
-          {"@type": "Thing", "name": "Quantitative Finance"},
-          {"@type": "Thing", "name": "Sports Science"},
-          {"@type": "Thing", "name": "Machine Learning Research"}
-        ]
-      }
-    ]
-  }
-  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -1104,7 +1032,6 @@
         <span class="nav-tagline">Daily AI Intelligence</span>
       </a>
       <span class="nav-issue" id="nav-issue"></span>
-      <a href="about.html" style="color:var(--muted);font-size:13px;font-weight:500;text-decoration:none;margin-right:4px;">About</a>
       <a href="#" class="nav-cta" id="nav-subscribe">Subscribe free</a>
     </div>
   </nav>
@@ -1201,15 +1128,6 @@
   </div>
 
   <div class="section-divider"></div>
-
-  <div class="topics-strip">
-    <span class="topics-strip-label">Browse by topic</span>
-    <a href="topics/ai-data-tools.html" class="topic-chip">AI &amp; Data Tools</a>
-    <a href="topics/ai-finance.html" class="topic-chip">AI in Finance</a>
-    <a href="topics/ai-sports.html" class="topic-chip">AI in Sports</a>
-    <a href="topics/research-academia.html" class="topic-chip">Research &amp; Academia</a>
-    <a href="topics/podcasts.html" class="topic-chip">Podcasts</a>
-  </div>
 
   <section class="archive-section" id="archive">
     <div class="sec-head">
@@ -1371,7 +1289,6 @@
         <div class="footer-col-head">Navigate</div>
         <div class="footer-col-links">
           <a href="#archive">Archive</a>
-          <a href="about.html">About</a>
           <a href="feed.xml">RSS Feed</a>
           <a href="https://github.com/PierDeRogatis/ai-newsletter" target="_blank" rel="noopener">GitHub</a>
           <a href="https://groq.com" target="_blank" rel="noopener">Powered by Groq</a>
@@ -1856,6 +1773,38 @@
         if (revealObserver) revealObserver.observe(el);
       });
     });
+
+    // Structured data for search engines and AI crawlers
+    const _ld = document.createElement("script");
+    _ld.type = "application/ld+json";
+    _ld.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Gradient Descent",
+          "description": "Free daily AI newsletter covering LLMs, AI tooling, finance AI, sports science AI, and frontier research.",
+          "url": "https://pierderogatis.github.io/ai-newsletter/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
+            "width": 1080, "height": 1080
+          },
+          "founder": {"@type": "Person", "name": "Pier Luigi De Rogatis"},
+          "foundingDate": "2026-04-18",
+          "knowsAbout": ["Artificial Intelligence", "Large Language Models", "Machine Learning", "AI Finance", "AI Research"]
+        },
+        {
+          "@type": "WebSite",
+          "name": "Gradient Descent",
+          "url": "https://pierderogatis.github.io/ai-newsletter/",
+          "description": "Daily AI newsletter archive — every issue free to read.",
+          "publisher": {"@type": "Organization", "name": "Gradient Descent"},
+          "inLanguage": "en"
+        }
+      ]
+    });
+    document.head.appendChild(_ld);
 
     if (new Date() >= new Date("2026-05-04")) {
       document.getElementById("ph-badge").style.display = "";

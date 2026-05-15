@@ -2,45 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pierderogatis.github.io/ai-newsletter/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/about.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/topics/ai-data-tools.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/topics/ai-finance.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/topics/ai-sports.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/topics/research-academia.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pierderogatis.github.io/ai-newsletter/topics/podcasts.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-15.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</loc>
