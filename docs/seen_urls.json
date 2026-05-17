@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/12/meet-antangelmed-a-103b-parameter-open-source-medical-language-model-built-on-a-1-32-activation-ratio-moe-architecture/",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.11518",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://arxiv.org/abs/2602.07892",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.12241",
-    "date": "2026-05-13"
-  },
-  {
-    "url": "https://futureoflife.org/podcast/why-we-should-build-ai-tools-not-ai-replacements-with-anthony-aguirre/",
-    "date": "2026-05-13"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
     "date": "2026-05-14"
   },
@@ -134,5 +106,41 @@
   {
     "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
     "date": "2026-05-16"
+  },
+  {
+    "url": "https://the-decoder.com/new-benchmark-showes-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-05-16/stopping-poor-financial-deisions-masters-in-business-video",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71310980/critical-velocity-workouts/",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7284529/2026/05/16/red-sox-trevor-story-injured-list/",
+    "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.runnersworld.com/news/a71324633/brooklyn-half-results-2026/",
+    "date": "2026-05-17"
   }
 ]

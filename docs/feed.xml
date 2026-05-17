@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, May 17, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-17.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-17.html</guid>
+    <pubDate>Sun, 17 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI like a master locksmith: it can now pick the locks of browser security, developing real exploits autonomously, and that changes the game for developers who need to test their defenses. On the trading desk, this means investors like Bill A</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 17, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a master locksmith: it can now pick the locks of browser security, developing real exploits autonomously, and that changes the game for developers who need to test their defenses. On the trading desk, this means investors like Bill Ackman are betting on companies like Microsoft that are poised to capitalize on AI growth, while on the sports performance side, athletes are looking for their own 'exploits' - like critical velocity workouts that can improve running performance without burnout. As you consider the implications of autonomous AI exploits, what's the one security vulnerability you're not checking for in your own systems that could be the next big target?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/new-benchmark-showes-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/">New benchmark shows Claude Mythos and GPT-5.5 can develop real browser exploits autonomously</a></h3>
+<p>Claude Mythos leads GPT-5.5 by a wide margin in developing real browser exploits autonomously, but costs twelve times as much. This changes the browser security testing tool, as developers can now consider using Claude Mythos for more advanced vulnerability detection.&ensp;<a href="https://the-decoder.com/new-benchmark-showes-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/">How to Build Repository-Level Code Intelligence with Repowise Using Graph Analysis, Dead-Code Detection, Decisions, and AI Context</a></h3>
+<p>Repowise can be used to build repository-level intelligence for Python projects like itsdangerous, using graph analysis, dead-code detection, and AI context. This changes the code review workflow, as developers can now use Repowise to automate code analysis and detection of dead code.&ensp;<a href="https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/">Recursive Language Models: An All-in-One Deep Dive</a></h3>
+<p>Recursive language models differ from other models like ReAct, CodeAct, Self-Loops, and Subagents in their ability to process and generate text recursively. This changes the natural language processing model selection, as developers can now consider using recursive language models for more complex text generation tasks.&ensp;<a href="https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html">Berkshire&#x27;s new CEO overhauls portfolio, dumping a slate of stocks</a></h3>
+<p>Berkshire Hathaway&#x27;s equity portfolio underwent one of its biggest renovations ever during Greg Abel&#x27;s first three months as CEO, with a significant overhaul of its stock holdings. This changes the investment strategy for Berkshire Hathaway, altering the stocks that investors should consider when looking to mirror the company&#x27;s portfolio.&ensp;<a href="https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html">Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth</a></h3>
+<p>Bill Ackman&#x27;s Pershing Square Capital Management built a position in Microsoft during the first quarter, betting on the company&#x27;s growth in AI and cloud computing. This changes the stocks that investors should consider when looking for growth opportunities in the tech sector, particularly those related to AI and cloud computing.&ensp;<a href="https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-05-16/stopping-poor-financial-deisions-masters-in-business-video">Stopping Poor Financial Decisions: Masters in Business with Sheila Bair</a></h3>
+<p>Former FDIC Chair Sheila Bair discusses the importance of financial literacy and her concerns about crypto and Buy Now, Pay Later services in her latest book. This changes the approach that investors and consumers should take when making financial decisions, emphasizing the need for caution and education when considering new or risky financial products.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-16/stopping-poor-financial-deisions-masters-in-business-video">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71310980/critical-velocity-workouts/">This Type of Training Could Be the Secret to Running Faster Without Burning Out—and It Can Lead to a PR in Any Distance</a></h3>
+<p>Critical velocity workouts, which sit between threshold and VO₂ max work, can help runners get faster with less strain, reducing the risk of burnout. This changes the way runners approach their training regimen, specifically incorporating critical velocity workouts into their routine to improve performance.&ensp;<a href="https://www.runnersworld.com/training/a71310980/critical-velocity-workouts/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7284529/2026/05/16/red-sox-trevor-story-injured-list/">Trevor Story may need surgery for sports hernia: What it could mean for Marcelo Mayer</a></h3>
+<p>Trevor Story&#x27;s sports hernia injury, which he has managed since the start of the season, has resulted in disappointing performance with an OPS of .547 and six errors. This changes the Red Sox&#x27;s decision on whether to undergo surgery for Story&#x27;s injury, potentially impacting Marcelo Mayer&#x27;s role in the team.&ensp;<a href="https://www.nytimes.com/athletic/7284529/2026/05/16/red-sox-trevor-story-injured-list/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/news/a71324633/brooklyn-half-results-2026/">Results from the 2026 Brooklyn Half</a></h3>
+<p>The 2026 Brooklyn Half saw 29,000 athletes complete the 13.1-mile course from Prospect Park to Coney Island. This changes the training plans of runners who participated in the event, as they can now analyze their performance and adjust their strategy for future races.&ensp;<a href="https://www.runnersworld.com/news/a71324633/brooklyn-half-results-2026/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">[AINews] Cerebras&#x27; $60B IPO: Slowly, then All at Once</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, May 16, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-16.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-16.html</guid>
@@ -19,55 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 16, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI coding agents like sports players, each with their own strengths and weaknesses, and now we have a way to rank them based on actual performance metrics, like code quality and terminal benchmarks. This changes the game for trading desks, where AI-driven coding can automate tasks, but also introduces new risks if the wrong agent is chosen, highlighting the need for careful evaluation. As you consider adopting AI coding agents, what's the one metric that will make or break your decision to trust an AI with your codebase?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/15/best-ai-agents-for-software-development-ranked-a-benchmark-driven-look-at-the-current-field/">Best AI Agents for Software Development Ranked: A Benchmark-Driven Look at the Current Field</a></h3>
-<p>Claude Code leads in code quality at 87.6% SWE-bench Verified, while GPT-5.5 tops Terminal-Bench at 82.7%. This changes the evaluation criteria for selecting AI coding agents, allowing developers to make more informed decisions when choosing a tool for software development.&ensp;<a href="https://www.marktechpost.com/2026/05/15/best-ai-agents-for-software-development-ranked-a-benchmark-driven-look-at-the-current-field/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/15/supertone-releases-supertonic-v3-on-device-text-to-speech-model-with-31-language-support-fewer-reading-failures-and-expression-tags/">Supertone Releases Supertonic v3: On-Device Text-to-Speech Model with 31-Language Support, Fewer Reading Failures, and Expression Tags</a></h3>
-<p>Supertone&#x27;s Supertonic v3 on-device TTS engine now supports 31 languages, has fewer reading failures, and includes expression tags, all without changing the inference contract for existing integrations. This changes the text-to-speech integration workflow, enabling developers to easily add support for more languages and improve overall speech quality in their applications.&ensp;<a href="https://www.marktechpost.com/2026/05/15/supertone-releases-supertonic-v3-on-device-text-to-speech-model-with-31-language-support-fewer-reading-failures-and-expression-tags/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/">Stop Evaluating LLMs with “Vibe Checks”</a></h3>
-<p>Building a decision-grade scorecard for AI agents is necessary to move beyond subjective evaluations, allowing for more accurate assessments of language model performance. This changes the evaluation process for LLMs, replacing informal &#x27;vibe checks&#x27; with a more systematic and reliable approach to assessing their capabilities.&ensp;<a href="https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-15/cerebras-pulls-back-post-ipo-gemini-space-station-rises-video">Cerebras Pulls Back After IPO Day; Gemini Space Station Rises on $100M Investment | Stock Movers</a></h3>
-<p>&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-15/cerebras-pulls-back-post-ipo-gemini-space-station-rises-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.capitalspectator.com/factor-extremes-momentum-runs-hot-as-low-vol-stumbles/">Factor Extremes: Momentum Runs Hot as Low-Vol Stumbles</a></h3>
-<p>&ensp;<a href="https://www.capitalspectator.com/factor-extremes-momentum-runs-hot-as-low-vol-stumbles/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html">Cerebras stock falls 10% in first full day of trading after blockbuster debut</a></h3>
-<p>&ensp;<a href="https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/gear/a71254610/rei-anniversary-sale-2026/">REI Anniversary Sale Has Plenty of Editor-Tested Running Deals from Brooks, On, and More</a></h3>
-<p>REI&#x27;s annual sale starts May 15 and features deals on running gear from brands like Brooks and On. This changes your shopping plans for running gear, as you can now check the REI sale for discounted prices on editor-tested products.&ensp;<a href="https://www.runnersworld.com/gear/a71254610/rei-anniversary-sale-2026/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/news/a71166284/molly-seidel-ultra-trail-running/">‘It Just Wasn’t Fun Anymore’: Why Molly Seidel Stepped Away from Marathoning—and Is Thriving on the Trails</a></h3>
-<p>Olympic medalist Molly Seidel stepped away from marathoning and found renewed passion in trail running. This changes your consideration of alternative running disciplines, as you can now look into trail running as a way to rejuvenate your own running career.&ensp;<a href="https://www.runnersworld.com/news/a71166284/molly-seidel-ultra-trail-running/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes/">These 10 Brooks Running Shoes Will Help You Run Your Best Miles Yet</a></h3>
-<p>Brooks offers 10 running shoes, including the Ghost and Glycerin, that are known for their comfort. This changes your shoe purchasing decision, as you can now consider Brooks as a top brand for comfortable trainers.&ensp;<a href="https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2605.14635">MultiEmo-Bench: Multi-label Visual Emotion Analysis for Multi-modal Large Language Models</a></h3>
-<p>MultiEmo-Bench introduces a benchmark dataset for evaluating multimodal large language models&#x27; ability to predict emotions evoked by images, which has been reported to be unintuitive in recent user studies. This changes the evaluation tool for multimodal large language models, allowing developers to better assess their models&#x27; emotion analysis capabilities.&ensp;<a href="https://arxiv.org/abs/2605.14635">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.12034">Boosting Omni-Modal Language Models: Staged Post-Training with Visually Debiased Evaluation</a></h3>
-<p>Current omni-modal benchmarks can be inflated when visual evidence alone is enough to answer a query, which may not accurately reflect a model&#x27;s true abilities. This changes the benchmarking workflow for omni-modal language models, requiring developers to use visually debiased evaluation methods to get a more accurate assessment of their models&#x27; capabilities.&ensp;<a href="https://arxiv.org/abs/2605.12034">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.13936">Towards the Next Frontier of LLMs, Training on Private Data: A Cross-Domain Benchmark for Federated Fine-Tuning</a></h3>
-<p>The next frontier for large language model development lies in training on private data, which is often the most valuable information, especially in highly sensitive domains. This changes the data sourcing decision for large language model development, prompting developers to consider federated fine-tuning on private data to unlock the next level of model performance.&ensp;<a href="https://arxiv.org/abs/2605.13936">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">[AINews] Cerebras&#x27; $60B IPO: Slowly, then All at Once</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, May 15, 2026</title>
@@ -244,16 +245,6 @@
     <pubDate>Tue, 28 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment 3D printing crossed the threshold from hobbyist to industrial-scale: AI models are now being built for physical action, not just text generation, and that changes the game for both robot makers and sports teams. This shift lands </description>
     <category>AI in Sports</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, April 27, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-27.html</guid>
-    <pubDate>Mon, 27 Apr 2026 06:00:00 +0000</pubDate>
-    <description>It's like trying to build a car that can drive itself, but still needs a human to change the oil - today's AI models are getting better at specific tasks, but they're not yet reliable enough to replace humans in complex workflows. This is having a ri</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>Podcasts</category>
   </item>
 </channel>
 </rss>
