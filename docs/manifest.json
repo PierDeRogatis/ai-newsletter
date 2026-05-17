@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-17",
+    "headline": "AI Exploits Security",
+    "brief": "Think of AI like a master locksmith: it can now pick the locks of browser security, developing real exploits autonomously, and that changes the game for developers who need to test their defenses. On the trading desk, this means investors like Bill A",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-05-17.html"
+  },
+  {
     "date": "2026-05-16",
     "headline": "AI Agents Get Real Scores",
     "brief": "Think of AI coding agents like sports players, each with their own strengths and weaknesses, and now we have a way to rank them based on actual performance metrics, like code quality and terminal benchmarks. This changes the game for trading desks, w",
