@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-18",
+    "headline": "Models get smaller",
+    "brief": "Think of language models like bulky suitcases: the more you pack, the harder they are to move around, which is why researchers are excited about new tools to compress them without losing too much functionality, kind of like a travel-sized toiletry ba",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-18.html"
+  },
+  {
     "date": "2026-05-17",
     "headline": "AI Exploits Security",
     "brief": "Think of AI like a master locksmith: it can now pick the locks of browser security, developing real exploits autonomously, and that changes the game for developers who need to test their defenses. On the trading desk, this means investors like Bill A",

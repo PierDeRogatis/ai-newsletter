@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1829678",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71293142/benefits-of-10k-training/",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1819016",
-    "date": "2026-05-14"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita",
-    "date": "2026-05-14"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/14/poetiqs-meta-system-automatically-builds-a-model-agnostic-harness-that-improved-every-llm-tested-on-livecodebench-pro-without-fine-tuning/",
     "date": "2026-05-15"
   },
@@ -142,5 +114,29 @@
   {
     "url": "https://www.runnersworld.com/news/a71324633/brooklyn-half-results-2026/",
     "date": "2026-05-17"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-05-18/pictet-s-paolini-says-the-easy-money-era-is-over-video",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/18/european-markets-stoxx-600-ftse-dax-iran-latest-uk-news.html",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/18/mizuho-shares-rakuten-bank-investment-card-yomiuri-shimbun-report.html",
+    "date": "2026-05-18"
   }
 ]
