@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, May 19, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</guid>
+    <pubDate>Tue, 19 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memor</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 19, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memory systems, and it has implications for how you design data pipelines on your trading desk, like prioritizing user protection without sacrificing functionality. As you consider how to balance data utility and protection, ask yourself whether the current solutions are just Band-Aids on a much deeper issue of how we think about data ownership.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/">Meet MemPrivacy: An Edge-Cloud Framework that Uses Local Reversible Pseudonymization to Protect User Data Without Breaking Memory Utility</a></h3>
+<p>Researchers from MemTensor, HONOR Device, and Tongji University have introduced MemPrivacy, a framework that uses local reversible pseudonymization to protect user data without breaking memory utility. This changes the way we design cloud-hosted memory systems, allowing us to prioritize user data protection without sacrificing functionality.&ensp;<a href="https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/18/how-to-build-an-advanced-agentic-ai-system-with-planning-tool-calling-memory-and-self-critique-using-openai-api/">How to Build an Advanced Agentic AI System with Planning, Tool Calling, Memory, and Self-Critique Using OpenAI API</a></h3>
+<p>An advanced agentic AI system can be built using the OpenAI API by designing the agent as a small pipeline of specialized roles, including planner, tool-using executor, and critic. This changes the way we develop AI systems, enabling the creation of more complex and autonomous agents that can plan, act, and evaluate their own performance.&ensp;<a href="https://www.marktechpost.com/2026/05/18/how-to-build-an-advanced-agentic-ai-system-with-planning-tool-calling-memory-and-self-critique-using-openai-api/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/18/stochastic-gradient-descent-sgds-frequency-bias-and-how-adam-fixes-it/">Stochastic Gradient Descent (SGD’s) Frequency Bias and How Adam Fixes It</a></h3>
+<p>Stochastic Gradient Descent (SGD) has a frequency bias that affects the training of language models, with parameters associated with common tokens receiving more updates than those associated with rare tokens. This changes the optimization algorithm we use, with Adam being a suitable alternative that can mitigate the frequency bias and improve the training of language models.&ensp;<a href="https://www.marktechpost.com/2026/05/18/stochastic-gradient-descent-sgds-frequency-bias-and-how-adam-fixes-it/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1807791">A scoping review of bicycling interventions’ impacts on psychological, social, affective, and cognitive well-being</a></h3>
+<p>Bicycling has substantial physical benefits and also improves cardiovascular fitness and body composition. This changes the exercise routine you consider for overall well-being, making bicycling a more attractive option to incorporate into your daily or weekly activities.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1807791">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/a39815065/best-recovery-shoes/">The 8 Best Recovery Shoes for Resting Your Feet After Races and Training</a></h3>
+<p>Having the right shoes for recovery is crucial, and there are several options available for the comfiest shoes for days off. This changes the type of shoes you purchase for post-race or post-training recovery, prioritizing comfort and support for your feet.&ensp;<a href="https://www.runnersworld.com/gear/a39815065/best-recovery-shoes/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/g42571278/best-running-bras-for-large-breasts/">The 6 Best Running Bras for Large Breasts</a></h3>
+<p>There are 8 sports bras that provide support for larger-breasted runners without suffocating compression, addressing issues like back pain and bounce. This changes the running bra you choose, opting for one that offers the right balance of support and comfort for your specific needs.&ensp;<a href="https://www.runnersworld.com/gear/g42571278/best-running-bras-for-large-breasts/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier">AINews: How to land a job at a frontier lab (on Pretraining)</a></h3>
+<p>Landing a job at a frontier lab requires understanding pretraining, with a notable blog post providing insights on the topic. This changes the job search strategy for candidates, who can now focus on developing skills in pretraining to increase their chances of getting hired at a frontier lab today.&ensp;<a href="https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, May 18, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-18.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-18.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, May 18, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of language models like bulky suitcases: the more you pack, the harder they are to move around, which is why researchers are excited about new tools to compress them without losing too much functionality, kind of like a travel-sized toiletry bag. This compression technology has implications for trading desks, where faster and more efficient language models can help analysts sift through financial news and reports more quickly, potentially giving them an edge in making investment decisions. As you consider the potential benefits of these compressed models, ask yourself: what other 'baggage' in your workflow could be streamlined or automated to make your work more efficient?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/">A Coding Implementation to Compress and Benchmark Instruction-Tuned LLMs with FP8, GPTQ, and SmoothQuant Quantization using llmcompressor</a></h3>
-<p>Researchers applied post-training quantization to an instruction-tuned language model using llmcompressor, comparing multiple compression strategies including FP8 dynamic quantization and SmoothQuant with GPTQ W8A8. This changes the model compression workflow, allowing developers to use llmcompressor for more efficient language model deployment.&ensp;<a href="https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/">Vercel Labs Introduces Zero, a Systems Programming Language Designed So AI Agents Can Read, Repair, and Ship Native Programs</a></h3>
-<p>Vercel Labs released Zero, an experimental systems programming language that allows AI agents to read, repair, and ship native programs without human interpretation, using JSON diagnostics and typed repair metadata. This changes the systems programming tool, enabling developers to use Zero for more autonomous and efficient program development and repair.&ensp;<a href="https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/">Greg Brockman consolidates OpenAI&#x27;s product teams to build an &#x27;agentic future&#x27;</a></h3>
-<p>OpenAI is merging its product teams, including ChatGPT, Codex, and the developer API, under a single team led by Thibault Sottiaux, with the goal of building a &#x27;super app&#x27; that integrates the Atlas browser. This changes the product development decision, allowing OpenAI to focus on creating a more integrated and user-friendly AI platform.&ensp;<a href="https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-18/pictet-s-paolini-says-the-easy-money-era-is-over-video">Why Investors Should Expect Lower Returns From Here</a></h3>
-<p>Luca Paolini argues that the easy money era is over, which will likely lead to lower returns for investors. This changes the investment strategy, as investors should now consider more conservative approaches to manage their portfolios.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-18/pictet-s-paolini-says-the-easy-money-era-is-over-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/18/european-markets-stoxx-600-ftse-dax-iran-latest-uk-news.html">European markets slide after Trump threatens Iran</a></h3>
-<p>European stocks started the new trading week in negative territory due to investors&#x27; reaction to the latest developments in the U.S.-Iran conflict. This changes the risk assessment for investments in European markets, as investors should now factor in the potential impact of geopolitical tensions on stock prices.&ensp;<a href="https://www.cnbc.com/2026/05/18/european-markets-stoxx-600-ftse-dax-iran-latest-uk-news.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/18/mizuho-shares-rakuten-bank-investment-card-yomiuri-shimbun-report.html">Mizuho shares slide 7% after denying decision on reported Rakuten Bank investment shift</a></h3>
-<p>Mizuho Financial Group&#x27;s shares fell over 7% after the company denied making a decision on investing in Rakuten Bank. This changes the trading strategy for Mizuho shares, as investors should now be cautious and wait for further clarification on the company&#x27;s investment plans before making any decisions.&ensp;<a href="https://www.cnbc.com/2026/05/18/mizuho-shares-rakuten-bank-investment-card-yomiuri-shimbun-report.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">[AINews] Cerebras&#x27; $60B IPO: Slowly, then All at Once</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, May 17, 2026</title>
@@ -227,16 +237,6 @@
     <pubDate>Thu, 30 Apr 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is </description>
     <category>AI &amp; Data Tools</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, April 29, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-29.html</guid>
-    <pubDate>Wed, 29 Apr 2026 06:00:00 +0000</pubDate>
-    <description>The common thread today is that AI tooling is getting both cheaper and more capable, which is like watching a high-performance sports car become affordable enough for weekend racers - suddenly the question is no longer whether you can afford the car,</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
   </item>
 </channel>
 </rss>
