@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-19",
+    "headline": "Data protection gets smarter",
+    "brief": "Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memor",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-19.html"
+  },
+  {
     "date": "2026-05-18",
     "headline": "Models get smaller",
     "brief": "Think of language models like bulky suitcases: the more you pack, the harder they are to move around, which is why researchers are excited about new tools to compress them without losing too much functionality, kind of like a travel-sized toiletry ba",
