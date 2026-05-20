@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-20",
+    "headline": "Models get smarter faster",
+    "brief": "Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, thi",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-20.html"
+  },
+  {
     "date": "2026-05-19",
     "headline": "Data protection gets smarter",
     "brief": "Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memor",

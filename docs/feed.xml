@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, May 20, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-20.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-20.html</guid>
+    <pubDate>Wed, 20 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, thi</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 20, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, this means more accurate predictions and quicker decision-making, but in sports performance, it raises questions about how to use AI to analyze and improve human athletic abilities. As you consider deploying these smarter models, ask yourself: what new risks and biases might arise when AI systems can learn and adapt at an unprecedented pace?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/">Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service</a></h3>
+<p>A multistage multimodal recommender system can be built and deployed on Amazon EKS, utilizing data pipelines, model training, Bloom filters, feature caching, and real-time ranking. This changes the approach to building recommender systems, allowing developers to use Amazon EKS for deployment and management.&ensp;<a href="https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/">Google Introduces Gemini 3.5 Flash at I/O 2026: A Faster and Cheaper Model for AI Agents and Coding</a></h3>
+<p>Google&#x27;s Gemini 3.5 Flash model beats its own flagship on coding and agentic benchmarks, running four times faster and at half the cost. This changes the choice of AI model for developers, who can now consider Gemini 3.5 Flash for faster and more cost-effective AI agent and coding applications.&ensp;<a href="https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://github.com/antoinezambelli/forge">Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</a></h3>
+<p>Forge, an open-source reliability layer, can improve the performance of large language models like an 8B model from 53% to 99% on agentic tasks by adding domain-and-tool-agnostic guardrails. This changes the way developers implement and manage self-hosted LLM tool-calling, allowing them to use Forge for more reliable and efficient model performance.&ensp;<a href="https://github.com/antoinezambelli/forge">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2605.19723">Mathematical Reasoning in Large Language Models: Benchmarks, Architectures, Evaluation, and Open Challenges</a></h3>
+<p>Mathematical reasoning is a crucial benchmark for evaluating artificial intelligence systems, and Large Language Models are improving their reasoning capabilities. This changes the way we evaluate AI systems, shifting the focus towards more complex problem-solving tasks that require mathematical reasoning.&ensp;<a href="https://arxiv.org/abs/2605.19723">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.19307">MetaRA: Metamorphic Robustness Assessment for Multimodal Large Language Model-based Visual Question Answering Systems</a></h3>
+<p>Existing evaluations of Multimodal Large Language Models rely on static datasets and a single testing paradigm, which is insufficient for assessing their reasoning capabilities. This changes the evaluation workflow for Visual Question Answering systems, requiring the use of more dynamic and diverse testing methods like MetaRA.&ensp;<a href="https://arxiv.org/abs/2605.19307">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.18791">SpecX: A Large-Scale Benchmark for Multi-Modal Spectroscopy and Cross-Paradigm Evaluation</a></h3>
+<p>Existing spectral benchmarks are limited in scale, modality alignment, and evaluation scope, focusing on either specialized models or multimodal language models. This changes the benchmarking tool for multi-modal spectroscopy, replacing smaller benchmarks with the larger and more comprehensive SpecX benchmark.&ensp;<a href="https://arxiv.org/abs/2605.18791">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash">[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, May 19, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 19, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memory systems, and it has implications for how you design data pipelines on your trading desk, like prioritizing user protection without sacrificing functionality. As you consider how to balance data utility and protection, ask yourself whether the current solutions are just Band-Aids on a much deeper issue of how we think about data ownership.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/">Meet MemPrivacy: An Edge-Cloud Framework that Uses Local Reversible Pseudonymization to Protect User Data Without Breaking Memory Utility</a></h3>
-<p>Researchers from MemTensor, HONOR Device, and Tongji University have introduced MemPrivacy, a framework that uses local reversible pseudonymization to protect user data without breaking memory utility. This changes the way we design cloud-hosted memory systems, allowing us to prioritize user data protection without sacrificing functionality.&ensp;<a href="https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/18/how-to-build-an-advanced-agentic-ai-system-with-planning-tool-calling-memory-and-self-critique-using-openai-api/">How to Build an Advanced Agentic AI System with Planning, Tool Calling, Memory, and Self-Critique Using OpenAI API</a></h3>
-<p>An advanced agentic AI system can be built using the OpenAI API by designing the agent as a small pipeline of specialized roles, including planner, tool-using executor, and critic. This changes the way we develop AI systems, enabling the creation of more complex and autonomous agents that can plan, act, and evaluate their own performance.&ensp;<a href="https://www.marktechpost.com/2026/05/18/how-to-build-an-advanced-agentic-ai-system-with-planning-tool-calling-memory-and-self-critique-using-openai-api/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/18/stochastic-gradient-descent-sgds-frequency-bias-and-how-adam-fixes-it/">Stochastic Gradient Descent (SGD’s) Frequency Bias and How Adam Fixes It</a></h3>
-<p>Stochastic Gradient Descent (SGD) has a frequency bias that affects the training of language models, with parameters associated with common tokens receiving more updates than those associated with rare tokens. This changes the optimization algorithm we use, with Adam being a suitable alternative that can mitigate the frequency bias and improve the training of language models.&ensp;<a href="https://www.marktechpost.com/2026/05/18/stochastic-gradient-descent-sgds-frequency-bias-and-how-adam-fixes-it/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1807791">A scoping review of bicycling interventions’ impacts on psychological, social, affective, and cognitive well-being</a></h3>
-<p>Bicycling has substantial physical benefits and also improves cardiovascular fitness and body composition. This changes the exercise routine you consider for overall well-being, making bicycling a more attractive option to incorporate into your daily or weekly activities.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1807791">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/a39815065/best-recovery-shoes/">The 8 Best Recovery Shoes for Resting Your Feet After Races and Training</a></h3>
-<p>Having the right shoes for recovery is crucial, and there are several options available for the comfiest shoes for days off. This changes the type of shoes you purchase for post-race or post-training recovery, prioritizing comfort and support for your feet.&ensp;<a href="https://www.runnersworld.com/gear/a39815065/best-recovery-shoes/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/g42571278/best-running-bras-for-large-breasts/">The 6 Best Running Bras for Large Breasts</a></h3>
-<p>There are 8 sports bras that provide support for larger-breasted runners without suffocating compression, addressing issues like back pain and bounce. This changes the running bra you choose, opting for one that offers the right balance of support and comfort for your specific needs.&ensp;<a href="https://www.runnersworld.com/gear/g42571278/best-running-bras-for-large-breasts/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier">AINews: How to land a job at a frontier lab (on Pretraining)</a></h3>
-<p>Landing a job at a frontier lab requires understanding pretraining, with a notable blog post providing insights on the topic. This changes the job search strategy for candidates, who can now focus on developing skills in pretraining to increase their chances of getting hired at a frontier lab today.&ensp;<a href="https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, May 18, 2026</title>
@@ -229,14 +239,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, April 30, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-04-30.html</guid>
-    <pubDate>Thu, 30 Apr 2026 06:00:00 +0000</pubDate>
-    <description>It's like the moment when car manufacturers started sharing engine designs - Nvidia's release of Nemotron 3 Nano Omni reveals the intricate details of modern multimodal models, including the diverse sources of its training data. This transparency is </description>
-    <category>AI &amp; Data Tools</category>
   </item>
 </channel>
 </rss>

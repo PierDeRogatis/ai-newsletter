@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/15/best-ai-agents-for-software-development-ranked-a-benchmark-driven-look-at-the-current-field/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/15/supertone-releases-supertonic-v3-on-device-text-to-speech-model-with-31-language-support-fewer-reading-failures-and-expression-tags/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-15/cerebras-pulls-back-post-ipo-gemini-space-station-rises-video",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.capitalspectator.com/factor-extremes-momentum-runs-hot-as-low-vol-stumbles/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a71254610/rei-anniversary-sale-2026/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.runnersworld.com/news/a71166284/molly-seidel-ultra-trail-running/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes/",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.14635",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.12034",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.13936",
-    "date": "2026-05-16"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
-    "date": "2026-05-16"
-  },
-  {
     "url": "https://the-decoder.com/new-benchmark-showes-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/",
     "date": "2026-05-17"
   },
@@ -138,5 +86,33 @@
   {
     "url": "https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier",
     "date": "2026-05-19"
+  },
+  {
+    "url": "https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://github.com/antoinezambelli/forge",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.19723",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.19307",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.18791",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+    "date": "2026-05-20"
   }
 ]
