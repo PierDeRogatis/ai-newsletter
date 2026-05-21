@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/new-benchmark-showes-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-16/stopping-poor-financial-deisions-masters-in-business-video",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71310980/critical-velocity-workouts/",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7284529/2026/05/16/red-sox-trevor-story-injured-list/",
-    "date": "2026-05-17"
-  },
-  {
-    "url": "https://www.runnersworld.com/news/a71324633/brooklyn-half-results-2026/",
-    "date": "2026-05-17"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/",
     "date": "2026-05-18"
   },
@@ -114,5 +78,33 @@
   {
     "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
     "date": "2026-05-20"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1800382",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1864572",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71353931/gray-zone-training/",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
+    "date": "2026-05-21"
   }
 ]

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, May 21, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</guid>
+    <pubDate>Thu, 21 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluati</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 21, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluating the tools used for data analysis, while in the sports lab, coaches are looking at new warm-up routines like slow paced breathing and power posing to gain a competitive edge. As you consider adopting these new algorithms and techniques, ask yourself: what's the potential downside of relying on automated tools to optimize performance, whether it's in finance or athletics?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/">Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google’s TurboQuant Algorithm</a></h3>
+<p>Turbovec brings Google Research&#x27;s TurboQuant algorithm to vector search, offering 16x compression and zero codebook training for RAG pipelines. This changes the vector search tool you use for RAG pipelines, allowing you to switch to Turbovec for improved compression and efficiency.&ensp;<a href="https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/">How to Build Knowledge Graph Generation Pipelines From Text With kg-gen, NetworkX Analytics, and Interactive Visualizations</a></h3>
+<p>The kg-gen pipeline generates knowledge graphs from plain text, conversations, and multiple source documents, extracting entities, predicates, and relationships. This changes the workflow you use to generate knowledge graphs, allowing you to use kg-gen and NetworkX analytics for more efficient and interactive graph generation.&ensp;<a href="https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/">Deepseek wants to take on Claude Code and OpenAI&#x27;s Codex with &#x27;Deepseek Code&#x27;</a></h3>
+<p>Deepseek is developing its own AI code agent, &#x27;Deepseek Code&#x27;, a direct competitor to Claude Code, Codex, and Cursor, requiring expertise in agent loops, MCP, and context engineering. This changes the AI coding tool you use, allowing you to consider Deepseek Code as an alternative to existing coding tools like Claude Code and Codex.&ensp;<a href="https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800382">Slow paced breathing and power posing: a pre-competitive ritual during an American football season</a></h3>
+<p>Slow paced breathing and power posing may improve physical performance in American football by changing the pre-competitive ritual. This changes the warm-up routine that coaches and athletes can implement before a game today.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800382">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1864572">Standardising the preparation for, and delivery of care during, and after critical incidents: a Faculty of Sport and Exercise Medicine position statement</a></h3>
+<p>A standardised framework for preparing, managing, and following up on critical incidents in sports can mitigate their high-impact risks. This changes the emergency response plan that sports teams and medical staff can adopt for their events and training sessions.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1864572">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71353931/gray-zone-training/">What to Know About Gray Zone Training and How It Can Help—or Harm—Your Running</a></h3>
+<p>Gray zone training, which involves moderate-intensity runs, can either help or harm a runner&#x27;s performance depending on its implementation. This changes the training schedule that runners can adjust to balance their easy and hard days with more effective moderate-intensity runs.&ensp;<a href="https://www.runnersworld.com/training/a71353931/gray-zone-training/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-openai-gpt-next-disproves">[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-next-disproves">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, May 20, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-20.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-20.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 20, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, this means more accurate predictions and quicker decision-making, but in sports performance, it raises questions about how to use AI to analyze and improve human athletic abilities. As you consider deploying these smarter models, ask yourself: what new risks and biases might arise when AI systems can learn and adapt at an unprecedented pace?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/">Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service</a></h3>
-<p>A multistage multimodal recommender system can be built and deployed on Amazon EKS, utilizing data pipelines, model training, Bloom filters, feature caching, and real-time ranking. This changes the approach to building recommender systems, allowing developers to use Amazon EKS for deployment and management.&ensp;<a href="https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/">Google Introduces Gemini 3.5 Flash at I/O 2026: A Faster and Cheaper Model for AI Agents and Coding</a></h3>
-<p>Google&#x27;s Gemini 3.5 Flash model beats its own flagship on coding and agentic benchmarks, running four times faster and at half the cost. This changes the choice of AI model for developers, who can now consider Gemini 3.5 Flash for faster and more cost-effective AI agent and coding applications.&ensp;<a href="https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://github.com/antoinezambelli/forge">Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</a></h3>
-<p>Forge, an open-source reliability layer, can improve the performance of large language models like an 8B model from 53% to 99% on agentic tasks by adding domain-and-tool-agnostic guardrails. This changes the way developers implement and manage self-hosted LLM tool-calling, allowing them to use Forge for more reliable and efficient model performance.&ensp;<a href="https://github.com/antoinezambelli/forge">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2605.19723">Mathematical Reasoning in Large Language Models: Benchmarks, Architectures, Evaluation, and Open Challenges</a></h3>
-<p>Mathematical reasoning is a crucial benchmark for evaluating artificial intelligence systems, and Large Language Models are improving their reasoning capabilities. This changes the way we evaluate AI systems, shifting the focus towards more complex problem-solving tasks that require mathematical reasoning.&ensp;<a href="https://arxiv.org/abs/2605.19723">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.19307">MetaRA: Metamorphic Robustness Assessment for Multimodal Large Language Model-based Visual Question Answering Systems</a></h3>
-<p>Existing evaluations of Multimodal Large Language Models rely on static datasets and a single testing paradigm, which is insufficient for assessing their reasoning capabilities. This changes the evaluation workflow for Visual Question Answering systems, requiring the use of more dynamic and diverse testing methods like MetaRA.&ensp;<a href="https://arxiv.org/abs/2605.19307">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.18791">SpecX: A Large-Scale Benchmark for Multi-Modal Spectroscopy and Cross-Paradigm Evaluation</a></h3>
-<p>Existing spectral benchmarks are limited in scale, modality alignment, and evaluation scope, focusing on either specialized models or multimodal language models. This changes the benchmarking tool for multi-modal spectroscopy, replacing smaller benchmarks with the larger and more comprehensive SpecX benchmark.&ensp;<a href="https://arxiv.org/abs/2605.18791">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash">[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, May 19, 2026</title>
@@ -228,16 +238,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, May 1, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-01.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-01.html</guid>
-    <pubDate>Fri, 01 May 2026 06:00:00 +0000</pubDate>
-    <description>You're seeing a wave of AI engineers move away from pre-built frameworks like LangChain and towards custom, native agent architectures - it's like switching from a pre-fab house to a custom build, because the first wave of AI apps was all about provi</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
