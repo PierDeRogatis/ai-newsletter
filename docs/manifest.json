@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-21",
+    "headline": "Algorithms Improve Everywhere",
+    "brief": "Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluati",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-21.html"
+  },
+  {
     "date": "2026-05-20",
     "headline": "Models get smarter faster",
     "brief": "Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, thi",
