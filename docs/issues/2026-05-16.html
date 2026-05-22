@@ -386,39 +386,17 @@
     });
   }, {threshold: 0});
   io.observe(sent);
-  function _gd_done(ok) {
-    var form = document.getElementById('gd-form');
-    form.innerHTML = ok
-      ? '<p style="color:#00FFC8;font-size:15px;font-weight:600;text-align:center;padding:20px 0;">You're in! &#x1F389; First issue lands tomorrow morning.</p>'
-      : '<p style="color:#7A95B0;font-size:14px;text-align:center;padding:20px 0;">Done! If it doesn't arrive tomorrow, check your spam folder.</p>';
-    setTimeout(function() {
-      localStorage.setItem(S, '1');
-      gate.classList.remove('gd-visible');
-      cont.classList.remove('gd-locked');
-      io.disconnect();
-    }, 2000);
-  }
   document.getElementById('gd-form').addEventListener('submit', function(e) {
     e.preventDefault();
     var email = document.getElementById('gd-email').value.trim();
     var ok    = document.getElementById('gd-consent').checked;
     var err   = document.getElementById('gd-error');
     var btn   = document.getElementById('gd-submit');
-    var hp    = document.getElementById('gd-hp');
-    if (hp && hp.value) return;  // honeypot triggered — silent drop
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      err.textContent = 'Please enter a valid email address.';
-      err.style.display = 'block';
-      return;
-    }
     if (!ok) { err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }
     err.style.display = 'none';
-    btn.disabled = true; btn.textContent = 'Sending…';
-    var ctrl = new AbortController();
-    var to   = setTimeout(function() { ctrl.abort(); }, 9000);
+    btn.disabled = true; btn.textContent = 'Unlocking…';
     fetch(URL, {
       method: 'POST',
-      signal: ctrl.signal,
       headers: {
         'Authorization': 'Bearer ' + PAT,
         'Accept': 'application/vnd.github+json',
@@ -427,8 +405,30 @@
       },
       body: JSON.stringify({ref: 'main', inputs: {email: email}})
     })
-      .then(function(r) { clearTimeout(to); _gd_done(r.ok); })
-      .catch(function()  { clearTimeout(to); _gd_done(false); });
+      .then(function(r) {
+        if (r.ok) {
+          localStorage.setItem(S, '1');
+          gate.classList.remove('gd-visible');
+          cont.classList.remove('gd-locked');
+          io.disconnect();
+          var t = document.createElement('div');
+          t.textContent = '✓ Subscribed! Check your spam folder and mark us as safe.';
+          t.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:9001;background:#06101A;border:1px solid rgba(0,255,200,0.3);color:#ECF5FF;padding:12px 16px;border-radius:8px;font-size:12px;max-width:300px;line-height:1.5;';
+          document.body.appendChild(t);
+          setTimeout(function(){t.remove();}, 7000);
+        } else {
+          btn.disabled = false;
+          btn.textContent = 'Unlock today’s issue';
+          err.textContent = 'Something went wrong. Please try again.';
+          err.style.display = 'block';
+        }
+      })
+      .catch(function() {
+        btn.disabled = false;
+        btn.textContent = 'Unlock today’s issue';
+        err.textContent = 'Network error. Please try again.';
+        err.style.display = 'block';
+      });
   });
 })();
 </script>
