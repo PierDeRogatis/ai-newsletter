@@ -1,0 +1,35 @@
+name: Patch gate PAT in all HTML files
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Patch gate PAT into all issue pages
+        env:
+          GATE_GH_PAT: ${{ secrets.GATE_GH_PAT }}
+        run: python3 scripts/patch_gate.py
+
+      - name: Commit and push patched files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/issues/ docs/index.html
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "chore: re-embed gate PAT in all archive pages"
+          git push origin HEAD
