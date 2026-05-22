@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-22",
+    "headline": "Models get cheaper",
+    "brief": "Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-22.html"
+  },
+  {
     "date": "2026-05-21",
     "headline": "Algorithms Improve Everywhere",
     "brief": "Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluati",

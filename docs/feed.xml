@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, May 22, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-22.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-22.html</guid>
+    <pubDate>Fri, 22 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 22, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two H100 GPUs. This change is already rippling out to trading desks, where investors are adjusting their strategies to account for the potential impact of cheaper AI models on companies like SpaceX and OpenAI, which could leapfrog traditional giants like Berkshire Hathaway on their first day of trading. As you consider the implications of these more accessible models, ask yourself: what assumptions about resource constraints are you still holding onto that might be limiting your own projects and investments?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/">Cohere Releases Command A+: A 218B Sparse MoE Model for Agentic Workflows That Runs on as Few as Two H100 GPUs</a></h3>
+<p>Cohere&#x27;s new Command A+ model is a 218B Sparse Mixture-of-Experts model that can run on as few as two H100 GPUs and supports 48 languages. This changes the language model deployment tool, allowing developers to use a more powerful model with fewer resources.&ensp;<a href="https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/">Google checks websites for llms.txt in new agentic browsing audit</a></h3>
+<p>Google is testing websites for an llms.txt file as part of a new Agentic Browsing audit in its Lighthouse analysis tool. This changes the website optimization workflow, requiring developers to ensure their sites are compatible with AI agents and have the necessary llms.txt file.&ensp;<a href="https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/">Cohere open-sources its strongest model yet</a></h3>
+<p>Cohere is releasing its most powerful language model, Command A+, as open source under an Apache 2.0 license. This changes the model selection decision, giving developers access to a more powerful model that they can use and customize for their own applications.&ensp;<a href="https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html">Asia-Pacific markets trade higher as investors assess U.S.-Iran peace deal diplomacy</a></h3>
+<p>Oil prices fell in US trading as Tehran&#x27;s intentions to keep its enriched uranium stockpile within the country may complicate US negotiations. This changes the trading strategy for investors in the Asia-Pacific markets, who should consider the potential impact of US-Iran diplomacy on oil prices and adjust their portfolios accordingly.&ensp;<a href="https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html">SpaceX, OpenAI valuations could mean they leapfrog Berkshire Hathaway on first day of trading</a></h3>
+<p>Traders predict SpaceX, OpenAI, and Anthropic will surpass $1.4 trillion in valuations on their first day of trading, potentially leapfrogging Berkshire Hathaway. This changes the investment consideration for traders, who should evaluate the potential for these companies to exceed expectations and adjust their investment decisions in the tech and innovation sector.&ensp;<a href="https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html">How Walmart&#x27;s gas price warning shapes our retail outlook — plus, Honeywell&#x27;s quantum connection</a></h3>
+<p>Walmart&#x27;s gas price warning impacts the retail outlook, with the Investing Club&#x27;s Homestretch update providing actionable insights for the last hour of trading. This changes the retail investment strategy, as investors should consider the effects of gas prices on consumer spending and adjust their portfolios to reflect the updated retail outlook.&ensp;<a href="https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa">[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, May 21, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 21, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluating the tools used for data analysis, while in the sports lab, coaches are looking at new warm-up routines like slow paced breathing and power posing to gain a competitive edge. As you consider adopting these new algorithms and techniques, ask yourself: what's the potential downside of relying on automated tools to optimize performance, whether it's in finance or athletics?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/">Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google’s TurboQuant Algorithm</a></h3>
-<p>Turbovec brings Google Research&#x27;s TurboQuant algorithm to vector search, offering 16x compression and zero codebook training for RAG pipelines. This changes the vector search tool you use for RAG pipelines, allowing you to switch to Turbovec for improved compression and efficiency.&ensp;<a href="https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/">How to Build Knowledge Graph Generation Pipelines From Text With kg-gen, NetworkX Analytics, and Interactive Visualizations</a></h3>
-<p>The kg-gen pipeline generates knowledge graphs from plain text, conversations, and multiple source documents, extracting entities, predicates, and relationships. This changes the workflow you use to generate knowledge graphs, allowing you to use kg-gen and NetworkX analytics for more efficient and interactive graph generation.&ensp;<a href="https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/">Deepseek wants to take on Claude Code and OpenAI&#x27;s Codex with &#x27;Deepseek Code&#x27;</a></h3>
-<p>Deepseek is developing its own AI code agent, &#x27;Deepseek Code&#x27;, a direct competitor to Claude Code, Codex, and Cursor, requiring expertise in agent loops, MCP, and context engineering. This changes the AI coding tool you use, allowing you to consider Deepseek Code as an alternative to existing coding tools like Claude Code and Codex.&ensp;<a href="https://the-decoder.com/deepseek-wants-to-take-on-claude-code-and-openais-codex-with-deepseek-code/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800382">Slow paced breathing and power posing: a pre-competitive ritual during an American football season</a></h3>
-<p>Slow paced breathing and power posing may improve physical performance in American football by changing the pre-competitive ritual. This changes the warm-up routine that coaches and athletes can implement before a game today.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1800382">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1864572">Standardising the preparation for, and delivery of care during, and after critical incidents: a Faculty of Sport and Exercise Medicine position statement</a></h3>
-<p>A standardised framework for preparing, managing, and following up on critical incidents in sports can mitigate their high-impact risks. This changes the emergency response plan that sports teams and medical staff can adopt for their events and training sessions.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1864572">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71353931/gray-zone-training/">What to Know About Gray Zone Training and How It Can Help—or Harm—Your Running</a></h3>
-<p>Gray zone training, which involves moderate-intensity runs, can either help or harm a runner&#x27;s performance depending on its implementation. This changes the training schedule that runners can adjust to balance their easy and hard days with more effective moderate-intensity runs.&ensp;<a href="https://www.runnersworld.com/training/a71353931/gray-zone-training/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-openai-gpt-next-disproves">[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-next-disproves">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, May 20, 2026</title>
@@ -226,18 +236,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, May 2, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-02.html</guid>
-    <pubDate>Sat, 02 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like when cloud storage got so cheap that hard drives started to disappear - the cost of running AI just dropped below the point where you have to think twice about automating something. This change lands on a trading desk as a chance to automat</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
