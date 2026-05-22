@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/17/a-coding-implementation-to-compress-and-benchmark-instruction-tuned-llms-with-fp8-gptq-and-smoothquant-quantization-using-llmcompressor/",
-    "date": "2026-05-18"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/",
-    "date": "2026-05-18"
-  },
-  {
-    "url": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/",
-    "date": "2026-05-18"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-18/pictet-s-paolini-says-the-easy-money-era-is-over-video",
-    "date": "2026-05-18"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/18/european-markets-stoxx-600-ftse-dax-iran-latest-uk-news.html",
-    "date": "2026-05-18"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/18/mizuho-shares-rakuten-bank-investment-card-yomiuri-shimbun-report.html",
-    "date": "2026-05-18"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/",
     "date": "2026-05-19"
   },
@@ -106,5 +82,33 @@
   {
     "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
     "date": "2026-05-21"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html",
+    "date": "2026-05-22"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+    "date": "2026-05-22"
   }
 ]
