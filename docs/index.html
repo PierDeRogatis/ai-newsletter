@@ -1728,11 +1728,23 @@
           },
           body: JSON.stringify({ ref: "main", inputs: { email } })
         })
-          .catch(() => {})
-          .finally(() => {
-            msg.textContent = "✓ You're in! First issue arrives tomorrow at 6am.";
-            msg.style.color = "#00FFC8";
-            btn.textContent = "Subscribed ✓";
+          .then(r => {
+            if (r.ok) {
+              msg.textContent = "✓ You're in! First issue arrives tomorrow at 6am.";
+              msg.style.color = "#00FFC8";
+              btn.textContent = "Subscribed ✓";
+            } else {
+              btn.disabled = false;
+              btn.textContent = "Subscribe free";
+              msg.textContent = "Something went wrong. Please try again.";
+              msg.style.color = "#FF6B6B";
+            }
+          })
+          .catch(() => {
+            btn.disabled = false;
+            btn.textContent = "Subscribe free";
+            msg.textContent = "Network error. Please try again.";
+            msg.style.color = "#FF6B6B";
           });
       });
     }

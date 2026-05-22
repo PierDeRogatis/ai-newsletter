@@ -93,12 +93,29 @@ GATE_JS = f"""<script>
       }},
       body: JSON.stringify({{ref: 'main', inputs: {{email: email}}}})
     }})
-      .catch(function() {{}})
-      .finally(function() {{
-        localStorage.setItem(S, '1');
-        gate.classList.remove('gd-visible');
-        cont.classList.remove('gd-locked');
-        io.disconnect();
+      .then(function(r) {{
+        if (r.ok) {{
+          localStorage.setItem(S, '1');
+          gate.classList.remove('gd-visible');
+          cont.classList.remove('gd-locked');
+          io.disconnect();
+          var t = document.createElement('div');
+          t.textContent = '✓ Subscribed! Check your spam folder and mark us as safe.';
+          t.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:9001;background:#06101A;border:1px solid rgba(0,255,200,0.3);color:#ECF5FF;padding:12px 16px;border-radius:8px;font-size:12px;max-width:300px;line-height:1.5;';
+          document.body.appendChild(t);
+          setTimeout(function(){{t.remove();}}, 7000);
+        }} else {{
+          btn.disabled = false;
+          btn.textContent = 'Unlock today’s issue';
+          err.textContent = 'Something went wrong. Please try again.';
+          err.style.display = 'block';
+        }}
+      }})
+      .catch(function() {{
+        btn.disabled = false;
+        btn.textContent = 'Unlock today’s issue';
+        err.textContent = 'Network error. Please try again.';
+        err.style.display = 'block';
       }});
   }});
 }})();
@@ -149,7 +166,22 @@ def _wrap_sections(m: re.Match) -> str:
     )
 
 
-issues_dir = os.path.join(os.path.dirname(__file__), "..", "docs", "issues")
+docs_dir   = os.path.join(os.path.dirname(__file__), "..", "docs")
+issues_dir = os.path.join(docs_dir, "issues")
+
+# Rotate PAT in index.html (matches either single or double quotes around the token halves)
+_INDEX_PAT_PATTERN = re.compile(r'''const _GH_PAT = ['"][^'"]*['"] \+ ['"][^'"]*['"];''')
+index_path = os.path.join(docs_dir, "index.html")
+if os.path.exists(index_path):
+    with open(index_path) as f:
+        index_html = f.read()
+    new_index = _INDEX_PAT_PATTERN.sub(f"const _GH_PAT = '{_PAT_A}' + '{_PAT_B}';", index_html, count=1)
+    if new_index != index_html:
+        with open(index_path, "w") as f:
+            f.write(new_index)
+        print("Updated PAT: index.html")
+    else:
+        print("Skip (index.html PAT unchanged or pattern not found)")
 
 patched = updated = 0
 for fname in sorted(os.listdir(issues_dir)):
