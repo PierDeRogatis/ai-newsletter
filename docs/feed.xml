@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, May 23, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</guid>
+    <pubDate>Sat, 23 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 23, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance, and sports, the consequence is that investors, coaches, and developers must re-evaluate their strategies, from portfolio management to athlete support, to stay ahead. One specific thing worth considering is how the integration of deterministic analytics with large language models will change the reliability of AI systems, and whether this hybrid approach will become the new standard for AI architecture.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/">Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web</a></h3>
+<p>Microsoft&#x27;s Fara1.5-27B scores 72% on Online-Mind2Web, outperforming OpenAI Operator, Gemini 2.5 Computer Use, and Yutori Navigator n1. This changes the benchmark for browser computer-use agents, requiring developers to re-evaluate their AI models for online interactions.&ensp;<a href="https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/">A Step-by-Step Coding Tutorial to Implement GBrain: The Self-Wiring Memory Layer Built by Y Combinator’s Garry Tan for AI Agents</a></h3>
+<p>GBrain is an open-source memory layer that uses a markdown-first knowledge graph and regex inference to give AI agents memory and continuity. This changes the way developers implement memory in AI agents, allowing them to build more persistent and effective conversational interfaces.&ensp;<a href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/">Hybrid AI: Combining Deterministic Analytics with LLM Reasoning</a></h3>
+<p>Hybrid AI combines deterministic analytics with LLM reasoning to prevent plausible but wrong analytics. This changes the approach to AI architecture, enabling developers to integrate deterministic methods with large language models to improve the accuracy and reliability of their AI systems.&ensp;<a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video">Are Fintech Apps Already Dead?</a></h3>
+<p>Investing apps could disappear within a decade as AI assistants manage portfolios for consumers, according to Atomic Invest CEO David Dindi. This changes the way we invest, shifting from manual app-based management to AI-driven portfolio management, which investors can adopt today by exploring AI-powered investment tools.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/22/kalshi-polymarket-comer-insider-trading-probe-congress.html">Oversight Chairman Comer launches congressional probe into insider trading on Kalshi, Polymarket</a></h3>
+<p>Congress is investigating prediction markets like Kalshi and Polymarket over concerns of insider trading, putting pressure on these platforms to ensure fair trading practices. This changes the due diligence process for investors using these platforms, who should now scrutinize the markets&#x27; trading policies and transparency before making investment decisions.&ensp;<a href="https://www.cnbc.com/2026/05/22/kalshi-polymarket-comer-insider-trading-probe-congress.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://alphaarchitect.com/factor-strategies/">When Everyone Trades the Same Factor Playbook</a></h3>
+<p>When millions of investors follow the same mechanical rules to rebalance portfolios, market prices are affected, and returns may not come from the expected factor strategies, according to a recent paper. This changes the portfolio construction workflow, prompting investors to reevaluate their factor-based investment strategies and consider more nuanced approaches to avoid crowded trades.&ensp;<a href="https://alphaarchitect.com/factor-strategies/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/gear/a71292623/memorial-day-running-gear-deals-2026/">The Best Editor-Approved Memorial Day Deals on Garmin, Coros, and Shokz: Get Hundreds Off Popular Gear for Runners</a></h3>
+<p>You can get hundreds off popular gear for runners from brands like Garmin, Coros, and Shokz during Memorial Day deals. This changes your shopping list for running gear, allowing you to purchase high-quality items at a discounted price today.&ensp;<a href="https://www.runnersworld.com/gear/a71292623/memorial-day-running-gear-deals-2026/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7301485/2026/05/22/teddy-bridgewater-act-florida-high-school/">&#x27;Teddy Bridgewater Act&#x27; allows Florida coaches to spend personal funds to help student-athletes</a></h3>
+<p>The &#x27;Teddy Bridgewater Act&#x27; law in Florida enables coaches to use personal funds to support student-athletes with expenses like food and transportation. This changes the way Florida high school coaches can financially support their players, allowing for more personalized assistance.&ensp;<a href="https://www.nytimes.com/athletic/7301485/2026/05/22/teddy-bridgewater-act-florida-high-school/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/">The Best Running Gear on Amazon, Handpicked by the Runner’s World Team</a></h3>
+<p>The Runner&#x27;s World team has handpicked and tested the best running gear on Amazon, including apparel and accessories. This changes your Amazon shopping strategy for running gear, as you can now rely on expert-recommended products for your running needs.&ensp;<a href="https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/451da102">Hermes Agent: Agents that grow with you</a></h3>
+<p>Open Source AI is entering a new era with self-improving AI Agents and recursive learning systems. This changes the development workflow for AI tools, allowing for more autonomous collaboration and potentially altering the way developers design and interact with software.&ensp;<a href="https://share.transistor.fm/s/451da102">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, May 22, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-22.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-22.html</guid>
@@ -17,35 +67,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, May 22, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two H100 GPUs. This change is already rippling out to trading desks, where investors are adjusting their strategies to account for the potential impact of cheaper AI models on companies like SpaceX and OpenAI, which could leapfrog traditional giants like Berkshire Hathaway on their first day of trading. As you consider the implications of these more accessible models, ask yourself: what assumptions about resource constraints are you still holding onto that might be limiting your own projects and investments?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/">Cohere Releases Command A+: A 218B Sparse MoE Model for Agentic Workflows That Runs on as Few as Two H100 GPUs</a></h3>
-<p>Cohere&#x27;s new Command A+ model is a 218B Sparse Mixture-of-Experts model that can run on as few as two H100 GPUs and supports 48 languages. This changes the language model deployment tool, allowing developers to use a more powerful model with fewer resources.&ensp;<a href="https://www.marktechpost.com/2026/05/21/cohere-releases-command-a-a-218b-sparse-moe-model-for-agentic-workflows-that-runs-on-as-few-as-two-h100-gpus/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/">Google checks websites for llms.txt in new agentic browsing audit</a></h3>
-<p>Google is testing websites for an llms.txt file as part of a new Agentic Browsing audit in its Lighthouse analysis tool. This changes the website optimization workflow, requiring developers to ensure their sites are compatible with AI agents and have the necessary llms.txt file.&ensp;<a href="https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/">Cohere open-sources its strongest model yet</a></h3>
-<p>Cohere is releasing its most powerful language model, Command A+, as open source under an Apache 2.0 license. This changes the model selection decision, giving developers access to a more powerful model that they can use and customize for their own applications.&ensp;<a href="https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html">Asia-Pacific markets trade higher as investors assess U.S.-Iran peace deal diplomacy</a></h3>
-<p>Oil prices fell in US trading as Tehran&#x27;s intentions to keep its enriched uranium stockpile within the country may complicate US negotiations. This changes the trading strategy for investors in the Asia-Pacific markets, who should consider the potential impact of US-Iran diplomacy on oil prices and adjust their portfolios accordingly.&ensp;<a href="https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html">SpaceX, OpenAI valuations could mean they leapfrog Berkshire Hathaway on first day of trading</a></h3>
-<p>Traders predict SpaceX, OpenAI, and Anthropic will surpass $1.4 trillion in valuations on their first day of trading, potentially leapfrogging Berkshire Hathaway. This changes the investment consideration for traders, who should evaluate the potential for these companies to exceed expectations and adjust their investment decisions in the tech and innovation sector.&ensp;<a href="https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html">How Walmart&#x27;s gas price warning shapes our retail outlook — plus, Honeywell&#x27;s quantum connection</a></h3>
-<p>Walmart&#x27;s gas price warning impacts the retail outlook, with the Investing Club&#x27;s Homestretch update providing actionable insights for the last hour of trading. This changes the retail investment strategy, as investors should consider the effects of gas prices on consumer spending and adjust their portfolios to reflect the updated retail outlook.&ensp;<a href="https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa">[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, May 21, 2026</title>
@@ -225,17 +246,6 @@
     <description>It's like watching different referees call the same game - the latest AI models can give wildly different answers to the same ethical question, which raises the question of who gets to decide what's right. This matters on a trading desk, where the di</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, May 3, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-03.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-03.html</guid>
-    <pubDate>Sun, 03 May 2026 06:00:00 +0000</pubDate>
-    <description>It looks like the AI tooling market just crossed a threshold where price is the main differentiator, kind of like when cloud storage got cheap enough that hard drives started to seem obsolete. This means that trading desks and sports teams might star</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
