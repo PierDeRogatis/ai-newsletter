@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-23",
+    "headline": "AI Rewrites Rules",
+    "brief": "Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-05-23.html"
+  },
+  {
     "date": "2026-05-22",
     "headline": "Models get cheaper",
     "brief": "Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two ",

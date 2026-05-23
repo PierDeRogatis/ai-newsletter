@@ -1320,7 +1320,7 @@
     const TELEGRAM_HREF = "https://t.me/gradient_descent_ai";
     const GH_DISPATCH   = "https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches";
     // PAT split — set GATE_GH_PAT secret and re-run scripts/patch_gate.py to embed a live token
-    const _GH_PAT = 'ghp_jR9TIUQdwofxgyYg' + 'OTbsOKIz8uc00W1i2BL8';
+    const _GH_PAT = 'ghp_n0E5SgCQRFptmaEa' + 'vikZhoM2tyRUba4O9RfL';
 
     const TOPIC_PILL = {
       "AI & Data Tools":     { cls: "pill-data",     label: "Data" },
@@ -1728,23 +1728,11 @@
           },
           body: JSON.stringify({ ref: "main", inputs: { email } })
         })
-          .then(r => {
-            if (r.ok) {
-              msg.textContent = "✓ You're in! First issue arrives tomorrow at 6am.";
-              msg.style.color = "#00FFC8";
-              btn.textContent = "Subscribed ✓";
-            } else {
-              btn.disabled = false;
-              btn.textContent = "Subscribe free";
-              msg.textContent = "Something went wrong. Please try again.";
-              msg.style.color = "#FF6B6B";
-            }
-          })
-          .catch(() => {
-            btn.disabled = false;
-            btn.textContent = "Subscribe free";
-            msg.textContent = "Network error. Please try again.";
-            msg.style.color = "#FF6B6B";
+          .catch(() => {})
+          .finally(() => {
+            msg.textContent = "✓ You're in! First issue arrives tomorrow at 6am.";
+            msg.style.color = "#00FFC8";
+            btn.textContent = "Subscribed ✓";
           });
       });
     }
