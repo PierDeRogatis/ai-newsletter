@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://github.com/antoinezambelli/forge",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.19723",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.19307",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.18791",
-    "date": "2026-05-20"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
-    "date": "2026-05-20"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/",
     "date": "2026-05-21"
   },
@@ -122,5 +94,45 @@
   {
     "url": "https://share.transistor.fm/s/451da102",
     "date": "2026-05-23"
+  },
+  {
+    "url": "https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/23/lingering-mysteries-from-berkshires-portfolio-update.html",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-05-23/pointed-news-quiz-retail-cryptocurrency-obituaries-video",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7302319/2026/05/23/enhanced-games-athletes-world-records-doping-steroids/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71363618/increase-running-pace-signs/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7303935/2026/05/24/connections-sports-edition-hints-answers-may-24-2026/",
+    "date": "2026-05-24"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data",
+    "date": "2026-05-24"
   }
 ]
