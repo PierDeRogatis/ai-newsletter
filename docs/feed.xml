@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, May 24, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</guid>
+    <pubDate>Sun, 24 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Aliba</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 24, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Alibaba's Qwen3.7-Max and Anthropic's Claude Mythos Preview lead the charge, their impact will be felt on trading desks, where hyperscalers' debt flooding is creating a derivatives bonanza, and in sports labs, where athletes are leveraging AI-driven tools to optimize their performance. Can you afford to wait for your competitors to harness the power of AI, or will you revisit your budget to make room for token-hungry agentic systems and relational foundation models?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/">Alibaba&#x27;s latest AI model ran autonomously for 35 hours to optimize code for its own custom chip</a></h3>
+<p>Alibaba&#x27;s Qwen3.7-Max AI model ran autonomously for 35 hours to optimize code for its custom chip, matching Claude Opus 4.6 on benchmarks and beating Chinese rivals. This changes the chip development workflow, allowing for more efficient and autonomous optimization of custom chip code.&ensp;<a href="https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/">Deepseek makes its 75 percent discount permanent, pricing output tokens at least 34x below GPT-5.5</a></h3>
+<p>Deepseek is making its 75 percent discount on its top model V4-Pro permanent, pricing output tokens at $0.435 per million input tokens, at least 34 times cheaper than GPT-5.5. This changes the budgeting decision for token-hungry agentic systems, allowing for more affordable and extensive use of AI models.&ensp;<a href="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/">Anthropic warns Claude Mythos Preview finds bugs faster than developers can patch them</a></h3>
+<p>Anthropic&#x27;s Claude Mythos Preview AI model has found over 10,000 critical vulnerabilities in system-critical software, piling up faster than developers can patch them. This changes the bug detection and patching workflow, requiring developers to adapt to a faster and more efficient bug discovery process.&ensp;<a href="https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly">Hyperscaler Debt Flood Brings Derivatives Bonanza</a></h3>
+<p>Big tech companies are raising hundreds of billions of dollars to fund artificial intelligence investments, forcing Wall Street banks to trade more credit derivatives. This changes the risk management strategies that banks use when dealing with large tech companies, requiring them to adapt their derivatives trading workflows.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/23/lingering-mysteries-from-berkshires-portfolio-update.html">Lingering mysteries from Berkshire&#x27;s portfolio update</a></h3>
+<p>Berkshire&#x27;s portfolio update includes the addition of Delta Air Lines and Macy&#x27;s, which are hard to explain. This changes the investment analysis tools used to evaluate Berkshire&#x27;s portfolio, as investors will need to reassess their expectations and models to account for these new holdings.&ensp;<a href="https://www.cnbc.com/2026/05/23/lingering-mysteries-from-berkshires-portfolio-update.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-05-23/pointed-news-quiz-retail-cryptocurrency-obituaries-video">Pointed News Quiz | Retail, Cryptocurrency, Obituaries</a></h3>
+<p>A new quiz is available to play each week on Bloomberg.com, covering topics such as retail, cryptocurrency, and obituaries. This changes the educational resources available to individuals looking to stay up-to-date on current events, providing a new tool for people to test their knowledge and stay informed.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-23/pointed-news-quiz-retail-cryptocurrency-obituaries-video">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7302319/2026/05/23/enhanced-games-athletes-world-records-doping-steroids/">At Enhanced Games, athletes are ready for the show, but what will it all mean?</a></h3>
+<p>The first Enhanced Games are set to arrive on Sunday, with athletes claiming they&#x27;re as healthy and well-paid as ever, despite critics saying the idea is dangerous. This changes the way we evaluate the ethics and safety of athletic competitions, particularly those that involve performance-enhancing technologies or substances, and may impact how we regulate and participate in such events.&ensp;<a href="https://www.nytimes.com/athletic/7302319/2026/05/23/enhanced-games-athletes-world-records-doping-steroids/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71363618/increase-running-pace-signs/">Run Coaches Say These 3 Signs Mean You’re Ready to Increase Your Training Paces</a></h3>
+<p>Run coaches identify three key signs that indicate a runner is ready to increase their training paces, which can help prevent injury and improve overall performance. This changes the way runners approach their training plans, allowing them to use specific checkpoints to determine when to increase their pace and intensity, and adjust their workouts accordingly.&ensp;<a href="https://www.runnersworld.com/training/a71363618/increase-running-pace-signs/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7303935/2026/05/24/connections-sports-edition-hints-answers-may-24-2026/">Connections: Sports Edition today: Hints and answers for May 24, 2026, puzzle No. 608</a></h3>
+<p>The Connections: Sports Edition puzzle No. 608 is available, providing hints and answers for participants to solve and discuss. This changes the way puzzle enthusiasts engage with the game, as they can now access clues and solutions for the May 24, 2026, puzzle and share their progress with others.&ensp;<a href="https://www.nytimes.com/athletic/7303935/2026/05/24/connections-sports-edition-hints-answers-may-24-2026/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data">Relational Foundation Models for Enterprise Data with Jure Leskovec - #768</a></h3>
+<p>Jure Leskovec is working on AI Virtual Cell, a multiscale effort to learn data-driven representations from biological systems, and relational deep learning to improve enterprise data analysis. This changes the approach to enterprise data analysis, allowing companies to adopt relational foundation models and AI-driven tools to improve their data representation and decision-making processes.&ensp;<a href="https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, May 23, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</guid>
@@ -18,45 +68,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 23, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance, and sports, the consequence is that investors, coaches, and developers must re-evaluate their strategies, from portfolio management to athlete support, to stay ahead. One specific thing worth considering is how the integration of deterministic analytics with large language models will change the reliability of AI systems, and whether this hybrid approach will become the new standard for AI architecture.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/">Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web</a></h3>
-<p>Microsoft&#x27;s Fara1.5-27B scores 72% on Online-Mind2Web, outperforming OpenAI Operator, Gemini 2.5 Computer Use, and Yutori Navigator n1. This changes the benchmark for browser computer-use agents, requiring developers to re-evaluate their AI models for online interactions.&ensp;<a href="https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/">A Step-by-Step Coding Tutorial to Implement GBrain: The Self-Wiring Memory Layer Built by Y Combinator’s Garry Tan for AI Agents</a></h3>
-<p>GBrain is an open-source memory layer that uses a markdown-first knowledge graph and regex inference to give AI agents memory and continuity. This changes the way developers implement memory in AI agents, allowing them to build more persistent and effective conversational interfaces.&ensp;<a href="https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/">Hybrid AI: Combining Deterministic Analytics with LLM Reasoning</a></h3>
-<p>Hybrid AI combines deterministic analytics with LLM reasoning to prevent plausible but wrong analytics. This changes the approach to AI architecture, enabling developers to integrate deterministic methods with large language models to improve the accuracy and reliability of their AI systems.&ensp;<a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video">Are Fintech Apps Already Dead?</a></h3>
-<p>Investing apps could disappear within a decade as AI assistants manage portfolios for consumers, according to Atomic Invest CEO David Dindi. This changes the way we invest, shifting from manual app-based management to AI-driven portfolio management, which investors can adopt today by exploring AI-powered investment tools.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/22/kalshi-polymarket-comer-insider-trading-probe-congress.html">Oversight Chairman Comer launches congressional probe into insider trading on Kalshi, Polymarket</a></h3>
-<p>Congress is investigating prediction markets like Kalshi and Polymarket over concerns of insider trading, putting pressure on these platforms to ensure fair trading practices. This changes the due diligence process for investors using these platforms, who should now scrutinize the markets&#x27; trading policies and transparency before making investment decisions.&ensp;<a href="https://www.cnbc.com/2026/05/22/kalshi-polymarket-comer-insider-trading-probe-congress.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://alphaarchitect.com/factor-strategies/">When Everyone Trades the Same Factor Playbook</a></h3>
-<p>When millions of investors follow the same mechanical rules to rebalance portfolios, market prices are affected, and returns may not come from the expected factor strategies, according to a recent paper. This changes the portfolio construction workflow, prompting investors to reevaluate their factor-based investment strategies and consider more nuanced approaches to avoid crowded trades.&ensp;<a href="https://alphaarchitect.com/factor-strategies/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/gear/a71292623/memorial-day-running-gear-deals-2026/">The Best Editor-Approved Memorial Day Deals on Garmin, Coros, and Shokz: Get Hundreds Off Popular Gear for Runners</a></h3>
-<p>You can get hundreds off popular gear for runners from brands like Garmin, Coros, and Shokz during Memorial Day deals. This changes your shopping list for running gear, allowing you to purchase high-quality items at a discounted price today.&ensp;<a href="https://www.runnersworld.com/gear/a71292623/memorial-day-running-gear-deals-2026/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7301485/2026/05/22/teddy-bridgewater-act-florida-high-school/">&#x27;Teddy Bridgewater Act&#x27; allows Florida coaches to spend personal funds to help student-athletes</a></h3>
-<p>The &#x27;Teddy Bridgewater Act&#x27; law in Florida enables coaches to use personal funds to support student-athletes with expenses like food and transportation. This changes the way Florida high school coaches can financially support their players, allowing for more personalized assistance.&ensp;<a href="https://www.nytimes.com/athletic/7301485/2026/05/22/teddy-bridgewater-act-florida-high-school/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/">The Best Running Gear on Amazon, Handpicked by the Runner’s World Team</a></h3>
-<p>The Runner&#x27;s World team has handpicked and tested the best running gear on Amazon, including apparel and accessories. This changes your Amazon shopping strategy for running gear, as you can now rely on expert-recommended products for your running needs.&ensp;<a href="https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://share.transistor.fm/s/451da102">Hermes Agent: Agents that grow with you</a></h3>
-<p>Open Source AI is entering a new era with self-improving AI Agents and recursive learning systems. This changes the development workflow for AI tools, allowing for more autonomous collaboration and potentially altering the way developers design and interact with software.&ensp;<a href="https://share.transistor.fm/s/451da102">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, May 22, 2026</title>
@@ -236,16 +247,6 @@
     <description>It's like the moment when every car manufacturer realized they needed to offer financing plans - the cost of entry for AI adoption just got a lot higher because Anthropic and OpenAI are now selling services around their models, not just the models th</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, May 4, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-04.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-04.html</guid>
-    <pubDate>Mon, 04 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like watching different referees call the same game - the latest AI models can give wildly different answers to the same ethical question, which raises the question of who gets to decide what's right. This matters on a trading desk, where the di</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

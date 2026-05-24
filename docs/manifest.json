@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-24",
+    "headline": "AI speeds up development",
+    "brief": "Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Aliba",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-05-24.html"
+  },
+  {
     "date": "2026-05-23",
     "headline": "AI Rewrites Rules",
     "brief": "Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance",
