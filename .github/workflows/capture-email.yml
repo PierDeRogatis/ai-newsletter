@@ -11,8 +11,18 @@ on:
 jobs:
   add-contact:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Add to Brevo list 3
         run: |
           python3 - <<'PYEOF'
@@ -52,3 +62,28 @@ jobs:
         env:
           EMAIL: ${{ github.event.inputs.email }}
           BREVO_KEY: ${{ secrets.BREVO_KEY }}
+
+      - name: Send welcome email
+        run: |
+          python3 - <<'PYEOF'
+          import os, re
+          from newsletter.emailer import send_welcome_email
+
+          email = os.environ.get("EMAIL", "").strip()
+          if not re.match(r'^[^@\s]{1,64}@[^@\s]{1,253}\.[^@\s]{1,63}$', email):
+              print(f"Skipping invalid email: {email!r}")
+              exit(0)
+
+          api_key = os.environ.get("BREVO_KEY", "")
+          sender  = os.environ.get("SENDER_EMAIL", "")
+          if not api_key or not sender:
+              print("BREVO_KEY or SENDER_EMAIL missing — skipping welcome email")
+              exit(0)
+
+          send_welcome_email(api_key, sender, email)
+          PYEOF
+        env:
+          EMAIL: ${{ github.event.inputs.email }}
+          BREVO_KEY: ${{ secrets.BREVO_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          ARCHIVE_BASE_URL: "https://pierderogatis.github.io/ai-newsletter"

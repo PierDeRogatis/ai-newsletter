@@ -505,3 +505,44 @@ def send(result: dict) -> None:
         return
 
     _brevo_send(api_key, SENDER_EMAIL, recipients, subject, html)
+
+
+def send_welcome_email(api_key: str, sender_email: str, recipient: str) -> None:
+    pub_base = os.environ.get("ARCHIVE_BASE_URL", "https://pierderogatis.github.io/ai-newsletter")
+    subject = "Welcome to Gradient Descent"
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+<tr><td align="center" style="padding:32px 16px;">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:12px;overflow:hidden;">
+  <tr><td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+    <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;">Gradient Descent</p>
+    <h1 style="margin:8px 0 0;color:#ECF5FF;font-size:22px;font-weight:700;line-height:1.3;">You're in. First issue arrives tomorrow.</h1>
+  </td></tr>
+  <tr><td style="padding:28px 32px;color:#374151;font-size:15px;line-height:1.7;">
+    <p style="margin:0 0 16px;">Every morning at <strong>6:00 AM CEST</strong> (5:00 AM CET in winter) you'll get a curated briefing on the AI stories that actually matter — no hype, no filler.</p>
+    <p style="margin:0 0 16px;">Each issue covers:</p>
+    <ul style="margin:0 0 16px;padding-left:20px;">
+      <li>Top AI &amp; Data Tools developments</li>
+      <li>AI in Finance highlights</li>
+      <li>Research &amp; Academia breakthroughs</li>
+      <li>Rotating topics: Sports AI, Podcasts, and more</li>
+    </ul>
+    <p style="margin:0 0 24px;">To make sure tomorrow's issue lands in your inbox:</p>
+    <ol style="margin:0 0 24px;padding-left:20px;">
+      <li>Add <strong>{sender_email}</strong> to your contacts</li>
+      <li>Check your spam folder and mark us as safe if we end up there</li>
+    </ol>
+    <p style="margin:0;"><a href="{pub_base}/index.html" style="display:inline-block;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;letter-spacing:0.04em;">Browse the archive &rarr;</a></p>
+  </td></tr>
+  <tr><td style="background:#F9FAFB;border-top:1px solid #E5E7EB;padding:16px 32px;text-align:center;">
+    <p style="margin:0;color:#9CA3AF;font-size:12px;">No spam. No tracking. Unsubscribe anytime.</p>
+  </td></tr>
+</table>
+</td></tr>
+</table>
+</body></html>"""
+    _brevo_send(api_key, sender_email, [recipient], subject, html)
+    logger.info("Welcome email sent to %s", recipient)
