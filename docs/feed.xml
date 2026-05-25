@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, May 25, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</guid>
+    <pubDate>Mon, 25 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwr</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, May 25, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwright are changing the workflow for LLM engineering and web automation, which in turn affects how traders and investors use data to inform their decisions on the trading desk. Now, consider this: what happens when these new tools start to seep into other areas, like sports performance, where data-driven decision making is already crucial - will they revolutionize the way teams approach player evaluation and strategy development?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/">Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments</a></h3>
+<p>Langfuse pipeline implementation allows for tracing, prompt management, scoring, datasets, and experiments with either a real OpenAI key or a deterministic mock LLM. This changes the workflow for LLM engineering, enabling developers to work with a complete and customizable pipeline today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/">StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension</a></h3>
+<p>StepAudio 2.5 Realtime is an end-to-end real-time speech large language model with fully customizable persona capabilities, supporting Chinese and English. This changes the voice model tool, allowing developers to integrate a more advanced and customizable voice model into their applications today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/">Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%</a></h3>
+<p>Webwright, a terminal-native browser agent framework, reaches 60.1% on the long-horizon Odyssey benchmark, outperforming the base GPT-5.4 model. This changes the web automation tool, enabling developers to use a more efficient and powerful framework for automating web interactions today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-05-25/china-s-cross-border-trading-crackdown-video">China’s Cross-Border Trading Crackdown</a></h3>
+<p>China&#x27;s crackdown on cross-border stock trading could affect up to HK$250 billion ($32 billion) in Hong Kong-linked assets, aiming to tighten capital outflows and reshape investor access. This changes the investment strategy for Hong Kong-linked assets, requiring a review of portfolios that include these assets to mitigate potential losses.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-25/china-s-cross-border-trading-crackdown-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">Top Wall Street analysts like these dividend stocks for steady income</a></h3>
+<p>Top Wall Street analysts recommend adding dividend stocks to portfolios for consistent income amid ongoing uncertainty. This changes the portfolio diversification tool, prompting investors to consider adding dividend stocks to their investment mix for steady income.&ensp;<a href="https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-05-24/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says">ECB Convenes Banks to Fix Flaws Exposed by AI Models, FT Says</a></h3>
+<p>The European Central Bank is pressing lenders to secure their IT systems after a meeting on cybersecurity risks with the latest artificial intelligence models. This changes the cybersecurity risk assessment workflow, requiring banks to accelerate efforts to fix flaws exposed by AI models and strengthen their IT systems.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-24/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">Sites Unseen: What’s Revealed by Traveling With the Blind</a></h3>
+<p>Andy Isaacson, a writer and photographer, took a unique trip where he traveled with the blind, which changed his perspective on experiencing the world. This changes the way we approach travel writing and photography, by considering alternative methods of storytelling that don&#x27;t rely solely on visual descriptions.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, May 24, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 24, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Alibaba's Qwen3.7-Max and Anthropic's Claude Mythos Preview lead the charge, their impact will be felt on trading desks, where hyperscalers' debt flooding is creating a derivatives bonanza, and in sports labs, where athletes are leveraging AI-driven tools to optimize their performance. Can you afford to wait for your competitors to harness the power of AI, or will you revisit your budget to make room for token-hungry agentic systems and relational foundation models?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/">Alibaba&#x27;s latest AI model ran autonomously for 35 hours to optimize code for its own custom chip</a></h3>
-<p>Alibaba&#x27;s Qwen3.7-Max AI model ran autonomously for 35 hours to optimize code for its custom chip, matching Claude Opus 4.6 on benchmarks and beating Chinese rivals. This changes the chip development workflow, allowing for more efficient and autonomous optimization of custom chip code.&ensp;<a href="https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/">Deepseek makes its 75 percent discount permanent, pricing output tokens at least 34x below GPT-5.5</a></h3>
-<p>Deepseek is making its 75 percent discount on its top model V4-Pro permanent, pricing output tokens at $0.435 per million input tokens, at least 34 times cheaper than GPT-5.5. This changes the budgeting decision for token-hungry agentic systems, allowing for more affordable and extensive use of AI models.&ensp;<a href="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/">Anthropic warns Claude Mythos Preview finds bugs faster than developers can patch them</a></h3>
-<p>Anthropic&#x27;s Claude Mythos Preview AI model has found over 10,000 critical vulnerabilities in system-critical software, piling up faster than developers can patch them. This changes the bug detection and patching workflow, requiring developers to adapt to a faster and more efficient bug discovery process.&ensp;<a href="https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly">Hyperscaler Debt Flood Brings Derivatives Bonanza</a></h3>
-<p>Big tech companies are raising hundreds of billions of dollars to fund artificial intelligence investments, forcing Wall Street banks to trade more credit derivatives. This changes the risk management strategies that banks use when dealing with large tech companies, requiring them to adapt their derivatives trading workflows.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-23/hyperscaler-debt-flood-brings-derivatives-bonanza-credit-weekly">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/23/lingering-mysteries-from-berkshires-portfolio-update.html">Lingering mysteries from Berkshire&#x27;s portfolio update</a></h3>
-<p>Berkshire&#x27;s portfolio update includes the addition of Delta Air Lines and Macy&#x27;s, which are hard to explain. This changes the investment analysis tools used to evaluate Berkshire&#x27;s portfolio, as investors will need to reassess their expectations and models to account for these new holdings.&ensp;<a href="https://www.cnbc.com/2026/05/23/lingering-mysteries-from-berkshires-portfolio-update.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-23/pointed-news-quiz-retail-cryptocurrency-obituaries-video">Pointed News Quiz | Retail, Cryptocurrency, Obituaries</a></h3>
-<p>A new quiz is available to play each week on Bloomberg.com, covering topics such as retail, cryptocurrency, and obituaries. This changes the educational resources available to individuals looking to stay up-to-date on current events, providing a new tool for people to test their knowledge and stay informed.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-23/pointed-news-quiz-retail-cryptocurrency-obituaries-video">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7302319/2026/05/23/enhanced-games-athletes-world-records-doping-steroids/">At Enhanced Games, athletes are ready for the show, but what will it all mean?</a></h3>
-<p>The first Enhanced Games are set to arrive on Sunday, with athletes claiming they&#x27;re as healthy and well-paid as ever, despite critics saying the idea is dangerous. This changes the way we evaluate the ethics and safety of athletic competitions, particularly those that involve performance-enhancing technologies or substances, and may impact how we regulate and participate in such events.&ensp;<a href="https://www.nytimes.com/athletic/7302319/2026/05/23/enhanced-games-athletes-world-records-doping-steroids/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71363618/increase-running-pace-signs/">Run Coaches Say These 3 Signs Mean You’re Ready to Increase Your Training Paces</a></h3>
-<p>Run coaches identify three key signs that indicate a runner is ready to increase their training paces, which can help prevent injury and improve overall performance. This changes the way runners approach their training plans, allowing them to use specific checkpoints to determine when to increase their pace and intensity, and adjust their workouts accordingly.&ensp;<a href="https://www.runnersworld.com/training/a71363618/increase-running-pace-signs/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7303935/2026/05/24/connections-sports-edition-hints-answers-may-24-2026/">Connections: Sports Edition today: Hints and answers for May 24, 2026, puzzle No. 608</a></h3>
-<p>The Connections: Sports Edition puzzle No. 608 is available, providing hints and answers for participants to solve and discuss. This changes the way puzzle enthusiasts engage with the game, as they can now access clues and solutions for the May 24, 2026, puzzle and share their progress with others.&ensp;<a href="https://www.nytimes.com/athletic/7303935/2026/05/24/connections-sports-edition-hints-answers-may-24-2026/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data">Relational Foundation Models for Enterprise Data with Jure Leskovec - #768</a></h3>
-<p>Jure Leskovec is working on AI Virtual Cell, a multiscale effort to learn data-driven representations from biological systems, and relational deep learning to improve enterprise data analysis. This changes the approach to enterprise data analysis, allowing companies to adopt relational foundation models and AI-driven tools to improve their data representation and decision-making processes.&ensp;<a href="https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, May 23, 2026</title>
@@ -238,16 +238,6 @@
     <pubDate>Wed, 06 May 2026 06:00:00 +0000</pubDate>
     <description>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis</description>
     <category>AI &amp; Data Tools</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, May 5, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-05.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-05.html</guid>
-    <pubDate>Tue, 05 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like the moment when every car manufacturer realized they needed to offer financing plans - the cost of entry for AI adoption just got a lot higher because Anthropic and OpenAI are now selling services around their models, not just the models th</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
-    <category>Podcasts</category>
   </item>
 </channel>
 </rss>
