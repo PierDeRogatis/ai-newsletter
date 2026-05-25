@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-25",
+    "headline": "New Tools Redraw Boundaries",
+    "brief": "Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwr",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-25.html"
+  },
+  {
     "date": "2026-05-24",
     "headline": "AI speeds up development",
     "brief": "Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Aliba",
