@@ -195,7 +195,7 @@ for fname in sorted(os.listdir(issues_dir)):
 
     if MARKER in html:
         # Already has the gate structure — just replace the JS block
-        new_html = _OLD_JS_PATTERN.sub(GATE_JS, html, count=1)
+        new_html = _OLD_JS_PATTERN.sub(lambda _: GATE_JS, html, count=1)
         if new_html != html:
             with open(path, "w") as f:
                 f.write(new_html)
