@@ -8,19 +8,17 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
+import newsletter.publisher as publisher
 from newsletter.publisher import (
     load_seen_urls,
     update_seen_urls,
     build_substack_post,
+    clean_feed_scores,
     _write_sitemap,
     _build_tweet_text,
     post_to_twitter,
     _build_linkedin_post_text,
     post_to_linkedin,
-    _build_topic_page,
-    _write_topic_pages,
-    _TOPIC_SLUGS,
-    _DOCS_DIR,
 )
 
 
@@ -238,13 +236,13 @@ def test_write_sitemap_multiple_issues(docs_dir):
             "https://example.netlify.app",
         )
     content = (docs_dir / "sitemap.xml").read_text()
-    assert content.count("<url>") == 4 + 5 + 1  # index + 3 issues + 5 topic pages + about
+    assert content.count("<url>") == 4  # index + 3 issues
 
 def test_write_sitemap_empty_manifest_has_index(docs_dir):
     with patch("newsletter.publisher._DOCS_DIR", docs_dir):
         _write_sitemap([], "https://example.netlify.app")
     content = (docs_dir / "sitemap.xml").read_text()
-    assert content.count("<url>") == 1 + 5 + 1  # index + 5 topic pages + about
+    assert content.count("<url>") == 1  # index page only
 
 
 # ── _build_tweet_text ─────────────────────────────────────────────────────────
@@ -424,59 +422,22 @@ def test_post_to_linkedin_handles_generic_exception(sample_result, caplog):
     assert any("LinkedIn post failed" in r.message for r in caplog.records)
 
 
-# ── Topic index pages ─────────────────────────────────────────────────────────
+# ── clean_feed_scores ─────────────────────────────────────────────────────────
 
-_SAMPLE_MANIFEST = [
-    {"date": "2026-05-14", "headline": "Test A", "brief": "Brief A content here.", "topics": ["AI & Data Tools", "AI in Sports"], "article_count": 3, "path": "issues/2026-05-14.html"},
-    {"date": "2026-05-13", "headline": "Test B", "brief": "Brief B content here.", "topics": ["AI in Finance", "Podcasts"],        "article_count": 4, "path": "issues/2026-05-13.html"},
-    {"date": "2026-05-12", "headline": "Test C", "brief": "Brief C content here.", "topics": ["AI & Data Tools", "Research & Academia"], "article_count": 5, "path": "issues/2026-05-12.html"},
-]
+def test_clean_feed_scores_removes_stale(tmp_path, monkeypatch):
+    scores = {
+        "https://active.com/feed": {"recent_hits": [1], "last_run": "2026-05-01"},
+        "https://stale.com/feed":  {"recent_hits": [0], "last_run": "2026-05-01"},
+    }
+    active = {"https://active.com/feed"}
+    monkeypatch.setattr(publisher, "_FEED_SCORES_PATH", tmp_path / "feed_scores.json")
+    result = clean_feed_scores(scores, active)
+    assert "https://stale.com/feed" not in result
+    assert "https://active.com/feed" in result
 
-_PUB_BASE = "https://pierderogatis.github.io/ai-newsletter"
-
-
-def test_write_topic_pages_creates_all_files(tmp_path, monkeypatch):
-    monkeypatch.setattr("newsletter.publisher._DOCS_DIR", tmp_path)
-    _write_topic_pages(_SAMPLE_MANIFEST, _PUB_BASE)
-    topics_dir = tmp_path / "topics"
-    assert topics_dir.is_dir()
-    for slug in _TOPIC_SLUGS.values():
-        assert (topics_dir / f"{slug}.html").exists(), f"missing {slug}.html"
-
-
-def test_topic_page_filters_correctly(tmp_path, monkeypatch):
-    monkeypatch.setattr("newsletter.publisher._DOCS_DIR", tmp_path)
-    _write_topic_pages(_SAMPLE_MANIFEST, _PUB_BASE)
-    finance_page = (tmp_path / "topics" / "ai-finance.html").read_text("utf-8")
-    assert "Test B" in finance_page          # finance issue present
-    assert "Test A" not in finance_page      # non-finance issue absent
-    data_page = (tmp_path / "topics" / "ai-data-tools.html").read_text("utf-8")
-    assert "Test A" in data_page
-    assert "Test C" in data_page
-    assert "Test B" not in data_page
-
-
-def test_topic_page_json_ld():
-    import json as _json, re as _re
-    html = _build_topic_page("AI in Finance", "ai-finance", _SAMPLE_MANIFEST[:1], _PUB_BASE)
-    blocks = _re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, _re.DOTALL)
-    assert blocks, "no JSON-LD in topic page"
-    data = _json.loads(blocks[0])
-    assert data["@type"] == "CollectionPage"
-    assert "AI in Finance" in data["name"]
-
-
-def test_topic_page_issue_count_in_badge():
-    # _build_topic_page receives pre-filtered issues — filter here as _write_topic_pages does
-    issues = [m for m in _SAMPLE_MANIFEST if "AI & Data Tools" in (m.get("topics") or [])]
-    html = _build_topic_page("AI & Data Tools", "ai-data-tools", issues, _PUB_BASE)
-    assert "2 issues" in html
-
-
-def test_sitemap_includes_topic_pages(tmp_path, monkeypatch):
-    monkeypatch.setattr("newsletter.publisher._DOCS_DIR", tmp_path)
-    _write_sitemap(_SAMPLE_MANIFEST, _PUB_BASE)
-    sitemap = (tmp_path / "sitemap.xml").read_text("utf-8")
-    assert "topics/ai-finance.html" in sitemap
-    assert "topics/ai-data-tools.html" in sitemap
-    assert "topics/research-academia.html" in sitemap
+def test_clean_feed_scores_no_change_when_all_active(tmp_path, monkeypatch):
+    scores = {"https://active.com/feed": {"recent_hits": [1], "last_run": "2026-05-01"}}
+    active = {"https://active.com/feed"}
+    monkeypatch.setattr(publisher, "_FEED_SCORES_PATH", tmp_path / "feed_scores.json")
+    result = clean_feed_scores(scores, active)
+    assert result == scores

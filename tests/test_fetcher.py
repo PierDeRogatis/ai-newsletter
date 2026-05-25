@@ -1,7 +1,7 @@
 """Unit tests for newsletter/fetcher.py — pure functions only, no network."""
 import pytest
 from datetime import datetime, timezone, timedelta
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
 
 from newsletter.fetcher import (
     _strip_html,
@@ -9,7 +9,10 @@ from newsletter.fetcher import (
     _domain,
     _parse_date,
     _extract_article,
+    _is_safe_url,
+    fetch_all,
 )
+from newsletter.config import TOPICS
 
 
 # ── _strip_html ───────────────────────────────────────────────────────────────
@@ -157,3 +160,44 @@ def test_extract_article_exactly_at_cutoff_is_excluded():
     result = _extract_article(entry, "src", [], _CUTOFF)
     # Should be included (not strictly before cutoff)
     assert result is not None
+
+
+# ── fetch_all ─────────────────────────────────────────────────────────────────
+
+def test_fetch_all_extra_feeds_merged():
+    """extra_feeds URLs are attempted alongside the static TOPICS feeds."""
+    extra_url = "https://extra-discovery.example.com/feed/"
+    topic = "AI & Data Tools"
+    assert extra_url not in TOPICS.get(topic, [])
+
+    fetched_urls: list[str] = []
+
+    def fake_fetch_feed(url):
+        fetched_urls.append(url)
+        return url, []
+
+    with patch("newsletter.fetcher._fetch_feed", side_effect=fake_fetch_feed):
+        fetch_all(extra_feeds={topic: [extra_url]})
+
+    assert extra_url in fetched_urls
+
+
+# ── _is_safe_url ──────────────────────────────────────────────────────────────
+
+def test_is_safe_url_accepts_https():
+    assert _is_safe_url("https://techcrunch.com/feed/")
+
+def test_is_safe_url_accepts_http():
+    assert _is_safe_url("http://example.com/feed")
+
+def test_is_safe_url_rejects_localhost():
+    assert not _is_safe_url("http://localhost/admin")
+
+def test_is_safe_url_rejects_metadata():
+    assert not _is_safe_url("http://169.254.169.254/latest")
+
+def test_is_safe_url_rejects_private():
+    assert not _is_safe_url("http://10.0.0.1/secret")
+
+def test_is_safe_url_rejects_javascript():
+    assert not _is_safe_url("javascript:alert(1)")

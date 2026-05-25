@@ -9,6 +9,11 @@ MAX_ARTICLES_PER_TOPIC = 3
 SNIPPET_MAX_CHARS = 300
 DAYS_LOOKBACK = 1
 
+GROQ_MODEL             = "llama-3.3-70b-versatile"
+GROQ_MAX_OUTPUT_TOKENS = 4096
+GROQ_TEMPERATURE       = 0.5
+GROQ_API_TIMEOUT       = 60  # seconds
+
 TOPIC_COLORS: dict[str, str] = {
     "AI & Data Tools":     "#4F46E5",  # indigo
     "AI in Finance":       "#059669",  # emerald
@@ -59,35 +64,17 @@ TOPIC_KEYWORDS: dict[str, list[str]] = {
 
 TOPICS: dict[str, list[str]] = {
     "AI & Data Tools": [
-        # Established tech publications
-        "https://towardsdatascience.com/feed",
-        "https://www.technologyreview.com/feed/",
-        "https://www.wired.com/feed/rss",
-        "https://feeds.feedburner.com/oreilly/radar/atom",
+        # High-volume tech news
+        "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "https://venturebeat.com/category/ai/feed/",
         "https://the-decoder.com/feed/",
-        # AI labs & company blogs (verified accessible)
-        "https://blog.google/technology/ai/rss/",
-        "https://blogs.microsoft.com/ai/feed/",
-        "https://deepmind.google/blog/rss.xml",
-        "https://engineering.fb.com/feed/",
-        # Independent researchers & practitioners
-        "https://simonwillison.net/atom/everything/",
-        "https://www.interconnects.ai/feed",
-        "https://www.oneusefulthing.org/feed",
-        "https://magazine.sebastianraschka.com/feed",
-        "https://eugeneyan.com/rss/",
-        "https://thegradient.pub/rss/",
-        # Community & tools
-        "https://huggingface.co/blog/feed.xml",
-        "https://hnrss.org/best?q=AI+machine+learning",
-        "https://hnrss.org/best?q=LLM+agent+tool",
         "https://www.marktechpost.com/feed/",
-        "https://machinelearningmastery.com/blog/feed/",
-        "https://www.kdnuggets.com/feed",
-        "https://wandb.ai/fully-connected/rss.xml",
-        "https://paperswithcode.com/latest/rss",
-        "https://www.fast.ai/index.xml",
-        "https://bair.berkeley.edu/blog/feed.xml",
+        # AI lab official blogs
+        "https://openai.com/blog/rss.xml",
+        # Practitioner / independent — high-signal
+        "https://towardsdatascience.com/feed",
+        # Community aggregators
+        "https://hnrss.org/frontpage",
     ],
     "AI in Finance": [
         # Major news outlets
@@ -147,7 +134,6 @@ TOPICS: dict[str, list[str]] = {
         "https://hnrss.org/best?q=LLM+research+paper",
         "https://hnrss.org/best?q=neural+network+benchmark",
         # Papers index
-        "https://paperswithcode.com/latest/rss",
         "https://distill.pub/rss.xml",
     ],
     "Podcasts": [
@@ -155,7 +141,7 @@ TOPICS: dict[str, list[str]] = {
         "https://lexfridman.com/feed/podcast/",
         "https://www.dwarkeshpatel.com/podcast?format=rss",
         # AI strategy & industry
-        "https://feeds.simplecast.com/ORdGvPNL",   # No Priors (a16z)
+        "https://www.latent.space/feed",            # Latent Space — AI engineering
         # Technical ML
         "https://changelog.com/practicalai/feed",
         "https://twimlai.com/feed/",

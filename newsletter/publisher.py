@@ -1,3 +1,4 @@
+import html as _html
 import json
 import logging
 import os
@@ -9,6 +10,7 @@ from pathlib import Path
 import tweepy
 
 from newsletter import emailer
+from newsletter.emailer import _ISSUE_NAV_SNIPPET
 from newsletter.config import TOPIC_ICONS
 
 logger = logging.getLogger(__name__)
@@ -52,10 +54,11 @@ def build_substack_post(result: dict) -> str:
         parts.append(f"<h2>{icon}&ensp;{topic}</h2>")
 
         for i, a in enumerate(articles):
-            title = a.get("title", "")
-            url = a.get("url", "#")
-            summary = a.get("summary", "")
-            source = a.get("source", "")
+            title   = _html.escape(a.get("title", ""))
+            summary = _html.escape(a.get("summary", ""))
+            source  = _html.escape(a.get("source", ""))
+            raw_url = a.get("url", "#")
+            url     = raw_url if raw_url.startswith(("http://", "https://")) else "#"
             source_tag = (
                 f'&ensp;<span style="color:#9CA3AF;font-size:12px;font-weight:400;">— {source}</span>'
                 if source else ""
@@ -86,22 +89,6 @@ _SEEN_URLS_PATH = _DOCS_DIR / "seen_urls.json"
 _FEED_SCORES_PATH = _DOCS_DIR / "feed_scores.json"
 _SEEN_DAYS = 3       # how many days back to remember URLs
 _MAX_RECENT_RUNS = 10  # rolling window for per-feed hit history
-
-_TOPIC_SLUGS: dict[str, str] = {
-    "AI & Data Tools":     "ai-data-tools",
-    "AI in Finance":       "ai-finance",
-    "AI in Sports":        "ai-sports",
-    "Research & Academia": "research-academia",
-    "Podcasts":            "podcasts",
-}
-
-_TOPIC_META: dict[str, str] = {
-    "AI & Data Tools":     "Every issue covering AI tools, LLMs, inference, embeddings, and data infrastructure.",
-    "AI in Finance":       "Every issue covering quantitative finance, algorithmic trading, and AI applications in markets.",
-    "AI in Sports":        "Every issue covering AI in sports performance, biomechanics, and sports science.",
-    "Research & Academia": "Every issue covering frontier AI research, papers, and academic developments.",
-    "Podcasts":            "Every curated podcast pick — the best audio from AI, finance, and sports science.",
-}
 
 
 # ── Cross-day deduplication ──────────────────────────────────────────────────
@@ -155,6 +142,16 @@ def load_feed_scores() -> dict:
     except Exception as e:
         logger.error("Failed to load feed_scores.json — returning empty: %s", e)
         return {}
+
+
+def clean_feed_scores(scores: dict, active_urls: set[str]) -> dict:
+    """Remove score entries for feeds no longer active in config or discovered."""
+    cleaned = {url: s for url, s in scores.items() if url in active_urls}
+    removed = len(scores) - len(cleaned)
+    if removed:
+        logger.info("Feed scores: purged %d stale entries", removed)
+        _FEED_SCORES_PATH.write_text(json.dumps(cleaned, indent=2, ensure_ascii=False), "utf-8")
+    return cleaned
 
 
 def update_feed_scores(
@@ -267,6 +264,21 @@ def _load_manifest() -> list:
     return []
 
 
+def _backfill_issue_nav() -> None:
+    """Inject prev/next navigation into old issue pages that pre-date the feature."""
+    patched = 0
+    for html_path in sorted(_ISSUES_DIR.glob("*.html")):
+        content = html_path.read_text("utf-8")
+        if 'id="gd-issue-nav"' in content:
+            continue
+        updated = content.replace("</body>", _ISSUE_NAV_SNIPPET + "\n</body>", 1)
+        if updated != content:
+            html_path.write_text(updated, encoding="utf-8")
+            patched += 1
+    if patched:
+        logger.info("Issue nav: backfilled %d old issue pages", patched)
+
+
 def save_to_archive(result: dict, date_str: str) -> None:
     """Write a dated issue HTML file, update manifest.json, and regenerate RSS feed."""
     import re as _re
@@ -282,15 +294,13 @@ def save_to_archive(result: dict, date_str: str) -> None:
     ).rstrip("/")
     _web_nav = (
         '<div style="background:#080E1C;padding:10px 24px;display:flex;'
-        'justify-content:space-between;align-items:center;gap:16px;'
+        'justify-content:space-between;align-items:center;'
         'font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;">'
         f'<a href="{pub_base}" style="color:#6EE7B7;font-size:13px;'
         'font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a>'
-        f'<a href="{pub_base}/about.html" style="color:#6B82A0;font-size:13px;'
-        'font-weight:500;text-decoration:none;">About</a>'
-        f'<a href="{pub_base}" '
+        '<a href="https://pierluigiderogatis.substack.com/subscribe" '
         'style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;'
-        'padding:6px 14px;border-radius:6px;text-decoration:none;margin-left:auto;">Subscribe free</a>'
+        'padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a>'
         '</div>'
     )
     html = _re.sub(r'(<body[^>]*>)', r'\1' + _web_nav, html, count=1)
@@ -315,185 +325,12 @@ def save_to_archive(result: dict, date_str: str) -> None:
     })
     _MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     _write_rss(manifest, results_by_date={date_str: result})
-    pub_base = os.environ.get("ARCHIVE_BASE_URL", "https://pierderogatis.github.io/ai-newsletter").rstrip("/")
-    _write_sitemap(manifest, pub_base)
-    _write_topic_pages(manifest, pub_base)
+    _backfill_issue_nav()
     logger.info("Archive saved: docs/issues/%s.html — manifest updated (%d issues)", date_str, len(manifest))
-    _backfill_mobile_css()
-
-
-def _backfill_mobile_css() -> None:
-    marker = "max-width:620px"
-    patched = 0
-    for html_path in sorted(_ISSUES_DIR.glob("*.html")):
-        text = html_path.read_text("utf-8")
-        if marker in text:
-            continue
-        text = text.replace("</head>", f"<style>{emailer._MOBILE_CSS}</style>\n</head>", 1)
-        html_path.write_text(text, "utf-8")
-        patched += 1
-    if patched:
-        logger.info("Mobile CSS: backfilled %d issue pages", patched)
-
-
-def _build_topic_page(topic: str, slug: str, issues: list, pub_base: str) -> str:
-    meta = _TOPIC_META.get(topic, "")
-    count = len(issues)
-    page_url = f"{pub_base}/topics/{slug}.html"
-    mobile_css = emailer._MOBILE_CSS
-
-    rows = ""
-    for m in issues:
-        date_fmt = datetime.strptime(m["date"], "%Y-%m-%d").strftime("%b %-d, %Y")
-        headline = m.get("headline", "").replace("<", "&lt;").replace(">", "&gt;")
-        brief = (m.get("brief") or "")[:200].replace("<", "&lt;").replace(">", "&gt;")
-        if len(m.get("brief") or "") > 200:
-            brief += "…"
-        issue_url = f"{pub_base}/{m['path']}"
-        rows += f"""
-      <li class="issue-row">
-        <span class="issue-date">{date_fmt}</span>
-        <div class="issue-body">
-          <a href="{issue_url}" class="issue-headline">{headline}</a>
-          <p class="issue-brief">{brief}</p>
-        </div>
-        <a href="{issue_url}" class="issue-cta">Read &rarr;</a>
-      </li>"""
-
-    ld = json.dumps({
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": f"Gradient Descent — {topic}",
-        "description": meta,
-        "url": page_url,
-        "isPartOf": {"@type": "WebSite", "name": "Gradient Descent", "url": f"{pub_base}/"},
-    })
-
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>{topic} — Gradient Descent</title>
-  <meta name="description" content="{meta}">
-  <link rel="canonical" href="{page_url}">
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="{topic} — Gradient Descent">
-  <meta property="og:description" content="{meta}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{page_url}">
-  <meta property="og:image" content="{pub_base}/logo.png">
-  <link rel="alternate" type="application/rss+xml" title="Gradient Descent" href="{pub_base}/feed.xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="icon" href="{pub_base}/logo.png">
-  <script type="application/ld+json">{ld}</script>
-  <style>
-    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    :root {{
-      --bg:      #03080F;
-      --surface: #06101A;
-      --border:  #0D1C2E;
-      --accent:  #00FFC8;
-      --text:    #ECF5FF;
-      --muted:   #6B82A0;
-      --dim:     #7A95B0;
-    }}
-    html {{ scroll-behavior: smooth; }}
-    body {{
-      background: var(--bg); color: var(--text);
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.7; -webkit-font-smoothing: antialiased;
-    }}
-    nav {{
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(3,8,15,0.92);
-      backdrop-filter: blur(20px) saturate(1.6);
-      -webkit-backdrop-filter: blur(20px) saturate(1.6);
-      border-bottom: 1px solid var(--border);
-      padding: 0 32px; height: 56px;
-      display: flex; align-items: center; justify-content: space-between;
-    }}
-    .nav-logo {{
-      color: var(--accent); font-size: 14px; font-weight: 700;
-      text-decoration: none; letter-spacing: 0.06em;
-      text-shadow: 0 0 8px rgba(0,255,200,0.35);
-    }}
-    .nav-links {{ display: flex; gap: 24px; align-items: center; }}
-    .nav-links a {{ color: var(--muted); font-size: 13px; font-weight: 500; text-decoration: none; transition: color 0.15s; }}
-    .nav-links a:hover {{ color: var(--text); }}
-    .nav-cta {{ background: var(--accent); color: #03080F !important; font-size: 12px; font-weight: 700; padding: 7px 16px; border-radius: 6px; letter-spacing: 0.02em; }}
-    .page-wrap {{ max-width: 760px; margin: 0 auto; padding: 64px 32px 96px; }}
-    .breadcrumb {{ font-size: 12px; color: var(--muted); margin-bottom: 24px; }}
-    .breadcrumb a {{ color: var(--muted); text-decoration: none; }}
-    .breadcrumb a:hover {{ color: var(--accent); }}
-    .page-label {{ display: inline-block; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 12px; }}
-    h1 {{ font-size: 32px; font-weight: 800; line-height: 1.15; color: var(--text); letter-spacing: -0.02em; margin-bottom: 10px; }}
-    .count-badge {{ display: inline-block; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 3px 12px; font-size: 12px; color: var(--muted); font-weight: 500; margin-left: 12px; vertical-align: middle; }}
-    .subtitle {{ font-size: 15px; color: var(--dim); margin-top: 10px; margin-bottom: 40px; }}
-    .issue-list {{ list-style: none; display: flex; flex-direction: column; gap: 0; }}
-    .issue-row {{
-      display: grid; grid-template-columns: 90px 1fr auto;
-      gap: 16px; align-items: start;
-      padding: 20px 0; border-bottom: 1px solid var(--border);
-    }}
-    .issue-row:first-child {{ border-top: 1px solid var(--border); }}
-    .issue-date {{ font-size: 12px; color: var(--muted); font-weight: 500; padding-top: 3px; white-space: nowrap; }}
-    .issue-body {{ min-width: 0; }}
-    .issue-headline {{ display: block; font-size: 15px; font-weight: 600; color: var(--text); text-decoration: none; margin-bottom: 5px; line-height: 1.4; }}
-    .issue-headline:hover {{ color: var(--accent); }}
-    .issue-brief {{ font-size: 13px; color: var(--dim); line-height: 1.65; }}
-    .issue-cta {{ font-size: 12px; color: var(--accent); font-weight: 600; text-decoration: none; white-space: nowrap; padding-top: 3px; }}
-    .issue-cta:hover {{ text-decoration: underline; }}
-    .back-link {{ display: inline-block; margin-top: 40px; font-size: 13px; color: var(--muted); text-decoration: none; font-weight: 500; }}
-    .back-link:hover {{ color: var(--accent); }}
-    .empty {{ color: var(--dim); font-size: 15px; padding: 40px 0; }}
-    @media (max-width: 600px) {{
-      nav {{ padding: 0 20px; }}
-      .page-wrap {{ padding: 40px 20px 72px; }}
-      h1 {{ font-size: 24px; }}
-      .issue-row {{ grid-template-columns: 1fr; gap: 6px; }}
-      .issue-date {{ padding-top: 0; }}
-      .issue-cta {{ display: none; }}
-    }}
-    {mobile_css}
-  </style>
-</head>
-<body>
-  <nav>
-    <a href="{pub_base}/" class="nav-logo">Gradient Descent</a>
-    <div class="nav-links">
-      <a href="{pub_base}/">Archive</a>
-      <a href="{pub_base}/about.html">About</a>
-      <a href="{pub_base}/" class="nav-cta">Subscribe free</a>
-    </div>
-  </nav>
-  <div class="page-wrap">
-    <p class="breadcrumb"><a href="{pub_base}/">Archive</a> &rsaquo; Topics &rsaquo; {topic}</p>
-    <span class="page-label">Topic</span>
-    <h1>{topic}<span class="count-badge">{count} issues</span></h1>
-    <p class="subtitle">{meta}</p>
-    {'<ul class="issue-list">' + rows + '</ul>' if issues else '<p class="empty">No issues yet for this topic.</p>'}
-    <a href="{pub_base}/" class="back-link">&larr; Back to archive</a>
-  </div>
-</body>
-</html>"""
-
-
-def _write_topic_pages(manifest: list, pub_base: str) -> None:
-    topics_dir = _DOCS_DIR / "topics"
-    topics_dir.mkdir(exist_ok=True)
-    for topic, slug in _TOPIC_SLUGS.items():
-        issues = [m for m in manifest if topic in (m.get("topics") or [])]
-        html = _build_topic_page(topic, slug, issues, pub_base)
-        (topics_dir / f"{slug}.html").write_text(html, encoding="utf-8")
-    logger.info("Topic pages: updated %d pages in docs/topics/", len(_TOPIC_SLUGS))
 
 
 def _write_sitemap(manifest: list, pub_base: str) -> None:
-    """Write docs/sitemap.xml listing the archive index, issue pages, and topic pages."""
+    """Write docs/sitemap.xml listing the archive index and all issue pages."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     def _entry(loc: str, lastmod: str, freq: str, pri: str) -> str:
         return (
@@ -503,9 +340,6 @@ def _write_sitemap(manifest: list, pub_base: str) -> None:
             f"    <priority>{pri}</priority>\n  </url>"
         )
     entries = [_entry(f"{pub_base}/", today, "daily", "1.0")]
-    entries.append(_entry(f"{pub_base}/about.html", today, "monthly", "0.5"))
-    for slug in _TOPIC_SLUGS.values():
-        entries.append(_entry(f"{pub_base}/topics/{slug}.html", today, "daily", "0.7"))
     for m in manifest:
         entries.append(_entry(f"{pub_base}/{m['path']}", m["date"], "never", "0.8"))
     sitemap = (
@@ -567,11 +401,12 @@ def _write_rss(manifest: list, results_by_date: dict | None = None) -> None:
 </rss>"""
     (_DOCS_DIR / "feed.xml").write_text(rss, encoding="utf-8")
     logger.info("RSS feed updated: docs/feed.xml (%d items)", len(items))
+    _write_sitemap(manifest, pub_base)
 
 
 def _build_tweet_text(headline: str, brief: str, issue_url: str) -> str:
     """Compose tweet text, trimming the brief to keep the total under 280 chars."""
-    sub_url = "https://pierluigiderogatis.substack.com"
+    sub_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
     footer = f"\n\n{issue_url}\n\nSubscribe: {sub_url}"
     budget = 280 - len(headline) - len(footer) - 2  # -2 for '\n\n' before brief
     if brief and budget >= 4:
@@ -613,12 +448,14 @@ def post_to_twitter(result: dict, date_str: str) -> None:
         tweet_id = response.data["id"]
         logger.info("Twitter post published (tweet id: %s)", tweet_id)
     except tweepy.errors.TweepyException as e:
-        logger.error("Twitter post failed (HTTP %s): %s", getattr(e, 'response', {}) and getattr(e.response, 'status_code', '?'), e)
+        status = getattr(getattr(e, 'response', None), 'status_code', None)
+        level = logger.warning if status == 402 else logger.error
+        level("Twitter post failed (HTTP %s): %s", status or '?', e)
 
 
 def _build_linkedin_post_text(headline: str, brief: str, issue_url: str) -> str:
     """Compose LinkedIn post text, capped at LinkedIn's 3,000-char limit."""
-    sub_url = "https://pierluigiderogatis.substack.com"
+    sub_url = os.environ.get("SUBSTACK_URL", "https://pierluigiderogatis.substack.com").rstrip("/")
     parts = [headline]
     if brief:
         parts.append(f"\n{brief}")

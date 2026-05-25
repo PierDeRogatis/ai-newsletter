@@ -10,9 +10,9 @@ from newsletter.summarizer import summarize
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _groq_response(content: str) -> MagicMock:
-    """Build a mock Groq response with a single choice containing `content`."""
     choice = MagicMock()
     choice.message.content = content
+    choice.finish_reason = "stop"
     usage = MagicMock()
     usage.prompt_tokens = 100
     usage.completion_tokens = 200
@@ -22,27 +22,19 @@ def _groq_response(content: str) -> MagicMock:
     return resp
 
 
-_VALID_JSON = json.dumps({
-    "headline": "Inference costs beat benchmark races",
-    "daily_brief": "Sentence one. Sentence two. Sentence three.",
-    "sections": [
-        {
-            "topic": "AI & Data Tools",
-            "articles": [
-                {"title": "T1", "url": "https://x.com/1", "summary": "S1"},
-                {"title": "T2", "url": "https://x.com/2", "summary": "S2"},
-            ],
-        },
-        {
-            "topic": "AI in Finance",
-            "articles": [
-                {"title": "F1", "url": "https://f.com/1", "summary": "FS1"},
-            ],
-        },
-    ],
-})
+def _topic_resp(articles: list[dict]) -> MagicMock:
+    """Mock response for a per-topic summarisation call."""
+    return _groq_response(json.dumps({"articles": articles}))
 
-_ARTICLES = [{"title": "T", "url": "https://x.com", "snippet": "s", "source": "x.com"}]
+
+def _brief_resp(headline: str = "Test Headline", daily_brief: str = "Sentence one. Two. Three.") -> MagicMock:
+    """Mock response for the headline + daily_brief call."""
+    return _groq_response(json.dumps({"headline": headline, "daily_brief": daily_brief}))
+
+
+_ARTICLE = {"title": "T", "url": "https://x.com/1", "snippet": "s", "source": "x.com"}
+_SUMMARISED = {"title": "T", "url": "https://x.com/1", "summary": "Summary sentence one. Two."}
+_SUMMARISED_F = {"title": "F", "url": "https://f.com/1", "summary": "Finance summary. Two."}
 
 
 # ── Early exits ───────────────────────────────────────────────────────────────
@@ -54,68 +46,107 @@ def test_summarize_all_empty_topic_lists():
     assert summarize({"AI": [], "Finance": []}) == {"daily_brief": "", "sections": {}}
 
 
-# ── Happy path ────────────────────────────────────────────────────────────────
+# ── Happy path — single topic ─────────────────────────────────────────────────
 
-def test_summarize_valid_json_returns_correct_shape():
+def test_summarize_single_topic_shape():
+    """One topic → topic call + brief call → correct keys and values."""
     with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(_VALID_JSON)
-        result = summarize({"AI & Data Tools": _ARTICLES})
-    assert result["headline"] == "Inference costs beat benchmark races"
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _topic_resp([_SUMMARISED]),
+            _brief_resp("AI is cheaper now", "Sentence one. Two. Three."),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE]})
+
+    assert result["headline"] == "AI is cheaper now"
     assert result["daily_brief"].startswith("Sentence one")
     assert "AI & Data Tools" in result["sections"]
-    assert len(result["sections"]["AI & Data Tools"]) == 2
+    assert result["sections"]["AI & Data Tools"][0]["summary"] == _SUMMARISED["summary"]
 
-def test_summarize_valid_json_maps_all_sections():
+
+def test_summarize_groq_called_once_per_topic_plus_brief():
+    """With 2 topics, Groq is called exactly 3 times (2 topics + 1 brief)."""
     with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(_VALID_JSON)
-        result = summarize({"AI & Data Tools": _ARTICLES, "AI in Finance": _ARTICLES})
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _topic_resp([_SUMMARISED]),
+            _topic_resp([_SUMMARISED_F]),
+            _brief_resp(),
+        ]
+        summarize({"AI & Data Tools": [_ARTICLE], "AI in Finance": [_ARTICLE]})
+
+    assert MockGroq.return_value.chat.completions.create.call_count == 3
+
+
+# ── Happy path — multiple topics ──────────────────────────────────────────────
+
+def test_summarize_all_topics_in_sections():
+    """Both topics appear in sections after per-topic calls."""
+    with patch("newsletter.summarizer.Groq") as MockGroq:
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _topic_resp([_SUMMARISED]),
+            _topic_resp([_SUMMARISED_F]),
+            _brief_resp(),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE], "AI in Finance": [_ARTICLE]})
+
+    assert "AI & Data Tools" in result["sections"]
     assert "AI in Finance" in result["sections"]
+    assert len(result["sections"]["AI & Data Tools"]) == 1
     assert len(result["sections"]["AI in Finance"]) == 1
 
 
-# ── Markdown-fenced JSON ──────────────────────────────────────────────────────
+# ── Markdown fences ───────────────────────────────────────────────────────────
 
-def test_summarize_strips_markdown_fences():
-    fenced = f"```json\n{_VALID_JSON}\n```"
+def test_summarize_topic_strips_markdown_fences():
+    fenced = f"```json\n{json.dumps({'articles': [_SUMMARISED]})}\n```"
     with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(fenced)
-        result = summarize({"AI & Data Tools": _ARTICLES})
-    assert result["headline"] == "Inference costs beat benchmark races"
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _groq_response(fenced),
+            _brief_resp("Headline"),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE]})
+    assert result["sections"]["AI & Data Tools"][0]["summary"] == _SUMMARISED["summary"]
 
-def test_summarize_strips_plain_fences():
-    fenced = f"```\n{_VALID_JSON}\n```"
+
+def test_summarize_brief_strips_markdown_fences():
+    fenced = f"```\n{json.dumps({'headline': 'H', 'daily_brief': 'B.'})}\n```"
     with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(fenced)
-        result = summarize({"AI & Data Tools": _ARTICLES})
-    assert result["headline"] == "Inference costs beat benchmark races"
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _topic_resp([_SUMMARISED]),
+            _groq_response(fenced),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE]})
+    assert result["headline"] == "H"
 
 
-# ── Truncated / malformed JSON recovery ──────────────────────────────────────
+# ── Topic fallback on bad JSON ────────────────────────────────────────────────
 
-def test_summarize_truncated_json_recovers_headline_and_brief():
-    truncated = (
-        '{"headline":"Recovered headline","daily_brief":"Recovered brief.",'
-        '"sections":[{"topic":"AI & Data Tools","articles":[{"title":"T","url":"u","summary":"S"}]'
-        # intentionally cut off here — no closing brackets/braces
-    )
+def test_summarize_topic_bad_json_uses_empty_summaries():
+    """If topic call returns unparseable JSON, article is included with empty summary."""
     with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(truncated)
-        result = summarize({"AI & Data Tools": _ARTICLES})
-    assert result["headline"] == "Recovered headline"
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _groq_response("not valid json at all"),
+            _brief_resp(),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE]})
+    articles = result["sections"]["AI & Data Tools"]
+    assert len(articles) == 1
+    assert articles[0]["title"] == "T"
+    assert articles[0]["summary"] == ""
+
+
+# ── Brief recovery on truncated JSON ─────────────────────────────────────────
+
+def test_summarize_brief_truncated_recovers_fields():
+    """Truncated brief JSON falls back to regex extraction."""
+    truncated = '{"headline":"Recovered head","daily_brief":"Recovered brief."'  # no closing brace
+    with patch("newsletter.summarizer.Groq") as MockGroq:
+        MockGroq.return_value.chat.completions.create.side_effect = [
+            _topic_resp([_SUMMARISED]),
+            _groq_response(truncated),
+        ]
+        result = summarize({"AI & Data Tools": [_ARTICLE]})
+    assert result["headline"] == "Recovered head"
     assert result["daily_brief"] == "Recovered brief."
-
-def test_summarize_truncated_json_recovers_partial_sections():
-    truncated = (
-        '{"headline":"H","daily_brief":"B.",'
-        '"sections":[{"topic":"AI & Data Tools","articles":[{"title":"T","url":"u","summary":"S"}]},'
-        '{"topic":"AI in Finance","articles":[{"title":"F","url":"f","summary":"FS"}'
-        # cut off mid-second section
-    )
-    with patch("newsletter.summarizer.Groq") as MockGroq:
-        MockGroq.return_value.chat.completions.create.return_value = _groq_response(truncated)
-        result = summarize({"AI & Data Tools": _ARTICLES, "AI in Finance": _ARTICLES})
-    # First section is fully formed and should be recovered
-    assert "AI & Data Tools" in result["sections"]
 
 
 # ── Empty choices guard ───────────────────────────────────────────────────────
@@ -126,7 +157,7 @@ def test_summarize_empty_choices_raises_value_error():
     with patch("newsletter.summarizer.Groq") as MockGroq:
         MockGroq.return_value.chat.completions.create.return_value = resp
         with pytest.raises(ValueError, match="empty choices"):
-            summarize({"AI & Data Tools": _ARTICLES})
+            summarize({"AI & Data Tools": [_ARTICLE]})
 
 
 # ── API error propagation ─────────────────────────────────────────────────────
@@ -138,18 +169,18 @@ def test_summarize_rate_limit_error_propagates():
     with patch("newsletter.summarizer.Groq") as MockGroq:
         MockGroq.return_value.chat.completions.create.side_effect = err
         with pytest.raises(RateLimitError):
-            summarize({"AI & Data Tools": _ARTICLES})
+            summarize({"AI & Data Tools": [_ARTICLE]})
 
 def test_summarize_connection_error_propagates():
     err = APIConnectionError.__new__(APIConnectionError)
     with patch("newsletter.summarizer.Groq") as MockGroq:
         MockGroq.return_value.chat.completions.create.side_effect = err
         with pytest.raises(APIConnectionError):
-            summarize({"AI & Data Tools": _ARTICLES})
+            summarize({"AI & Data Tools": [_ARTICLE]})
 
 def test_summarize_timeout_error_propagates():
     err = APITimeoutError.__new__(APITimeoutError)
     with patch("newsletter.summarizer.Groq") as MockGroq:
         MockGroq.return_value.chat.completions.create.side_effect = err
         with pytest.raises(APITimeoutError):
-            summarize({"AI & Data Tools": _ARTICLES})
+            summarize({"AI & Data Tools": [_ARTICLE]})
