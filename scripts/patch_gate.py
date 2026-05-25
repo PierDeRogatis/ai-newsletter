@@ -37,7 +37,9 @@ GATE_OVERLAY = (
     '<p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">'
     'Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p>'
     '<form id="gd-form" style="text-align:left;">'
-    '<input id="gd-email" type="email" required placeholder="you@example.com" '
+    '<input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" '
+    'style="position:absolute;left:-9999px;width:1px;height:1px;">'
+    '<input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" '
     'style="display:block;width:100%;box-sizing:border-box;background:#03080F;'
     'border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;'
     'color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;">'
@@ -60,63 +62,63 @@ GATE_OVERLAY = (
 
 GATE_JS = f"""<script>
 (function() {{
-  var S   = 'gd_unlocked';
-  var URL = '{DISPATCH_URL}';
-  var PAT = '{_PAT_A}' + '{_PAT_B}';
+  var S   = ‘gd_unlocked’;
+  var URL = ‘{DISPATCH_URL}’;
+  var PAT = ‘{_PAT_A}’ + ‘{_PAT_B}’;
   if (localStorage.getItem(S)) return;
-  var sent = document.getElementById('gd-brief-end');
-  var gate = document.getElementById('gd-gate');
-  var cont = document.getElementById('gd-gate-content');
+  var sent = document.getElementById(‘gd-brief-end’);
+  var gate = document.getElementById(‘gd-gate’);
+  var cont = document.getElementById(‘gd-gate-content’);
   if (!sent || !gate || !cont) return;
   var io = new IntersectionObserver(function(es) {{
     es.forEach(function(e) {{
-      if (!e.isIntersecting) {{ gate.classList.add('gd-visible'); cont.classList.add('gd-locked'); }}
+      if (!e.isIntersecting) {{ gate.classList.add(‘gd-visible’); cont.classList.add(‘gd-locked’); }}
     }});
   }}, {{threshold: 0}});
   io.observe(sent);
-  document.getElementById('gd-form').addEventListener('submit', function(e) {{
+  function _gd_done(ok) {{
+    var form = document.getElementById(‘gd-form’);
+    form.innerHTML = ok
+      ? ‘<p style="color:#00FFC8;font-size:15px;font-weight:600;text-align:center;padding:20px 0;">You\’re in! &#x1F389; First issue lands tomorrow morning.</p>’
+      : ‘<p style="color:#7A95B0;font-size:14px;text-align:center;padding:20px 0;">Done! If it doesn\’t arrive tomorrow, check your spam folder.</p>’;
+    setTimeout(function() {{
+      localStorage.setItem(S, ‘1’);
+      gate.classList.remove(‘gd-visible’);
+      cont.classList.remove(‘gd-locked’);
+      io.disconnect();
+    }}, 2000);
+  }}
+  document.getElementById(‘gd-form’).addEventListener(‘submit’, function(e) {{
     e.preventDefault();
-    var email = document.getElementById('gd-email').value.trim();
-    var ok    = document.getElementById('gd-consent').checked;
-    var err   = document.getElementById('gd-error');
-    var btn   = document.getElementById('gd-submit');
-    if (!ok) {{ err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }}
-    err.style.display = 'none';
-    btn.disabled = true; btn.textContent = 'Unlocking…';
+    var email = document.getElementById(‘gd-email’).value.trim();
+    var ok    = document.getElementById(‘gd-consent’).checked;
+    var err   = document.getElementById(‘gd-error’);
+    var btn   = document.getElementById(‘gd-submit’);
+    var hp    = document.getElementById(‘gd-hp’);
+    if (hp && hp.value) return;
+    if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {{
+      err.textContent = ‘Please enter a valid email address.’;
+      err.style.display = ‘block’;
+      return;
+    }}
+    if (!ok) {{ err.textContent = ‘Please accept to continue.’; err.style.display = ‘block’; return; }}
+    err.style.display = ‘none’;
+    btn.disabled = true; btn.textContent = ‘Sending…’;
+    var ctrl = new AbortController();
+    var to   = setTimeout(function() {{ ctrl.abort(); }}, 9000);
     fetch(URL, {{
-      method: 'POST',
+      method: ‘POST’,
+      signal: ctrl.signal,
       headers: {{
-        'Authorization': 'Bearer ' + PAT,
-        'Accept': 'application/vnd.github+json',
-        'Content-Type': 'application/json',
-        'X-GitHub-Api-Version': '2022-11-28'
+        ‘Authorization’: ‘Bearer ‘ + PAT,
+        ‘Accept’: ‘application/vnd.github+json’,
+        ‘Content-Type’: ‘application/json’,
+        ‘X-GitHub-Api-Version’: ‘2022-11-28’
       }},
-      body: JSON.stringify({{ref: 'main', inputs: {{email: email}}}})
+      body: JSON.stringify({{ref: ‘main’, inputs: {{email: email}}}})
     }})
-      .then(function(r) {{
-        if (r.ok) {{
-          localStorage.setItem(S, '1');
-          gate.classList.remove('gd-visible');
-          cont.classList.remove('gd-locked');
-          io.disconnect();
-          var t = document.createElement('div');
-          t.textContent = '✓ Subscribed! Check your spam folder and mark us as safe.';
-          t.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:9001;background:#06101A;border:1px solid rgba(0,255,200,0.3);color:#ECF5FF;padding:12px 16px;border-radius:8px;font-size:12px;max-width:300px;line-height:1.5;';
-          document.body.appendChild(t);
-          setTimeout(function(){{t.remove();}}, 7000);
-        }} else {{
-          btn.disabled = false;
-          btn.textContent = 'Unlock today’s issue';
-          err.textContent = 'Something went wrong. Please try again.';
-          err.style.display = 'block';
-        }}
-      }})
-      .catch(function() {{
-        btn.disabled = false;
-        btn.textContent = 'Unlock today’s issue';
-        err.textContent = 'Network error. Please try again.';
-        err.style.display = 'block';
-      }});
+      .then(function(r) {{ clearTimeout(to); _gd_done(r.ok); }})
+      .catch(function()  {{ clearTimeout(to); _gd_done(false); }});
   }});
 }})();
 </script>"""
