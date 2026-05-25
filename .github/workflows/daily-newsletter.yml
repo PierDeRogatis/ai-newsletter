@@ -52,20 +52,11 @@ jobs:
           BREVO_KEY: ${{ secrets.BREVO_KEY }}
         run: python -m newsletter.main
 
-      - name: Commit archive and sync docs to main for GitHub Pages
+      - name: Commit archive to main for GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/          # includes seen_urls.json + manifest + issues/
+          git add docs/
           git diff --staged --quiet && exit 0
           git commit -m "archive: $(date -u +%Y-%m-%d)"
-          FEATURE_SHA=$(git rev-parse HEAD)
           git push origin HEAD
-          # Mirror docs/ to main so GitHub Pages picks it up
-          git fetch origin main
-          git checkout main
-          git checkout "$FEATURE_SHA" -- docs/
-          git add docs/
-          git diff --staged --quiet || git commit -m "archive: $(date -u +%Y-%m-%d)"
-          git push origin main
-          git checkout -
