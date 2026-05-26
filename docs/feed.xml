@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, May 26, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-26.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-26.html</guid>
+    <pubDate>Tue, 26 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate co</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 26, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate code for causal inference. As this trend spills over into sports performance, coaches and trainers might start using data analytics tools to identify talented youth athletes and tailor training programs to their individual maturity levels, much like how AI is being used to optimize coding workflows. Now, will AI-generated code and data-driven coaching decisions change the game, or will they just optimize the status quo, and what does that mean for the future of human intuition in these fields?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/can-ai-write-your-code/">Can AI Write Your Code?</a></h3>
+<p>A recent study on ChatGPT, Python, R, and Stata reveals insights about AI-assisted coding for causal inference, showing that AI can generate code with varying degrees of accuracy. This changes the coding tool we use, as developers can now consider AI-assisted coding options like ChatGPT to streamline their workflow.&ensp;<a href="https://towardsdatascience.com/can-ai-write-your-code/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/">Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export</a></h3>
+<p>The TuringEnterprises/Open-MM-RL dataset provides a foundation for multimodal reasoning and reinforcement learning with verifiable rewards, allowing for the analysis of domains, formats, question lengths, answer types, and image distributions. This changes the data pipeline tool, as developers can now use the Open-MM-RL dataset and pipeline to build more comprehensive multimodal models.&ensp;<a href="https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/">Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving</a></h3>
+<p>Together AI&#x27;s OSCAR system uses attention-aware 2-bit KV cache quantization for long-context LLM serving, deriving separate rotations for keys and values from attention-aware spectral covariance. This changes the model serving workflow, as developers can now use OSCAR to optimize and deploy more efficient large language models.&ensp;<a href="https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1821744">Maturity-specific trajectories of physical fitness in talented youth athletes: a longitudinal study of Japanese local talent identification and development programme</a></h3>
+<p>Longitudinal evidence on physical development in Asian youth is scarce, with Japan&#x27;s local TID multi-sport matching model showing varying trajectories of physical fitness in talented Japanese youth athletes. This changes the approach to talent identification and development programs, allowing coaches to tailor training to individual maturity levels.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1821744">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1833549">Development and initial validation of a defensive pressure index using tracking data in the Chinese super league</a></h3>
+<p>A Defensive Pressure Index (DPI) was developed using movement tracking data to examine its association with defensive outcomes in the Chinese Super League. This changes the way football teams analyze defensive performance, enabling data-driven decisions on player positioning and strategy.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1833549">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583">Multifactorial background of acute sports injuries in young Japanese athletes—a semi-structured interview study</a></h3>
+<p>Semi-structured interviews with 10 young Japanese athletes revealed that psychological and social factors contribute to the occurrence of acute sports injuries, in addition to physical movement. This changes the injury prevention approach, requiring coaches and trainers to consider multifactorial interventions that address psychological and social aspects of athlete well-being.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">Sites Unseen: What’s Revealed by Traveling With the Blind</a></h3>
+<p>Andy Isaacson, a writer and photographer, traveled with the blind, which gave him a unique perspective on the world. This changes how we approach travel photography, as considering the experiences of the blind can help photographers focus on details beyond visual elements, such as sound and touch, to create more immersive stories.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, May 25, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, May 25, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwright are changing the workflow for LLM engineering and web automation, which in turn affects how traders and investors use data to inform their decisions on the trading desk. Now, consider this: what happens when these new tools start to seep into other areas, like sports performance, where data-driven decision making is already crucial - will they revolutionize the way teams approach player evaluation and strategy development?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/">Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments</a></h3>
-<p>Langfuse pipeline implementation allows for tracing, prompt management, scoring, datasets, and experiments with either a real OpenAI key or a deterministic mock LLM. This changes the workflow for LLM engineering, enabling developers to work with a complete and customizable pipeline today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/">StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension</a></h3>
-<p>StepAudio 2.5 Realtime is an end-to-end real-time speech large language model with fully customizable persona capabilities, supporting Chinese and English. This changes the voice model tool, allowing developers to integrate a more advanced and customizable voice model into their applications today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/">Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%</a></h3>
-<p>Webwright, a terminal-native browser agent framework, reaches 60.1% on the long-horizon Odyssey benchmark, outperforming the base GPT-5.4 model. This changes the web automation tool, enabling developers to use a more efficient and powerful framework for automating web interactions today.&ensp;<a href="https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-25/china-s-cross-border-trading-crackdown-video">China’s Cross-Border Trading Crackdown</a></h3>
-<p>China&#x27;s crackdown on cross-border stock trading could affect up to HK$250 billion ($32 billion) in Hong Kong-linked assets, aiming to tighten capital outflows and reshape investor access. This changes the investment strategy for Hong Kong-linked assets, requiring a review of portfolios that include these assets to mitigate potential losses.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-25/china-s-cross-border-trading-crackdown-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">Top Wall Street analysts like these dividend stocks for steady income</a></h3>
-<p>Top Wall Street analysts recommend adding dividend stocks to portfolios for consistent income amid ongoing uncertainty. This changes the portfolio diversification tool, prompting investors to consider adding dividend stocks to their investment mix for steady income.&ensp;<a href="https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-05-24/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says">ECB Convenes Banks to Fix Flaws Exposed by AI Models, FT Says</a></h3>
-<p>The European Central Bank is pressing lenders to secure their IT systems after a meeting on cybersecurity risks with the latest artificial intelligence models. This changes the cybersecurity risk assessment workflow, requiring banks to accelerate efforts to fix flaws exposed by AI models and strengthen their IT systems.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-05-24/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Sites Unseen: What’s Revealed by Traveling With the Blind</a></h3>
-<p>Andy Isaacson, a writer and photographer, took a unique trip where he traveled with the blind, which changed his perspective on experiencing the world. This changes the way we approach travel writing and photography, by considering alternative methods of storytelling that don&#x27;t rely solely on visual descriptions.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, May 24, 2026</title>
@@ -229,14 +239,6 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</guid>
     <pubDate>Thu, 07 May 2026 06:00:00 +0000</pubDate>
     <description>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new netwo</description>
-    <category>AI &amp; Data Tools</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, May 6, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-06.html</guid>
-    <pubDate>Wed, 06 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like the entire AI ecosystem just got a new set of lenses to look at problems - every major player is now focused on making their models more transparent and less prone to hallucinations, which is changing how we think about automation and decis</description>
     <category>AI &amp; Data Tools</category>
   </item>
 </channel>

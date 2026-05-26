@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-26",
+    "headline": "Code writes code",
+    "brief": "Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate co",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-26.html"
+  },
+  {
     "date": "2026-05-25",
     "headline": "New Tools Redraw Boundaries",
     "brief": "Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwr",
