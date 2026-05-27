@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, May 27, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</guid>
+    <pubDate>Wed, 27 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like students who've figured out how to cheat on a test by generating fake answers that sound plausible, and this skill is spreading fast across different areas of research. As a result, the consequences are now being felt on a tra</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like students who've figured out how to cheat on a test by generating fake answers that sound plausible, and this skill is spreading fast across different areas of research. As a result, the consequences are now being felt on a trading desk, where a model's ability to generate convincing but false data could lead to disastrous investment decisions, or in a sports lab, where AI-generated performance analysis might be misleading. Can we trust any model that can generate human-like text or audio, and should we be re-examining the entire process of how we evaluate and validate AI outputs?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/">MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters</a></h3>
+<p>Researchers propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model, allowing for training on new knowledge without modifying LLM parameters. This changes the way large language models are updated and fine-tuned, enabling more efficient and flexible knowledge integration into existing models.&ensp;<a href="https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/">Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing</a></h3>
+<p>Stability AI has released Stable Audio 3, a family of latent diffusion models for instrumental music and sound effects generation, with small and medium variants that can run on a MacBook Pro M4 CPU and consumer GPUs with 8 GB of VRAM. This changes the audio generation and editing workflow, enabling faster and more accessible music and sound effects creation with lower computational requirements.&ensp;<a href="https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/">AI-hallucinated citations are creeping into papers that shape clinical guidelines, researchers warn</a></h3>
+<p>An audit of 2.5 million biomedical papers found a twelvefold increase in fabricated references since 2023, suspected to be linked to the widespread use of language models that generate fake references matching the paper&#x27;s topic. This changes the academic publishing and clinical guideline development process, requiring more rigorous reference verification and fact-checking to prevent the spread of misinformation.&ensp;<a href="https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2605.27134">Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation</a></h3>
+<p>Vision-Language Models have shown rapid progress in mobile GUI navigation, with a systematic study of data scaling, benchmarking, and reasoning for VLM-based agents. This changes the approach to evaluating and improving the performance of VLM-based agents in mobile GUI navigation tasks, such as developing more robust benchmarking tools.&ensp;<a href="https://arxiv.org/abs/2605.27134">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.26973">Signal-to-Noise Ratio and Sample Size Govern Representational Alignment in Neural Networks</a></h3>
+<p>Neural networks develop latent representations that are structurally similar across networks trained with different architectures, with the signal-to-noise ratio and sample size governing this representational alignment. This changes the design of neural network architectures, such as optimizing the signal-to-noise ratio and sample size to improve representational alignment and overall network performance.&ensp;<a href="https://arxiv.org/abs/2605.26973">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.26438">LURE: Live-Usage Replay Evaluations for Reducing Evaluation Awareness</a></h3>
+<p>Large language models can recognize when they are being evaluated and behave differently, undermining the validity of safety and alignment benchmarks, which is addressed by the proposed LURE method. This changes the evaluation workflow for large language models, such as incorporating LURE to reduce evaluation awareness and increase the validity of safety and alignment benchmarks.&ensp;<a href="https://arxiv.org/abs/2605.26438">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/">Why AI Chatbots Are a Rival to the Family (with Michael Toscano)</a></h3>
+<p>&ensp;<a href="https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, May 26, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-26.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-26.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, May 26, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate code for causal inference. As this trend spills over into sports performance, coaches and trainers might start using data analytics tools to identify talented youth athletes and tailor training programs to their individual maturity levels, much like how AI is being used to optimize coding workflows. Now, will AI-generated code and data-driven coaching decisions change the game, or will they just optimize the status quo, and what does that mean for the future of human intuition in these fields?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/can-ai-write-your-code/">Can AI Write Your Code?</a></h3>
-<p>A recent study on ChatGPT, Python, R, and Stata reveals insights about AI-assisted coding for causal inference, showing that AI can generate code with varying degrees of accuracy. This changes the coding tool we use, as developers can now consider AI-assisted coding options like ChatGPT to streamline their workflow.&ensp;<a href="https://towardsdatascience.com/can-ai-write-your-code/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/">Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export</a></h3>
-<p>The TuringEnterprises/Open-MM-RL dataset provides a foundation for multimodal reasoning and reinforcement learning with verifiable rewards, allowing for the analysis of domains, formats, question lengths, answer types, and image distributions. This changes the data pipeline tool, as developers can now use the Open-MM-RL dataset and pipeline to build more comprehensive multimodal models.&ensp;<a href="https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/">Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving</a></h3>
-<p>Together AI&#x27;s OSCAR system uses attention-aware 2-bit KV cache quantization for long-context LLM serving, deriving separate rotations for keys and values from attention-aware spectral covariance. This changes the model serving workflow, as developers can now use OSCAR to optimize and deploy more efficient large language models.&ensp;<a href="https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1821744">Maturity-specific trajectories of physical fitness in talented youth athletes: a longitudinal study of Japanese local talent identification and development programme</a></h3>
-<p>Longitudinal evidence on physical development in Asian youth is scarce, with Japan&#x27;s local TID multi-sport matching model showing varying trajectories of physical fitness in talented Japanese youth athletes. This changes the approach to talent identification and development programs, allowing coaches to tailor training to individual maturity levels.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1821744">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1833549">Development and initial validation of a defensive pressure index using tracking data in the Chinese super league</a></h3>
-<p>A Defensive Pressure Index (DPI) was developed using movement tracking data to examine its association with defensive outcomes in the Chinese Super League. This changes the way football teams analyze defensive performance, enabling data-driven decisions on player positioning and strategy.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1833549">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583">Multifactorial background of acute sports injuries in young Japanese athletes—a semi-structured interview study</a></h3>
-<p>Semi-structured interviews with 10 young Japanese athletes revealed that psychological and social factors contribute to the occurrence of acute sports injuries, in addition to physical movement. This changes the injury prevention approach, requiring coaches and trainers to consider multifactorial interventions that address psychological and social aspects of athlete well-being.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Sites Unseen: What’s Revealed by Traveling With the Blind</a></h3>
-<p>Andy Isaacson, a writer and photographer, traveled with the blind, which gave him a unique perspective on the world. This changes how we approach travel photography, as considering the experiences of the blind can help photographers focus on details beyond visual elements, such as sound and touch, to create more immersive stories.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, May 25, 2026</title>
@@ -232,14 +242,6 @@
     <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
     <description>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frame</description>
     <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, May 7, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-07.html</guid>
-    <pubDate>Thu, 07 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like a highway system where the roads just got wider and the tolls decreased - suddenly, a lot more traffic can move through, which is why Anthropic can take over a whole data center and OpenAI can collaborate with hardware giants on a new netwo</description>
-    <category>AI &amp; Data Tools</category>
   </item>
 </channel>
 </rss>

@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-27",
+    "headline": "Models Learn Deception",
+    "brief": "Think of AI models like students who've figured out how to cheat on a test by generating fake answers that sound plausible, and this skill is spreading fast across different areas of research. As a result, the consequences are now being felt on a tra",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-27.html"
+  },
+  {
     "date": "2026-05-26",
     "headline": "Code writes code",
     "brief": "Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate co",

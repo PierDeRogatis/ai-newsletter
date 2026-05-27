@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/22/microsoft-releases-fara1-5-a-family-of-browser-computer-use-agents-4b-9b-27b-that-outperform-openai-operator-and-gemini-2-5-computer-use-on-online-mind2web/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/22/a-step-by-step-coding-tutorial-to-implement-gbrain-the-self-wiring-memory-layer-built-by-y-combinators-garry-tan-for-ai-agents/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-22/are-fintech-apps-already-dead-video",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/22/kalshi-polymarket-comer-insider-trading-probe-congress.html",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://alphaarchitect.com/factor-strategies/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a71292623/memorial-day-running-gear-deals-2026/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7301485/2026/05/22/teddy-bridgewater-act-florida-high-school/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/",
-    "date": "2026-05-23"
-  },
-  {
-    "url": "https://share.transistor.fm/s/451da102",
-    "date": "2026-05-23"
-  },
-  {
     "url": "https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/",
     "date": "2026-05-24"
   },
@@ -130,5 +90,33 @@
   {
     "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583",
     "date": "2026-05-26"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.27134",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.26973",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.26438",
+    "date": "2026-05-27"
+  },
+  {
+    "url": "https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/",
+    "date": "2026-05-27"
   }
 ]
