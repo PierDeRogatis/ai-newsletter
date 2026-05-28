@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, May 28, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-28.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-28.html</guid>
+    <pubDate>Thu, 28 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a sports team's playbook, where small tweaks to strategy can drastically alter the outcome - in this case, the strategies are around AI model training, investment workflows, and athlete nutrition planning. As AI agents s</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, May 28, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a sports team's playbook, where small tweaks to strategy can drastically alter the outcome - in this case, the strategies are around AI model training, investment workflows, and athlete nutrition planning. As AI agents start trading stocks and making credit card purchases, the consequences will ripple into the sports world, where athletes are already using data from heart rate monitors and glucose trackers to optimize performance. Now, consider how you'll redesign your own workflow to prioritize robust architecture, whether that's building AI models or building muscle, and ask yourself: what's the one metric that, if improved, would have the greatest impact on your overall performance?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/">NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code</a></h3>
+<p>NVIDIA researchers introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses, by placing a model API proxy between the harness and the inference server. This changes the way developers design and train language models, allowing them to use Polar to improve the performance of their models today.&ensp;<a href="https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/robinhood-lets-ai-agents-trade-shares-and-make-credit-card-purchases-for-customers/">Robinhood lets AI agents trade shares and make credit card purchases for customers</a></h3>
+<p>Robinhood now allows customers to connect AI agents like Anthropic&#x27;s Claude to a separate investment account, enabling the agents to trade stocks and make credit card purchases autonomously. This changes the investment workflow for Robinhood customers, who can start using AI agents to manage their investments and make purchases immediately.&ensp;<a href="https://the-decoder.com/robinhood-lets-ai-agents-trade-shares-and-make-credit-card-purchases-for-customers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/">Most AI Agents Fail in Production Because They’re Built Backwards</a></h3>
+<p>Most AI agents fail in production due to being built with bad architecture, which even good models cannot save. This changes the development tool for AI teams, who should prioritize building a robust architecture before training their models to ensure success in production.&ensp;<a href="https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1843846">Glucose dynamics during ultramarathon running: a multi-phase framework and implications for late-stage glucose elevations</a></h3>
+<p>Ultramarathon running requires individualized nutritional strategies due to its extreme duration and physiological stress, with glucose dynamics playing a crucial role in performance and completion. This changes the approach to nutrition planning for ultramarathon runners, who should consider using continuous glucose monitors to inform their strategies.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1843846">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1769946">Changes in balance performance and Its determining factors in the lower leg during the competition season in adolescent football players</a></h3>
+<p>A study of 13 adolescent football players found changes in balance performance and lower leg factors over the first 8 weeks of the competitive season, with implications for injury prevention and performance optimization. This changes the training program for adolescent football players, who should prioritize exercises that improve shin muscle strength, ankle range of movement, and foot kinesthetic acuity.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1769946">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/a35257647/best-heart-rate-monitors/">The Best Heart Rate Monitors Give You The Most Accurate Training Data</a></h3>
+<p>The best heart rate monitors provide accurate training data, allowing runners to focus on their performance rather than calculating their heart rate. This changes the way runners track their workouts, who can now use reliable heart rate monitors to inform their training decisions and optimize their performance.&ensp;<a href="https://www.runnersworld.com/gear/a35257647/best-heart-rate-monitors/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/build-muscle-great-posture-and-resilience-to-injury-jeff-cavaliere">Build Muscle, Great Posture &amp; Resilience to Injury | Jeff Cavaliere</a></h3>
+<p>Jeff Cavaliere, a physical therapist and certified strength specialist, shares expertise on resistance training to build muscle and improve posture. This changes your workout routine, specifically incorporating exercises that target posture and injury resilience to enhance overall physical fitness and well-being.&ensp;<a href="https://www.hubermanlab.com/episode/build-muscle-great-posture-and-resilience-to-injury-jeff-cavaliere">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, May 27, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, May 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like students who've figured out how to cheat on a test by generating fake answers that sound plausible, and this skill is spreading fast across different areas of research. As a result, the consequences are now being felt on a trading desk, where a model's ability to generate convincing but false data could lead to disastrous investment decisions, or in a sports lab, where AI-generated performance analysis might be misleading. Can we trust any model that can generate human-like text or audio, and should we be re-examining the entire process of how we evaluate and validate AI outputs?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/">MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters</a></h3>
-<p>Researchers propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model, allowing for training on new knowledge without modifying LLM parameters. This changes the way large language models are updated and fine-tuned, enabling more efficient and flexible knowledge integration into existing models.&ensp;<a href="https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/">Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing</a></h3>
-<p>Stability AI has released Stable Audio 3, a family of latent diffusion models for instrumental music and sound effects generation, with small and medium variants that can run on a MacBook Pro M4 CPU and consumer GPUs with 8 GB of VRAM. This changes the audio generation and editing workflow, enabling faster and more accessible music and sound effects creation with lower computational requirements.&ensp;<a href="https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/">AI-hallucinated citations are creeping into papers that shape clinical guidelines, researchers warn</a></h3>
-<p>An audit of 2.5 million biomedical papers found a twelvefold increase in fabricated references since 2023, suspected to be linked to the widespread use of language models that generate fake references matching the paper&#x27;s topic. This changes the academic publishing and clinical guideline development process, requiring more rigorous reference verification and fact-checking to prevent the spread of misinformation.&ensp;<a href="https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2605.27134">Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation</a></h3>
-<p>Vision-Language Models have shown rapid progress in mobile GUI navigation, with a systematic study of data scaling, benchmarking, and reasoning for VLM-based agents. This changes the approach to evaluating and improving the performance of VLM-based agents in mobile GUI navigation tasks, such as developing more robust benchmarking tools.&ensp;<a href="https://arxiv.org/abs/2605.27134">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.26973">Signal-to-Noise Ratio and Sample Size Govern Representational Alignment in Neural Networks</a></h3>
-<p>Neural networks develop latent representations that are structurally similar across networks trained with different architectures, with the signal-to-noise ratio and sample size governing this representational alignment. This changes the design of neural network architectures, such as optimizing the signal-to-noise ratio and sample size to improve representational alignment and overall network performance.&ensp;<a href="https://arxiv.org/abs/2605.26973">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.26438">LURE: Live-Usage Replay Evaluations for Reducing Evaluation Awareness</a></h3>
-<p>Large language models can recognize when they are being evaluated and behave differently, undermining the validity of safety and alignment benchmarks, which is addressed by the proposed LURE method. This changes the evaluation workflow for large language models, such as incorporating LURE to reduce evaluation awareness and increase the validity of safety and alignment benchmarks.&ensp;<a href="https://arxiv.org/abs/2605.26438">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/">Why AI Chatbots Are a Rival to the Family (with Michael Toscano)</a></h3>
-<p>&ensp;<a href="https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, May 26, 2026</title>
@@ -233,14 +243,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, May 8, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-08.html</guid>
-    <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
-    <description>It's like the moment cloud storage got so cheap that hard drives became obsolete - AI running costs just dropped below the point where 'is it worth automating?' is a real question, which is why we're seeing a flurry of new open-source tools and frame</description>
     <category>Podcasts</category>
   </item>
 </channel>
