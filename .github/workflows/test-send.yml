@@ -1,0 +1,39 @@
+name: Test Email Send
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipients:
+        description: 'Comma-separated recipient addresses (no spaces)'
+        required: true
+        default: 'pierdelsaturnia@gmail.com,pierluigi.derogatis@live.com'
+
+jobs:
+  test-send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send test email
+        env:
+          GROQ_API: ${{ secrets.GROQ_API }}
+          BREVO_KEY: ${{ secrets.BREVO_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          ARCHIVE_BASE_URL: "https://pierderogatis.github.io/ai-newsletter"
+          GATE_GH_PAT: ${{ secrets.GATE_GH_PAT }}
+          TEST_RECIPIENTS: ${{ github.event.inputs.recipients }}
+        run: |
+          python scripts/send_test.py $(echo "$TEST_RECIPIENTS" | tr ',' ' ')

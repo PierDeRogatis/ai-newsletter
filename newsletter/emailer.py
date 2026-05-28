@@ -168,11 +168,11 @@ def _fetch_brevo_contacts(api_key: str, list_id: int) -> list[str]:
 
 
 def _brevo_send(
-    api_key: str, sender_email: str, recipients: list[str], subject: str, html: str
+    api_key: str, sender_email: str, recipient: str, subject: str, html: str
 ) -> None:
     payload = json.dumps({
         "sender":      {"name": "Gradient Descent", "email": sender_email},
-        "to":          [{"email": e} for e in recipients],
+        "to":          [{"email": recipient}],
         "subject":     subject,
         "htmlContent": html,
     }).encode()
@@ -183,7 +183,7 @@ def _brevo_send(
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
-        logger.info("Brevo send OK (HTTP %d) to %d recipients", resp.status, len(recipients))
+        logger.info("Brevo send OK (HTTP %d) to %s", resp.status, recipient)
 
 
 def _section_html(topic: str, articles: list[dict]) -> str:
@@ -466,7 +466,7 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
                 <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
                   Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
                   You&rsquo;re receiving this because you subscribed to Gradient Descent.<br>
-                  <a href="{{{{unsubscribe}}}}" style="color:#3A5070;font-size:11px;text-decoration:none;">Unsubscribe</a>
+                  <a href="mailto:{SENDER_EMAIL}?subject=unsubscribe" style="color:#3A5070;font-size:11px;text-decoration:none;">Unsubscribe</a>
                 </td>
               </tr>
             </table>
@@ -504,7 +504,9 @@ def send(result: dict) -> None:
         logger.warning("Brevo list %d has no contacts — skipping send", BREVO_LIST_ID)
         return
 
-    _brevo_send(api_key, SENDER_EMAIL, recipients, subject, html)
+    logger.info("Sending to %d recipients", len(recipients))
+    for recipient in recipients:
+        _brevo_send(api_key, SENDER_EMAIL, recipient, subject, html)
 
 
 def send_welcome_email(api_key: str, sender_email: str, recipient: str) -> None:
@@ -544,5 +546,5 @@ def send_welcome_email(api_key: str, sender_email: str, recipient: str) -> None:
 </td></tr>
 </table>
 </body></html>"""
-    _brevo_send(api_key, sender_email, [recipient], subject, html)
+    _brevo_send(api_key, sender_email, recipient, subject, html)
     logger.info("Welcome email sent to %s", recipient)

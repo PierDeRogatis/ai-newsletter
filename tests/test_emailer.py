@@ -148,7 +148,7 @@ def test_build_html_has_issue_nav(sample_result):
 # ── send() — Brevo API ────────────────────────────────────────────────────────
 
 def _make_urlopen_mock(contacts: list[str], send_status: int = 201):
-    """Return a side_effect list for two urlopen calls: contacts GET then send POST."""
+    """Return a side_effect list: contacts GET then one send POST per contact."""
     contacts_resp = MagicMock()
     contacts_resp.read.return_value = json.dumps(
         {"contacts": [{"email": e} for e in contacts], "count": len(contacts)}
@@ -157,19 +157,33 @@ def _make_urlopen_mock(contacts: list[str], send_status: int = 201):
     contacts_resp.__enter__ = lambda s: s
     contacts_resp.__exit__ = MagicMock(return_value=False)
 
-    send_resp = MagicMock()
-    send_resp.status = send_status
-    send_resp.__enter__ = lambda s: s
-    send_resp.__exit__ = MagicMock(return_value=False)
+    send_resps = []
+    for _ in contacts:
+        send_resp = MagicMock()
+        send_resp.status = send_status
+        send_resp.__enter__ = lambda s: s
+        send_resp.__exit__ = MagicMock(return_value=False)
+        send_resps.append(send_resp)
 
-    return [contacts_resp, send_resp]
+    return [contacts_resp, *send_resps]
 
 
 def test_send_fetches_contacts_and_posts_to_brevo(sample_result):
     side_effects = _make_urlopen_mock(["a@example.com", "b@example.com"])
     with patch("urllib.request.urlopen", side_effect=side_effects) as mock_open:
         send(sample_result)
-    assert mock_open.call_count == 2  # one GET (contacts) + one POST (send)
+    assert mock_open.call_count == 3  # one GET (contacts) + one POST per recipient
+
+
+def test_send_each_recipient_gets_individual_email(sample_result):
+    contacts = ["a@example.com", "b@example.com"]
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock(contacts)) as mock_open:
+        send(sample_result)
+    send_calls = mock_open.call_args_list[1:]  # skip the contacts GET
+    for i, (call_args, expected_email) in enumerate(zip(send_calls, contacts)):
+        body = json.loads(call_args[0][0].data.decode())
+        assert body["to"] == [{"email": expected_email}], f"call {i}: unexpected 'to' field"
+        assert len(body["to"]) == 1, f"call {i}: more than one recipient in 'to'"
 
 
 def test_send_skips_when_no_contacts(sample_result):
@@ -228,7 +242,8 @@ def test_build_html_sanitises_javascript_url(sample_result):
 
 def test_build_html_has_unsubscribe_link(sample_result):
     html = build_html(sample_result)
-    assert "{{unsubscribe}}" in html
+    assert "unsubscribe" in html.lower()
+    assert "{{unsubscribe}}" not in html
 
 
 def test_build_html_has_share_cta(sample_result):
