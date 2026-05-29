@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-29",
+    "headline": "AI Upgrades Everywhere",
+    "brief": "Think of today's AI advancements like a series of better tools in a workshop, each one making the others more useful: a sharper saw helps you build a better workbench, which in turn helps you craft an even sharper saw. As these improved AI tools spre",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-05-29.html"
+  },
+  {
     "date": "2026-05-28",
     "headline": "Feedback loops drive change",
     "brief": "Think of today's stories like a sports team's playbook, where small tweaks to strategy can drastically alter the outcome - in this case, the strategies are around AI model training, investment workflows, and athlete nutrition planning. As AI agents s",

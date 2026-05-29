@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/24/microsoft-research-releases-webwright-a-terminal-native-web-agent-framework-that-scores-60-1-on-odysseys-up-from-base-gpt-5-4s-33-5/",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-25/china-s-cross-border-trading-crackdown-video",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says",
-    "date": "2026-05-25"
-  },
-  {
-    "url": "https://www.nytimes.com/the-daily",
-    "date": "2026-05-25"
-  },
-  {
     "url": "https://towardsdatascience.com/can-ai-write-your-code/",
     "date": "2026-05-26"
   },
@@ -106,5 +78,33 @@
   {
     "url": "https://www.hubermanlab.com/episode/build-muscle-great-posture-and-resilience-to-injury-jeff-cavaliere",
     "date": "2026-05-28"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-ships-claude-opus-4-8-as-a-modest-but-tangible-improvement-that-tops-gpt-5-5-in-most-benchmarks/",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/29/hexo-labs-open-sources-sia-a-self-improving-agent-that-updates-both-the-harness-and-the-model-weights/",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-05-29/job-market-jitters-as-ai-demand-grows-markets-snapshot-video",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-05-29/jupiter-fund-taps-europe-s-ai-energy-boom-to-beat-92-of-peers",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://feeds.feedblitz.com/~/957435731/0/marginalrevolution~AI-in-gdp.html",
+    "date": "2026-05-29"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/essentials-the-science-and-process-of-healing-from-grief",
+    "date": "2026-05-29"
   }
 ]
