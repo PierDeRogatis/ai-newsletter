@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/can-ai-write-your-code/",
-    "date": "2026-05-26"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/",
-    "date": "2026-05-26"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/",
-    "date": "2026-05-26"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1821744",
-    "date": "2026-05-26"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1833549",
-    "date": "2026-05-26"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1813583",
-    "date": "2026-05-26"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/",
     "date": "2026-05-27"
   },
@@ -106,5 +82,53 @@
   {
     "url": "https://www.hubermanlab.com/episode/essentials-the-science-and-process-of-healing-from-grief",
     "date": "2026-05-29"
+  },
+  {
+    "url": "https://the-decoder.com/new-review-paper-argues-code-is-how-ai-agents-think-and-act-not-just-what-they-produce/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://the-decoder.com/one-company-reportedly-spent-500-million-on-claude-in-one-month-after-failing-to-cap-ai-usage/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-on-ai-risks-private-credit-and-crypto-video",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.runnersworld.com/gear/a71376536/trail-runner-toni-mccann-is-seeing-more-clearly/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a37134531/how-to-fix-your-running-gait/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7319004/2026/05/29/jalen-williams-injury-status-thunder-spurs/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/",
+    "date": "2026-05-30"
+  },
+  {
+    "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+    "date": "2026-05-30"
   }
 ]
