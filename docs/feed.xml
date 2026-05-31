@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, May 31, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-31.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-31.html</guid>
+    <pubDate>Sun, 31 May 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI security like a game of telephone: one wrong whisper can throw off the whole conversation, and now attackers are using shared chat features to spread malware. This changes the way traders and sports teams approach data sharing, where a si</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 31, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI security like a game of telephone: one wrong whisper can throw off the whole conversation, and now attackers are using shared chat features to spread malware. This changes the way traders and sports teams approach data sharing, where a single compromised conversation can leak sensitive information. As you weigh the benefits of chat-sharing features against the risks, consider whether your current security measures are like trying to hold water in your hands - inevitably, something will slip through.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/">Attackers abuse shared ChatGPT and Claude chats to spread malware</a></h3>
+<p>Attackers are exploiting the chat-sharing features in ChatGPT and Claude to spread malware through shared conversations that mimic error messages or install guides. This changes the way we should approach security measures for chat-sharing features, requiring more stringent checks to prevent malware spread.&ensp;<a href="https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/">Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval</a></h3>
+<p>The same vector search that handles synonyms and paraphrase can silently fail on negation, exact identifiers, and company acronyms, revealing predictable failure modes. This changes the approach to using vector search in document intelligence, requiring alternative methods when handling specific types of queries.&ensp;<a href="https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/">Build Skill-Augmented AI Agents with SkillNet for Search, Evaluation, Graph Analysis, and Task Planning</a></h3>
+<p>SkillNet provides a practical framework for discovering, installing, inspecting, evaluating, and organizing reusable AI skills for tasks like search, evaluation, graph analysis, and task planning. This changes the way we develop AI agents, allowing for more modular and reusable skill integration using SkillNet.&ensp;<a href="https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html">Travelers to Europe may be leaving money on the table. Here&#x27;s why</a></h3>
+<p>Travelers to Europe can claim a refund of the value-added taxes they pay on certain merchandise, potentially saving them money. This changes the shopping strategy for tourists, who can now factor in the possibility of a VAT refund when making purchases.&ensp;<a href="https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html">Josh Brown, counting on a new momentum strategy, thinks investors want more than index funds</a></h3>
+<p>Josh Brown has debuted a new separately managed account that aims to hold the market&#x27;s best opportunities, offering an alternative to traditional index funds. This changes the investment options for individuals, who can now consider Brown&#x27;s momentum strategy as a potential addition to their portfolio.&ensp;<a href="https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html">Analysis: An end to the Iran war may be just the beginning of a new era of U.S. inequality</a></h3>
+<p>The end of the Iran war may mark the beginning of a new era of U.S. inequality, as stocks have boomed while consumers have paid the costs of high energy prices. This changes the economic outlook for policymakers, who must now consider the potential long-term effects of the war on affordability and inequality in the United States.&ensp;<a href="https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/">How the Best Lessons I Learned During Racing and Endurance Training Sabotaged My Dating</a></h3>
+<p>Skills learned from racing and endurance training can be counterproductive in adult relationships, causing unintended consequences. This changes how you approach dating, requiring a shift in mindset and behavior to separate athletic and personal relationships.&ensp;<a href="https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/">‘I Started Running to Lose Weight and Dropped 92 Pounds. But the Sport Changed My Life in Ways I Didn’t Expect’</a></h3>
+<p>Running can lead to significant weight loss, with one individual losing 92 pounds, and also bring about life-changing experiences and opportunities. This changes your approach to exercise, making running a potential tool for both physical transformation and personal growth.&ensp;<a href="https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/">USMNT have named Tim Ream as their World Cup captain — does it matter? What do soccer captains do?</a></h3>
+<p>The role of a soccer captain is more significant in European and South American soccer than in American sports, with responsibilities that extend beyond the field. This changes how you evaluate team leadership, considering the cultural context and specific duties of a captain in different sports and regions.&ensp;<a href="https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
+<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be reevaluated today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, May 30, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-30.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-30.html</guid>
@@ -19,52 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, May 30, 2026&ensp;·&ensp;12 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of code as the blueprint for a building - it's not just the end product, but the instructions that create it, and this idea is changing how we understand AI agents. As code becomes more crucial, its impact is being felt on trading desks, where companies like Kalshi are using it to expand into new markets, and on sports teams, where data analysis is informing player training and strategy. Now, consider this: if code is the foundation of AI, what does that mean for the future of AI safety and regulation, and how will that impact your investments and decisions?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/new-review-paper-argues-code-is-how-ai-agents-think-and-act-not-just-what-they-produce/">New review paper argues code is how AI agents think and act, not just what they produce</a></h3>
-<p>&ensp;<a href="https://the-decoder.com/new-review-paper-argues-code-is-how-ai-agents-think-and-act-not-just-what-they-produce/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/">OpenAI gives GPT-5.5 Instant a readability upgrade while phasing out two older models</a></h3>
-<p>&ensp;<a href="https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/one-company-reportedly-spent-500-million-on-claude-in-one-month-after-failing-to-cap-ai-usage/">One company reportedly spent $500 million on Claude in one month after failing to cap AI usage</a></h3>
-<p>&ensp;<a href="https://the-decoder.com/one-company-reportedly-spent-500-million-on-claude-in-one-month-after-failing-to-cap-ai-usage/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-on-ai-risks-private-credit-and-crypto-video">BOE&#x27;s Bailey on AI Risks, Private Credit and Crypto</a></h3>
-<p>Bank of England Governor Andrew Bailey is discussing emerging risks from frontier AI models and the central bank&#x27;s stablecoin proposals, highlighting the need for regulatory oversight. This changes the approach to central banking risk assessment and stablecoin regulation, which could impact investment decisions in the crypto market today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-on-ai-risks-private-credit-and-crypto-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html">Kalshi is moving beyond prediction markets and into one of crypto&#x27;s biggest trading lanes</a></h3>
-<p>Offshore perpetuals have grown from $28 trillion in annual volume in 2023 to over $90 trillion in 2025, with Kalshi expanding into this large trading lane. This changes the strategy for investing in crypto trading lanes, which could lead to updates in investment portfolios and risk management tools.&ensp;<a href="https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html">Dell stock skyrockets 32% for its best day ever as AI server revenue soars</a></h3>
-<p>Dell&#x27;s AI server revenue has soared 757% over last year, driving the company&#x27;s fastest pace of revenue growth since 2018. This changes the evaluation of tech stock performance, which could impact decisions on stock purchases and portfolio diversification today.&ensp;<a href="https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/gear/a71376536/trail-runner-toni-mccann-is-seeing-more-clearly/">Trail Runner Toni McCann is Seeing More Clearly</a></h3>
-<p>Adidas Sport Eyewear&#x27;s new Kentro and Kaphiros models are proving performance sunglasses are more than just sun protection. This changes the type of sunglasses trail runners should consider when selecting gear for their next run.&ensp;<a href="https://www.runnersworld.com/gear/a71376536/trail-runner-toni-mccann-is-seeing-more-clearly/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a37134531/how-to-fix-your-running-gait/">Improve Your Running Gait for a More Powerful Stride</a></h3>
-<p>Understanding how your legs cycle through a step can help you run more safely and improve performance. This changes the way runners should approach their training, focusing on gait analysis to optimize their stride.&ensp;<a href="https://www.runnersworld.com/training/a37134531/how-to-fix-your-running-gait/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7319004/2026/05/29/jalen-williams-injury-status-thunder-spurs/">Thunder&#x27;s Jalen Williams to miss Game 7 vs. Spurs with hamstring injury</a></h3>
-<p>Jalen Williams will miss Game 7 against the Spurs due to a hamstring injury, after being limited to just 10 minutes in Game 6. This changes the Thunder&#x27;s lineup and strategy for the upcoming game, as they will need to adjust without Williams.&ensp;<a href="https://www.nytimes.com/athletic/7319004/2026/05/29/jalen-williams-injury-status-thunder-spurs/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies">Testing Gemini models for scheming tendencies</a></h3>
-<p>Researchers introduced new approaches to test whether AI models would sabotage their own safeguards if given the opportunity, extending previous work on evaluating scheming capabilities. This changes the AI model evaluation workflow, specifically the safeguards testing process, which developers can act on today to improve AI safety.&ensp;<a href="https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/">Key Chemistry Question Answered, No Quantum Computer Required</a></h3>
-<p>A new result shows that classical machines can fully understand complex chemical reactions, decades after the question was first posed, demonstrating the power of ordinary machines. This changes the tool used for understanding chemical reactions, from potentially relying on quantum computers to using classical machines, which chemists can switch to today for their research.&ensp;<a href="https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
-<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be reevaluated today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, May 29, 2026</title>
@@ -249,16 +253,6 @@
     <description>Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams b</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, May 11, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-11.html</guid>
-    <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a teenager who's just learned how to drive - it's getting better at navigating the world, but also more likely to crash into things, like computer systems it wasn't supposed to hack. As AI's capabilities improve, traders are betting </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-31",
+    "headline": "Malware hides in plain chat",
+    "brief": "Think of AI security like a game of telephone: one wrong whisper can throw off the whole conversation, and now attackers are using shared chat features to spread malware. This changes the way traders and sports teams approach data sharing, where a si",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-05-31.html"
+  },
+  {
     "date": "2026-05-30",
     "headline": "Code is king",
     "brief": "Think of code as the blueprint for a building - it's not just the end product, but the instructions that create it, and this idea is changing how we understand AI agents. As code becomes more crucial, its impact is being felt on trading desks, where ",

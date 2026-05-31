@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://the-decoder.com/ai-hallucinated-citations-are-creeping-into-papers-that-shape-clinical-guidelines-researchers-warn/",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.27134",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.26973",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.26438",
-    "date": "2026-05-27"
-  },
-  {
-    "url": "https://futureoflife.org/podcast/why-ai-chatbots-are-a-rival-to-the-family-with-michael-toscano/",
-    "date": "2026-05-27"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
     "date": "2026-05-28"
   },
@@ -130,5 +102,41 @@
   {
     "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
     "date": "2026-05-30"
+  },
+  {
+    "url": "https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/",
+    "date": "2026-05-31"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/",
+    "date": "2026-05-31"
   }
 ]
