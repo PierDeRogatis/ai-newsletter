@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-01",
+    "headline": "Training data matters",
+    "brief": "Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reeval",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-01.html"
+  },
+  {
     "date": "2026-05-31",
     "headline": "Malware hides in plain chat",
     "brief": "Think of AI security like a game of telephone: one wrong whisper can throw off the whole conversation, and now attackers are using shared chat features to spread malware. This changes the way traders and sports teams approach data sharing, where a si",

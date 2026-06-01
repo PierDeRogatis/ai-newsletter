@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, June 1, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</guid>
+    <pubDate>Mon, 01 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reeval</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 1, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reevaluating their stock screening criteria and portfolio allocations based on shifting market sentiments. As you consider how AI tools are being used and misused, what's the one assumption you're making about your own data that you should revisit today?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/">Ask AI what goes with chicken and the answer depends on whether it learned from recipes or molecules</a></h3>
+<p>Researchers trained AI models on 4.14 million recipes in seven languages and the FlavorDB flavor database, resulting in different recommendations based on the training data. This changes the recipe suggestion tool, allowing developers to choose between recipe-based or molecule-based recommendations when building their own AI-powered cooking assistants.&ensp;<a href="https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">Anthropic bans AI tools during job interviews to see how candidates actually think</a></h3>
+<p>Anthropic&#x27;s job interview process involves up to five rounds of testing without the use of AI tools, with salaries reaching up to $850,000. This changes the job interview workflow, requiring candidates to rely on their own skills and thinking rather than AI assistance, and potentially altering the way companies evaluate candidate potential.&ensp;<a href="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/">Anthropic study finds men use AI coding agents more than twice as often as women in social science research</a></h3>
+<p>An Anthropic study found that researchers with typically male names use AI coding agents more than twice as often as those with typically female names, with economists leading at 39 percent. This changes the decision of when to use AI coding agents in social science research, highlighting the need to address potential gender disparities in the adoption of these tools.&ensp;<a href="https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-01/insight-with-haslinda-amin-6-1-2026-video">Nvidia CEO Says Market Got it Wrong On Software Stocks | Insight with Haslinda Amin 6/1/2026</a></h3>
+<p>Nvidia&#x27;s CEO claims the market has misjudged software stocks, potentially indicating a shift in investor sentiment. This changes the stock screening criteria investors should use to evaluate software companies today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-01/insight-with-haslinda-amin-6-1-2026-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-01/ten-cap-s-liu-on-markets-investment-strategy-video">Ten Cap&#x27;s Liu on Markets, Investment Strategy</a></h3>
+<p>Jun Bei Liu, Co-founder and Lead Portfolio Manager at Ten Cap, shares her market outlook and investment strategy, offering insights for investors. This changes the portfolio allocation decisions investors should make based on Liu&#x27;s analysis of current market trends.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-01/ten-cap-s-liu-on-markets-investment-strategy-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html">South Korea stocks hit fresh high amid mixed regional trade despite Trump&#x27;s Iran deal caution</a></h3>
+<p>South Korea&#x27;s stock market has reached a new high despite mixed regional trade and uncertainty surrounding US-Iran negotiations. This changes the country selection and regional allocation in investors&#x27; portfolios, particularly for those considering Asian markets.&ensp;<a href="https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
+<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be reevaluated today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, May 31, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-31.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-31.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, May 31, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI security like a game of telephone: one wrong whisper can throw off the whole conversation, and now attackers are using shared chat features to spread malware. This changes the way traders and sports teams approach data sharing, where a single compromised conversation can leak sensitive information. As you weigh the benefits of chat-sharing features against the risks, consider whether your current security measures are like trying to hold water in your hands - inevitably, something will slip through.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/">Attackers abuse shared ChatGPT and Claude chats to spread malware</a></h3>
-<p>Attackers are exploiting the chat-sharing features in ChatGPT and Claude to spread malware through shared conversations that mimic error messages or install guides. This changes the way we should approach security measures for chat-sharing features, requiring more stringent checks to prevent malware spread.&ensp;<a href="https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/">Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval</a></h3>
-<p>The same vector search that handles synonyms and paraphrase can silently fail on negation, exact identifiers, and company acronyms, revealing predictable failure modes. This changes the approach to using vector search in document intelligence, requiring alternative methods when handling specific types of queries.&ensp;<a href="https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/">Build Skill-Augmented AI Agents with SkillNet for Search, Evaluation, Graph Analysis, and Task Planning</a></h3>
-<p>SkillNet provides a practical framework for discovering, installing, inspecting, evaluating, and organizing reusable AI skills for tasks like search, evaluation, graph analysis, and task planning. This changes the way we develop AI agents, allowing for more modular and reusable skill integration using SkillNet.&ensp;<a href="https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html">Travelers to Europe may be leaving money on the table. Here&#x27;s why</a></h3>
-<p>Travelers to Europe can claim a refund of the value-added taxes they pay on certain merchandise, potentially saving them money. This changes the shopping strategy for tourists, who can now factor in the possibility of a VAT refund when making purchases.&ensp;<a href="https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html">Josh Brown, counting on a new momentum strategy, thinks investors want more than index funds</a></h3>
-<p>Josh Brown has debuted a new separately managed account that aims to hold the market&#x27;s best opportunities, offering an alternative to traditional index funds. This changes the investment options for individuals, who can now consider Brown&#x27;s momentum strategy as a potential addition to their portfolio.&ensp;<a href="https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html">Analysis: An end to the Iran war may be just the beginning of a new era of U.S. inequality</a></h3>
-<p>The end of the Iran war may mark the beginning of a new era of U.S. inequality, as stocks have boomed while consumers have paid the costs of high energy prices. This changes the economic outlook for policymakers, who must now consider the potential long-term effects of the war on affordability and inequality in the United States.&ensp;<a href="https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/">How the Best Lessons I Learned During Racing and Endurance Training Sabotaged My Dating</a></h3>
-<p>Skills learned from racing and endurance training can be counterproductive in adult relationships, causing unintended consequences. This changes how you approach dating, requiring a shift in mindset and behavior to separate athletic and personal relationships.&ensp;<a href="https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/">‘I Started Running to Lose Weight and Dropped 92 Pounds. But the Sport Changed My Life in Ways I Didn’t Expect’</a></h3>
-<p>Running can lead to significant weight loss, with one individual losing 92 pounds, and also bring about life-changing experiences and opportunities. This changes your approach to exercise, making running a potential tool for both physical transformation and personal growth.&ensp;<a href="https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/">USMNT have named Tim Ream as their World Cup captain — does it matter? What do soccer captains do?</a></h3>
-<p>The role of a soccer captain is more significant in European and South American soccer than in American sports, with responsibilities that extend beyond the field. This changes how you evaluate team leadership, considering the cultural context and specific duties of a captain in different sports and regions.&ensp;<a href="https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
-<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be reevaluated today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, May 30, 2026</title>
@@ -243,16 +243,6 @@
     <description>Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trad</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, May 12, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-12.html</guid>
-    <pubDate>Tue, 12 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI advancements like a sports team's new playbook: it changes the game by making existing moves more efficient, as seen in the 20% speedup of large language models. This efficiency boost has a ripple effect, influencing not just data teams b</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
