@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-02",
+    "headline": "Models Replace Traditional Tools",
+    "brief": "Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligenc",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-02.html"
+  },
+  {
     "date": "2026-06-01",
     "headline": "Training data matters",
     "brief": "Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reeval",

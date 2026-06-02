@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/anthropic-ships-claude-opus-4-8-as-a-modest-but-tangible-improvement-that-tops-gpt-5-5-in-most-benchmarks/",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/29/hexo-labs-open-sources-sia-a-self-improving-agent-that-updates-both-the-harness-and-the-model-weights/",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-29/job-market-jitters-as-ai-demand-grows-markets-snapshot-video",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-05-29/jupiter-fund-taps-europe-s-ai-energy-boom-to-beat-92-of-peers",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://feeds.feedblitz.com/~/957435731/0/marginalrevolution~AI-in-gdp.html",
-    "date": "2026-05-29"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/essentials-the-science-and-process-of-healing-from-grief",
-    "date": "2026-05-29"
-  },
-  {
     "url": "https://the-decoder.com/new-review-paper-argues-code-is-how-ai-agents-think-and-act-not-just-what-they-produce/",
     "date": "2026-05-30"
   },
@@ -134,5 +106,29 @@
   {
     "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
     "date": "2026-06-01"
+  },
+  {
+    "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
+    "date": "2026-06-02"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/",
+    "date": "2026-06-02"
+  },
+  {
+    "url": "https://the-decoder.com/openai-models-now-available-on-amazon-web-services/",
+    "date": "2026-06-02"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/",
+    "date": "2026-06-02"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/",
+    "date": "2026-06-02"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/",
+    "date": "2026-06-02"
   }
 ]

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, June 2, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-02.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-02.html</guid>
+    <pubDate>Tue, 02 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligenc</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 2, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligence workflows. On the sports side, this shift towards specialized tools is mirrored in the way athletes are using data-driven approaches to optimize their performance, such as pacing strategies for long runs. As you consider adopting these new tools, ask yourself: what's the one task where a specialized approach could give you a significant edge, whether it's in document processing or marathon training?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/">RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem</a></h3>
+<p>The traditional ML toolkit, including hyperparameter sweeps and explainability frameworks, is solving the wrong problem for enterprise document intelligence. This changes the approach to document intelligence workflows, which should now focus on alternative methods instead of relying on the ML toolkit.&ensp;<a href="https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/">JetBrains Releases Mellum2: A 12B MoE Model for Fast, Specialized Tasks in Multi-Model AI Pipelines</a></h3>
+<p>JetBrains has released Mellum2, a 12B MoE model trained on 10.6 trillion tokens, under the Apache 2.0 license for use in AI workflows. This changes the AI model selection for fast and specialized tasks in multi-model AI pipelines, which can now utilize Mellum2 for improved performance.&ensp;<a href="https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-models-now-available-on-amazon-web-services/">OpenAI models now available on Amazon Web Services</a></h3>
+<p>OpenAI models, including GPT-5.5, GPT-5.4, and Codex, are now available on Amazon Web Services through Amazon Bedrock at the same prices as OpenAI&#x27;s own platform. This changes the cloud infrastructure decision for businesses using OpenAI models, which can now be integrated into existing AWS contracts and workflows.&ensp;<a href="https://the-decoder.com/openai-models-now-available-on-amazon-web-services/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/">Why Your Long Runs Leave You Wiped—and How to Bounce Back Better</a></h3>
+<p>Running long runs too fast can slow your progress in marathon training, 80% of runners report feeling wiped after these runs. This changes your pacing strategy during long runs, so you can adjust your speed today to avoid burnout and improve your overall performance.&ensp;<a href="https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/">For years, Canadian soccer fandom was confined to message boards - not anymore</a></h3>
+<p>The Athletic is speaking to fans of all 48 competing nations in the World Cup to capture their unique football culture, with Canada being one of them. This changes how you engage with Canadian soccer fans, so you can join online forums and social media groups today to connect with them and learn more about their culture.&ensp;<a href="https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/">Remembering Capello Index, the &#x27;car crash&#x27; that foretold football&#x27;s future</a></h3>
+<p>The Capello Index was a trendsetting online player rater that left its namesake&#x27;s reputation in tatters, despite being a precursor to modern football analytics. This changes how you evaluate player performance, so you can use data-driven tools today to make more informed decisions about your favorite teams and players.&ensp;<a href="https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
+<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be re-examined today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, June 1, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 1, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reevaluating their stock screening criteria and portfolio allocations based on shifting market sentiments. As you consider how AI tools are being used and misused, what's the one assumption you're making about your own data that you should revisit today?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/">Ask AI what goes with chicken and the answer depends on whether it learned from recipes or molecules</a></h3>
-<p>Researchers trained AI models on 4.14 million recipes in seven languages and the FlavorDB flavor database, resulting in different recommendations based on the training data. This changes the recipe suggestion tool, allowing developers to choose between recipe-based or molecule-based recommendations when building their own AI-powered cooking assistants.&ensp;<a href="https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">Anthropic bans AI tools during job interviews to see how candidates actually think</a></h3>
-<p>Anthropic&#x27;s job interview process involves up to five rounds of testing without the use of AI tools, with salaries reaching up to $850,000. This changes the job interview workflow, requiring candidates to rely on their own skills and thinking rather than AI assistance, and potentially altering the way companies evaluate candidate potential.&ensp;<a href="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/">Anthropic study finds men use AI coding agents more than twice as often as women in social science research</a></h3>
-<p>An Anthropic study found that researchers with typically male names use AI coding agents more than twice as often as those with typically female names, with economists leading at 39 percent. This changes the decision of when to use AI coding agents in social science research, highlighting the need to address potential gender disparities in the adoption of these tools.&ensp;<a href="https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-01/insight-with-haslinda-amin-6-1-2026-video">Nvidia CEO Says Market Got it Wrong On Software Stocks | Insight with Haslinda Amin 6/1/2026</a></h3>
-<p>Nvidia&#x27;s CEO claims the market has misjudged software stocks, potentially indicating a shift in investor sentiment. This changes the stock screening criteria investors should use to evaluate software companies today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-01/insight-with-haslinda-amin-6-1-2026-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-01/ten-cap-s-liu-on-markets-investment-strategy-video">Ten Cap&#x27;s Liu on Markets, Investment Strategy</a></h3>
-<p>Jun Bei Liu, Co-founder and Lead Portfolio Manager at Ten Cap, shares her market outlook and investment strategy, offering insights for investors. This changes the portfolio allocation decisions investors should make based on Liu&#x27;s analysis of current market trends.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-01/ten-cap-s-liu-on-markets-investment-strategy-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html">South Korea stocks hit fresh high amid mixed regional trade despite Trump&#x27;s Iran deal caution</a></h3>
-<p>South Korea&#x27;s stock market has reached a new high despite mixed regional trade and uncertainty surrounding US-Iran negotiations. This changes the country selection and regional allocation in investors&#x27; portfolios, particularly for those considering Asian markets.&ensp;<a href="https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
-<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be reevaluated today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, May 31, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as tok</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, May 13, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-13.html</guid>
-    <pubDate>Wed, 13 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a master chef's kitchen, where memory is the key ingredient that makes all the difference - and now, hybrid-memory autonomous agents can whip up complex tasks with ease. This has significant implications for trad</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
