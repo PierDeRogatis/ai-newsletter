@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-03",
+    "headline": "AI gets better at talking to humans",
+    "brief": "Think of AI models like high-performance sports cars - they can now be fine-tuned for specific roles, like data analysis or sales, and even help you find a job or write a resume. This means that on your trading desk, you might soon use AI to build cu",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-03.html"
+  },
+  {
     "date": "2026-06-02",
     "headline": "Models Replace Traditional Tools",
     "brief": "Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligenc",

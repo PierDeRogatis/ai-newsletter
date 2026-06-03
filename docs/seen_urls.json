@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/new-review-paper-argues-code-is-how-ai-agents-think-and-act-not-just-what-they-produce/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://the-decoder.com/one-company-reportedly-spent-500-million-on-claude-in-one-month-after-failing-to-cap-ai-usage/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-on-ai-risks-private-credit-and-crypto-video",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a71376536/trail-runner-toni-mccann-is-seeing-more-clearly/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a37134531/how-to-fix-your-running-gait/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7319004/2026/05/29/jalen-williams-injury-status-thunder-spurs/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/",
-    "date": "2026-05-30"
-  },
-  {
-    "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
-    "date": "2026-05-30"
-  },
-  {
     "url": "https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/",
     "date": "2026-05-31"
   },
@@ -130,5 +82,33 @@
   {
     "url": "https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/",
     "date": "2026-06-02"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.03144",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.03793",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.03165",
+    "date": "2026-06-03"
+  },
+  {
+    "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+    "date": "2026-06-03"
   }
 ]

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, June 3, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-03.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-03.html</guid>
+    <pubDate>Wed, 03 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars - they can now be fine-tuned for specific roles, like data analysis or sales, and even help you find a job or write a resume. This means that on your trading desk, you might soon use AI to build cu</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, June 3, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars - they can now be fine-tuned for specific roles, like data analysis or sales, and even help you find a job or write a resume. This means that on your trading desk, you might soon use AI to build custom apps without needing to code, or in your sports lab, you could use AI to analyze player performance and create personalized training plans. As AI becomes more like a career coach, you have to wonder: will it eventually be able to give better advice than a human, or will it just amplify our own biases?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/">Alibaba’s Qwen Team Launches Qwen3.7-Plus, Adding Vision, Deep Reasoning, Tool Invocation, and Autonomous Iteration on the Bailian Platform</a></h3>
+<p>Alibaba&#x27;s Qwen3.7-Plus model can understand images and video, and adds self-programming and tool invocation, making it a more advanced multimodal agent. This changes the Bailian platform&#x27;s capabilities, allowing developers to build more complex and autonomous applications today.&ensp;<a href="https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/">OpenAI expands Codex with role-specific plugins to build a general-purpose app for non-developers</a></h3>
+<p>OpenAI&#x27;s Codex now has role-specific plugins for data analysis, sales, and investment banking, and is used by 5 million people weekly, with non-developers growing three times faster than developers. This changes the Codex tool, allowing non-technical users to build custom applications tailored to their specific roles and industries.&ensp;<a href="https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/">OpenAI turns ChatGPT into a career platform with job search and CV editor</a></h3>
+<p>ChatGPT now has a job search feature with personalized listings from major job boards, and can create tailored resumes directly within the platform. This changes the ChatGPT interface, allowing users to search and apply for jobs, and create customized resumes, all within a single conversational AI platform.&ensp;<a href="https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.03144">GTBench: A Curriculum-Grounded Benchmark for Evaluating LLMs as Mathematical Research Assistants in Graph Theory</a></h3>
+<p>Researchers introduced GTBench, a benchmark for evaluating large language models as mathematical reasoning assistants in graph theory, which assesses their reliability in this domain. This changes the evaluation tool for LLMs in graph theory research, allowing developers to test and improve their models&#x27; mathematical reasoning capabilities.&ensp;<a href="https://arxiv.org/abs/2606.03144">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.03793">Exploring Adversarial Robustness and Safety Alignment in Multilingual Multi-Modal Large Language Models</a></h3>
+<p>Multimodal large language models are vulnerable to adversarial attacks due to their continuous attack surface, and prior work has focused mainly on English-centric tasks, leaving multilingual models understudied. This changes the security testing workflow for multilingual multimodal LLMs, requiring developers to consider adversarial robustness and safety alignment in their models.&ensp;<a href="https://arxiv.org/abs/2606.03793">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.03165">Fully Automated Identification of Lexical Alignment and Preference-Stage Shifts in Large Language Models</a></h3>
+<p>Researchers developed a method for fully automated identification of lexical alignment and preference-stage shifts in large language models, which can help mitigate misalignment between human and digital chat assistants. This changes the chatbot development decision to prioritize lexical alignment and preference-stage shifts identification, enabling more human-like and engaging conversations.&ensp;<a href="https://arxiv.org/abs/2606.03165">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
+<p>&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, June 2, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-02.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-02.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 2, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligence workflows. On the sports side, this shift towards specialized tools is mirrored in the way athletes are using data-driven approaches to optimize their performance, such as pacing strategies for long runs. As you consider adopting these new tools, ask yourself: what's the one task where a specialized approach could give you a significant edge, whether it's in document processing or marathon training?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/">RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem</a></h3>
-<p>The traditional ML toolkit, including hyperparameter sweeps and explainability frameworks, is solving the wrong problem for enterprise document intelligence. This changes the approach to document intelligence workflows, which should now focus on alternative methods instead of relying on the ML toolkit.&ensp;<a href="https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/">JetBrains Releases Mellum2: A 12B MoE Model for Fast, Specialized Tasks in Multi-Model AI Pipelines</a></h3>
-<p>JetBrains has released Mellum2, a 12B MoE model trained on 10.6 trillion tokens, under the Apache 2.0 license for use in AI workflows. This changes the AI model selection for fast and specialized tasks in multi-model AI pipelines, which can now utilize Mellum2 for improved performance.&ensp;<a href="https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-models-now-available-on-amazon-web-services/">OpenAI models now available on Amazon Web Services</a></h3>
-<p>OpenAI models, including GPT-5.5, GPT-5.4, and Codex, are now available on Amazon Web Services through Amazon Bedrock at the same prices as OpenAI&#x27;s own platform. This changes the cloud infrastructure decision for businesses using OpenAI models, which can now be integrated into existing AWS contracts and workflows.&ensp;<a href="https://the-decoder.com/openai-models-now-available-on-amazon-web-services/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/">Why Your Long Runs Leave You Wiped—and How to Bounce Back Better</a></h3>
-<p>Running long runs too fast can slow your progress in marathon training, 80% of runners report feeling wiped after these runs. This changes your pacing strategy during long runs, so you can adjust your speed today to avoid burnout and improve your overall performance.&ensp;<a href="https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/">For years, Canadian soccer fandom was confined to message boards - not anymore</a></h3>
-<p>The Athletic is speaking to fans of all 48 competing nations in the World Cup to capture their unique football culture, with Canada being one of them. This changes how you engage with Canadian soccer fans, so you can join online forums and social media groups today to connect with them and learn more about their culture.&ensp;<a href="https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/">Remembering Capello Index, the &#x27;car crash&#x27; that foretold football&#x27;s future</a></h3>
-<p>The Capello Index was a trendsetting online player rater that left its namesake&#x27;s reputation in tatters, despite being a precursor to modern football analytics. This changes how you evaluate player performance, so you can use data-driven tools today to make more informed decisions about your favorite teams and players.&ensp;<a href="https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a></h3>
-<p>Don Lincoln, a particle physicist at Fermilab, has spent decades working on high energy physics, tackling mysteries like antimatter and dark energy. This changes how physicists approach the Theory of Everything, a concept that could be re-examined today by researchers and scientists in the field of physics.&ensp;<a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, June 1, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of AI models like high-performance sports cars - they can only go as fast as the road they're on, and right now, that road is the inference system. As investors and traders, you're likely watching the surge in stocks like Ford and Cerebras, but</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, May 14, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-14.html</guid>
-    <pubDate>Thu, 14 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of training like a recipe: the right mix of ingredients and steps can drastically change the outcome, whether it's pre-training a language model or preparing for a marathon. As researchers and developers experiment with new methods, such as tok</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
