@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/30/europe-vat-refunds-travelers.html",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.runnersworld.com/runners-stories/a71222664/racing-endurance-training-dating-sabotage/",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.runnersworld.com/runners-stories/a71426467/lost-92-pounds-running/",
-    "date": "2026-05-31"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7312047/2026/05/31/soccer-captains-what-do-they-do-usmnt/",
-    "date": "2026-05-31"
-  },
-  {
     "url": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/",
     "date": "2026-06-01"
   },
@@ -110,5 +74,33 @@
   {
     "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
     "date": "2026-06-03"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://www.outsideonline.com/health/training-performance/female-endurance-advantage-fatigue-resistance/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7137837/2026/06/04/usa-world-cup-fans/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7324067/2026/06/04/organised-crime-football-fixing-investigation/",
+    "date": "2026-06-04"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
+    "date": "2026-06-04"
   }
 ]
