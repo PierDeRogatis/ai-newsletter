@@ -1,5 +1,8 @@
 """Tests for newsletter/main.py — Step 2b discovery trigger."""
-from unittest.mock import patch
+import os
+from unittest.mock import MagicMock, patch
+
+import pytest
 
 import newsletter.main as main_mod
 
@@ -75,3 +78,44 @@ def test_main_refetches_after_discovery_finds_new_feeds(monkeypatch):
 
     main_mod.main()
     assert len(call_count) == 2
+
+
+# ── _validate_env ─────────────────────────────────────────────────────────────
+
+def test_validate_env_does_not_require_recipient_email(monkeypatch):
+    monkeypatch.delenv("RECIPIENT_EMAIL", raising=False)
+    main_mod._validate_env()  # must not raise
+
+
+def test_validate_env_requires_groq_api(monkeypatch):
+    monkeypatch.delenv("GROQ_API", raising=False)
+    with pytest.raises(SystemExit):
+        main_mod._validate_env()
+
+
+def test_validate_env_requires_brevo_key(monkeypatch):
+    monkeypatch.delenv("BREVO_KEY", raising=False)
+    with pytest.raises(SystemExit):
+        main_mod._validate_env()
+
+
+def test_validate_env_requires_sender_email(monkeypatch):
+    monkeypatch.delenv("SENDER_EMAIL", raising=False)
+    with pytest.raises(SystemExit):
+        main_mod._validate_env()
+
+
+# ── _send_failure_alert ───────────────────────────────────────────────────────
+
+def test_failure_alert_skips_when_recipient_email_missing(monkeypatch):
+    monkeypatch.setattr("newsletter.main.RECIPIENT_EMAIL", "")
+    with patch("smtplib.SMTP") as mock_smtp:
+        main_mod._send_failure_alert("2026-06-04", "some traceback")
+    mock_smtp.assert_not_called()
+
+
+def test_failure_alert_skips_when_smtp_password_missing(monkeypatch):
+    monkeypatch.delenv("SMTP_PASSWORD", raising=False)
+    with patch("smtplib.SMTP") as mock_smtp:
+        main_mod._send_failure_alert("2026-06-04", "some traceback")
+    mock_smtp.assert_not_called()
