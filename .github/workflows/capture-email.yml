@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Add to Brevo list 3
+      - name: Add to Brevo list
         run: |
           python3 - <<'PYEOF'
           import os, re, json, urllib.request, urllib.error
@@ -33,8 +33,9 @@ jobs:
               print(f"Skipping invalid email: {email!r}")
               exit(0)
 
+          list_id = int(os.environ.get("BREVO_LIST_ID", "3"))
           payload = json.dumps(
-              {"email": email, "listIds": [3], "updateEnabled": True}
+              {"email": email, "listIds": [list_id], "updateEnabled": True}
           ).encode()
 
           req = urllib.request.Request(
@@ -62,6 +63,7 @@ jobs:
         env:
           EMAIL: ${{ github.event.inputs.email }}
           BREVO_KEY: ${{ secrets.BREVO_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
 
       - name: Send welcome email
         run: |

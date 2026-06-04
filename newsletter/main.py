@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-_REQUIRED_ENV_VARS = ["GROQ_API", "BREVO_KEY", "SENDER_EMAIL", "RECIPIENT_EMAIL"]
+_REQUIRED_ENV_VARS = ["GROQ_API", "BREVO_KEY", "SENDER_EMAIL"]
 
 
 def _validate_env() -> None:
@@ -37,7 +37,7 @@ def _send_failure_alert(
     """Best-effort failure email so a broken run doesn't go unnoticed."""
     password = os.environ.get("SMTP_PASSWORD", "")
     sender   = SENDER_EMAIL
-    if not password or not sender:
+    if not password or not sender or not RECIPIENT_EMAIL:
         logger.warning("Cannot send failure alert — SMTP credentials missing")
         return
     try:
