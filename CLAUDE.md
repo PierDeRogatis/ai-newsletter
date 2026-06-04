@@ -18,7 +18,7 @@ ai-newsletter/
 │   ├── config.py         # All constants: emails, feed URLs, keywords, rotation schedule
 │   ├── fetcher.py        # RSS ingestion, scoring, deduplication
 │   ├── summarizer.py     # Groq API call, JSON parsing, recovery logic
-│   ├── emailer.py        # HTML email builder + Gmail SMTP sender
+│   ├── emailer.py        # HTML email builder + Brevo Campaign API sender
 │   ├── publisher.py      # Archive writer, RSS feed, Telegram, Substack draft
 │   └── main.py           # Orchestrator — runs steps 1-7 in sequence
 ├── docs/                 # GitHub Pages static site (committed by GitHub Actions)
@@ -45,7 +45,7 @@ main()
   1. publisher.load_seen_urls()          → set of URLs from last 3 days
   2. fetcher.fetch_all(cross_day_seen)   → dict[topic → list[Article]]
   3. summarizer.summarize(articles)      → {headline, daily_brief, sections}
-  4. emailer.send(result)                → Gmail SMTP
+  4. emailer.send(result)                → Brevo Campaign API
   5. publisher.save_to_archive(result)   → docs/issues/YYYY-MM-DD.html + manifest + feed.xml
   6. publisher.update_seen_urls(result)  → docs/seen_urls.json
   7. publisher.post_to_telegram(result)  → Telegram Bot API
@@ -104,7 +104,7 @@ All secrets live in GitHub Actions secrets and are injected via the workflow. Fo
 
 ### `emailer.py`
 - `build_html(result)` — renders the full email HTML (table-based, inline CSS for email client compat).
-- `send(result)` — connects to Gmail SMTP, builds and sends the email.
+- `send(result)` — creates a Brevo campaign targeting the subscriber list and sends it immediately.
 - HTML also serves as the archive page (reused by `publisher.save_to_archive`).
 - Topic colours and icons are defined here. If you add a topic, add its colour and icon here.
 

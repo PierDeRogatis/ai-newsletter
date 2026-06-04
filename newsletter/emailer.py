@@ -149,22 +149,63 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
 
 
 
-def _fetch_brevo_contacts(api_key: str, list_id: int) -> list[str]:
-    emails: list[str] = []
-    offset = 0
-    while True:
-        url = f"https://api.brevo.com/v3/contacts?listId={list_id}&limit=500&offset={offset}"
-        req = urllib.request.Request(
-            url, headers={"api-key": api_key, "Accept": "application/json"}
-        )
+def _brevo_campaign_send(
+    api_key: str, sender_email: str, list_id: int, subject: str, html: str, name: str
+) -> None:
+    create_payload = json.dumps({
+        "name":        name,
+        "subject":     subject,
+        "sender":      {"name": "Gradient Descent", "email": sender_email},
+        "htmlContent": html,
+        "recipients":  {"listIds": [list_id]},
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.brevo.com/v3/emailCampaigns",
+        data=create_payload,
+        headers={"api-key": api_key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode())
-        page = [c["email"] for c in data.get("contacts", []) if c.get("email")]
-        emails += page
-        if len(emails) >= data.get("count", 0) or not page:
-            break
-        offset += 500
-    return emails
+            campaign = json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        if e.code == 409:
+            # Campaign already exists for this name — newsletter already sent today.
+            logger.warning("Brevo campaign %r already exists — skipping (already sent today?)", name)
+            return
+        logger.error("Brevo campaign creation failed (HTTP %d): %s", e.code, body)
+        raise
+    except urllib.error.URLError as e:
+        logger.error("Brevo campaign creation network error: %s", e.reason)
+        raise
+
+    campaign_id = campaign.get("id")
+    if not campaign_id:
+        logger.error("Brevo campaign creation response missing 'id': %s", campaign)
+        raise ValueError(f"Brevo campaign creation response missing 'id': {campaign}")
+    logger.info("Brevo campaign %d created — %s", campaign_id, name)
+
+    if os.environ.get("BREVO_DRY_RUN"):
+        logger.info("BREVO_DRY_RUN set — campaign %d created but NOT sent. Delete it in Brevo dashboard.", campaign_id)
+        return
+
+    req = urllib.request.Request(
+        f"https://api.brevo.com/v3/emailCampaigns/{campaign_id}/sendNow",
+        data=b"{}",
+        headers={"api-key": api_key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            logger.info("Brevo campaign %d sent (HTTP %d)", campaign_id, resp.status)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        logger.error("Brevo sendNow failed for campaign %d (HTTP %d): %s", campaign_id, e.code, body)
+        raise
+    except urllib.error.URLError as e:
+        logger.error("Brevo sendNow network error for campaign %d: %s", campaign_id, e.reason)
+        raise
 
 
 def _brevo_send(
@@ -491,6 +532,7 @@ def send(result: dict) -> None:
         raise EnvironmentError("SENDER_EMAIL is not set")
 
     now = datetime.now(timezone.utc)
+    date_str = now.strftime("%Y-%m-%d")
     headline = result.get("headline", "").strip()
     subject = f"Gradient Descent — {now.strftime('%a %b %-d')}"
     if headline:
@@ -499,14 +541,10 @@ def send(result: dict) -> None:
     html = build_html(result)
 
     from newsletter.config import BREVO_LIST_ID
-    recipients = _fetch_brevo_contacts(api_key, BREVO_LIST_ID)
-    if not recipients:
-        logger.warning("Brevo list %d has no contacts — skipping send", BREVO_LIST_ID)
-        return
-
-    logger.info("Sending to %d recipients", len(recipients))
-    for recipient in recipients:
-        _brevo_send(api_key, SENDER_EMAIL, recipient, subject, html)
+    _brevo_campaign_send(
+        api_key, SENDER_EMAIL, BREVO_LIST_ID, subject, html,
+        name=f"Gradient Descent {date_str}",
+    )
 
 
 def send_welcome_email(api_key: str, sender_email: str, recipient: str) -> None:

@@ -1,6 +1,7 @@
 """Unit tests for newsletter/emailer.py — no network calls."""
 import json
 import os
+import urllib.error
 from unittest.mock import MagicMock, call, patch
 
 import pytest
@@ -145,52 +146,41 @@ def test_build_html_has_issue_nav(sample_result):
     assert 'id="gd-issue-nav"' in html
 
 
-# ── send() — Brevo API ────────────────────────────────────────────────────────
+# ── send() — Brevo Campaign API ──────────────────────────────────────────────
 
-def _make_urlopen_mock(contacts: list[str], send_status: int = 201):
-    """Return a side_effect list: contacts GET then one send POST per contact."""
-    contacts_resp = MagicMock()
-    contacts_resp.read.return_value = json.dumps(
-        {"contacts": [{"email": e} for e in contacts], "count": len(contacts)}
-    ).encode()
-    contacts_resp.status = 200
-    contacts_resp.__enter__ = lambda s: s
-    contacts_resp.__exit__ = MagicMock(return_value=False)
+def _make_urlopen_mock(send_status: int = 204):
+    """Return a side_effect list for two POST calls: create campaign then sendNow."""
+    create_resp = MagicMock()
+    create_resp.read.return_value = json.dumps({"id": 42}).encode()
+    create_resp.status = 201
+    create_resp.__enter__ = lambda s: s
+    create_resp.__exit__ = MagicMock(return_value=False)
 
-    send_resps = []
-    for _ in contacts:
-        send_resp = MagicMock()
-        send_resp.status = send_status
-        send_resp.__enter__ = lambda s: s
-        send_resp.__exit__ = MagicMock(return_value=False)
-        send_resps.append(send_resp)
+    send_resp = MagicMock()
+    send_resp.read.return_value = b""
+    send_resp.status = send_status
+    send_resp.__enter__ = lambda s: s
+    send_resp.__exit__ = MagicMock(return_value=False)
 
-    return [contacts_resp, *send_resps]
+    return [create_resp, send_resp]
 
 
-def test_send_fetches_contacts_and_posts_to_brevo(sample_result):
-    side_effects = _make_urlopen_mock(["a@example.com", "b@example.com"])
-    with patch("urllib.request.urlopen", side_effect=side_effects) as mock_open:
+def test_send_creates_campaign_and_triggers_send(sample_result):
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock()) as mock_open:
         send(sample_result)
-    assert mock_open.call_count == 3  # one GET (contacts) + one POST per recipient
+    assert mock_open.call_count == 2  # create campaign + sendNow
+    create_req = mock_open.call_args_list[0][0][0]
+    send_req = mock_open.call_args_list[1][0][0]
+    assert "emailCampaigns" in create_req.full_url
+    assert "sendNow" in send_req.full_url
 
 
-def test_send_each_recipient_gets_individual_email(sample_result):
-    contacts = ["a@example.com", "b@example.com"]
-    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock(contacts)) as mock_open:
+def test_send_campaign_targets_correct_list(sample_result):
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock()) as mock_open:
         send(sample_result)
-    send_calls = mock_open.call_args_list[1:]  # skip the contacts GET
-    for i, (call_args, expected_email) in enumerate(zip(send_calls, contacts)):
-        body = json.loads(call_args[0][0].data.decode())
-        assert body["to"] == [{"email": expected_email}], f"call {i}: unexpected 'to' field"
-        assert len(body["to"]) == 1, f"call {i}: more than one recipient in 'to'"
-
-
-def test_send_skips_when_no_contacts(sample_result):
-    side_effects = _make_urlopen_mock([])
-    with patch("urllib.request.urlopen", side_effect=side_effects) as mock_open:
-        send(sample_result)
-    assert mock_open.call_count == 1  # fetch only, no send
+    create_req = mock_open.call_args_list[0][0][0]
+    body = json.loads(create_req.data.decode())
+    assert body["recipients"]["listIds"] == [3]  # BREVO_LIST_ID default
 
 
 def test_send_raises_if_brevo_key_missing(sample_result):
@@ -204,25 +194,75 @@ def test_send_raises_if_brevo_key_missing(sample_result):
 
 
 def test_send_subject_contains_headline(sample_result):
-    side_effects = _make_urlopen_mock(["a@example.com"])
-    with patch("urllib.request.urlopen", side_effect=side_effects):
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock()) as mock_open:
         send(sample_result)
-    post_call = side_effects[1]  # second mock is the send response
-    # Verify via the Request object passed to urlopen
-    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock(["a@example.com"])) as mock_open:
-        send(sample_result)
-    req = mock_open.call_args_list[1][0][0]
-    body = json.loads(req.data.decode())
+    create_req = mock_open.call_args_list[0][0][0]
+    body = json.loads(create_req.data.decode())
     assert "Inference costs beat benchmark races" in body["subject"]
 
 
 def test_send_html_body_contains_article_titles(sample_result):
-    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock(["a@example.com"])) as mock_open:
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock()) as mock_open:
         send(sample_result)
-    req = mock_open.call_args_list[1][0][0]
-    body = json.loads(req.data.decode())
+    create_req = mock_open.call_args_list[0][0][0]
+    body = json.loads(create_req.data.decode())
     assert "LLMs Get Cheaper Again" in body["htmlContent"]
     assert "Quant Funds Shift to Foundation Models" in body["htmlContent"]
+
+
+def test_send_sendnow_url_contains_campaign_id(sample_result):
+    with patch("urllib.request.urlopen", side_effect=_make_urlopen_mock()) as mock_open:
+        send(sample_result)
+    send_req = mock_open.call_args_list[1][0][0]
+    assert "/42/sendNow" in send_req.full_url
+
+
+def test_send_409_skips_gracefully(sample_result):
+    err = urllib.error.HTTPError(
+        url="https://api.brevo.com/v3/emailCampaigns",
+        code=409, msg="Conflict",
+        hdrs=None, fp=None,
+    )
+    err.read = lambda: b'{"message":"Campaign already exists"}'
+    with patch("urllib.request.urlopen", side_effect=err) as mock_open:
+        send(sample_result)  # must not raise
+    assert mock_open.call_count == 1  # create attempted, sendNow never called
+
+
+def test_send_create_http_error_propagates(sample_result):
+    err = urllib.error.HTTPError(
+        url="https://api.brevo.com/v3/emailCampaigns",
+        code=400, msg="Bad Request",
+        hdrs=None, fp=None,
+    )
+    err.read = lambda: b'{"message":"Invalid payload"}'
+    with patch("urllib.request.urlopen", side_effect=err):
+        with pytest.raises(urllib.error.HTTPError):
+            send(sample_result)
+
+
+def test_send_missing_id_in_response_raises(sample_result):
+    create_resp = MagicMock()
+    create_resp.read.return_value = json.dumps({"status": "draft"}).encode()  # no 'id'
+    create_resp.status = 201
+    create_resp.__enter__ = lambda s: s
+    create_resp.__exit__ = MagicMock(return_value=False)
+    with patch("urllib.request.urlopen", side_effect=[create_resp]):
+        with pytest.raises(ValueError, match="missing 'id'"):
+            send(sample_result)
+
+
+def test_send_sendnow_http_error_propagates(sample_result):
+    err = urllib.error.HTTPError(
+        url="https://api.brevo.com/v3/emailCampaigns/42/sendNow",
+        code=500, msg="Internal Server Error",
+        hdrs=None, fp=None,
+    )
+    err.read = lambda: b'{"message":"Internal error"}'
+    create_resp = _make_urlopen_mock()[0]  # reuse the create-campaign mock
+    with patch("urllib.request.urlopen", side_effect=[create_resp, err]):
+        with pytest.raises(urllib.error.HTTPError):
+            send(sample_result)
 
 
 # ── compliance / CTA ──────────────────────────────────────────────────────────
