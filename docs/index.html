@@ -1056,6 +1056,104 @@
     }
     @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
 
+    /* ─── NAV ADDITIONS ─── */
+    .nav-about {
+      font-size: 12px; font-weight: 600; color: var(--muted);
+      text-decoration: none; white-space: nowrap; flex-shrink: 0;
+      transition: color 0.14s;
+      display: none;
+    }
+    .nav-about:hover { color: var(--text); }
+    @media (min-width: 640px) { .nav-about { display: block; } }
+    .nav-issue { text-decoration: none; color: var(--dim); transition: color 0.14s; }
+    .nav-issue:hover { color: var(--accent); }
+    .nav-search-btn {
+      font-family: inherit; font-size: 11px; font-weight: 600; color: var(--muted);
+      background: transparent; border: 1px solid var(--border2);
+      padding: 4px 10px; border-radius: 6px; cursor: pointer;
+      transition: color 0.14s, border-color 0.14s; flex-shrink: 0;
+      display: none;
+    }
+    .nav-search-btn:hover { color: var(--text); border-color: var(--dim); }
+    @media (min-width: 860px) { .nav-search-btn { display: block; } }
+
+    /* ─── HERO FORM DISCLAIMER + TRY-LINK ─── */
+    .hero-form-disclaimer {
+      font-size: 11px; color: var(--dim); margin-top: 8px; line-height: 1.5;
+    }
+    .hero-try-link {
+      font-size: 12px; color: var(--dim); margin-top: 10px;
+    }
+    .hero-try-link a {
+      color: var(--accent); text-decoration: none; font-weight: 600;
+      transition: color 0.14s;
+    }
+    .hero-try-link a:hover { color: var(--text); }
+
+    /* ─── FEATURED META LINE ─── */
+    .feat-meta {
+      font-size: 11px; color: var(--dim); letter-spacing: 0.06em;
+      text-transform: uppercase; margin-bottom: 14px;
+    }
+
+    /* ─── STICKY SUBSCRIBE BAR ─── */
+    .sticky-sub {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 150;
+      background: rgba(6,16,26,0.97);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid rgba(0,255,200,0.2);
+      padding: 12px 24px;
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+      transform: translateY(100%);
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .sticky-sub.visible { transform: translateY(0); }
+    .sticky-sub-text {
+      font-size: 12px; font-weight: 600; color: var(--muted);
+      white-space: nowrap; flex-shrink: 0;
+      display: none;
+    }
+    @media (min-width: 640px) { .sticky-sub-text { display: block; } }
+    .sticky-sub-input {
+      flex: 1; min-width: 160px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(0,255,200,0.25); border-radius: 7px;
+      padding: 8px 12px; color: var(--text); font-size: 12px;
+      font-family: inherit; outline: none;
+      transition: border-color 0.14s;
+    }
+    .sticky-sub-input:focus { border-color: rgba(0,255,200,0.6); }
+    .sticky-sub-input::placeholder { color: var(--muted); }
+    .sticky-sub-btn {
+      font-family: inherit; font-size: 12px; font-weight: 700;
+      background: var(--accent); color: #080E1C;
+      padding: 8px 18px; border: none; border-radius: 7px;
+      cursor: pointer; white-space: nowrap; flex-shrink: 0;
+      transition: background 0.14s;
+    }
+    .sticky-sub-btn:hover { background: var(--accent-d); }
+    .sticky-sub-close {
+      font-family: inherit; background: transparent; border: none;
+      color: var(--dim); font-size: 14px; cursor: pointer;
+      padding: 6px; flex-shrink: 0; transition: color 0.14s;
+    }
+    .sticky-sub-close:hover { color: var(--text); }
+
+    /* ─── SKELETON LOADING ─── */
+    .issue-row.skeleton { pointer-events: none; }
+    .sk-date {
+      height: 10px; width: 80px; border-radius: 4px;
+      background: linear-gradient(90deg, var(--surface) 25%, rgba(30,50,80,0.5) 50%, var(--surface) 75%);
+      background-size: 400px 100%; animation: shimmer 1.6s infinite;
+    }
+    .sk-body { display: flex; flex-direction: column; gap: 8px; }
+    .sk-line { height: 10px; border-radius: 4px;
+      background: linear-gradient(90deg, var(--surface) 25%, rgba(30,50,80,0.5) 50%, var(--surface) 75%);
+      background-size: 400px 100%; animation: shimmer 1.6s infinite;
+    }
+    .sk-wide { width: 70%; }
+    .sk-mid  { width: 45%; }
+
     /* ─── NEON BEAM SWEEP ─── */
     .section-beam {
       position: absolute; top: 0; left: -100%; width: 100%; height: 2px;
@@ -1124,7 +1222,9 @@
         <span class="nav-divider"></span>
         <span class="nav-tagline">Daily AI Intelligence</span>
       </a>
-      <span class="nav-issue" id="nav-issue"></span>
+      <a href="about.html" class="nav-about">About</a>
+      <button id="nav-search" class="nav-search-btn" aria-label="Search archive">Search</button>
+      <a href="#" class="nav-issue" id="nav-issue"></a>
       <a href="#" class="nav-cta" id="nav-subscribe">Subscribe free</a>
     </div>
   </nav>
@@ -1141,18 +1241,16 @@
         </div>
         <h1 class="hero-h1">Your analytical<br>edge, delivered<br>by <em>6am</em>.</h1>
         <div class="hero-rule"></div>
-        <p class="hero-sub">AI tools, finance, sports science, and research — distilled into a 3-minute brief for analysts, athletes, and researchers who need signal, not noise.</p>
+        <p class="hero-sub">Signal, not noise. One 3-minute brief at 6am — AI tools, finance, and research curated daily, zero spam, free forever.</p>
         <form id="hero-form" class="hero-form" autocomplete="off">
           <div class="hero-form-row">
             <input id="hero-email-input" type="email" required placeholder="your@email.com" class="hero-form-input" aria-label="Email address">
             <button type="submit" class="btn-main" id="hero-subscribe">Subscribe free →</button>
           </div>
-          <label class="hero-form-consent">
-            <input type="checkbox" id="hero-consent" required>
-            <span>I agree to receive Gradient Descent by email. Unsubscribe anytime.</span>
-          </label>
+          <p class="hero-form-disclaimer">No spam. Unsubscribe in one click, anytime.</p>
           <p id="hero-form-msg"></p>
         </form>
+        <p class="hero-try-link">Not sure? <a href="#" id="hero-try-issue">Read yesterday's issue →</a></p>
         <div class="hero-btns" style="margin-top:12px;">
           <a href="#" class="btn-tg" id="hero-telegram">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
@@ -1260,7 +1358,9 @@
              font-family:inherit;outline:none;box-sizing:border-box;">
     <div id="featured-issue"></div>
     <div class="issue-list" id="issue-grid">
-      <p class="placeholder">Loading archive…</p>
+      <div class="issue-row skeleton" aria-hidden="true"><div class="sk-date"></div><div class="sk-body"><div class="sk-line sk-wide"></div><div class="sk-line sk-mid"></div></div></div>
+      <div class="issue-row skeleton" aria-hidden="true"><div class="sk-date"></div><div class="sk-body"><div class="sk-line sk-wide"></div><div class="sk-line sk-mid"></div></div></div>
+      <div class="issue-row skeleton" aria-hidden="true"><div class="sk-date"></div><div class="sk-body"><div class="sk-line sk-wide"></div><div class="sk-line sk-mid"></div></div></div>
     </div>
     <div class="load-more-wrap" id="load-more-wrap">
       <button class="load-more-btn" id="load-more-btn" style="display:none">
@@ -1428,6 +1528,13 @@
     </div>
   </footer>
 
+  <div id="sticky-subscribe" class="sticky-sub" aria-hidden="true">
+    <span class="sticky-sub-text">Get the brief free, every morning.</span>
+    <input id="sticky-email" type="email" placeholder="your@email.com" class="sticky-sub-input" aria-label="Email address">
+    <button id="sticky-btn" class="sticky-sub-btn">Subscribe →</button>
+    <button id="sticky-close" class="sticky-sub-close" aria-label="Dismiss">✕</button>
+  </div>
+
   <script>
     const TELEGRAM_HREF = "https://t.me/gradient_descent_ai";
     const GH_DISPATCH   = "https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches";
@@ -1475,11 +1582,16 @@
       const dateHtml = issue.headline
         ? `<div class="feat-date">${fmtLong(issue.date)}</div>`
         : "";
+      const topicsLine = (issue.topics || []).join(' · ');
+      const metaHtml = (issue.article_count || topicsLine)
+        ? `<div class="feat-meta">${issue.article_count ? issue.article_count + ' articles' : ''}${issue.article_count && topicsLine ? ' · ' : ''}${topicsLine}</div>`
+        : "";
       return `
         <a href="${issue.path}" class="featured scroll-reveal">
           <div class="feat-tag">Latest Issue</div>
           ${headlineHtml}
           ${dateHtml}
+          ${metaHtml}
           <p class="feat-brief">${issue.brief || "Read today's intelligence briefing."}</p>
           <div class="feat-foot">
             <div class="pills">${pills(issue.topics)}</div>
@@ -1572,7 +1684,9 @@
         document.getElementById("stat-issues").textContent = manifest.length;
         document.getElementById("stat-articles").textContent = totalArticles + "+";
         document.getElementById("sec-count").textContent = manifest.length + (manifest.length === 1 ? " issue" : " issues");
-        document.getElementById("nav-issue").textContent = "Issue #" + manifest.length + " · " + fmtShort(manifest[0].date);
+        const navIssueEl = document.getElementById("nav-issue");
+        navIssueEl.textContent = "Issue #" + manifest.length + " · " + fmtShort(manifest[0].date);
+        navIssueEl.href = manifest[0].path;
 
         const latest = manifest[0];
         document.getElementById("hc-date").textContent = fmtShort(latest.date);
@@ -1583,6 +1697,8 @@
         document.getElementById("hc-pills").innerHTML = pills(latest.topics);
         document.getElementById("hc-link").href = latest.path;
         document.getElementById("hero-card").classList.add("hero-card--loaded");
+        const tryIssueEl = document.getElementById("hero-try-issue");
+        if (tryIssueEl && manifest.length > 1) tryIssueEl.href = manifest[1].path;
 
         document.getElementById("featured-issue").innerHTML = renderFeatured(latest);
 
@@ -1983,11 +2099,9 @@
     if (heroForm) {
       heroForm.addEventListener("submit", function(e) {
         e.preventDefault();
-        const email   = document.getElementById("hero-email-input").value.trim();
-        const consent = document.getElementById("hero-consent").checked;
-        const msg     = document.getElementById("hero-form-msg");
-        const btn     = document.getElementById("hero-subscribe");
-        if (!consent) { msg.textContent = "Please accept to continue."; msg.style.color = "#FF6B6B"; return; }
+        const email = document.getElementById("hero-email-input").value.trim();
+        const msg   = document.getElementById("hero-form-msg");
+        const btn   = document.getElementById("hero-subscribe");
         btn.disabled = true; btn.textContent = "Subscribing…";
         msg.textContent = ""; msg.style.color = "";
         fetch(GH_DISPATCH, {
@@ -2099,6 +2213,57 @@
     window.addEventListener("scroll", () => {
       nav.classList.toggle("scrolled", window.scrollY > 60);
     }, { passive: true });
+
+    // Sticky subscribe bar
+    (function() {
+      const bar     = document.getElementById("sticky-subscribe");
+      const footer  = document.querySelector(".site-footer");
+      const DISMISSED_KEY = "gd_sticky_dismissed";
+      if (!bar || sessionStorage.getItem(DISMISSED_KEY)) return;
+
+      function updateBar() {
+        const sy = window.scrollY;
+        const footerTop = footer ? footer.getBoundingClientRect().top + sy : Infinity;
+        const show = sy > 600 && (sy + window.innerHeight) < footerTop - 200;
+        bar.classList.toggle("visible", show);
+        bar.setAttribute("aria-hidden", String(!show));
+      }
+      window.addEventListener("scroll", updateBar, { passive: true });
+
+      document.getElementById("sticky-close")?.addEventListener("click", () => {
+        bar.classList.remove("visible");
+        bar.setAttribute("aria-hidden", "true");
+        sessionStorage.setItem(DISMISSED_KEY, "1");
+      });
+
+      document.getElementById("sticky-btn")?.addEventListener("click", () => {
+        const email = document.getElementById("sticky-email")?.value.trim();
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return;
+        const btn = document.getElementById("sticky-btn");
+        btn.disabled = true; btn.textContent = "Done ✓";
+        fetch(GH_DISPATCH, {
+          method: "POST",
+          headers: {
+            "Authorization": "Bearer " + _GH_PAT,
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28"
+          },
+          body: JSON.stringify({ ref: "main", inputs: { email } })
+        }).catch(() => {}).finally(() => {
+          sessionStorage.setItem(DISMISSED_KEY, "1");
+          setTimeout(() => { bar.classList.remove("visible"); bar.setAttribute("aria-hidden","true"); }, 1800);
+        });
+      });
+    })();
+
+    // Nav search shortcut
+    document.getElementById("nav-search")?.addEventListener("click", () => {
+      const searchEl = document.getElementById("archive-search");
+      const archiveEl = document.getElementById("archive");
+      if (archiveEl) archiveEl.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => searchEl?.focus(), 400);
+    });
   </script>
 </body>
 </html>
