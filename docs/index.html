@@ -1003,6 +1003,33 @@
       font-size: 9px; color: var(--dim);
     }
 
+    /* ─── AURORA BACKGROUND CANVAS ─── */
+    #bg-canvas {
+      position: fixed; inset: 0; z-index: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+    }
+
+    /* ─── ENHANCED DIRECTIONAL SCROLL-REVEAL ─── */
+    .scroll-reveal.from-left  { transform: translateX(-54px) translateY(8px) scale(0.97); filter: blur(1.5px); }
+    .scroll-reveal.from-right { transform: translateX(54px)  translateY(8px) scale(0.97); filter: blur(1.5px); }
+    .scroll-reveal.in { filter: none; }
+
+    /* ─── COVERAGE CARDS 3D ENTRANCE ─── */
+    .cov-cards { perspective: 1200px; }
+    .cov-card.card-hidden {
+      opacity: 0;
+      transform: rotateY(22deg) translateY(58px) rotateX(11deg) scale(0.89);
+    }
+    .cov-card.card-in {
+      opacity: 1; transform: none;
+      transition: opacity 0.58s ease, transform 0.72s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* ─── PARALLAX HERO ─── */
+    .hero-card-wrap { will-change: transform; }
+    .hero-left { will-change: transform; }
+
     /* ─── RESPONSIVE ─── */
     @media (max-width: 640px) {
       .hero { padding: 60px 20px 52px; gap: 40px; }
@@ -1020,6 +1047,7 @@
   </style>
 </head>
 <body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div id="scroll-progress"></div>
 
@@ -1614,6 +1642,148 @@
       });
     }
 
+    function initAuroraCanvas() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const canvas = document.getElementById('bg-canvas');
+      if (!canvas || !canvas.getContext) return;
+      const ctx = canvas.getContext('2d');
+
+      function resize() {
+        canvas.width  = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize, { passive: true });
+
+      function hexRgba(hex, a) {
+        const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
+        return `rgba(${r},${g},${b},${a})`;
+      }
+
+      const blobs = [
+        { x:0.15, y:0.25, color:'#00FFC8', phase:0,   spd:0.00038 },
+        { x:0.80, y:0.10, color:'#818CF8', phase:2.1, spd:0.00028 },
+        { x:0.55, y:0.75, color:'#FF3E7F', phase:4.2, spd:0.00032 },
+        { x:0.20, y:0.82, color:'#B66EFF', phase:1.6, spd:0.00025 },
+        { x:0.90, y:0.55, color:'#22FFAA', phase:3.8, spd:0.00030 },
+      ];
+
+      let mouse = { x: 0.5, y: 0.5 };
+      window.addEventListener('mousemove', e => {
+        mouse.x = e.clientX / window.innerWidth;
+        mouse.y = e.clientY / window.innerHeight;
+      }, { passive: true });
+
+      let t = 0, rafHandle;
+      function draw() {
+        const vw = canvas.width, vh = canvas.height;
+        ctx.clearRect(0, 0, vw, vh);
+        t += 0.012;
+
+        blobs[0].x += (mouse.x - blobs[0].x) * 0.003;
+        blobs[0].y += (mouse.y - blobs[0].y) * 0.003;
+
+        blobs.forEach((b, i) => {
+          const bx = i === 0 ? b.x : b.x + Math.sin(t * b.spd * 500 + b.phase) * 0.20;
+          const by = i === 0 ? b.y : b.y + Math.cos(t * b.spd * 380 + b.phase) * 0.15;
+          const cx = bx * vw, cy = by * vh;
+          const radius = 0.52 * Math.min(vw, vh);
+          const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
+          g.addColorStop(0,   hexRgba(b.color, 0.048));
+          g.addColorStop(0.5, hexRgba(b.color, 0.018));
+          g.addColorStop(1,   hexRgba(b.color, 0));
+          ctx.fillStyle = g;
+          ctx.beginPath();
+          ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+          ctx.fill();
+        });
+
+        rafHandle = setTimeout(() => requestAnimationFrame(draw), 33);
+      }
+      draw();
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) clearTimeout(rafHandle);
+        else draw();
+      });
+    }
+
+    function initParallax() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const heroCard = document.querySelector('.hero-card-wrap');
+      const heroLeft = document.querySelector('.hero-left');
+      window.addEventListener('scroll', () => {
+        const sy = window.scrollY;
+        if (sy > 900) {
+          if (heroCard) heroCard.style.transform = '';
+          if (heroLeft) heroLeft.style.transform = '';
+          return;
+        }
+        if (heroCard) heroCard.style.transform = `translateY(${(sy * -0.09).toFixed(1)}px)`;
+        if (heroLeft) heroLeft.style.transform = `translateY(${(sy * -0.05).toFixed(1)}px)`;
+      }, { passive: true });
+    }
+
+    function initCoverageCardEntrance() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const cards = document.querySelectorAll('.cov-card');
+      if (!cards.length) return;
+      cards.forEach(c => {
+        c.classList.remove('scroll-reveal');
+        c.removeAttribute('data-delay');
+        c.classList.add('card-hidden');
+      });
+      const container = document.querySelector('.cov-cards');
+      if (!container) return;
+      const io = new IntersectionObserver(entries => {
+        if (!entries[0].isIntersecting) return;
+        io.disconnect();
+        const isCoarse = window.matchMedia('(pointer: coarse)').matches;
+        cards.forEach((c, i) => setTimeout(() => {
+          c.classList.remove('card-hidden');
+          c.classList.add('card-in');
+          if (!isCoarse) {
+            c.addEventListener('mousemove', e => {
+              const rect = c.getBoundingClientRect();
+              const x = (e.clientX - rect.left) / rect.width  - 0.5;
+              const y = (e.clientY - rect.top)  / rect.height - 0.5;
+              c.style.transform = `perspective(700px) rotateY(${x*10}deg) rotateX(${-y*7}deg) translateY(-5px)`;
+            });
+            c.addEventListener('mouseleave', () => { c.style.transform = ''; });
+          }
+        }, i * 90));
+      }, { threshold: 0.12 });
+      io.observe(container);
+    }
+
+    function initScramble() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$#@&*%!';
+      function scramble(el) {
+        const origHTML = el.innerHTML;
+        const origText = el.textContent;
+        const STEPS = 18;
+        let step = 0;
+        const iv = setInterval(() => {
+          el.textContent = origText.split('').map((ch, i) => {
+            if (ch === ' ' || ch === '\n') return ch;
+            if (i < Math.floor((step / STEPS) * origText.length)) return ch;
+            return CHARS[Math.floor(Math.random() * CHARS.length)];
+          }).join('');
+          if (++step > STEPS) { el.innerHTML = origHTML; clearInterval(iv); }
+        }, 680 / STEPS);
+      }
+      ['.cov-h2', '.pipeline-head h2'].forEach(sel => {
+        const el = document.querySelector(sel);
+        if (!el) return;
+        const io = new IntersectionObserver(entries => {
+          if (!entries[0].isIntersecting) return;
+          io.disconnect();
+          scramble(el);
+        }, { threshold: 0.4 });
+        io.observe(el);
+      });
+    }
+
     function initParticleMesh() {
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
       const canvas = document.getElementById("hero-canvas");
@@ -1737,6 +1907,10 @@
       });
     }
 
+    initAuroraCanvas();
+    initParallax();
+    initCoverageCardEntrance();
+    initScramble();
     initParticleMesh();
     loadArchive();
 
