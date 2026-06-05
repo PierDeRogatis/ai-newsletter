@@ -317,7 +317,7 @@ def _build_jsonld(iso_date: str, headline: str, meta_desc: str, issue_url: str, 
 </script>"""
 
 
-def build_html(result: dict, iso_date: str | None = None) -> str:
+def build_html(result: dict, iso_date: str | None = None, *, email: bool = False) -> str:
     daily_brief: str = result.get("daily_brief", "")
     sections: dict[str, list[dict]] = result.get("sections", {})
 
@@ -517,9 +517,9 @@ def build_html(result: dict, iso_date: str | None = None) -> str:
       </table>
     </td></tr>
   </table>
-  {_build_gate_js(_GATE_GH_PAT, _GATE_GH_REPO)}
-  {_ISSUE_NAV_SNIPPET}
-  {_build_jsonld(iso_date, result.get("headline", "").replace('"', "&quot;"), meta_desc, issue_url, pub_base, list(sections.keys()))}
+  {'' if email else _build_gate_js(_GATE_GH_PAT, _GATE_GH_REPO)}
+  {'' if email else _ISSUE_NAV_SNIPPET}
+  {'' if email else _build_jsonld(iso_date, result.get("headline", "").replace('"', "&quot;"), meta_desc, issue_url, pub_base, list(sections.keys()))}
 </body>
 </html>"""
 
@@ -538,7 +538,7 @@ def send(result: dict) -> None:
     if headline:
         subject = f"{subject} · {headline}"
 
-    html = build_html(result)
+    html = build_html(result, email=True)
 
     from newsletter.config import BREVO_LIST_ID
     _brevo_campaign_send(

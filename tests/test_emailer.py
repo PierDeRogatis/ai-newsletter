@@ -146,6 +146,23 @@ def test_build_html_has_issue_nav(sample_result):
     assert 'id="gd-issue-nav"' in html
 
 
+# ── email=True mode (no JS — Brevo Campaign API rejects <script>) ─────────────
+
+def test_build_html_email_mode_has_no_script_tags(sample_result):
+    html = build_html(sample_result, email=True)
+    assert "<script" not in html
+
+def test_build_html_email_mode_still_has_content(sample_result):
+    html = build_html(sample_result, email=True)
+    assert "LLMs Get Cheaper Again" in html
+    assert "Gradient Descent" in html
+
+def test_build_html_archive_mode_has_gate_js(sample_result):
+    html = build_html(sample_result, email=False)
+    assert "gd_unlocked" in html
+    assert 'id="gd-issue-nav"' in html
+
+
 # ── send() — Brevo Campaign API ──────────────────────────────────────────────
 
 def _make_urlopen_mock(send_status: int = 204):
