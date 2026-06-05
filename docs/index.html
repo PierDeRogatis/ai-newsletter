@@ -32,6 +32,7 @@
     .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
     .skip-link:focus { position: static; width: auto; height: auto; background: var(--accent); color: #03080F; padding: 8px 16px; font-weight: 700; z-index: 9999; text-decoration: none; display: inline-block; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { overflow-x: hidden; }
 
     :root {
       --bg:       #03080F;
@@ -346,7 +347,7 @@
       -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 0 32px;
-      overflow-x: auto;
+      overflow-x: hidden;
     }
     .strip-inner {
       max-width: 1120px; margin: 0 auto;
@@ -1077,16 +1078,36 @@
     /* ─── RESPONSIVE ─── */
     @media (max-width: 640px) {
       .hero { padding: 60px 20px 52px; gap: 40px; }
-      .hero-h1 { font-size: 38px; }
+      .hero-h1 { font-size: clamp(30px, 9vw, 42px); }
+      .hero-sub { font-size: 14px; }
       .archive-section { padding: 52px 20px 64px; }
-      .featured { padding: 28px 22px; }
+      .featured { padding: 24px 18px; }
+      .feat-headline { font-size: 18px; }
+      .feat-brief { font-size: 14px; }
       .feat-date { font-size: 18px; }
       .issue-row { grid-template-columns: 1fr; gap: 6px; padding: 22px 0; }
       .issue-row::after { display: none; }
       .row-count { margin-left: 0; }
       .coverage { padding: 56px 20px; }
-      .strip { padding: 0 20px; }
+      .cov-h2 { font-size: clamp(28px, 8vw, 48px); }
+      .cov-sub { font-size: 13px; }
+      .cov-cards { perspective: none; }
+      .cov-card.card-hidden { transform: translateY(70px) scale(0.85); }
+      .strip { padding: 0 20px; overflow-x: hidden; }
+      .strip-inner { flex-wrap: wrap; }
+      .strip-item { padding: 18px 20px 18px 0; margin-right: 20px; min-width: 80px; }
+      .strip-val { font-size: clamp(22px, 6vw, 36px); }
+      .channels-bar { padding: 12px 20px; }
+      .channels-inner { gap: 6px; }
+      .marquee-track { gap: 20px; }
+      .pipeline { padding: 52px 20px; }
+      .pipeline-steps { gap: 12px; }
+      .pipeline-step { padding: 22px 18px 20px; }
+      .footer-cols { padding: 36px 20px 28px; }
       .footer-wrap { padding: 24px 20px; }
+      .scroll-reveal,
+      .scroll-reveal.from-left,
+      .scroll-reveal.from-right { transform: translateY(60px) scale(0.88); filter: blur(4px); }
     }
   </style>
 </head>
@@ -1749,6 +1770,10 @@
         mouse.y = e.clientY / window.innerHeight;
       }, { passive: true });
 
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
+      const DRAW_INTERVAL = isMobile ? 50 : 33;
+      const ACTIVE_BLOBS  = isMobile ? 3 : 5;
+
       let t = 0, rafHandle;
       function draw() {
         const vw = canvas.width, vh = canvas.height;
@@ -1758,7 +1783,7 @@
         blobs[0].x += (mouse.x - blobs[0].x) * 0.008;
         blobs[0].y += (mouse.y - blobs[0].y) * 0.008;
 
-        blobs.forEach((b, i) => {
+        blobs.slice(0, ACTIVE_BLOBS).forEach((b, i) => {
           const bx = i === 0 ? b.x : b.x + Math.sin(t * b.spd * 500 + b.phase) * 0.40;
           const by = i === 0 ? b.y : b.y + Math.cos(t * b.spd * 380 + b.phase) * 0.32;
           const cx = bx * vw, cy = by * vh;
@@ -1773,7 +1798,7 @@
           ctx.fill();
         });
 
-        rafHandle = setTimeout(() => requestAnimationFrame(draw), 33);
+        rafHandle = setTimeout(() => requestAnimationFrame(draw), DRAW_INTERVAL);
       }
       draw();
       document.addEventListener('visibilitychange', () => {
@@ -1784,6 +1809,8 @@
 
     function initParallax() {
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      if (window.matchMedia('(max-width: 768px)').matches) return;
+      if (window.matchMedia('(pointer: coarse)').matches) return;
       const heroCard = document.querySelector('.hero-card-wrap');
       const heroLeft = document.querySelector('.hero-left');
       window.addEventListener('scroll', () => {
