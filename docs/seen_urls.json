@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/",
-    "date": "2026-06-01"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/",
-    "date": "2026-06-01"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/",
-    "date": "2026-06-01"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-01/insight-with-haslinda-amin-6-1-2026-video",
-    "date": "2026-06-01"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-01/ten-cap-s-liu-on-markets-investment-strategy-video",
-    "date": "2026-06-01"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
-    "date": "2026-06-01"
-  },
-  {
     "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
     "date": "2026-06-02"
   },
@@ -102,5 +78,33 @@
   {
     "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
     "date": "2026-06-04"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-05/roundtable-finding-value-in-an-ai-world-video",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-05/amundi-says-asia-tech-rally-faces-fed-risk-but-no-bubble-yet",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/05/oil-price-iran-hedge-funds-quant-traders-trends-energy-shock.html",
+    "date": "2026-06-05"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
+    "date": "2026-06-05"
   }
 ]
