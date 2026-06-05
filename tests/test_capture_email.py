@@ -10,7 +10,8 @@ import os
 
 def _build_contact_payload(email: str) -> dict:
     """Mirrors the payload logic from capture-email.yml."""
-    list_id = int(os.environ.get("BREVO_LIST_ID", "3"))
+    _raw = os.environ.get("BREVO_LIST_ID", "").strip()
+    list_id = int(_raw) if _raw else 3
     raw = json.dumps(
         {"email": email, "listIds": [list_id], "updateEnabled": True}
     ).encode()
@@ -19,6 +20,13 @@ def _build_contact_payload(email: str) -> dict:
 
 def test_default_list_id_is_3(monkeypatch):
     monkeypatch.delenv("BREVO_LIST_ID", raising=False)
+    body = _build_contact_payload("test@example.com")
+    assert body["listIds"] == [3]
+
+
+def test_empty_string_list_id_defaults_to_3(monkeypatch):
+    """GitHub injects undefined secrets as '' — must not crash."""
+    monkeypatch.setenv("BREVO_LIST_ID", "")
     body = _build_contact_payload("test@example.com")
     assert body["listIds"] == [3]
 

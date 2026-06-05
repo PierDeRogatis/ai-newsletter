@@ -3,7 +3,8 @@ import os
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "")
 SUBSTACK_URL  = os.environ.get("SUBSTACK_URL", "")  # e.g. "https://morningaibrief.substack.com"
-BREVO_LIST_ID = int(os.environ.get("BREVO_LIST_ID", "3"))
+_raw_list_id = os.environ.get("BREVO_LIST_ID", "").strip()
+BREVO_LIST_ID = int(_raw_list_id) if _raw_list_id else 3
 
 MAX_ARTICLES_PER_TOPIC = 3
 SNIPPET_MAX_CHARS = 300
