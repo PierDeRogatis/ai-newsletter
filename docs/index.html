@@ -1011,20 +1011,64 @@
     }
 
     /* ─── ENHANCED DIRECTIONAL SCROLL-REVEAL ─── */
-    .scroll-reveal.from-left  { transform: translateX(-54px) translateY(8px) scale(0.97); filter: blur(1.5px); }
-    .scroll-reveal.from-right { transform: translateX(54px)  translateY(8px) scale(0.97); filter: blur(1.5px); }
-    .scroll-reveal.in { filter: none; }
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateY(100px) scale(0.75);
+      filter: blur(6px);
+      transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease;
+    }
+    .scroll-reveal.from-left  { transform: translateX(-90px) translateY(30px) scale(0.82) rotateY(8deg); filter: blur(4px); }
+    .scroll-reveal.from-right { transform: translateX(90px)  translateY(30px) scale(0.82) rotateY(-8deg); filter: blur(4px); }
+    .scroll-reveal.in         { opacity: 1; transform: none; filter: none; }
 
     /* ─── COVERAGE CARDS 3D ENTRANCE ─── */
     .cov-cards { perspective: 1200px; }
     .cov-card.card-hidden {
       opacity: 0;
-      transform: rotateY(22deg) translateY(58px) rotateX(11deg) scale(0.89);
+      transform: perspective(800px) rotateY(45deg) translateY(100px) rotateX(20deg) scale(0.80);
     }
     .cov-card.card-in {
       opacity: 1; transform: none;
-      transition: opacity 0.58s ease, transform 0.72s cubic-bezier(0.22, 1, 0.36, 1);
+      transition: opacity 0.45s ease, transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
+
+    /* ─── MARQUEE TICKER ─── */
+    .marquee-wrap {
+      overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+      padding: 10px 0; background: rgba(0,0,0,0.35);
+      position: relative; z-index: 1;
+    }
+    .marquee-track {
+      display: flex; gap: 32px; align-items: center;
+      width: max-content;
+      animation: marqueeScroll 22s linear infinite;
+      white-space: nowrap;
+    }
+    .marquee-track span {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.22em;
+      text-transform: uppercase; color: var(--muted);
+    }
+    .marquee-dot { color: var(--accent) !important; opacity: 0.7; }
+    @keyframes marqueeScroll {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+    /* ─── NEON BEAM SWEEP ─── */
+    .section-beam {
+      position: absolute; top: 0; left: -100%; width: 100%; height: 2px;
+      background: linear-gradient(90deg, transparent 0%, var(--accent) 40%, var(--neon-purple) 60%, transparent 100%);
+      box-shadow: 0 0 14px var(--accent), 0 0 36px rgba(0,255,200,0.5);
+      pointer-events: none; z-index: 10; opacity: 0;
+    }
+    @keyframes beamSweep {
+      0%   { left: -100%; opacity: 0; }
+      8%   { opacity: 1; }
+      92%  { opacity: 1; }
+      100% { left: 100%; opacity: 0; }
+    }
+    .section-beam.fire { animation: beamSweep 1.1s ease-in-out forwards; }
 
     /* ─── PARALLAX HERO ─── */
     .hero-card-wrap { will-change: transform; }
@@ -1155,6 +1199,23 @@
     </div>
   </div>
 
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>AI &amp; DATA TOOLS</span><span class="marquee-dot">·</span>
+      <span>FINANCE SIGNALS</span><span class="marquee-dot">·</span>
+      <span>SPORTS SCIENCE</span><span class="marquee-dot">·</span>
+      <span>RESEARCH &amp; ACADEMIA</span><span class="marquee-dot">·</span>
+      <span>PODCAST PICKS</span><span class="marquee-dot">·</span>
+      <span>GRADIENT DESCENT</span><span class="marquee-dot">·</span>
+      <span>AI &amp; DATA TOOLS</span><span class="marquee-dot">·</span>
+      <span>FINANCE SIGNALS</span><span class="marquee-dot">·</span>
+      <span>SPORTS SCIENCE</span><span class="marquee-dot">·</span>
+      <span>RESEARCH &amp; ACADEMIA</span><span class="marquee-dot">·</span>
+      <span>PODCAST PICKS</span><span class="marquee-dot">·</span>
+      <span>GRADIENT DESCENT</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+
   <div class="section-divider"></div>
 
   <section class="archive-section" id="archive">
@@ -1191,6 +1252,7 @@
   <div class="section-divider"></div>
 
   <section class="coverage">
+    <div class="section-beam" aria-hidden="true"></div>
     <div class="cov-inner">
       <div class="cov-header scroll-reveal">
         <div class="hero-kicker" style="justify-content:center;margin-bottom:20px">
@@ -1249,6 +1311,7 @@
   <div class="section-divider"></div>
 
   <section class="pipeline">
+    <div class="section-beam" aria-hidden="true"></div>
     <div class="pipeline-inner">
       <div class="pipeline-head scroll-reveal">
         <div class="hero-kicker" style="margin-bottom:16px">
@@ -1642,6 +1705,18 @@
       });
     }
 
+    function initBeamEffect() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      document.querySelectorAll('.section-beam').forEach(beam => {
+        const io = new IntersectionObserver(entries => {
+          if (!entries[0].isIntersecting) return;
+          io.disconnect();
+          beam.classList.add('fire');
+        }, { threshold: 0.08 });
+        io.observe(beam.parentElement);
+      });
+    }
+
     function initAuroraCanvas() {
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       const canvas = document.getElementById('bg-canvas');
@@ -1680,17 +1755,17 @@
         ctx.clearRect(0, 0, vw, vh);
         t += 0.012;
 
-        blobs[0].x += (mouse.x - blobs[0].x) * 0.003;
-        blobs[0].y += (mouse.y - blobs[0].y) * 0.003;
+        blobs[0].x += (mouse.x - blobs[0].x) * 0.008;
+        blobs[0].y += (mouse.y - blobs[0].y) * 0.008;
 
         blobs.forEach((b, i) => {
-          const bx = i === 0 ? b.x : b.x + Math.sin(t * b.spd * 500 + b.phase) * 0.20;
-          const by = i === 0 ? b.y : b.y + Math.cos(t * b.spd * 380 + b.phase) * 0.15;
+          const bx = i === 0 ? b.x : b.x + Math.sin(t * b.spd * 500 + b.phase) * 0.40;
+          const by = i === 0 ? b.y : b.y + Math.cos(t * b.spd * 380 + b.phase) * 0.32;
           const cx = bx * vw, cy = by * vh;
-          const radius = 0.52 * Math.min(vw, vh);
+          const radius = 0.65 * Math.min(vw, vh);
           const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
-          g.addColorStop(0,   hexRgba(b.color, 0.048));
-          g.addColorStop(0.5, hexRgba(b.color, 0.018));
+          g.addColorStop(0,   hexRgba(b.color, 0.22));
+          g.addColorStop(0.5, hexRgba(b.color, 0.09));
           g.addColorStop(1,   hexRgba(b.color, 0));
           ctx.fillStyle = g;
           ctx.beginPath();
@@ -1713,13 +1788,13 @@
       const heroLeft = document.querySelector('.hero-left');
       window.addEventListener('scroll', () => {
         const sy = window.scrollY;
-        if (sy > 900) {
+        if (sy > 700) {
           if (heroCard) heroCard.style.transform = '';
           if (heroLeft) heroLeft.style.transform = '';
           return;
         }
-        if (heroCard) heroCard.style.transform = `translateY(${(sy * -0.09).toFixed(1)}px)`;
-        if (heroLeft) heroLeft.style.transform = `translateY(${(sy * -0.05).toFixed(1)}px)`;
+        if (heroCard) heroCard.style.transform = `translateY(${(sy * -0.30).toFixed(1)}px)`;
+        if (heroLeft) heroLeft.style.transform = `translateY(${(sy * -0.16).toFixed(1)}px)`;
       }, { passive: true });
     }
 
@@ -1907,6 +1982,7 @@
       });
     }
 
+    initBeamEffect();
     initAuroraCanvas();
     initParallax();
     initCoverageCardEntrance();
