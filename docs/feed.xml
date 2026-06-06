@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, June 6, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-06.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-06.html</guid>
+    <pubDate>Sat, 06 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like athletes: their performance is only as good as their training data, and using unlicensed web data is like doping - it might give a temporary edge, but it's not a sustainable or trustworthy way to win. This has significant impl</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 6, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes: their performance is only as good as their training data, and using unlicensed web data is like doping - it might give a temporary edge, but it's not a sustainable or trustworthy way to win. This has significant implications for trading desks, where the reliability of AI-driven investment advice is crucial, and a model trained on questionable data could lead to costly mistakes. As you evaluate AI tools for your own projects, what's the one data source you're willing to compromise on, and how will you verify the integrity of the data that's driving your decisions?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/">Microsoft trained its MAI models on unlicensed web data despite promising &quot;enterprise grade, clean and commercially licensed data&quot;</a></h3>
+<p>Microsoft&#x27;s MAI models were trained on unlicensed web data, contradicting their promise of using only clean and commercially licensed data. This changes the way we evaluate Microsoft&#x27;s LLM training approach and consider the data sources used by AI companies when selecting a model for our projects.&ensp;<a href="https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/">My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server</a></h3>
+<p>A developer built a zero-dependency MCP server in pure Python, allowing AI tools to access local project files directly without copying or using frameworks. This changes the way developers integrate AI tools with their local projects, enabling more efficient collaboration and feedback loops.&ensp;<a href="https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/">How to Fine-Tune an SLM for Emotion Recognition</a></h3>
+<p>A Python tutorial demonstrates how to fine-tune a Mistral Small 3.1 model for emotion recognition in social media communication, handling imbalanced training sets and 15 emotions. This changes the approach to emotion recognition tasks, providing a practical guide for fine-tuning SLM models for improved performance and accuracy.&ensp;<a href="https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html">Meta&#x27;s stock sinks on report company could raise tens of billions of dollars to fund AI push</a></h3>
+<p>Meta shares dropped after a report that the company could raise tens of billions of dollars to fund its AI push, with the potential stock offering valued in the tens of billions. This changes the investment strategy for Meta, as investors should consider the potential impact of a large stock offering on the company&#x27;s valuation and AI development plans.&ensp;<a href="https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html">As AI-related stocks dive, the market&#x27;s winners have one thing in common</a></h3>
+<p>The market&#x27;s winners have one thing in common as AI-related stocks dive, with the Investing Club releasing the Homestretch update to help investors navigate the last hour of trading. This changes the trading workflow, as investors can use the Homestretch update to make informed decisions about their portfolios and adjust their strategies accordingly.&ensp;<a href="https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-05/market-sell-off-analyzed-amid-decline-rising-yields-video">Market Sell-Off Analyzed Amid NASDAQ 100 Decline and Rising Yields</a></h3>
+<p>The NASDAQ 100 experienced a sharp decline in an AI-led rout coinciding with climbing yields, with Jeremy Siegel discussing the market sell-off during a live financial news segment. This changes the risk assessment tool, as investors should consider the potential impact of rising yields and AI-related market trends on their investment portfolios and adjust their risk management strategies accordingly.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-05/market-sell-off-analyzed-amid-decline-rising-yields-video">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7334794/2026/06/05/astros-jose-altuve-injury-return/">&#x27;Medical marvel&#x27; Jose Altuve makes quick return from Grade 2 oblique strain</a></h3>
+<p>Jose Altuve returned to Houston&#x27;s lineup after just 20 days, beating the typical 4-6 week recovery time for a Grade 2 oblique strain. This changes the expectations for the Astros&#x27; lineup and game strategy, as Altuve&#x27;s quick return gives them a key player back in action sooner than anticipated.&ensp;<a href="https://www.nytimes.com/athletic/7334794/2026/06/05/astros-jose-altuve-injury-return/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7336441/2026/06/05/lennart-karl-germany-world-cup-injury-news/">Lennart Karl out of Germany World Cup squad with injury, replaced by Assan Ouedraogo</a></h3>
+<p>Lennart Karl&#x27;s injury has forced him out of the Germany World Cup squad, with Assan Ouedraogo taking his place. This changes Germany&#x27;s team roster and potentially their overall World Cup strategy, as they adjust to playing without Karl and integrate Ouedraogo into the lineup.&ensp;<a href="https://www.nytimes.com/athletic/7336441/2026/06/05/lennart-karl-germany-world-cup-injury-news/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/a71505220/brooks-ghost-17-rei-sale-june-2026/">One of Our Favorite Brooks Shoes Is Over 20% Off at REI and Selling Fast</a></h3>
+<p>The Brooks Ghost 17 shoe is currently over 20% off at REI, making it a great deal for runners looking for a high-quality training shoe. This changes the shopping plans for runners in the market for new shoes, as they can now consider purchasing the Brooks Ghost 17 at a discounted price before the sale ends.&ensp;<a href="https://www.runnersworld.com/gear/a71505220/brooks-ghost-17-rei-sale-june-2026/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.05531">Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models</a></h3>
+<p>Vision-Language Models lack benchmarks that diagnose their true reasoning abilities, with most evaluations focusing on narrow aspects of performance. This changes the evaluation metrics used to assess Vision-Language Models, allowing developers to prioritize more comprehensive and cognitively informed assessments.&ensp;<a href="https://arxiv.org/abs/2606.05531">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.00616">Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion</a></h3>
+<p>Recent Vision-Language Models struggle with grounded reasoning, temporal consistency, and context-aware planning in videos, highlighting the need for more effective training datasets. This changes the datasets used to train Vision-Language Models, enabling developers to incorporate pause-and-think-T and improve their models&#x27; reasoning capabilities.&ensp;<a href="https://arxiv.org/abs/2606.00616">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.05256">How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment</a></h3>
+<p>A discontinued field experiment on Reddit&#x27;s r/ChangeMyView involved undisclosed AI-generated accounts, sparking ethical concerns and highlighting the need for transparency in AI research. This changes the ethical guidelines and oversight protocols for AI research, prompting researchers to prioritize transparency and accountability in their experiments.&ensp;<a href="https://arxiv.org/abs/2606.05256">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/302b36f8">Breaking down the 2026 Stanford AI Index Report</a></h3>
+<p>&ensp;<a href="https://share.transistor.fm/s/302b36f8">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, June 5, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-05.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-05.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, June 5, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI development like a car assembly line, where new parts like NVIDIA's Nemotron 3 Ultra are being added to make the whole process faster and more efficient. This increased speed is now affecting trading desks, where hedge funds are using AI to quickly capitalize on energy market fluctuations, and sports teams might take note of how to apply similar trend-following strategies to optimize player performance. As AI writes more of its own code, like Anthropic's Claude, you have to wonder: who's ultimately responsible when an AI system makes a decision that affects your investment portfolio or your team's strategy?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/">NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents</a></h3>
-<p>NVIDIA has released Nemotron 3 Ultra, a 550B total open Mixture-of-Experts hybrid Mamba-Transformer for long-running agents, which pairs a 1M-token context with up to ~6x higher inference throughput than comparable open LLMs at on-par accuracy. This changes the long-running agent development workflow, allowing developers to integrate Nemotron 3 Ultra into their projects for improved performance and efficiency.&ensp;<a href="https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/">Anthropic says Claude now writes over 90% of its code and wants the world to have an AI pause button</a></h3>
-<p>Anthropic&#x27;s Claude now writes over 90% of its code, with engineers shipping eight times as much code per day as in 2024, and the company wants to implement an AI pause button for safer development. This changes the AI development decision-making process, as companies may need to consider implementing similar pause buttons to ensure safe and responsible AI development.&ensp;<a href="https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/">Building a Semantic Search Engine and Open-Status Classifier over the ResearchMath-14k Dataset</a></h3>
-<p>The ResearchMath-14k dataset can be used to build a semantic search engine and open-status classifier by extracting field-specific keywords with TF-IDF, generating sentence embeddings, and clustering with K-Means. This changes the research mathematics search tool, allowing developers to create more accurate and efficient search engines for research-level mathematics using the described NLP pipeline.&ensp;<a href="https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-05/roundtable-finding-value-in-an-ai-world-video">Schroders&#x27; Olu-Pitan and Shonfeld&#x27;s Lancaster on Finding Value in an AI World</a></h3>
-<p>Remi Olu-Pitan of Schroders and Colin Lancaster of Schonfeld discuss the outlook for markets amid massive AI investment and disruption, having just appeared at the MLIV Money &amp; Macro event in London. This changes the investment strategy for those looking to navigate AI-driven market shifts, who can now consider the insights from Olu-Pitan and Lancaster to inform their portfolio decisions.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-05/roundtable-finding-value-in-an-ai-world-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-05/amundi-says-asia-tech-rally-faces-fed-risk-but-no-bubble-yet">Amundi Says Asia Tech Rally Faces Fed Risk But No Bubble Yet</a></h3>
-<p>Amundi, Europe&#x27;s largest asset manager, believes Asia&#x27;s AI-led stock boom has room to run unless a shift in US interest-rate expectations rattles the hyperscalers underpinning the investment cycle. This changes the risk assessment for investors in Asian tech stocks, who should now factor in the potential impact of US interest-rate expectations on their investment decisions.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-05/amundi-says-asia-tech-rally-faces-fed-risk-but-no-bubble-yet">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/05/oil-price-iran-hedge-funds-quant-traders-trends-energy-shock.html">Meet the big winners of 2026 oil price volatility — and why their strategies are now shifting focus</a></h3>
-<p>Computer-based trend-following hedge funds have successfully capitalized on huge price moves in energy markets, making them the big winners of 2026 oil price volatility. This changes the approach for energy investors, who can now consider using trend-following strategies to navigate energy market fluctuations and potentially replicate the success of these hedge funds.&ensp;<a href="https://www.cnbc.com/2026/06/05/oil-price-iran-hedge-funds-quant-traders-trends-energy-shock.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-7a8">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-7a8">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, June 4, 2026</title>
@@ -230,17 +262,6 @@
     <description>Think of language models like bulky suitcases: the more you pack, the harder they are to move around, which is why researchers are excited about new tools to compress them without losing too much functionality, kind of like a travel-sized toiletry ba</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, May 17, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-17.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-17.html</guid>
-    <pubDate>Sun, 17 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a master locksmith: it can now pick the locks of browser security, developing real exploits autonomously, and that changes the game for developers who need to test their defenses. On the trading desk, this means investors like Bill A</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

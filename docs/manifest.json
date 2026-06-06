@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-06",
+    "headline": "Data Sources Matter",
+    "brief": "Think of AI models like athletes: their performance is only as good as their training data, and using unlicensed web data is like doping - it might give a temporary edge, but it's not a sustainable or trustworthy way to win. This has significant impl",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-06-06.html"
+  },
+  {
     "date": "2026-06-05",
     "headline": "AI Speeds Up",
     "brief": "Think of AI development like a car assembly line, where new parts like NVIDIA's Nemotron 3 Ultra are being added to make the whole process faster and more efficient. This increased speed is now affecting trading desks, where hedge funds are using AI ",

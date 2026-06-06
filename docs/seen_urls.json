@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
-    "date": "2026-06-02"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/",
-    "date": "2026-06-02"
-  },
-  {
-    "url": "https://the-decoder.com/openai-models-now-available-on-amazon-web-services/",
-    "date": "2026-06-02"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71459738/amazing-runners-world-show-epsiode-117-long-run-fatigue_1780323049/",
-    "date": "2026-06-02"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7272428/2026/06/02/canada-world-cup-fans/",
-    "date": "2026-06-02"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7312634/2026/06/02/capello-index-england-world-cup/",
-    "date": "2026-06-02"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
     "date": "2026-06-03"
   },
@@ -106,5 +82,57 @@
   {
     "url": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
     "date": "2026-06-05"
+  },
+  {
+    "url": "https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-05/market-sell-off-analyzed-amid-decline-rising-yields-video",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7334794/2026/06/05/astros-jose-altuve-injury-return/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7336441/2026/06/05/lennart-karl-germany-world-cup-injury-news/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://www.runnersworld.com/gear/a71505220/brooks-ghost-17-rei-sale-june-2026/",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.05531",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.00616",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.05256",
+    "date": "2026-06-06"
+  },
+  {
+    "url": "https://share.transistor.fm/s/302b36f8",
+    "date": "2026-06-06"
   }
 ]
