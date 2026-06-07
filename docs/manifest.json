@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-06-07",
+    "headline": "Code runs everywhere now",
+    "brief": "Think of today's AI advancements like a universal power outlet - they let you plug your code into any available computing resource, whether that's a local machine or a remote GPU. This changes the trading desk's approach to strategy development, wher",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-06-07.html"
+  },
+  {
     "date": "2026-06-06",
     "headline": "Data Sources Matter",
     "brief": "Think of AI models like athletes: their performance is only as good as their training data, and using unlicensed web data is like doping - it might give a temporary edge, but it's not a sustainable or trustworthy way to win. This has significant impl",
