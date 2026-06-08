@@ -292,7 +292,20 @@ def save_to_archive(result: dict, date_str: str) -> None:
     pub_base = os.environ.get(
         "ARCHIVE_BASE_URL", "https://pierderogatis.github.io/ai-newsletter"
     ).rstrip("/")
+    _progress_bar = (
+        '<div id="gd-progress" style="position:fixed;top:0;left:0;height:2px;z-index:9999;'
+        'background:linear-gradient(90deg,#00FFC8,#818CF8);width:0%;'
+        'transition:width 0.08s linear;pointer-events:none;"></div>'
+        '<script>(function(){'
+        'window.addEventListener("scroll",function(){'
+        'var pct=window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;'
+        'var el=document.getElementById("gd-progress");'
+        'if(el)el.style.width=Math.min(pct,100)+"%";'
+        '},{passive:true});'
+        '})();</script>'
+    )
     _web_nav = (
+        _progress_bar +
         '<div style="background:#080E1C;padding:10px 24px;display:flex;'
         'justify-content:space-between;align-items:center;'
         'font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;">'
@@ -304,6 +317,77 @@ def save_to_archive(result: dict, date_str: str) -> None:
         '</div>'
     )
     html = _re.sub(r'(<body[^>]*>)', r'\1' + _web_nav, html, count=1)
+
+    # Share strip + related issues injected before </body>
+    _issue_url = f"{pub_base}/issues/{date_str}.html"
+    _headline  = result.get("headline", "Today's Gradient Descent").replace("'", "\\'")
+    _share_and_related = (
+        '<style>'
+        '.gd-share{max-width:680px;margin:32px auto 0;padding:20px 24px;'
+        'background:rgba(6,16,26,0.7);border:1px solid rgba(0,255,200,0.12);'
+        'border-radius:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;'
+        'font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}'
+        '.gd-share-label{font-size:11px;font-weight:700;color:#6B82A0;letter-spacing:0.1em;'
+        'text-transform:uppercase;flex-shrink:0;}'
+        '.gd-share-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;'
+        'font-weight:600;padding:6px 14px;border-radius:7px;text-decoration:none;cursor:pointer;'
+        'border:1px solid rgba(0,255,200,0.2);background:transparent;color:#00FFC8;'
+        'font-family:inherit;transition:background 0.14s,border-color 0.14s;}'
+        '.gd-share-btn:hover{background:rgba(0,255,200,0.08);border-color:rgba(0,255,200,0.4);}'
+        '.gd-related{max-width:680px;margin:24px auto 0;padding:0 24px 32px;'
+        'font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}'
+        '.gd-related-label{font-size:10px;font-weight:700;color:#6B82A0;letter-spacing:0.14em;'
+        'text-transform:uppercase;margin-bottom:14px;}'
+        '.gd-related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;}'
+        '.gd-related-card{display:block;text-decoration:none;background:rgba(6,16,26,0.5);'
+        'border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;'
+        'transition:border-color 0.14s;}'
+        '.gd-related-card:hover{border-color:rgba(0,255,200,0.25);}'
+        '.gd-related-date{font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;'
+        'color:#6B82A0;margin-bottom:4px;}'
+        '.gd-related-title{font-size:13px;font-weight:600;color:#C8E0F0;line-height:1.4;}'
+        '</style>'
+        f'<div class="gd-share">'
+        f'<span class="gd-share-label">Share</span>'
+        f'<a class="gd-share-btn" href="https://twitter.com/intent/tweet?text={_headline}&url={_issue_url}" target="_blank" rel="noopener">'
+        f'<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'
+        f'Post on X</a>'
+        f'<button class="gd-share-btn" id="gd-copy-link">Copy link</button>'
+        f'</div>'
+        f'<div class="gd-related" id="gd-related" style="display:none">'
+        f'<div class="gd-related-label">More issues</div>'
+        f'<div class="gd-related-grid" id="gd-related-grid"></div>'
+        f'</div>'
+        f'<script>(function(){{'
+        f'document.getElementById("gd-copy-link").onclick=function(){{'
+        f'navigator.clipboard.writeText("{_issue_url}").then(function(){{'
+        f'var b=document.getElementById("gd-copy-link");'
+        f'b.textContent="Copied ✓";setTimeout(function(){{b.textContent="Copy link";}},2000);'
+        f'}}).catch(function(){{}});'
+        f'}};'
+        f'fetch("{pub_base}/manifest.json",{{cache:"no-cache"}})'
+        f'.then(function(r){{return r.json();}})'
+        f'.then(function(m){{'
+        f'var curr="{date_str}";'
+        f'var idx=m.findIndex(function(x){{return x.date===curr;}});'
+        f'if(idx===-1)return;'
+        f'var nearby=m.filter(function(_,i){{return i!==idx&&Math.abs(i-idx)<=3;}}).slice(0,3);'
+        f'if(!nearby.length)return;'
+        f'function fmt(d){{var dt=new Date(d+"T12:00:00Z");'
+        f'return dt.toLocaleDateString("en-US",{{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}});}}'
+        f'var html=nearby.map(function(issue){{'
+        f'return \'<a class="gd-related-card" href="{pub_base}/\'+issue.path+\'">\''
+        f'+\'<div class="gd-related-date">\'+fmt(issue.date)+\'</div>\''
+        f'+(issue.headline?\'<div class="gd-related-title">\'+issue.headline+\'</div>\':\'\')'
+        f'+\'</a>\';}}).join("");'
+        f'var grid=document.getElementById("gd-related-grid");'
+        f'var wrap=document.getElementById("gd-related");'
+        f'if(grid&&wrap){{grid.innerHTML=html;wrap.style.display="block";}}'
+        f'}})'
+        f'.catch(function(){{}});'
+        f'}})();</script>'
+    )
+    html = html.replace("</body>", _share_and_related + "\n</body>", 1)
 
     issue_path = _ISSUES_DIR / f"{date_str}.html"
     issue_path.write_text(html, encoding="utf-8")

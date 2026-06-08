@@ -37,7 +37,7 @@ _MOBILE_CSS = (
     "}"
 )
 
-_GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;"><input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;"><input id="gd-consent" type="checkbox" style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;"><span style="color:#6B82A0;font-size:12px;line-height:1.5;">I agree to receive Gradient Descent by email. Unsubscribe anytime.</span></label><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
+_GATE_OVERLAY = '<div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;"><input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><p style="font-size:11px;color:#4A6070;margin:0 0 16px;line-height:1.5;">No spam. Unsubscribe anytime with one click.</p><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>'
 
 # Self-contained prev/next nav bar injected into all issue pages (new and backfilled).
 # JS parses the current date from the canonical URL so no template params are needed.
@@ -115,7 +115,6 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
   document.getElementById('gd-form').addEventListener('submit', function(e) {{
     e.preventDefault();
     var email = document.getElementById('gd-email').value.trim();
-    var ok    = document.getElementById('gd-consent').checked;
     var err   = document.getElementById('gd-error');
     var btn   = document.getElementById('gd-submit');
     var hp    = document.getElementById('gd-hp');
@@ -125,7 +124,6 @@ def _build_gate_js(gh_pat: str, gh_repo: str) -> str:
       err.style.display = 'block';
       return;
     }}
-    if (!ok) {{ err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }}
     err.style.display = 'none';
     btn.disabled = true; btn.textContent = 'Sending…';
     var ctrl = new AbortController();
@@ -379,17 +377,19 @@ def build_html(result: dict, iso_date: str | None = None, *, email: bool = False
   <style>
     /* ── web-only overrides (email clients ignore <style> blocks) ── */
     @media screen {{
-      body {{ background: #03080F !important; }}
+      body {{ background: #03080F !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; }}
       body::before {{
         content: '';
         position: fixed; inset: 0; z-index: 0; pointer-events: none;
         background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
         background-size: 36px 36px;
       }}
+      table[width="100%"] {{ background: transparent !important; }}
+      table[width="100%"] > tbody > tr > td {{ background: transparent !important; padding: 24px 16px !important; }}
       table[width="100%"]:first-of-type > tbody > tr > td {{
         background: transparent !important; position: relative; z-index: 1;
       }}
-      table[width="600"] {{ border-radius: 16px; overflow: hidden; }}
+      table[width="600"] {{ border-radius: 16px; overflow: hidden; max-width: 680px !important; width: 100% !important; }}
       table[width="600"] > tbody > tr:first-child > td {{
         background: #06101A !important;
         border-bottom: 1px solid rgba(0,255,200,0.15) !important;
@@ -449,7 +449,7 @@ def build_html(result: dict, iso_date: str | None = None, *, email: bool = False
               </tr>
             </table>
             <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">{date_str}</h1>
-            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; {total} items &bull; ~3 min read</p>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; <span style="color:#00FFC8;font-weight:700;">{total} items</span> &bull; ~3 min read</p>
           </td>
         </tr>
 

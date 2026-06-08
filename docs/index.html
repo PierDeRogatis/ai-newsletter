@@ -1004,6 +1004,11 @@
       font-size: 9px; color: var(--dim);
     }
 
+    /* ─── COVERAGE CARD AS LINK ─── */
+    a.cov-card { text-decoration: none; color: inherit; cursor: pointer; }
+    a.cov-card .cov-card-name { transition: color 0.14s; }
+    a.cov-card:hover .cov-card-name { color: var(--accent); }
+
     /* ─── AURORA BACKGROUND CANVAS ─── */
     #bg-canvas {
       position: fixed; inset: 0; z-index: 0;
@@ -1385,46 +1390,46 @@
         <p class="cov-sub">Coverage rotates by day so every issue is focused — not a firehose. Weekends cover all five areas.</p>
       </div>
       <div class="cov-cards">
-        <div class="cov-card cov-card-data scroll-reveal" data-delay="1">
+        <a href="topics/ai-data-tools.html" class="cov-card cov-card-data scroll-reveal" data-delay="1">
           <div class="cov-card-idx">01 · Data</div>
           <div class="cov-card-name">AI &amp; Data Tools</div>
           <div class="cov-card-freq">Every day</div>
           <div class="cov-card-tags">
             <span class="cov-card-tag">LLM</span><span class="cov-card-tag">Inference</span><span class="cov-card-tag">Embeddings</span><span class="cov-card-tag">Pipelines</span>
           </div>
-        </div>
-        <div class="cov-card cov-card-finance scroll-reveal" data-delay="2">
+        </a>
+        <a href="topics/ai-finance.html" class="cov-card cov-card-finance scroll-reveal" data-delay="2">
           <div class="cov-card-idx">02 · Finance</div>
           <div class="cov-card-name">AI in Finance</div>
           <div class="cov-card-freq">Mon · Fri · Wknd</div>
           <div class="cov-card-tags">
             <span class="cov-card-tag">Quant</span><span class="cov-card-tag">Alpha</span><span class="cov-card-tag">Derivatives</span><span class="cov-card-tag">Risk</span>
           </div>
-        </div>
-        <div class="cov-card cov-card-sports scroll-reveal" data-delay="3">
+        </a>
+        <a href="topics/ai-sports.html" class="cov-card cov-card-sports scroll-reveal" data-delay="3">
           <div class="cov-card-idx">03 · Sports</div>
           <div class="cov-card-name">AI in Sports</div>
           <div class="cov-card-freq">Tue · Thu · Wknd</div>
           <div class="cov-card-tags">
             <span class="cov-card-tag">VO2</span><span class="cov-card-tag">HRV</span><span class="cov-card-tag">Load</span><span class="cov-card-tag">Recovery</span>
           </div>
-        </div>
-        <div class="cov-card cov-card-research scroll-reveal" data-delay="4">
+        </a>
+        <a href="topics/research-academia.html" class="cov-card cov-card-research scroll-reveal" data-delay="4">
           <div class="cov-card-idx">04 · Research</div>
           <div class="cov-card-name">Research &amp; Academia</div>
           <div class="cov-card-freq">Wed · Weekends</div>
           <div class="cov-card-tags">
             <span class="cov-card-tag">Papers</span><span class="cov-card-tag">Preprints</span><span class="cov-card-tag">SOTA</span>
           </div>
-        </div>
-        <div class="cov-card cov-card-podcast scroll-reveal" data-delay="5">
+        </a>
+        <a href="topics/podcasts.html" class="cov-card cov-card-podcast scroll-reveal" data-delay="5">
           <div class="cov-card-idx">05 · Audio</div>
           <div class="cov-card-name">Podcast Pick</div>
           <div class="cov-card-freq">Every day</div>
           <div class="cov-card-tags">
             <span class="cov-card-tag">AI</span><span class="cov-card-tag">Finance</span><span class="cov-card-tag">Sport</span><span class="cov-card-tag">Science</span>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -1501,9 +1506,10 @@
         <div class="footer-col-head">Navigate</div>
         <div class="footer-col-links">
           <a href="#archive">Archive</a>
+          <a href="topics/ai-data-tools.html">AI &amp; Data Tools</a>
+          <a href="topics/ai-finance.html">Finance</a>
           <a href="feed.xml">RSS Feed</a>
           <a href="https://github.com/PierDeRogatis/ai-newsletter" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://groq.com" target="_blank" rel="noopener">Powered by Groq</a>
         </div>
       </div>
 
@@ -1539,7 +1545,7 @@
     const TELEGRAM_HREF = "https://t.me/gradient_descent_ai";
     const GH_DISPATCH   = "https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches";
     // PAT split — set GATE_GH_PAT secret and re-run scripts/patch_gate.py to embed a live token
-    const _GH_PAT = 'ghp_jR9TIUQdwofxgyYg' + 'OTbsOKIz8uc00W1i2BL8';
+    const _GH_PAT = '' + '';
 
     const TOPIC_PILL = {
       "AI & Data Tools":     { cls: "pill-data",     label: "Data" },
