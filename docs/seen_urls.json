@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://www.outsideonline.com/health/training-performance/female-endurance-advantage-fatigue-resistance/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7137837/2026/06/04/usa-world-cup-fans/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7324067/2026/06/04/organised-crime-football-fixing-investigation/",
-    "date": "2026-06-04"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
-    "date": "2026-06-04"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
     "date": "2026-06-05"
   },
@@ -146,5 +118,29 @@
   {
     "url": "https://www.nytimes.com/the-daily",
     "date": "2026-06-07"
+  },
+  {
+    "url": "https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-07/ai-s-mega-stock-deals-raise-specter-of-more-shares-than-buyers",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/korea-s-chip-boom-sparks-pressure-across-government-bond-market",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html",
+    "date": "2026-06-08"
   }
 ]

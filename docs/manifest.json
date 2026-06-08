@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-08",
+    "headline": "AI rewrites its own rules",
+    "brief": "Think of AI as a master Lego builder, but instead of following instructions, it's now writing its own blueprint for how to search and interact with the world. This shift is already rippling out to trading desks, where investors are rethinking their s",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-08.html"
+  },
+  {
     "date": "2026-06-07",
     "headline": "Code runs everywhere now",
     "brief": "Think of today's AI advancements like a universal power outlet - they let you plug your code into any available computing resource, whether that's a local machine or a remote GPU. This changes the trading desk's approach to strategy development, wher",

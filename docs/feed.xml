@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, June 8, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-08.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-08.html</guid>
+    <pubDate>Mon, 08 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI as a master Lego builder, but instead of following instructions, it's now writing its own blueprint for how to search and interact with the world. This shift is already rippling out to trading desks, where investors are rethinking their s</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 8, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI as a master Lego builder, but instead of following instructions, it's now writing its own blueprint for how to search and interact with the world. This shift is already rippling out to trading desks, where investors are rethinking their strategies as AI-focused companies flood the market with new shares, changing the game for stock pricing and bond investment. As you consider the implications, ask yourself: what happens when AI models can not only write their own search pipelines, but also autonomously handle tasks and make decisions - do we need to redefine what it means for a machine to be 'in control'?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/">Perplexity&#x27;s &#x27;Search as Code&#x27; lets AI models write their own search pipelines instead of calling fixed APIs</a></h3>
+<p>Perplexity&#x27;s new &#x27;Search as Code&#x27; architecture lets AI models write their own search routines in Python, beating OpenAI and Anthropic on key benchmarks while cutting token costs. This changes the search pipeline tool, allowing developers to implement more efficient and customizable search routines in their AI models today.&ensp;<a href="https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/">OpenAI says &#x27;chat is dead&#x27; and plans to rebuild ChatGPT as a full-blown agent app</a></h3>
+<p>OpenAI is planning to overhaul ChatGPT into a &#x27;superapp&#x27; that bundles coding tools, AI agents, and partner apps, marking a significant shift away from traditional chatbot functionality. This changes the ChatGPT workflow, enabling users to handle tasks more autonomously and integrate with various apps and tools directly within the platform.&ensp;<a href="https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/">ChatGPT&#x27;s new Lockdown Mode lets you disable web access and more to protect sensitive data from prompt injection</a></h3>
+<p>OpenAI&#x27;s new Lockdown Mode for ChatGPT disables web access, Deep Research, and Agent Mode to make data theft through prompt injection attacks more difficult. This changes the data protection decision, allowing users to enable Lockdown Mode to reduce the risk of sensitive data exfiltration when interacting with ChatGPT.&ensp;<a href="https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-07/ai-s-mega-stock-deals-raise-specter-of-more-shares-than-buyers">Stocks Face Rising Risk With Mega AI Deals Ready to Flood Market</a></h3>
+<p>A wave of new shares from AI-focused companies is set to flood the market, raising concerns about the availability of buyers to absorb them. This changes the stock pricing strategy for investors, who must now consider the potential impact of increased supply on their portfolio&#x27;s value.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-07/ai-s-mega-stock-deals-raise-specter-of-more-shares-than-buyers">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-08/korea-s-chip-boom-sparks-pressure-across-government-bond-market">Korea’s AI Impact Sparks Pressure Across Government Bond Market</a></h3>
+<p>Investor enthusiasm for AI has driven Korea&#x27;s stock market to the top of global rankings, but it&#x27;s now putting pressure on the government bond market. This changes the investment approach for bondholders, who must reassess their portfolios in light of the shifting market dynamics.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-08/korea-s-chip-boom-sparks-pressure-across-government-bond-market">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html">Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names</a></h3>
+<p>Global tech stocks, including SoftBank, are experiencing a sell-off due to investor skepticism about AI-linked companies, with SoftBank&#x27;s stock dropping 6%. This changes the trading strategy for investors, who may need to reevaluate their positions in AI-related stocks and consider adjusting their portfolios to mitigate potential losses.&ensp;<a href="https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">Scott Pelley on His Firing and the ‘Massacre’ at ’60 Minutes’</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, June 7, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-07.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-07.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, June 7, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a universal power outlet - they let you plug your code into any available computing resource, whether that's a local machine or a remote GPU. This changes the trading desk's approach to strategy development, where quants can now test and refine their models on a wider range of hardware, similar to how sports teams are rethinking their coaching staff management strategies in light of new data on injury risk and player performance. As you consider investing in AI-powered productivity tools or retraining your own models, ask yourself whether the cost of access to reliable computing resources and high-quality training data is worth the potential benefits, and whether that calculation changes when you factor in the risks of relying on third-party services.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/">Google’s New Colab CLI Lets Developers and AI Agents Run Python on Remote Colab GPUs and TPUs From the Terminal</a></h3>
-<p>Google released the Colab CLI, allowing developers and AI agents to run local code on remote Colab GPU and TPU runtime. This changes the Colab workflow, enabling developers to run Python on remote GPUs and TPUs directly from their terminal.&ensp;<a href="https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/metas-hatch-ai-agent-could-cost-up-to-200-a-month-and-marks-its-first-paid-ai-product/">Meta&#x27;s Hatch AI agent could cost up to $200 a month and marks its first paid AI product</a></h3>
-<p>Meta&#x27;s Hatch AI agent could cost up to $200 per month, allowing users to describe their needs in simple language and get working tools, scheduled appointments, or sent emails in return. This changes the decision of whether to invest in AI-powered productivity tools, with Meta&#x27;s paid AI product offering a new option for those willing to pay a premium.&ensp;<a href="https://the-decoder.com/metas-hatch-ai-agent-could-cost-up-to-200-a-month-and-marks-its-first-paid-ai-product/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/elon-musks-xai-reportedly-trained-its-coding-models-on-claude-outputs-for-months-before-getting-cut-off/">Elon Musk&#x27;s xAI reportedly trained its coding models on Claude outputs for months before getting cut off</a></h3>
-<p>Elon Musk&#x27;s xAI used Anthropic&#x27;s Claude to train its own coding models for months, even after Anthropic cut off access, by using private accounts and the Blackbox AI service. This changes the tool selection process for AI model training, as xAI&#x27;s approach highlights the importance of securing reliable and unrestricted access to high-quality training data and services.&ensp;<a href="https://the-decoder.com/elon-musks-xai-reportedly-trained-its-coding-models-on-claude-outputs-for-months-before-getting-cut-off/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-06/bitcoin-drop-test-retail-investor-strength-video">Bitcoin Drop Tests Retail Investor Strength</a></h3>
-<p>Bitcoin&#x27;s recent drop is testing the strength of retail investors, with artificial-intelligence stocks suffering significant losses on Friday. This changes the investment strategy for retail traders, who may need to reassess their risk tolerance and portfolio diversification today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-06/bitcoin-drop-test-retail-investor-strength-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/audio/2026-06-06/odd-lots-why-susquehanna-builds-prediction-markets-podcast">Odd Lots: Why Susquehanna Builds Prediction Markets (Podcast)</a></h3>
-<p>Susquehanna is building prediction markets that allow betting on various outcomes, but these markets face challenges in expanding to institutional investors due to illiquidity and trading issues. This changes the approach to prediction market development, which may involve improving liquidity and contract design to attract larger investors.&ensp;<a href="https://www.bloomberg.com/news/audio/2026-06-06/odd-lots-why-susquehanna-builds-prediction-markets-podcast">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html">Here are 3 forces that drove a whirlwind week for the stock market</a></h3>
-<p>A whirlwind week for the stock market was driven by three key forces, culminating in an avalanche of selling on Friday that crushed stocks after record highs earlier in the week. This changes the stock market analysis workflow, which may need to incorporate these three forces to better predict market volatility and make informed investment decisions today.&ensp;<a href="https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7334468/2026/06/07/european-football-coaches-us-sport/">Why do European soccer clubs change coaches so much more than U.S. teams?</a></h3>
-<p>European soccer coaches get sacked at more than double the rate of NBA coaches, highlighting a significant disparity between European soccer and US sports leagues. This changes how team owners and managers approach hiring and firing decisions, potentially leading to a reevaluation of their coaching staff management strategies.&ensp;<a href="https://www.nytimes.com/athletic/7334468/2026/06/07/european-football-coaches-us-sport/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7339001/2026/06/06/antonee-robinson-jedi-goal-usmnt-germany-world-cup-injury/">USMNT flips out over Robinson&#x27;s goal vs. Germany, but left with reminder of his injury woes</a></h3>
-<p>Antonee Robinson&#x27;s goal against Germany showcased his value to the USMNT, but his injury history remains a concern, with his health being a central topic in the current World Cup cycle. This changes how the team&#x27;s coaching staff and trainers approach Robinson&#x27;s training and gameplay, requiring a more cautious and tailored approach to managing his injuries.&ensp;<a href="https://www.nytimes.com/athletic/7339001/2026/06/06/antonee-robinson-jedi-goal-usmnt-germany-world-cup-injury/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71482984/overstriding-running-form-fix/">The Biggest Running Form Mistake Is Also the Easiest to Correct. Here’s How to Do It.</a></h3>
-<p>Overstriding is a common running form mistake that can be easily corrected with a small shift in mechanics, improving running efficiency without requiring a complete overhaul. This changes the runner&#x27;s daily training routine, as they can now focus on making this simple adjustment to their stride, potentially leading to improved performance and reduced injury risk.&ensp;<a href="https://www.runnersworld.com/training/a71482984/overstriding-running-form-fix/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Everything You Need to Know About the World Cup</a></h3>
-<p>The 2026 World Cup will feature 48 teams and 104 games across three countries, with billions of fans watching globally. This changes how sports fans plan their viewing schedules and how broadcasters prepare for massive audience engagement, potentially altering their programming and advertising strategies today.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, June 6, 2026</title>
@@ -243,16 +243,6 @@
     <description>Think of AI models like athletes in training: they need the right coaching, equipment, and practice to improve, and now tools like Forge and Gemini 3.5 Flash are giving them a boost, allowing them to run faster and jump higher. On a trading desk, thi</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, May 19, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-19.html</guid>
-    <pubDate>Tue, 19 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of your personal data like a library book: you want to be able to check it out and use it without anyone knowing it's yours, which is basically what local reversible pseudonymization does. This concept is now being applied to cloud-hosted memor</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
