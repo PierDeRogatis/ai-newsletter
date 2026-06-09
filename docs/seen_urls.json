@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-05/roundtable-finding-value-in-an-ai-world-video",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-05/amundi-says-asia-tech-rally-faces-fed-risk-but-no-bubble-yet",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/05/oil-price-iran-hedge-funds-quant-traders-trends-energy-shock.html",
-    "date": "2026-06-05"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-    "date": "2026-06-05"
-  },
-  {
     "url": "https://the-decoder.com/microsoft-trained-its-mai-models-on-unlicensed-web-data-despite-promising-enterprise-grade-clean-and-commercially-licensed-data/",
     "date": "2026-06-06"
   },
@@ -142,5 +114,29 @@
   {
     "url": "https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html",
     "date": "2026-06-08"
+  },
+  {
+    "url": "https://the-decoder.com/microsoft-researchs-lens-proves-detailed-captions-matter-more-than-raw-scale-for-training-efficient-image-generators/",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "http://bjsm.bmj.com/cgi/content/short/60/11/780?rss=1",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "http://bjsm.bmj.com/cgi/content/short/60/11/766?rss=1",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1861469",
+    "date": "2026-06-09"
   }
 ]
