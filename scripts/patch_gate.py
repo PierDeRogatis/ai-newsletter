@@ -43,12 +43,8 @@ GATE_OVERLAY = (
     'style="display:block;width:100%;box-sizing:border-box;background:#03080F;'
     'border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;'
     'color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;">'
-    '<label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;margin-bottom:20px;">'
-    '<input id="gd-consent" type="checkbox" '
-    'style="margin-top:2px;accent-color:#00FFC8;flex-shrink:0;">'
-    '<span style="color:#6B82A0;font-size:12px;line-height:1.5;">'
-    'I agree to receive Gradient Descent by email. Unsubscribe anytime.</span>'
-    '</label>'
+    '<p style="font-size:11px;color:#4A6070;margin:0 0 16px;line-height:1.5;">'
+    'No spam. Unsubscribe anytime with one click.</p>'
     '<p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p>'
     '<button id="gd-submit" type="submit" '
     'style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;'
@@ -91,7 +87,6 @@ GATE_JS = f"""<script>
   document.getElementById('gd-form').addEventListener('submit', function(e) {{
     e.preventDefault();
     var email = document.getElementById('gd-email').value.trim();
-    var ok    = document.getElementById('gd-consent').checked;
     var err   = document.getElementById('gd-error');
     var btn   = document.getElementById('gd-submit');
     var hp    = document.getElementById('gd-hp');
@@ -101,7 +96,6 @@ GATE_JS = f"""<script>
       err.style.display = 'block';
       return;
     }}
-    if (!ok) {{ err.textContent = 'Please accept to continue.'; err.style.display = 'block'; return; }}
     err.style.display = 'none';
     btn.disabled = true; btn.textContent = 'Sending…';
     var ctrl = new AbortController();
