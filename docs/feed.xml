@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, June 10, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-10.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-10.html</guid>
+    <pubDate>Wed, 10 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a sports team upgrading its playbook, with new tools and strategies emerging to tackle complex tasks like coding, climate science, and even sleep optimization. On the trading desk, this means reevaluating the pot</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, June 10, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports team upgrading its playbook, with new tools and strategies emerging to tackle complex tasks like coding, climate science, and even sleep optimization. On the trading desk, this means reevaluating the potential for AI-driven models to automate tasks, while in the sports lab, coaches might explore how personalized nutrition plans, like those discussed by Dr. Marie-Pierre St-Onge, can give athletes a competitive edge. As you consider the implications of these developments, ask yourself: what's the one task or process in your own workflow that could be revolutionized by the latest AI breakthroughs?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/">NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab</a></h3>
+<p>NVIDIA cuTile Python allows for building tiled GPU kernels for vector addition, matrix addition, and matrix multiplication in Colab, with a hands-on workflow that checks GPU and driver availability. This changes the workflow for GPU programming in Python, specifically the tool used for building and running CUDA-style kernels in Colab.&ensp;<a href="https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/">Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines</a></h3>
+<p>A C++ runtime with copy-on-fork KV snapshots can eliminate redundant LLM prefills in multi-agent pipelines by reusing computed context. This changes the decision to recompute context in multi-agent LLM pipelines, specifically the use of KV snapshot sharing to optimize GPU usage.&ensp;<a href="https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-releases-claude-fable-5-and-mythos-5-with-major-gains-in-coding-and-science/">Anthropic releases Claude Fable 5 and Mythos 5 with major gains in coding and science</a></h3>
+<p>Anthropic&#x27;s new models, Claude Fable 5 and Mythos 5, demonstrate significant improvements in coding and research capabilities, such as completing a code migration in one day that would have taken a team two months. This changes the tool used for coding and research tasks, specifically the use of Anthropic&#x27;s models for tasks like code migration and drug candidate design.&ensp;<a href="https://the-decoder.com/anthropic-releases-claude-fable-5-and-mythos-5-with-major-gains-in-coding-and-science/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.10194">MMClima: A Framework for Multimodal Climate Science Data and Evaluation</a></h3>
+<p>Researchers introduced MMClima, a framework for multimodal climate science data and evaluation that can reason across text, dynamic visual content, and scientific figures. This changes the climate science data analysis tool, allowing for more comprehensive and accurate evaluations of climate change research today.&ensp;<a href="https://arxiv.org/abs/2606.10194">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2505.23851">ASyMOB: Algebraic Symbolic Mathematical Operations Benchmark</a></h3>
+<p>The ASyMOB benchmark is a high-resolution dataset of symbolic mathematical operations that can distinguish between pattern memorization and genuine reasoning in large language models. This changes the mathematical operations evaluation workflow, enabling more accurate assessments of large language models&#x27; mathematical reasoning capabilities.&ensp;<a href="https://arxiv.org/abs/2505.23851">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.07532">Durable Evaluation Framework: Adversarial Arbitration for Sycophancy Reduction in Large Language Models</a></h3>
+<p>The Durable Evaluation Framework uses a multi-agent architecture to mitigate bias in RLHF-trained models, which are often biased toward agreement over accuracy. This changes the large language model evaluation decision, allowing for more robust and accurate assessments of model performance by reducing sycophancy.&ensp;<a href="https://arxiv.org/abs/2606.07532">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge">Eating for Better Sleep &amp; Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge</a></h3>
+<p>Moderate sleep loss increases appetite, changes hunger-related hormones, and causes weight gain. This changes your bedtime snack choices, as selecting sleep-promoting foods can improve both sleep quality and metabolic health starting tonight.&ensp;<a href="https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, June 9, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-09.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-09.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 9, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI training data like a richly detailed novel - it's not the number of pages that matters, but how well each page is written. This shift towards prioritizing detailed captions over raw data size has implications for trading desks, where more accurate image generators could improve market analysis and forecasting, much like how sports teams use detailed player data to inform strategy. As you consider the potential of these new image generators, ask yourself: what other areas of your workflow could benefit from a focus on quality over quantity, and how might that change your approach to decision-making?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/microsoft-researchs-lens-proves-detailed-captions-matter-more-than-raw-scale-for-training-efficient-image-generators/">Microsoft Research&#x27;s Lens proves detailed captions matter more than raw scale for training efficient image generators</a></h3>
-<p>Microsoft Research&#x27;s Lens model, with 3.8 billion parameters, matches larger rivals using 800 million detailed image captions generated by GPT-4.1, reducing training cost. This changes the image generator training workflow, allowing developers to prioritize detailed captions over raw scale.&ensp;<a href="https://the-decoder.com/microsoft-researchs-lens-proves-detailed-captions-matter-more-than-raw-scale-for-training-efficient-image-generators/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/">Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries</a></h3>
-<p>Google Research&#x27;s agentic RAG framework in Gemini Enterprise Agent Platform raises factuality accuracy up to 34% for multi-hop queries using a Sufficient Context Agent. This changes the query answering tool, enabling more accurate responses to complex queries by re-searching until sufficient context is found.&ensp;<a href="https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/">Frontier Radar #3: How agentic AI is turning tokens into a business metric</a></h3>
-<p>Agentic AI workflows consume many more tokens, run autonomously, and make flat rates unaffordable, with token prices varying by speed and specificity. This changes the pricing model for generative AI services, requiring providers to adapt to a token-based business metric that accounts for varying usage patterns.&ensp;<a href="https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/11/780?rss=1">Epidemiology of bone stress injury in Division I National Collegiate Athletic Association Athletes from 2016 to 2022</a></h3>
-<p>Deidentified injury data for US collegiate athletes were collected from the 2016-2022 seasons using the Pac-12 Health Analytics Program from 33 sports. This changes the way athletic trainers and team doctors approach injury prevention and treatment protocols for college athletes, particularly in high-risk sports and locations.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/11/780?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/11/766?rss=1">Integrating sports pharmacists into multidisciplinary healthcare teams: optimising athlete health and performance</a></h3>
-<p>Medication management in athletes may be further complicated by training and competition across varying environments and regulations. This changes the workflow of athletic healthcare teams, which should now consider integrating sports pharmacists to optimize athlete health and performance while minimizing the risk of banned substances.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/11/766?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1861469">Assessing mental fatigue in football: a systematic review</a></h3>
-<p>There is currently no standardized approach for assessing and monitoring mental fatigue in football contexts, despite its potential impact on performance. This changes the tool used by football coaches and sports psychologists, who should now prioritize developing and implementing a standardized mental fatigue assessment protocol to improve player performance and well-being.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1861469">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Congressional Republicans Try a New Approach: Telling Trump No</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, June 8, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of AI models like high-performance sports cars: they used to require a huge team and a lot of resources to run, but now they can be driven by a much smaller team with fewer resources, like Cohere's new Command A+ model that can run on just two </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, May 21, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-21.html</guid>
-    <pubDate>Thu, 21 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's stories like a sports team's playbook: just as a new play can change the entire game, new algorithms like Turbovec and Deepseek Code are rewriting the rules for data search and coding tools. On the trading desk, this means reevaluati</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

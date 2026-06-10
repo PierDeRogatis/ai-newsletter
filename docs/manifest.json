@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-10",
+    "headline": "Models get smarter",
+    "brief": "Think of today's AI advancements like a sports team upgrading its playbook, with new tools and strategies emerging to tackle complex tasks like coding, climate science, and even sleep optimization. On the trading desk, this means reevaluating the pot",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-10.html"
+  },
+  {
     "date": "2026-06-09",
     "headline": "Captions beat scale",
     "brief": "Think of AI training data like a richly detailed novel - it's not the number of pages that matters, but how well each page is written. This shift towards prioritizing detailed captions over raw data size has implications for trading desks, where more",
