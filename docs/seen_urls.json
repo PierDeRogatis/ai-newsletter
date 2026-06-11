@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://the-decoder.com/metas-hatch-ai-agent-could-cost-up-to-200-a-month-and-marks-its-first-paid-ai-product/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://the-decoder.com/elon-musks-xai-reportedly-trained-its-coding-models-on-claude-outputs-for-months-before-getting-cut-off/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-06/bitcoin-drop-test-retail-investor-strength-video",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/audio/2026-06-06/odd-lots-why-susquehanna-builds-prediction-markets-podcast",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7334468/2026/06/07/european-football-coaches-us-sport/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7339001/2026/06/06/antonee-robinson-jedi-goal-usmnt-germany-world-cup-injury/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71482984/overstriding-running-form-fix/",
-    "date": "2026-06-07"
-  },
-  {
-    "url": "https://www.nytimes.com/the-daily",
-    "date": "2026-06-07"
-  },
-  {
     "url": "https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/",
     "date": "2026-06-08"
   },
@@ -114,5 +74,33 @@
   {
     "url": "https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge",
     "date": "2026-06-10"
+  },
+  {
+    "url": "https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7349728/2026/06/10/brazil-dudinha-acl-meniscus-injuries-uswnt-world-cup/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71546534/race-training-plan-tweaks-better-performance/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7349493/2026/06/10/ravens-minicamp-observations-lamar-jackson-tyler-loop/",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing",
+    "date": "2026-06-11"
   }
 ]
