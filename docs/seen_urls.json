@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/",
-    "date": "2026-06-08"
-  },
-  {
-    "url": "https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/",
-    "date": "2026-06-08"
-  },
-  {
-    "url": "https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/",
-    "date": "2026-06-08"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-07/ai-s-mega-stock-deals-raise-specter-of-more-shares-than-buyers",
-    "date": "2026-06-08"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-08/korea-s-chip-boom-sparks-pressure-across-government-bond-market",
-    "date": "2026-06-08"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html",
-    "date": "2026-06-08"
-  },
-  {
     "url": "https://the-decoder.com/microsoft-researchs-lens-proves-detailed-captions-matter-more-than-raw-scale-for-training-efficient-image-generators/",
     "date": "2026-06-09"
   },
@@ -102,5 +78,29 @@
   {
     "url": "https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing",
     "date": "2026-06-11"
+  },
+  {
+    "url": "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
+    "date": "2026-06-12"
+  },
+  {
+    "url": "https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/",
+    "date": "2026-06-12"
+  },
+  {
+    "url": "https://towardsdatascience.com/nucs-vs-choco/",
+    "date": "2026-06-12"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video",
+    "date": "2026-06-12"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading",
+    "date": "2026-06-12"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves",
+    "date": "2026-06-12"
   }
 ]

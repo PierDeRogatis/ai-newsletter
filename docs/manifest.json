@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-12",
+    "headline": "Performance Metrics Mislead",
+    "brief": "Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-12.html"
+  },
+  {
     "date": "2026-06-11",
     "headline": "Models remake workflows",
     "brief": "Think of today's AI models like high-performance sports cars: they can accelerate content creation and race to the finish line faster, but also require careful handling and maintenance to avoid crashes. On the trading desk, this means reevaluating th",

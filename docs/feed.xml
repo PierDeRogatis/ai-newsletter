@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, June 12, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</guid>
+    <pubDate>Fri, 12 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, June 12, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging the performance of AI systems or the governance of companies like SpaceX can lead to disastrous investment decisions. As you consider how to optimize your own performance, whether in finance or sports, what's the one metric you're using that might be lying to you?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/">When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI</a></h3>
+<p>Average GPU utilization can be misleading, hiding the true usage of GPUs. This changes how we monitor and optimize GPU performance in AI systems, requiring a more nuanced approach to measuring utilization.&ensp;<a href="https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/">Dario Amodei&#x27;s new essay reads like a Cold War playbook for the AI age</a></h3>
+<p>Anthropic is calling for binding audits of frontier AI models, framing AI as a strategic weapon used by nation-states. This changes the international policy framework for AI development, requiring governments and companies to reevaluate their approaches to AI regulation and security.&ensp;<a href="https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/nucs-vs-choco/">NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran</a></h3>
+<p>NuCS, a pure-Python constraint solver, is compared to Choco, a JVM-based solver, in an in-depth performance test. This changes the choice of constraint solver for developers, who can now consider NuCS as a viable alternative to Choco for certain use cases.&ensp;<a href="https://towardsdatascience.com/nucs-vs-choco/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video">SpaceX Governance Standards Too Weak: Danish Pension CIO</a></h3>
+<p>Anders Schelde, CIO of AkademikerPension, a $25 billion Danish pension fund, says SpaceX&#x27;s governance structure is too weak, putting the risk of a sharp repricing on the table. This changes how investors evaluate the company&#x27;s valuation and governance before making investment decisions today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading">SpaceX Shares Indicated More Than 35% Higher in Shadow Trading</a></h3>
+<p>Shadow markets indicate a potential 35% pop for SpaceX stock, pricing a blockbuster debut for Elon Musk&#x27;s company. This changes the investment strategy for those considering buying into the company&#x27;s initial public offering or adjusting their portfolio allocations.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves">Banks Curb Hedge Fund Bets on SK Hynix, Samsung After Rally</a></h3>
+<p>Global banks are limiting hedge funds&#x27; leveraged bets on SK Hynix and Samsung Electronics after a significant rally, citing concerns of a potential pullback. This changes the risk management approach for hedge funds and investors holding positions in these Asian chipmakers, requiring adjustments to their leverage and exposure.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">Essentials: Sleep Toolkit for Optimizing Sleep &amp; Sleep-Wake Timing</a></h3>
+<p>Science-supported tools can improve sleep by supporting a healthy circadian rhythm using key behaviors and environmental cues, such as specific morning, afternoon, and evening behaviors. This changes your daily routine, allowing you to adjust your morning, afternoon, and evening behaviors today to increase daytime alertness and support deeper sleep.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, June 11, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-11.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-11.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, June 11, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI models like high-performance sports cars: they can accelerate content creation and race to the finish line faster, but also require careful handling and maintenance to avoid crashes. On the trading desk, this means reevaluating the cost-benefit analysis of adopting expensive but powerful models like Claude Fable 5, while in the sports lab, coaches are fine-tuning athlete training plans to maximize performance, much like tweaking a car's engine for optimal speed. As you consider upgrading to these new models, ask yourself: what's the real cost of speed, and are you willing to pay the price for a potential edge in your field?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/">Google&#x27;s new open model DiffusionGemma generates text from noise instead of word by word</a></h3>
-<p>Google&#x27;s DiffusionGemma model generates text through diffusion, similar to image AI, and reaches about 1,000 tokens per second on a single H100 GPU. This changes the text generation workflow by allowing for faster and potentially more efficient content creation using tools like DiffusionGemma.&ensp;<a href="https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/">Claude Fable 5: The first Mythos model is powerful, expensive, and heavily filtered</a></h3>
-<p>Claude Fable 5 leads nearly every benchmark, including SWE-bench Verified at 95 percent, but costs twice as much as Opus 4.8 and has strict safety filters that block about nine percent of requests. This changes the decision of which model to use for tasks that require high performance and safety, potentially leading to the adoption of Claude Fable 5 despite its higher cost.&ensp;<a href="https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/">Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for Up to 4x Faster Generation</a></h3>
-<p>Google&#x27;s DiffusionGemma model uses text diffusion for up to 4x faster generation on GPUs, making it a significant development in text generation technology. This changes the tool used for text generation tasks, potentially replacing existing models with DiffusionGemma for applications that require fast and efficient content creation.&ensp;<a href="https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7349728/2026/06/10/brazil-dudinha-acl-meniscus-injuries-uswnt-world-cup/">Brazil&#x27;s Dudinha injured ACL, meniscus in physical 1-0 loss to U.S.</a></h3>
-<p>Dudinha suffered a serious injury, including a torn ACL and meniscus, in Brazil&#x27;s 1-0 loss to the US. This changes the lineup for Brazil&#x27;s upcoming matches and the San Diego Wave&#x27;s strategy in the National Women’s Soccer League.&ensp;<a href="https://www.nytimes.com/athletic/7349728/2026/06/10/brazil-dudinha-acl-meniscus-injuries-uswnt-world-cup/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71546534/race-training-plan-tweaks-better-performance/">5 Ways to Get More From Your Race Training So You Maximize Race-Day Potential</a></h3>
-<p>Small adjustments to training, such as incorporating time trials and smarter strength work, can significantly improve performance. This changes the approach to creating a race training plan, allowing athletes to optimize their workouts and achieve better results.&ensp;<a href="https://www.runnersworld.com/training/a71546534/race-training-plan-tweaks-better-performance/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7349493/2026/06/10/ravens-minicamp-observations-lamar-jackson-tyler-loop/">Ravens kicker Tyler Loop has moved on from Week 18 miss: &#x27;Time to reset and reload&#x27;</a></h3>
-<p>Ravens kicker Tyler Loop has put his Week 18 miss behind him, and offensive coordinator Declan Doyle is holding players, including Lamar Jackson, accountable for their mistakes. This changes the team&#x27;s mindset and coaching approach, potentially impacting their performance in upcoming games.&ensp;<a href="https://www.nytimes.com/athletic/7349493/2026/06/10/ravens-minicamp-observations-lamar-jackson-tyler-loop/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">Essentials: Sleep Toolkit for Optimizing Sleep &amp; Sleep-Wake Timing</a></h3>
-<p>&ensp;<a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, June 10, 2026</title>
@@ -229,17 +239,6 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</guid>
     <pubDate>Sun, 24 May 2026 06:00:00 +0000</pubDate>
     <description>Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Aliba</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, May 23, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-23.html</guid>
-    <pubDate>Sat, 23 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI advancements like a master key that can unlock and rewrite the rules in various domains, much like a browser extension can change how you interact with the web. As AI models outperform each other in areas like online interactions, finance</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
