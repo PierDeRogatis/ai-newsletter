@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, June 13, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-13.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-13.html</guid>
+    <pubDate>Sat, 13 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI performance like a sports car's horsepower: a little extra speed can come at a huge cost, and Anthropic's latest model is a prime example, with a 5.7 percent performance boost coming at double the price. This has traders on the financial </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 13, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI performance like a sports car's horsepower: a little extra speed can come at a huge cost, and Anthropic's latest model is a prime example, with a 5.7 percent performance boost coming at double the price. This has traders on the financial desk wondering if the same calculus applies to investments in tech stocks like SpaceX, which just made history with its massive IPO. As you weigh the value of these pricey models and stocks, consider this: are you paying for actual performance gains, or just a fancy new feature set that won't move the needle?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/">Anthropic&#x27;s Claude Fable 5 costs twice as much for 5.7 percent more performance</a></h3>
+<p>Claude Fable 5 offers 5.7 percent more performance than Opus 4.8, but at double the token price. This changes the budgeting decision for businesses considering Anthropic&#x27;s AI models, as they must weigh the minor performance gain against the significantly higher cost.&ensp;<a href="https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://bitboard.work/">Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents</a></h3>
+<p>BitBoard is launching dashboards that allow users and their agents to work together, providing an infrastructure and visualization layer for analyzing data with AI. This changes the workflow for data analysis teams, as they can now use BitBoard&#x27;s collaborative dashboards to streamline their work.&ensp;<a href="https://bitboard.work/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://koenvangilst.nl/lab/claude-fable-shepherds-dog">Shepherd&#x27;s Dog: A Game by the Most Dangerous AI Model</a></h3>
+<p>The game Shepherd&#x27;s Dog was created using the Claude Fable AI model, demonstrating its capabilities in generating interactive content. This changes the toolset for game developers, as they can now consider using AI models like Claude Fable to generate game content and mechanics.&ensp;<a href="https://koenvangilst.nl/lab/claude-fable-shepherds-dog">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video">Wall Street Week | SpaceX Goes Public, Google’s AI Bet, World Cup Price Backlash</a></h3>
+<p>SpaceX is going public and Google is making its most radical change to search in twenty years, while the federal government is investing in private technology companies, including those focused on quantum computing. This changes the investment strategy for those looking to diversify their portfolios with tech stocks and potentially adjust their search engine optimization tools.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html">The S&amp;P 500 already made a big call on SpaceX stock and index fund investors need to know it</a></h3>
+<p>The S&amp;P 500 index has decided not to include SpaceX in its index, despite the company&#x27;s historic IPO, which will impact portfolios that track the index. This changes the portfolio management decision for index fund investors, who may need to adjust their investments or consider other funds that include SpaceX stock.&ensp;<a href="https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video">SpaceX Makes History With Biggest-Ever IPO | Bloomberg Tech 6/12/2026</a></h3>
+<p>SpaceX has made history with the biggest-ever IPO, with shares starting to trade on the Nasdaq, and experts are weighing in on the company&#x27;s public market debut. This changes the stock trading strategy for investors looking to buy or sell SpaceX shares, who will need to monitor the company&#x27;s performance and adjust their trading decisions accordingly.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1">Make or break: psychotropic medications have off-label effects on neuromuscular performance</a></h3>
+<p>30%–40% of elite athletes experience symptoms of anxiety and depression, and up to 8% are affected by attention-deficit disorders. This changes the approach to athlete mental health support, which should now consider the potential off-label effects of psychotropic medications on neuromuscular performance.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1">Long-term resistance training with all-cause and cause-specific mortality: assessing dose-response and joint associations with aerobic physical activity</a></h3>
+<p>Resistance training is associated with lower all-cause and cause-specific mortality, with a dose-response relationship that can be influenced by aerobic physical activity. This changes the exercise prescription tool, which should now include resistance training as a key component of a comprehensive fitness program.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1">Effectiveness of maintenance interventions promoting physical activity following exercise therapy for chronic conditions: an umbrella review</a></h3>
+<p>Maintenance interventions after exercise therapy can improve physical activity, physical function, and health-related quality of life in people with chronic conditions. This changes the workflow of rehabilitation programs, which should now prioritize maintenance interventions to sustain long-term physical activity and health benefits.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents">Building and evaluating model diffing agents</a></h3>
+<p>Researchers can build simple agents that find interesting behavioral differences between models, which could lead to breakthroughs in model interpretability. This changes the model evaluation workflow, allowing developers to use these agents to identify and understand model discrepancies today.&ensp;<a href="https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/">Research into how AI can help users understand skin conditions</a></h3>
+<p>Google is researching how AI can assist users in understanding skin conditions, potentially leading to improved health outcomes. This changes the skin condition diagnosis tool, enabling healthcare providers to leverage AI-powered solutions to enhance patient care and education immediately.&ensp;<a href="https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate">Sympathy for both sides of the egregious misalignment debate</a></h3>
+<p>The egregious misalignment debate centers around the potential risks of superintelligent AI, with some experts believing it will lead to catastrophic consequences without proper alignment. This changes the AI development decision, prompting researchers and developers to prioritize alignment and safety measures in their current AI projects to mitigate potential risks.&ensp;<a href="https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">AINews: Fable and Mythos officially too dangerous to release</a></h3>
+<p>Fable and Mythos have been deemed too dangerous for release, indicating significant risks associated with their deployment. This changes the development and release plans for these AI models, requiring alternative solutions or major safety overhauls to be implemented before they can be considered for public use.&ensp;<a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, June 12, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, June 12, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging the performance of AI systems or the governance of companies like SpaceX can lead to disastrous investment decisions. As you consider how to optimize your own performance, whether in finance or sports, what's the one metric you're using that might be lying to you?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/">When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI</a></h3>
-<p>Average GPU utilization can be misleading, hiding the true usage of GPUs. This changes how we monitor and optimize GPU performance in AI systems, requiring a more nuanced approach to measuring utilization.&ensp;<a href="https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/">Dario Amodei&#x27;s new essay reads like a Cold War playbook for the AI age</a></h3>
-<p>Anthropic is calling for binding audits of frontier AI models, framing AI as a strategic weapon used by nation-states. This changes the international policy framework for AI development, requiring governments and companies to reevaluate their approaches to AI regulation and security.&ensp;<a href="https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/nucs-vs-choco/">NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran</a></h3>
-<p>NuCS, a pure-Python constraint solver, is compared to Choco, a JVM-based solver, in an in-depth performance test. This changes the choice of constraint solver for developers, who can now consider NuCS as a viable alternative to Choco for certain use cases.&ensp;<a href="https://towardsdatascience.com/nucs-vs-choco/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video">SpaceX Governance Standards Too Weak: Danish Pension CIO</a></h3>
-<p>Anders Schelde, CIO of AkademikerPension, a $25 billion Danish pension fund, says SpaceX&#x27;s governance structure is too weak, putting the risk of a sharp repricing on the table. This changes how investors evaluate the company&#x27;s valuation and governance before making investment decisions today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading">SpaceX Shares Indicated More Than 35% Higher in Shadow Trading</a></h3>
-<p>Shadow markets indicate a potential 35% pop for SpaceX stock, pricing a blockbuster debut for Elon Musk&#x27;s company. This changes the investment strategy for those considering buying into the company&#x27;s initial public offering or adjusting their portfolio allocations.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves">Banks Curb Hedge Fund Bets on SK Hynix, Samsung After Rally</a></h3>
-<p>Global banks are limiting hedge funds&#x27; leveraged bets on SK Hynix and Samsung Electronics after a significant rally, citing concerns of a potential pullback. This changes the risk management approach for hedge funds and investors holding positions in these Asian chipmakers, requiring adjustments to their leverage and exposure.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">Essentials: Sleep Toolkit for Optimizing Sleep &amp; Sleep-Wake Timing</a></h3>
-<p>Science-supported tools can improve sleep by supporting a healthy circadian rhythm using key behaviors and environmental cues, such as specific morning, afternoon, and evening behaviors. This changes your daily routine, allowing you to adjust your morning, afternoon, and evening behaviors today to increase daytime alertness and support deeper sleep.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, June 11, 2026</title>
@@ -231,17 +263,6 @@
     <description>Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwr</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, May 24, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-24.html</guid>
-    <pubDate>Sun, 24 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a turbocharger for development workflows, where autonomous code optimization and bug detection are accelerating the pace of innovation, much like a sports team using data analytics to fine-tune their strategy. As AI models like Aliba</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

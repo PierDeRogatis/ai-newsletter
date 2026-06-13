@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-13",
+    "headline": "AI models get pricey",
+    "brief": "Think of AI performance like a sports car's horsepower: a little extra speed can come at a huge cost, and Anthropic's latest model is a prime example, with a 5.7 percent performance boost coming at double the price. This has traders on the financial ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-06-13.html"
+  },
+  {
     "date": "2026-06-12",
     "headline": "Performance Metrics Mislead",
     "brief": "Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging",

@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/microsoft-researchs-lens-proves-detailed-captions-matter-more-than-raw-scale-for-training-efficient-image-generators/",
-    "date": "2026-06-09"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/",
-    "date": "2026-06-09"
-  },
-  {
-    "url": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/",
-    "date": "2026-06-09"
-  },
-  {
-    "url": "http://bjsm.bmj.com/cgi/content/short/60/11/780?rss=1",
-    "date": "2026-06-09"
-  },
-  {
-    "url": "http://bjsm.bmj.com/cgi/content/short/60/11/766?rss=1",
-    "date": "2026-06-09"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1861469",
-    "date": "2026-06-09"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/",
     "date": "2026-06-10"
   },
@@ -102,5 +78,57 @@
   {
     "url": "https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves",
     "date": "2026-06-12"
+  },
+  {
+    "url": "https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://bitboard.work/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate",
+    "date": "2026-06-13"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+    "date": "2026-06-13"
   }
 ]
