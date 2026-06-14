@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-14",
+    "headline": "Code gets cheaper",
+    "brief": "The cost of generating code is plummeting, like a cheaper taxi ride, thanks to open models like Kimi K2.7 Code that undercut big players by up to 12 times. This changes the calculus for trading desks, where AI-powered coding tools can now be deployed",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 11,
+    "path": "issues/2026-06-14.html"
+  },
+  {
     "date": "2026-06-13",
     "headline": "AI models get pricey",
     "brief": "Think of AI performance like a sports car's horsepower: a little extra speed can come at a huge cost, and Anthropic's latest model is a prime example, with a 5.7 percent performance boost coming at double the price. This has traders on the financial ",

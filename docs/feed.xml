@@ -9,6 +9,61 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, June 14, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-14.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-14.html</guid>
+    <pubDate>Sun, 14 Jun 2026 06:00:00 +0000</pubDate>
+    <description>The cost of generating code is plummeting, like a cheaper taxi ride, thanks to open models like Kimi K2.7 Code that undercut big players by up to 12 times. This changes the calculus for trading desks, where AI-powered coding tools can now be deployed</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, June 14, 2026&ensp;·&ensp;11 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>The cost of generating code is plummeting, like a cheaper taxi ride, thanks to open models like Kimi K2.7 Code that undercut big players by up to 12 times. This changes the calculus for trading desks, where AI-powered coding tools can now be deployed more widely, and sports teams, where data analysis and customization can become more affordable. Now you have to ask: will the rush to adopt cheaper AI coding tools compromise on quality and security, and what are the hidden costs of that tradeoff?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/">Open model Kimi K2.7 Code undercuts GPT-5.5 and Claude by up to 12x on price per token</a></h3>
+<p>Kimi K2.7 Code, an open-weights model, costs up to 12x less than GPT-5.5 and Claude per token, despite trailing them in coding benchmarks. This changes the pricing model for businesses considering AI solutions, allowing them to opt for a more affordable option like Kimi K2.7 Code for their coding needs.&ensp;<a href="https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/">Google Research&#x27;s Gemini-SQL2 tops text-to-SQL benchmarks by a wide margin</a></h3>
+<p>Gemini-SQL2 achieves 80.04 percent accuracy on the BIRD benchmark, outperforming other models like OpenAI and Anthropic. This changes the workflow for developers using natural language to generate SQL queries, as they can now rely on Gemini-SQL2 for more accurate results.&ensp;<a href="https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/">Microsoft&#x27;s SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file</a></h3>
+<p>Microsoft&#x27;s SkillOpt method boosts GPT-5.5 performance by about 23 points on procedural tasks using a simple trained Markdown file. This changes the tool used for optimizing AI instruction documents, as developers can now utilize SkillOpt and a Markdown file to improve their AI models&#x27; performance.&ensp;<a href="https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-13/why-the-us-is-investing-in-quantum-computing-video">Why the US Is Investing in Quantum Computing</a></h3>
+<p>The US is investing in nine quantum computing companies, with IBM being the largest recipient, to solve problems in drug discovery, financial markets, and cybersecurity. This changes the approach to research and development in these fields, as companies can now consider partnering with quantum computing firms to accelerate innovation.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-13/why-the-us-is-investing-in-quantum-computing-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.capitalspectator.com/book-bits-13-june-2026/">Book Bits: 13 June 2026</a></h3>
+<p>A new book, New Space Capitalism, explores the concept of space economics, which is based on the science of scarcity and the idea that economics applies wherever there are limited resources. This changes the way entrepreneurs and investors think about space exploration and development, as they can now apply economic principles to this emerging field.&ensp;<a href="https://www.capitalspectator.com/book-bits-13-june-2026/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-14/starmer-to-meet-japan-s-takaichi-as-fighter-jet-funding-sputters">Starmer to Meet Japan’s Takaichi as Fighter Jet Funding Sputters</a></h3>
+<p>British Prime Minister Keir Starmer is meeting with Japanese counterpart Sanae Takaichi to discuss the joint fighter jet program with Italy, which is facing uncertainty due to doubts about the UK&#x27;s commitment. This changes the diplomatic agenda for the meeting, as the leaders will now need to address the funding issues and reassure each other about their countries&#x27; commitments to the program.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-14/starmer-to-meet-japan-s-takaichi-as-fighter-jet-funding-sputters">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71563449/run-by-pace-heart-rate-or-effort/">Should You Run by Pace, Heart Rate, or Effort? Coaches Explain When Each Metric Matters Most</a></h3>
+<p>Coaches explain that running by pace, heart rate, or effort can guide training and help get the most out of every workout, with each metric mattering most at specific times. This changes the running training tool you use to track progress, such as switching from a pace-focused watch to a heart rate monitor or effort-based app, to optimize workouts.&ensp;<a href="https://www.runnersworld.com/training/a71563449/run-by-pace-heart-rate-or-effort/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/live-blogs/knicks-vs-spurs-live-updates-nba-finals-game-5-score-result/CllNC3PHGOrS/">New York Knicks win 2026 NBA Finals, end 53-year title drought: Live updates and reaction</a></h3>
+<p>Jalen Brunson scored 45 points on 14-of-27 shooting, leading the New York Knicks to win the 2026 NBA Finals and end their 53-year title drought. This changes the way Knicks fans approach the upcoming season, with renewed excitement and expectations, and potentially altering their fantasy basketball team decisions.&ensp;<a href="https://www.nytimes.com/athletic/live-blogs/knicks-vs-spurs-live-updates-nba-finals-game-5-score-result/CllNC3PHGOrS/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7358923/2026/06/14/connections-sports-edition-hints-answers-june-14-2026/">Connections: Sports Edition today: Hints and answers for June 14, 2026, puzzle No. 629</a></h3>
+<p>The Connections: Sports Edition puzzle No. 629 for June 14, 2026, is available with hints and answers for solvers. This changes the puzzle-solving workflow, as solvers can now use the provided hints and answers to complete the puzzle, and potentially alter their strategy for future puzzles.&ensp;<a href="https://www.nytimes.com/athletic/7358923/2026/06/14/connections-sports-edition-hints-answers-june-14-2026/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1">SFT Drives Gemini’s Safety Properties</a></h3>
+<p>&ensp;<a href="https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">AINews: Fable and Mythos officially too dangerous to release</a></h3>
+<p>Fable and Mythos have been deemed too dangerous for release due to unknown reasons. This changes the development and release plans for these projects, potentially altering the risk assessment tools used to evaluate AI models like Fable and Mythos.&ensp;<a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, June 13, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-13.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-13.html</guid>
@@ -19,55 +74,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 13, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI performance like a sports car's horsepower: a little extra speed can come at a huge cost, and Anthropic's latest model is a prime example, with a 5.7 percent performance boost coming at double the price. This has traders on the financial desk wondering if the same calculus applies to investments in tech stocks like SpaceX, which just made history with its massive IPO. As you weigh the value of these pricey models and stocks, consider this: are you paying for actual performance gains, or just a fancy new feature set that won't move the needle?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/">Anthropic&#x27;s Claude Fable 5 costs twice as much for 5.7 percent more performance</a></h3>
-<p>Claude Fable 5 offers 5.7 percent more performance than Opus 4.8, but at double the token price. This changes the budgeting decision for businesses considering Anthropic&#x27;s AI models, as they must weigh the minor performance gain against the significantly higher cost.&ensp;<a href="https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://bitboard.work/">Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents</a></h3>
-<p>BitBoard is launching dashboards that allow users and their agents to work together, providing an infrastructure and visualization layer for analyzing data with AI. This changes the workflow for data analysis teams, as they can now use BitBoard&#x27;s collaborative dashboards to streamline their work.&ensp;<a href="https://bitboard.work/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://koenvangilst.nl/lab/claude-fable-shepherds-dog">Shepherd&#x27;s Dog: A Game by the Most Dangerous AI Model</a></h3>
-<p>The game Shepherd&#x27;s Dog was created using the Claude Fable AI model, demonstrating its capabilities in generating interactive content. This changes the toolset for game developers, as they can now consider using AI models like Claude Fable to generate game content and mechanics.&ensp;<a href="https://koenvangilst.nl/lab/claude-fable-shepherds-dog">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video">Wall Street Week | SpaceX Goes Public, Google’s AI Bet, World Cup Price Backlash</a></h3>
-<p>SpaceX is going public and Google is making its most radical change to search in twenty years, while the federal government is investing in private technology companies, including those focused on quantum computing. This changes the investment strategy for those looking to diversify their portfolios with tech stocks and potentially adjust their search engine optimization tools.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html">The S&amp;P 500 already made a big call on SpaceX stock and index fund investors need to know it</a></h3>
-<p>The S&amp;P 500 index has decided not to include SpaceX in its index, despite the company&#x27;s historic IPO, which will impact portfolios that track the index. This changes the portfolio management decision for index fund investors, who may need to adjust their investments or consider other funds that include SpaceX stock.&ensp;<a href="https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video">SpaceX Makes History With Biggest-Ever IPO | Bloomberg Tech 6/12/2026</a></h3>
-<p>SpaceX has made history with the biggest-ever IPO, with shares starting to trade on the Nasdaq, and experts are weighing in on the company&#x27;s public market debut. This changes the stock trading strategy for investors looking to buy or sell SpaceX shares, who will need to monitor the company&#x27;s performance and adjust their trading decisions accordingly.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1">Make or break: psychotropic medications have off-label effects on neuromuscular performance</a></h3>
-<p>30%–40% of elite athletes experience symptoms of anxiety and depression, and up to 8% are affected by attention-deficit disorders. This changes the approach to athlete mental health support, which should now consider the potential off-label effects of psychotropic medications on neuromuscular performance.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1">Long-term resistance training with all-cause and cause-specific mortality: assessing dose-response and joint associations with aerobic physical activity</a></h3>
-<p>Resistance training is associated with lower all-cause and cause-specific mortality, with a dose-response relationship that can be influenced by aerobic physical activity. This changes the exercise prescription tool, which should now include resistance training as a key component of a comprehensive fitness program.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1">Effectiveness of maintenance interventions promoting physical activity following exercise therapy for chronic conditions: an umbrella review</a></h3>
-<p>Maintenance interventions after exercise therapy can improve physical activity, physical function, and health-related quality of life in people with chronic conditions. This changes the workflow of rehabilitation programs, which should now prioritize maintenance interventions to sustain long-term physical activity and health benefits.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents">Building and evaluating model diffing agents</a></h3>
-<p>Researchers can build simple agents that find interesting behavioral differences between models, which could lead to breakthroughs in model interpretability. This changes the model evaluation workflow, allowing developers to use these agents to identify and understand model discrepancies today.&ensp;<a href="https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/">Research into how AI can help users understand skin conditions</a></h3>
-<p>Google is researching how AI can assist users in understanding skin conditions, potentially leading to improved health outcomes. This changes the skin condition diagnosis tool, enabling healthcare providers to leverage AI-powered solutions to enhance patient care and education immediately.&ensp;<a href="https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate">Sympathy for both sides of the egregious misalignment debate</a></h3>
-<p>The egregious misalignment debate centers around the potential risks of superintelligent AI, with some experts believing it will lead to catastrophic consequences without proper alignment. This changes the AI development decision, prompting researchers and developers to prioritize alignment and safety measures in their current AI projects to mitigate potential risks.&ensp;<a href="https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">AINews: Fable and Mythos officially too dangerous to release</a></h3>
-<p>Fable and Mythos have been deemed too dangerous for release, indicating significant risks associated with their deployment. This changes the development and release plans for these AI models, requiring alternative solutions or major safety overhauls to be implemented before they can be considered for public use.&ensp;<a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, June 12, 2026</title>
@@ -253,16 +259,6 @@
     <description>Think of AI-assisted coding like a skilled apprentice who can take care of routine tasks, freeing up the master craftsman to focus on the intricate parts, and this is exactly what's happening in data teams where developers are using AI to generate co</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, May 25, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-25.html</guid>
-    <pubDate>Mon, 25 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's stories like a master key that unlocks new rooms in different houses - the houses being data engineering, finance, and even travel writing. As you walk into the data engineering house, you notice how new tools like Langfuse and Webwr</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
