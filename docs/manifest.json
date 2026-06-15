@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-15",
+    "headline": "AI dominance fears rise",
+    "brief": "Think of today's AI landscape like a game of musical chairs, where a few powerful systems might end up holding all the seats, leaving others to fight for scraps. This fear of dominance is already changing the way investors approach stocks like SpaceX",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-15.html"
+  },
+  {
     "date": "2026-06-14",
     "headline": "Code gets cheaper",
     "brief": "The cost of generating code is plummeting, like a cheaper taxi ride, thanks to open models like Kimi K2.7 Code that undercut big players by up to 12 times. This changes the calculus for trading desks, where AI-powered coding tools can now be deployed",

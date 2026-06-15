@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7349728/2026/06/10/brazil-dudinha-acl-meniscus-injuries-uswnt-world-cup/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71546534/race-training-plan-tweaks-better-performance/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7349493/2026/06/10/ravens-minicamp-observations-lamar-jackson-tyler-loop/",
-    "date": "2026-06-11"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing",
-    "date": "2026-06-11"
-  },
-  {
     "url": "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
     "date": "2026-06-12"
   },
@@ -142,5 +114,29 @@
   {
     "url": "https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1",
     "date": "2026-06-14"
+  },
+  {
+    "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-15/macron-s-g7-legacy-hangs-on-fickle-ai-funding-and-data-centers",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-15/activist-palliser-urges-taiwan-firm-wus-to-privatize-lift-value",
+    "date": "2026-06-15"
   }
 ]
