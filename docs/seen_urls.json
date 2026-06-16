@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
-    "date": "2026-06-12"
-  },
-  {
-    "url": "https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/",
-    "date": "2026-06-12"
-  },
-  {
-    "url": "https://towardsdatascience.com/nucs-vs-choco/",
-    "date": "2026-06-12"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-12/spacex-governance-standards-too-weak-danish-pension-cio-video",
-    "date": "2026-06-12"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-shares-indicated-more-than-35-higher-in-shadow-trading",
-    "date": "2026-06-12"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-12/banks-curb-hedge-fund-bets-on-sk-hynix-samsung-after-wild-moves",
-    "date": "2026-06-12"
-  },
-  {
     "url": "https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/",
     "date": "2026-06-13"
   },
@@ -138,5 +114,33 @@
   {
     "url": "https://www.bloomberg.com/news/articles/2026-06-15/activist-palliser-urges-taiwan-firm-wus-to-privatize-lift-value",
     "date": "2026-06-15"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/",
+    "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
+    "date": "2026-06-16"
   }
 ]

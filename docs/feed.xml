@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, June 16, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</guid>
+    <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of context like a referee in a sports game, setting the rules and boundaries for fair play - just as a good referee enables a smooth game, well-curated context enables AI agents to make informed decisions. On the trading desk, this means that a</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 16, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of context like a referee in a sports game, setting the rules and boundaries for fair play - just as a good referee enables a smooth game, well-curated context enables AI agents to make informed decisions. On the trading desk, this means that advancements in AI context tools, like Google Cloud's Open Knowledge Format, could soon trickle down to inform more accurate predictive models in finance and sports analytics. As you consider how to apply these new context tools, ask yourself: what are the potential blind spots in your current workflow that a more standardized approach to context could illuminate?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/">Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context</a></h3>
+<p>Google Cloud introduced the Open Knowledge Format (OKF), a vendor-neutral markdown spec that formalizes the LLM-wiki pattern, using a directory of markdown files with YAML frontmatter. This changes the way developers create and curate context for AI agents, allowing them to use OKF in their workflow today.&ensp;<a href="https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/">How to Build a Parsing Pipeline with Docling Parse for Layout-Aware Document Intelligence</a></h3>
+<p>Docling Parse can be used to analyze PDF documents at a detailed structural level by building a workflow that prepares a stable Python environment and generates a custom multi-page PDF. This changes the document parsing pipeline tool, enabling developers to use Docling Parse in their layout-aware document intelligence workflow today.&ensp;<a href="https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/">The Protocol That Cleaned Up Our Agent Architecture</a></h3>
+<p>The MCP protocol turned scattered tool definitions into a stable, discoverable server, cleaning up the agent architecture. This changes the agent architecture design, allowing developers to use the MCP protocol to create more stable and discoverable servers in their workflow today.&ensp;<a href="https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861">Applying theory of planned behavior to examine adolescent female athletes’ intentions of continued sport participation</a></h3>
+<p>Adolescent females discontinue sports at higher rates than males, and the Theory of Planned Behavior provides a framework to study this disparity. This changes the approach to designing sports programs for adolescent females, allowing coaches and organizers to better understand and address the factors that influence their participation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870">Predictive accuracy of machine learning and markerless gait analysis for return-to-sport following lower extremity injury: a systematic review and meta-analysis</a></h3>
+<p>Machine learning and markerless gait analysis offer potential improvements in predicting return-to-sport outcomes after lower extremity injuries. This changes the assessment tools used by sports medicine professionals, enabling them to make more informed decisions about athlete recovery and rehabilitation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/">Newcastle agree £60m front-of-shirt sponsorship deal with KNOX: Why is it significant?</a></h3>
+<p>Newcastle has agreed to a £60m front-of-shirt sponsorship deal with KNOX, a South African sports drinks company. This changes Newcastle&#x27;s sponsorship strategy, providing a significant influx of funding and potentially altering the club&#x27;s marketing and branding efforts.&ensp;<a href="https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-satya-on-loopcraft-building">[AINews] Satya on Loopcraft: Building Frontier Ecosystems</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-satya-on-loopcraft-building">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, June 15, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-15.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-15.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 15, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI landscape like a game of musical chairs, where a few powerful systems might end up holding all the seats, leaving others to fight for scraps. This fear of dominance is already changing the way investors approach stocks like SpaceX, where they're not just looking at financials, but also the company's ability to develop and control its own AI capabilities. As you consider the implications of this shift, ask yourself: what's the threshold at which a company's investment in AI stops being a competitive advantage and starts being a necessity just to stay in the game?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/">GPU Time-Slicing for Concurrent LLM Agents on Kubernetes</a></h3>
-<p>Kubernetes GPU time-slicing has hidden microarchitectural costs that affect the co-location of Agentic AI workloads, impacting the efficiency of concurrent LLM agents. This changes the Kubernetes deployment strategy for AI workloads, requiring a re-evaluation of resource allocation and workload scheduling.&ensp;<a href="https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/">Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG</a></h3>
-<p>Vision models can read charts and diagrams in addition to text, enabling them to parse PDFs more effectively, which is a key aspect of Enterprise Document Intelligence. This changes the PDF parsing tool, allowing developers to integrate vision models into their document processing workflows for more accurate and comprehensive data extraction.&ensp;<a href="https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/">Microsoft CEO Satya Nadella warns of &quot;a small number of AI systems capturing all the economic returns&quot;</a></h3>
-<p>Microsoft CEO Satya Nadella warns that a small number of AI systems could capture all the economic returns, leaving other companies behind, and advocates for building internal AI capabilities, or &quot;token capital&quot;, to stay competitive. This changes the business strategy for companies, requiring them to invest in developing their own AI capabilities and proprietary learning loops to avoid being displaced by dominant AI systems.&ensp;<a href="https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz">SpaceX Shares Rise, Set to Extend Gains After Record IPO</a></h3>
-<p>SpaceX shares jumped in premarket trading Monday after its blockbuster debut Friday, and this changes the investment strategy for those looking to buy into the company&#x27;s stock today. This development alters the portfolio management tool used by investors to track and analyze SpaceX&#x27;s stock performance.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-15/macron-s-g7-legacy-hangs-on-fickle-ai-funding-and-data-centers">Macron’s G7 Legacy Hangs on Fickle AI Funding and Data Centers</a></h3>
-<p>Emmanuel Macron wants to be remembered as the French president who put Europe back in the technology race, with less than a year left in office, and this changes the decision-making process for European tech companies considering investments in AI funding and data centers. This shift in priorities alters the workflow of European tech companies as they reassess their strategies to align with Macron&#x27;s vision.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-15/macron-s-g7-legacy-hangs-on-fickle-ai-funding-and-data-centers">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-15/activist-palliser-urges-taiwan-firm-wus-to-privatize-lift-value">Activist Palliser Urges Taiwan Firm WUS to Privatize, Lift Value</a></h3>
-<p>Activist hedge fund Palliser Capital is urging Taiwanese company WUS Printed Circuit Co to enhance shareholder value through a potential privatization, and this changes the valuation model used by investors to assess WUS&#x27;s stock. This development alters the merger and acquisition tool used by WUS&#x27;s management team to evaluate potential privatization deals and strategic partnerships.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-15/activist-palliser-urges-taiwan-firm-wus-to-privatize-lift-value">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">AINews</a></h3>
-<p>Fable and Mythos have been deemed too dangerous to release due to potential risks. This changes the development and release plans for AI models like Fable and Mythos, requiring alternative safety protocols and risk assessments to be implemented before they can be considered for release.&ensp;<a href="https://www.latent.space/p/ainews-fable-and-mythos-officially">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, June 14, 2026</title>
@@ -235,16 +245,6 @@
     <description>Think of today's stories like a sports team's playbook, where small tweaks to strategy can drastically alter the outcome - in this case, the strategies are around AI model training, investment workflows, and athlete nutrition planning. As AI agents s</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, May 27, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-27.html</guid>
-    <pubDate>Wed, 27 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like students who've figured out how to cheat on a test by generating fake answers that sound plausible, and this skill is spreading fast across different areas of research. As a result, the consequences are now being felt on a tra</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
