@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/anthropics-claude-fable-5-costs-twice-as-much-for-5-7-percent-more-performance/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://bitboard.work/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-12/wall-street-week-google-s-ai-bet-world-cup-backlash-video",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-12/bloomberg-tech-6-12-2026-video",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/841?rss=1",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/874?rss=1",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "http://bjsm.bmj.com/cgi/content/short/60/12/884?rss=1",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate",
-    "date": "2026-06-13"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
-    "date": "2026-06-13"
-  },
-  {
     "url": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
     "date": "2026-06-14"
   },
@@ -142,5 +90,33 @@
   {
     "url": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
     "date": "2026-06-16"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.01650",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.17657",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.17076",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+    "date": "2026-06-17"
   }
 ]

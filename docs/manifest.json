@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-17",
+    "headline": "Models get tested before they fight",
+    "brief": "Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-17.html"
+  },
+  {
     "date": "2026-06-16",
     "headline": "Context is King",
     "brief": "Think of context like a referee in a sports game, setting the rules and boundaries for fair play - just as a good referee enables a smooth game, well-curated context enables AI agents to make informed decisions. On the trading desk, this means that a",

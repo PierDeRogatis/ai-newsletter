@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, June 17, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</guid>
+    <pubDate>Wed, 17 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, June 17, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment, where a model's simulated performance can inform investment decisions, and similarly, in sports performance, simulated athlete data can optimize training regimens. Now, consider how this shift in model testing might affect the data team's workflow, and whether they're ready to adapt their model deployment strategies to prioritize pre-deployment simulation and risk mitigation.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/">OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls</a></h3>
+<p>OpenAI introduced Deployment Simulation, which replays past conversations through a new candidate model before release and grades the completions to estimate deployment-time rates of undesired behavior, reporting a 1.5x median multiplier. This changes the model deployment workflow, allowing developers to assess and mitigate potential risks before releasing their models.&ensp;<a href="https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/">How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention</a></h3>
+<p>Implementing xFormers, a toolkit for fast and memory-efficient Transformer models, validates memory-efficient attention and compares speed and memory across sequence lengths, with techniques like causal masking and packed variable-length sequences. This changes the Transformer model development tool, enabling developers to build more efficient models using xFormers and its associated techniques.&ensp;<a href="https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/">LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer</a></h3>
+<p>LLM rate limits can corrupt structured outputs when fallback models receive incompatible payloads, but a new recovery layer can classify failures, adapt payloads, preserve execution state, and maintain schema integrity. This changes the agent pipeline workflow, allowing developers to integrate the recovery layer and prevent pipeline breaks due to LLM fallbacks.&ensp;<a href="https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2511.01650">EngTrace: A Symbolic Benchmark for Verifiable Process Supervision of Engineering Reasoning</a></h3>
+<p>Large Language Models are being used in safety-critical engineering workflows, making rigorous evaluation of their reasoning capabilities imperative, with 2511.01650v3 being the latest version of the EngTrace benchmark. This changes the tool used for evaluating Large Language Models in engineering workflows, allowing for more accurate assessments of their capabilities.&ensp;<a href="https://arxiv.org/abs/2511.01650">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.17657">Using Cognitive Models to Improve Language Model Simulation of Human Persuasion Games</a></h3>
+<p>People make decisions differently in strategic interactions, with some updating beliefs like a Bayesian and others exhibiting biases like motivated reasoning, which can be simulated using cognitive models. This changes the workflow for training large language models, as they can now be trained using simulated humans that more accurately reflect human decision-making processes.&ensp;<a href="https://arxiv.org/abs/2606.17657">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.17076">CMIP-Forge: An Agentic System that Retrieves, Computes, and Self-Reviews Climate Science</a></h3>
+<p>The Coupled Model Intercomparison Project Phase 6 has generated thousands of peer-reviewed publications, which can be retrieved, computed, and self-reviewed using the CMIP-Forge system. This changes the decision-making process for climate scientists, as they can now use the CMIP-Forge system to more efficiently and accurately evaluate and synthesize large amounts of climate data.&ensp;<a href="https://arxiv.org/abs/2606.17076">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding">AINews</a></h3>
+<p>GLM-5.2 is now considered the top frontend coding model in the world, utilizing IndexShare for speculative decoding. This changes the model developers and researchers use for frontend coding tasks, potentially updating their workflow to incorporate GLM-5.2 for improved performance.&ensp;<a href="https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, June 16, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 16, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of context like a referee in a sports game, setting the rules and boundaries for fair play - just as a good referee enables a smooth game, well-curated context enables AI agents to make informed decisions. On the trading desk, this means that advancements in AI context tools, like Google Cloud's Open Knowledge Format, could soon trickle down to inform more accurate predictive models in finance and sports analytics. As you consider how to apply these new context tools, ask yourself: what are the potential blind spots in your current workflow that a more standardized approach to context could illuminate?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/">Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context</a></h3>
-<p>Google Cloud introduced the Open Knowledge Format (OKF), a vendor-neutral markdown spec that formalizes the LLM-wiki pattern, using a directory of markdown files with YAML frontmatter. This changes the way developers create and curate context for AI agents, allowing them to use OKF in their workflow today.&ensp;<a href="https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/">How to Build a Parsing Pipeline with Docling Parse for Layout-Aware Document Intelligence</a></h3>
-<p>Docling Parse can be used to analyze PDF documents at a detailed structural level by building a workflow that prepares a stable Python environment and generates a custom multi-page PDF. This changes the document parsing pipeline tool, enabling developers to use Docling Parse in their layout-aware document intelligence workflow today.&ensp;<a href="https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/">The Protocol That Cleaned Up Our Agent Architecture</a></h3>
-<p>The MCP protocol turned scattered tool definitions into a stable, discoverable server, cleaning up the agent architecture. This changes the agent architecture design, allowing developers to use the MCP protocol to create more stable and discoverable servers in their workflow today.&ensp;<a href="https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861">Applying theory of planned behavior to examine adolescent female athletes’ intentions of continued sport participation</a></h3>
-<p>Adolescent females discontinue sports at higher rates than males, and the Theory of Planned Behavior provides a framework to study this disparity. This changes the approach to designing sports programs for adolescent females, allowing coaches and organizers to better understand and address the factors that influence their participation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870">Predictive accuracy of machine learning and markerless gait analysis for return-to-sport following lower extremity injury: a systematic review and meta-analysis</a></h3>
-<p>Machine learning and markerless gait analysis offer potential improvements in predicting return-to-sport outcomes after lower extremity injuries. This changes the assessment tools used by sports medicine professionals, enabling them to make more informed decisions about athlete recovery and rehabilitation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/">Newcastle agree £60m front-of-shirt sponsorship deal with KNOX: Why is it significant?</a></h3>
-<p>Newcastle has agreed to a £60m front-of-shirt sponsorship deal with KNOX, a South African sports drinks company. This changes Newcastle&#x27;s sponsorship strategy, providing a significant influx of funding and potentially altering the club&#x27;s marketing and branding efforts.&ensp;<a href="https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-satya-on-loopcraft-building">[AINews] Satya on Loopcraft: Building Frontier Ecosystems</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-satya-on-loopcraft-building">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, June 15, 2026</title>
@@ -235,16 +245,6 @@
     <description>Think of today's AI advancements like a series of better tools in a workshop, each one making the others more useful: a sharper saw helps you build a better workbench, which in turn helps you craft an even sharper saw. As these improved AI tools spre</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, May 28, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-28.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-28.html</guid>
-    <pubDate>Thu, 28 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's stories like a sports team's playbook, where small tweaks to strategy can drastically alter the outcome - in this case, the strategies are around AI model training, investment workflows, and athlete nutrition planning. As AI agents s</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
