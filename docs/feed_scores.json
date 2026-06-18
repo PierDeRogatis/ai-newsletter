@@ -5,14 +5,14 @@
       1,
       1,
       1,
-      1,
       0,
       1,
       0,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
@@ -38,15 +38,14 @@
       1,
       1,
       1,
-      1,
       0,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://www.marktechpost.com/feed/": {
     "recent_hits": [
-      0,
       1,
       1,
       1,
@@ -55,15 +54,16 @@
       0,
       0,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -72,7 +72,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.sportspromedia.com/feed/": {
     "recent_hits": [
@@ -87,7 +87,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://news.mit.edu/rss/topic/artificial-intelligence2": {
     "recent_hits": [
@@ -196,7 +196,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.alignmentforum.org/feed.xml": {
     "recent_hits": [
@@ -231,17 +231,17 @@
   "https://towardsdatascience.com/feed": {
     "recent_hits": [
       0,
-      0,
       1,
       0,
       1,
       0,
       0,
+      1,
       1,
       1,
       1
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://arxiv.org/rss/cs.CL": {
     "recent_hits": [
@@ -436,11 +436,10 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.frontiersin.org/journals/sports-and-active-living/rss": {
     "recent_hits": [
-      0,
       0,
       0,
       0,
@@ -449,9 +448,10 @@
       0,
       0,
       0,
+      1,
       1
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://hnrss.org/best?q=wearable+athlete+performance": {
     "recent_hits": [
@@ -466,12 +466,11 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.runnersworld.com/rss/all.xml/": {
     "recent_hits": [
       1,
-      1,
       0,
       1,
       1,
@@ -479,9 +478,10 @@
       1,
       0,
       1,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.scienceofrunning.com/feed/": {
     "recent_hits": [
@@ -496,7 +496,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://www.tandfonline.com/feed/rss/rjsp20": {
     "recent_hits": [
@@ -511,7 +511,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://bjsm.bmj.com/rss/current.xml": {
     "recent_hits": [
@@ -519,14 +519,14 @@
       0,
       0,
       0,
-      0,
       1,
       0,
       1,
+      0,
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://hnrss.org/best?q=sports+analytics+AI": {
     "recent_hits": [
@@ -541,7 +541,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-16"
+    "last_run": "2026-06-18"
   },
   "https://blogs.cfainstitute.org/investor/feed/": {
     "recent_hits": [
@@ -676,11 +676,10 @@
       0,
       0
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://hnrss.org/frontpage": {
     "recent_hits": [
-      0,
       0,
       0,
       0,
@@ -689,9 +688,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://openai.com/blog/rss.xml": {
     "recent_hits": [
@@ -706,7 +706,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   },
   "https://techcrunch.com/category/artificial-intelligence/feed/": {
     "recent_hits": [
@@ -721,6 +721,6 @@
       0,
       0
     ],
-    "last_run": "2026-06-17"
+    "last_run": "2026-06-18"
   }
 }

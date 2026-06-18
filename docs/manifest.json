@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-18",
+    "headline": "Simpler Designs Emerge",
+    "brief": "Think of today's AI advancements like a sports team's playbook: just as a team doesn't need a superstar player to win, many LLM applications don't require complex agent frameworks to succeed. This shift towards simpler, workflow-based designs is havi",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-18.html"
+  },
+  {
     "date": "2026-06-17",
     "headline": "Models get tested before they fight",
     "brief": "Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment",

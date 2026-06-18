@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-13/why-the-us-is-investing-in-quantum-computing-video",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.capitalspectator.com/book-bits-13-june-2026/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-14/starmer-to-meet-japan-s-takaichi-as-fighter-jet-funding-sputters",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71563449/run-by-pace-heart-rate-or-effort/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/live-blogs/knicks-vs-spurs-live-updates-nba-finals-game-5-score-result/CllNC3PHGOrS/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7358923/2026/06/14/connections-sports-edition-hints-answers-june-14-2026/",
-    "date": "2026-06-14"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1",
-    "date": "2026-06-14"
-  },
-  {
     "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
     "date": "2026-06-15"
   },
@@ -118,5 +78,33 @@
   {
     "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
     "date": "2026-06-17"
+  },
+  {
+    "url": "https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://www.runnersworld.com/gear/g45263771/best-running-watch/",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1791616",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1860770",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
+    "date": "2026-06-18"
   }
 ]

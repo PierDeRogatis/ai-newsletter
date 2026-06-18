@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, June 18, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-18.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-18.html</guid>
+    <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a sports team's playbook: just as a team doesn't need a superstar player to win, many LLM applications don't require complex agent frameworks to succeed. This shift towards simpler, workflow-based designs is havi</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, June 18, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports team's playbook: just as a team doesn't need a superstar player to win, many LLM applications don't require complex agent frameworks to succeed. This shift towards simpler, workflow-based designs is having a ripple effect on trading desks, where data teams are reevaluating their optimization workflows to prioritize reproducibility and portability. As you consider the implications of these changes, ask yourself: what's the one area where you've been overcomplicating things, and how can you apply a more streamlined approach to achieve better results?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/">You Probably Don’t Need an Agent Framework</a></h3>
+<p>Most LLM applications require a clear workflow rather than an autonomous agent, and can be built using plain Python. This changes the approach to building LLM applications, shifting from complex agent frameworks to simpler workflow-based designs that can be implemented today.&ensp;<a href="https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/">Zhipu AI&#x27;s GLM-5.2 closes in on closed-source leaders in coding marathons</a></h3>
+<p>Zhipu AI&#x27;s GLM-5.2 model achieves a stable 1-million-token context and trails Anthropic&#x27;s Claude Opus 4.8 by just one percentage point on the FrontierSWE benchmark. This changes the consideration of open-source models for coding tasks, making GLM-5.2 a viable alternative to closed-source leaders that can be evaluated and used immediately.&ensp;<a href="https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/">The Secret to Reproducible and Portable Optimization: ORPilot’s Intermediate Representation (IR)</a></h3>
+<p>Production-level AI optimization modeling agents require reproducibility and portability, which can be achieved using Intermediate Representation (IR). This changes the optimization workflow, allowing developers to prioritize IR-based approaches for building reproducible and portable AI models that can be easily integrated into existing workflows.&ensp;<a href="https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/gear/g45263771/best-running-watch/">The 9 Best Running Watches for Training Like a Pro</a></h3>
+<p>9 running watches are highlighted as top options for training like a pro, with features beyond tracking steps and heart rate. This changes the type of watch you consider when shopping for a new running watch to help take your training to the next level.&ensp;<a href="https://www.runnersworld.com/gear/g45263771/best-running-watch/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1791616">Nutrition practices and race experiences of ultra-marathon athletes in the marathon des sables, a qualitative analysis</a></h3>
+<p>Ultra-marathon athletes face considerable physiological and psychological stress in events like the Marathon des Sables, with extreme heat and challenging environments. This changes how athletes and coaches approach nutrition planning and preparation for ultra-endurance running events.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1791616">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1860770">Physical fitness as a predictor of health-related quality of life in children</a></h3>
+<p>Physical fitness is a key predictor of health-related quality of life in young school-age children, contributing to their subjective well-being and quality of life. This changes the emphasis that parents, educators, and healthcare providers place on physical fitness programs and activities for children.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1860770">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-midjourney-medical-scan-your">AINews</a></h3>
+<p>Midjourney Medical allows users to scan their organs as easily as stepping on a scale, marking a significant development in medical technology. This changes the medical imaging tool, enabling healthcare professionals to use a more accessible and user-friendly method for organ scanning, potentially streamlining their workflow and diagnosis process.&ensp;<a href="https://www.latent.space/p/ainews-midjourney-medical-scan-your">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, June 17, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, June 17, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment, where a model's simulated performance can inform investment decisions, and similarly, in sports performance, simulated athlete data can optimize training regimens. Now, consider how this shift in model testing might affect the data team's workflow, and whether they're ready to adapt their model deployment strategies to prioritize pre-deployment simulation and risk mitigation.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/">OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls</a></h3>
-<p>OpenAI introduced Deployment Simulation, which replays past conversations through a new candidate model before release and grades the completions to estimate deployment-time rates of undesired behavior, reporting a 1.5x median multiplier. This changes the model deployment workflow, allowing developers to assess and mitigate potential risks before releasing their models.&ensp;<a href="https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/">How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention</a></h3>
-<p>Implementing xFormers, a toolkit for fast and memory-efficient Transformer models, validates memory-efficient attention and compares speed and memory across sequence lengths, with techniques like causal masking and packed variable-length sequences. This changes the Transformer model development tool, enabling developers to build more efficient models using xFormers and its associated techniques.&ensp;<a href="https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/">LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer</a></h3>
-<p>LLM rate limits can corrupt structured outputs when fallback models receive incompatible payloads, but a new recovery layer can classify failures, adapt payloads, preserve execution state, and maintain schema integrity. This changes the agent pipeline workflow, allowing developers to integrate the recovery layer and prevent pipeline breaks due to LLM fallbacks.&ensp;<a href="https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2511.01650">EngTrace: A Symbolic Benchmark for Verifiable Process Supervision of Engineering Reasoning</a></h3>
-<p>Large Language Models are being used in safety-critical engineering workflows, making rigorous evaluation of their reasoning capabilities imperative, with 2511.01650v3 being the latest version of the EngTrace benchmark. This changes the tool used for evaluating Large Language Models in engineering workflows, allowing for more accurate assessments of their capabilities.&ensp;<a href="https://arxiv.org/abs/2511.01650">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2606.17657">Using Cognitive Models to Improve Language Model Simulation of Human Persuasion Games</a></h3>
-<p>People make decisions differently in strategic interactions, with some updating beliefs like a Bayesian and others exhibiting biases like motivated reasoning, which can be simulated using cognitive models. This changes the workflow for training large language models, as they can now be trained using simulated humans that more accurately reflect human decision-making processes.&ensp;<a href="https://arxiv.org/abs/2606.17657">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2606.17076">CMIP-Forge: An Agentic System that Retrieves, Computes, and Self-Reviews Climate Science</a></h3>
-<p>The Coupled Model Intercomparison Project Phase 6 has generated thousands of peer-reviewed publications, which can be retrieved, computed, and self-reviewed using the CMIP-Forge system. This changes the decision-making process for climate scientists, as they can now use the CMIP-Forge system to more efficiently and accurately evaluate and synthesize large amounts of climate data.&ensp;<a href="https://arxiv.org/abs/2606.17076">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding">AINews</a></h3>
-<p>GLM-5.2 is now considered the top frontend coding model in the world, utilizing IndexShare for speculative decoding. This changes the model developers and researchers use for frontend coding tasks, potentially updating their workflow to incorporate GLM-5.2 for improved performance.&ensp;<a href="https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, June 16, 2026</title>
@@ -235,16 +245,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, May 29, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-05-29.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-05-29.html</guid>
-    <pubDate>Fri, 29 May 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a series of better tools in a workshop, each one making the others more useful: a sharper saw helps you build a better workbench, which in turn helps you craft an even sharper saw. As these improved AI tools spre</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
