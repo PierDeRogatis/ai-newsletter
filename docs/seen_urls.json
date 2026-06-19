@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
-    "date": "2026-06-15"
-  },
-  {
-    "url": "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
-    "date": "2026-06-15"
-  },
-  {
-    "url": "https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/",
-    "date": "2026-06-15"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-    "date": "2026-06-15"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-15/macron-s-g7-legacy-hangs-on-fickle-ai-funding-and-data-centers",
-    "date": "2026-06-15"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-15/activist-palliser-urges-taiwan-firm-wus-to-privatize-lift-value",
-    "date": "2026-06-15"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
     "date": "2026-06-16"
   },
@@ -106,5 +82,33 @@
   {
     "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
     "date": "2026-06-18"
+  },
+  {
+    "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps/",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://the-decoder.com/website-in-the-weights-shows-whether-ai-models-know-who-you-are/",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://the-decoder.com/chatgpts-new-health-upgrade-beats-doctor-written-answers-openai-says/",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-19/traders-latest-ai-related-play-is-a-struggling-car-parts-stock",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-19/indian-software-stocks-tumble-after-accenture-warns-on-growth",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-18/jpm-asset-mgt-ceo-ai-can-power-markets-for-some-time-video",
+    "date": "2026-06-19"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
+    "date": "2026-06-19"
   }
 ]
