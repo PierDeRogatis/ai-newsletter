@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1794861",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1862870",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7362611/2026/06/15/newcastle-knox-sponsorship-front-of-shirt/",
-    "date": "2026-06-16"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
-    "date": "2026-06-16"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
     "date": "2026-06-17"
   },
@@ -110,5 +82,57 @@
   {
     "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
     "date": "2026-06-19"
+  },
+  {
+    "url": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-19/eu-tech-chief-virkkunen-on-ai-sovereignty-us-video",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-19/anthropic-co-founder-top-economist-on-the-ai-frontier-video",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7376897/2026/06/19/aston-villa-kamara-injury-latest/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7376131/2026/06/19/ismael-kone-surgery-injury-canada-world-cup/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://www.sportspro.com/announcements/spotlight-agency/trunk-partneramp-sponsorship-advisory-launch/",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.19527",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.19781",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.20227",
+    "date": "2026-06-20"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+    "date": "2026-06-20"
   }
 ]
