@@ -9,6 +9,61 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, June 21, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-21.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-21.html</guid>
+    <pubDate>Sun, 21 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI agents like master editors, stitching together stories, code, and tasks with ease, which is changing the way journalists, developers, and investors work. As these agents automate tasks and provide insights, their impact is felt on trading</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, June 21, 2026&ensp;·&ensp;11 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI agents like master editors, stitching together stories, code, and tasks with ease, which is changing the way journalists, developers, and investors work. As these agents automate tasks and provide insights, their impact is felt on trading desks, where investors must now consider bond market trends, and in sports labs, where they're redefining how we measure player performance. Can we trust these agents to make decisions without human oversight, or will they ultimately create new problems to solve?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/">Data2Story turns a CSV file into a verified interactive news article using seven AI agents</a></h3>
+<p>Seven AI agents can turn a CSV file into a finished interactive article with graphics, web research, and verifiable source links for 93 percent of all statements, with 74 percent of readers preferring the agent&#x27;s output. This changes the news writing tool, allowing journalists to automate the process of creating interactive articles with verified information.&ensp;<a href="https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://martinfowler.com/articles/reliable-llm-bayer.html">Building reliable agentic AI systems</a></h3>
+<p>The article discusses building reliable agentic AI systems, with 75 points and 14 comments on the topic. This changes the workflow for developing AI systems, requiring developers to focus on creating reliable and trustworthy AI agents.&ensp;<a href="https://martinfowler.com/articles/reliable-llm-bayer.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/chatgpt-keeps-creeping-toward-becoming-your-ai-personal-assistant-with-new-scheduled-task-controls/">ChatGPT keeps creeping toward becoming your AI personal assistant with new scheduled task controls</a></h3>
+<p>ChatGPT&#x27;s new scheduling feature allows users to view, pause, edit, or delete active tasks, and research tasks can search the web and connected apps, sending alerts only when something changes. This changes the task management tool, enabling users to automate and streamline their workflows with ChatGPT&#x27;s AI personal assistant capabilities.&ensp;<a href="https://the-decoder.com/chatgpt-keeps-creeping-toward-becoming-your-ai-personal-assistant-with-new-scheduled-task-controls/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html">AI buildout gives tech investors new reasons to watch bond market</a></h3>
+<p>Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, forcing investors to watch interest rates. This changes the investment strategy for tech investors, who now need to monitor bond market trends to make informed decisions.&ensp;<a href="https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.capitalspectator.com/book-bits-20-june-2026/">Book Bits: 20 June 2026</a></h3>
+<p>A new book by Igor Pejic provides a chart-driven guide for investors to master technology cycles and beat the market. This changes the resource toolkit for tech investors, who can now use Pejic&#x27;s book to inform their investment decisions and stay ahead of market trends.&ensp;<a href="https://www.capitalspectator.com/book-bits-20-june-2026/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://feeds.feedblitz.com/~/958242989/0/marginalrevolution~Labor-market-effects-of-the-Tax-Cuts-and-Jobs-Act.html">Labor market effects of the Tax Cuts and Jobs Act</a></h3>
+<p>The Tax Cuts and Jobs Act of 2017 is the most significant reform of the US income tax code since 1986, with previous analyses relying on pre-enactment data. This changes the economic modeling workflow for policymakers, who can now use post-enactment data to better understand the labor market effects of the Tax Cuts and Jobs Act and make more informed decisions.&ensp;<a href="https://feeds.feedblitz.com/~/958242989/0/marginalrevolution~Labor-market-effects-of-the-Tax-Cuts-and-Jobs-Act.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7378970/2026/06/21/real-madrid-gareth-bale-investment/">Gareth Bale on Real Madrid, Jose Mourinho and why he&#x27;s investing in women&#x27;s sports</a></h3>
+<p>Gareth Bale thinks football has become more of a &#x27;chess game&#x27; and is now investing in women&#x27;s sports after retiring. This changes how we evaluate the role of strategy in football and consider investment opportunities in women&#x27;s sports leagues.&ensp;<a href="https://www.nytimes.com/athletic/7378970/2026/06/21/real-madrid-gareth-bale-investment/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7377077/2026/06/21/the-soccer-metric-that-proves-the-2026-world-cup-is-providing-historic-levels-of-entertainment/">The soccer metric that proves the 2026 World Cup is providing historic levels of entertainment</a></h3>
+<p>Players at the 2026 World Cup are finishing chances at an exceptional rate, indicating historic levels of entertainment. This changes how we measure the success of the World Cup and evaluate the performance of teams and players in terms of scoring efficiency.&ensp;<a href="https://www.nytimes.com/athletic/7377077/2026/06/21/the-soccer-metric-that-proves-the-2026-world-cup-is-providing-historic-levels-of-entertainment/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7379932/2026/06/21/world-cup-goalkeeper-japan-clean-up/">Was this the king of World Cup goalkeeper performances? Why the Japan fan backlash? Day 10 recap</a></h3>
+<p>A disputed record and a problem with a wholesome World Cup trend are among the key talking points from day 10 of the World Cup. This changes how we analyze goalkeeper performances and consider the social and cultural implications of the World Cup on fan behavior and expectations.&ensp;<a href="https://www.nytimes.com/athletic/7379932/2026/06/21/world-cup-goalkeeper-japan-clean-up/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters">How transparent is DiffusionGemma (and why it matters)</a></h3>
+<p>&ensp;<a href="https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model">Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770</a></h3>
+<p>AI agents that take action across tools and systems can break the traditional GenAI security model, which relies on static guardrails and human approval. This changes the security workflow, requiring updates to the enterprise playbook to account for dynamic agent actions and ensure secure operations.&ensp;<a href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, June 20, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-20.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-20.html</guid>
@@ -19,55 +74,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 20, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI safety like a referee in a high-stakes game, where one wrong move can change the entire outcome - today's stories show how researchers and developers are working to ensure their AI models are fair, transparent, and secure. As this focus on safety spills over into finance, we see investors and regulators re-evaluating their approaches to high-risk trades and AI development, with potential implications for the way we think about risk and reward on the trading desk. Now that we know even the best AI models can only fully solve 3 percent of realistic knowledge work tasks, what does this mean for our expectations of AI in the sports world, where data-driven decision making is becoming increasingly important?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/">GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU</a></h3>
-<p>Building a custom device-resident vector search kernel can bypass the CPU and unlock deterministic microsecond tail latencies, reducing PCIe transfer latency. This changes the retrieval step in agentic inference workflows, allowing for more efficient processing on the GPU.&ensp;<a href="https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/">OpenAI researchers show small doses of &quot;beneficial trait&quot; training make AI models broadly safer and harder to manipulate</a></h3>
-<p>Training AI models on desired behavioral traits like truthfulness and corrigibility can make them safer and harder to manipulate, with improvements seen in 44 out of 53 benchmarks. This changes the AI model training process, allowing developers to incorporate beneficial trait training to improve model safety and robustness.&ensp;<a href="https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/">New benchmark exposes how badly AI struggles with real knowledge work</a></h3>
-<p>The best AI models can only fully solve 3 percent of realistic knowledge work tasks, highlighting their limitations. This changes the expectations for AI model performance in real-world applications, requiring developers to re-evaluate their workflows and potentially incorporate more human oversight or alternative solutions.&ensp;<a href="https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html">The riskiest SpaceX stock trade of all had a big first week</a></h3>
-<p>SpaceX&#x27;s IPO triggered a historic land grab in risky leveraged ETFs, making it the biggest debut in market history and creating a trillionaire. This changes the way investors approach high-risk, high-reward stock trades, particularly in the tech industry, and may lead to a shift in investment strategies for those looking to capitalize on similar IPOs.&ensp;<a href="https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-19/eu-tech-chief-virkkunen-on-ai-sovereignty-us-video">EU Tech Chief Virkkunen on AI, Sovereignty, US</a></h3>
-<p>EU&#x27;s top technology official, Henna Virkkunen, discussed EU AI regulation, cybersecurity risks, and reducing reliance on non-European technology providers. This changes the approach to AI development and implementation in Europe, affecting companies that provide AI solutions and forcing them to adapt to new regulations and cybersecurity standards.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-19/eu-tech-chief-virkkunen-on-ai-sovereignty-us-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-19/anthropic-co-founder-top-economist-on-the-ai-frontier-video">Anthropic&#x27;s Co-Founder and Top Economist on Doing Research at the AI Frontier | Odd Lots</a></h3>
-<p>Anthropic is grappling with AI&#x27;s potential impacts on the labor market, society, and existential risk, including the development of frontier models like Mythos, Fable, and Claude. This changes the way researchers and developers approach AI development, focusing on responsible AI practices and mitigating potential risks, and may influence the direction of AI research and development in the industry.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-19/anthropic-co-founder-top-economist-on-the-ai-frontier-video">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7376897/2026/06/19/aston-villa-kamara-injury-latest/">Aston Villa&#x27;s Boubacar Kamara targeting return to fitness by pre-season</a></h3>
-<p>Aston Villa&#x27;s Boubacar Kamara has been out with a knee injury since January and is now targeting a return to fitness by pre-season. This changes Aston Villa&#x27;s pre-season training plans, as they will need to incorporate Kamara&#x27;s rehabilitation into their schedule.&ensp;<a href="https://www.nytimes.com/athletic/7376897/2026/06/19/aston-villa-kamara-injury-latest/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7376131/2026/06/19/ismael-kone-surgery-injury-canada-world-cup/">Ismaël Koné has successful surgery, out of the World Cup - Canada Soccer</a></h3>
-<p>Ismaël Koné has undergone successful surgery and is expected to make a full recovery, but will miss the World Cup. This changes Canada&#x27;s World Cup roster, as they will need to select an alternative player to replace Koné in the tournament.&ensp;<a href="https://www.nytimes.com/athletic/7376131/2026/06/19/ismael-kone-surgery-injury-canada-world-cup/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.sportspro.com/announcements/spotlight-agency/trunk-partneramp-sponsorship-advisory-launch/">Trunk launches PartnerAmp to help brands and rights holders make sports partnerships work harder</a></h3>
-<p>Trunk has launched PartnerAmp, a new service that combines 12 months of research with a free Partnership Health Score to help teams identify underpowered partnerships. This changes the way brands and rights holders approach sports partnerships, as they can now use PartnerAmp to optimize their partnerships and unlock better results.&ensp;<a href="https://www.sportspro.com/announcements/spotlight-agency/trunk-partneramp-sponsorship-advisory-launch/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2606.19527">Emergent Alignment</a></h3>
-<p>Large Language Models can be endowed with a conscience step to review their own reasoning and outputs, and extend the training loss with an alignment objective to self-correct misaligned outputs. This changes the model training workflow by incorporating an additional step to ensure ethical alignment.&ensp;<a href="https://arxiv.org/abs/2606.19527">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2606.19781">Towards Engineering Scaling Laws with Pretraining Data Composition</a></h3>
-<p>Neural scaling laws describe how model performance improves as a power law in compute, model size, and dataset size, and can be engineered with pretraining data composition. This changes the data preparation tool by allowing for more intentional composition of pretraining data to improve model performance.&ensp;<a href="https://arxiv.org/abs/2606.19781">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2606.20227">QMFOL: Benchmarking Large Language Model Reasoning via Quantifiable Monadic First-Order Logic Test Case Generation</a></h3>
-<p>Existing benchmarks for Large Language Models are insufficient for evaluating deductive reasoning, and a new benchmark called QMFOL can generate quantifiable monadic first-order logic test cases. This changes the model evaluation decision by providing a more comprehensive and rigorous benchmark for assessing reasoning capabilities.&ensp;<a href="https://arxiv.org/abs/2606.20227">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model">Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770</a></h3>
-<p>AI agents that take action across tools, systems, and business processes can break the GenAI security model, which relies on static guardrails and human approval. This changes the security workflow, requiring updates to the enterprise playbook to account for dynamic agent actions and ensure secure operations.&ensp;<a href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, June 19, 2026</title>
@@ -254,16 +260,6 @@
     <description>Think of traditional machine learning toolkits like a Swiss Army knife - they're great for many tasks, but sometimes you need a specialized screwdriver to get the job done, which is why alternative methods are gaining traction in document intelligenc</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, June 1, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-01.html</guid>
-    <pubDate>Mon, 01 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like chefs who learned to make dishes from either cookbooks or food chemistry textbooks - their recommendations will be vastly different. This difference in training data has a surprising echo in finance, where investors are reeval</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

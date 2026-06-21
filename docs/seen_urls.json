@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://arxiv.org/abs/2511.01650",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.17657",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.17076",
-    "date": "2026-06-17"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-    "date": "2026-06-17"
-  },
-  {
     "url": "https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/",
     "date": "2026-06-18"
   },
@@ -134,5 +106,45 @@
   {
     "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
     "date": "2026-06-20"
+  },
+  {
+    "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://the-decoder.com/chatgpt-keeps-creeping-toward-becoming-your-ai-personal-assistant-with-new-scheduled-task-controls/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.capitalspectator.com/book-bits-20-june-2026/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://feeds.feedblitz.com/~/958242989/0/marginalrevolution~Labor-market-effects-of-the-Tax-Cuts-and-Jobs-Act.html",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7378970/2026/06/21/real-madrid-gareth-bale-investment/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7377077/2026/06/21/the-soccer-metric-that-proves-the-2026-world-cup-is-providing-historic-levels-of-entertainment/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7379932/2026/06/21/world-cup-goalkeeper-japan-clean-up/",
+    "date": "2026-06-21"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
+    "date": "2026-06-21"
   }
 ]
