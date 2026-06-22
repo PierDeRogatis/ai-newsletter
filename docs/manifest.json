@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-22",
+    "headline": "AI alters feedback loops",
+    "brief": "Think of AI as a new kind of middle manager, changing how work gets done and how success gets measured, whether that's a student's grade or a company's stock price. On a trading desk, this means reevaluating what a stock's value really represents, wh",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-22.html"
+  },
+  {
     "date": "2026-06-21",
     "headline": "AI Agents Rewrite Rules",
     "brief": "Think of AI agents like master editors, stitching together stories, code, and tasks with ease, which is changing the way journalists, developers, and investors work. As these agents automate tasks and provide insights, their impact is felt on trading",
