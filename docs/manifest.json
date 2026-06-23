@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-23",
+    "headline": "Models get swappable",
+    "brief": "Think of AI models like LEGO blocks: you can now swap them in and out to improve performance on specific tasks, like coding and reasoning. This modularity could trickle down to sports performance, where understanding individual differences - like leg",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-23.html"
+  },
+  {
     "date": "2026-06-22",
     "headline": "AI alters feedback loops",
     "brief": "Think of AI as a new kind of middle manager, changing how work gets done and how success gets measured, whether that's a student's grade or a company's stock price. On a trading desk, this means reevaluating what a stock's value really represents, wh",
