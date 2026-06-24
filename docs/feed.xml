@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, June 24, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-24.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-24.html</guid>
+    <pubDate>Wed, 24 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As the</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, June 24, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As these models improve, they're also being applied to new areas, like cybersecurity, where OpenAI's GPT-5.5-Cyber is outperforming other models, which could have significant implications for trading desk risk management. Now that we have more accurate and efficient models, it's worth asking: what are the unintended consequences of relying on automated systems to analyze and understand human-generated content, like documents and online dating profiles?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/23/mistral-ocr-4/">Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines</a></h3>
+<p>Mistral AI&#x27;s OCR 4 model supports 170 languages and provides structured document output with features like bounding boxes, typed classification, and confidence scores. This changes the document processing workflow by enabling more accurate and efficient text extraction and analysis in search pipelines.&ensp;<a href="https://www.marktechpost.com/2026/06/23/mistral-ocr-4/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/">Build Your Own Local AI Coding Agent with Gemma 4 and OpenCode</a></h3>
+<p>A local AI coding agent can be built using Gemma 4 and OpenCode by following a step-by-step installation and setup process. This changes the coding tool by allowing developers to create a personalized AI-powered coding assistant that can be run locally.&ensp;<a href="https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/">OpenAI says new GPT-5.5-Cyber outperforms Anthropic&#x27;s Mythos on cybersecurity benchmark</a></h3>
+<p>OpenAI&#x27;s GPT-5.5-Cyber model outperforms Anthropic&#x27;s Mythos on a cybersecurity benchmark and is part of the Daybreak initiative, which includes a Codex Security plugin and a partner network. This changes the cybersecurity vulnerability management tool by enabling more effective automated patching and vulnerability detection.&ensp;<a href="https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.24586">EERLoss: A Novel Loss Function for Training Deep Biometric Models. A Case Study in Keystroke Dynamics</a></h3>
+<p>Deep learning approaches to biometric verification are commonly trained by optimizing indirect objectives, creating a misalignment between the optimization process and the primary evaluation metric, typically the Equal Error Rate (EER). This changes the loss function used in deep biometric model training, allowing developers to optimize their models more effectively for biometric verification tasks.&ensp;<a href="https://arxiv.org/abs/2606.24586">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.23716">Legal Reasoning Is Not Lawyering: Rethinking Legal Benchmarks for Pro Se Access to Justice</a></h3>
+<p>Current legal AI benchmarks assume that large language models can improve access to justice, but this assumption may not hold, as legal reasoning is not equivalent to lawyering. This changes the way we evaluate and design legal AI benchmarks, shifting the focus from legal reasoning to more comprehensive measures of access to justice.&ensp;<a href="https://arxiv.org/abs/2606.23716">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.06177">BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents</a></h3>
+<p>Reproducing and comparing deep research agents is challenging due to differences in harness and tool registry, making it difficult to integrate new models into comparable frameworks. This changes the toolkit used for building and evaluating biomedical deep research agents, providing an open-source solution for more efficient and reproducible research.&ensp;<a href="https://arxiv.org/abs/2605.06177">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick">Science of Attraction, Compatibility &amp; Romance | Dr. Paul Eastwick</a></h3>
+<p>Dr. Paul Eastwick&#x27;s research reveals surprising findings about age preferences, finances, and physical attraction in mate selection. This changes how you approach online dating profiles, allowing you to prioritize the factors that actually matter in a romantic partner.&ensp;<a href="https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, June 23, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-23.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-23.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 23, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like LEGO blocks: you can now swap them in and out to improve performance on specific tasks, like coding and reasoning. This modularity could trickle down to sports performance, where understanding individual differences - like leg dominance in soccer players - can inform more personalized training programs. As you consider how to apply these advancements, ask yourself: what are the 'LEGO blocks' in your own workflow or training routine that could be swapped out for better results?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/">Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappable Pool of Frontier LLMs</a></h3>
-<p>Sakana Fugu and Fugu Ultra route tasks across a swappable model pool, leading most coding, reasoning, and agentic benchmarks. This changes the task routing tool, allowing developers to swap models and improve performance on coding and reasoning tasks.&ensp;<a href="https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads/">Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads</a></h3>
-<p>Prime Intellect&#x27;s prime-rl 0.6.0 can train trillion-parameter Mixture-of-Experts models on agentic RL workloads, achieving sub-5-minute step times and 256 rollouts on 28 H200 nodes. This changes the reinforcement learning workflow, enabling faster and more efficient training of large models.&ensp;<a href="https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/">How to Use Claude Code in Your Browser</a></h3>
-<p>Claude Code can be used in a browser to apply coding agents and verify work. This changes the coding verification tool, allowing developers to use coding agents directly in their browser for more efficient verification and coding tasks.&ensp;<a href="https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794849">Leg dominance influences side-specific directional movement demands during change-of-direction movements in elite youth soccer players</a></h3>
-<p>Leg dominance affects the movement demands on each side of the body during change-of-direction movements in elite youth soccer players. This changes the way coaches and trainers design and implement training programs to account for individual leg dominance and optimize athlete development.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1794849">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/gear/g65223669/best-weighted-vest/">The 4 Best Weighted Vests for Every Fitness Goal</a></h3>
-<p>Using a weighted vest can increase the intensity of strength training, HIIT, and bodyweight workouts. This changes the way you select and incorporate weighted vests into your workout routine to achieve specific fitness goals.&ensp;<a href="https://www.runnersworld.com/gear/g65223669/best-weighted-vest/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71630900/running-limits-solution-sports-social-worker/">For Years, I Wasn’t Able to Figure Out Why I Couldn’t Run Faster. A Sport Social Worker Solved It in Minutes.</a></h3>
-<p>A sport social worker helped an athlete identify and overcome mental boundaries that were limiting their running performance. This changes the way runners approach their training by considering the role of mental and emotional factors in achieving their running goals.&ensp;<a href="https://www.runnersworld.com/training/a71630900/running-limits-solution-sports-social-worker/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">R.F.K. Jr.’s Newest Mission: Getting Us Off Antidepressants</a></h3>
-<p>Doctors are now considering the process of &#x27;deprescribing&#x27; to help patients taper off psychiatric medications, including antidepressants, with 1 in 8 Americans currently taking them. This changes the approach to mental health treatment, allowing healthcare providers to reassess medication regimens and consider alternative therapies for patients.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, June 22, 2026</title>
@@ -236,16 +246,6 @@
     <description>Think of AI development like a car assembly line, where new parts like NVIDIA's Nemotron 3 Ultra are being added to make the whole process faster and more efficient. This increased speed is now affecting trading desks, where hedge funds are using AI </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, June 4, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-04.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-04.html</guid>
-    <pubDate>Thu, 04 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's stories like a sports team's playbook: each new tool or insight is a play that can be combined with others to create a winning strategy, whether that's building more efficient AI models or designing better endurance programs for fema</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

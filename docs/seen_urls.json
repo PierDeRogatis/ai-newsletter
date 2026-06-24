@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-19/eu-tech-chief-virkkunen-on-ai-sovereignty-us-video",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-19/anthropic-co-founder-top-economist-on-the-ai-frontier-video",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7376897/2026/06/19/aston-villa-kamara-injury-latest/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7376131/2026/06/19/ismael-kone-surgery-injury-canada-world-cup/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://www.sportspro.com/announcements/spotlight-agency/trunk-partneramp-sponsorship-advisory-launch/",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.19527",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.19781",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.20227",
-    "date": "2026-06-20"
-  },
-  {
-    "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
-    "date": "2026-06-20"
-  },
-  {
     "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
     "date": "2026-06-21"
   },
@@ -142,5 +90,33 @@
   {
     "url": "https://www.runnersworld.com/training/a71630900/running-limits-solution-sports-social-worker/",
     "date": "2026-06-23"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.24586",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.23716",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.06177",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick",
+    "date": "2026-06-24"
   }
 ]

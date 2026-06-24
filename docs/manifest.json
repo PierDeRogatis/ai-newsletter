@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-24",
+    "headline": "Models get smarter",
+    "brief": "Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As the",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-24.html"
+  },
+  {
     "date": "2026-06-23",
     "headline": "Models get swappable",
     "brief": "Think of AI models like LEGO blocks: you can now swap them in and out to improve performance on specific tasks, like coding and reasoning. This modularity could trickle down to sports performance, where understanding individual differences - like leg",
