@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-25",
+    "headline": "Code Rewrites Everything",
+    "brief": "Think of generative AI like a master builder who can construct entire cities, not just individual houses - it's changing the foundation of how you work with code, data, and even sports performance analysis. As this tech seeps into trading desks, spor",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-25.html"
+  },
+  {
     "date": "2026-06-24",
     "headline": "Models get smarter",
     "brief": "Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As the",
