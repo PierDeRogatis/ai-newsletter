@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://the-decoder.com/ai-is-inflating-student-grades-and-the-effect-points-to-outsourced-work-not-better-learning/",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-22/korea-mulls-steps-to-rein-in-leveraged-samsung-sk-hynix-etfs",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-22/spacex-shares-poised-to-slide-again-as-us-market-reopens",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-22/s-korea-s-policy-chief-flags-property-risks-from-chip-windfall",
-    "date": "2026-06-22"
-  },
-  {
-    "url": "https://www.nytimes.com/the-daily",
-    "date": "2026-06-22"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
     "date": "2026-06-23"
   },
@@ -102,5 +74,33 @@
   {
     "url": "https://www.nytimes.com/athletic/7391038/2026/06/24/christian-pulisic-calf-injury-world-cup-usa-turkey/",
     "date": "2026-06-25"
+  },
+  {
+    "url": "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock",
+    "date": "2026-06-26"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton",
+    "date": "2026-06-26"
   }
 ]

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, June 26, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</guid>
+    <pubDate>Fri, 26 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, June 26, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models but also for trading desks, where AI-driven sentiment analysis can significantly impact investment decisions, as seen in the recent Korean stock market plunge. As you consider the implications of these developments, ask yourself: what memories or data points are you overlooking in your own decision-making processes that could be holding you back from achieving your goals?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/">Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory</a></h3>
+<p>Benchmarking raw chat history, vector-only RAG, and a context graph on multi-agent conversations exposed a weakness in relational retrieval. This changes the approach to multi-agent memory, requiring the integration of a context graph layer into the workflow to improve relational retrieval.&ensp;<a href="https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/">3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal</a></h3>
+<p>Using C++ layer multiplexing and admission control, it&#x27;s possible to run three different LLMs on a single 8GB GPU, bypassing the 8GB VRAM limit. This changes the tool used for parallel inference, allowing developers to utilize C++ layer multiplexing and admission control to optimize GPU performance.&ensp;<a href="https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/">Google bakes computer control directly into Gemini 3.5 Flash, letting the model see and operate your screen</a></h3>
+<p>Google&#x27;s Gemini 3.5 Flash integration of &#x27;Computer Use&#x27; enables the model to operate computers, browsers, and mobile devices on its own, scoring 78.4 on the OSWorld benchmark. This changes the decision to use the Gemini API, making it a viable option for developers to build agents for software testing or office automation tasks.&ensp;<a href="https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html">Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents</a></h3>
+<p>Airwallex has raised $320 million and reached an $11 billion valuation to build financial infrastructure for a world where AI agents handle business payments and finance. This changes the way companies invest in fintech and AI-powered finance tools, making it a key area to consider for business payment and finance infrastructure decisions today.&ensp;<a href="https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video">Korean Stocks Plunge 9% on Chip Selloff</a></h3>
+<p>South Korean stocks have fallen as much as 9% due to a chipmaker selloff, highlighting the market&#x27;s sensitivity to artificial-intelligence sentiment swings. This changes the risk assessment for investing in Korean stocks and chipmaker companies, requiring a reevaluation of investment portfolios and market volatility strategies today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock">The AI Trade Is No Longer About Owning One Thing: Taking Stock</a></h3>
+<p>The artificial-intelligence trade remains intact but has become more complex and risky, with a higher chance of getting it wrong. This changes the approach to investing in AI-themed stocks and portfolios, making it essential to diversify and regularly reassess AI investment strategies today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton">Essentials: The Science of Eating for Health, Fat Loss &amp; Lean Muscle | Dr. Layne Norton</a></h3>
+<p>Dr. Layne Norton discusses the science of energy balance and utilization, including practical strategies for building lean muscle and losing fat, with a focus on optimal protein and fiber intake. This changes your approach to meal planning and nutrition tracking, allowing you to adjust your daily protein and fiber consumption to support your fitness goals.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, June 25, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-25.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-25.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, June 25, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of generative AI like a master builder who can construct entire cities, not just individual houses - it's changing the foundation of how you work with code, data, and even sports performance analysis. As this tech seeps into trading desks, sports labs, and data teams, you'll see a ripple effect where autonomy-supportive coaching strategies, for instance, inform how you design multi-agent pipelines for tasks like predicting athlete performance. Now, consider how you'll redesign your own workflow to take advantage of these emerging tools and strategies - will you be an early adopter, or wait for the 'Jalapeño' chip to prove its worth?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026/">16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit</a></h3>
-<p>Generative AI can now produce full application generation, multi-agent build pipelines, and natural-language interfaces to entire codebases, going beyond line-by-line autocomplete. This changes the code editor or IDE you use today, as you may want to switch to a tool that supports generative AI features.&ensp;<a href="https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/">OpenAI and Broadcom unveil &#x27;Jalapeño,&#x27; a custom chip built for LLM inference</a></h3>
-<p>OpenAI and Broadcom have developed a custom chip called &#x27;Jalapeño&#x27; that is tailored for large language model inference and will be running at scale by late 2026. This changes the cloud infrastructure or hardware setup you use for large language model inference, as you may want to consider using the &#x27;Jalapeño&#x27; chip for better performance.&ensp;<a href="https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/">Why I Stopped Using One Agent and Built a Multi-Agent Pipeline Instead</a></h3>
-<p>Using a single agent for tasks like text-to-SQL can be limiting, and building a multi-agent pipeline can be a more effective approach. This changes the architecture of your data pipeline, as you may want to replace a single-agent setup with a multi-agent pipeline for improved results.&ensp;<a href="https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1803833">The association between autonomy-supportive coaching and athletes’ personal best performance: indirect associations involving basic psychological needs and autonomous motivation</a></h3>
-<p>Autonomy-supportive coaching is associated with athletes&#x27; personal best performance through basic psychological needs and autonomous motivation. This changes the coaching strategy, as coaches can now focus on creating an autonomy-supportive environment to improve athletes&#x27; performance.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1803833">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7391416/2026/06/24/brian-kelly-cbs-sports-tv-college-football/">Brian Kelly in negotiations with CBS Sports for college football TV role: Source</a></h3>
-<p>Former LSU and Notre Dame coach Brian Kelly is in discussions with CBS Sports to join the network for its college football coverage. This changes the CBS Sports college football broadcasting lineup, as Kelly&#x27;s potential addition could bring new expertise and perspectives to the network&#x27;s coverage.&ensp;<a href="https://www.nytimes.com/athletic/7391416/2026/06/24/brian-kelly-cbs-sports-tv-college-football/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7391038/2026/06/24/christian-pulisic-calf-injury-world-cup-usa-turkey/">Christian Pulisic ‘feeling good’ after calf injury, hopes to play for USMNT vs. Turkey</a></h3>
-<p>Christian Pulisic is recovering from a calf injury and hopes to play for the USMNT against Turkey. This changes the USMNT&#x27;s lineup considerations, as Pulisic&#x27;s potential return could impact the team&#x27;s strategy and player selection for the upcoming match.&ensp;<a href="https://www.nytimes.com/athletic/7391038/2026/06/24/christian-pulisic-calf-injury-world-cup-usa-turkey/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick">Science of Attraction, Compatibility &amp; Romance | Dr. Paul Eastwick</a></h3>
-<p>&ensp;<a href="https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, June 24, 2026</title>
@@ -234,18 +244,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, June 6, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-06.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-06.html</guid>
-    <pubDate>Sat, 06 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like athletes: their performance is only as good as their training data, and using unlicensed web data is like doping - it might give a temporary edge, but it's not a sustainable or trustworthy way to win. This has significant impl</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>

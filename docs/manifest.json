@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-26",
+    "headline": "Memory matters",
+    "brief": "Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-26.html"
+  },
+  {
     "date": "2026-06-25",
     "headline": "Code Rewrites Everything",
     "brief": "Think of generative AI like a master builder who can construct entire cities, not just individual houses - it's changing the foundation of how you work with code, data, and even sports performance analysis. As this tech seeps into trading desks, spor",
