@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, June 27, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</guid>
+    <pubDate>Sat, 27 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders a</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 27, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders are also leveraging AI-driven insights to inform investment decisions, much like a sports coach uses data to optimize player performance. Can you afford to wait for restricted AI models like GPT-5.6 Sol to become widely available, or will you prioritize more accessible alternatives in your projects?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/">An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run</a></h3>
+<p>Epoch AI&#x27;s MirrorCode benchmark found that Claude Opus 4.7 leads with a 56 percent solve rate, rebuilding a 16,000-line toolkit in just 14 hours. This changes the approach to testing AI models&#x27; ability to recreate complete programs, allowing developers to prioritize MirrorCode tasks in their workflow.&ensp;<a href="https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/from-local-llm-to-tool-using-agent/">From Local LLM to Tool-Using Agent</a></h3>
+<p>Using tools like Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP, researchers can build a lightweight research agent. This changes the toolset used for building research agents, enabling developers to integrate these tools into their existing workflows and projects.&ensp;<a href="https://towardsdatascience.com/from-local-llm-to-tool-using-agent/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/">OpenAI&#x27;s GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable</a></h3>
+<p>OpenAI&#x27;s new flagship GPT-5.6 Sol beats Anthropic&#x27;s Claude Mythos 5 in coding benchmarks, but is being rolled out under restricted access rules. This changes the decision-making process for choosing AI models, as developers must now consider the accessibility and restrictions of models like GPT-5.6 Sol in their projects.&ensp;<a href="https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://quantpedia.com/understanding-investment-products-through-factor-analysis-and-replication/">Understanding Investment Products Through Factor Analysis and Replication</a></h3>
+<p>Factor-based portfolio analysis provides a structured framework for understanding the drivers of investment performance, risk, and long-term behavior by decomposing portfolios into their underlying exposures. This changes the portfolio optimization tool, allowing investors to make more informed decisions about their investments today.&ensp;<a href="https://quantpedia.com/understanding-investment-products-through-factor-analysis-and-replication/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-26/gen-z-traders-go-for-broke-in-american-dream-pursuit-video">Gen-Z Traders Go for Broke In American Dream Pursuit</a></h3>
+<p>The share of stock volumes of retail investors has doubled over the past 15 years, driven by social media and the gamification of trading. This changes the retail trading workflow, as investors can now use online platforms and social media to make investment decisions and take action immediately.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-26/gen-z-traders-go-for-broke-in-american-dream-pursuit-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks">Beyond Chips, IMF Sees AI Wealth Boom Adding to Inflation Risks</a></h3>
+<p>Artificial intelligence may fuel inflation by making consumers wealthier and more willing to spend, according to the International Monetary Fund’s chief economist. This changes the inflation forecasting model, as economists will need to consider the potential impact of AI-driven wealth on consumer spending and inflation rates going forward.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.outsideonline.com/health/nutrition/tour-de-france-energy-gels/">Forget Carbs, the Newest Energy Gel Contains… Lactate?!</a></h3>
+<p>A sports nutrition company developed a new energy gel using lactate, which was purchased entirely by an elite cycling team for this summer&#x27;s race. This changes the energy gel options available to athletes, who can now consider lactate-based gels as an alternative to traditional carb-based products.&ensp;<a href="https://www.outsideonline.com/health/nutrition/tour-de-france-energy-gels/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71617479/western-states-training-data/">What Western States 100 Training Data Reveals About How to Maintain Performance Late in a Race</a></h3>
+<p>An ultrarunning coach explains how runners can build true long-distance durability based on Western States 100 training data. This changes the training approach for ultrarunners, who can now use data-driven strategies to improve their performance and endurance in long-distance races.&ensp;<a href="https://www.runnersworld.com/training/a71617479/western-states-training-data/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7394134/2026/06/27/ronaldo-messi-modric-retire/">Ronaldo, Messi and the question that haunts sporting superstars: When do you stop?</a></h3>
+<p>Some football titans, including Ronaldo and Messi, are facing the question of when to retire from professional sports. This changes the way athletes and teams approach career planning, highlighting the need for a strategic and timely retirement plan to ensure a smooth transition and maintain their legacy.&ensp;<a href="https://www.nytimes.com/athletic/7394134/2026/06/27/ronaldo-messi-modric-retire/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.26671">NebulaExp-8B: An Empirical Post-Training Pipeline via Full-Scale Ablation Research</a></h3>
+<p>Post-training alignment determines the reasoning and human preference following capabilities of large language models, and most existing works lack detailed data construction and training recipes. This changes the approach to post-training pipeline development, allowing for more reproducible and transparent methods to be implemented today.&ensp;<a href="https://arxiv.org/abs/2606.26671">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2509.07295">Reconstruction Alignment Improves Unified Multimodal Models</a></h3>
+<p>Conventional training of unified multimodal models relies on sparse image-text pairs, which can miss fine-grained visual details, and reconstruction alignment can improve this. This changes the training workflow for UMMs, enabling developers to incorporate reconstruction alignment into their models for better performance.&ensp;<a href="https://arxiv.org/abs/2509.07295">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2601.03388">Metaphors are a Source of Cross-Domain Misalignment of Large Reasoning Models</a></h3>
+<p>Metaphors in training data can influence the reasoning pathways of large language models, potentially leading to cross-domain misalignment. This changes the consideration of metaphor handling in LLM training, prompting developers to account for metaphors when designing and fine-tuning their models.&ensp;<a href="https://arxiv.org/abs/2601.03388">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, June 26, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, June 26, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models but also for trading desks, where AI-driven sentiment analysis can significantly impact investment decisions, as seen in the recent Korean stock market plunge. As you consider the implications of these developments, ask yourself: what memories or data points are you overlooking in your own decision-making processes that could be holding you back from achieving your goals?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/">Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory</a></h3>
-<p>Benchmarking raw chat history, vector-only RAG, and a context graph on multi-agent conversations exposed a weakness in relational retrieval. This changes the approach to multi-agent memory, requiring the integration of a context graph layer into the workflow to improve relational retrieval.&ensp;<a href="https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/">3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal</a></h3>
-<p>Using C++ layer multiplexing and admission control, it&#x27;s possible to run three different LLMs on a single 8GB GPU, bypassing the 8GB VRAM limit. This changes the tool used for parallel inference, allowing developers to utilize C++ layer multiplexing and admission control to optimize GPU performance.&ensp;<a href="https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/">Google bakes computer control directly into Gemini 3.5 Flash, letting the model see and operate your screen</a></h3>
-<p>Google&#x27;s Gemini 3.5 Flash integration of &#x27;Computer Use&#x27; enables the model to operate computers, browsers, and mobile devices on its own, scoring 78.4 on the OSWorld benchmark. This changes the decision to use the Gemini API, making it a viable option for developers to build agents for software testing or office automation tasks.&ensp;<a href="https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html">Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents</a></h3>
-<p>Airwallex has raised $320 million and reached an $11 billion valuation to build financial infrastructure for a world where AI agents handle business payments and finance. This changes the way companies invest in fintech and AI-powered finance tools, making it a key area to consider for business payment and finance infrastructure decisions today.&ensp;<a href="https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video">Korean Stocks Plunge 9% on Chip Selloff</a></h3>
-<p>South Korean stocks have fallen as much as 9% due to a chipmaker selloff, highlighting the market&#x27;s sensitivity to artificial-intelligence sentiment swings. This changes the risk assessment for investing in Korean stocks and chipmaker companies, requiring a reevaluation of investment portfolios and market volatility strategies today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock">The AI Trade Is No Longer About Owning One Thing: Taking Stock</a></h3>
-<p>The artificial-intelligence trade remains intact but has become more complex and risky, with a higher chance of getting it wrong. This changes the approach to investing in AI-themed stocks and portfolios, making it essential to diversify and regularly reassess AI investment strategies today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton">Essentials: The Science of Eating for Health, Fat Loss &amp; Lean Muscle | Dr. Layne Norton</a></h3>
-<p>Dr. Layne Norton discusses the science of energy balance and utilization, including practical strategies for building lean muscle and losing fat, with a focus on optimal protein and fiber intake. This changes your approach to meal planning and nutrition tracking, allowing you to adjust your daily protein and fiber consumption to support your fitness goals.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, June 25, 2026</title>
@@ -233,17 +265,6 @@
     <description>Think of AI as a master Lego builder, but instead of following instructions, it's now writing its own blueprint for how to search and interact with the world. This shift is already rippling out to trading desks, where investors are rethinking their s</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, June 7, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-07.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-07.html</guid>
-    <pubDate>Sun, 07 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a universal power outlet - they let you plug your code into any available computing resource, whether that's a local machine or a remote GPU. This changes the trading desk's approach to strategy development, wher</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

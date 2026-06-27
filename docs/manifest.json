@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-27",
+    "headline": "AI Models Redefine Workflows",
+    "brief": "Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders a",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-06-27.html"
+  },
+  {
     "date": "2026-06-26",
     "headline": "Memory matters",
     "brief": "Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models ",
