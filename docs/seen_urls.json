@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.24586",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.23716",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.06177",
-    "date": "2026-06-24"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick",
-    "date": "2026-06-24"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026/",
     "date": "2026-06-25"
   },
@@ -130,5 +102,41 @@
   {
     "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
     "date": "2026-06-27"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7391024/2026/06/28/world-cup-travel-fatigue-sleep-analysis/",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7398989/2026/06/27/scotland-world-cup-exit-underachievers/",
+    "date": "2026-06-28"
+  },
+  {
+    "url": "https://www.outsideonline.com/health/training-performance/exercises-relieve-pain/",
+    "date": "2026-06-28"
   }
 ]

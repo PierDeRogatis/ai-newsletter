@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-06-28",
+    "headline": "Speed Matters",
+    "brief": "Think of today's AI advancements like a sports car's engine upgrade, where faster processing power and more efficient models can take you further, whether that's on-device inference or generating human-like text. This shift in speed is also changing ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-06-28.html"
+  },
+  {
     "date": "2026-06-27",
     "headline": "AI Models Redefine Workflows",
     "brief": "Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders a",

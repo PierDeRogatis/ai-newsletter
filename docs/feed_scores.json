@@ -1,7 +1,6 @@
 {
   "https://theathletic.com/rss/news/": {
     "recent_hits": [
-      1,
       0,
       1,
       1,
@@ -9,14 +8,14 @@
       1,
       1,
       0,
+      1,
       1,
       1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
-      0,
       1,
       0,
       0,
@@ -25,9 +24,10 @@
       1,
       0,
       1,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://the-decoder.com/feed/": {
     "recent_hits": [
@@ -35,14 +35,14 @@
       1,
       1,
       1,
-      1,
       0,
+      1,
       1,
       1,
       1,
       1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.marktechpost.com/feed/": {
     "recent_hits": [
@@ -50,14 +50,14 @@
       0,
       0,
       0,
-      0,
       1,
       1,
       1,
       0,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
@@ -69,14 +69,13 @@
       0,
       0,
       0,
-      0,
+      1,
       1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.sportspromedia.com/feed/": {
     "recent_hits": [
-      0,
       0,
       0,
       0,
@@ -85,9 +84,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://news.mit.edu/rss/topic/artificial-intelligence2": {
     "recent_hits": [
@@ -102,7 +102,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.quantamagazine.org/feed/": {
     "recent_hits": [
@@ -117,7 +117,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://feeds.megaphone.fm/hubermanlab": {
     "recent_hits": [
@@ -132,13 +132,13 @@
       1,
       1,
       1,
-      1,
       0,
+      1,
       1,
       1,
       1
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://braininspired.co/feed/podcast/": {
     "recent_hits": [
@@ -160,7 +160,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://feeds.feedburner.com/marginalrevolution/feed": {
     "recent_hits": [
@@ -169,13 +169,13 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://changelog.com/practicalai/feed": {
     "recent_hits": [
@@ -196,22 +196,22 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.alignmentforum.org/feed.xml": {
     "recent_hits": [
       0,
       0,
-      0,
       1,
       1,
       0,
       0,
       1,
+      0,
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=AI+safety+alignment": {
     "recent_hits": [
@@ -226,11 +226,10 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://towardsdatascience.com/feed": {
     "recent_hits": [
-      1,
       0,
       1,
       0,
@@ -239,28 +238,28 @@
       1,
       1,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/cs.CL": {
     "recent_hits": [
       0,
-      0,
       1,
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/cs.AI": {
     "recent_hits": [
-      1,
       0,
       0,
       0,
@@ -269,9 +268,10 @@
       1,
       0,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=neural+network+benchmark": {
     "recent_hits": [
@@ -286,7 +286,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=LLM+research+paper": {
     "recent_hits": [
@@ -301,12 +301,11 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/cs.LG": {
     "recent_hits": [
       0,
-      0,
       1,
       0,
       0,
@@ -314,16 +313,17 @@
       0,
       0,
       1,
+      0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://research.google/blog/rss/": {
     "recent_hits": [
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -331,7 +331,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/cs.RO": {
     "recent_hits": [
@@ -346,7 +346,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://distill.pub/rss.xml": {
     "recent_hits": [
@@ -361,7 +361,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/cs.CV": {
     "recent_hits": [
@@ -376,7 +376,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hai.stanford.edu/news/rss.xml": {
     "recent_hits": [
@@ -391,7 +391,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://arxiv.org/rss/stat.ML": {
     "recent_hits": [
@@ -406,7 +406,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.microsoft.com/en-us/research/feed/": {
     "recent_hits": [
@@ -421,7 +421,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.trainingpeaks.com/blog/feed/": {
     "recent_hits": [
@@ -436,22 +436,22 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.frontiersin.org/journals/sports-and-active-living/rss": {
     "recent_hits": [
       0,
       0,
-      0,
       1,
       1,
       0,
       0,
       1,
       1,
+      0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=wearable+athlete+performance": {
     "recent_hits": [
@@ -466,11 +466,10 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.runnersworld.com/rss/all.xml/": {
     "recent_hits": [
-      1,
       0,
       1,
       0,
@@ -479,9 +478,10 @@
       0,
       1,
       0,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.scienceofrunning.com/feed/": {
     "recent_hits": [
@@ -496,7 +496,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.tandfonline.com/feed/rss/rjsp20": {
     "recent_hits": [
@@ -511,12 +511,12 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://bjsm.bmj.com/rss/current.xml": {
     "recent_hits": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -526,7 +526,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=sports+analytics+AI": {
     "recent_hits": [
@@ -541,7 +541,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://blogs.cfainstitute.org/investor/feed/": {
     "recent_hits": [
@@ -556,7 +556,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://abnormalreturns.com/feed/": {
     "recent_hits": [
@@ -571,7 +571,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=algorithmic+trading": {
     "recent_hits": [
@@ -586,7 +586,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://quantpedia.com/blog/feed/": {
     "recent_hits": [
@@ -598,10 +598,10 @@
       0,
       0,
       0,
-      0,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=quantitative+finance+AI": {
     "recent_hits": [
@@ -616,22 +616,22 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://www.capitalspectator.com/feed/": {
     "recent_hits": [
       0,
-      0,
       1,
       0,
       0,
       0,
       1,
+      0,
       0,
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://alphaarchitect.com/feed/": {
     "recent_hits": [
@@ -646,7 +646,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/best?q=fintech+AI": {
     "recent_hits": [
@@ -661,7 +661,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://venturebeat.com/category/ai/feed/": {
     "recent_hits": [
@@ -676,11 +676,10 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://hnrss.org/frontpage": {
     "recent_hits": [
-      0,
       0,
       0,
       1,
@@ -689,9 +688,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://openai.com/blog/rss.xml": {
     "recent_hits": [
@@ -706,7 +706,7 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   },
   "https://techcrunch.com/category/artificial-intelligence/feed/": {
     "recent_hits": [
@@ -721,6 +721,6 @@
       0,
       0
     ],
-    "last_run": "2026-06-27"
+    "last_run": "2026-06-28"
   }
 }

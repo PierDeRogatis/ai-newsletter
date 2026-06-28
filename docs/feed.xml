@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, June 28, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-28.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-28.html</guid>
+    <pubDate>Sun, 28 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a sports car's engine upgrade, where faster processing power and more efficient models can take you further, whether that's on-device inference or generating human-like text. This shift in speed is also changing </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, June 28, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports car's engine upgrade, where faster processing power and more efficient models can take you further, whether that's on-device inference or generating human-like text. This shift in speed is also changing the game in finance, where investors are now prioritizing AI-related stocks and global bond markets, much like a coach adjusting their strategy mid-game. As you consider how to integrate these faster models into your own workflow, ask yourself: what's the one application where speed could completely change the outcome?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/">Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</a></h3>
+<p>Liquid AI&#x27;s LFM2.5-230M model runs on-device at 213 tokens per second on a Galaxy S25 Ultra and 42 tokens per second on a Raspberry Pi 5, outperforming larger models like Qwen3.5-0.8B and Gemma 3 1B. This changes the on-device inference workflow, allowing developers to integrate more efficient language models into their mobile and embedded applications.&ensp;<a href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/">ByteDance&#x27;s &quot;iLLaDA&quot; is a diffusion language model that keeps up with Qwen2.5</a></h3>
+<p>ByteDance&#x27;s iLLaDA, an 8B language model, generates text differently than ChatGPT and matches Qwen2.5 at the base level, but falls behind after fine-tuning. This changes the language model selection process, giving developers an alternative to traditional models like ChatGPT for certain applications.&ensp;<a href="https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/">Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines</a></h3>
+<p>The Fable 5 Traces dataset can be used to build a stable workflow in Colab by manually parsing the merged JSONL file, inspecting repository files, normalizing tool calls, auditing structure, and visualizing key distributions. This changes the data preprocessing and auditing workflow, allowing developers to create more reliable and efficient pipelines for training and testing machine learning models.&ensp;<a href="https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high">AI Fever Powers HK Share Sales Through Hurdles to Five-Year High</a></h3>
+<p>Hong Kong share sales have surged to a five-year high in the first half of 2026 due to investor enthusiasm for the artificial intelligence boom. This changes the investment strategy for Hong Kong shares, as investors may now consider prioritizing AI-related stocks in their portfolios.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html">Why investors may want to prioritize bond markets outside the U.S.</a></h3>
+<p>Allspring Global Investments is advising clients to invest in bond markets outside the US, particularly in countries with central banks that are raising interest rates or have different inflation dynamics. This changes the bond investment workflow, as investors may now need to research and consider global bond markets in their investment decisions.&ensp;<a href="https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html">SpaceX stock has cooled. Hiring for jobs in the space economy hasn&#x27;t</a></h3>
+<p>The labor market for space economy jobs remains strong, despite the cooled SpaceX stock, with many companies still hiring for roles in this sector. This changes the job search tool for STEM careers, as students and professionals may now consider pursuing careers in the space economy due to its resilient job market.&ensp;<a href="https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7391024/2026/06/28/world-cup-travel-fatigue-sleep-analysis/">How World Cup teams cope with travel, lack of sleep and accumulated fatigue</a></h3>
+<p>World Cup teams will try to keep their players fresh in the knockout stages by managing travel, sleep, and accumulated fatigue. This changes the team&#x27;s travel schedule and player training regimen to prioritize rest and recovery.&ensp;<a href="https://www.nytimes.com/athletic/7391024/2026/06/28/world-cup-travel-fatigue-sleep-analysis/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7398989/2026/06/27/scotland-world-cup-exit-underachievers/">Scotland are the biggest underachievers in world football</a></h3>
+<p>Scotland&#x27;s football team is considered the biggest underachiever in world football due to an obsession with England and lack of international engagement. This changes the Scottish football team&#x27;s strategy to focus on international competition and collaboration rather than just rivaling England.&ensp;<a href="https://www.nytimes.com/athletic/7398989/2026/06/27/scotland-world-cup-exit-underachievers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.outsideonline.com/health/training-performance/exercises-relieve-pain/">7 Exercises to Help You Move Pain-Free On Outdoor Adventures, According to a Physical Therapist</a></h3>
+<p>A physical therapist recommends 7 exercises to relieve bodywide pain and make outdoor activities like running, hiking, and working out easier. This changes your pre-adventure workout routine to include these 7 exercises to improve mobility and reduce pain.&ensp;<a href="https://www.outsideonline.com/health/training-performance/exercises-relieve-pain/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, June 27, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</guid>
@@ -19,55 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, June 27, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders are also leveraging AI-driven insights to inform investment decisions, much like a sports coach uses data to optimize player performance. Can you afford to wait for restricted AI models like GPT-5.6 Sol to become widely available, or will you prioritize more accessible alternatives in your projects?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/">An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run</a></h3>
-<p>Epoch AI&#x27;s MirrorCode benchmark found that Claude Opus 4.7 leads with a 56 percent solve rate, rebuilding a 16,000-line toolkit in just 14 hours. This changes the approach to testing AI models&#x27; ability to recreate complete programs, allowing developers to prioritize MirrorCode tasks in their workflow.&ensp;<a href="https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/from-local-llm-to-tool-using-agent/">From Local LLM to Tool-Using Agent</a></h3>
-<p>Using tools like Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP, researchers can build a lightweight research agent. This changes the toolset used for building research agents, enabling developers to integrate these tools into their existing workflows and projects.&ensp;<a href="https://towardsdatascience.com/from-local-llm-to-tool-using-agent/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/">OpenAI&#x27;s GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable</a></h3>
-<p>OpenAI&#x27;s new flagship GPT-5.6 Sol beats Anthropic&#x27;s Claude Mythos 5 in coding benchmarks, but is being rolled out under restricted access rules. This changes the decision-making process for choosing AI models, as developers must now consider the accessibility and restrictions of models like GPT-5.6 Sol in their projects.&ensp;<a href="https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://quantpedia.com/understanding-investment-products-through-factor-analysis-and-replication/">Understanding Investment Products Through Factor Analysis and Replication</a></h3>
-<p>Factor-based portfolio analysis provides a structured framework for understanding the drivers of investment performance, risk, and long-term behavior by decomposing portfolios into their underlying exposures. This changes the portfolio optimization tool, allowing investors to make more informed decisions about their investments today.&ensp;<a href="https://quantpedia.com/understanding-investment-products-through-factor-analysis-and-replication/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-26/gen-z-traders-go-for-broke-in-american-dream-pursuit-video">Gen-Z Traders Go for Broke In American Dream Pursuit</a></h3>
-<p>The share of stock volumes of retail investors has doubled over the past 15 years, driven by social media and the gamification of trading. This changes the retail trading workflow, as investors can now use online platforms and social media to make investment decisions and take action immediately.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-26/gen-z-traders-go-for-broke-in-american-dream-pursuit-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks">Beyond Chips, IMF Sees AI Wealth Boom Adding to Inflation Risks</a></h3>
-<p>Artificial intelligence may fuel inflation by making consumers wealthier and more willing to spend, according to the International Monetary Fund’s chief economist. This changes the inflation forecasting model, as economists will need to consider the potential impact of AI-driven wealth on consumer spending and inflation rates going forward.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.outsideonline.com/health/nutrition/tour-de-france-energy-gels/">Forget Carbs, the Newest Energy Gel Contains… Lactate?!</a></h3>
-<p>A sports nutrition company developed a new energy gel using lactate, which was purchased entirely by an elite cycling team for this summer&#x27;s race. This changes the energy gel options available to athletes, who can now consider lactate-based gels as an alternative to traditional carb-based products.&ensp;<a href="https://www.outsideonline.com/health/nutrition/tour-de-france-energy-gels/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71617479/western-states-training-data/">What Western States 100 Training Data Reveals About How to Maintain Performance Late in a Race</a></h3>
-<p>An ultrarunning coach explains how runners can build true long-distance durability based on Western States 100 training data. This changes the training approach for ultrarunners, who can now use data-driven strategies to improve their performance and endurance in long-distance races.&ensp;<a href="https://www.runnersworld.com/training/a71617479/western-states-training-data/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7394134/2026/06/27/ronaldo-messi-modric-retire/">Ronaldo, Messi and the question that haunts sporting superstars: When do you stop?</a></h3>
-<p>Some football titans, including Ronaldo and Messi, are facing the question of when to retire from professional sports. This changes the way athletes and teams approach career planning, highlighting the need for a strategic and timely retirement plan to ensure a smooth transition and maintain their legacy.&ensp;<a href="https://www.nytimes.com/athletic/7394134/2026/06/27/ronaldo-messi-modric-retire/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2606.26671">NebulaExp-8B: An Empirical Post-Training Pipeline via Full-Scale Ablation Research</a></h3>
-<p>Post-training alignment determines the reasoning and human preference following capabilities of large language models, and most existing works lack detailed data construction and training recipes. This changes the approach to post-training pipeline development, allowing for more reproducible and transparent methods to be implemented today.&ensp;<a href="https://arxiv.org/abs/2606.26671">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2509.07295">Reconstruction Alignment Improves Unified Multimodal Models</a></h3>
-<p>Conventional training of unified multimodal models relies on sparse image-text pairs, which can miss fine-grained visual details, and reconstruction alignment can improve this. This changes the training workflow for UMMs, enabling developers to incorporate reconstruction alignment into their models for better performance.&ensp;<a href="https://arxiv.org/abs/2509.07295">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2601.03388">Metaphors are a Source of Cross-Domain Misalignment of Large Reasoning Models</a></h3>
-<p>Metaphors in training data can influence the reasoning pathways of large language models, potentially leading to cross-domain misalignment. This changes the consideration of metaphor handling in LLM training, prompting developers to account for metaphors when designing and fine-tuning their models.&ensp;<a href="https://arxiv.org/abs/2601.03388">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, June 26, 2026</title>
@@ -255,16 +256,6 @@
     <description>Think of AI training data like a richly detailed novel - it's not the number of pages that matters, but how well each page is written. This shift towards prioritizing detailed captions over raw data size has implications for trading desks, where more</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, June 8, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-08.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-08.html</guid>
-    <pubDate>Mon, 08 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI as a master Lego builder, but instead of following instructions, it's now writing its own blueprint for how to search and interact with the world. This shift is already rippling out to trading desks, where investors are rethinking their s</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
