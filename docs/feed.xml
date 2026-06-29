@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, June 29, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</guid>
+    <pubDate>Mon, 29 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implica</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 29, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implications for trading desks, where complex AI-powered trading strategies may need to be reevaluated in favor of simpler, more robust approaches. As you consider your own model selection process, what's the one problem where you've been reaching for a fancy AI solution, but a simpler approach might actually be more effective?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/">Only three AI models finished above starting capital in a 500-day startup survival test</a></h3>
+<p>Only three AI models were able to finish above their starting capital in a 500-day startup survival test, with most current models going broke. This changes the approach to building and evaluating AI models for business decision-making, as simple rule-based heuristics may be more effective than complex AI models in certain scenarios.&ensp;<a href="https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/">Chinese cybersecurity firm builds AI tools to rival Mythos and frames the race as cyber-nuclear deterrence</a></h3>
+<p>A Chinese cybersecurity firm has built AI tools that can flag vulnerabilities, with one tool already identifying 3,432 vulnerabilities, but still trailing Western models by 20 to 30 percent. This changes the cybersecurity toolkit, as companies may need to consider adding AI-powered vulnerability detection tools to their security protocols.&ensp;<a href="https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/">I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.</a></h3>
+<p>In a comparison of XGBoost and logistic regression on 358 matches, the simpler logistic regression model had the best cross-validated fit. This changes the model selection process, as data scientists may need to consider using simpler models like logistic regression before reaching for more complex models like XGBoost.&ensp;<a href="https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-06-29/south-korea-s-massive-ai-investment-push-video">South Korea&#x27;s Massive AI Investment Push</a></h3>
+<p>South Korea is investing 1,350 trillion won ($880 billion) in corporate investments to build out critical AI infrastructure and dominate the semiconductor market. This changes South Korea&#x27;s national investment strategy, which companies and investors can act on today by shifting focus to AI and semiconductor development.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-29/south-korea-s-massive-ai-investment-push-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan">Korean Stocks Rebound as Samsung, SK Hynix Unveil Spending Plan</a></h3>
+<p>Samsung Electronics Co. and SK Hynix Inc. have pledged massive investments in AI development, leading to a rebound in South Korean stocks. This changes the investment portfolio for those looking to capitalize on South Korea&#x27;s AI growth, which can be adjusted today to include Samsung and SK Hynix.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag">China, India See Top Firms Lose Market Cap Share in AI Lag</a></h3>
+<p>Top companies in China, India, and Hong Kong account for a smaller share of market capitalization than a year ago due to their lag in the global AI race. This changes the market analysis tool used to evaluate investment opportunities in these regions, which investors can update today to account for the AI gap and its impact on market capitalization.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, June 28, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-28.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-28.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, June 28, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a sports car's engine upgrade, where faster processing power and more efficient models can take you further, whether that's on-device inference or generating human-like text. This shift in speed is also changing the game in finance, where investors are now prioritizing AI-related stocks and global bond markets, much like a coach adjusting their strategy mid-game. As you consider how to integrate these faster models into your own workflow, ask yourself: what's the one application where speed could completely change the outcome?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/">Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</a></h3>
-<p>Liquid AI&#x27;s LFM2.5-230M model runs on-device at 213 tokens per second on a Galaxy S25 Ultra and 42 tokens per second on a Raspberry Pi 5, outperforming larger models like Qwen3.5-0.8B and Gemma 3 1B. This changes the on-device inference workflow, allowing developers to integrate more efficient language models into their mobile and embedded applications.&ensp;<a href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/">ByteDance&#x27;s &quot;iLLaDA&quot; is a diffusion language model that keeps up with Qwen2.5</a></h3>
-<p>ByteDance&#x27;s iLLaDA, an 8B language model, generates text differently than ChatGPT and matches Qwen2.5 at the base level, but falls behind after fine-tuning. This changes the language model selection process, giving developers an alternative to traditional models like ChatGPT for certain applications.&ensp;<a href="https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/">Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines</a></h3>
-<p>The Fable 5 Traces dataset can be used to build a stable workflow in Colab by manually parsing the merged JSONL file, inspecting repository files, normalizing tool calls, auditing structure, and visualizing key distributions. This changes the data preprocessing and auditing workflow, allowing developers to create more reliable and efficient pipelines for training and testing machine learning models.&ensp;<a href="https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high">AI Fever Powers HK Share Sales Through Hurdles to Five-Year High</a></h3>
-<p>Hong Kong share sales have surged to a five-year high in the first half of 2026 due to investor enthusiasm for the artificial intelligence boom. This changes the investment strategy for Hong Kong shares, as investors may now consider prioritizing AI-related stocks in their portfolios.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html">Why investors may want to prioritize bond markets outside the U.S.</a></h3>
-<p>Allspring Global Investments is advising clients to invest in bond markets outside the US, particularly in countries with central banks that are raising interest rates or have different inflation dynamics. This changes the bond investment workflow, as investors may now need to research and consider global bond markets in their investment decisions.&ensp;<a href="https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html">SpaceX stock has cooled. Hiring for jobs in the space economy hasn&#x27;t</a></h3>
-<p>The labor market for space economy jobs remains strong, despite the cooled SpaceX stock, with many companies still hiring for roles in this sector. This changes the job search tool for STEM careers, as students and professionals may now consider pursuing careers in the space economy due to its resilient job market.&ensp;<a href="https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7391024/2026/06/28/world-cup-travel-fatigue-sleep-analysis/">How World Cup teams cope with travel, lack of sleep and accumulated fatigue</a></h3>
-<p>World Cup teams will try to keep their players fresh in the knockout stages by managing travel, sleep, and accumulated fatigue. This changes the team&#x27;s travel schedule and player training regimen to prioritize rest and recovery.&ensp;<a href="https://www.nytimes.com/athletic/7391024/2026/06/28/world-cup-travel-fatigue-sleep-analysis/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7398989/2026/06/27/scotland-world-cup-exit-underachievers/">Scotland are the biggest underachievers in world football</a></h3>
-<p>Scotland&#x27;s football team is considered the biggest underachiever in world football due to an obsession with England and lack of international engagement. This changes the Scottish football team&#x27;s strategy to focus on international competition and collaboration rather than just rivaling England.&ensp;<a href="https://www.nytimes.com/athletic/7398989/2026/06/27/scotland-world-cup-exit-underachievers/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.outsideonline.com/health/training-performance/exercises-relieve-pain/">7 Exercises to Help You Move Pain-Free On Outdoor Adventures, According to a Physical Therapist</a></h3>
-<p>A physical therapist recommends 7 exercises to relieve bodywide pain and make outdoor activities like running, hiking, and working out easier. This changes your pre-adventure workout routine to include these 7 exercises to improve mobility and reduce pain.&ensp;<a href="https://www.outsideonline.com/health/training-performance/exercises-relieve-pain/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, June 27, 2026</title>
@@ -246,16 +246,6 @@
     <description>Think of today's AI advancements like a sports team upgrading its playbook, with new tools and strategies emerging to tackle complex tasks like coding, climate science, and even sleep optimization. On the trading desk, this means reevaluating the pot</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, June 9, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-09.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-09.html</guid>
-    <pubDate>Tue, 09 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI training data like a richly detailed novel - it's not the number of pages that matters, but how well each page is written. This shift towards prioritizing detailed captions over raw data size has implications for trading desks, where more</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

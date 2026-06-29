@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-29",
+    "headline": "Simple beats complex",
+    "brief": "Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implica",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-29.html"
+  },
+  {
     "date": "2026-06-28",
     "headline": "Speed Matters",
     "brief": "Think of today's AI advancements like a sports car's engine upgrade, where faster processing power and more efficient models can take you further, whether that's on-device inference or generating human-like text. This shift in speed is also changing ",
