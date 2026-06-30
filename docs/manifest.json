@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-30",
+    "headline": "AI tools leak secrets",
+    "brief": "Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI too",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-06-30.html"
+  },
+  {
     "date": "2026-06-29",
     "headline": "Simple beats complex",
     "brief": "Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implica",

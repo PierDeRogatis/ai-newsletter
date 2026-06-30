@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, June 30, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</guid>
+    <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI too</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 30, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI tools, lest you inadvertently give away your investment strategy to a competitor, which could impact your portfolio's performance and require a reassessment of your risk management strategy. As you implement AI in your own workflow, what's the one secret you're most worried about leaking, and how will you balance the benefits of AI against the potential risks to your data security and sports team's competitive edge?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/">Meta restricts use of Claude Code and Codex to keep rival AI out of its training data</a></h3>
+<p>Meta is restricting its engineers&#x27; use of Anthropic&#x27;s Claude and OpenAI&#x27;s Codex to prevent output from these AI tools from being incorporated into its own training data. This changes the way Meta engineers use third-party AI tools, requiring them to find alternative methods to avoid contaminating their training data.&ensp;<a href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/">Deloitte tells its own consultants: AI is coming for the billable hour</a></h3>
+<p>An internal Deloitte presentation projects that the consulting industry&#x27;s classic hourly billing model will shrink to a thin sliver of the total market by 2035, replaced by AI agents. This changes the consulting industry&#x27;s billing model, requiring firms like Deloitte, McKinsey, and BCG to adapt to alternative pricing strategies that incorporate AI.&ensp;<a href="https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/">Claude Code runs a GitHub repo&#x27;s hidden malware without verification, giving attackers full control</a></h3>
+<p>Security researchers at Mozilla&#x27;s 0DIN platform have shown how a single compromised GitHub repo can take over a developer&#x27;s machine the moment an AI coding tool like Claude Code runs its setup. This changes the security protocols for using AI coding tools, requiring developers to implement additional verification steps to prevent hidden malware attacks.&ensp;<a href="https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/">Arsenal part ways with Tom Allen, head of sports science and performance, Sam Wilson also set to leave</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/">The Tragic Marathon Death That Still Haunts Hot-Weather Running</a></h3>
+<p>&ensp;<a href="https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/">30 years of Opta: How a marketing exercise became the foundation of soccer’s AI future</a></h3>
+<p>&ensp;<a href="https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-07e">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-07e">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, June 29, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, June 29, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implications for trading desks, where complex AI-powered trading strategies may need to be reevaluated in favor of simpler, more robust approaches. As you consider your own model selection process, what's the one problem where you've been reaching for a fancy AI solution, but a simpler approach might actually be more effective?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/">Only three AI models finished above starting capital in a 500-day startup survival test</a></h3>
-<p>Only three AI models were able to finish above their starting capital in a 500-day startup survival test, with most current models going broke. This changes the approach to building and evaluating AI models for business decision-making, as simple rule-based heuristics may be more effective than complex AI models in certain scenarios.&ensp;<a href="https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/">Chinese cybersecurity firm builds AI tools to rival Mythos and frames the race as cyber-nuclear deterrence</a></h3>
-<p>A Chinese cybersecurity firm has built AI tools that can flag vulnerabilities, with one tool already identifying 3,432 vulnerabilities, but still trailing Western models by 20 to 30 percent. This changes the cybersecurity toolkit, as companies may need to consider adding AI-powered vulnerability detection tools to their security protocols.&ensp;<a href="https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/">I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.</a></h3>
-<p>In a comparison of XGBoost and logistic regression on 358 matches, the simpler logistic regression model had the best cross-validated fit. This changes the model selection process, as data scientists may need to consider using simpler models like logistic regression before reaching for more complex models like XGBoost.&ensp;<a href="https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-06-29/south-korea-s-massive-ai-investment-push-video">South Korea&#x27;s Massive AI Investment Push</a></h3>
-<p>South Korea is investing 1,350 trillion won ($880 billion) in corporate investments to build out critical AI infrastructure and dominate the semiconductor market. This changes South Korea&#x27;s national investment strategy, which companies and investors can act on today by shifting focus to AI and semiconductor development.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-06-29/south-korea-s-massive-ai-investment-push-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan">Korean Stocks Rebound as Samsung, SK Hynix Unveil Spending Plan</a></h3>
-<p>Samsung Electronics Co. and SK Hynix Inc. have pledged massive investments in AI development, leading to a rebound in South Korean stocks. This changes the investment portfolio for those looking to capitalize on South Korea&#x27;s AI growth, which can be adjusted today to include Samsung and SK Hynix.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag">China, India See Top Firms Lose Market Cap Share in AI Lag</a></h3>
-<p>Top companies in China, India, and Hong Kong account for a smaller share of market capitalization than a year ago due to their lag in the global AI race. This changes the market analysis tool used to evaluate investment opportunities in these regions, which investors can update today to account for the AI gap and its impact on market capitalization.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, June 28, 2026</title>
@@ -236,16 +246,6 @@
     <description>Think of today's AI models like high-performance sports cars: they can accelerate content creation and race to the finish line faster, but also require careful handling and maintenance to avoid crashes. On the trading desk, this means reevaluating th</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, June 10, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-10.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-10.html</guid>
-    <pubDate>Wed, 10 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a sports team upgrading its playbook, with new tools and strategies emerging to tackle complex tasks like coding, climate science, and even sleep optimization. On the trading desk, this means reevaluating the pot</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>

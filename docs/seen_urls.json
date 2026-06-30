@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-26/korean-stocks-plunge-9-on-chip-selloff-video",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-26/the-ai-trade-still-works-but-it-s-getting-harder-taking-stock",
-    "date": "2026-06-26"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton",
-    "date": "2026-06-26"
-  },
-  {
     "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
     "date": "2026-06-27"
   },
@@ -138,5 +110,33 @@
   {
     "url": "https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag",
     "date": "2026-06-29"
+  },
+  {
+    "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/",
+    "date": "2026-06-30"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+    "date": "2026-06-30"
   }
 ]
