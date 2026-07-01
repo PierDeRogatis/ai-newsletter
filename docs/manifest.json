@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-01",
+    "headline": "Models get cheaper",
+    "brief": "Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This ha",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-01.html"
+  },
+  {
     "date": "2026-06-30",
     "headline": "AI tools leak secrets",
     "brief": "Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI too",

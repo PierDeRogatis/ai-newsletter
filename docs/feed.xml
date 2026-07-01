@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, July 1, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-01.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-01.html</guid>
+    <pubDate>Wed, 01 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This ha</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 1, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This has a ripple effect on the trading desk, where the cost of using AI for market analysis and prediction just dropped, potentially disrupting the playing field for hedge funds and financial analysts. As you consider how to leverage these more affordable AI models, ask yourself: what's the one application that was previously too expensive, but now becomes a no-brainer?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/">OpenAI reportedly cut response costs for guest ChatGPT users by more than half</a></h3>
+<p>OpenAI cut inference costs for its AI models by more than half, reducing the number of Nvidia GPUs needed to just a few hundred at times. This changes the cost calculation for businesses and developers using ChatGPT, making it more viable for large-scale applications.&ensp;<a href="https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/">Anthropic launches Claude Science, an AI workspace built specifically for researchers</a></h3>
+<p>Anthropic&#x27;s Claude Science is an AI workbench that offers over 60 preconfigured skills for fields like genomics and computational chemistry, with a verification agent for checking citations and calculations. This changes the workflow for researchers, who can now use a single platform for computational research instead of multiple tools and databases.&ensp;<a href="https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/">Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists</a></h3>
+<p>Anthropic&#x27;s Claude Science is a workbench that provides a single environment for computational research, eliminating the need to switch between different tools and databases. This changes the research workflow, allowing scientists to focus on their work without the hassle of managing multiple platforms and pipelines.&ensp;<a href="https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.31876">Harnessing Textual Refusal Directions for Multimodal Safety</a></h3>
+<p>Researchers can improve safety in Large Language Models by exploiting refusal directions in the activation space, which is less feasible in Multimodal LLMs due to the need for unsafe multimodal data. This changes the approach to safety in Multimodal LLMs, requiring alternative strategies for post-training alignment and refusal direction exploitation.&ensp;<a href="https://arxiv.org/abs/2606.31876">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2505.03303">A Reproducible Benchmark of Lightweight CNNs: Accuracy, Efficiency, and the Impact of Pretrained Initialization</a></h3>
+<p>Lightweight convolutional neural networks are often compared using different training recipes and input settings, making architecture rankings difficult to interpret. This changes the way we evaluate and compare lightweight CNN architectures, emphasizing the need for standardized benchmarks and training protocols.&ensp;<a href="https://arxiv.org/abs/2505.03303">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2605.04057">Structured Progressive Knowledge Activation for LLM-Driven Neural Architecture Search</a></h3>
+<p>Large language models can assist in Neural Architecture Search by integrating established architectural knowledge while exploring new designs under expensive evaluations. This changes the Neural Architecture Search workflow, allowing for more efficient exploration of design spaces using LLM-driven approaches.&ensp;<a href="https://arxiv.org/abs/2605.04057">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis">#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise &amp; Fall of Empires</a></h3>
+<p>&ensp;<a href="https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, June 30, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, June 30, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI tools, lest you inadvertently give away your investment strategy to a competitor, which could impact your portfolio's performance and require a reassessment of your risk management strategy. As you implement AI in your own workflow, what's the one secret you're most worried about leaking, and how will you balance the benefits of AI against the potential risks to your data security and sports team's competitive edge?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/">Meta restricts use of Claude Code and Codex to keep rival AI out of its training data</a></h3>
-<p>Meta is restricting its engineers&#x27; use of Anthropic&#x27;s Claude and OpenAI&#x27;s Codex to prevent output from these AI tools from being incorporated into its own training data. This changes the way Meta engineers use third-party AI tools, requiring them to find alternative methods to avoid contaminating their training data.&ensp;<a href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/">Deloitte tells its own consultants: AI is coming for the billable hour</a></h3>
-<p>An internal Deloitte presentation projects that the consulting industry&#x27;s classic hourly billing model will shrink to a thin sliver of the total market by 2035, replaced by AI agents. This changes the consulting industry&#x27;s billing model, requiring firms like Deloitte, McKinsey, and BCG to adapt to alternative pricing strategies that incorporate AI.&ensp;<a href="https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/">Claude Code runs a GitHub repo&#x27;s hidden malware without verification, giving attackers full control</a></h3>
-<p>Security researchers at Mozilla&#x27;s 0DIN platform have shown how a single compromised GitHub repo can take over a developer&#x27;s machine the moment an AI coding tool like Claude Code runs its setup. This changes the security protocols for using AI coding tools, requiring developers to implement additional verification steps to prevent hidden malware attacks.&ensp;<a href="https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/">Arsenal part ways with Tom Allen, head of sports science and performance, Sam Wilson also set to leave</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/">The Tragic Marathon Death That Still Haunts Hot-Weather Running</a></h3>
-<p>&ensp;<a href="https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/">30 years of Opta: How a marketing exercise became the foundation of soccer’s AI future</a></h3>
-<p>&ensp;<a href="https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-07e">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-07e">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, June 29, 2026</title>
@@ -236,16 +246,6 @@
     <description>Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, June 11, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-11.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-11.html</guid>
-    <pubDate>Thu, 11 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI models like high-performance sports cars: they can accelerate content creation and race to the finish line faster, but also require careful handling and maintenance to avoid crashes. On the trading desk, this means reevaluating th</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
