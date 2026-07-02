@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, July 2, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-02.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-02.html</guid>
+    <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a smartphone's battery life - what you see on the surface doesn't always reflect what's really going on underneath, whether it's a hidden monitoring feature in code or a price increase masked by unchanged token rates. On</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 2, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a smartphone's battery life - what you see on the surface doesn't always reflect what's really going on underneath, whether it's a hidden monitoring feature in code or a price increase masked by unchanged token rates. On the trading desk, this means reevaluating the true costs of using certain AI models, like Claude Sonnet 5, which could impact budgeting and resource allocation, much like how a runner adjusts their training plan to prioritize speed endurance. As you sit with this, consider how the tension between transparency and hidden costs might affect your own decisions, such as choosing the right running shoes or investing in a new smartphone, and how that might influence your approach to balancing human agency with AI capabilities.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/">SpaceX shows investors a slim AI smartphone prototype powered by xAI technology</a></h3>
+<p>SpaceX has developed a slim AI smartphone prototype powered by xAI technology, which is thinner than an iPhone and runs on a Qualcomm Snapdragon chip with its own operating system. This changes the potential for smartphones to integrate AI technology and could impact the development of future mobile devices and apps, such as Musk&#x27;s proposed &#x27;everything app&#x27;.&ensp;<a href="https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/">Hidden code in Claude Code secretly flagged Chinese users</a></h3>
+<p>A hidden monitoring feature in Anthropic&#x27;s Claude Code secretly flagged Chinese users, which has sparked outrage on social media and led to the company removing the feature. This changes the trust and transparency expectations for programming tools and could impact the use of such tools, particularly in sensitive or international applications.&ensp;<a href="https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/">Claude Sonnet 5 continues Anthropic&#x27;s pattern of hiding price increases behind unchanged token rates</a></h3>
+<p>The Claude Sonnet 5 model consumes about 40 percent more tokens per task than its predecessor, nearly doubling real costs despite identical list prices, ranking fifth in the Artificial Analysis Intelligence Index. This changes the cost-benefit analysis and budgeting for businesses and developers using Anthropic&#x27;s models, requiring them to reassess their token usage and expenses.&ensp;<a href="https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71795000/interval-workouts-for-speed-endurance/">Workouts to Build Speed Endurance so You Finish Your Races Strong and Fast</a></h3>
+<p>Interval workouts can help target the fitness needed to fight fatigue in the final miles of a race. This changes the training routine, specifically the types of workouts included in a weekly schedule, to prioritize speed endurance.&ensp;<a href="https://www.runnersworld.com/training/a71795000/interval-workouts-for-speed-endurance/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71787211/24-week-zero-to-marathon-training-plan/">The Training Plan That Takes You From Walking to Your First Marathon</a></h3>
+<p>A 24-week training plan can take a walker to a marathon finisher, making the marathon a achievable first big running goal. This changes the approach to setting running goals, allowing beginners to aim for a marathon as their first major objective, and the training plan used to get there.&ensp;<a href="https://www.runnersworld.com/training/a71787211/24-week-zero-to-marathon-training-plan/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/gear/a22061921/best-saucony-running-shoes/">Best Saucony Running Shoes for Speed, Comfort, and Daily Training</a></h3>
+<p>Saucony offers a wide range of running shoes for different types of runs and runners, from max-cushioning to stability and road racing. This changes the shoe selection process, allowing runners to choose the best Saucony shoe for their specific needs and training goals, such as daily training or speed workouts.&ensp;<a href="https://www.runnersworld.com/gear/a22061921/best-saucony-running-shoes/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/aiewf-daily-dispatch-agency">AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency</a></h3>
+<p>Speakers at a conference pushed back against the software factory vision, emphasizing the importance of human understanding and control. This changes the approach to AI development, shifting the focus from fully automated systems to hybrid models that balance human agency with AI capabilities.&ensp;<a href="https://www.latent.space/p/aiewf-daily-dispatch-agency">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, July 1, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-01.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-01.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 1, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This has a ripple effect on the trading desk, where the cost of using AI for market analysis and prediction just dropped, potentially disrupting the playing field for hedge funds and financial analysts. As you consider how to leverage these more affordable AI models, ask yourself: what's the one application that was previously too expensive, but now becomes a no-brainer?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/">OpenAI reportedly cut response costs for guest ChatGPT users by more than half</a></h3>
-<p>OpenAI cut inference costs for its AI models by more than half, reducing the number of Nvidia GPUs needed to just a few hundred at times. This changes the cost calculation for businesses and developers using ChatGPT, making it more viable for large-scale applications.&ensp;<a href="https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/">Anthropic launches Claude Science, an AI workspace built specifically for researchers</a></h3>
-<p>Anthropic&#x27;s Claude Science is an AI workbench that offers over 60 preconfigured skills for fields like genomics and computational chemistry, with a verification agent for checking citations and calculations. This changes the workflow for researchers, who can now use a single platform for computational research instead of multiple tools and databases.&ensp;<a href="https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/">Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists</a></h3>
-<p>Anthropic&#x27;s Claude Science is a workbench that provides a single environment for computational research, eliminating the need to switch between different tools and databases. This changes the research workflow, allowing scientists to focus on their work without the hassle of managing multiple platforms and pipelines.&ensp;<a href="https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2606.31876">Harnessing Textual Refusal Directions for Multimodal Safety</a></h3>
-<p>Researchers can improve safety in Large Language Models by exploiting refusal directions in the activation space, which is less feasible in Multimodal LLMs due to the need for unsafe multimodal data. This changes the approach to safety in Multimodal LLMs, requiring alternative strategies for post-training alignment and refusal direction exploitation.&ensp;<a href="https://arxiv.org/abs/2606.31876">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2505.03303">A Reproducible Benchmark of Lightweight CNNs: Accuracy, Efficiency, and the Impact of Pretrained Initialization</a></h3>
-<p>Lightweight convolutional neural networks are often compared using different training recipes and input settings, making architecture rankings difficult to interpret. This changes the way we evaluate and compare lightweight CNN architectures, emphasizing the need for standardized benchmarks and training protocols.&ensp;<a href="https://arxiv.org/abs/2505.03303">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2605.04057">Structured Progressive Knowledge Activation for LLM-Driven Neural Architecture Search</a></h3>
-<p>Large language models can assist in Neural Architecture Search by integrating established architectural knowledge while exploring new designs under expensive evaluations. This changes the Neural Architecture Search workflow, allowing for more efficient exploration of design spaces using LLM-driven approaches.&ensp;<a href="https://arxiv.org/abs/2605.04057">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis">#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise &amp; Fall of Empires</a></h3>
-<p>&ensp;<a href="https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, June 30, 2026</title>
@@ -236,16 +246,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, June 12, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-12.html</guid>
-    <pubDate>Fri, 12 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of performance metrics like a car's speedometer: just because it says you're doing 60 doesn't mean you're actually moving that fast, and hidden systems can be slowing you down. This idea has huge implications for trading desks, where misjudging</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

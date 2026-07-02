@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-02",
+    "headline": "Hidden Costs Emerge",
+    "brief": "Think of today's stories like a smartphone's battery life - what you see on the surface doesn't always reflect what's really going on underneath, whether it's a hidden monitoring feature in code or a price increase masked by unchanged token rates. On",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-02.html"
+  },
+  {
     "date": "2026-07-01",
     "headline": "Models get cheaper",
     "brief": "Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This ha",
