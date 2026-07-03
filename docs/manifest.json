@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-03",
+    "headline": "AI Automates Tasks",
+    "brief": "Think of AI like a super-smart personal assistant that can read your emails and fill out forms for you, but instead of just doing chores, it's automating tasks in your browser and even helping with complex data analysis. As this automation seeps into",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-03.html"
+  },
+  {
     "date": "2026-07-02",
     "headline": "Hidden Costs Emerge",
     "brief": "Think of today's stories like a smartphone's battery life - what you see on the surface doesn't always reflect what's really going on underneath, whether it's a hidden monitoring feature in code or a price increase masked by unchanged token rates. On",

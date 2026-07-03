@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
-    "date": "2026-06-29"
-  },
-  {
-    "url": "https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/",
-    "date": "2026-06-29"
-  },
-  {
-    "url": "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
-    "date": "2026-06-29"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-06-29/south-korea-s-massive-ai-investment-push-video",
-    "date": "2026-06-29"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan",
-    "date": "2026-06-29"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-28/china-india-see-top-firms-lose-market-cap-share-in-ai-lag",
-    "date": "2026-06-29"
-  },
-  {
     "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
     "date": "2026-06-30"
   },
@@ -106,5 +82,33 @@
   {
     "url": "https://www.latent.space/p/aiewf-daily-dispatch-agency",
     "date": "2026-07-02"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab/",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data/",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-07-02/market-uncertainty-grows-following-jobs-report-video",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-03/ai-factories-create-winners-and-losers-in-power-equipment-market",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-02/china-quant-funds-draw-billions-as-ai-trounces-human-traders",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
+    "date": "2026-07-03"
   }
 ]
