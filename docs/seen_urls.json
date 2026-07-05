@@ -1,61 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7404344/2026/06/29/arsenal-tom-allen-leaves/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://www.runnersworld.com/news/a71770384/marathon-heat-risk-runner-safety/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://www.sportspro.com/features/broadcast-ott/stats-perform-opta-data-analytics-ai/",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-    "date": "2026-06-30"
-  },
-  {
-    "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.31876",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://arxiv.org/abs/2505.03303",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://arxiv.org/abs/2605.04057",
-    "date": "2026-07-01"
-  },
-  {
-    "url": "https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis",
-    "date": "2026-07-01"
-  },
-  {
     "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
     "date": "2026-07-02"
   },
@@ -110,5 +54,45 @@
   {
     "url": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
     "date": "2026-07-03"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://feeds.feedblitz.com/~/959046263/0/marginalrevolution~Saturday-assorted-links.html",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a71797604/marathon-minimum-long-run-distance/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.runnersworld.com/health-injuries/a71798325/guide-to-running-form-program-faq/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7416384/2026/07/05/world-cup-predictions-brazil-england-france/",
+    "date": "2026-07-05"
+  },
+  {
+    "url": "https://www.nytimes.com/the-daily",
+    "date": "2026-07-05"
   }
 ]

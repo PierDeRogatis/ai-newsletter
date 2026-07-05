@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-05",
+    "headline": "AI Rewires Workflows",
+    "brief": "Think of today's AI advancements like a master builder adding new tracks to a railroad network - each addition changes the most efficient route between points, whether that's in genomics research, software development, or sports training. As these ne",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-07-05.html"
+  },
+  {
     "date": "2026-07-03",
     "headline": "AI Automates Tasks",
     "brief": "Think of AI like a super-smart personal assistant that can read your emails and fill out forms for you, but instead of just doing chores, it's automating tasks in your browser and even helping with complex data analysis. As this automation seeps into",
