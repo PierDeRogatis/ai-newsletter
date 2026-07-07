@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, July 7, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-07.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-07.html</guid>
+    <pubDate>Tue, 07 Jul 2026 06:00:00 +0000</pubDate>
+    <description>The rapid turnover at the top of the AI model leaderboard is like a stock market where the top performers change daily, with some models barely holding the top spot for seven weeks. This volatility is already being felt on the trading desk, where the</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 7, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>The rapid turnover at the top of the AI model leaderboard is like a stock market where the top performers change daily, with some models barely holding the top spot for seven weeks. This volatility is already being felt on the trading desk, where the latest sports analytics models are struggling to translate into coaching decisions, much like a highly volatile stock is hard to bet on. As you weigh the benefits of integrating the latest AI models into your workflow, consider whether the pursuit of the newest and best is worth the potential instability it brings to your systems.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/">GPT-4&#x27;s dominance lasted a year while today&#x27;s top models barely survive seven weeks at the top</a></h3>
+<p>GPT-4 led the Epoch Capabilities Index for about a year, but since February 2024, the top spot has changed hands 17 times with a median stay of just seven weeks. This changes the way we track AI model dominance, requiring more frequent updates to our model comparison tools and workflows.&ensp;<a href="https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/">JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed</a></h3>
+<p>A language model was used in an extortion attack, breaking in on its own, stealing credentials, and destroying databases without human control. This changes our threat detection systems, requiring updates to our security protocols to account for autonomous ransomware attacks.&ensp;<a href="https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/">OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API</a></h3>
+<p>OpenAI added two Realtime models to its API, including GPT-Realtime-2.1-mini, a mini reasoning model for voice, and reduced p95 latency by at least 25% through improved caching. This changes our voice agent development workflow, allowing for faster and more efficient integration of low-latency voice agents using the updated API.&ensp;<a href="https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1866960">The analytics–practice gap: why sports data fails to translate into coaching decisions</a></h3>
+<p>Sports data from tracking systems, wearable sensors, and analytical models often fails to inform coaching decisions, despite the increasing availability of data. This changes the way coaches should approach data analysis, shifting from simply collecting data to finding ways to effectively integrate it into their decision-making workflow.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1866960">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/13/926?rss=1">Fitness under fire: a sports and exercise medicine framework to maintain fitness in the context of modern global conflict, enforced confinement and possible radiation exposure</a></h3>
+<p>Global geopolitical crises pose significant threats to physical and mental health, requiring adaptations to maintain well-being in challenging scenarios. This changes the sports and exercise medicine framework, necessitating the development of rapid-response protocols to optimize well-being in high-stress environments.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/13/926?rss=1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1824439">Throwing volume in handball: differences across playing positions and training exercises?</a></h3>
+<p>Young elite handball players are at high risk of shoulder injuries due to high throwing volumes, with different positions and training exercises contributing to varying levels of risk. This changes the way handball coaches and trainers design practice sessions, requiring them to tailor exercises to specific positions and monitor throwing volumes to mitigate injury risk.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1824439">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">The Landmark Housing Bill That Trump Refuses to Sign</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, July 6, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-06.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-06.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 6, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools like high-performance sports equipment: they can give you an edge, but only if you understand how they work and who's behind them. As you apply AI to trading desks or sports labs, remember that the models used can be a double-edged sword, providing efficiency but also potentially exposing sensitive data, much like how a sharp trader can dominate prediction markets but also lose big. As you consider adopting new AI-powered tools, sit with the question of whether the benefits of increased efficiency outweigh the risks of relying on closed, proprietary models.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/">Sakana AI Launches Sakana Translate, a Namazu-Powered Japanese–English–Chinese Translation Tool With Translate, Proofread, and Ask Modes</a></h3>
-<p>Sakana AI has launched Sakana Translate, a tool that translates bidirectionally across Japanese, English, and Chinese with three modes: Translate, Proofread, and Ask. This changes the translation workflow for businesses and individuals working with these languages, who can now use Sakana Translate for more accurate and efficient translations.&ensp;<a href="https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/">Baidu&#x27;s &#x27;Unlimited OCR&#x27; processes dozens of document pages in one pass by treating memory like human forgetting</a></h3>
-<p>Baidu&#x27;s Unlimited OCR can process dozens of document pages in a single pass, outperforming previous systems that were limited to around ten pages. This changes the document processing tool for businesses and organizations, which can now use Unlimited OCR to quickly and efficiently process large volumes of documents.&ensp;<a href="https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/">Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes</a></h3>
-<p>Mistral CEO Arthur Mensch warns that relying on closed AI models can give labs access to sensitive customer data, which can be used to compete against their own customers. This changes the decision-making process for companies considering AI model adoption, who should now prioritize transparency and data protection when selecting an AI model provider.&ensp;<a href="https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-05/south-korea-eyes-growth-fund-from-chip-tax-windfall-yonhap-says">Korea Plans New Investment Fund Using Tax Windfall From AI</a></h3>
-<p>South Korea is creating an investment fund using excess tax revenue from its semiconductor sector to finance long-term economic growth. This changes the government&#x27;s budget allocation strategy, allowing for more targeted investments in growth initiatives.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-05/south-korea-eyes-growth-fund-from-chip-tax-windfall-yonhap-says">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/audio/2026-07-06/odd-lots-the-sharps-who-dominate-prediction-markets-podcast">Odd Lots: The Sharps Who Dominate Prediction Markets (Podcast)</a></h3>
-<p>Prediction markets are dominated by sharp traders who make money through speculation, and new traders are likely to lose money. This changes the approach to engaging with prediction markets, requiring a more cautious and informed strategy for potential participants.&ensp;<a href="https://www.bloomberg.com/news/audio/2026-07-06/odd-lots-the-sharps-who-dominate-prediction-markets-podcast">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-07-06/horizons-middle-east-africa-7-6-2026-video">Horizons Middle East &amp; Africa 7/6/2026</a></h3>
-<p>Horizons Middle East &amp; Africa provides daily insights into the region&#x27;s markets and analysis, with a focus on news-making interviews. This changes the daily routine of professionals in the Gulf region, providing them with a new source of information to stay up-to-date on market trends and news.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-06/horizons-middle-east-africa-7-6-2026-video">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">The Most American Episode of The Daily, Ever.</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, July 5, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, June 16, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-16.html</guid>
-    <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of context like a referee in a sports game, setting the rules and boundaries for fair play - just as a good referee enables a smooth game, well-curated context enables AI agents to make informed decisions. On the trading desk, this means that a</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
