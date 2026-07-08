@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-08",
+    "headline": "AI gets more human-like",
+    "brief": "Think of AI agents like coworkers who can now follow you around, pinging you for decisions on your phone or laptop, much like a colleague tapping you on the shoulder. This seamless collaboration across devices has implications for trading desks, wher",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-08.html"
+  },
+  {
     "date": "2026-07-07",
     "headline": "Models Rise and Fall Faster",
     "brief": "The rapid turnover at the top of the AI model leaderboard is like a stock market where the top performers change daily, with some models barely holding the top spot for seven weeks. This volatility is already being felt on the trading desk, where the",

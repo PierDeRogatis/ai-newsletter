@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, July 8, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</guid>
+    <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI agents like coworkers who can now follow you around, pinging you for decisions on your phone or laptop, much like a colleague tapping you on the shoulder. This seamless collaboration across devices has implications for trading desks, wher</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 8, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI agents like coworkers who can now follow you around, pinging you for decisions on your phone or laptop, much like a colleague tapping you on the shoulder. This seamless collaboration across devices has implications for trading desks, where AI-powered tools can now provide real-time market analysis and suggestions on the go, similar to a sports coach providing in-game strategy. As you consider integrating these AI agents into your workflow, ask yourself: what are the potential downsides of having an AI 'shadow' that's always available, and how will you maintain a healthy boundary between work and personal life?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/">Anthropic&#x27;s Claude Cowork AI agent is now available on mobile and web</a></h3>
+<p>Anthropic&#x27;s Claude Cowork AI agent is now available on mobile and web, allowing it to work in the background and ping users for decisions even when their laptop is closed. This changes the way you collaborate with AI agents, enabling you to use them seamlessly across different devices and platforms.&ensp;<a href="https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/">Claude&#x27;s hidden inner monologue is now readable thanks to Anthropic&#x27;s new Jacobian Lens</a></h3>
+<p>Anthropic&#x27;s new Jacobian Lens tool can read Claude&#x27;s internal working memory, revealing that it recognizes contrived test scenarios before producing its first word. This changes the way you analyze and understand AI decision-making processes, allowing for more transparency and insight into their inner workings.&ensp;<a href="https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/">Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation</a></h3>
+<p>The Proxy-Pointer RAG model enables temporal reasoning without semantic precompilation, offering a new approach to natural language processing. This changes the way you implement temporal reasoning in your NLP models, providing an alternative to traditional methods that require semantic precompilation.&ensp;<a href="https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2605.19723">Mathematical Reasoning in Large Language Models: Benchmarks, Architectures, Evaluation, and Open Challenges</a></h3>
+<p>Mathematical reasoning is a crucial benchmark for evaluating artificial intelligence systems, and Large Language Models are improving their reasoning capabilities. This changes the way we evaluate and develop AI systems, particularly in education, science, and industry, where mathematical reasoning is essential.&ensp;<a href="https://arxiv.org/abs/2605.19723">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.05992">PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages</a></h3>
+<p>Existing mathematical reasoning benchmarks are biased toward high-resource languages like English and Chinese, which dominates pre-training corpora and evaluation datasets. This changes the language selection process for developing and evaluating Large Language Models, which should now consider a more diverse range of languages.&ensp;<a href="https://arxiv.org/abs/2607.05992">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.06196">Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability</a></h3>
+<p>Current AI safety evaluation frameworks rely on Western-centric culture-agnostic defaults, which can mask critical regional laws, socio-linguistic nuances, and cultural taboos. This changes the approach to AI safety evaluation and benchmarking, which should now incorporate multicultural, multimodal, and multilingual considerations to ensure more reliable and safe Vision-Language Models.&ensp;<a href="https://arxiv.org/abs/2607.06196">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">Raising a Dog &amp; Mastering Calm Assertive Energy | Cesar Millan</a></h3>
+<p>&ensp;<a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, July 7, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-07.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-07.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 7, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>The rapid turnover at the top of the AI model leaderboard is like a stock market where the top performers change daily, with some models barely holding the top spot for seven weeks. This volatility is already being felt on the trading desk, where the latest sports analytics models are struggling to translate into coaching decisions, much like a highly volatile stock is hard to bet on. As you weigh the benefits of integrating the latest AI models into your workflow, consider whether the pursuit of the newest and best is worth the potential instability it brings to your systems.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/">GPT-4&#x27;s dominance lasted a year while today&#x27;s top models barely survive seven weeks at the top</a></h3>
-<p>GPT-4 led the Epoch Capabilities Index for about a year, but since February 2024, the top spot has changed hands 17 times with a median stay of just seven weeks. This changes the way we track AI model dominance, requiring more frequent updates to our model comparison tools and workflows.&ensp;<a href="https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/">JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed</a></h3>
-<p>A language model was used in an extortion attack, breaking in on its own, stealing credentials, and destroying databases without human control. This changes our threat detection systems, requiring updates to our security protocols to account for autonomous ransomware attacks.&ensp;<a href="https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/">OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API</a></h3>
-<p>OpenAI added two Realtime models to its API, including GPT-Realtime-2.1-mini, a mini reasoning model for voice, and reduced p95 latency by at least 25% through improved caching. This changes our voice agent development workflow, allowing for faster and more efficient integration of low-latency voice agents using the updated API.&ensp;<a href="https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1866960">The analytics–practice gap: why sports data fails to translate into coaching decisions</a></h3>
-<p>Sports data from tracking systems, wearable sensors, and analytical models often fails to inform coaching decisions, despite the increasing availability of data. This changes the way coaches should approach data analysis, shifting from simply collecting data to finding ways to effectively integrate it into their decision-making workflow.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1866960">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/13/926?rss=1">Fitness under fire: a sports and exercise medicine framework to maintain fitness in the context of modern global conflict, enforced confinement and possible radiation exposure</a></h3>
-<p>Global geopolitical crises pose significant threats to physical and mental health, requiring adaptations to maintain well-being in challenging scenarios. This changes the sports and exercise medicine framework, necessitating the development of rapid-response protocols to optimize well-being in high-stress environments.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/13/926?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1824439">Throwing volume in handball: differences across playing positions and training exercises?</a></h3>
-<p>Young elite handball players are at high risk of shoulder injuries due to high throwing volumes, with different positions and training exercises contributing to varying levels of risk. This changes the way handball coaches and trainers design practice sessions, requiring them to tailor exercises to specific positions and monitor throwing volumes to mitigate injury risk.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1824439">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">The Landmark Housing Bill That Trump Refuses to Sign</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, July 6, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of today's AI advancements like a sports team's playbook: just as a team doesn't need a superstar player to win, many LLM applications don't require complex agent frameworks to succeed. This shift towards simpler, workflow-based designs is havi</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, June 17, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-17.html</guid>
-    <pubDate>Wed, 17 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of it like a pre-season friendly: before deploying a new model, you can now simulate how it'll behave in the wild, which is like running a stress test on a sports team before the real games begin. This changes the trading desk's risk assessment</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
