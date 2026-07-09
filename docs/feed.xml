@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, July 9, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</guid>
+    <pubDate>Thu, 09 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 9, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, consider how this shift might also impact the sports world, where data-driven insights are increasingly crucial for athlete development and injury prevention. Can you afford to overlook the potential of affordable AI models in your own work, or is it time to reassess your budget and explore new tools?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/">Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much</a></h3>
+<p>Grok 4.5 costs $2 per million input tokens, needing 4.2 times fewer tokens than Opus 4.8, and is expected to be available in the EU in mid-July. This changes the budgeting tool for developers and businesses looking for affordable language models, allowing them to consider Grok 4.5 as a cost-effective alternative.&ensp;<a href="https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/muse-image-is-technically-impressive-but-metas-use-of-instagram-photos-raises-questions/">Muse Image is technically impressive, but Meta&#x27;s use of Instagram photos raises questions</a></h3>
+<p>Muse Image, Meta&#x27;s first image generation model, uses tools like code execution and web search to refine its results, and features a controversial @-mention feature to generate images of other people. This changes the content creation workflow for social media and marketing teams, who must now consider the potential implications and ethics of using Muse Image and its features.&ensp;<a href="https://the-decoder.com/muse-image-is-technically-impressive-but-metas-use-of-instagram-photos-raises-questions/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/">OpenAI&#x27;s GPT-5.6 launches Thursday after a delay forced by the U.S. government</a></h3>
+<p>OpenAI&#x27;s GPT-5.6 is launching after the U.S. government lifted its release ban, with the Sol model beating Anthropic&#x27;s Claude Mythos 5 on coding benchmarks at about half the cost. This changes the decision-making process for businesses and developers choosing between language models, as they can now consider GPT-5.6 as a high-performance and cost-effective option.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1810949">Pedagogical intentionality in walking football: fostering sustained participation and development among older adults</a></h3>
+<p>Walking Football provides a safe and inclusive environment for older adults by eliminating running and physical contact, promoting health, inclusion, and autonomy. This changes the approach to exercise programs for seniors, allowing fitness instructors to consider adapted sports like Walking Football for their classes today.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1810949">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/14/1005?rss=1">Towards safer and smarter boxing: technology, health and performance</a></h3>
+<p>A single punch in professional boxing can alter a life, highlighting the need for improved safety measures and more objective judging methods. This changes the way boxing coaches and trainers approach athlete development, encouraging them to leverage technology and data-driven insights to reduce injury risk and enhance performance.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/14/1005?rss=1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/14/1007?rss=1">Monitoring an athletes performance-state after they return to sport is a significant challenge in ACL injury research and applied practice</a></h3>
+<p>Anterior cruciate ligament reconstruction involves a 9-12 month rehabilitation period before return-to-sport, posing a significant challenge in monitoring an athlete&#x27;s performance-state post-injury. This changes the rehabilitation protocols used by sports medicine professionals, prompting them to develop more effective monitoring strategies to support athletes&#x27; safe and successful return to competition.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/14/1007?rss=1">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">Raising a Dog &amp; Mastering Calm Assertive Energy | Cesar Millan</a></h3>
+<p>&ensp;<a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, July 8, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 8, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI agents like coworkers who can now follow you around, pinging you for decisions on your phone or laptop, much like a colleague tapping you on the shoulder. This seamless collaboration across devices has implications for trading desks, where AI-powered tools can now provide real-time market analysis and suggestions on the go, similar to a sports coach providing in-game strategy. As you consider integrating these AI agents into your workflow, ask yourself: what are the potential downsides of having an AI 'shadow' that's always available, and how will you maintain a healthy boundary between work and personal life?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/">Anthropic&#x27;s Claude Cowork AI agent is now available on mobile and web</a></h3>
-<p>Anthropic&#x27;s Claude Cowork AI agent is now available on mobile and web, allowing it to work in the background and ping users for decisions even when their laptop is closed. This changes the way you collaborate with AI agents, enabling you to use them seamlessly across different devices and platforms.&ensp;<a href="https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/">Claude&#x27;s hidden inner monologue is now readable thanks to Anthropic&#x27;s new Jacobian Lens</a></h3>
-<p>Anthropic&#x27;s new Jacobian Lens tool can read Claude&#x27;s internal working memory, revealing that it recognizes contrived test scenarios before producing its first word. This changes the way you analyze and understand AI decision-making processes, allowing for more transparency and insight into their inner workings.&ensp;<a href="https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/">Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation</a></h3>
-<p>The Proxy-Pointer RAG model enables temporal reasoning without semantic precompilation, offering a new approach to natural language processing. This changes the way you implement temporal reasoning in your NLP models, providing an alternative to traditional methods that require semantic precompilation.&ensp;<a href="https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2605.19723">Mathematical Reasoning in Large Language Models: Benchmarks, Architectures, Evaluation, and Open Challenges</a></h3>
-<p>Mathematical reasoning is a crucial benchmark for evaluating artificial intelligence systems, and Large Language Models are improving their reasoning capabilities. This changes the way we evaluate and develop AI systems, particularly in education, science, and industry, where mathematical reasoning is essential.&ensp;<a href="https://arxiv.org/abs/2605.19723">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2607.05992">PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages</a></h3>
-<p>Existing mathematical reasoning benchmarks are biased toward high-resource languages like English and Chinese, which dominates pre-training corpora and evaluation datasets. This changes the language selection process for developing and evaluating Large Language Models, which should now consider a more diverse range of languages.&ensp;<a href="https://arxiv.org/abs/2607.05992">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2607.06196">Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability</a></h3>
-<p>Current AI safety evaluation frameworks rely on Western-centric culture-agnostic defaults, which can mask critical regional laws, socio-linguistic nuances, and cultural taboos. This changes the approach to AI safety evaluation and benchmarking, which should now incorporate multicultural, multimodal, and multilingual considerations to ensure more reliable and safe Vision-Language Models.&ensp;<a href="https://arxiv.org/abs/2607.06196">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">Raising a Dog &amp; Mastering Calm Assertive Energy | Cesar Millan</a></h3>
-<p>&ensp;<a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, July 7, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of AI like a skilled apprentice: it's getting better at taking instructions and filling in the gaps to produce a polished result, whether that's editing a video or answering a health question. On the trading desk, this means investors are now s</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, June 18, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-18.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-18.html</guid>
-    <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a sports team's playbook: just as a team doesn't need a superstar player to win, many LLM applications don't require complex agent frameworks to succeed. This shift towards simpler, workflow-based designs is havi</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
