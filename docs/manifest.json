@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-10",
+    "headline": "Models Hide Truths",
+    "brief": "Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can af",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-10.html"
+  },
+  {
     "date": "2026-07-09",
     "headline": "Models Get Cheap",
     "brief": "Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, ",

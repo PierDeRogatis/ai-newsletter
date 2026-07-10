@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, July 10, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-10.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-10.html</guid>
+    <pubDate>Fri, 10 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can af</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 10, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can affect not just the outcome of the game, but also how investors make decisions, like choosing between meme stocks and traditional portfolios, where AI-driven models can either help or mislead. As you consider using new AI tools like Ollama or GPT-5.6, ask yourself whether you're seeing the full picture, or just the version that's been curated for you.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/">New York Times says OpenAI hid evidence in ChatGPT copyright trial</a></h3>
+<p>OpenAI allegedly hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating a lawsuit with a new motion for sanctions. This changes the approach to using ChatGPT for content creation, as users may need to implement additional copyright checks to avoid potential lawsuits.&ensp;<a href="https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/">Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users</a></h3>
+<p>Ollama has raised $65M and grown to nearly 9M users, with 176,000 stars and nearly 17,000 forks on GitHub, by helping developers easily run AI on their PCs. This changes the workflow for AI development, as developers can now consider using Ollama to streamline their AI deployment process.&ensp;<a href="https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a></h3>
+<p>GPT-5.6 has been released, with additional information available in a PDF document and through the OpenAI API documentation. This changes the model used for natural language processing tasks, as developers can now integrate GPT-5.6 into their applications for potentially improved performance.&ensp;<a href="https://openai.com/index/gpt-5-6/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-07-09/why-young-investors-are-taking-so-much-risk-video">Why Young Investors Are Taking So Much Risk</a></h3>
+<p>Young investors are turning to meme stocks, options, and crypto due to unaffordable homeownership, AI-driven job insecurity, and slow index funds. This changes the investment strategy for younger generations, who may need to reassess their risk tolerance and consider alternative investment options today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-09/why-young-investors-are-taking-so-much-risk-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-10/adani-flagship-is-the-next-big-india-pick-for-singapore-s-helios">Adani Flagship Is the Next Big India Pick for Singapore’s Helios</a></h3>
+<p>Helios Capital Management is betting on Adani Group&#x27;s flagship stock as the next big winner for its funds in the Indian market. This changes the stock selection process for investors looking at the Indian market, who may want to consider adding Adani Group to their portfolio today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-10/adani-flagship-is-the-next-big-india-pick-for-singapore-s-helios">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-09/jpmorgan-builds-ai-agents-that-beat-60-40-portfolio-in-backtests">JPMorgan Builds AI Agents That Beat 60/40 Portfolio in Backtests</a></h3>
+<p>JPMorgan Chase &amp; Co has developed AI agents that can allocate money and outperform the traditional 60/40 portfolio in backtests. This changes the portfolio management tool for investors, who may want to explore using AI-driven allocation models in their investment decisions today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-09/jpmorgan-builds-ai-agents-that-beat-60-40-portfolio-in-backtests">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder">Essentials: The Science &amp; Treatment of Obsessive Compulsive Disorder (OCD)</a></h3>
+<p>Compulsive actions in OCD can actually strengthen the underlying obsessions rather than relieve them due to the neural circuitry behind repetitive thought-action loops. This changes the approach to treating OCD, shifting the focus from solely alleviating symptoms to addressing the underlying biology and psychology of the disorder.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, July 9, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 9, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, consider how this shift might also impact the sports world, where data-driven insights are increasingly crucial for athlete development and injury prevention. Can you afford to overlook the potential of affordable AI models in your own work, or is it time to reassess your budget and explore new tools?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/">Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much</a></h3>
-<p>Grok 4.5 costs $2 per million input tokens, needing 4.2 times fewer tokens than Opus 4.8, and is expected to be available in the EU in mid-July. This changes the budgeting tool for developers and businesses looking for affordable language models, allowing them to consider Grok 4.5 as a cost-effective alternative.&ensp;<a href="https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/muse-image-is-technically-impressive-but-metas-use-of-instagram-photos-raises-questions/">Muse Image is technically impressive, but Meta&#x27;s use of Instagram photos raises questions</a></h3>
-<p>Muse Image, Meta&#x27;s first image generation model, uses tools like code execution and web search to refine its results, and features a controversial @-mention feature to generate images of other people. This changes the content creation workflow for social media and marketing teams, who must now consider the potential implications and ethics of using Muse Image and its features.&ensp;<a href="https://the-decoder.com/muse-image-is-technically-impressive-but-metas-use-of-instagram-photos-raises-questions/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/">OpenAI&#x27;s GPT-5.6 launches Thursday after a delay forced by the U.S. government</a></h3>
-<p>OpenAI&#x27;s GPT-5.6 is launching after the U.S. government lifted its release ban, with the Sol model beating Anthropic&#x27;s Claude Mythos 5 on coding benchmarks at about half the cost. This changes the decision-making process for businesses and developers choosing between language models, as they can now consider GPT-5.6 as a high-performance and cost-effective option.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1810949">Pedagogical intentionality in walking football: fostering sustained participation and development among older adults</a></h3>
-<p>Walking Football provides a safe and inclusive environment for older adults by eliminating running and physical contact, promoting health, inclusion, and autonomy. This changes the approach to exercise programs for seniors, allowing fitness instructors to consider adapted sports like Walking Football for their classes today.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1810949">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/14/1005?rss=1">Towards safer and smarter boxing: technology, health and performance</a></h3>
-<p>A single punch in professional boxing can alter a life, highlighting the need for improved safety measures and more objective judging methods. This changes the way boxing coaches and trainers approach athlete development, encouraging them to leverage technology and data-driven insights to reduce injury risk and enhance performance.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/14/1005?rss=1">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="http://bjsm.bmj.com/cgi/content/short/60/14/1007?rss=1">Monitoring an athletes performance-state after they return to sport is a significant challenge in ACL injury research and applied practice</a></h3>
-<p>Anterior cruciate ligament reconstruction involves a 9-12 month rehabilitation period before return-to-sport, posing a significant challenge in monitoring an athlete&#x27;s performance-state post-injury. This changes the rehabilitation protocols used by sports medicine professionals, prompting them to develop more effective monitoring strategies to support athletes&#x27; safe and successful return to competition.&ensp;<a href="http://bjsm.bmj.com/cgi/content/short/60/14/1007?rss=1">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">Raising a Dog &amp; Mastering Calm Assertive Energy | Cesar Millan</a></h3>
-<p>&ensp;<a href="https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, July 8, 2026</title>
@@ -233,16 +243,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, June 19, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-19.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-19.html</guid>
-    <pubDate>Fri, 19 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a skilled apprentice: it's getting better at taking instructions and filling in the gaps to produce a polished result, whether that's editing a video or answering a health question. On the trading desk, this means investors are now s</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
