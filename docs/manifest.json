@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-11",
+    "headline": "AI Models Train Themselves",
+    "brief": "Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as seen with OpenAI's GPT-5.6 Sol fine-tuning the Luna model, which has implications for trading",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-07-11.html"
+  },
+  {
     "date": "2026-07-10",
     "headline": "Models Hide Truths",
     "brief": "Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can af",

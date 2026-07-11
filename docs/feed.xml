@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, July 11, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html</guid>
+    <pubDate>Sat, 11 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as seen with OpenAI's GPT-5.6 Sol fine-tuning the Luna model, which has implications for trading</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, July 11, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as seen with OpenAI's GPT-5.6 Sol fine-tuning the Luna model, which has implications for trading desks using AI to optimize portfolio management, where autonomous model refinement could lead to more efficient risk assessment. As you consider the potential of autonomous AI training, ask yourself: what are the limits of self-improvement in AI, and how will it change the way we develop and deploy AI models in finance, sports, and beyond?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/">OpenAI&#x27;s GPT-5.6 Sol autonomously post-trained the smaller Luna model with a fairly underspecified prompt</a></h3>
+<p>GPT-5.6 Sol independently fine-tuned the smaller Luna model with a single fairly under-specified prompt, scoring 16.2 points higher than GPT-5.5 in OpenAI&#x27;s internal RSI benchmark. This changes the approach to recursive self-improvement in AI models, allowing for more autonomous and efficient training processes.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/">Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</a></h3>
+<p>Hugging Face has grown into a GitHub for AI, with roughly half the Fortune 500 using its open models and datasets, and CEO Clem Delangue believes open source AI is booming. This changes the way companies approach AI development, shifting towards more collaborative and open-source approaches to building and sharing AI models.&ensp;<a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/">I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer</a></h3>
+<p>The author built a production-ready RSS pipeline using Python, Docker, PostgreSQL, and Kestra, demonstrating a shift in thinking from a general developer to a data engineer. This changes the toolkit for building ETL pipelines, incorporating technologies like Docker and Kestra to improve efficiency and scalability.&ensp;<a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html">The ETF market is pushing the limits of the leverage it can handle. SK Hynix is the latest example</a></h3>
+<p>Single-stock ETFs are taking on excessive risk with high leverage, deviating from the original low-cost and tax-efficient core index funds. This changes the risk assessment tool investors use to evaluate ETFs, which now needs to account for the increased leverage and potential volatility.&ensp;<a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc">Hedge Fund Elliott Builds Stake in Software Firm CCC</a></h3>
+<p>Elliott Investment Management has built a large stake in CCC Intelligent Solutions Holdings Inc., a car-insurance software provider exploring a potential sale. This changes the mergers and acquisitions workflow for CCC Intelligent Solutions, as Elliott&#x27;s involvement may influence the company&#x27;s sale negotiations and outcome.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle">SK Hynix Debut Is a Bet That AI Breaks Boom-and-Bust Chip Cycle</a></h3>
+<p>SK Hynix Inc.&#x27;s shares soared 13% on their first day of trading, marking the largest public listing by a foreign company in US market history. This changes the investment decision for investors considering the chip industry, as SK Hynix&#x27;s successful debut may indicate a shift in the traditional boom-and-bust cycle driven by AI demand.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/">Portugal appoint Jorge Jesus after coaching role at Cristiano Ronaldo&#x27;s Al Nassr</a></h3>
+<p>Jorge Jesus has been appointed as the new manager of Portugal after a 36-year managerial career with stints at Benfica, Sporting CP, Flamengo, and Fenerbahce. This changes the management of Portugal&#x27;s national team, which could impact their strategy and performance in upcoming matches.&ensp;<a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/">Michael Edwards steps down as Liverpool owner Fenway Sports Group&#x27;s CEO of football</a></h3>
+<p>Michael Edwards is leaving his position as CEO of football for Liverpool&#x27;s owner Fenway Sports Group with one year remaining on his contract. This changes the leadership at Fenway Sports Group, which could affect Liverpool&#x27;s football operations and decision-making process.&ensp;<a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/">Conor McGregor&#x27;s return and the uncomfortable questions it poses for sport</a></h3>
+<p>Conor McGregor is returning to the octagon 18 months after being found liable in a sexual assault case, raising uncomfortable questions for the sport. This changes the public&#x27;s perception of McGregor and the sport of MMA, which could impact ticket sales, sponsorships, and the overall reputation of the sport.&ensp;<a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2607.07907">Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks</a></h3>
+<p>Multimodal foundation models can inadvertently encode sensitive or biased cross-modal associations from their training data, which can be mitigated by retraining after deletion. This changes the approach to model training and data curation, allowing developers to prioritize data quality and safety in their workflows.&ensp;<a href="https://arxiv.org/abs/2607.07907">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.07918">Efficient Safety Alignment of Language Models via Latent Personality Traits</a></h3>
+<p>Latent Adversarial Training (LAT) is an effective defense against adversarial attacks on language models, but it can degrade utility and require significant computational resources. This changes the implementation of safety methods in language models, enabling developers to use more robust and efficient alternatives like LAT in their model development pipelines.&ensp;<a href="https://arxiv.org/abs/2607.07918">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.08186">Hidden Decoding at Scale: Latent Computation Scaling for Large Language Models</a></h3>
+<p>Existing Large Language Models (LLMs) can continue to improve without costly pretraining by allocating computational resources more efficiently, such as through latent computation scaling. This changes the approach to scaling LLMs, allowing researchers to optimize their models&#x27; performance and capacity without requiring significant additional training data or computational power.&ensp;<a href="https://arxiv.org/abs/2607.08186">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, July 10, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-10.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-10.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 10, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can affect not just the outcome of the game, but also how investors make decisions, like choosing between meme stocks and traditional portfolios, where AI-driven models can either help or mislead. As you consider using new AI tools like Ollama or GPT-5.6, ask yourself whether you're seeing the full picture, or just the version that's been curated for you.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/">New York Times says OpenAI hid evidence in ChatGPT copyright trial</a></h3>
-<p>OpenAI allegedly hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating a lawsuit with a new motion for sanctions. This changes the approach to using ChatGPT for content creation, as users may need to implement additional copyright checks to avoid potential lawsuits.&ensp;<a href="https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/">Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users</a></h3>
-<p>Ollama has raised $65M and grown to nearly 9M users, with 176,000 stars and nearly 17,000 forks on GitHub, by helping developers easily run AI on their PCs. This changes the workflow for AI development, as developers can now consider using Ollama to streamline their AI deployment process.&ensp;<a href="https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a></h3>
-<p>GPT-5.6 has been released, with additional information available in a PDF document and through the OpenAI API documentation. This changes the model used for natural language processing tasks, as developers can now integrate GPT-5.6 into their applications for potentially improved performance.&ensp;<a href="https://openai.com/index/gpt-5-6/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-07-09/why-young-investors-are-taking-so-much-risk-video">Why Young Investors Are Taking So Much Risk</a></h3>
-<p>Young investors are turning to meme stocks, options, and crypto due to unaffordable homeownership, AI-driven job insecurity, and slow index funds. This changes the investment strategy for younger generations, who may need to reassess their risk tolerance and consider alternative investment options today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-09/why-young-investors-are-taking-so-much-risk-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-10/adani-flagship-is-the-next-big-india-pick-for-singapore-s-helios">Adani Flagship Is the Next Big India Pick for Singapore’s Helios</a></h3>
-<p>Helios Capital Management is betting on Adani Group&#x27;s flagship stock as the next big winner for its funds in the Indian market. This changes the stock selection process for investors looking at the Indian market, who may want to consider adding Adani Group to their portfolio today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-10/adani-flagship-is-the-next-big-india-pick-for-singapore-s-helios">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-09/jpmorgan-builds-ai-agents-that-beat-60-40-portfolio-in-backtests">JPMorgan Builds AI Agents That Beat 60/40 Portfolio in Backtests</a></h3>
-<p>JPMorgan Chase &amp; Co has developed AI agents that can allocate money and outperform the traditional 60/40 portfolio in backtests. This changes the portfolio management tool for investors, who may want to explore using AI-driven allocation models in their investment decisions today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-09/jpmorgan-builds-ai-agents-that-beat-60-40-portfolio-in-backtests">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder">Essentials: The Science &amp; Treatment of Obsessive Compulsive Disorder (OCD)</a></h3>
-<p>Compulsive actions in OCD can actually strengthen the underlying obsessions rather than relieve them due to the neural circuitry behind repetitive thought-action loops. This changes the approach to treating OCD, shifting the focus from solely alleviating symptoms to addressing the underlying biology and psychology of the disorder.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, July 9, 2026</title>
@@ -227,18 +259,6 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-21.html</guid>
     <pubDate>Sun, 21 Jun 2026 06:00:00 +0000</pubDate>
     <description>Think of AI agents like master editors, stitching together stories, code, and tasks with ease, which is changing the way journalists, developers, and investors work. As these agents automate tasks and provide insights, their impact is felt on trading</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, June 20, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-20.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-20.html</guid>
-    <pubDate>Sat, 20 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI safety like a referee in a high-stakes game, where one wrong move can change the entire outcome - today's stories show how researchers and developers are working to ensure their AI models are fair, transparent, and secure. As this focus o</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>

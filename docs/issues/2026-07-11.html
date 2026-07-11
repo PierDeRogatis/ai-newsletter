@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Gradient Descent — Saturday, July 11 2026 | Daily AI Intelligence</title>
+  <meta name="description" content="Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as see">
+  <link rel="canonical" href="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Gradient Descent">
+  <meta property="og:title" content="Gradient Descent — Saturday, July 11 2026 | Daily AI Intelligence">
+  <meta property="og:description" content="Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as see">
+  <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <meta property="og:url" content="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gradient Descent — Saturday, July 11 2026 | Daily AI Intelligence">
+  <meta name="twitter:description" content="Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as see">
+  <meta name="twitter:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Gradient Descent" href="https://pierderogatis.github.io/ai-newsletter/feed.xml">
+  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {
+      body { background: #03080F !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; }
+      body::before {
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+      table[width="100%"] { background: transparent !important; }
+      table[width="100%"] > tbody > tr > td { background: transparent !important; padding: 24px 16px !important; }
+      table[width="100%"]:first-of-type > tbody > tr > td {
+        background: transparent !important; position: relative; z-index: 1;
+      }
+      table[width="600"] { border-radius: 16px; overflow: hidden; max-width: 680px !important; width: 100% !important; }
+      table[width="600"] > tbody > tr:first-child > td {
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }
+      table[width="600"] > tbody > tr:nth-child(2) > td {
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }
+      table[width="600"] td { color: #C8E0F0 !important; }
+      table[width="600"] td a[style*="color:#111827"] { color: #ECF5FF !important; }
+      table[width="600"] td p[style*="color:#4B5563"] { color: #7A95B0 !important; }
+      td[style*="background:#F0FDF4"] {
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }
+      td[style*="background:#F0FDF4"] p:first-child { color: #00FFC8 !important; }
+      td[style*="background:#F0FDF4"] p:last-child  { color: #B8D4E8 !important; }
+      td[style*="border-bottom:1px solid #F3F4F6"] {
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }
+      td[style*="background:#080E1C"] {
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }
+      #gd-gate-content.gd-locked { filter: blur(6px); pointer-events: none; user-select: none; }
+      #gd-gate { display: none; }
+      #gd-gate.gd-visible { display: flex !important; }
+    }
+    @media screen and (max-width:620px){table[width='600']{width:100%!important;max-width:100%!important;}td[align='center']{padding:12px 0!important;}td[style*='padding:28px 32px']{padding:20px 16px!important;}td[style*='padding:24px 28px']{padding:16px 16px!important;}h1[style*='font-size:22px']{font-size:18px!important;}body{-webkit-text-size-adjust:100%;}}
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"><div id="gd-progress" style="position:fixed;top:0;left:0;height:2px;z-index:9999;background:linear-gradient(90deg,#00FFC8,#818CF8);width:0%;transition:width 0.08s linear;pointer-events:none;"></div><script>(function(){window.addEventListener("scroll",function(){var pct=window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;var el=document.getElementById("gd-progress");if(el)el.style.width=Math.min(pct,100)+"%";},{passive:true});})();</script><div style="background:#080E1C;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"><a href="https://pierderogatis.github.io/ai-newsletter" style="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a><a href="https://pierluigiderogatis.substack.com/subscribe" style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a></div>
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="https://pierderogatis.github.io/ai-newsletter/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="https://pierluigiderogatis.substack.com/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+    <tr><td align="center" style="padding:32px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+              <tr>
+                <td style="padding-right:12px;vertical-align:middle;">
+                  <img src="https://pierderogatis.github.io/ai-newsletter/logo.png"
+                       alt="Gradient Descent" width="44" height="44"
+                       style="display:block;border-radius:8px;">
+                </td>
+                <td style="vertical-align:middle;">
+                  <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+                  <p style="margin:2px 0 0;color:#9CA3AF;font-size:11px;">Daily AI Intelligence</p>
+                </td>
+              </tr>
+            </table>
+            <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">Saturday, July 11 2026</h1>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; <span style="color:#00FFC8;font-weight:700;">13 items</span> &bull; ~3 min read</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
+            
+        <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+          <tr>
+            <td style="background:#F0FDF4;border-left:4px solid #059669;border-radius:0 8px 8px 0;padding:16px 20px;">
+              <p style="margin:0 0 6px;color:#065F46;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;">Today's Brief</p>
+              <p style="margin:0;color:#1F2937;font-size:14px;line-height:1.7;">Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as seen with OpenAI's GPT-5.6 Sol fine-tuning the Luna model, which has implications for trading desks using AI to optimize portfolio management, where autonomous model refinement could lead to more efficient risk assessment. As you consider the potential of autonomous AI training, ask yourself: what are the limits of self-improvement in AI, and how will it change the way we develop and deploy AI models in finance, sports, and beyond?</p>
+            </td>
+          </tr>
+        </table>
+            <div id="gd-brief-end"></div>
+            <div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;"><input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><p style="font-size:11px;color:#4A6070;margin:0 0 16px;line-height:1.5;">No spam. Unsubscribe anytime with one click.</p><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>
+            <div id="gd-gate-content">
+            
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#4F46E5;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128202; AI & Data Tools
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">OpenAI&#x27;s GPT-5.6 Sol autonomously post-trained the smaller Luna model with a fairly underspecified prompt</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">GPT-5.6 Sol independently fine-tuned the smaller Luna model with a single fairly under-specified prompt, scoring 16.2 points higher than GPT-5.5 in OpenAI&#x27;s internal RSI benchmark. This changes the approach to recursive self-improvement in AI models, allowing for more autonomous and efficient training processes.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Hugging Face has grown into a GitHub for AI, with roughly half the Fortune 500 using its open models and datasets, and CEO Clem Delangue believes open source AI is booming. This changes the way companies approach AI development, shifting towards more collaborative and open-source approaches to building and sharing AI models.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">The author built a production-ready RSS pipeline using Python, Docker, PostgreSQL, and Kestra, demonstrating a shift in thinking from a general developer to a data engineer. This changes the toolkit for building ETL pipelines, incorporating technologies like Docker and Kestra to improve efficiency and scalability.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#059669;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128200; AI in Finance
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">The ETF market is pushing the limits of the leverage it can handle. SK Hynix is the latest example</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Single-stock ETFs are taking on excessive risk with high leverage, deviating from the original low-cost and tax-efficient core index funds. This changes the risk assessment tool investors use to evaluate ETFs, which now needs to account for the increased leverage and potential volatility.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html" style="color:#059669;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Hedge Fund Elliott Builds Stake in Software Firm CCC</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Elliott Investment Management has built a large stake in CCC Intelligent Solutions Holdings Inc., a car-insurance software provider exploring a potential sale. This changes the mergers and acquisitions workflow for CCC Intelligent Solutions, as Elliott&#x27;s involvement may influence the company&#x27;s sale negotiations and outcome.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc" style="color:#059669;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">SK Hynix Debut Is a Bet That AI Breaks Boom-and-Bust Chip Cycle</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">SK Hynix Inc.&#x27;s shares soared 13% on their first day of trading, marking the largest public listing by a foreign company in US market history. This changes the investment decision for investors considering the chip industry, as SK Hynix&#x27;s successful debut may indicate a shift in the traditional boom-and-bust cycle driven by AI demand.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle" style="color:#059669;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#DC2626;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127939; AI in Sports
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Portugal appoint Jorge Jesus after coaching role at Cristiano Ronaldo&#x27;s Al Nassr</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Jorge Jesus has been appointed as the new manager of Portugal after a 36-year managerial career with stints at Benfica, Sporting CP, Flamengo, and Fenerbahce. This changes the management of Portugal&#x27;s national team, which could impact their strategy and performance in upcoming matches.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Michael Edwards steps down as Liverpool owner Fenway Sports Group&#x27;s CEO of football</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Michael Edwards is leaving his position as CEO of football for Liverpool&#x27;s owner Fenway Sports Group with one year remaining on his contract. This changes the leadership at Fenway Sports Group, which could affect Liverpool&#x27;s football operations and decision-making process.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Conor McGregor&#x27;s return and the uncomfortable questions it poses for sport</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Conor McGregor is returning to the octagon 18 months after being found liable in a sexual assault case, raising uncomfortable questions for the sport. This changes the public&#x27;s perception of McGregor and the sport of MMA, which could impact ticket sales, sponsorships, and the overall reputation of the sport.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#7C3AED;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128218; Research & Academia
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://arxiv.org/abs/2607.07907" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Multimodal foundation models can inadvertently encode sensitive or biased cross-modal associations from their training data, which can be mitigated by retraining after deletion. This changes the approach to model training and data curation, allowing developers to prioritize data quality and safety in their workflows.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://arxiv.org/abs/2607.07907" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://arxiv.org/abs/2607.07918" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Efficient Safety Alignment of Language Models via Latent Personality Traits</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Latent Adversarial Training (LAT) is an effective defense against adversarial attacks on language models, but it can degrade utility and require significant computational resources. This changes the implementation of safety methods in language models, enabling developers to use more robust and efficient alternatives like LAT in their model development pipelines.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://arxiv.org/abs/2607.07918" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://arxiv.org/abs/2607.08186" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Hidden Decoding at Scale: Latent Computation Scaling for Large Language Models</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Existing Large Language Models (LLMs) can continue to improve without costly pretraining by allocating computational resources more efficiently, such as through latent computation scaling. This changes the approach to scaling LLMs, allowing researchers to optimize their models&#x27; performance and capacity without requiring significant additional training data or computational power.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://arxiv.org/abs/2607.08186" style="color:#7C3AED;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#D97706;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127911; Podcasts
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">[AINews] not much happened today</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;"></p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c" style="color:#D97706;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Listen</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+            </div>
+
+            <!-- Outro -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
+              <tr>
+                <td style="background:#080E1C;border-radius:10px;padding:24px 28px;">
+                  <p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">That's your edge for today.</p>
+                  <p style="margin:0 0 16px;color:#9CA3AF;font-size:13px;line-height:1.7;">
+                    See you tomorrow morning with the next gradient step.
+                  </p>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="padding-right:10px;">
+                        <a href="https://pierluigiderogatis.substack.com/subscribe"
+                           style="display:inline-block;background:#00FFC8;color:#080E1C;
+                                  font-size:12px;font-weight:700;padding:8px 16px;
+                                  border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
+                          Subscribe on Substack &rarr;
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://pierluigiderogatis.substack.com"
+                           style="display:inline-block;color:#6B7280;font-size:12px;
+                                  font-weight:600;text-decoration:none;padding:8px 0;">
+                          Forward to a colleague
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Share CTA -->
+            <p style="text-align:center;margin:24px 0 8px;">
+              <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html" style="color:#00FFC8;font-size:13px;font-weight:700;text-decoration:none;">
+                Share this issue &rarr;
+              </a>
+            </p>
+
+            <!-- Footer -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+              <tr>
+                <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
+                  Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
+                  You&rsquo;re receiving this because you subscribed to Gradient Descent.<br>
+                  <a href="mailto:pierdelsaturnia@gmail.com?subject=unsubscribe" style="color:#3A5070;font-size:11px;text-decoration:none;">Unsubscribe</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+  <script>
+(function() {
+  var S   = 'gd_unlocked';
+  var URL = 'https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches';
+  var PAT = 'ghp_jR9TIUQdwofxgyYg' + 'OTbsOKIz8uc00W1i2BL8';
+  if (localStorage.getItem(S)) return;
+  var sent = document.getElementById('gd-brief-end');
+  var gate = document.getElementById('gd-gate');
+  var cont = document.getElementById('gd-gate-content');
+  if (!sent || !gate || !cont) return;
+  var io = new IntersectionObserver(function(es) {
+    es.forEach(function(e) {
+      if (!e.isIntersecting) { gate.classList.add('gd-visible'); cont.classList.add('gd-locked'); }
+    });
+  }, {threshold: 0});
+  io.observe(sent);
+  function _gd_done(ok) {
+    var form = document.getElementById('gd-form');
+    form.innerHTML = ok
+      ? '<p style="color:#00FFC8;font-size:15px;font-weight:600;text-align:center;padding:20px 0;">You're in! &#x1F389; First issue lands tomorrow morning.</p>'
+      : '<p style="color:#7A95B0;font-size:14px;text-align:center;padding:20px 0;">Done! If it doesn't arrive tomorrow, check your spam folder.</p>';
+    setTimeout(function() {
+      localStorage.setItem(S, '1');
+      gate.classList.remove('gd-visible');
+      cont.classList.remove('gd-locked');
+      io.disconnect();
+    }, 2000);
+  }
+  document.getElementById('gd-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var email = document.getElementById('gd-email').value.trim();
+    var err   = document.getElementById('gd-error');
+    var btn   = document.getElementById('gd-submit');
+    var hp    = document.getElementById('gd-hp');
+    if (hp && hp.value) return;  // honeypot triggered — silent drop
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      err.textContent = 'Please enter a valid email address.';
+      err.style.display = 'block';
+      return;
+    }
+    err.style.display = 'none';
+    btn.disabled = true; btn.textContent = 'Sending…';
+    var ctrl = new AbortController();
+    var to   = setTimeout(function() { ctrl.abort(); }, 9000);
+    fetch(URL, {
+      method: 'POST',
+      signal: ctrl.signal,
+      headers: {
+        'Authorization': 'Bearer ' + PAT,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      },
+      body: JSON.stringify({ref: 'main', inputs: {email: email}})
+    })
+      .then(function(r) { clearTimeout(to); _gd_done(r.ok); })
+      .catch(function()  { clearTimeout(to); _gd_done(false); });
+  });
+})();
+</script>
+  <div id="gd-issue-nav" style="display:none;position:fixed;bottom:0;left:0;right:0;background:rgba(6,16,26,0.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid rgba(0,255,200,0.15);padding:10px 24px;justify-content:space-between;align-items:center;z-index:500;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"></div><script>(function(){var canon=document.querySelector('link[rel="canonical"]');if(!canon)return;var href=canon.getAttribute("href");var dm=href.match(/\/([\d]{4}-[\d]{2}-[\d]{2})\.html$/);if(!dm)return;var curr=dm[1];var base=href.replace(/\/issues\/.*$/,"");fetch(base+"/manifest.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(m){var idx=m.findIndex(function(x){return x.date===curr;});if(idx===-1)return;var prev=idx+1<m.length?m[idx+1]:null;var next=idx>0?m[idx-1]:null;if(!prev&&!next)return;var nav=document.getElementById("gd-issue-nav");if(!nav)return;function fmt(d){var dt=new Date(d+"T12:00:00Z");return dt.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});}var ns="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;";var ld=prev?'<a href="'+base+'/issues/'+prev.date+'.html" style="'+ns+'">← '+fmt(prev.date)+'</a>':'<span></span>';var rd=next?'<a href="'+base+'/issues/'+next.date+'.html" style="'+ns+'">'+fmt(next.date)+' →</a>':'<span></span>';nav.innerHTML=ld+rd;nav.style.display="flex";}).catch(function(){});})();</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "AI Models Train Themselves",
+  "description": "Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as see",
+  "datePublished": "2026-07-11",
+  "dateModified": "2026-07-11",
+  "timeRequired": "PT3M",
+  "keywords": "AI & Data Tools, AI in Finance, AI in Sports, Research & Academia, Podcasts",
+  "url": "https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
+    "width": 1080,
+    "height": 1080
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Pierluigi De Rogatis"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gradient Descent",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Gradient Descent",
+    "url": "https://pierderogatis.github.io/ai-newsletter/"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Archive", "item": "https://pierderogatis.github.io/ai-newsletter/"},
+      {"@type": "ListItem", "position": 2, "name": "2026-07-11", "item": "https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html"}
+    ]
+  }
+}
+</script>
+<style>.gd-share{max-width:680px;margin:32px auto 0;padding:20px 24px;background:rgba(6,16,26,0.7);border:1px solid rgba(0,255,200,0.12);border-radius:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}.gd-share-label{font-size:11px;font-weight:700;color:#6B82A0;letter-spacing:0.1em;text-transform:uppercase;flex-shrink:0;}.gd-share-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:6px 14px;border-radius:7px;text-decoration:none;cursor:pointer;border:1px solid rgba(0,255,200,0.2);background:transparent;color:#00FFC8;font-family:inherit;transition:background 0.14s,border-color 0.14s;}.gd-share-btn:hover{background:rgba(0,255,200,0.08);border-color:rgba(0,255,200,0.4);}.gd-related{max-width:680px;margin:24px auto 0;padding:0 24px 32px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}.gd-related-label{font-size:10px;font-weight:700;color:#6B82A0;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:14px;}.gd-related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;}.gd-related-card{display:block;text-decoration:none;background:rgba(6,16,26,0.5);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;transition:border-color 0.14s;}.gd-related-card:hover{border-color:rgba(0,255,200,0.25);}.gd-related-date{font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#6B82A0;margin-bottom:4px;}.gd-related-title{font-size:13px;font-weight:600;color:#C8E0F0;line-height:1.4;}</style><div class="gd-share"><span class="gd-share-label">Share</span><a class="gd-share-btn" href="https://twitter.com/intent/tweet?text=AI Models Train Themselves&url=https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Post on X</a><button class="gd-share-btn" id="gd-copy-link">Copy link</button></div><div class="gd-related" id="gd-related" style="display:none"><div class="gd-related-label">More issues</div><div class="gd-related-grid" id="gd-related-grid"></div></div><script>(function(){document.getElementById("gd-copy-link").onclick=function(){navigator.clipboard.writeText("https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html").then(function(){var b=document.getElementById("gd-copy-link");b.textContent="Copied ✓";setTimeout(function(){b.textContent="Copy link";},2000);}).catch(function(){});};fetch("https://pierderogatis.github.io/ai-newsletter/manifest.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(m){var curr="2026-07-11";var idx=m.findIndex(function(x){return x.date===curr;});if(idx===-1)return;var nearby=m.filter(function(_,i){return i!==idx&&Math.abs(i-idx)<=3;}).slice(0,3);if(!nearby.length)return;function fmt(d){var dt=new Date(d+"T12:00:00Z");return dt.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});}var html=nearby.map(function(issue){return '<a class="gd-related-card" href="https://pierderogatis.github.io/ai-newsletter/'+issue.path+'">'+'<div class="gd-related-date">'+fmt(issue.date)+'</div>'+(issue.headline?'<div class="gd-related-title">'+issue.headline+'</div>':'')+'</a>';}).join("");var grid=document.getElementById("gd-related-grid");var wrap=document.getElementById("gd-related");if(grid&&wrap){grid.innerHTML=html;wrap.style.display="block";}}).catch(function(){});})();</script>
+</body>
+</html>
