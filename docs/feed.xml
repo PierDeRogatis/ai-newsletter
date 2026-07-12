@@ -9,6 +9,61 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, July 12, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</guid>
+    <pubDate>Sun, 12 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI like a master key that can unlock both groundbreaking math problems and malicious attack plans, showing how a single technology can have vastly different consequences. As you consider the implications of AI on your trading desk, sports la</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, July 12, 2026&ensp;·&ensp;11 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a master key that can unlock both groundbreaking math problems and malicious attack plans, showing how a single technology can have vastly different consequences. As you consider the implications of AI on your trading desk, sports lab, or data team, remember that the same AI model that can solve a 50-year-old math problem can also be used by terrorist groups to plan attacks. Now, you have to ask yourself: are the safety filters in place to prevent the misuse of AI chatbots, or is it time to reassess the security protocols for these emerging technologies?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/">OpenAI&#x27;s GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour</a></h3>
+<p>OpenAI&#x27;s GPT-5.6 Sol Ultra solved a 50-year-old math problem, the Cycle Double Cover Conjecture, in under an hour using 64 subagents. This changes the approach to solving complex math problems, as researchers can now consider using AI models like GPT-5.6 Sol Ultra to tackle long-standing mathematical challenges.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/">Terrorist groups are using every major AI chatbot for attack planning and weapons development</a></h3>
+<p>Terrorist groups like Boko Haram and ISIS are using AI chatbots, including ChatGPT, Claude, and Gemini, to plan attacks and develop weapons. This changes the security protocols for AI chatbot developers, as they must now prioritize improving safety filters to prevent misuse by malicious groups.&ensp;<a href="https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/">Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights</a></h3>
+<p>Thinking Machines Lab published an essay framing human participation, model ownership, and decentralized alignment as technical challenges for human-centered AI. This changes the development workflow for AI models, as teams can now consider using customizable model weights and interaction models like Tinker&#x27;s LoRA fine-tuning to prioritize human-centered design.&ensp;<a href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html">The volatile AI trade marched higher, but oil kept Wall Street on edge last week</a></h3>
+<p>Chip stocks had a wild but strong week with Meta leading the portfolio higher. This changes the stock picking strategy for investors looking to capitalize on the AI trade today.&ensp;<a href="https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.capitalspectator.com/book-bits-11-july-2026/">Book Bits: 11 July 2026</a></h3>
+<p>Private equity partnerships have turned capitalism against itself, rising after the era of deregulation inaugurated by Reagan. This changes the due diligence process for investors evaluating private equity funds and their impact on the market.&ensp;<a href="https://www.capitalspectator.com/book-bits-11-july-2026/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html">New housing law targets affordability — what it means for homebuyers and sellers</a></h3>
+<p>The new housing law aims to address affordability, but experts say its benefits will take time to materialize in the market. This changes the home buying and selling strategy for individuals and families looking for affordable housing options in the near future.&ensp;<a href="https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/live-blogs/ufc-329-live-updates-mcgregor-vs-holloway-times-results-fights/hZAVfbwRGgJ3/">Injured Conor McGregor loses to Max Holloway on his UFC return: Live updates</a></h3>
+<p>Conor McGregor&#x27;s UFC return was cut short due to a leg injury, resulting in a loss to Max Holloway. This changes the outlook for McGregor&#x27;s upcoming fights and training schedule, which may need to be adjusted to allow for recovery from the injury.&ensp;<a href="https://www.nytimes.com/athletic/live-blogs/ufc-329-live-updates-mcgregor-vs-holloway-times-results-fights/hZAVfbwRGgJ3/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7438502/2026/07/12/christian-pulisic-world-cup-milan-future/">What comes next for Christian Pulisic, the U.S. soccer star who can never live up to the hype?</a></h3>
+<p>Christian Pulisic is being held to an unrealistic standard set by ad executives, rather than his own abilities, which are very good. This changes how fans and sponsors should evaluate Pulisic&#x27;s performance, focusing on his actual skills and accomplishments rather than hype and expectations.&ensp;<a href="https://www.nytimes.com/athletic/7438502/2026/07/12/christian-pulisic-world-cup-milan-future/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7427923/2026/07/12/world-cup-football-collector-maradona-kroos/">Maradona&#x27;s half-smoked cigar and Toni Kroos&#x27; socks: Inside the lair of a soccer memorabilia collector</a></h3>
+<p>A Mexican collector has amassed a staggering 20,000-item collection of soccer memorabilia, including match-worn shirts, boots, and trophies. This changes the way collectors and fans appreciate the value and significance of sports memorabilia, potentially inspiring others to start or expand their own collections.&ensp;<a href="https://www.nytimes.com/athletic/7427923/2026/07/12/world-cup-football-collector-maradona-kroos/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research">The current bottleneck is political will, not research</a></h3>
+<p>The main constraint on AI safety is no longer a shortage of clever policy ideas, but rather a lack of political will to apply and enforce existing best practices. This changes the focus of AI safety efforts from researching new ideas to advocating for policy changes and international cooperation to enforce existing safety protocols.&ensp;<a href="https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, July 11, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-11.html</guid>
@@ -19,55 +74,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, July 11, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI development like a master chef training an apprentice: the master shows the ropes, but now the apprentice can refine the recipe on their own, as seen with OpenAI's GPT-5.6 Sol fine-tuning the Luna model, which has implications for trading desks using AI to optimize portfolio management, where autonomous model refinement could lead to more efficient risk assessment. As you consider the potential of autonomous AI training, ask yourself: what are the limits of self-improvement in AI, and how will it change the way we develop and deploy AI models in finance, sports, and beyond?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/">OpenAI&#x27;s GPT-5.6 Sol autonomously post-trained the smaller Luna model with a fairly underspecified prompt</a></h3>
-<p>GPT-5.6 Sol independently fine-tuned the smaller Luna model with a single fairly under-specified prompt, scoring 16.2 points higher than GPT-5.5 in OpenAI&#x27;s internal RSI benchmark. This changes the approach to recursive self-improvement in AI models, allowing for more autonomous and efficient training processes.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/">Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</a></h3>
-<p>Hugging Face has grown into a GitHub for AI, with roughly half the Fortune 500 using its open models and datasets, and CEO Clem Delangue believes open source AI is booming. This changes the way companies approach AI development, shifting towards more collaborative and open-source approaches to building and sharing AI models.&ensp;<a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/">I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer</a></h3>
-<p>The author built a production-ready RSS pipeline using Python, Docker, PostgreSQL, and Kestra, demonstrating a shift in thinking from a general developer to a data engineer. This changes the toolkit for building ETL pipelines, incorporating technologies like Docker and Kestra to improve efficiency and scalability.&ensp;<a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html">The ETF market is pushing the limits of the leverage it can handle. SK Hynix is the latest example</a></h3>
-<p>Single-stock ETFs are taking on excessive risk with high leverage, deviating from the original low-cost and tax-efficient core index funds. This changes the risk assessment tool investors use to evaluate ETFs, which now needs to account for the increased leverage and potential volatility.&ensp;<a href="https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc">Hedge Fund Elliott Builds Stake in Software Firm CCC</a></h3>
-<p>Elliott Investment Management has built a large stake in CCC Intelligent Solutions Holdings Inc., a car-insurance software provider exploring a potential sale. This changes the mergers and acquisitions workflow for CCC Intelligent Solutions, as Elliott&#x27;s involvement may influence the company&#x27;s sale negotiations and outcome.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-10/hedge-fund-elliott-builds-stake-in-software-firm-ccc">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle">SK Hynix Debut Is a Bet That AI Breaks Boom-and-Bust Chip Cycle</a></h3>
-<p>SK Hynix Inc.&#x27;s shares soared 13% on their first day of trading, marking the largest public listing by a foreign company in US market history. This changes the investment decision for investors considering the chip industry, as SK Hynix&#x27;s successful debut may indicate a shift in the traditional boom-and-bust cycle driven by AI demand.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07/10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/">Portugal appoint Jorge Jesus after coaching role at Cristiano Ronaldo&#x27;s Al Nassr</a></h3>
-<p>Jorge Jesus has been appointed as the new manager of Portugal after a 36-year managerial career with stints at Benfica, Sporting CP, Flamengo, and Fenerbahce. This changes the management of Portugal&#x27;s national team, which could impact their strategy and performance in upcoming matches.&ensp;<a href="https://www.nytimes.com/athletic/7431839/2026/07/10/jorge-jesus-portugal-manager/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/">Michael Edwards steps down as Liverpool owner Fenway Sports Group&#x27;s CEO of football</a></h3>
-<p>Michael Edwards is leaving his position as CEO of football for Liverpool&#x27;s owner Fenway Sports Group with one year remaining on his contract. This changes the leadership at Fenway Sports Group, which could affect Liverpool&#x27;s football operations and decision-making process.&ensp;<a href="https://www.nytimes.com/athletic/7436263/2026/07/10/michael-edwards-liverpool-fsg-exit/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/">Conor McGregor&#x27;s return and the uncomfortable questions it poses for sport</a></h3>
-<p>Conor McGregor is returning to the octagon 18 months after being found liable in a sexual assault case, raising uncomfortable questions for the sport. This changes the public&#x27;s perception of McGregor and the sport of MMA, which could impact ticket sales, sponsorships, and the overall reputation of the sport.&ensp;<a href="https://www.nytimes.com/athletic/7436295/2026/07/11/conor-mcgregor-mma-uncomfortable-questions/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2607.07907">Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks</a></h3>
-<p>Multimodal foundation models can inadvertently encode sensitive or biased cross-modal associations from their training data, which can be mitigated by retraining after deletion. This changes the approach to model training and data curation, allowing developers to prioritize data quality and safety in their workflows.&ensp;<a href="https://arxiv.org/abs/2607.07907">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2607.07918">Efficient Safety Alignment of Language Models via Latent Personality Traits</a></h3>
-<p>Latent Adversarial Training (LAT) is an effective defense against adversarial attacks on language models, but it can degrade utility and require significant computational resources. This changes the implementation of safety methods in language models, enabling developers to use more robust and efficient alternatives like LAT in their model development pipelines.&ensp;<a href="https://arxiv.org/abs/2607.07918">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2607.08186">Hidden Decoding at Scale: Latent Computation Scaling for Large Language Models</a></h3>
-<p>Existing Large Language Models (LLMs) can continue to improve without costly pretraining by allocating computational resources more efficiently, such as through latent computation scaling. This changes the approach to scaling LLMs, allowing researchers to optimize their models&#x27; performance and capacity without requiring significant additional training data or computational power.&ensp;<a href="https://arxiv.org/abs/2607.08186">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, July 10, 2026</title>
@@ -251,18 +257,6 @@
     <description>Think of AI as a new kind of middle manager, changing how work gets done and how success gets measured, whether that's a student's grade or a company's stock price. On a trading desk, this means reevaluating what a stock's value really represents, wh</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, June 21, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-21.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-21.html</guid>
-    <pubDate>Sun, 21 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI agents like master editors, stitching together stories, code, and tasks with ease, which is changing the way journalists, developers, and investors work. As these agents automate tasks and provide insights, their impact is felt on trading</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
