@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, July 13, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-13.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-13.html</guid>
+    <pubDate>Mon, 13 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 13, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this means investors need to stay alert for companies like MiniMax, where sudden changes in target price can signal a shift in the market's perception of their value proposition. As you consider the implications of autonomous machine learning research loops, ask yourself: what happens when AI systems can develop and deploy their own models without human oversight, and how will that change the game for data teams and financial analysts?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/">RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each</a></h3>
+<p>RAG and fine-tuning are two different techniques that solve distinct problems, and the choice between them depends on the specific use case. This changes the model selection process in machine learning workflows, allowing developers to choose the most suitable technique for their project.&ensp;<a href="https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/">Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops</a></h3>
+<p>Loop engineering using &#x27;autoresearch&#x27; and &#x27;Bilevel Autoresearch&#x27; can turn AI agents into autonomous machine learning research loops, replacing the traditional manual back-and-forth process. This changes the research and development workflow, enabling the creation of more efficient and autonomous AI systems.&ensp;<a href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/">How to Orchestrate 100+ Agents With Claude Code</a></h3>
+<p>Claude Code allows for the orchestration of 100+ agents in parallel, enabling large-scale machine learning operations. This changes the deployment process of machine learning models, allowing for more complex and distributed systems to be built and managed.&ensp;<a href="https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://feeds.feedblitz.com/~/960162290/0/marginalrevolution~The-Trump-Administrations-Threat-to-Scientific-Research.html">The Trump Administration’s Threat to Scientific Research</a></h3>
+<p>The Trump administration&#x27;s rewriting of the Regulation for Federal Financial Assistance poses a significant threat to America&#x27;s decentralized system of science funding. This changes the approach to funding scientific research, potentially altering the allocation of federal financial assistance and impacting the overall direction of scientific inquiry.&ensp;<a href="https://feeds.feedblitz.com/~/960162290/0/marginalrevolution~The-Trump-Administrations-Threat-to-Scientific-Research.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further">MiniMax Shares Slump After JPMorgan Cuts Target Price Further</a></h3>
+<p>JPMorgan Chase &amp; Co. has slashed MiniMax Group Inc.&#x27;s price target for the second time in less than a week due to concerns over value dilution caused by fresh fundraising. This changes the investment strategy for MiniMax shares, as investors may need to reassess their portfolio allocations and consider the potential risks of further price drops.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all">Zhipu’s Chinese Founder Says Frontier AI Should Stay Open to All</a></h3>
+<p>The founder of Chinese AI lab Zhipu argues that frontier artificial intelligence should remain accessible to all, rather than being controlled by select individuals. This changes the approach to AI development and deployment, as companies and researchers may need to reconsider their strategies for sharing and collaborating on AI models and technologies.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, July 12, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</guid>
@@ -19,49 +58,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, July 12, 2026&ensp;·&ensp;11 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a master key that can unlock both groundbreaking math problems and malicious attack plans, showing how a single technology can have vastly different consequences. As you consider the implications of AI on your trading desk, sports lab, or data team, remember that the same AI model that can solve a 50-year-old math problem can also be used by terrorist groups to plan attacks. Now, you have to ask yourself: are the safety filters in place to prevent the misuse of AI chatbots, or is it time to reassess the security protocols for these emerging technologies?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/">OpenAI&#x27;s GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour</a></h3>
-<p>OpenAI&#x27;s GPT-5.6 Sol Ultra solved a 50-year-old math problem, the Cycle Double Cover Conjecture, in under an hour using 64 subagents. This changes the approach to solving complex math problems, as researchers can now consider using AI models like GPT-5.6 Sol Ultra to tackle long-standing mathematical challenges.&ensp;<a href="https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/">Terrorist groups are using every major AI chatbot for attack planning and weapons development</a></h3>
-<p>Terrorist groups like Boko Haram and ISIS are using AI chatbots, including ChatGPT, Claude, and Gemini, to plan attacks and develop weapons. This changes the security protocols for AI chatbot developers, as they must now prioritize improving safety filters to prevent misuse by malicious groups.&ensp;<a href="https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/">Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights</a></h3>
-<p>Thinking Machines Lab published an essay framing human participation, model ownership, and decentralized alignment as technical challenges for human-centered AI. This changes the development workflow for AI models, as teams can now consider using customizable model weights and interaction models like Tinker&#x27;s LoRA fine-tuning to prioritize human-centered design.&ensp;<a href="https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html">The volatile AI trade marched higher, but oil kept Wall Street on edge last week</a></h3>
-<p>Chip stocks had a wild but strong week with Meta leading the portfolio higher. This changes the stock picking strategy for investors looking to capitalize on the AI trade today.&ensp;<a href="https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.capitalspectator.com/book-bits-11-july-2026/">Book Bits: 11 July 2026</a></h3>
-<p>Private equity partnerships have turned capitalism against itself, rising after the era of deregulation inaugurated by Reagan. This changes the due diligence process for investors evaluating private equity funds and their impact on the market.&ensp;<a href="https://www.capitalspectator.com/book-bits-11-july-2026/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html">New housing law targets affordability — what it means for homebuyers and sellers</a></h3>
-<p>The new housing law aims to address affordability, but experts say its benefits will take time to materialize in the market. This changes the home buying and selling strategy for individuals and families looking for affordable housing options in the near future.&ensp;<a href="https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.nytimes.com/athletic/live-blogs/ufc-329-live-updates-mcgregor-vs-holloway-times-results-fights/hZAVfbwRGgJ3/">Injured Conor McGregor loses to Max Holloway on his UFC return: Live updates</a></h3>
-<p>Conor McGregor&#x27;s UFC return was cut short due to a leg injury, resulting in a loss to Max Holloway. This changes the outlook for McGregor&#x27;s upcoming fights and training schedule, which may need to be adjusted to allow for recovery from the injury.&ensp;<a href="https://www.nytimes.com/athletic/live-blogs/ufc-329-live-updates-mcgregor-vs-holloway-times-results-fights/hZAVfbwRGgJ3/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7438502/2026/07/12/christian-pulisic-world-cup-milan-future/">What comes next for Christian Pulisic, the U.S. soccer star who can never live up to the hype?</a></h3>
-<p>Christian Pulisic is being held to an unrealistic standard set by ad executives, rather than his own abilities, which are very good. This changes how fans and sponsors should evaluate Pulisic&#x27;s performance, focusing on his actual skills and accomplishments rather than hype and expectations.&ensp;<a href="https://www.nytimes.com/athletic/7438502/2026/07/12/christian-pulisic-world-cup-milan-future/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7427923/2026/07/12/world-cup-football-collector-maradona-kroos/">Maradona&#x27;s half-smoked cigar and Toni Kroos&#x27; socks: Inside the lair of a soccer memorabilia collector</a></h3>
-<p>A Mexican collector has amassed a staggering 20,000-item collection of soccer memorabilia, including match-worn shirts, boots, and trophies. This changes the way collectors and fans appreciate the value and significance of sports memorabilia, potentially inspiring others to start or expand their own collections.&ensp;<a href="https://www.nytimes.com/athletic/7427923/2026/07/12/world-cup-football-collector-maradona-kroos/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research">The current bottleneck is political will, not research</a></h3>
-<p>The main constraint on AI safety is no longer a shortage of clever policy ideas, but rather a lack of political will to apply and enforce existing best practices. This changes the focus of AI safety efforts from researching new ideas to advocating for policy changes and international cooperation to enforce existing safety protocols.&ensp;<a href="https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, July 11, 2026</title>
@@ -247,16 +243,6 @@
     <description>Think of AI models like LEGO blocks: you can now swap them in and out to improve performance on specific tasks, like coding and reasoning. This modularity could trickle down to sports performance, where understanding individual differences - like leg</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, June 22, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-22.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-22.html</guid>
-    <pubDate>Mon, 22 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI as a new kind of middle manager, changing how work gets done and how success gets measured, whether that's a student's grade or a company's stock price. On a trading desk, this means reevaluating what a stock's value really represents, wh</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

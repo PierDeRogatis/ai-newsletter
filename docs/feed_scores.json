@@ -16,7 +16,6 @@
   },
   "https://www.cnbc.com/id/100003114/device/rss/rss.html": {
     "recent_hits": [
-      1,
       0,
       1,
       0,
@@ -25,13 +24,13 @@
       0,
       0,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://the-decoder.com/feed/": {
     "recent_hits": [
-      1,
       0,
       1,
       1,
@@ -40,13 +39,13 @@
       1,
       0,
       1,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://www.marktechpost.com/feed/": {
     "recent_hits": [
-      0,
       1,
       1,
       1,
@@ -55,9 +54,10 @@
       0,
       0,
       0,
+      1,
       1
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://www.outsideonline.com/feed/": {
     "recent_hits": [
@@ -131,14 +131,14 @@
       1,
       1,
       1,
-      1,
       0,
       1,
       1,
       1,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://braininspired.co/feed/podcast/": {
     "recent_hits": [
@@ -160,11 +160,10 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://feeds.feedburner.com/marginalrevolution/feed": {
     "recent_hits": [
-      0,
       0,
       0,
       0,
@@ -173,9 +172,10 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://changelog.com/practicalai/feed": {
     "recent_hits": [
@@ -231,7 +231,6 @@
   "https://towardsdatascience.com/feed": {
     "recent_hits": [
       0,
-      0,
       1,
       0,
       0,
@@ -239,9 +238,10 @@
       0,
       0,
       1,
-      0
+      0,
+      1
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://arxiv.org/rss/cs.CL": {
     "recent_hits": [
@@ -556,7 +556,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://abnormalreturns.com/feed/": {
     "recent_hits": [
@@ -571,7 +571,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://hnrss.org/best?q=algorithmic+trading": {
     "recent_hits": [
@@ -586,12 +586,12 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://quantpedia.com/blog/feed/": {
     "recent_hits": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -601,7 +601,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://hnrss.org/best?q=quantitative+finance+AI": {
     "recent_hits": [
@@ -616,7 +616,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://www.capitalspectator.com/feed/": {
     "recent_hits": [
@@ -628,10 +628,10 @@
       0,
       0,
       0,
-      0,
-      1
+      1,
+      0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://alphaarchitect.com/feed/": {
     "recent_hits": [
@@ -646,7 +646,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://hnrss.org/best?q=fintech+AI": {
     "recent_hits": [
@@ -661,7 +661,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://venturebeat.com/category/ai/feed/": {
     "recent_hits": [
@@ -676,7 +676,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://hnrss.org/frontpage": {
     "recent_hits": [
@@ -686,12 +686,12 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://openai.com/blog/rss.xml": {
     "recent_hits": [
@@ -706,7 +706,7 @@
       0,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   },
   "https://techcrunch.com/category/artificial-intelligence/feed/": {
     "recent_hits": [
@@ -716,11 +716,11 @@
       0,
       0,
       0,
+      1,
+      1,
       0,
-      1,
-      1,
       0
     ],
-    "last_run": "2026-07-12"
+    "last_run": "2026-07-13"
   }
 }

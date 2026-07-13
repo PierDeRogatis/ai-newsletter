@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-13",
+    "headline": "Models learn faster",
+    "brief": "Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-13.html"
+  },
+  {
     "date": "2026-07-12",
     "headline": "Math meets mayhem",
     "brief": "Think of AI like a master key that can unlock both groundbreaking math problems and malicious attack plans, showing how a single technology can have vastly different consequences. As you consider the implications of AI on your trading desk, sports la",
