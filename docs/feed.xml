@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, July 14, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</guid>
+    <pubDate>Tue, 14 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's hea</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 14, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's health intelligence layer means a trader can now use more accurate language models to analyze market trends, while a coach can use SensorFM to create personalized fitness plans, and an athlete can prioritize durability exercises to improve endurance. As you consider integrating these new tools into your workflow, ask yourself: what assumptions about human performance or data analysis will you have to revisit in the next quarter to stay ahead of the curve?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German</a></h3>
+<p>Soofi S 30B-A3B, a new open language model, has been released by a German research consortium and tops benchmarks in both English and German. This changes the language model toolkit that developers can use for English and German language tasks, allowing them to integrate Soofi S into their workflows today.&ensp;<a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/sensorfm/">Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer</a></h3>
+<p>Google Research&#x27;s SensorFM, a foundation model trained on over a trillion minutes of wearable data, beats existing benchmarks on 34 of 35 health and behavioral tasks. This changes the health analytics workflow, enabling developers to use SensorFM to power their health and wellness applications and make more accurate predictions and recommendations.&ensp;<a href="https://the-decoder.com/sensorfm/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/">Anthropic extends free Fable 5 access for subscribers as OpenAI&#x27;s GPT-5.6 Sol heats up the pricing war</a></h3>
+<p>Anthropic is extending free access to Claude Fable 5 for subscribers through July 19, 2026, allowing them to use up to 50 percent of their weekly limit for Fable 5. This changes the budgeting decision for developers using language models, as they can now factor in the extended free access to Fable 5 when planning their AI expenses and choosing between different language model providers.&ensp;<a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/">The Secret to Running Strong in the Final Miles Isn’t More Fitness</a></h3>
+<p>New research says durability defines the best endurance athletes. This changes the focus of training from solely increasing fitness to also prioritizing durability exercises in your workout routine.&ensp;<a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/">How to Build Muscular Fatigue Resistance so You Can Run Longer Without Your Legs Tiring Out</a></h3>
+<p>An ultramarathon coach explains how to strengthen your legs for more durable running. This changes your leg workout to include exercises that target muscular fatigue resistance, such as strength training and hill repeats, to improve running endurance.&ensp;<a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084">Finite element analysis of the proximal femoral growth plate biomechanics: insights into cam deformity risk of adolescent athletes</a></h3>
+<p>Three-dimensional pelvic CT data is used to analyze the stress distribution within the proximal femoral epiphyseal growth plate of adolescents during daily activities and sports. This changes the approach to injury prevention and training for adolescent athletes, requiring coaches and trainers to consider the biomechanical influences on the development of the proximal femur.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months">AINews</a></h3>
+<p>Codex usage has increased by over 10 times in 6 months to 7 million users, with 1 million new users added in just the past day. This changes the competitive landscape for AI coding tools, potentially altering the decision of which tool to use for coding tasks, such as choosing between Codex and Claude Code.&ensp;<a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, July 13, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-13.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-13.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 13, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this means investors need to stay alert for companies like MiniMax, where sudden changes in target price can signal a shift in the market's perception of their value proposition. As you consider the implications of autonomous machine learning research loops, ask yourself: what happens when AI systems can develop and deploy their own models without human oversight, and how will that change the game for data teams and financial analysts?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/">RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each</a></h3>
-<p>RAG and fine-tuning are two different techniques that solve distinct problems, and the choice between them depends on the specific use case. This changes the model selection process in machine learning workflows, allowing developers to choose the most suitable technique for their project.&ensp;<a href="https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/">Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops</a></h3>
-<p>Loop engineering using &#x27;autoresearch&#x27; and &#x27;Bilevel Autoresearch&#x27; can turn AI agents into autonomous machine learning research loops, replacing the traditional manual back-and-forth process. This changes the research and development workflow, enabling the creation of more efficient and autonomous AI systems.&ensp;<a href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/">How to Orchestrate 100+ Agents With Claude Code</a></h3>
-<p>Claude Code allows for the orchestration of 100+ agents in parallel, enabling large-scale machine learning operations. This changes the deployment process of machine learning models, allowing for more complex and distributed systems to be built and managed.&ensp;<a href="https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://feeds.feedblitz.com/~/960162290/0/marginalrevolution~The-Trump-Administrations-Threat-to-Scientific-Research.html">The Trump Administration’s Threat to Scientific Research</a></h3>
-<p>The Trump administration&#x27;s rewriting of the Regulation for Federal Financial Assistance poses a significant threat to America&#x27;s decentralized system of science funding. This changes the approach to funding scientific research, potentially altering the allocation of federal financial assistance and impacting the overall direction of scientific inquiry.&ensp;<a href="https://feeds.feedblitz.com/~/960162290/0/marginalrevolution~The-Trump-Administrations-Threat-to-Scientific-Research.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further">MiniMax Shares Slump After JPMorgan Cuts Target Price Further</a></h3>
-<p>JPMorgan Chase &amp; Co. has slashed MiniMax Group Inc.&#x27;s price target for the second time in less than a week due to concerns over value dilution caused by fresh fundraising. This changes the investment strategy for MiniMax shares, as investors may need to reassess their portfolio allocations and consider the potential risks of further price drops.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all">Zhipu’s Chinese Founder Says Frontier AI Should Stay Open to All</a></h3>
-<p>The founder of Chinese AI lab Zhipu argues that frontier artificial intelligence should remain accessible to all, rather than being controlled by select individuals. This changes the approach to AI development and deployment, as companies and researchers may need to reconsider their strategies for sharing and collaborating on AI models and technologies.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-f5c">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, July 12, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As the</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, June 23, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-23.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-23.html</guid>
-    <pubDate>Tue, 23 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like LEGO blocks: you can now swap them in and out to improve performance on specific tasks, like coding and reasoning. This modularity could trickle down to sports performance, where understanding individual differences - like leg</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

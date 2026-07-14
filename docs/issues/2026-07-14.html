@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Gradient Descent — Tuesday, July 14 2026 | Daily AI Intelligence</title>
+  <meta name="description" content="Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes">
+  <link rel="canonical" href="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Gradient Descent">
+  <meta property="og:title" content="Gradient Descent — Tuesday, July 14 2026 | Daily AI Intelligence">
+  <meta property="og:description" content="Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes">
+  <meta property="og:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <meta property="og:url" content="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gradient Descent — Tuesday, July 14 2026 | Daily AI Intelligence">
+  <meta name="twitter:description" content="Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes">
+  <meta name="twitter:image" content="https://pierderogatis.github.io/ai-newsletter/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Gradient Descent" href="https://pierderogatis.github.io/ai-newsletter/feed.xml">
+  <style>
+    /* ── web-only overrides (email clients ignore <style> blocks) ── */
+    @media screen {
+      body { background: #03080F !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; }
+      body::before {
+        content: '';
+        position: fixed; inset: 0; z-index: 0; pointer-events: none;
+        background-image: radial-gradient(circle, rgba(0,255,200,0.04) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+      table[width="100%"] { background: transparent !important; }
+      table[width="100%"] > tbody > tr > td { background: transparent !important; padding: 24px 16px !important; }
+      table[width="100%"]:first-of-type > tbody > tr > td {
+        background: transparent !important; position: relative; z-index: 1;
+      }
+      table[width="600"] { border-radius: 16px; overflow: hidden; max-width: 680px !important; width: 100% !important; }
+      table[width="600"] > tbody > tr:first-child > td {
+        background: #06101A !important;
+        border-bottom: 1px solid rgba(0,255,200,0.15) !important;
+      }
+      table[width="600"] > tbody > tr:nth-child(2) > td {
+        background: #06101A !important;
+        border-radius: 0 0 16px 16px !important;
+      }
+      table[width="600"] td { color: #C8E0F0 !important; }
+      table[width="600"] td a[style*="color:#111827"] { color: #ECF5FF !important; }
+      table[width="600"] td p[style*="color:#4B5563"] { color: #7A95B0 !important; }
+      td[style*="background:#F0FDF4"] {
+        background: rgba(0,255,200,0.05) !important;
+        border-left: 3px solid #00FFC8 !important;
+        border-radius: 0 8px 8px 0 !important;
+      }
+      td[style*="background:#F0FDF4"] p:first-child { color: #00FFC8 !important; }
+      td[style*="background:#F0FDF4"] p:last-child  { color: #B8D4E8 !important; }
+      td[style*="border-bottom:1px solid #F3F4F6"] {
+        border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+      }
+      td[style*="background:#080E1C"] {
+        background: #030810 !important;
+        border: 1px solid rgba(0,255,200,0.12) !important;
+        border-radius: 12px !important;
+      }
+      #gd-gate-content.gd-locked { filter: blur(6px); pointer-events: none; user-select: none; }
+      #gd-gate { display: none; }
+      #gd-gate.gd-visible { display: flex !important; }
+    }
+    @media screen and (max-width:620px){table[width='600']{width:100%!important;max-width:100%!important;}td[align='center']{padding:12px 0!important;}td[style*='padding:28px 32px']{padding:20px 16px!important;}td[style*='padding:24px 28px']{padding:16px 16px!important;}h1[style*='font-size:22px']{font-size:18px!important;}body{-webkit-text-size-adjust:100%;}}
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#F9FAFB;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"><div id="gd-progress" style="position:fixed;top:0;left:0;height:2px;z-index:9999;background:linear-gradient(90deg,#00FFC8,#818CF8);width:0%;transition:width 0.08s linear;pointer-events:none;"></div><script>(function(){window.addEventListener("scroll",function(){var pct=window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;var el=document.getElementById("gd-progress");if(el)el.style.width=Math.min(pct,100)+"%";},{passive:true});})();</script><div style="background:#080E1C;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"><a href="https://pierderogatis.github.io/ai-newsletter" style="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;letter-spacing:0.01em;">&#8592; Archive</a><a href="https://pierluigiderogatis.substack.com/subscribe" style="background:#00C9A7;color:#080E1C;font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;text-decoration:none;">Subscribe free</a></div>
+  <div style="background:#03080F;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,255,200,0.15);position:relative;z-index:1;">
+    <a href="https://pierderogatis.github.io/ai-newsletter/index.html" style="color:#00FFC8;font-size:12px;font-weight:700;text-decoration:none;letter-spacing:0.06em;text-shadow:0 0 8px rgba(0,255,200,0.4);">&larr; Archive</a>
+    <a href="https://pierluigiderogatis.substack.com/subscribe" style="color:#6B82A0;font-size:12px;font-weight:600;text-decoration:none;">Subscribe free &rarr;</a>
+  </div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F9FAFB;">
+    <tr><td align="center" style="padding:32px 16px;">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#111827;border-radius:12px 12px 0 0;padding:28px 32px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+              <tr>
+                <td style="padding-right:12px;vertical-align:middle;">
+                  <img src="https://pierderogatis.github.io/ai-newsletter/logo.png"
+                       alt="Gradient Descent" width="44" height="44"
+                       style="display:block;border-radius:8px;">
+                </td>
+                <td style="vertical-align:middle;">
+                  <p style="margin:0;color:#00FFC8;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Gradient Descent</p>
+                  <p style="margin:2px 0 0;color:#9CA3AF;font-size:11px;">Daily AI Intelligence</p>
+                </td>
+              </tr>
+            </table>
+            <h1 style="margin:0 0 6px;color:#FFFFFF;font-size:22px;font-weight:700;">Tuesday, July 14 2026</h1>
+            <p style="margin:0;color:#9CA3AF;font-size:13px;">Good morning &mdash; <span style="color:#00FFC8;font-weight:700;">7 items</span> &bull; ~3 min read</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="background:#FFFFFF;border-radius:0 0 12px 12px;padding:28px 32px;">
+            
+        <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+          <tr>
+            <td style="background:#F0FDF4;border-left:4px solid #059669;border-radius:0 8px 8px 0;padding:16px 20px;">
+              <p style="margin:0 0 6px;color:#065F46;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;">Today's Brief</p>
+              <p style="margin:0;color:#1F2937;font-size:14px;line-height:1.7;">Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's health intelligence layer means a trader can now use more accurate language models to analyze market trends, while a coach can use SensorFM to create personalized fitness plans, and an athlete can prioritize durability exercises to improve endurance. As you consider integrating these new tools into your workflow, ask yourself: what assumptions about human performance or data analysis will you have to revisit in the next quarter to stay ahead of the curve?</p>
+            </td>
+          </tr>
+        </table>
+            <div id="gd-brief-end"></div>
+            <div id="gd-gate" style="position:fixed;inset:0;z-index:9000;background:rgba(3,8,15,0.82);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;"><div style="background:#06101A;border:1px solid rgba(0,255,200,0.2);border-radius:16px;padding:40px 36px;max-width:420px;width:90%;text-align:center;box-shadow:0 0 60px rgba(0,255,200,0.08);"><p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;">Continue reading</p><h2 style="margin:0 0 12px;color:#ECF5FF;font-size:20px;font-weight:700;line-height:1.3;">Get your daily edge, free</h2><p style="margin:0 0 24px;color:#7A95B0;font-size:13px;line-height:1.6;">Enter your email to read today&#8217;s issue and receive Gradient Descent every morning.</p><form id="gd-form" style="text-align:left;"><input id="gd-hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;"><input id="gd-email" type="email" placeholder="you@example.com" aria-label="Email address" style="display:block;width:100%;box-sizing:border-box;background:#03080F;border:1px solid rgba(0,255,200,0.2);border-radius:8px;padding:12px 14px;color:#ECF5FF;font-size:14px;font-family:inherit;margin-bottom:12px;outline:none;"><p style="font-size:11px;color:#4A6070;margin:0 0 16px;line-height:1.5;">No spam. Unsubscribe anytime with one click.</p><p id="gd-error" style="display:none;color:#FF6B6B;font-size:12px;margin:-12px 0 12px;"></p><button id="gd-submit" type="submit" style="width:100%;background:#00FFC8;color:#03080F;font-size:13px;font-weight:700;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:0.04em;font-family:inherit;">Unlock today&#8217;s issue</button></form><p style="margin:16px 0 0;color:#3A5070;font-size:11px;">No spam. No tracking. Unsubscribe with one click.</p></div></div>
+            <div id="gd-gate-content">
+            
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#4F46E5;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#128202; AI & Data Tools
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Soofi S 30B-A3B, a new open language model, has been released by a German research consortium and tops benchmarks in both English and German. This changes the language model toolkit that developers can use for English and German language tasks, allowing them to integrate Soofi S into their workflows today.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://the-decoder.com/sensorfm/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Google Research&#x27;s SensorFM, a foundation model trained on over a trillion minutes of wearable data, beats existing benchmarks on 34 of 35 health and behavioral tasks. This changes the health analytics workflow, enabling developers to use SensorFM to power their health and wellness applications and make more accurate predictions and recommendations.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://the-decoder.com/sensorfm/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Anthropic extends free Fable 5 access for subscribers as OpenAI&#x27;s GPT-5.6 Sol heats up the pricing war</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Anthropic is extending free access to Claude Fable 5 for subscribers through July 19, 2026, allowing them to use up to 50 percent of their weekly limit for Fable 5. This changes the budgeting decision for developers using language models, as they can now factor in the extended free access to Fable 5 when planning their AI expenses and choosing between different language model providers.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/" style="color:#4F46E5;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#DC2626;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127939; AI in Sports
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">The Secret to Running Strong in the Final Miles Isn’t More Fitness</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">New research says durability defines the best endurance athletes. This changes the focus of training from solely increasing fitness to also prioritizing durability exercises in your workout routine.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">How to Build Muscular Fatigue Resistance so You Can Run Longer Without Your Legs Tiring Out</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">An ultramarathon coach explains how to strengthen your legs for more durable running. This changes your leg workout to include exercises that target muscular fatigue resistance, such as strength training and hill repeats, to improve running endurance.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">Finite element analysis of the proximal femoral growth plate biomechanics: insights into cam deformity risk of adolescent athletes</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Three-dimensional pelvic CT data is used to analyze the stress distribution within the proximal femoral epiphyseal growth plate of adolescents during daily activities and sports. This changes the approach to injury prevention and training for adolescent athletes, requiring coaches and trainers to consider the biomechanical influences on the development of the proximal femur.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084" style="color:#DC2626;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Read</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td style="padding:0 0 10px;">
+          <span style="background:#D97706;color:#fff;font-size:11px;font-weight:700;
+                        letter-spacing:0.08em;text-transform:uppercase;
+                        padding:3px 10px;border-radius:12px;">
+            &#127911; Podcasts
+          </span>
+        </td>
+      </tr>
+      
+        <tr>
+          <td style="padding:12px 0;border-bottom:1px solid #F3F4F6;">
+            <a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months" style="color:#111827;font-weight:600;font-size:14px;text-decoration:none;line-height:1.4;">AINews</a>
+            <p style="margin:6px 0 0;color:#4B5563;font-size:13px;line-height:1.6;">Codex usage has increased by over 10 times in 6 months to 7 million users, with 1 million new users added in just the past day. This changes the competitive landscape for AI coding tools, potentially altering the decision of which tool to use for coding tasks, such as choosing between Codex and Claude Code.</p>
+            <p style="margin:6px 0 0;">
+              <span style="color:#9CA3AF;font-size:12px;"></span>
+              &nbsp;&bull;&nbsp;
+              <a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months" style="color:#D97706;font-size:12px;font-weight:600;text-decoration:none;">&rarr; Listen</a>
+            </p>
+          </td>
+        </tr>
+    </table>
+            </div>
+
+            <!-- Outro -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;">
+              <tr>
+                <td style="background:#080E1C;border-radius:10px;padding:24px 28px;">
+                  <p style="margin:0 0 4px;color:#00FFC8;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">That's your edge for today.</p>
+                  <p style="margin:0 0 16px;color:#9CA3AF;font-size:13px;line-height:1.7;">
+                    See you tomorrow morning with the next gradient step.
+                  </p>
+                  <table cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="padding-right:10px;">
+                        <a href="https://pierluigiderogatis.substack.com/subscribe"
+                           style="display:inline-block;background:#00FFC8;color:#080E1C;
+                                  font-size:12px;font-weight:700;padding:8px 16px;
+                                  border-radius:6px;text-decoration:none;letter-spacing:0.02em;">
+                          Subscribe on Substack &rarr;
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://pierluigiderogatis.substack.com"
+                           style="display:inline-block;color:#6B7280;font-size:12px;
+                                  font-weight:600;text-decoration:none;padding:8px 0;">
+                          Forward to a colleague
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Share CTA -->
+            <p style="text-align:center;margin:24px 0 8px;">
+              <a href="https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html" style="color:#00FFC8;font-size:13px;font-weight:700;text-decoration:none;">
+                Share this issue &rarr;
+              </a>
+            </p>
+
+            <!-- Footer -->
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+              <tr>
+                <td style="color:#D1D5DB;font-size:10px;text-align:center;line-height:1.8;">
+                  Gradient Descent &bull; Powered by Groq &bull; Sources: curated RSS across 15+ publications<br>
+                  You&rsquo;re receiving this because you subscribed to Gradient Descent.<br>
+                  <a href="mailto:pierdelsaturnia@gmail.com?subject=unsubscribe" style="color:#3A5070;font-size:11px;text-decoration:none;">Unsubscribe</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+  <script>
+(function() {
+  var S   = 'gd_unlocked';
+  var URL = 'https://api.github.com/repos/PierDeRogatis/ai-newsletter/actions/workflows/capture-email.yml/dispatches';
+  var PAT = 'ghp_jR9TIUQdwofxgyYg' + 'OTbsOKIz8uc00W1i2BL8';
+  if (localStorage.getItem(S)) return;
+  var sent = document.getElementById('gd-brief-end');
+  var gate = document.getElementById('gd-gate');
+  var cont = document.getElementById('gd-gate-content');
+  if (!sent || !gate || !cont) return;
+  var io = new IntersectionObserver(function(es) {
+    es.forEach(function(e) {
+      if (!e.isIntersecting) { gate.classList.add('gd-visible'); cont.classList.add('gd-locked'); }
+    });
+  }, {threshold: 0});
+  io.observe(sent);
+  function _gd_done(ok) {
+    var form = document.getElementById('gd-form');
+    form.innerHTML = ok
+      ? '<p style="color:#00FFC8;font-size:15px;font-weight:600;text-align:center;padding:20px 0;">You're in! &#x1F389; First issue lands tomorrow morning.</p>'
+      : '<p style="color:#7A95B0;font-size:14px;text-align:center;padding:20px 0;">Done! If it doesn't arrive tomorrow, check your spam folder.</p>';
+    setTimeout(function() {
+      localStorage.setItem(S, '1');
+      gate.classList.remove('gd-visible');
+      cont.classList.remove('gd-locked');
+      io.disconnect();
+    }, 2000);
+  }
+  document.getElementById('gd-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var email = document.getElementById('gd-email').value.trim();
+    var err   = document.getElementById('gd-error');
+    var btn   = document.getElementById('gd-submit');
+    var hp    = document.getElementById('gd-hp');
+    if (hp && hp.value) return;  // honeypot triggered — silent drop
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      err.textContent = 'Please enter a valid email address.';
+      err.style.display = 'block';
+      return;
+    }
+    err.style.display = 'none';
+    btn.disabled = true; btn.textContent = 'Sending…';
+    var ctrl = new AbortController();
+    var to   = setTimeout(function() { ctrl.abort(); }, 9000);
+    fetch(URL, {
+      method: 'POST',
+      signal: ctrl.signal,
+      headers: {
+        'Authorization': 'Bearer ' + PAT,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      },
+      body: JSON.stringify({ref: 'main', inputs: {email: email}})
+    })
+      .then(function(r) { clearTimeout(to); _gd_done(r.ok); })
+      .catch(function()  { clearTimeout(to); _gd_done(false); });
+  });
+})();
+</script>
+  <div id="gd-issue-nav" style="display:none;position:fixed;bottom:0;left:0;right:0;background:rgba(6,16,26,0.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid rgba(0,255,200,0.15);padding:10px 24px;justify-content:space-between;align-items:center;z-index:500;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;"></div><script>(function(){var canon=document.querySelector('link[rel="canonical"]');if(!canon)return;var href=canon.getAttribute("href");var dm=href.match(/\/([\d]{4}-[\d]{2}-[\d]{2})\.html$/);if(!dm)return;var curr=dm[1];var base=href.replace(/\/issues\/.*$/,"");fetch(base+"/manifest.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(m){var idx=m.findIndex(function(x){return x.date===curr;});if(idx===-1)return;var prev=idx+1<m.length?m[idx+1]:null;var next=idx>0?m[idx-1]:null;if(!prev&&!next)return;var nav=document.getElementById("gd-issue-nav");if(!nav)return;function fmt(d){var dt=new Date(d+"T12:00:00Z");return dt.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});}var ns="color:#6EE7B7;font-size:13px;font-weight:600;text-decoration:none;";var ld=prev?'<a href="'+base+'/issues/'+prev.date+'.html" style="'+ns+'">← '+fmt(prev.date)+'</a>':'<span></span>';var rd=next?'<a href="'+base+'/issues/'+next.date+'.html" style="'+ns+'">'+fmt(next.date)+' →</a>':'<span></span>';nav.innerHTML=ld+rd;nav.style.display="flex";}).catch(function(){});})();</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "New Tools Redraw Maps",
+  "description": "Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes",
+  "datePublished": "2026-07-14",
+  "dateModified": "2026-07-14",
+  "timeRequired": "PT3M",
+  "keywords": "AI & Data Tools, AI in Sports, Podcasts",
+  "url": "https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
+    "width": 1080,
+    "height": 1080
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Pierluigi De Rogatis"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gradient Descent",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pierderogatis.github.io/ai-newsletter/logo.png",
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Gradient Descent",
+    "url": "https://pierderogatis.github.io/ai-newsletter/"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Archive", "item": "https://pierderogatis.github.io/ai-newsletter/"},
+      {"@type": "ListItem", "position": 2, "name": "2026-07-14", "item": "https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html"}
+    ]
+  }
+}
+</script>
+<style>.gd-share{max-width:680px;margin:32px auto 0;padding:20px 24px;background:rgba(6,16,26,0.7);border:1px solid rgba(0,255,200,0.12);border-radius:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}.gd-share-label{font-size:11px;font-weight:700;color:#6B82A0;letter-spacing:0.1em;text-transform:uppercase;flex-shrink:0;}.gd-share-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:6px 14px;border-radius:7px;text-decoration:none;cursor:pointer;border:1px solid rgba(0,255,200,0.2);background:transparent;color:#00FFC8;font-family:inherit;transition:background 0.14s,border-color 0.14s;}.gd-share-btn:hover{background:rgba(0,255,200,0.08);border-color:rgba(0,255,200,0.4);}.gd-related{max-width:680px;margin:24px auto 0;padding:0 24px 32px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}.gd-related-label{font-size:10px;font-weight:700;color:#6B82A0;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:14px;}.gd-related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;}.gd-related-card{display:block;text-decoration:none;background:rgba(6,16,26,0.5);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;transition:border-color 0.14s;}.gd-related-card:hover{border-color:rgba(0,255,200,0.25);}.gd-related-date{font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#6B82A0;margin-bottom:4px;}.gd-related-title{font-size:13px;font-weight:600;color:#C8E0F0;line-height:1.4;}</style><div class="gd-share"><span class="gd-share-label">Share</span><a class="gd-share-btn" href="https://twitter.com/intent/tweet?text=New Tools Redraw Maps&url=https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Post on X</a><button class="gd-share-btn" id="gd-copy-link">Copy link</button></div><div class="gd-related" id="gd-related" style="display:none"><div class="gd-related-label">More issues</div><div class="gd-related-grid" id="gd-related-grid"></div></div><script>(function(){document.getElementById("gd-copy-link").onclick=function(){navigator.clipboard.writeText("https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html").then(function(){var b=document.getElementById("gd-copy-link");b.textContent="Copied ✓";setTimeout(function(){b.textContent="Copy link";},2000);}).catch(function(){});};fetch("https://pierderogatis.github.io/ai-newsletter/manifest.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(m){var curr="2026-07-14";var idx=m.findIndex(function(x){return x.date===curr;});if(idx===-1)return;var nearby=m.filter(function(_,i){return i!==idx&&Math.abs(i-idx)<=3;}).slice(0,3);if(!nearby.length)return;function fmt(d){var dt=new Date(d+"T12:00:00Z");return dt.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});}var html=nearby.map(function(issue){return '<a class="gd-related-card" href="https://pierderogatis.github.io/ai-newsletter/'+issue.path+'">'+'<div class="gd-related-date">'+fmt(issue.date)+'</div>'+(issue.headline?'<div class="gd-related-title">'+issue.headline+'</div>':'')+'</a>';}).join("");var grid=document.getElementById("gd-related-grid");var wrap=document.getElementById("gd-related");if(grid&&wrap){grid.innerHTML=html;wrap.style.display="block";}}).catch(function(){});})();</script>
+</body>
+</html>

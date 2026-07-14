@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-14",
+    "headline": "New Tools Redraw Maps",
+    "brief": "Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's hea",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-14.html"
+  },
+  {
     "date": "2026-07-13",
     "headline": "Models learn faster",
     "brief": "Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this",
