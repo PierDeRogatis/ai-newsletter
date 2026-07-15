@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-15",
+    "headline": "Teachers get AI for free",
+    "brief": "Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, w",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-15.html"
+  },
+  {
     "date": "2026-07-14",
     "headline": "New Tools Redraw Maps",
     "brief": "Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's hea",

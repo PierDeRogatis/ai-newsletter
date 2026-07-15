@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, July 15, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-15.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-15.html</guid>
+    <pubDate>Wed, 15 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, w</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 15, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, where traders need reliable data to make decisions, and in sports, where coaches need trustworthy performance metrics to optimize player training. Now that we have more options for using AI in different fields, it's time to ask: what's the real cost of running these models, not just in dollars, but in terms of privacy and control?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/">Anthropic opens Claude for Teachers with a promise not to train models on student data</a></h3>
+<p>Anthropic is rolling out Claude for Teachers, a free offering for verified K-12 educators at US schools. This changes the way teachers can utilize AI tools in their classrooms, allowing them to use Claude for educational purposes without worrying about student data being used for model training.&ensp;<a href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/">How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured)</a></h3>
+<p>The actual GPU electricity cost for running local models on one RTX 3090 was measured, and the results show that the cheapest model isn&#x27;t the smallest, nor the priciest the biggest. This changes the way developers can plan and budget for running local LLMs, allowing them to make more informed decisions about model selection and resource allocation.&ensp;<a href="https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/">Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs</a></h3>
+<p>Using Pydantic with OpenAI can eliminate the need for manual JSON parsing and provide more trustworthy model output. This changes the workflow for developers working with LLMs, enabling them to streamline their output processing and focus on higher-level tasks.&ensp;<a href="https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2607.12792">Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantification Levels</a></h3>
+<p>Researchers found that jailbreak-robustness evaluations are sensitive to the benchmark&#x27;s grading procedure and only capture observed behavior on a given set of tests. This changes the danger recognition evaluation workflow, which should now incorporate more robust and diverse testing procedures to ensure accurate results.&ensp;<a href="https://arxiv.org/abs/2607.12792">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2510.13698">Attention Misses Visual Risk: Risk-Adaptive Steering for Multimodal Safety Alignment</a></h3>
+<p>Modern AI models are often vulnerable to multimodal queries with harmful intent embedded in images, and current safety alignment approaches are costly and inefficient. This changes the multimodal safety dataset curation tool, which should now prioritize risk-adaptive steering and more efficient data collection methods to improve safety alignment.&ensp;<a href="https://arxiv.org/abs/2510.13698">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.12085">Operationalising Multi-Dimensional Evaluation for Conversational Agents: A Scalable, Governed Pipeline with Selective Re-evaluation and Model Benchmarking</a></h3>
+<p>Evaluating conversational agents requires methods beyond lexical-overlap metrics to assess intent alignment, factuality, and overall response quality. This changes the conversational agent evaluation tool, which should now incorporate multi-dimensional evaluation pipelines with selective re-evaluation and model benchmarking to provide more comprehensive assessments.&ensp;<a href="https://arxiv.org/abs/2607.12085">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, July 14, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 14, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's health intelligence layer means a trader can now use more accurate language models to analyze market trends, while a coach can use SensorFM to create personalized fitness plans, and an athlete can prioritize durability exercises to improve endurance. As you consider integrating these new tools into your workflow, ask yourself: what assumptions about human performance or data analysis will you have to revisit in the next quarter to stay ahead of the curve?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German</a></h3>
-<p>Soofi S 30B-A3B, a new open language model, has been released by a German research consortium and tops benchmarks in both English and German. This changes the language model toolkit that developers can use for English and German language tasks, allowing them to integrate Soofi S into their workflows today.&ensp;<a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/sensorfm/">Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer</a></h3>
-<p>Google Research&#x27;s SensorFM, a foundation model trained on over a trillion minutes of wearable data, beats existing benchmarks on 34 of 35 health and behavioral tasks. This changes the health analytics workflow, enabling developers to use SensorFM to power their health and wellness applications and make more accurate predictions and recommendations.&ensp;<a href="https://the-decoder.com/sensorfm/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/">Anthropic extends free Fable 5 access for subscribers as OpenAI&#x27;s GPT-5.6 Sol heats up the pricing war</a></h3>
-<p>Anthropic is extending free access to Claude Fable 5 for subscribers through July 19, 2026, allowing them to use up to 50 percent of their weekly limit for Fable 5. This changes the budgeting decision for developers using language models, as they can now factor in the extended free access to Fable 5 when planning their AI expenses and choosing between different language model providers.&ensp;<a href="https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/">The Secret to Running Strong in the Final Miles Isn’t More Fitness</a></h3>
-<p>New research says durability defines the best endurance athletes. This changes the focus of training from solely increasing fitness to also prioritizing durability exercises in your workout routine.&ensp;<a href="https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/">How to Build Muscular Fatigue Resistance so You Can Run Longer Without Your Legs Tiring Out</a></h3>
-<p>An ultramarathon coach explains how to strengthen your legs for more durable running. This changes your leg workout to include exercises that target muscular fatigue resistance, such as strength training and hill repeats, to improve running endurance.&ensp;<a href="https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084">Finite element analysis of the proximal femoral growth plate biomechanics: insights into cam deformity risk of adolescent athletes</a></h3>
-<p>Three-dimensional pelvic CT data is used to analyze the stress distribution within the proximal femoral epiphyseal growth plate of adolescents during daily activities and sports. This changes the approach to injury prevention and training for adolescent athletes, requiring coaches and trainers to consider the biomechanical influences on the development of the proximal femur.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months">AINews</a></h3>
-<p>Codex usage has increased by over 10 times in 6 months to 7 million users, with 1 million new users added in just the past day. This changes the competitive landscape for AI coding tools, potentially altering the decision of which tool to use for coding tasks, such as choosing between Codex and Claude Code.&ensp;<a href="https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, July 13, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of generative AI like a master builder who can construct entire cities, not just individual houses - it's changing the foundation of how you work with code, data, and even sports performance analysis. As this tech seeps into trading desks, spor</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, June 24, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-24.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-24.html</guid>
-    <pubDate>Wed, 24 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a librarian who's not only great at finding books, but also at reading them and summarizing the key points - that's what Mistral AI's OCR 4 model does for documents, and it's a game-changer for data teams. As the</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
