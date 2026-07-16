@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Thursday, July 16, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</guid>
+    <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 16, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution is crucial, and in sports labs, where accurate data is needed to prevent head injuries like CTE. Can you trust a system that's opaque, even if it's producing results, and what does that mean for your own debugging workflow or training regimen?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/">OpenAI&#x27;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</a></h3>
+<p>OpenAI&#x27;s Codex now encrypts instructions between AI agents, making it impossible for developers to track internal task delegation. This change affects the debugging workflow, as developers can no longer monitor how tasks are delegated internally.&ensp;<a href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents">Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents</a></h3>
+<p>Most enterprises are using model-provider platforms like Anthropic&#x27;s Claude for agent orchestration, with a focus on reliable multi-step execution. This changes the agent deployment tool, as companies should prioritize the underlying model&#x27;s capabilities and execution reliability when choosing a platform.&ensp;<a href="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/">Most RAG Hallucinations Are Retrieval Failures: How the Retrieval Brick Decides What the Model Can Invent</a></h3>
+<p>Most hallucinations in RAG models are caused by retrieval failures, which can be fixed by improving the retrieval process. This changes the data preprocessing workflow, as fixing retrieval issues can prevent the model from inventing incorrect information.&ensp;<a href="https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/gear/a65602071/garmin-forerunner-970-review/">Garmin Forerunner 970 Review: Premium Tracking and Performance Even After 3,000 Miles</a></h3>
+<p>Garmin&#x27;s Forerunner 970 tracks performance with real-time readiness scores, hyper-accurate GPS, and extensive health stats. This changes the running watch you consider purchasing for your next marathon training, as the Forerunner 970&#x27;s advanced features may enhance your training and recovery.&ensp;<a href="https://www.runnersworld.com/gear/a65602071/garmin-forerunner-970-review/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7447264/2026/07/15/nobby-stiles-inquest-england-world-cup/">World Cup winner Nobby Stiles suffered from CTE after heading football over 130,000 times, inquest hears</a></h3>
+<p>Nobby Stiles, a World Cup winner, suffered from chronic traumatic encephalopathy (CTE) after heading a football over 130,000 times, contributing to his advanced dementia and brain injury. This changes the way football organizations and medical professionals approach head injury prevention and diagnosis, particularly for players who frequently head the ball.&ensp;<a href="https://www.nytimes.com/athletic/7447264/2026/07/15/nobby-stiles-inquest-england-world-cup/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/">What football really thinks of Gianni Infantino (and why he is more powerful than ever)</a></h3>
+<p>FIFA president Gianni Infantino remains impregnable despite multiple controversies surrounding the World Cup. This changes the approach that football organizations, sponsors, and critics take when interacting with or opposing Infantino, as his power and influence within the sport appear to be unaffected by recent scandals.&ensp;<a href="https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">[AINews] not much happened today</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Wednesday, July 15, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-15.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-15.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 15, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, where traders need reliable data to make decisions, and in sports, where coaches need trustworthy performance metrics to optimize player training. Now that we have more options for using AI in different fields, it's time to ask: what's the real cost of running these models, not just in dollars, but in terms of privacy and control?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/">Anthropic opens Claude for Teachers with a promise not to train models on student data</a></h3>
-<p>Anthropic is rolling out Claude for Teachers, a free offering for verified K-12 educators at US schools. This changes the way teachers can utilize AI tools in their classrooms, allowing them to use Claude for educational purposes without worrying about student data being used for model training.&ensp;<a href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/">How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured)</a></h3>
-<p>The actual GPU electricity cost for running local models on one RTX 3090 was measured, and the results show that the cheapest model isn&#x27;t the smallest, nor the priciest the biggest. This changes the way developers can plan and budget for running local LLMs, allowing them to make more informed decisions about model selection and resource allocation.&ensp;<a href="https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/">Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs</a></h3>
-<p>Using Pydantic with OpenAI can eliminate the need for manual JSON parsing and provide more trustworthy model output. This changes the workflow for developers working with LLMs, enabling them to streamline their output processing and focus on higher-level tasks.&ensp;<a href="https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2607.12792">Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantification Levels</a></h3>
-<p>Researchers found that jailbreak-robustness evaluations are sensitive to the benchmark&#x27;s grading procedure and only capture observed behavior on a given set of tests. This changes the danger recognition evaluation workflow, which should now incorporate more robust and diverse testing procedures to ensure accurate results.&ensp;<a href="https://arxiv.org/abs/2607.12792">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2510.13698">Attention Misses Visual Risk: Risk-Adaptive Steering for Multimodal Safety Alignment</a></h3>
-<p>Modern AI models are often vulnerable to multimodal queries with harmful intent embedded in images, and current safety alignment approaches are costly and inefficient. This changes the multimodal safety dataset curation tool, which should now prioritize risk-adaptive steering and more efficient data collection methods to improve safety alignment.&ensp;<a href="https://arxiv.org/abs/2510.13698">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2607.12085">Operationalising Multi-Dimensional Evaluation for Conversational Agents: A Scalable, Governed Pipeline with Selective Re-evaluation and Model Benchmarking</a></h3>
-<p>Evaluating conversational agents requires methods beyond lexical-overlap metrics to assess intent alignment, factuality, and overall response quality. This changes the conversational agent evaluation tool, which should now incorporate multi-dimensional evaluation pipelines with selective re-evaluation and model benchmarking to provide more comprehensive assessments.&ensp;<a href="https://arxiv.org/abs/2607.12085">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Tuesday, July 14, 2026</title>
@@ -233,16 +243,6 @@
     <description>Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, June 25, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-25.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-25.html</guid>
-    <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of generative AI like a master builder who can construct entire cities, not just individual houses - it's changing the foundation of how you work with code, data, and even sports performance analysis. As this tech seeps into trading desks, spor</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-16",
+    "headline": "Blind Spots",
+    "brief": "Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-16.html"
+  },
+  {
     "date": "2026-07-15",
     "headline": "Teachers get AI for free",
     "brief": "Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, w",
