@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/",
-    "date": "2026-07-13"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
-    "date": "2026-07-13"
-  },
-  {
-    "url": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
-    "date": "2026-07-13"
-  },
-  {
-    "url": "https://feeds.feedblitz.com/~/960162290/0/marginalrevolution~The-Trump-Administrations-Threat-to-Scientific-Research.html",
-    "date": "2026-07-13"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further",
-    "date": "2026-07-13"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all",
-    "date": "2026-07-13"
-  },
-  {
     "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
     "date": "2026-07-14"
   },
@@ -102,5 +78,33 @@
   {
     "url": "https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/",
     "date": "2026-07-16"
+  },
+  {
+    "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-17/japan-s-stocks-dive-as-investors-worry-about-ai-rally-s-run-mro83xih",
+    "date": "2026-07-17"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+    "date": "2026-07-17"
   }
 ]

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, July 17, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-17.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-17.html</guid>
+    <pubDate>Fri, 17 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changi</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 17, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changing the benchmarking tool for AI development, but also forcing companies like Oracle to reassess their investment strategies in the AI race. Now, you have to wonder: will the pursuit of AI superiority become a financial burden that outweighs its potential benefits, and what does that mean for the future of AI adoption in industries like finance and sports?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/">Kimi&#x27;s open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI</a></h3>
+<p>Kimi&#x27;s K3 model has 2.8 trillion parameters and one million tokens of context, and it outperforms models like Opus 4.8 and GLM 5.2 in some cases. This changes the benchmarking tool for AI models, as developers can now use K3 as a reference point to evaluate their own models&#x27; performance.&ensp;<a href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/">Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name</a></h3>
+<p>Gemma 4&#x27;s update fixes tool calling bugs and truncated responses, and also speeds up performance on Nvidia Hopper GPUs. This changes the workflow for developers using Gemma 4, as they can now rely on the model to produce complete and accurate responses without interruptions.&ensp;<a href="https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/">OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection</a></h3>
+<p>OpenAI&#x27;s GPT-Red model beat human red-teamers 84% to 13% on prompt injection, and discovered a novel &#x27;Fake Chain-of-Thought&#x27; attack class. This changes the security testing tool for AI models, as developers can now use GPT-Red to identify and fix vulnerabilities in their models before they are exploited.&ensp;<a href="https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites">Oracle Risks Falling Behind in AI Race as Spending Binge Bites</a></h3>
+<p>Oracle&#x27;s AI ambitions are being hindered by funding issues, threatening to damage its credit standing. This changes the investment strategy for Oracle&#x27;s AI division, requiring a reassessment of budget allocation and spending priorities.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html">Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates</a></h3>
+<p>Netflix will reduce the frequency of its &#x27;What We Watched&#x27; reports, which provide insight into user engagement, due to disappointing earnings forecasts. This changes the data analysis workflow for investors and researchers, who will have to rely on less frequent updates to gauge Netflix&#x27;s performance.&ensp;<a href="https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-17/japan-s-stocks-dive-as-investors-worry-about-ai-rally-s-run-mro83xih">Japan’s Stocks Dive as Investors Worry About AI Rally’s Run</a></h3>
+<p>Japanese stocks plummeted due to concerns over the sustainability of the global AI rally, sparked by a sharp selloff on Wall Street. This changes the risk assessment tool for investors in Japanese stocks, requiring a reevaluation of the potential impact of the AI rally on the market.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-17/japan-s-stocks-dive-as-investors-worry-about-ai-rally-s-run-mro83xih">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest">[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, July 16, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 16, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution is crucial, and in sports labs, where accurate data is needed to prevent head injuries like CTE. Can you trust a system that's opaque, even if it's producing results, and what does that mean for your own debugging workflow or training regimen?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/">OpenAI&#x27;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation</a></h3>
-<p>OpenAI&#x27;s Codex now encrypts instructions between AI agents, making it impossible for developers to track internal task delegation. This change affects the debugging workflow, as developers can no longer monitor how tasks are delegated internally.&ensp;<a href="https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents">Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents</a></h3>
-<p>Most enterprises are using model-provider platforms like Anthropic&#x27;s Claude for agent orchestration, with a focus on reliable multi-step execution. This changes the agent deployment tool, as companies should prioritize the underlying model&#x27;s capabilities and execution reliability when choosing a platform.&ensp;<a href="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/">Most RAG Hallucinations Are Retrieval Failures: How the Retrieval Brick Decides What the Model Can Invent</a></h3>
-<p>Most hallucinations in RAG models are caused by retrieval failures, which can be fixed by improving the retrieval process. This changes the data preprocessing workflow, as fixing retrieval issues can prevent the model from inventing incorrect information.&ensp;<a href="https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/gear/a65602071/garmin-forerunner-970-review/">Garmin Forerunner 970 Review: Premium Tracking and Performance Even After 3,000 Miles</a></h3>
-<p>Garmin&#x27;s Forerunner 970 tracks performance with real-time readiness scores, hyper-accurate GPS, and extensive health stats. This changes the running watch you consider purchasing for your next marathon training, as the Forerunner 970&#x27;s advanced features may enhance your training and recovery.&ensp;<a href="https://www.runnersworld.com/gear/a65602071/garmin-forerunner-970-review/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7447264/2026/07/15/nobby-stiles-inquest-england-world-cup/">World Cup winner Nobby Stiles suffered from CTE after heading football over 130,000 times, inquest hears</a></h3>
-<p>Nobby Stiles, a World Cup winner, suffered from chronic traumatic encephalopathy (CTE) after heading a football over 130,000 times, contributing to his advanced dementia and brain injury. This changes the way football organizations and medical professionals approach head injury prevention and diagnosis, particularly for players who frequently head the ball.&ensp;<a href="https://www.nytimes.com/athletic/7447264/2026/07/15/nobby-stiles-inquest-england-world-cup/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/">What football really thinks of Gianni Infantino (and why he is more powerful than ever)</a></h3>
-<p>FIFA president Gianni Infantino remains impregnable despite multiple controversies surrounding the World Cup. This changes the approach that football organizations, sponsors, and critics take when interacting with or opposing Infantino, as his power and influence within the sport appear to be unaffected by recent scandals.&ensp;<a href="https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">[AINews] not much happened today</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-not-much-happened-today-c72">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, July 15, 2026</title>
@@ -233,16 +243,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, June 26, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-26.html</guid>
-    <pubDate>Fri, 26 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a sports team's playbook: just as a team needs to recall and adapt plays to win, AI models need to effectively retrieve and use memory to make decisions. This is crucial not only for chatbots and language models </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

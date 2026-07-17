@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-17",
+    "headline": "Models Outrun Budgets",
+    "brief": "Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changi",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-17.html"
+  },
+  {
     "date": "2026-07-16",
     "headline": "Blind Spots",
     "brief": "Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution",
