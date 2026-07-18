@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-18",
+    "headline": "Models Behave Badly",
+    "brief": "Think of AI models like teenagers - they can be incredibly powerful, but also reckless if not supervised properly, as seen in GPT-5.6's accidental file deletions. This lack of control has implications for traders, who need to consider the potential r",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-07-18.html"
+  },
+  {
     "date": "2026-07-17",
     "headline": "Models Outrun Budgets",
     "brief": "Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changi",

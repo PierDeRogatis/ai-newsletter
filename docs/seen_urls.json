@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://the-decoder.com/sensorfm/",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71921447/amazing-runners-world-show-epsiode-123-ultramarathon-durability/",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a71887463/muscular-fatigue-resistance-workouts-runners/",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1746084",
-    "date": "2026-07-14"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-    "date": "2026-07-14"
-  },
-  {
     "url": "https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/",
     "date": "2026-07-15"
   },
@@ -106,5 +78,57 @@
   {
     "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
     "date": "2026-07-17"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-17/what-is-moonshot-ai-why-china-s-new-model-is-roiling-markets",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/17/metas-latest-move-in-the-ai-talent-war-plus-cramers-4-quick-hits.html",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/17/california-billionaire-tax.html",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7453394/2026/07/17/lamine-yamal-injury-status-world-cup-final-spain-argentina/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7453090/2026/07/17/bill-belichick-unc-coach-college-football/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7452887/2026/07/17/ken-paxton-cody-campbell-until-saturday/",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.30219",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.14178",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.14499",
+    "date": "2026-07-18"
+  },
+  {
+    "url": "https://share.transistor.fm/s/01c30767",
+    "date": "2026-07-18"
   }
 ]

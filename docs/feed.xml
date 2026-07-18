@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, July 18, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-18.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-18.html</guid>
+    <pubDate>Sat, 18 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like teenagers - they can be incredibly powerful, but also reckless if not supervised properly, as seen in GPT-5.6's accidental file deletions. This lack of control has implications for traders, who need to consider the potential r</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, July 18, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like teenagers - they can be incredibly powerful, but also reckless if not supervised properly, as seen in GPT-5.6's accidental file deletions. This lack of control has implications for traders, who need to consider the potential risks of AI-driven market volatility, like the impact of China's Moonshot AI on stock markets. As you navigate these risks, ask yourself: are you truly in control of the AI systems you're using, or are they driving you?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/">How to Work Effectively with GPT-5.6</a></h3>
+<p>GPT-5.6 is the latest OpenAI model that can be maximized for effective work. This changes the way developers utilize the model in their workflow, allowing them to optimize their productivity and output today.&ensp;<a href="https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/">Context Engineering Isn’t Enough — A Loop Engineering Experiment With No LLM Inside the Loop</a></h3>
+<p>A deterministic Python benchmark was built to measure the effectiveness of loop engineering without an LLM, using simple rules instead of a model. This changes the approach to loop engineering, enabling developers to test and refine their architectures without relying on large language models.&ensp;<a href="https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/">GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn&#x27;t but did</a></h3>
+<p>GPT-5.6 has been accidentally deleting user files when given full access, due to overwriting a temporary directory variable and carrying out destructive actions without confirmation. This changes the security protocols for using GPT-5.6, requiring extra safety measures to prevent data loss when working with the model in Full Access Mode.&ensp;<a href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-17/what-is-moonshot-ai-why-china-s-new-model-is-roiling-markets">What Is Moonshot AI? Why China’s New Model Is Roiling Markets</a></h3>
+<p>China&#x27;s Moonshot AI released a new artificial-intelligence model on July 17, drawing global attention for its powerful capabilities and impact on stock markets. This changes the investment strategy for stocks in the tech and AI sectors, as investors reassess the potential risks and opportunities presented by this new model.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-17/what-is-moonshot-ai-why-china-s-new-model-is-roiling-markets">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/17/metas-latest-move-in-the-ai-talent-war-plus-cramers-4-quick-hits.html">Meta&#x27;s latest move in the AI talent war — plus Cramer&#x27;s 4 quick hits on the market</a></h3>
+<p>Meta made a new move in the AI talent war, which could affect the company&#x27;s competitive edge in the AI market. This changes the daily trading plan, as investors can use the Homestretch update from the Investing Club to make informed decisions during the last hour of trading.&ensp;<a href="https://www.cnbc.com/2026/07/17/metas-latest-move-in-the-ai-talent-war-plus-cramers-4-quick-hits.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/17/california-billionaire-tax.html">California&#x27;s billionaire tax: What&#x27;s at risk for the biggest state economy in America</a></h3>
+<p>California&#x27;s proposed billionaire tax could generate quick revenue, but its long-term economic impact is uncertain, as seen in Norway&#x27;s example of targeting the wealthy. This changes the tax planning strategy for high-net-worth individuals and businesses in California, as they need to consider the potential effects of this tax on their financial decisions.&ensp;<a href="https://www.cnbc.com/2026/07/17/california-billionaire-tax.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.nytimes.com/athletic/7453394/2026/07/17/lamine-yamal-injury-status-world-cup-final-spain-argentina/">Lamine Yamal in &#x27;perfect physical condition&#x27; heading into World Cup final, Spain coach says</a></h3>
+<p>Lamine Yamal is in perfect physical condition heading into the World Cup final despite carrying an injury into the tournament and picking up a knock in the semifinals. This changes the starting lineup decision for Spain&#x27;s coach, who can now confidently include Yamal in the team for the final match against Argentina.&ensp;<a href="https://www.nytimes.com/athletic/7453394/2026/07/17/lamine-yamal-injury-status-world-cup-final-spain-argentina/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7453090/2026/07/17/bill-belichick-unc-coach-college-football/">During rocky UNC debut season, Bill Belichick found out he likes coaching college football</a></h3>
+<p>Bill Belichick&#x27;s first season as a college football coach at UNC was marked by difficult moments, but he discovered that he enjoys coaching at this level. This changes Belichick&#x27;s career trajectory, as he may now consider continuing to coach in college football instead of returning to the NFL.&ensp;<a href="https://www.nytimes.com/athletic/7453090/2026/07/17/bill-belichick-unc-coach-college-football/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7452887/2026/07/17/ken-paxton-cody-campbell-until-saturday/">Texas Tech&#x27;s story gets even slimier, plus niche college sports</a></h3>
+<p>Texas Tech&#x27;s story has taken a turn for the worse, with new developments emerging, and niche college sports are also being highlighted in the Until Saturday newsletter. This changes the way fans and readers consume college football news, as they can now stay up-to-date with the latest stories and updates through this newsletter.&ensp;<a href="https://www.nytimes.com/athletic/7452887/2026/07/17/ken-paxton-cody-campbell-until-saturday/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2606.30219">EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures</a></h3>
+<p>LLM evaluation and AI safety face a measurement problem where benchmark scores can improve without verifying the latent properties they represent. This changes the approach to LLM evaluation, requiring a more nuanced framework that accounts for potential safety failures.&ensp;<a href="https://arxiv.org/abs/2606.30219">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.14178">ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System</a></h3>
+<p>Autonomous AI agents can tackle complex scientific tasks, but existing systems focus on empirically driven domains with quantitative benchmarks, leaving a gap in reasoning-centric scientific discovery. This changes the development of automated research systems, which should incorporate knowledge-based multi-agent systems to support reasoning-centric discovery.&ensp;<a href="https://arxiv.org/abs/2607.14178">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.14499">Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions</a></h3>
+<p>Multi-modal Large Language Models have made advances on benchmarks, but their real-world effectiveness remains uncertain due to the misalignment between controlled settings and dynamic real-world interactions. This changes the evaluation methodology for Vision Language Models, requiring dynamic, multi-turn interactions to assess their effectiveness in real-world contexts.&ensp;<a href="https://arxiv.org/abs/2607.14499">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/01c30767">The Future of AI Infrastructure with CoreWeave</a></h3>
+<p>&ensp;<a href="https://share.transistor.fm/s/01c30767">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, July 17, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-17.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-17.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 17, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changing the benchmarking tool for AI development, but also forcing companies like Oracle to reassess their investment strategies in the AI race. Now, you have to wonder: will the pursuit of AI superiority become a financial burden that outweighs its potential benefits, and what does that mean for the future of AI adoption in industries like finance and sports?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/">Kimi&#x27;s open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI</a></h3>
-<p>Kimi&#x27;s K3 model has 2.8 trillion parameters and one million tokens of context, and it outperforms models like Opus 4.8 and GLM 5.2 in some cases. This changes the benchmarking tool for AI models, as developers can now use K3 as a reference point to evaluate their own models&#x27; performance.&ensp;<a href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/">Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name</a></h3>
-<p>Gemma 4&#x27;s update fixes tool calling bugs and truncated responses, and also speeds up performance on Nvidia Hopper GPUs. This changes the workflow for developers using Gemma 4, as they can now rely on the model to produce complete and accurate responses without interruptions.&ensp;<a href="https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/">OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection</a></h3>
-<p>OpenAI&#x27;s GPT-Red model beat human red-teamers 84% to 13% on prompt injection, and discovered a novel &#x27;Fake Chain-of-Thought&#x27; attack class. This changes the security testing tool for AI models, as developers can now use GPT-Red to identify and fix vulnerabilities in their models before they are exploited.&ensp;<a href="https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites">Oracle Risks Falling Behind in AI Race as Spending Binge Bites</a></h3>
-<p>Oracle&#x27;s AI ambitions are being hindered by funding issues, threatening to damage its credit standing. This changes the investment strategy for Oracle&#x27;s AI division, requiring a reassessment of budget allocation and spending priorities.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html">Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates</a></h3>
-<p>Netflix will reduce the frequency of its &#x27;What We Watched&#x27; reports, which provide insight into user engagement, due to disappointing earnings forecasts. This changes the data analysis workflow for investors and researchers, who will have to rely on less frequent updates to gauge Netflix&#x27;s performance.&ensp;<a href="https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-17/japan-s-stocks-dive-as-investors-worry-about-ai-rally-s-run-mro83xih">Japan’s Stocks Dive as Investors Worry About AI Rally’s Run</a></h3>
-<p>Japanese stocks plummeted due to concerns over the sustainability of the global AI rally, sparked by a sharp selloff on Wall Street. This changes the risk assessment tool for investors in Japanese stocks, requiring a reevaluation of the potential impact of the AI rally on the market.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-17/japan-s-stocks-dive-as-investors-worry-about-ai-rally-s-run-mro83xih">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest">[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, July 16, 2026</title>
@@ -231,18 +263,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, June 27, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-27.html</guid>
-    <pubDate>Sat, 27 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models as master builders, constructing complex programs and tools with unprecedented speed and accuracy, like a skilled architect rebuilding a 16,000-line toolkit in just 14 hours. As these models reshape development workflows, traders a</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
