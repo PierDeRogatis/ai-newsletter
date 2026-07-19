@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-19",
+    "headline": "AI Speeds Up",
+    "brief": "Think of AI adoption like a sports team's playbook, where the goal is to move quickly and adapt on the fly, as seen in the US Navy's new AI-first fleet strategy. This shift towards speed is having a ripple effect, from trading desks where hedge fund ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 12,
+    "path": "issues/2026-07-19.html"
+  },
+  {
     "date": "2026-07-18",
     "headline": "Models Behave Badly",
     "brief": "Think of AI models like teenagers - they can be incredibly powerful, but also reckless if not supervised properly, as seen in GPT-5.6's accidental file deletions. This lack of control has implications for traders, who need to consider the potential r",
