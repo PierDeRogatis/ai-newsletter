@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/",
-    "date": "2026-07-16"
-  },
-  {
-    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-    "date": "2026-07-16"
-  },
-  {
-    "url": "https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/",
-    "date": "2026-07-16"
-  },
-  {
-    "url": "https://www.runnersworld.com/gear/a65602071/garmin-forerunner-970-review/",
-    "date": "2026-07-16"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7447264/2026/07/15/nobby-stiles-inquest-england-world-cup/",
-    "date": "2026-07-16"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7444334/2026/07/16/gianni-infantino-fifa-president-future/",
-    "date": "2026-07-16"
-  },
-  {
     "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
     "date": "2026-07-17"
   },
@@ -150,5 +126,29 @@
   {
     "url": "https://www.nytimes.com/the-daily",
     "date": "2026-07-19"
+  },
+  {
+    "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-20/traders-cut-taiwan-stock-leverage-at-fastest-pace-in-15-months",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-20/china-steps-up-efforts-to-stabilize-its-sagging-stock-market",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+    "date": "2026-07-20"
   }
 ]

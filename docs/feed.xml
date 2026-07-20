@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, July 20, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</guid>
+    <pubDate>Mon, 20 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 20, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where the reliability of AI-generated financial models and detectors is crucial, and investors may need to reassess their risk management strategies. As you evaluate the latest AI models, like Qwen 3.8, consider whether their strengths in one area outweigh their weaknesses in others, and how that impacts your own decision-making process.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/">Moonshot&#x27;s Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math</a></h3>
+<p>Kimi K3 tops the Code Arena: Frontend rankings, beating Claude Fable 5 and GPT-5.6 Sol, but scores only about 39 percent on FrontierMath Tier 4. This changes the approach to evaluating AI models, shifting from solely focusing on frontend code performance to also considering complex math capabilities.&ensp;<a href="https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/">AI text detectors struggle when language models mimic an author&#x27;s style</a></h3>
+<p>Up to 18 percent of AI-generated passages go undetected by leading AI text detectors like Pangram, GPTZero, and Originality.ai when language models mimic an author&#x27;s style. This changes the workflow for using AI text detectors, requiring additional methods to verify the authenticity of scientific writing and other genres where style imitation is common.&ensp;<a href="https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/">Alibaba&#x27;s Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is &#x27;second only to Fable 5&#x27;</a></h3>
+<p>Alibaba&#x27;s Qwen 3.8, a multimodal AI model with 2.4 trillion parameters, is unveiled as a rival to leading models, trailing only Fable 5. This changes the decision-making process for selecting AI models, as Qwen 3.8 becomes a viable alternative to Kimi K3 and other top models.&ensp;<a href="https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-20/traders-cut-taiwan-stock-leverage-at-fastest-pace-in-15-months">Traders Cut Taiwan Stock Leverage at Fastest Pace in 15 Months</a></h3>
+<p>Taiwan&#x27;s retail investors unwound their leveraged stock bets at the fastest pace since April 2025, driving the local equity market into a technical correction. This changes the risk management strategy for investors in the Taiwan stock market, who may need to reassess their leverage and portfolio allocations today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-20/traders-cut-taiwan-stock-leverage-at-fastest-pace-in-15-months">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-20/china-steps-up-efforts-to-stabilize-its-sagging-stock-market">Chinese Stock Rebound Loses Steam Despite National Team Support</a></h3>
+<p>An early rebound in Chinese stocks lost steam despite support measures including equity purchases by two major state funds, indicating that risk appetite remains low. This changes the investment decision for those considering Chinese stocks, who may need to adjust their expectations and portfolio weights in response to the lack of momentum.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-20/china-steps-up-efforts-to-stabilize-its-sagging-stock-market">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html">TSMC is accelerating Arizona factory buildout to capitalize on AI &#x27;megatrend,&#x27; CFO says</a></h3>
+<p>TSMC is accelerating its Arizona factory buildout due to robust customer demand driven by the AI &#x27;megatrend&#x27;, according to CFO Wendell Huang. This changes the supply chain and capacity planning for companies relying on TSMC&#x27;s chip manufacturing, who may need to adjust their production forecasts and sourcing strategies to capitalize on the growing AI demand.&ensp;<a href="https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">The World Cup Final Is Here</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, July 19, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-19.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-19.html</guid>
@@ -19,52 +58,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, July 19, 2026&ensp;·&ensp;12 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI adoption like a sports team's playbook, where the goal is to move quickly and adapt on the fly, as seen in the US Navy's new AI-first fleet strategy. This shift towards speed is having a ripple effect, from trading desks where hedge fund managers are considering relocating to Singapore for tax benefits, to sports labs where athletes like Josh Kerr are using unconventional methods to gain a competitive edge. As you consider the implications of rapid AI adoption, ask yourself: what's the one area where you're prioritizing perfection over speed, and is it costing you?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/">The Pentagon&#x27;s new AI playbook treats slow adoption as a bigger risk than imperfect alignment</a></h3>
-<p>The US Department of the Navy has signed a strategy to build an &#x27;AI-first&#x27; fleet, where large language models would run directly on warships. This changes the Navy&#x27;s technology adoption workflow, allowing for faster implementation of AI solutions in military operations.&ensp;<a href="https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/">Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.</a></h3>
-<p>A practical enterprise AI architecture requires data agents, AI-powered QA, and AI governance to build an AI-native enterprise data platform. This changes the data management tool, enabling companies to effectively integrate AI into their existing data infrastructure.&ensp;<a href="https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/">Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost</a></h3>
-<p>Open-weight models like GLM-5.2 and DeepSeek V4-Pro now match frontier cyber performance from just four months ago at a fraction of the cost. This changes the cyber security decision, allowing companies to consider open-weight models as a cost-effective alternative to closed frontier models.&ensp;<a href="https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-19/singapore-weighs-hedge-fund-tax-cuts-to-be-more-competitive-ft">Singapore Weighs Hedge Fund Tax Cuts to Be More Competitive: FT</a></h3>
-<p>Singapore is considering tax cuts for hedge fund managers to stay competitive and retain talent. This changes the investment strategy for fund managers, who may now consider relocating to Singapore to take advantage of the potential tax benefits.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-19/singapore-weighs-hedge-fund-tax-cuts-to-be-more-competitive-ft">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough">China’s Moonshot Plans IPO in Six Months After AI Breakthrough</a></h3>
-<p>Moonshot AI is planning to go public in as little as six months after achieving a significant AI breakthrough. This changes the investment landscape for tech investors, who may now prioritize Moonshot AI&#x27;s upcoming IPO as a potential opportunity to capitalize on China&#x27;s growing AI capabilities.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://quantpedia.com/commodity-crisis-analysis-how-portfolios-react-to-commodity-shocks/">Commodity Crisis Analysis – How Portfolios React to Commodity Shocks</a></h3>
-<p>Commodity market shocks can have a significant impact on broader financial assets, despite often being overlooked in favor of equity index movements. This changes the risk management approach for portfolio managers, who should now consider incorporating commodity crisis analysis into their investment decisions to better mitigate potential losses.&ensp;<a href="https://quantpedia.com/commodity-crisis-analysis-how-portfolios-react-to-commodity-shocks/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/news/a71858125/josh-kerr-altitude-chamber-bedroom/">The World’s Best Miler Spends 12 Hours a Day Inside His Bedroom. Is Josh Kerr Crazy or Brilliant?</a></h3>
-<p>Josh Kerr spends 12 hours a day in his bedroom, which is essentially an altitude chamber, and it resulted in a world record. This changes the way athletes might approach recovery and training, potentially incorporating similar methods into their daily routine.&ensp;<a href="https://www.runnersworld.com/news/a71858125/josh-kerr-altitude-chamber-bedroom/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/health-injuries/a73169427/stress-fracture-vs-other-running-injuries/">How to Distinguish a Stress Fracture From Other Common Running Injuries—Before It Costs You Months of Training</a></h3>
-<p>Experts identify red flags that distinguish stress fractures from other common running injuries like shin splints and tendon pain. This changes the self-diagnosis tool that runners use to assess their injuries, allowing them to seek proper treatment sooner.&ensp;<a href="https://www.runnersworld.com/health-injuries/a73169427/stress-fracture-vs-other-running-injuries/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/vincent-bouillard/">He Designs Shoes During the Week and Dominates Pro Ultramarathons on Weekends</a></h3>
-<p>Vincent Bouillard, a shoe designer for Hoka, wins ultramarathons on the weekends, solidifying his position as a top athlete in the sport. This changes the way shoe designers and athletes approach their training and competition schedules, potentially allowing for more balance between work and athletic pursuits.&ensp;<a href="https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/vincent-bouillard/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment">Endogenous Alignment</a></h3>
-<p>&ensp;<a href="https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai">A Red Line and Oversight Framework for Government AI Contracts</a></h3>
-<p>&ensp;<a href="https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">Zohran Mamdani Knows He Has Political Capital. And He Intends to Spend It.</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, July 18, 2026</title>
@@ -251,16 +244,6 @@
     <description>Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI too</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, June 29, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-29.html</guid>
-    <pubDate>Mon, 29 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like financial portfolios: just as a simple investment strategy can outperform a complex one, simple AI models are now showing they can beat more complex ones in certain tasks, like a 500-day startup survival test. This has implica</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
