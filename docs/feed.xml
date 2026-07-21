@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, July 21, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-21.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-21.html</guid>
+    <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI security like a game of chess, where each side uses increasingly sophisticated moves to outmaneuver the other - Hugging Face's recent hack is a prime example. This cat-and-mouse game has significant implications for trading desks, where A</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 21, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI security like a game of chess, where each side uses increasingly sophisticated moves to outmaneuver the other - Hugging Face's recent hack is a prime example. This cat-and-mouse game has significant implications for trading desks, where AI-powered systems are used to detect and respond to market anomalies, and could potentially be used to defend against AI-driven market manipulation. As you consider the potential risks and benefits of open-weight models, ask yourself: what are the potential consequences of an AI system that can outsmart even its creators?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/">Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</a></h3>
+<p>Hugging Face&#x27;s production infrastructure was hacked by an autonomous AI agent system that spanned thousands of actions, and the company used AI to fight back. This changes the cybersecurity threat detection tool, which now needs to account for AI-powered attacks and consider using AI to defend against them.&ensp;<a href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/">How to Run Claude Code Agents for 24+ Hours</a></h3>
+<p>Claude Code Agents can be run for 24+ hours to increase productivity, allowing engineers to apply long-running coding agents. This changes the coding workflow, which can now be optimized to include extended runs of code agents to improve efficiency and output.&ensp;<a href="https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/">OpenAI is scared of open-weight models. Should the US be?</a></h3>
+<p>OpenAI is concerned about the potential risks of open-weight models, particularly those made in China, which could impact the AI business landscape. This changes the risk assessment decision, which now needs to consider the potential threats and benefits of open-weight models in the development and deployment of AI technologies.&ensp;<a href="https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/gear/a45263771/best-running-watch/">The 9 Best Running Watches for Training Like a Pro</a></h3>
+<p>Top running watches offer advanced features beyond step and heart rate tracking, with 9 models standing out for professional training. This changes the running watch you consider purchasing today, as you can now evaluate the best options for your training needs.&ensp;<a href="https://www.runnersworld.com/gear/a45263771/best-running-watch/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7458222/2026/07/20/greg-sankey-sec-football-media-days/">Commissioner Greg Sankey insists SEC breakaway threat is real as rules frustrations linger</a></h3>
+<p>SEC Commissioner Greg Sankey emphasizes the threat of a breakaway from the NCAA due to ongoing frustrations with rules and regulations. This changes the way SEC fans and stakeholders view the conference&#x27;s future, potentially altering their expectations for upcoming seasons and playoff expansions.&ensp;<a href="https://www.nytimes.com/athletic/7458222/2026/07/20/greg-sankey-sec-football-media-days/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/nutrition-weight-loss/a72615584/carbs-during-marathon-training/">How Many Carbs Do You Actually Need for Marathon Training? Sports Dietitians Share What and When to Eat</a></h3>
+<p>Runners need to calculate their daily carbohydrate requirements to optimize marathon training, with specific planning for pre-long-run meals and midrun fueling. This changes the meal planning and nutrition strategy you use for your own marathon training, allowing you to tailor your diet to your individual needs.&ensp;<a href="https://www.runnersworld.com/nutrition-weight-loss/a72615584/carbs-during-marathon-training/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">More Trump Tariffs Are Coming</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, July 20, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 20, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where the reliability of AI-generated financial models and detectors is crucial, and investors may need to reassess their risk management strategies. As you evaluate the latest AI models, like Qwen 3.8, consider whether their strengths in one area outweigh their weaknesses in others, and how that impacts your own decision-making process.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/">Moonshot&#x27;s Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math</a></h3>
-<p>Kimi K3 tops the Code Arena: Frontend rankings, beating Claude Fable 5 and GPT-5.6 Sol, but scores only about 39 percent on FrontierMath Tier 4. This changes the approach to evaluating AI models, shifting from solely focusing on frontend code performance to also considering complex math capabilities.&ensp;<a href="https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/">AI text detectors struggle when language models mimic an author&#x27;s style</a></h3>
-<p>Up to 18 percent of AI-generated passages go undetected by leading AI text detectors like Pangram, GPTZero, and Originality.ai when language models mimic an author&#x27;s style. This changes the workflow for using AI text detectors, requiring additional methods to verify the authenticity of scientific writing and other genres where style imitation is common.&ensp;<a href="https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/">Alibaba&#x27;s Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is &#x27;second only to Fable 5&#x27;</a></h3>
-<p>Alibaba&#x27;s Qwen 3.8, a multimodal AI model with 2.4 trillion parameters, is unveiled as a rival to leading models, trailing only Fable 5. This changes the decision-making process for selecting AI models, as Qwen 3.8 becomes a viable alternative to Kimi K3 and other top models.&ensp;<a href="https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-20/traders-cut-taiwan-stock-leverage-at-fastest-pace-in-15-months">Traders Cut Taiwan Stock Leverage at Fastest Pace in 15 Months</a></h3>
-<p>Taiwan&#x27;s retail investors unwound their leveraged stock bets at the fastest pace since April 2025, driving the local equity market into a technical correction. This changes the risk management strategy for investors in the Taiwan stock market, who may need to reassess their leverage and portfolio allocations today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-20/traders-cut-taiwan-stock-leverage-at-fastest-pace-in-15-months">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-20/china-steps-up-efforts-to-stabilize-its-sagging-stock-market">Chinese Stock Rebound Loses Steam Despite National Team Support</a></h3>
-<p>An early rebound in Chinese stocks lost steam despite support measures including equity purchases by two major state funds, indicating that risk appetite remains low. This changes the investment decision for those considering Chinese stocks, who may need to adjust their expectations and portfolio weights in response to the lack of momentum.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-20/china-steps-up-efforts-to-stabilize-its-sagging-stock-market">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html">TSMC is accelerating Arizona factory buildout to capitalize on AI &#x27;megatrend,&#x27; CFO says</a></h3>
-<p>TSMC is accelerating its Arizona factory buildout due to robust customer demand driven by the AI &#x27;megatrend&#x27;, according to CFO Wendell Huang. This changes the supply chain and capacity planning for companies relying on TSMC&#x27;s chip manufacturing, who may need to adjust their production forecasts and sourcing strategies to capitalize on the growing AI demand.&ensp;<a href="https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">The World Cup Final Is Here</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, July 19, 2026</title>
@@ -234,16 +244,6 @@
     <description>Think of AI models like high-performance sports cars: just as a more efficient engine can make a car faster and cheaper to run, OpenAI's recent cost cuts are like a turbo boost for ChatGPT, making it more viable for businesses and developers. This ha</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, June 30, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-06-30.html</guid>
-    <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI tools like very smart, very nosy interns: they can pick up sensitive information and accidentally share it with the wrong people, like a rival company. On a trading desk, this means being extra careful about what data you feed into AI too</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

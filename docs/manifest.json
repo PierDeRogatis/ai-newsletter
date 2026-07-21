@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-21",
+    "headline": "AI fights AI",
+    "brief": "Think of AI security like a game of chess, where each side uses increasingly sophisticated moves to outmaneuver the other - Hugging Face's recent hack is a prime example. This cat-and-mouse game has significant implications for trading desks, where A",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-21.html"
+  },
+  {
     "date": "2026-07-20",
     "headline": "AI models face new tests",
     "brief": "Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where",
