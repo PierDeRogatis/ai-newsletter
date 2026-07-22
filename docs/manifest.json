@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-22",
+    "headline": "Data beats size",
+    "brief": "Think of AI model training like building a sports team: having more players with diverse skills can be more effective than having a few superstars, as seen in the Xiaomi-Robotics-1 project where 100,000 hours of motion data improved performance more ",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-22.html"
+  },
+  {
     "date": "2026-07-21",
     "headline": "AI fights AI",
     "brief": "Think of AI security like a game of chess, where each side uses increasingly sophisticated moves to outmaneuver the other - Hugging Face's recent hack is a prime example. This cat-and-mouse game has significant implications for trading desks, where A",
