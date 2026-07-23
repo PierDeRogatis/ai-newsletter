@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-19/singapore-weighs-hedge-fund-tax-cuts-to-be-more-competitive-ft",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://quantpedia.com/commodity-crisis-analysis-how-portfolios-react-to-commodity-shocks/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.runnersworld.com/news/a71858125/josh-kerr-altitude-chamber-bedroom/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.runnersworld.com/health-injuries/a73169427/stress-fracture-vs-other-running-injuries/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/vincent-bouillard/",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
-    "date": "2026-07-19"
-  },
-  {
-    "url": "https://www.nytimes.com/the-daily",
-    "date": "2026-07-19"
-  },
-  {
     "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
     "date": "2026-07-20"
   },
@@ -122,5 +74,33 @@
   {
     "url": "https://futureoflife.org/podcast/why-ai-evaluations-are-broken-and-how-to-fix-them-with-david-manheim/",
     "date": "2026-07-22"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1823705",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7464960/2026/07/22/sophie-cunningham-trans-comments-womens-sports/",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73230283/appetite-loss-after-long-runs/",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood",
+    "date": "2026-07-23"
   }
 ]

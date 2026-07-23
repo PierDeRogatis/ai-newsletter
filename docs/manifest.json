@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-23",
+    "headline": "Speed Matters",
+    "brief": "Think of today's AI advancements like a high-performance sports car - speed and efficiency are crucial, whether it's fine-tuning frameworks for developers or training large AI models with gigawatts of GPU power. On the trading desk, this means consid",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-23.html"
+  },
+  {
     "date": "2026-07-22",
     "headline": "Data beats size",
     "brief": "Think of AI model training like building a sports team: having more players with diverse skills can be more effective than having a few superstars, as seen in the Xiaomi-Robotics-1 project where 100,000 hours of motion data improved performance more ",
