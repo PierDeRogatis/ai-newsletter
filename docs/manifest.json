@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-24",
+    "headline": "Bottlenecks everywhere",
+    "brief": "Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their p",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-24.html"
+  },
+  {
     "date": "2026-07-23",
     "headline": "Speed Matters",
     "brief": "Think of today's AI advancements like a high-performance sports car - speed and efficiency are crucial, whether it's fine-tuning frameworks for developers or training large AI models with gigawatts of GPU power. On the trading desk, this means consid",

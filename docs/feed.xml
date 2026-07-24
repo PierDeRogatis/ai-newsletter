@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, July 24, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-24.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-24.html</guid>
+    <pubDate>Fri, 24 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their p</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 24, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their portfolios due to AI swings in the stock market. On the trading desk, this means re-evaluating investment strategies to account for the potential cash drain from CXMT's public debut or the impact of war on oil prices, while in the sports lab, it might mean applying meditation techniques to improve focus and avoid mental bottlenecks. As you navigate these intersections, consider this: what's the hidden cost of relying on AI for critical decisions, like health advice or investment guidance, and how will you mitigate those costs today?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/">Why Adding More AI Agents Made Our System Slower</a></h3>
+<p>Adding hundreds of LLM agents to a system can make it slower due to the hidden cost of asynchronous systems and tiny CPU tasks. This changes the approach to scaling AI systems, requiring a re-evaluation of the system architecture and resource allocation to avoid bottlenecks.&ensp;<a href="https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/">ChatGPT will give you worse health advice if you don&#x27;t pay</a></h3>
+<p>ChatGPT&#x27;s health advice is reserved for premium subscribers, with the more powerful GPT-5.6 Sol model only available to paying users. This changes the decision of whether to pay for a ChatGPT subscription, especially for users who rely on the platform for health advice and are willing to pay for more accurate and reliable information.&ensp;<a href="https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/">Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs</a></h3>
+<p>Flux 3, a multimodal foundation model, can generate videos with native audio up to 20 seconds long, outperforming market leader Seedance 2.0 in internal tests. This changes the video generation tool of choice, with Flux 3 becoming a viable option for developers and creators who need to generate high-quality video content with native audio.&ensp;<a href="https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-24/sk-hynix-samsung-and-kioxia-face-pivotal-earnings-test-on-ai-swings">SK Hynix, Samsung and Kioxia Face Pivotal Earnings Test on AI Swings</a></h3>
+<p>SK Hynix and Samsung Electronics are set to test investor appetite for memory chips amidst violent swings in South Korea&#x27;s stock market driven by AI sentiment. This changes the investment strategy for memory chip stocks, which investors can adjust today by reevaluating their portfolios and considering the potential impact of AI swings.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-24/sk-hynix-samsung-and-kioxia-face-pivotal-earnings-test-on-ai-swings">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/24/cxmt-china-ipo-listing-chip-memory.html">China&#x27;s largest memory chipmaker sparks fears of a cash drain as it readies for public debut</a></h3>
+<p>CXMT&#x27;s upcoming public debut is stoking fears of a cash drain from China&#x27;s equities, potentially affecting the stock market. This changes the IPO investment approach, which investors can act on today by considering the potential cash flow implications of CXMT&#x27;s listing on their investment decisions.&ensp;<a href="https://www.cnbc.com/2026/07/24/cxmt-china-ipo-listing-chip-memory.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html">Shortsighted stock market can no longer brush off war: &#x27;It&#x27;s too hard to ignore $100 oil&#x27;</a></h3>
+<p>Equities tumbled after oil prices crossed $100 per barrel, showing that the stock market can no longer ignore the impact of war. This changes the risk assessment tool, which investors can update today by incorporating the potential effects of geopolitical conflicts on oil prices and the stock market into their analysis.&ensp;<a href="https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris">Essentials: Using Meditation to Focus, View Consciousness &amp; Expand Your Mind | Dr. Sam Harris</a></h3>
+<p>Dr. Sam Harris discusses how meditation can help us better understand the nature of the self and transform our minds. This changes your daily mindfulness practice, allowing you to apply meditation techniques to expand your mind and improve focus today.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, July 23, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-23.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-23.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, July 23, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a high-performance sports car - speed and efficiency are crucial, whether it's fine-tuning frameworks for developers or training large AI models with gigawatts of GPU power. On the trading desk, this means considering AMD as a viable alternative to Nvidia for GPU procurement, while in the sports lab, it's about optimizing physical performance and body composition for young athletes. As you weigh the benefits of smaller, more cost-effective AI models for cybersecurity, ask yourself: what's the real cost of sacrificing speed for efficiency in your own projects?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/">Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU</a></h3>
-<p>Four open source projects, Unsloth, Axolotl, TRL, and LLaMA-Factory, dominate LLM fine-tuning today, each with different engineering efforts and approaches. This changes the fine-tuning framework selection for developers, who can now choose the best tool based on their specific needs for speed, VRAM, and multi-GPU support.&ensp;<a href="https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/">Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion</a></h3>
-<p>Anthropic will deploy up to 2 gigawatts of AMD&#x27;s MI450 GPUs for training and running its Claude models, in a deal worth up to $5 billion. This changes the GPU procurement strategy for large AI model training, as companies may now consider AMD as a viable alternative to Nvidia.&ensp;<a href="https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/">Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost</a></h3>
-<p>Cisco&#x27;s small, open-source AI models for cybersecurity can detect about 150 times more vulnerabilities per dollar than large AI agents like GPT-5.5, according to the company&#x27;s tests. This changes the vulnerability detection tool selection for cybersecurity teams, who can now consider using smaller, more cost-effective models like Cisco&#x27;s.&ensp;<a href="https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823705">Player ranking is associated with physical performance and body composition in 12-year-old female soccer players</a></h3>
-<p>Skeletal maturity and body composition are linked to performance in 12-year-old female soccer players, with higher-ranked players showing better physical performance. This changes how coaches evaluate and develop young female soccer players, focusing on both physical conditioning and biological maturation.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1823705">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7464960/2026/07/22/sophie-cunningham-trans-comments-womens-sports/">Sophie Cunningham says it&#x27;s &#x27;common sense&#x27; to keep trans athletes out of women&#x27;s sports</a></h3>
-<p>Indiana Fever guard Sophie Cunningham believes that trans athletes should not compete in women&#x27;s sports, citing concerns about biological advantages. This changes the debate around inclusion policies in women&#x27;s sports leagues, potentially influencing how teams and organizations approach trans athlete participation.&ensp;<a href="https://www.nytimes.com/athletic/7464960/2026/07/22/sophie-cunningham-trans-comments-womens-sports/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a73230283/appetite-loss-after-long-runs/">I Struggled With Loss of Appetite After Long Runs. This Simple Tip Finally Made Postrun Fueling Easier.</a></h3>
-<p>A simple tip from a dietitian helped a runner overcome loss of appetite after long runs, making post-run fueling easier and improving performance. This changes how runners approach post-run nutrition, prioritizing strategies to overcome appetite loss and support recovery.&ensp;<a href="https://www.runnersworld.com/training/a73230283/appetite-loss-after-long-runs/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood">Accelerate Learning &amp; Increase Cognitive Capacity | Dr. Tommy Wood</a></h3>
-<p>Dr. Tommy Wood explains how to use specific forms of exercise, dietary strategies, and compounds to enhance the rate and stability of mental performance. This changes the approach to brain health and cognitive training, allowing individuals to modify their daily routines and habits to improve their learning capacity and overall brain function.&ensp;<a href="https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, July 22, 2026</title>
@@ -234,16 +244,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Friday, July 3, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-03.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-03.html</guid>
-    <pubDate>Fri, 03 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a super-smart personal assistant that can read your emails and fill out forms for you, but instead of just doing chores, it's automating tasks in your browser and even helping with complex data analysis. As this automation seeps into</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
