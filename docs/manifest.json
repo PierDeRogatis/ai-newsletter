@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-25",
+    "headline": "Models Get Cheaper",
+    "brief": "Think of AI models like high-performance sports cars: just as a new engine design can make a faster car cheaper to run, Anthropic's Claude Opus 5 and the German AI consortium's Soofi S are like new engine designs that deliver similar performance to t",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 11,
+    "path": "issues/2026-07-25.html"
+  },
+  {
     "date": "2026-07-24",
     "headline": "Bottlenecks everywhere",
     "brief": "Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their p",

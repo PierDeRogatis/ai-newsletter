@@ -9,6 +9,61 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, July 25, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-25.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-25.html</guid>
+    <pubDate>Sat, 25 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars: just as a new engine design can make a faster car cheaper to run, Anthropic's Claude Opus 5 and the German AI consortium's Soofi S are like new engine designs that deliver similar performance to t</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, July 25, 2026&ensp;·&ensp;11 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: just as a new engine design can make a faster car cheaper to run, Anthropic's Claude Opus 5 and the German AI consortium's Soofi S are like new engine designs that deliver similar performance to top models at lower costs. This has a ripple effect on trading desks, where investors are reevaluating their portfolio mix to minimize exposure to AI-related market swings, and in sports labs, where coaches and athletes are exploring new training methods to optimize performance. As you consider the implications of cheaper, more accessible AI models, ask yourself: what new applications or innovations will become possible when the cost barrier is lowered, and how will this change the competitive landscape in your field?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/">Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price</a></h3>
+<p>Anthropic&#x27;s new Claude Opus 5 model achieves near-Fable 5 performance at half the token price, with a score of 30.2 percent on the ARC-AGI-3 benchmark. This changes the token price point consideration for businesses and developers deciding between Claude Opus 5 and Fable 5 for their coding and knowledge work needs.&ensp;<a href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German</a></h3>
+<p>The German AI consortium&#x27;s Soofi S model tops benchmarks in both English and German, despite an initial error where test questions from the GPQA science benchmark accidentally ended up in the training data. This changes the model selection process for developers and researchers working with English and German language tasks, who can now consider Soofi S as a top-performing open model.&ensp;<a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/">Loop Engineering for RAG Generation: An LLM Cascade from a Cheap Local Model Up to a Hosted Flagship</a></h3>
+<p>A real sweep of twenty local models against a hosted flagship model demonstrates the effectiveness of a cascade approach to RAG generation, considering cost and validation loop angles. This changes the workflow for developers and engineers designing and implementing LLM cascades, who can now use this approach to optimize their model selection and validation processes.&ensp;<a href="https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-25/big-asia-stock-funds-turn-to-laggards-to-cut-risk-from-ai-swings">Big Asia Stock Funds Turn to Laggards to Cut Risk From AI Swings</a></h3>
+<p>Investors in Asia are snapping up stocks from Indonesian banks to Chinese e-commerce titans and Indian technology firms to reduce risk from volatile AI trades. This changes the portfolio diversification strategy for investors looking to minimize exposure to AI-related market swings, prompting a reevaluation of their investment mix today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-25/big-asia-stock-funds-turn-to-laggards-to-cut-risk-from-ai-swings">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-07-24/meta-microsoft-face-renewed-unease-over-ai-spending-us-earnings-week-ahead">Meta, Microsoft Face Renewed Unease Over AI Spending: US Earnings Week Ahead</a></h3>
+<p>Microsoft, Meta, and Amazon face renewed investor anxiety over their debt-fueled capital expenditure plans after Alphabet raised its spending forecast by up to $15 billion. This changes the financial planning tool for investors assessing the companies&#x27; debt levels and capital expenditure strategies, requiring an update to their financial models and risk assessments today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-24/meta-microsoft-face-renewed-unease-over-ai-spending-us-earnings-week-ahead">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://feeds.feedblitz.com/~/962847446/0/marginalrevolution~Crypto-markets-in-everything-moo.html">Crypto markets in everything? (moo)</a></h3>
+<p>Farmers in Parana, Brazil, generated nearly $20,000 in credit backed by their cattle by tokenizing livestock and trading them on the B3 national stock exchange. This changes the financing workflow for farmers and agricultural businesses, enabling them to explore alternative funding options using tokenization and cryptocurrency markets as a viable source of credit today.&ensp;<a href="https://feeds.feedblitz.com/~/962847446/0/marginalrevolution~Crypto-markets-in-everything-moo.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a73248080/vo2-max-training-plan/">Your 6-Week Training Plan to Increase VO2 Max and Run Faster With Less Effort</a></h3>
+<p>Following a 6-week training plan can increase VO2 max and allow runners to run faster with less effort. This changes the runner&#x27;s training schedule, allowing them to incorporate specific workouts and exercises to improve their endurance and pace.&ensp;<a href="https://www.runnersworld.com/training/a73248080/vo2-max-training-plan/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7468098/2026/07/24/deandre-hopkins-patriots-mike-vrabel-coach/">DeAndre Hopkins with Mike Vrabel, Patriots as he explores post-playing coaching role</a></h3>
+<p>DeAndre Hopkins is exploring a coaching role with the Patriots after playing 17 games for the Ravens last season. This changes the Patriots&#x27; coaching staff, potentially adding a new assistant coach with NFL playing experience to their team.&ensp;<a href="https://www.nytimes.com/athletic/7468098/2026/07/24/deandre-hopkins-patriots-mike-vrabel-coach/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7467573/2026/07/24/per-mertesacker-germany-dfb-appointment-director/">Per Mertesacker to become German Football Federation&#x27;s new sporting director</a></h3>
+<p>Per Mertesacker, a former World Cup winner and Arsenal academy manager, is becoming the German Football Federation&#x27;s new sporting director. This changes the federation&#x27;s leadership, bringing in a experienced former player and coach to oversee the development of German football.&ensp;<a href="https://www.nytimes.com/athletic/7467573/2026/07/24/per-mertesacker-germany-dfb-appointment-director/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2">The Long (Self-)Correction</a></h3>
+<p>&ensp;<a href="https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal">[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, July 24, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-24.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-24.html</guid>
@@ -17,35 +72,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 24, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their portfolios due to AI swings in the stock market. On the trading desk, this means re-evaluating investment strategies to account for the potential cash drain from CXMT's public debut or the impact of war on oil prices, while in the sports lab, it might mean applying meditation techniques to improve focus and avoid mental bottlenecks. As you navigate these intersections, consider this: what's the hidden cost of relying on AI for critical decisions, like health advice or investment guidance, and how will you mitigate those costs today?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/">Why Adding More AI Agents Made Our System Slower</a></h3>
-<p>Adding hundreds of LLM agents to a system can make it slower due to the hidden cost of asynchronous systems and tiny CPU tasks. This changes the approach to scaling AI systems, requiring a re-evaluation of the system architecture and resource allocation to avoid bottlenecks.&ensp;<a href="https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/">ChatGPT will give you worse health advice if you don&#x27;t pay</a></h3>
-<p>ChatGPT&#x27;s health advice is reserved for premium subscribers, with the more powerful GPT-5.6 Sol model only available to paying users. This changes the decision of whether to pay for a ChatGPT subscription, especially for users who rely on the platform for health advice and are willing to pay for more accurate and reliable information.&ensp;<a href="https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/">Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs</a></h3>
-<p>Flux 3, a multimodal foundation model, can generate videos with native audio up to 20 seconds long, outperforming market leader Seedance 2.0 in internal tests. This changes the video generation tool of choice, with Flux 3 becoming a viable option for developers and creators who need to generate high-quality video content with native audio.&ensp;<a href="https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-24/sk-hynix-samsung-and-kioxia-face-pivotal-earnings-test-on-ai-swings">SK Hynix, Samsung and Kioxia Face Pivotal Earnings Test on AI Swings</a></h3>
-<p>SK Hynix and Samsung Electronics are set to test investor appetite for memory chips amidst violent swings in South Korea&#x27;s stock market driven by AI sentiment. This changes the investment strategy for memory chip stocks, which investors can adjust today by reevaluating their portfolios and considering the potential impact of AI swings.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-24/sk-hynix-samsung-and-kioxia-face-pivotal-earnings-test-on-ai-swings">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/24/cxmt-china-ipo-listing-chip-memory.html">China&#x27;s largest memory chipmaker sparks fears of a cash drain as it readies for public debut</a></h3>
-<p>CXMT&#x27;s upcoming public debut is stoking fears of a cash drain from China&#x27;s equities, potentially affecting the stock market. This changes the IPO investment approach, which investors can act on today by considering the potential cash flow implications of CXMT&#x27;s listing on their investment decisions.&ensp;<a href="https://www.cnbc.com/2026/07/24/cxmt-china-ipo-listing-chip-memory.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html">Shortsighted stock market can no longer brush off war: &#x27;It&#x27;s too hard to ignore $100 oil&#x27;</a></h3>
-<p>Equities tumbled after oil prices crossed $100 per barrel, showing that the stock market can no longer ignore the impact of war. This changes the risk assessment tool, which investors can update today by incorporating the potential effects of geopolitical conflicts on oil prices and the stock market into their analysis.&ensp;<a href="https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris">Essentials: Using Meditation to Focus, View Consciousness &amp; Expand Your Mind | Dr. Sam Harris</a></h3>
-<p>Dr. Sam Harris discusses how meditation can help us better understand the nature of the self and transform our minds. This changes your daily mindfulness practice, allowing you to apply meditation techniques to expand your mind and improve focus today.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, July 23, 2026</title>
@@ -233,17 +259,6 @@
     <description>Think of AI tools like high-performance sports equipment: they can give you an edge, but only if you understand how they work and who's behind them. As you apply AI to trading desks or sports labs, remember that the models used can be a double-edged </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, July 5, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-05.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-05.html</guid>
-    <pubDate>Sun, 05 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a master builder adding new tracks to a railroad network - each addition changes the most efficient route between points, whether that's in genomics research, software development, or sports training. As these ne</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
