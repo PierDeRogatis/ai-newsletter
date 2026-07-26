@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://the-decoder.com/xiaomi-robotics-1-shows-that-more-data-beats-bigger-models-when-training-robots-to-move/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://arxiv.org/abs/2510.22087",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://arxiv.org/abs/2607.18448",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://arxiv.org/abs/2607.18820",
-    "date": "2026-07-22"
-  },
-  {
-    "url": "https://futureoflife.org/podcast/why-ai-evaluations-are-broken-and-how-to-fix-them-with-david-manheim/",
-    "date": "2026-07-22"
-  },
-  {
     "url": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
     "date": "2026-07-23"
   },
@@ -126,5 +98,45 @@
   {
     "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
     "date": "2026-07-25"
+  },
+  {
+    "url": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/25/crypto-diversified-investment-portfolio.html",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07/25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026/07/25/samsung-inks-200-billion-chip-supply-with-broadcom",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7470538/2026/07/26/womens-livesport-prague-open-2021-stream-how-to-watch-july-26/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7470430/2026/07/26/connections-sports-edition-hints-answers-july-26-2026/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7470405/2026/07/25/yankees-cody-bellinger-hamstring-exit/",
+    "date": "2026-07-26"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+    "date": "2026-07-26"
   }
 ]

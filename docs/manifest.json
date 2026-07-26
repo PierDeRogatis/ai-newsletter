@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-26",
+    "headline": "Costs Shift AI Landscape",
+    "brief": "Think of today's AI news like a sports draft, where the cost of top talent - like advanced language models - suddenly drops, changing who can afford to play. This shift in costs is already rippling out to trading desks, where portfolio managers are r",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-07-26.html"
+  },
+  {
     "date": "2026-07-25",
     "headline": "Models Get Cheaper",
     "brief": "Think of AI models like high-performance sports cars: just as a new engine design can make a faster car cheaper to run, Anthropic's Claude Opus 5 and the German AI consortium's Soofi S are like new engine designs that deliver similar performance to t",
