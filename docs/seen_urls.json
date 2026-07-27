@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1823705",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7464960/2026/07/22/sophie-cunningham-trans-comments-womens-sports/",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a73230283/appetite-loss-after-long-runs/",
-    "date": "2026-07-23"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood",
-    "date": "2026-07-23"
-  },
-  {
     "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
     "date": "2026-07-24"
   },
@@ -138,5 +110,29 @@
   {
     "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
     "date": "2026-07-26"
+  },
+  {
+    "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
+    "date": "2026-07-27"
+  },
+  {
+    "url": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
+    "date": "2026-07-27"
+  },
+  {
+    "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+    "date": "2026-07-27"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-26/european-spacex-rival-in-talks-to-raise-300-million-ft-reports",
+    "date": "2026-07-27"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html",
+    "date": "2026-07-27"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders",
+    "date": "2026-07-27"
   }
 ]
