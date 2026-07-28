@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-28",
+    "headline": "Models Get Cheaper",
+    "brief": "Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper ",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-28.html"
+  },
+  {
     "date": "2026-07-27",
     "headline": "Models Outrun Benchmarks",
     "brief": "Think of AI development like a high-speed car chase, where the cars are models and the roads are benchmarks - today, Anthropic's Opus 5 just lapped the field on the ARC-AGI-3 track. This raises the stakes for traders, who must now consider how these ",

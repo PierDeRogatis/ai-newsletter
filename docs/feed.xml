@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Tuesday, July 28, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</guid>
+    <pubDate>Tue, 28 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper </description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 28, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper flights without sacrificing safety. This shift is felt on the trading desk, where companies can now allocate resources more efficiently, and on the sports field, where coaches can use more advanced monitoring tools to optimize athlete performance without breaking the bank. As you consider adopting these new models, ask yourself: what's the expenditure horizon for your own projects, and when will the cost of using AI agents outweigh the benefits of human workers?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/">Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race</a></h3>
+<p>Moonshot AI&#x27;s Kimi K3 model nearly matches Western frontier models on popular benchmarks, but has gaps in cyber and math performance. This changes the model selection for developers working on natural language processing tasks, who can now consider Kimi K3 as a potentially more accessible alternative.&ensp;<a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/">Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks</a></h3>
+<p>Microsoft&#x27;s MAI-Cyber-1-Flash model scores 96 percent on the CyberGym benchmark and can reduce costs by 50 percent compared to pure frontier models. This changes the cybersecurity workflow for companies using Microsoft&#x27;s MDASH multi-agent system, which can now leverage MAI-Cyber-1-Flash for more efficient threat detection.&ensp;<a href="https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/">METR introduces a new metric to calculate exactly when AI agents become more expensive than humans</a></h3>
+<p>METR&#x27;s new metric, the expenditure horizon, puts a dollar figure on the cost-effectiveness of AI agents in solving problems. This changes the decision-making process for businesses evaluating the cost-benefit tradeoffs of using AI agents versus human workers, allowing them to make more informed decisions about resource allocation.&ensp;<a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1811408">Competition and training load of high-level competitive non-motorised surface water sports athletes: a scoping review of athlete monitoring methodology</a></h3>
+<p>Monitoring athletes during training and competition is necessary to gather information on athletes&#x27; fitness and fatigue to prescribe training loads more precisely, with the goal of improving performance and reducing injury risk. This changes the athlete monitoring methodology used by coaches and trainers to optimize training loads and reduce injury risk for high-level competitive non-motorised surface water sports athletes.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1811408">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872790">Multidimensional field-based performance profiling in the Latvian national wheelchair basketball team: an exploratory study</a></h3>
+<p>Wheelchair basketball performance depends on multiple factors, including classification, training experience, and sport-specific movement proficiency, which can be evaluated through field-based performance profiling. This changes the way coaches and trainers assess and develop the skills of wheelchair basketball players, such as those on the Latvian national team, to improve their overall performance.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872790">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/">People Are Adding Protein to Their Coffee. A Sports Nutritionist Explains If It Actually Boosts Performance.</a></h3>
+<p>Adding protein to coffee, also known as proffee, is a popular trend on social media, but its effectiveness in boosting athletic performance is still being debated by sports nutritionists. This changes the morning routine of athletes who are considering adding protein to their coffee to potentially enhance their performance and recovery, but should consult a sports nutritionist to determine its actual benefits.&ensp;<a href="https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">AINews: Claude Opus 5: Fable-level performance at Opus price (half Fable)</a></h3>
+<p>Claude Opus 5 achieves Fable-level performance at half the price of Fable, with Anthropic leading in distilling Fable. This changes the pricing strategy for AI models, allowing developers to consider Claude Opus 5 as a more affordable alternative to Fable for their projects.&ensp;<a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Monday, July 27, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-27.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-27.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, July 27, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI development like a high-speed car chase, where the cars are models and the roads are benchmarks - today, Anthropic's Opus 5 just lapped the field on the ARC-AGI-3 track. This raises the stakes for traders, who must now consider how these supercharged models will disrupt markets, perhaps by automating complex coding tasks or analyzing vast datasets. As you weigh the potential of cheaper models for coding tasks, ask yourself: what's the real cost of using a 'planner' model to oversee an army of budget 'worker' models, and where does that leave human developers?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/">Anthropic&#x27;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence</a></h3>
-<p>Anthropic&#x27;s Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol&#x27;s previous record of 7.8 percent. This changes the benchmarking tool for measuring real intelligence, as developers can now use ARC-AGI-3 to evaluate models like Opus 5 and compare their performance.&ensp;<a href="https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/giving-an-llm-agent-a-browser/">How to Give an LLM Agent a Browser</a></h3>
-<p>Building a browser-use agent with OpenAI Agents SDK and Playwright MCP allows for more complex interactions. This changes the workflow for developing LLM agents, as developers can now use this method to give their agents browser capabilities and expand their potential applications.&ensp;<a href="https://towardsdatascience.com/giving-an-llm-agent-a-browser/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/">Cursor&#x27;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work</a></h3>
-<p>Cursor&#x27;s upgraded agent swarm was able to rebuild SQLite in Rust using only documentation, with no source code or internet access, and scored 100 percent on the test suite. This changes the decision of which models to use for coding tasks, as developers can now consider using cheaper models for implementation and reserve frontier models for planning and high-level tasks.&ensp;<a href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-26/european-spacex-rival-in-talks-to-raise-300-million-ft-reports">European SpaceX Rival in Talks to Raise $300 Million, FT Reports</a></h3>
-<p>&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-26/european-spacex-rival-in-talks-to-raise-300-million-ft-reports">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html">For Gen X investors, dotcom bubble haunts stock market portfolios closing in on retirement</a></h3>
-<p>&ensp;<a href="https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders">SoftBank’s $40 Billion Loan for OpenAI Stake Gets 21 New Lenders</a></h3>
-<p>&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Sunday, July 26, 2026</title>
@@ -236,16 +246,6 @@
     <description>Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Wednesday, July 8, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-08.html</guid>
-    <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI agents like coworkers who can now follow you around, pinging you for decisions on your phone or laptop, much like a colleague tapping you on the shoulder. This seamless collaboration across devices has implications for trading desks, wher</description>
-    <category>AI &amp; Data Tools</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
