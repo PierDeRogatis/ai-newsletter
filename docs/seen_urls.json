@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-25/big-asia-stock-funds-turn-to-laggards-to-cut-risk-from-ai-swings",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-24/meta-microsoft-face-renewed-unease-over-ai-spending-us-earnings-week-ahead",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://feeds.feedblitz.com/~/962847446/0/marginalrevolution~Crypto-markets-in-everything-moo.html",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a73248080/vo2-max-training-plan/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7468098/2026/07/24/deandre-hopkins-patriots-mike-vrabel-coach/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7467573/2026/07/24/per-mertesacker-germany-dfb-appointment-director/",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
-    "date": "2026-07-25"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-    "date": "2026-07-25"
-  },
-  {
     "url": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
     "date": "2026-07-26"
   },
@@ -130,5 +86,33 @@
   {
     "url": "https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/",
     "date": "2026-07-28"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.24887",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.14546",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.22766",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher",
+    "date": "2026-07-29"
   }
 ]

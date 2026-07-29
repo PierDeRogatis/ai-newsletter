@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, July 29, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-29.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-29.html</guid>
+    <pubDate>Wed, 29 Jul 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like high-performance sports cars: they need the right fuel and maintenance to run efficiently, and now we know that running them locally can be cheaper than expected, like finding a secret gas station that saves you money on your </description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, July 29, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like high-performance sports cars: they need the right fuel and maintenance to run efficiently, and now we know that running them locally can be cheaper than expected, like finding a secret gas station that saves you money on your daily commute. This changes the game for traders and data teams who can now deploy models in new ways, such as using them to analyze satellite images to predict poverty levels, which could inform investment decisions or policy changes. As you consider deploying your own models, ask yourself: what unexpected maintenance costs or integration surprises might be lurking in your workflow, waiting to throw off your entire strategy?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/">How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon</a></h3>
+<p>Running five models with sustained generation on Apple Silicon costs $0.31/kWh, with surprising results compared to RTX-3090 predictions. This changes the cost-benefit analysis of choosing between local and cloud-based LLM deployment for developers and researchers.&ensp;<a href="https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/">MCP Explained: How Modern AI Agents Connect to the Real World</a></h3>
+<p>Modern AI agents connect to the real world through custom integrations or a universal standard for tool access, known as MCP. This changes the approach to designing and implementing AI workflows, allowing for more flexibility and standardization in tool integration.&ensp;<a href="https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/">Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory</a></h3>
+<p>Moonshot AI&#x27;s Kimi CLI can be configured for non-interactive AI coding workflows using a TOML-based provider and model definition, with a reusable Python wrapper. This changes the way developers automate coding tasks, enabling fully non-interactive workflows with Kimi CLI and JSONL streaming.&ensp;<a href="https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2607.24887">Mechanisms of Width Scaling in Normalized Residual Networks: The Effective Alignment Dimension</a></h3>
+<p>Researchers found that existing theories of neural-network width provide limited guidance on whether an expansion direction identified from finite training data remains beneficial on unseen data. This changes the approach to neural network architecture design, specifically the width scaling of normalized residual networks, which can be adjusted today to improve model performance on new data.&ensp;<a href="https://arxiv.org/abs/2607.24887">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2501.14546">Leveraging ChatGPT&#x27;s Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level: Advancing Tools for Social Science Research</a></h3>
+<p>A new application of Large Language Models (LLMs) with vision capabilities can analyze satellite imagery to predict village-level poverty, with potential for more accurate assessments. This changes the workflow of social science research, which can now utilize LLMs with vision capabilities to analyze satellite images and inform policy decisions.&ensp;<a href="https://arxiv.org/abs/2501.14546">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2607.22766">Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation</a></h3>
+<p>The alignment of Large Language Models (LLMs) is increasingly bottlenecked by data quality, with hidden structural contradictions and safety risks accumulating in massive datasets. This changes the data auditing pipeline for LLMs, which can now incorporate influence-based methods to identify and mitigate these issues, improving overall model alignment and evaluation.&ensp;<a href="https://arxiv.org/abs/2607.22766">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher">#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant &amp; Lee</a></h3>
+<p>&ensp;<a href="https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, July 28, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, July 28, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper flights without sacrificing safety. This shift is felt on the trading desk, where companies can now allocate resources more efficiently, and on the sports field, where coaches can use more advanced monitoring tools to optimize athlete performance without breaking the bank. As you consider adopting these new models, ask yourself: what's the expenditure horizon for your own projects, and when will the cost of using AI agents outweigh the benefits of human workers?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/">Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race</a></h3>
-<p>Moonshot AI&#x27;s Kimi K3 model nearly matches Western frontier models on popular benchmarks, but has gaps in cyber and math performance. This changes the model selection for developers working on natural language processing tasks, who can now consider Kimi K3 as a potentially more accessible alternative.&ensp;<a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/">Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks</a></h3>
-<p>Microsoft&#x27;s MAI-Cyber-1-Flash model scores 96 percent on the CyberGym benchmark and can reduce costs by 50 percent compared to pure frontier models. This changes the cybersecurity workflow for companies using Microsoft&#x27;s MDASH multi-agent system, which can now leverage MAI-Cyber-1-Flash for more efficient threat detection.&ensp;<a href="https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/">METR introduces a new metric to calculate exactly when AI agents become more expensive than humans</a></h3>
-<p>METR&#x27;s new metric, the expenditure horizon, puts a dollar figure on the cost-effectiveness of AI agents in solving problems. This changes the decision-making process for businesses evaluating the cost-benefit tradeoffs of using AI agents versus human workers, allowing them to make more informed decisions about resource allocation.&ensp;<a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1811408">Competition and training load of high-level competitive non-motorised surface water sports athletes: a scoping review of athlete monitoring methodology</a></h3>
-<p>Monitoring athletes during training and competition is necessary to gather information on athletes&#x27; fitness and fatigue to prescribe training loads more precisely, with the goal of improving performance and reducing injury risk. This changes the athlete monitoring methodology used by coaches and trainers to optimize training loads and reduce injury risk for high-level competitive non-motorised surface water sports athletes.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1811408">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872790">Multidimensional field-based performance profiling in the Latvian national wheelchair basketball team: an exploratory study</a></h3>
-<p>Wheelchair basketball performance depends on multiple factors, including classification, training experience, and sport-specific movement proficiency, which can be evaluated through field-based performance profiling. This changes the way coaches and trainers assess and develop the skills of wheelchair basketball players, such as those on the Latvian national team, to improve their overall performance.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872790">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/">People Are Adding Protein to Their Coffee. A Sports Nutritionist Explains If It Actually Boosts Performance.</a></h3>
-<p>Adding protein to coffee, also known as proffee, is a popular trend on social media, but its effectiveness in boosting athletic performance is still being debated by sports nutritionists. This changes the morning routine of athletes who are considering adding protein to their coffee to potentially enhance their performance and recovery, but should consult a sports nutritionist to determine its actual benefits.&ensp;<a href="https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">AINews: Claude Opus 5: Fable-level performance at Opus price (half Fable)</a></h3>
-<p>Claude Opus 5 achieves Fable-level performance at half the price of Fable, with Anthropic leading in distilling Fable. This changes the pricing strategy for AI models, allowing developers to consider Claude Opus 5 as a more affordable alternative to Fable for their projects.&ensp;<a href="https://www.latent.space/p/ainews-claude-opus-5-fable-level">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, July 27, 2026</title>
@@ -236,16 +246,6 @@
     <description>Think of AI models like referees in a game, but what if they're hiding crucial information from the players, like OpenAI allegedly did in a copyright trial, which is like a coach hiding playbook secrets from their team. This hidden information can af</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, July 9, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-09.html</guid>
-    <pubDate>Thu, 09 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI model costs like a subway fare - just as a price drop can change your daily commute, cheaper models like Grok 4.5 are altering the budgeting landscape for developers and businesses. As you weigh the cost savings against performance gaps, </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
