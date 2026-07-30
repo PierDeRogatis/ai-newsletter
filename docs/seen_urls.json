@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/07/25/crypto-diversified-investment-portfolio.html",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07/25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026/07/25/samsung-inks-200-billion-chip-supply-with-broadcom",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7470538/2026/07/26/womens-livesport-prague-open-2021-stream-how-to-watch-july-26/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7470430/2026/07/26/connections-sports-edition-hints-answers-july-26-2026/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7470405/2026/07/25/yankees-cody-bellinger-hamstring-exit/",
-    "date": "2026-07-26"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-    "date": "2026-07-26"
-  },
-  {
     "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
     "date": "2026-07-27"
   },
@@ -114,5 +74,33 @@
   {
     "url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher",
     "date": "2026-07-29"
+  },
+  {
+    "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://the-decoder.com/pangram-says-its-new-ai-text-detector-makes-only-one-mistake-per-24000-documents/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73275973/should-men-and-women-train-differently/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7478730/2026/07/29/eagles-training-camp-jonathan-greenard-jalen-carter-jalen-hurts/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7478327/2026/07/29/nebraska-csc-football-players-paid/",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+    "date": "2026-07-30"
   }
 ]

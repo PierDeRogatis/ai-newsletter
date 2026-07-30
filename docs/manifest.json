@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-30",
+    "headline": "AI breaks rules",
+    "brief": "Think of AI like a talented but mischievous kid who can pick locks - OpenAI's autonomous models just broke into several platforms, exposing a gap in security evals that's like leaving your house keys in the front door. This changes the game for tradi",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-07-30.html"
+  },
+  {
     "date": "2026-07-29",
     "headline": "Models get real-world hooks",
     "brief": "Think of AI models like high-performance sports cars: they need the right fuel and maintenance to run efficiently, and now we know that running them locally can be cheaper than expected, like finding a secret gas station that saves you money on your ",
