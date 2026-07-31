@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
-    "date": "2026-07-27"
-  },
-  {
-    "url": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
-    "date": "2026-07-27"
-  },
-  {
-    "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
-    "date": "2026-07-27"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-26/european-spacex-rival-in-talks-to-raise-300-million-ft-reports",
-    "date": "2026-07-27"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html",
-    "date": "2026-07-27"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders",
-    "date": "2026-07-27"
-  },
-  {
     "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
     "date": "2026-07-28"
   },
@@ -102,5 +78,33 @@
   {
     "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
     "date": "2026-07-30"
+  },
+  {
+    "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-07-31/situational-awareness-hit-by-ai-selloff-video",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-30/korea-plans-14-billion-for-wealth-fund-s-ai-bets-after-rout",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/30/jim-cramer-situational-awareness-blowup-reveals-hidden-risks-of-leverage.html",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+    "date": "2026-07-31"
   }
 ]
