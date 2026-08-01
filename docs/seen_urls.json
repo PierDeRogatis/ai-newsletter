@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1811408",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1872790",
-    "date": "2026-07-28"
-  },
-  {
-    "url": "https://www.outsideonline.com/health/nutrition/proffee-protein-coffee-performance/",
-    "date": "2026-07-28"
-  },
-  {
     "url": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
     "date": "2026-07-29"
   },
@@ -106,5 +82,57 @@
   {
     "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
     "date": "2026-07-31"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-07-31/masters-in-business-with-som-seif-video",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-07-31/the-unwind-of-situational-awareness-stock-bets-video",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.runnersworld.com/news/a73320305/bill-aris-investigation-fayetteville-manlius/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7479913/2026/08/01/chelsea-fa-charges-man-city-premier-league/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7484417/2026/07/31/the-athletic-football-show-survival-pool-competition/",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
+    "date": "2026-08-01"
+  },
+  {
+    "url": "https://share.transistor.fm/s/9d74230b",
+    "date": "2026-08-01"
   }
 ]

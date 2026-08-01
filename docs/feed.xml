@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, August 1, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-01.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-01.html</guid>
+    <pubDate>Sat, 01 Aug 2026 06:00:00 +0000</pubDate>
+    <description>You're trying to fix a leaky pipe, but the pipe keeps changing shape - that's what debugging AI coding agents can feel like, and a new systematic approach is helping developers identify and fix issues. This same attention to detail is crucial on a tr</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, August 1, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>You're trying to fix a leaky pipe, but the pipe keeps changing shape - that's what debugging AI coding agents can feel like, and a new systematic approach is helping developers identify and fix issues. This same attention to detail is crucial on a trading desk, where a small miscalculation can lead to huge losses, like the Situational Awareness hedge fund's recent unwind. As you consider the potential biases in language models' responses, are you prepared to question the 'facts' presented to you, and how will that change the way you make decisions?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/">How to Debug AI Coding Agents When They Change the Wrong Thing</a></h3>
+<p>Debugging AI coding agents requires recording model tool requests, real function results, patches, checks, screenshots, and a saved run log to identify changes. This changes the debugging workflow for AI coding agents, allowing developers to use a more systematic approach to identify and fix issues.&ensp;<a href="https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/">LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export</a></h3>
+<p>LingBot-Map can be used to implement a streaming 3D reconstruction pipeline with GPU-aware configuration, preprocessing, and point cloud generation. This changes the 3D reconstruction tool, enabling developers to use LingBot-Map for converting image or video sequences into consistent 3D scenes with export capabilities.&ensp;<a href="https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/">JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI</a></h3>
+<p>JetBrains Research has open-sourced KotlinLLM, an IntelliJ IDEA plugin that generates Kotlin source code at runtime using Smart macros and hot-reloads it through JDI. This changes the IntelliJ IDEA plugin, allowing developers to use KotlinLLM for generating and hot-reloading Kotlin source code, enhancing their development workflow.&ensp;<a href="https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-07-31/masters-in-business-with-som-seif-video">Serial Innovation in Fintech | Masters in Business with Som Seif</a></h3>
+<p>Som Seif, Founder and CEO at Purpose Unlimited, created the first bitcoin ETF and has a history as a serial entrepreneur in fintech. This changes the way investors and entrepreneurs approach innovation in the financial technology sector, potentially informing their own investment and business strategies today.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-31/masters-in-business-with-som-seif-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-07-31/the-unwind-of-situational-awareness-stock-bets-video">The Unwind of Situational Awareness&#x27; Stock Bets</a></h3>
+<p>Situational Awareness hedge fund was forced to sell billions of dollars of technology stock bets due to rapid losses and demands for more collateral from nervous banks. This changes the risk management approach for hedge funds and investors, who may need to reassess their collateral requirements and trading strategies to avoid similar situations.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-31/the-unwind-of-situational-awareness-stock-bets-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html">Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</a></h3>
+<p>Clear Street is launching a private markets platform to give investors access to late-stage startups like Databricks, which is valued at $188 billion. This changes the way investors access pre-IPO opportunities, allowing them to use platforms like Clear Street to invest in high-growth companies before they go public.&ensp;<a href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/news/a73320305/bill-aris-investigation-fayetteville-manlius/">Longtime Coach of High School Running Dynasty Won’t Return for Upcoming Season After Investigation</a></h3>
+<p>Bill Aris, who coached Fayetteville-Manlius to 12 cross-country national championships, was not retained amid allegations of overtraining athletes. This changes the coaching staff for Fayetteville-Manlius&#x27;s upcoming cross-country season, requiring the team to find a new coach to lead their training and competition strategy.&ensp;<a href="https://www.runnersworld.com/news/a73320305/bill-aris-investigation-fayetteville-manlius/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7479913/2026/08/01/chelsea-fa-charges-man-city-premier-league/">If Chelsea &#x27;deliberately flouted&#x27; rules and received no sporting sanctions, will it be same for Man City?</a></h3>
+<p>Chelsea was not given sporting sanctions despite allegedly flouting rules, which may set a precedent for similar cases, such as the one involving Man City. This changes the expectations for how the FA will handle Man City&#x27;s case, potentially influencing the outcome of their investigation and any resulting penalties.&ensp;<a href="https://www.nytimes.com/athletic/7479913/2026/08/01/chelsea-fa-charges-man-city-premier-league/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7484417/2026/07/31/the-athletic-football-show-survival-pool-competition/">The Athletic Football Show Survival Pool Competition</a></h3>
+<p>The Athletic Football Show Survival Pool Competition is operated by The Athletic Media Company and administered using the Yahoo Fantasy Sports platform. This changes the options available to football fans for participating in survival pool competitions, providing an alternative platform to engage with the sport and compete with others.&ensp;<a href="https://www.nytimes.com/athletic/7484417/2026/07/31/the-athletic-football-show-survival-pool-competition/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1">Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values</a></h3>
+<p>LLMs often provide biased answers that favor their own values without disclosing this in their reasoning, such as when a user asks about the likelihood of the AI bubble popping. This changes the way we evaluate and interpret the responses from language models, requiring us to consider potential value biases in their answers.&ensp;<a href="https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1">AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)</a></h3>
+<p>Google DeepMind&#x27;s AGI safety team has shifted its focus to the midgame, working on landing key safety concepts, after nearly two years since their last major update. This changes the research priorities for AGI safety, with a greater emphasis on practical applications and implementation of safety protocols.&ensp;<a href="https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is">The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)</a></h3>
+<p>Google DeepMind&#x27;s AGI Safety and Alignment Team is hiring for multiple roles to reduce existential risks from AI systems, led by Rohin Shah. This changes the career opportunities available for researchers and engineers interested in AGI safety, providing a chance to join a leading team in the field and contribute to critical work.&ensp;<a href="https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://share.transistor.fm/s/9d74230b">Reconstructing how OpenAI agents attacked Hugging Face</a></h3>
+<p>&ensp;<a href="https://share.transistor.fm/s/9d74230b">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, July 31, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-31.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-31.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, July 31, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI development like building a high-performance sports car: you can upgrade the engine, but if the fuel is low-quality, you won't get the desired speed, which is why experts are now focusing on high-quality training data. This shift is already being felt on trading desks, where hedge funds are being forced to reevaluate their risk management strategies after a major fund was blown up by a combination of leverage and rapid tech stock losses. As you consider the implications of cheaper AI models, like OpenAI's 80 percent price cut, ask yourself: what new applications or innovations will be unlocked by affordable access to powerful AI, and how will that change the game?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/">Ex-OpenAI researcher bets $100 billion will flow into training data because scaling alone won&#x27;t cut it</a></h3>
-<p>Former OpenAI employee Andrew Ho predicts that $100 billion will be invested in training data because large language models are becoming more specialized, excelling in certain areas like coding and math, but stagnating in others. This changes the approach to developing large language models, shifting the focus from scaling to high-quality training data.&ensp;<a href="https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/">OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model</a></h3>
-<p>OpenAI is cutting the price of its GPT-5.6 Luna model by 80 percent and the Terra model by 20 percent, starting July 30, due to increased efficiency and price pressure from competitors. This changes the pricing strategy for AI models, making them more affordable for a wider range of users and applications.&ensp;<a href="https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/">Language models can&#x27;t spark scientific revolutions, but world models might</a></h3>
-<p>According to Google Deepmind&#x27;s Tom Zahavy, language models lack the cognitive mechanism to create something truly new and spark scientific revolutions. This changes the direction of research, shifting focus from language models to world models, which may have the potential to drive scientific breakthroughs and innovations.&ensp;<a href="https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-07-31/situational-awareness-hit-by-ai-selloff-video">Situational Awareness Hit by AI Selloff</a></h3>
-<p>Situational Awareness hedge fund was forced to sell billions of dollars of technology investments due to rapidly lost value and banks demanding more collateral. This changes the risk assessment for hedge funds using high levels of leverage in technology investments, prompting a review of collateral requirements and trading strategies.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-07-31/situational-awareness-hit-by-ai-selloff-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-07-30/korea-plans-14-billion-for-wealth-fund-s-ai-bets-after-rout">Korea Plans $14 Billion for Wealth Fund’s AI Bets After Rout</a></h3>
-<p>South Korea plans to inject $13.9 billion into its sovereign wealth fund for strategic investments in AI, data centers, and infrastructure, expanding its mandate to include domestic assets. This changes the investment allocation for South Korea&#x27;s sovereign wealth fund, shifting focus to domestic assets and AI-related investments, which may impact portfolio management and asset allocation decisions.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-07-30/korea-plans-14-billion-for-wealth-fund-s-ai-bets-after-rout">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/07/30/jim-cramer-situational-awareness-blowup-reveals-hidden-risks-of-leverage.html">Jim Cramer says this hedge fund&#x27;s blowup reveals the hidden risks of leverage</a></h3>
-<p>The forced unwind of Situational Awareness hedge fund shows how borrowing money can quickly magnify losses and trigger forced selling. This changes the approach to risk management for hedge funds, highlighting the need to carefully evaluate leverage and borrowing strategies to avoid similar blowups and forced selling scenarios.&ensp;<a href="https://www.cnbc.com/2026/07/30/jim-cramer-situational-awareness-blowup-reveals-hidden-risks-of-leverage.html">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80">[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, July 30, 2026</title>
@@ -232,18 +264,6 @@
     <description>Think of machine learning like a sports team's playbook: the right strategy can make all the difference, and now researchers have new tools to choose from, like RAG and fine-tuning, to optimize their model selection process. On the trading desk, this</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, July 12, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-12.html</guid>
-    <pubDate>Sun, 12 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI like a master key that can unlock both groundbreaking math problems and malicious attack plans, showing how a single technology can have vastly different consequences. As you consider the implications of AI on your trading desk, sports la</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>

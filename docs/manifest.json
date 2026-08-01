@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-01",
+    "headline": "Debugging Gets Real",
+    "brief": "You're trying to fix a leaky pipe, but the pipe keeps changing shape - that's what debugging AI coding agents can feel like, and a new systematic approach is helping developers identify and fix issues. This same attention to detail is crucial on a tr",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-08-01.html"
+  },
+  {
     "date": "2026-07-31",
     "headline": "AI prices plummet",
     "brief": "Think of AI development like building a high-performance sports car: you can upgrade the engine, but if the fuel is low-quality, you won't get the desired speed, which is why experts are now focusing on high-quality training data. This shift is alrea",
