@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://arxiv.org/abs/2607.24887",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://arxiv.org/abs/2501.14546",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://arxiv.org/abs/2607.22766",
-    "date": "2026-07-29"
-  },
-  {
-    "url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher",
-    "date": "2026-07-29"
-  },
-  {
     "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
     "date": "2026-07-30"
   },
@@ -134,5 +106,45 @@
   {
     "url": "https://share.transistor.fm/s/9d74230b",
     "date": "2026-08-01"
+  },
+  {
+    "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-01/ai-isn-t-a-catch-all-trade-for-stocks-in-this-earnings-season",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-01/zepto-turns-to-private-funding-with-ipo-plans-on-hold-for-now",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.runnersworld.com/nutrition-weight-loss/a71496558/signs-your-running-fuel-is-off/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7404182/2026/08/02/scotland-world-cup-young-players/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7486002/2026/08/02/connections-sports-edition-hints-answers-aug-2-2026/",
+    "date": "2026-08-02"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+    "date": "2026-08-02"
   }
 ]

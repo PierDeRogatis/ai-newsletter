@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-02",
+    "headline": "Models Train Models",
+    "brief": "Think of AI models like master chefs who now have sous chefs: they can delegate tasks and focus on the big picture, which changes how complex problems get solved. This shift is already affecting trading desks, where investors need to be more discerni",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-08-02.html"
+  },
+  {
     "date": "2026-08-01",
     "headline": "Debugging Gets Real",
     "brief": "You're trying to fix a leaky pipe, but the pipe keeps changing shape - that's what debugging AI coding agents can feel like, and a new systematic approach is helping developers identify and fix issues. This same attention to detail is crucial on a tr",
