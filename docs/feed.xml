@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, August 3, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-03.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-03.html</guid>
+    <pubDate>Mon, 03 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI like a master editor, cutting out unnecessary steps in various processes, whether it's a 15-minute booking process or a trader's investment strategy. This editing power is now being applied to trading desks, where AI tools are helping ret</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, August 3, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI like a master editor, cutting out unnecessary steps in various processes, whether it's a 15-minute booking process or a trader's investment strategy. This editing power is now being applied to trading desks, where AI tools are helping retail traders build DIY hedge funds, and to sports-like domains, such as high-performance kitchens, where adaptability and accessibility are becoming key. As you consider implementing AI in your own workflows, what tasks will you prioritize for editing, and how will you measure the impact on your overall performance?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/">Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World’s Best E-commerce Search Engines</a></h3>
+<p>Onton&#x27;s Ontology 1 model reached a mean precision@10 of 0.630, outperforming Google&#x27;s search engine with a score of 0.543. This changes the e-commerce search engine tool that businesses can use to improve their product search functionality and provide more accurate results to customers.&ensp;<a href="https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/">I Replaced a 15-Minute Booking Process with a LangGraph AI Agent</a></h3>
+<p>A LangGraph AI agent was used to replace a 15-minute booking process, streamlining customer support with automated responses. This changes the customer support workflow by implementing AI-powered chatbots that can handle bookings and reduce the time spent on manual processing.&ensp;<a href="https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/">OpenAI Presence wants to make AI agents production-ready for businesses</a></h3>
+<p>OpenAI&#x27;s Presence is designed to deploy AI agents for customer service and internal workflows, with OpenAI engineers available for complex cases. This changes the customer service and internal workflow tools that businesses can use, enabling them to deploy production-ready AI agents with external deployment capabilities.&ensp;<a href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-08-03/china-s-wu-vows-further-expansion-of-market-links-to-hong-kong">China’s Wu Vows Further Expansion of Market Links to Hong Kong</a></h3>
+<p>China Securities Regulatory Commission Chairman Wu Qing announced plans to expand the Stock Connect cross-border trading link by adding yuan-denominated stock counters and real estate investment trusts. This changes the investment strategy for those looking to trade in the Hong Kong market, who can now consider yuan-denominated stocks and real estate investment trusts as new options.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-03/china-s-wu-vows-further-expansion-of-market-links-to-hong-kong">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-02/ai-is-turning-retail-traders-into-diy-hedge-funds">AI Is Turning Retail Traders Into DIY Hedge Funds</a></h3>
+<p>New AI tools are enabling retail traders to create automated trading systems, allowing them to compete with traditional hedge funds. This changes the trading platform and software selection process for retail traders, who can now consider AI-powered tools to automate their trading strategies.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-02/ai-is-turning-retail-traders-into-diy-hedge-funds">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-08-02/jefferies-analyst-slams-simple-minded-criticism-of-spacex-governance">Jefferies Analyst Slams Simple-Minded Criticism of SpaceX Governance</a></h3>
+<p>Jefferies analyst Aniket Shah argues that investors who avoid SpaceX due to governance concerns may be missing out on long-term financial gains. This changes the due diligence process for investors considering SpaceX, who should now look beyond governance checklists and consider the company&#x27;s potential for long-term growth.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-02/jefferies-analyst-slams-simple-minded-criticism-of-spacex-governance">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">After Losing Her Limbs, Our Cooking Columnist Returns to the Kitchen</a></h3>
+<p>Yewande Komolafe, a cooking columnist, returns to the kitchen after losing her limbs, having previously navigated the culinary world with limitations due to sickle cell disease. This changes the way we think about accessibility in cooking, potentially inspiring adaptations to kitchen tools and workflows to accommodate individuals with disabilities.&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, August 2, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-02.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-02.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, August 2, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like master chefs who now have sous chefs: they can delegate tasks and focus on the big picture, which changes how complex problems get solved. This shift is already affecting trading desks, where investors need to be more discerning about which AI-related stocks to back, and sports labs, where coaches are rethinking nutrition plans and scouting strategies. As AI models start training each other, what's the one assumption about human oversight you'll need to revisit?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/">OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions</a></h3>
-<p>OpenAI&#x27;s new model family, Astra, can tackle complex problems with multiple agents over hours or days, and has already been demoed to policymakers. This changes the approach to complex problem-solving, enabling the use of collaborative AI models like Astra in research and development workflows.&ensp;<a href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/">German court rules AI music generator Suno violated copyrights, rejects fair use defense</a></h3>
-<p>A Munich court ruled that AI music generator Suno violated copyrights through its training and output, rejecting both Germany&#x27;s text-and-data-mining exception and the US fair use defense. This changes the copyright clearance process for AI-generated music, requiring developers to ensure their models do not infringe on existing copyrights.&ensp;<a href="https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/put-the-agent-inside-the-workflow/">Put the Agent Inside the Workflow</a></h3>
-<p>A hybrid LLM application pattern combines a predefined workflow with adaptive agent behavior, enabling more efficient and effective task management. This changes the workflow design process, allowing developers to integrate AI agents into their workflows to improve automation and decision-making.&ensp;<a href="https://towardsdatascience.com/put-the-agent-inside-the-workflow/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-01/ai-isn-t-a-catch-all-trade-for-stocks-in-this-earnings-season">AI Isn’t a Catch-All Trade for Stocks in This Earnings Season</a></h3>
-<p>Investors are finding that not all AI-related stocks are performing well this earnings season, with some trades not living up to expectations. This changes the stock selection process, as investors need to be more discerning when choosing which AI-related stocks to invest in today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-01/ai-isn-t-a-catch-all-trade-for-stocks-in-this-earnings-season">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-01/zepto-turns-to-private-funding-with-ipo-plans-on-hold-for-now">Zepto Turns to Private Funding With IPO Plans on Hold for Now</a></h3>
-<p>Zepto Ltd has agreed to a private share sale after failing to secure its anticipated valuation for an initial public offering, putting its IPO plans on hold. This changes the funding strategy for Zepto, as the company will now rely on private investors rather than public markets for the time being.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-01/zepto-turns-to-private-funding-with-ipo-plans-on-hold-for-now">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html">Embassies warn Americans of travel risk amid signs of possible U.S.-Iran military action in the coming days</a></h3>
-<p>The US is warning Americans of potential travel risks due to possible military action between the US and Iran in the coming days. This changes travel plans, as Americans should reconsider visiting areas that may be affected by the potential conflict and check the latest travel advisories before making any decisions today.&ensp;<a href="https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/nutrition-weight-loss/a71496558/signs-your-running-fuel-is-off/">Overlooked Signs Your Nutrition Plan Isn’t Working for You</a></h3>
-<p>Runners may be experiencing overlooked signs that their nutrition plan isn&#x27;t working, such as inconsistent energy levels or poor recovery. This changes the way runners approach their daily food intake and hydration strategy, allowing them to adjust their diet and optimize their performance.&ensp;<a href="https://www.runnersworld.com/nutrition-weight-loss/a71496558/signs-your-running-fuel-is-off/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7404182/2026/08/02/scotland-world-cup-young-players/">Scotland&#x27;s teen talent drain to England and its impact on their World Cup hopes</a></h3>
-<p>Scotland is losing its teenage football talent to England, which may negatively impact their World Cup hopes. This changes the scouting and recruitment strategies of Scottish football clubs, prompting them to rethink their approach to identifying and developing young players.&ensp;<a href="https://www.nytimes.com/athletic/7404182/2026/08/02/scotland-world-cup-young-players/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7486002/2026/08/02/connections-sports-edition-hints-answers-aug-2-2026/">Connections: Sports Edition today: Hints and answers for Aug. 2, 2026, puzzle No. 678</a></h3>
-<p>The Connections: Sports Edition puzzle for August 2, 2026, provides hints and answers for puzzle No. 678. This changes the way players approach the puzzle, giving them the clues and solutions they need to complete it and move on to the next challenge.&ensp;<a href="https://www.nytimes.com/athletic/7486002/2026/08/02/connections-sports-edition-hints-answers-aug-2-2026/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset">Why Models Are AI’s Next Training Dataset with Damian Borth - #772</a></h3>
-<p>&ensp;<a href="https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, August 1, 2026</title>
@@ -245,16 +245,6 @@
     <description>Think of AI tools like new textbooks - they can change how teachers work, but only if they're free from worries about student data being misused, like Anthropic's promise with Claude for Teachers. This same idea of 'safe to use' applies to finance, w</description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, July 14, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-14.html</guid>
-    <pubDate>Tue, 14 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI developments like a cartographer adding new landmarks to a map: each new model or tool changes the landscape, giving developers and athletes new reference points to navigate. For instance, the release of Soofi S and SensorFM's hea</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

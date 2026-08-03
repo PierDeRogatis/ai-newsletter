@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://the-decoder.com/pangram-says-its-new-ai-text-detector-makes-only-one-mistake-per-24000-documents/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a73275973/should-men-and-women-train-differently/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7478730/2026/07/29/eagles-training-camp-jonathan-greenard-jalen-carter-jalen-hurts/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7478327/2026/07/29/nebraska-csc-football-players-paid/",
-    "date": "2026-07-30"
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-    "date": "2026-07-30"
-  },
-  {
     "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
     "date": "2026-07-31"
   },
@@ -146,5 +118,33 @@
   {
     "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
     "date": "2026-08-02"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-03/china-s-wu-vows-further-expansion-of-market-links-to-hong-kong",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-02/ai-is-turning-retail-traders-into-diy-hedge-funds",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-02/jefferies-analyst-slams-simple-minded-criticism-of-spacex-governance",
+    "date": "2026-08-03"
+  },
+  {
+    "url": "https://www.nytimes.com/the-daily",
+    "date": "2026-08-03"
   }
 ]
