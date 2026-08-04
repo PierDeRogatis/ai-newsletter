@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-04",
+    "headline": "Code meets scene",
+    "brief": "Think of AI models like LEGO builders, where a simple prompt is the instruction manual and the model generates the final structure - today, that structure can be a 3D browser scene or a more efficient RAG system. On the sports field, this same idea o",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-04.html"
+  },
+  {
     "date": "2026-08-03",
     "headline": "AI streamlines tasks",
     "brief": "Think of AI like a master editor, cutting out unnecessary steps in various processes, whether it's a 15-minute booking process or a trader's investment strategy. This editing power is now being applied to trading desks, where AI tools are helping ret",
