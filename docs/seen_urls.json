@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-07-31/masters-in-business-with-som-seif-video",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-07-31/the-unwind-of-situational-awareness-stock-bets-video",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.runnersworld.com/news/a73320305/bill-aris-investigation-fayetteville-manlius/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7479913/2026/08/01/chelsea-fa-charges-man-city-premier-league/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7484417/2026/07/31/the-athletic-football-show-survival-pool-competition/",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
-    "date": "2026-08-01"
-  },
-  {
-    "url": "https://share.transistor.fm/s/9d74230b",
-    "date": "2026-08-01"
-  },
-  {
     "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
     "date": "2026-08-02"
   },
@@ -142,5 +90,33 @@
   {
     "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1880498",
     "date": "2026-08-04"
+  },
+  {
+    "url": "https://towardsdatascience.com/using-agents-as-tools/",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.21214",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.03028",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.03071",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel",
+    "date": "2026-08-05"
   }
 ]

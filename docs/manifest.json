@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-05",
+    "headline": "AI Collaboration Evolves",
+    "brief": "Think of AI tools as construction equipment: just as a crane can be operated by different workers, AI agents can now be wielded by various specialists, streamlining data science workflows. On the trading desk, this means that portfolio managers can u",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-05.html"
+  },
+  {
     "date": "2026-08-04",
     "headline": "Code meets scene",
     "brief": "Think of AI models like LEGO builders, where a simple prompt is the instruction manual and the model generates the final structure - today, that structure can be a 3D browser scene or a more efficient RAG system. On the sports field, this same idea o",

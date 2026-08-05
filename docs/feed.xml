@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, August 5, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-05.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-05.html</guid>
+    <pubDate>Wed, 05 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI tools as construction equipment: just as a crane can be operated by different workers, AI agents can now be wielded by various specialists, streamlining data science workflows. On the trading desk, this means that portfolio managers can u</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, August 5, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI tools as construction equipment: just as a crane can be operated by different workers, AI agents can now be wielded by various specialists, streamlining data science workflows. On the trading desk, this means that portfolio managers can use AI to automate routine tasks, freeing up time to focus on high-level strategy, much like a sports coach uses data analytics to optimize player performance. As you consider the implications of portable data centers, ask yourself: what would it take for your organization to truly untether its infrastructure, and what new opportunities or risks would that bring?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/using-agents-as-tools/">Using Agents as Tools</a></h3>
+<p>Building manager–specialist workflows with the OpenAI Agents SDK is now possible, allowing for more efficient collaboration. This changes the workflow of data science teams, enabling them to leverage the Agents SDK to streamline their processes today.&ensp;<a href="https://towardsdatascience.com/using-agents-as-tools/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/">Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI</a></h3>
+<p>The Trump administration&#x27;s contemplated White House bans on Chinese AI have been pushed back due to Silicon Valley&#x27;s rift over open source, with companies like Nvidia, Google, and Meta fighting against restrictions. This changes the decision-making process of policymakers, who must now consider the opposition from major tech companies when evaluating potential bans on Chinese AI.&ensp;<a href="https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/">Is the future of data centers portable? Runware builds a pod to find out</a></h3>
+<p>Runware has launched its modular data center called Sonic Inference Pod, exploring the possibility of portable data centers. This changes the tool used by data center operators, who can now consider Runware&#x27;s portable pod as a potential solution for their infrastructure needs.&ensp;<a href="https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2511.21214">Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models</a></h3>
+<p>Reasoning models can synthesize and internalize task-specific safety guidelines from a small set of examples, improving their safety and adaptability to evolving jailbreak strategies. This changes the safety evaluation workflow, allowing for more dynamic and effective safety assessments of AI models.&ensp;<a href="https://arxiv.org/abs/2511.21214">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2608.03028">Evaluating Counterfactual Sensitivity to Patient Information in Medication-Safety Reasoning</a></h3>
+<p>Applying medication-safety rules without considering patient-specific conditions can lead to incorrect decisions, and existing evaluations often rely on isolated scenarios. This changes the medication-safety evaluation tool, requiring the incorporation of counterfactual sensitivity analyses to patient information.&ensp;<a href="https://arxiv.org/abs/2608.03028">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2608.03071">Getting the Parameters Right: A Difficulty-Graded Benchmark and Probe-Guided Training for LLM Tool Calls</a></h3>
+<p>Correctly filling the parameters of a tool call is essential for large language model agents, but existing research has focused on tool selection and orchestration. This changes the LLM training workflow, requiring the use of difficulty-graded benchmarks and probe-guided training to improve parameter accuracy.&ensp;<a href="https://arxiv.org/abs/2608.03071">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel">How Your Immune System Works &amp; How to Improve It | Dr. Max Krummel</a></h3>
+<p>&ensp;<a href="https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, August 4, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-04.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-04.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, August 4, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like LEGO builders, where a simple prompt is the instruction manual and the model generates the final structure - today, that structure can be a 3D browser scene or a more efficient RAG system. On the sports field, this same idea of generating better outcomes from data plays out in optimizing goalkeeper training through advanced eye-tracking analysis, showing how AI can inform human performance. As you consider how to apply these concepts, ask yourself: what's the one prompt or metric that, if changed, could drastically alter the outcome of your current project or training regimen?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/">Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test</a></h3>
-<p>Andrej Karpathy used Claude Opus 5 to turn one paragraph of Lord of the Rings into a 3D browser scene with 5,500 lines of code. This changes how AI models like Claude Opus 5 can be used to generate complex scenes from text prompts, allowing developers to create more interactive and immersive experiences.&ensp;<a href="https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/">Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On</a></h3>
-<p>Every RAG system is built on three engineering layers: prompt, context, and loop, which are stacked on a single LLM call. This changes the approach to building RAG systems, as understanding and identifying these layers can simplify the development process and improve system performance.&ensp;<a href="https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/cli-agents-with-python-ollama/">How to Build CLI Agents with Python &amp; Ollama</a></h3>
-<p>It&#x27;s possible to create a local CLI Agent from scratch for free using Python and Ollama. This changes the workflow for building command-line interfaces, as developers can now use Python and Ollama to create custom CLI agents without incurring costs.&ensp;<a href="https://towardsdatascience.com/cli-agents-with-python-ollama/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1733178">Outlier detection of skill decision differences of football penalty takers from a data-driven perspective: multialgorit hm modeling and empirical research of eye-tracking data</a></h3>
-<p>Defensive performance in football penalty kicks relies heavily on a goalkeeper&#x27;s visual anticipation and rapid decision-making capabilities, with conventional eye-tracking metrics often failing to capture the visual search advantages of expert athletes. This changes the approach to optimizing goalkeeper training by incorporating more advanced eye-tracking analysis and data-driven modeling.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1733178">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a73294236/non-running-day-mistakes/">Run Coaches Say These 3 Non-Running Day Habits Can Actually Hurt Your Performance. Plus, What to Do Instead.</a></h3>
-<p>Certain non-running day habits can hurt a runner&#x27;s performance, such as activities that either support or stall training progress. This changes the daily routine of runners by replacing harmful habits with alternative activities that support training goals.&ensp;<a href="https://www.runnersworld.com/training/a73294236/non-running-day-mistakes/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1880498">Perceptions and experiences of engagement and participation in physical activity among older adults aging with long-term spinal cord injury</a></h3>
-<p>Older adults with long-term spinal cord injury are often insufficiently physically active, with little known about their perceptions of physical activity and the barriers to their engagement. This changes the approach to promoting physical activity among this population by addressing their specific perceptions, barriers, and facilitators to engagement.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1880498">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.nytimes.com/the-daily">The Tangled Tale of the Tate Brothers and the Trumps</a></h3>
-<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, August 3, 2026</title>
@@ -235,16 +245,6 @@
     <description>Think of AI models like high-performance sports cars: they need constant tuning and expensive parts to stay competitive, which is why Kimi's K3 model is a game-changer with its 2.8 trillion parameters. As these models improve, they're not just changi</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, July 16, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-16.html</guid>
-    <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI systems like a kitchen where orders are shouted between chefs, but now the orders are encrypted, so you can't see how the meal is being prepared. This lack of visibility has consequences on the trading desk, where reliable model execution</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
