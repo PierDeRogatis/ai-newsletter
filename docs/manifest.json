@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-06",
+    "headline": "Models get smaller",
+    "brief": "Think of AI models like sports teams: just as a smaller team can still win with the right strategy, Mistral's compact Shieldstral model can match larger safety models at a fraction of the size, which means trading desks can now deploy more agile AI s",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-06.html"
+  },
+  {
     "date": "2026-08-05",
     "headline": "AI Collaboration Evolves",
     "brief": "Think of AI tools as construction equipment: just as a crane can be operated by different workers, AI agents can now be wielded by various specialists, streamlining data science workflows. On the trading desk, this means that portfolio managers can u",
