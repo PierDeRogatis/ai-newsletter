@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-08-03/china-s-wu-vows-further-expansion-of-market-links-to-hong-kong",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-08-02/ai-is-turning-retail-traders-into-diy-hedge-funds",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-08-02/jefferies-analyst-slams-simple-minded-criticism-of-spacex-governance",
-    "date": "2026-08-03"
-  },
-  {
-    "url": "https://www.nytimes.com/the-daily",
-    "date": "2026-08-03"
-  },
-  {
     "url": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/",
     "date": "2026-08-04"
   },
@@ -102,5 +74,33 @@
   {
     "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1913363",
     "date": "2026-08-06"
+  },
+  {
+    "url": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance",
+    "date": "2026-08-07"
   }
 ]

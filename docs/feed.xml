@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Friday, August 7, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-07.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-07.html</guid>
+    <pubDate>Fri, 07 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of today's stories like a high-performance sports car: you can have speed, or you can have affordability, but getting both is tough, as seen in the pricey Claude Code agent framework. This trade-off matters on the trading desk, where a faster a</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, August 7, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a high-performance sports car: you can have speed, or you can have affordability, but getting both is tough, as seen in the pricey Claude Code agent framework. This trade-off matters on the trading desk, where a faster agent framework like Claude Code could inform investment decisions, but its cost might outweigh the benefits, especially in a slipping market. As you weigh the value of speed versus cost, consider whether the potential gains in areas like fintech or data analysis are worth the added expense, and how that calculation might change if you could optimize for both.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/">I Built a Tool-Calling Agent in Python. Here’s How I Debugged It</a></h3>
+<p>Debugging a tool-calling agent in Python involves creating a minimal loop with real API calls, validation, and compact outputs. This changes the approach to debugging Python scripts, allowing developers to implement more efficient testing workflows today.&ensp;<a href="https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/">Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival</a></h3>
+<p>Claude Code is the fastest agent framework, but it costs nearly three times more than the cheapest rival, OpenCode, which costs $0.073 per task. This changes the decision-making process for choosing an agent framework, as developers must now weigh the benefits of speed against the increased cost.&ensp;<a href="https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/">I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.</a></h3>
+<p>A data agent can be built to query data and answer business questions using natural language, without requiring SQL knowledge. This changes the data exploration tool, allowing business users to access and analyze data more easily, and enabling developers to create more user-friendly data interfaces today.&ensp;<a href="https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video">CAIS CEO Talks New Funding Round, AI’s Fintech Impact</a></h3>
+<p>CAIS, an alternative asset investment platform, has raised $170 million in a Series D funding round, valuing the company at over $2 billion. This changes the investment strategy for fintech companies, as they can now consider partnering with CAIS to expand their offerings.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video">Hackers Target Wall Street in New Set of Attacks</a></h3>
+<p>Hackers have launched a wave of sophisticated attacks on Wall Street firms, primarily targeting hedge funds. This changes the cybersecurity protocols for financial institutions, as they need to update their systems to protect against these new threats.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video">Markets Slip as Rising Yields Pressure Tech | The Close 8/6/2026</a></h3>
+<p>Rising yields are putting pressure on the tech sector, causing markets to slip. This changes the portfolio allocation for investors, as they may need to rebalance their holdings to minimize losses in the tech sector.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance">Essentials: Control Your Brain Chemistry for Focus, Motivation &amp; Well-Being</a></h3>
+<p>Key neuromodulators shape motivation, energy, focus, and mood throughout the day, and can be influenced by behavioral, nutritional, and supplement-based strategies. This changes your daily routine, allowing you to implement science-supported tools to increase baseline levels of these neuromodulators and improve overall well-being.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Thursday, August 6, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-06.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-06.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Thursday, August 6, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like sports teams: just as a smaller team can still win with the right strategy, Mistral's compact Shieldstral model can match larger safety models at a fraction of the size, which means trading desks can now deploy more agile AI safety checks without sacrificing performance. This same idea of optimizing for size and efficiency is also showing up in sports performance, where researchers are using simulation-based frameworks to track athlete development and identify the most effective training strategies. As you consider how to apply these ideas to your own work, ask yourself: what's the equivalent of 'rearfoot striking' in your field - a small tweak that could significantly reduce the risk of 'injury' and improve overall performance?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/">Is This Slop? Detecting AI-Generated Content Without a Model</a></h3>
-<p>Researchers have identified cues to detect LLM-generated text, providing mathematical intuition behind the detection methods. This changes the content validation tool, allowing users to implement AI-generated content detection without relying on a machine learning model.&ensp;<a href="https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/">Mistral&#x27;s open model Shieldstral matches much larger safety models at a fraction of the size</a></h3>
-<p>Mistral&#x27;s 3B Shieldstral model can check AI inputs and outputs for safety violations using natural language yes-or-no questions, matching larger models in some benchmarks. This changes the safety evaluation workflow, enabling operators to set custom criteria at runtime instead of relying on third-party models.&ensp;<a href="https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/">Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG</a></h3>
-<p>Researchers have developed a method to recover a PDF&#x27;s outline from body typography using six deterministic signals and a bounded loop, which can be integrated into the RAG pipeline. This changes the document processing tool, allowing users to automatically generate a document&#x27;s outline from its typography.&ensp;<a href="https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872966">A simulation-based framework for tracking decision-making development in youth basketball: operationalising Vygotsky’s zone of proximal development through Bayesian multilevel modelling and verbal protocol analysis</a></h3>
-<p>Research on sports coaching is divided between direct instruction and constraints-led approaches, with a need for methods to distinguish athlete development. This changes the coaching toolkit, which could now incorporate simulation-based frameworks and Bayesian multilevel modelling to better track athlete progress.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1872966">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a73359956/running-every-day-benefits/">7 Ways Your Body and Mind Change When You Start Running Every Day</a></h3>
-<p>Running every day can improve mental and physical health, as long as it&#x27;s done safely. This changes the daily exercise routine, which could now include a daily running habit to experience these benefits.&ensp;<a href="https://www.runnersworld.com/training/a73359956/running-every-day-benefits/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1913363">Rearfoot striking is associated with lower modeled ACL loading during overground running: a musculoskeletal modeling study</a></h3>
-<p>Rearfoot striking is associated with lower ACL loading during overground running, according to a study of 20 healthy male participants. This changes the running technique assessment, which could now consider the benefits of rearfoot striking in reducing ACL loading.&ensp;<a href="https://www.frontiersin.org/articles/10.3389/fspor.2026.1913363">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel">How Your Immune System Works &amp; How to Improve It | Dr. Max Krummel</a></h3>
-<p>Dr. Max Krummel explains that sleep, emotions, and memories can shape immune function, and the thymus plays a crucial role in autoimmunity. This changes how you approach daily habits, such as prioritizing sleep and managing stress, to support immune system function.&ensp;<a href="https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Wednesday, August 5, 2026</title>
@@ -229,18 +239,6 @@
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-19.html</guid>
     <pubDate>Sun, 19 Jul 2026 06:00:00 +0000</pubDate>
     <description>Think of AI adoption like a sports team's playbook, where the goal is to move quickly and adapt on the fly, as seen in the US Navy's new AI-first fleet strategy. This shift towards speed is having a ripple effect, from trading desks where hedge fund </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Saturday, July 18, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-18.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-18.html</guid>
-    <pubDate>Sat, 18 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like teenagers - they can be incredibly powerful, but also reckless if not supervised properly, as seen in GPT-5.6's accidental file deletions. This lack of control has implications for traders, who need to consider the potential r</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>AI in Sports</category>

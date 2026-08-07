@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-07",
+    "headline": "Speed costs money",
+    "brief": "Think of today's stories like a high-performance sports car: you can have speed, or you can have affordability, but getting both is tough, as seen in the pricey Claude Code agent framework. This trade-off matters on the trading desk, where a faster a",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-07.html"
+  },
+  {
     "date": "2026-08-06",
     "headline": "Models get smaller",
     "brief": "Think of AI models like sports teams: just as a smaller team can still win with the right strategy, Mistral's compact Shieldstral model can match larger safety models at a fraction of the size, which means trading desks can now deploy more agile AI s",
