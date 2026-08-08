@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-08",
+    "headline": "Models Get Locked In",
+    "brief": "Think of AI models like highly specialized sports cars - they can be incredibly fast and efficient, but only if they're built for a specific task, much like how a car is designed for a particular track. This idea is playing out in both the developmen",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 13,
+    "path": "issues/2026-08-08.html"
+  },
+  {
     "date": "2026-08-07",
     "headline": "Speed costs money",
     "brief": "Think of today's stories like a high-performance sports car: you can have speed, or you can have affordability, but getting both is tough, as seen in the pricey Claude Code agent framework. This trade-off matters on the trading desk, where a faster a",

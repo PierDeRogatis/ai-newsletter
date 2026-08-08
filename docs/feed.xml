@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, August 8, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-08.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-08.html</guid>
+    <pubDate>Sat, 08 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like highly specialized sports cars - they can be incredibly fast and efficient, but only if they're built for a specific task, much like how a car is designed for a particular track. This idea is playing out in both the developmen</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, August 8, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like highly specialized sports cars - they can be incredibly fast and efficient, but only if they're built for a specific task, much like how a car is designed for a particular track. This idea is playing out in both the development of AI-powered hardware, where chips are being hard-coded for specific models, and in sports performance, where athletes are tailoring their training to specific muscle groups, like glutes, to improve overall efficiency. As you consider the trade-offs between speed and flexibility in your own work, whether it's designing AI models or training for a marathon, what's the one task or goal that you're willing to optimize for, even if it means sacrificing some versatility?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/">Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One</a></h3>
+<p>RAG pipelines often fail on questions that require answers from every passage, not just the top one, and a specific pipeline shape can handle these types of questions. This changes the design of question-answering systems, allowing developers to create more robust and accurate models that can handle a wider range of queries.&ensp;<a href="https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/">OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time</a></h3>
+<p>OpenAI&#x27;s new Astra model has shown such strong cybersecurity capabilities in internal tests that the company can no longer rule out the highest risk level in its own safety framework, prompting a pause in parts of the model&#x27;s development. This changes the risk assessment and development process for AI models, requiring more careful evaluation and potentially slower deployment of highly advanced models.&ensp;<a href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/">AMD acquires Taalas, a startup that bakes AI models directly into silicon</a></h3>
+<p>AMD has acquired Taalas, a startup that can hard-code AI model weights directly into inference chips, resulting in extremely fast performance but locking each chip to a single model, with a demo chip achieving over 16,000 tokens per second per user. This changes the production and deployment of AI-powered hardware, enabling the creation of highly specialized and efficient chips for specific AI tasks and applications.&ensp;<a href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-07/open-interest-8-7-2026-video">Jobs Shock Sends Stocks Higher | Open Interest 8/7/2026</a></h3>
+<p>&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-07/open-interest-8-7-2026-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-08-07/us-sanctions-iranian-digital-exchanges-as-trump-promises-deal">US Sanctions Iranian Crypto Exchanges As Talks Continue</a></h3>
+<p>&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-07/us-sanctions-iranian-digital-exchanges-as-trump-promises-deal">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html">The unwind of Situational Awareness isn&#x27;t the only reason the AI trade is back</a></h3>
+<p>&ensp;<a href="https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a73377922/weak-glutes-runners-signs/">5 Signs You Have Weak Glutes—and How Strengthening Them Helps You Run More Efficiently</a></h3>
+<p>Strengthening weak glutes can help runners run more efficiently and stay injury-free. This changes the runner&#x27;s training routine, specifically incorporating glute-strengthening exercises into their workout to improve overall running performance.&ensp;<a href="https://www.runnersworld.com/training/a73377922/weak-glutes-runners-signs/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/live-blogs/nfl-training-camp-2026-live-updates-news/QI9EfSewYCIQ/">How NFL training camps played out, including contract news and injury updates</a></h3>
+<p>NFL teams prepared for the 2026 season with rigorous opening weeks of training camps. This changes the way NFL teams and fans approach the preseason, with a focus on monitoring contract news and injury updates to predict team performance.&ensp;<a href="https://www.nytimes.com/athletic/live-blogs/nfl-training-camp-2026-live-updates-news/QI9EfSewYCIQ/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7498624/2026/08/07/russia-fifa-vote-infantino/">Russia retains FIFA presidential voting rights despite global soccer ban</a></h3>
+<p>The Russian Football Union retains its FIFA presidential voting rights despite being banned from participating in FIFA and UEFA competitions. This changes the dynamics of FIFA presidential elections, as Russia still holds voting power despite its competitive ban.&ensp;<a href="https://www.nytimes.com/athletic/7498624/2026/08/07/russia-fifa-vote-infantino/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2608.05409">Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment</a></h3>
+<p>Large language models can be sidestepped by sophisticated jailbreaks despite post-training safety alignments, with prior work by Andriushchenko et al. finding that changing the syntax can bypass established safeguards. This changes the approach to safety alignment in large language models, requiring more nuanced and syntax-sensitive safeguards to be implemented in the model training workflow.&ensp;<a href="https://arxiv.org/abs/2608.05409">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2608.05478">GenGA: Editable and Data-Grounded Graphical Abstract Generation for Academic Papers</a></h3>
+<p>Graphical Abstracts (GAs) can be generated using vision-language models and image generation models, enabling the visual summarization of academic papers. This changes the tool used for creating graphical abstracts, allowing researchers to utilize GenGA for automated and editable graphical abstract generation in their academic paper workflow.&ensp;<a href="https://arxiv.org/abs/2608.05478">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2604.01170">Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning</a></h3>
+<p>Test-time training can enable large language models to solve difficult tasks, but state-of-the-art results come at high compute costs due to miscalibration of post-trained language models. This changes the test-time training protocol, enabling the use of online reasoning calibration to achieve more efficient and generalizable conformal large language model reasoning in the model deployment decision.&ensp;<a href="https://arxiv.org/abs/2604.01170">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://braininspired.co/podcast/243/">BI 243 Alison Barth: Learning as a Window to Cortex</a></h3>
+<p>Alison Barth discusses learning as a window to understanding the cortex, highlighting its significance in neuroscience research. This changes the approach to neuroscience research, specifically the tools used to study the cortex and the decisions made when designing experiments to investigate learning and brain function.&ensp;<a href="https://braininspired.co/podcast/243/">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, August 7, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-07.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-07.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, August 7, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of today's stories like a high-performance sports car: you can have speed, or you can have affordability, but getting both is tough, as seen in the pricey Claude Code agent framework. This trade-off matters on the trading desk, where a faster agent framework like Claude Code could inform investment decisions, but its cost might outweigh the benefits, especially in a slipping market. As you weigh the value of speed versus cost, consider whether the potential gains in areas like fintech or data analysis are worth the added expense, and how that calculation might change if you could optimize for both.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/">I Built a Tool-Calling Agent in Python. Here’s How I Debugged It</a></h3>
-<p>Debugging a tool-calling agent in Python involves creating a minimal loop with real API calls, validation, and compact outputs. This changes the approach to debugging Python scripts, allowing developers to implement more efficient testing workflows today.&ensp;<a href="https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/">Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival</a></h3>
-<p>Claude Code is the fastest agent framework, but it costs nearly three times more than the cheapest rival, OpenCode, which costs $0.073 per task. This changes the decision-making process for choosing an agent framework, as developers must now weigh the benefits of speed against the increased cost.&ensp;<a href="https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/">I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.</a></h3>
-<p>A data agent can be built to query data and answer business questions using natural language, without requiring SQL knowledge. This changes the data exploration tool, allowing business users to access and analyze data more easily, and enabling developers to create more user-friendly data interfaces today.&ensp;<a href="https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video">CAIS CEO Talks New Funding Round, AI’s Fintech Impact</a></h3>
-<p>CAIS, an alternative asset investment platform, has raised $170 million in a Series D funding round, valuing the company at over $2 billion. This changes the investment strategy for fintech companies, as they can now consider partnering with CAIS to expand their offerings.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video">Hackers Target Wall Street in New Set of Attacks</a></h3>
-<p>Hackers have launched a wave of sophisticated attacks on Wall Street firms, primarily targeting hedge funds. This changes the cybersecurity protocols for financial institutions, as they need to update their systems to protect against these new threats.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video">Markets Slip as Rising Yields Pressure Tech | The Close 8/6/2026</a></h3>
-<p>Rising yields are putting pressure on the tech sector, causing markets to slip. This changes the portfolio allocation for investors, as they may need to rebalance their holdings to minimize losses in the tech sector.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance">Essentials: Control Your Brain Chemistry for Focus, Motivation &amp; Well-Being</a></h3>
-<p>Key neuromodulators shape motivation, energy, focus, and mood throughout the day, and can be influenced by behavioral, nutritional, and supplement-based strategies. This changes your daily routine, allowing you to implement science-supported tools to increase baseline levels of these neuromodulators and improve overall well-being.&ensp;<a href="https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, August 6, 2026</title>
@@ -231,18 +263,6 @@
     <description>Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, July 19, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-19.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-19.html</guid>
-    <pubDate>Sun, 19 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI adoption like a sports team's playbook, where the goal is to move quickly and adapt on the fly, as seen in the US Navy's new AI-first fleet strategy. This shift towards speed is having a ripple effect, from trading desks where hedge fund </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
-    <category>Research &amp; Academia</category>
     <category>Podcasts</category>
   </item>
 </channel>
