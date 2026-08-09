@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, August 9, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-09.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-09.html</guid>
+    <pubDate>Sun, 09 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI agents like power-hungry appliances, consuming roughly 600 times more energy than a simple chat prompt, which is like leaving your TV on for months. This changes the game for traders and investors, who must now factor in the environmental</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, August 9, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI agents like power-hungry appliances, consuming roughly 600 times more energy than a simple chat prompt, which is like leaving your TV on for months. This changes the game for traders and investors, who must now factor in the environmental and financial costs of AI-driven trading tools, such as those used in high-frequency trading or algorithmic decision-making. As you weigh the benefits of AI-powered tools in your own workflow, whether in finance, sports performance, or data analysis, consider this: are the efficiency gains worth the energy expenditure, and what are the potential long-term consequences for your bottom line and the planet?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/">xAI&#x27;s Imagine Image 2.0 lands just behind OpenAI&#x27;s GPT-Image-2 in Arena benchmarks</a></h3>
+<p>xAI&#x27;s Imagine Image 2.0 ranks second in the Arena benchmarks, just behind OpenAI&#x27;s GPT-Image-2, with new editing tools like Magic Wand and Multi-Ref Editing. This changes the image generator tool used in creative workflows, such as Grok, to prioritize Imagine Image 2.0 for its high-ranking performance and practical editing features.&ensp;<a href="https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/">AI agents use roughly 600 times more energy than a simple chat prompt</a></h3>
+<p>AI agents use roughly 600 times more energy than a simple chat prompt, with 170 kWh of data center electricity used over eight weeks for 3.2 billion tokens. This changes the approach to estimating energy consumption for AI applications, such as Claude Code, to account for the significantly higher energy usage of AI agents compared to simple chat prompts.&ensp;<a href="https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/">Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</a></h3>
+<p>Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans, with the classifier catching 89 percent of dangerous commands. This changes the default settings for Claude Code to prioritize safety, using Auto Mode to automatically detect and prevent bad approvals, and altering the workflow for developers using the AI coding tool.&ensp;<a href="https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html">Elevator giant Otis wants to be a defensive play in a volatile market. It has to prove itself first</a></h3>
+<p>Otis&#x27; shares are down due to setbacks in its elevator service business and investors chasing the AI trade, despite positioning itself as a long-term growth stock. This changes the investment strategy for Otis, requiring a closer look at its service business performance before considering it a defensive play.&ensp;<a href="https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html">Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists</a></h3>
+<p>Collateralized loan obligations may become the next big push in the exchange-traded fund industry due to interest rate uncertainty. This changes the portfolio allocation tool, as investors may consider adding CLO-exposed ETFs to their portfolios to navigate the uncertainty.&ensp;<a href="https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/08/heres-how-we-played-the-massive-rebound-in-ai-stocks-this-week.html">Here’s how we played the massive rebound in AI stocks this week</a></h3>
+<p>AI stocks roared back to help lift two of the major averages to fresh records, indicating a significant rebound. This changes the stock picking decision, as investors may consider adding AI stocks to their portfolios or adjusting their existing holdings to capitalize on the rebound.&ensp;<a href="https://www.cnbc.com/2026/08/08/heres-how-we-played-the-massive-rebound-in-ai-stocks-this-week.html">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a73347308/strength-training-guide-for-runners-prevent-common-injuries/">The Runner’s World Guide to Strength Training: Prevent Common Injuries</a></h3>
+<p>Runners can prevent common injuries by prioritizing strength training as part of their run routine, with tools and programs available to get started. This changes the runner&#x27;s workout routine, specifically the decision to incorporate strength training exercises into their daily or weekly schedule.&ensp;<a href="https://www.runnersworld.com/training/a73347308/strength-training-guide-for-runners-prevent-common-injuries/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a73318606/strength-training-and-running-workout/">I Hated Strength Training. Pairing It With Easy Runs Changed My Mind—and Made Me Stick With It.</a></h3>
+<p>Pairing strength training with easy runs can make it more enjoyable and increase adherence to the workout routine, as seen in the author&#x27;s experience with a customized workout plan. This changes the runner&#x27;s approach to strength training, replacing traditional prerun or postrun lifts with a more integrated workout that combines running and strength training.&ensp;<a href="https://www.runnersworld.com/training/a73318606/strength-training-and-running-workout/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7496395/2026/08/09/world-cup-final-art-pictures-x-social/">The man who found &#x27;art&#x27; in this World Cup final scrap</a></h3>
+<p>One man has made flashpoints in football an artform on social media, finding beauty in intense and dramatic moments of the game. This changes the way fans consume and interact with sports content on social media, shifting from simply watching highlights to appreciating the artistic side of the game.&ensp;<a href="https://www.nytimes.com/athletic/7496395/2026/08/09/world-cup-final-art-pictures-x-social/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://braininspired.co/podcast/243/">BI 243 Alison Barth: Learning as a Window to Cortex</a></h3>
+<p>&ensp;<a href="https://braininspired.co/podcast/243/">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, August 8, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-08.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-08.html</guid>
@@ -19,55 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, August 8, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like highly specialized sports cars - they can be incredibly fast and efficient, but only if they're built for a specific task, much like how a car is designed for a particular track. This idea is playing out in both the development of AI-powered hardware, where chips are being hard-coded for specific models, and in sports performance, where athletes are tailoring their training to specific muscle groups, like glutes, to improve overall efficiency. As you consider the trade-offs between speed and flexibility in your own work, whether it's designing AI models or training for a marathon, what's the one task or goal that you're willing to optimize for, even if it means sacrificing some versatility?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/">Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One</a></h3>
-<p>RAG pipelines often fail on questions that require answers from every passage, not just the top one, and a specific pipeline shape can handle these types of questions. This changes the design of question-answering systems, allowing developers to create more robust and accurate models that can handle a wider range of queries.&ensp;<a href="https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/">OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time</a></h3>
-<p>OpenAI&#x27;s new Astra model has shown such strong cybersecurity capabilities in internal tests that the company can no longer rule out the highest risk level in its own safety framework, prompting a pause in parts of the model&#x27;s development. This changes the risk assessment and development process for AI models, requiring more careful evaluation and potentially slower deployment of highly advanced models.&ensp;<a href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/">AMD acquires Taalas, a startup that bakes AI models directly into silicon</a></h3>
-<p>AMD has acquired Taalas, a startup that can hard-code AI model weights directly into inference chips, resulting in extremely fast performance but locking each chip to a single model, with a demo chip achieving over 16,000 tokens per second per user. This changes the production and deployment of AI-powered hardware, enabling the creation of highly specialized and efficient chips for specific AI tasks and applications.&ensp;<a href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-07/open-interest-8-7-2026-video">Jobs Shock Sends Stocks Higher | Open Interest 8/7/2026</a></h3>
-<p>&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-07/open-interest-8-7-2026-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-07/us-sanctions-iranian-digital-exchanges-as-trump-promises-deal">US Sanctions Iranian Crypto Exchanges As Talks Continue</a></h3>
-<p>&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-07/us-sanctions-iranian-digital-exchanges-as-trump-promises-deal">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html">The unwind of Situational Awareness isn&#x27;t the only reason the AI trade is back</a></h3>
-<p>&ensp;<a href="https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a73377922/weak-glutes-runners-signs/">5 Signs You Have Weak Glutes—and How Strengthening Them Helps You Run More Efficiently</a></h3>
-<p>Strengthening weak glutes can help runners run more efficiently and stay injury-free. This changes the runner&#x27;s training routine, specifically incorporating glute-strengthening exercises into their workout to improve overall running performance.&ensp;<a href="https://www.runnersworld.com/training/a73377922/weak-glutes-runners-signs/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/live-blogs/nfl-training-camp-2026-live-updates-news/QI9EfSewYCIQ/">How NFL training camps played out, including contract news and injury updates</a></h3>
-<p>NFL teams prepared for the 2026 season with rigorous opening weeks of training camps. This changes the way NFL teams and fans approach the preseason, with a focus on monitoring contract news and injury updates to predict team performance.&ensp;<a href="https://www.nytimes.com/athletic/live-blogs/nfl-training-camp-2026-live-updates-news/QI9EfSewYCIQ/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7498624/2026/08/07/russia-fifa-vote-infantino/">Russia retains FIFA presidential voting rights despite global soccer ban</a></h3>
-<p>The Russian Football Union retains its FIFA presidential voting rights despite being banned from participating in FIFA and UEFA competitions. This changes the dynamics of FIFA presidential elections, as Russia still holds voting power despite its competitive ban.&ensp;<a href="https://www.nytimes.com/athletic/7498624/2026/08/07/russia-fifa-vote-infantino/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2608.05409">Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment</a></h3>
-<p>Large language models can be sidestepped by sophisticated jailbreaks despite post-training safety alignments, with prior work by Andriushchenko et al. finding that changing the syntax can bypass established safeguards. This changes the approach to safety alignment in large language models, requiring more nuanced and syntax-sensitive safeguards to be implemented in the model training workflow.&ensp;<a href="https://arxiv.org/abs/2608.05409">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2608.05478">GenGA: Editable and Data-Grounded Graphical Abstract Generation for Academic Papers</a></h3>
-<p>Graphical Abstracts (GAs) can be generated using vision-language models and image generation models, enabling the visual summarization of academic papers. This changes the tool used for creating graphical abstracts, allowing researchers to utilize GenGA for automated and editable graphical abstract generation in their academic paper workflow.&ensp;<a href="https://arxiv.org/abs/2608.05478">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2604.01170">Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning</a></h3>
-<p>Test-time training can enable large language models to solve difficult tasks, but state-of-the-art results come at high compute costs due to miscalibration of post-trained language models. This changes the test-time training protocol, enabling the use of online reasoning calibration to achieve more efficient and generalizable conformal large language model reasoning in the model deployment decision.&ensp;<a href="https://arxiv.org/abs/2604.01170">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://braininspired.co/podcast/243/">BI 243 Alison Barth: Learning as a Window to Cortex</a></h3>
-<p>Alison Barth discusses learning as a window to understanding the cortex, highlighting its significance in neuroscience research. This changes the approach to neuroscience research, specifically the tools used to study the cortex and the decisions made when designing experiments to investigate learning and brain function.&ensp;<a href="https://braininspired.co/podcast/243/">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, August 7, 2026</title>
@@ -253,16 +254,6 @@
     <description>Think of AI security like a game of chess, where each side uses increasingly sophisticated moves to outmaneuver the other - Hugging Face's recent hack is a prime example. This cat-and-mouse game has significant implications for trading desks, where A</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, July 20, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-20.html</guid>
-    <pubDate>Mon, 20 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI models like athletes: they can dominate in one arena, like frontend code, but struggle in others, like complex math, which is why Kimi K3's latest performance is a wake-up call. This discrepancy has a ripple effect on trading desks, where</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>
