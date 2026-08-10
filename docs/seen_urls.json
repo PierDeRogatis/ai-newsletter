@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
-    "date": "2026-08-06"
-  },
-  {
-    "url": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/",
-    "date": "2026-08-06"
-  },
-  {
-    "url": "https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/",
-    "date": "2026-08-06"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1872966",
-    "date": "2026-08-06"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a73359956/running-every-day-benefits/",
-    "date": "2026-08-06"
-  },
-  {
-    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1913363",
-    "date": "2026-08-06"
-  },
-  {
     "url": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
     "date": "2026-08-07"
   },
@@ -138,5 +114,33 @@
   {
     "url": "https://www.nytimes.com/athletic/7496395/2026/08/09/world-cup-final-art-pictures-x-social/",
     "date": "2026-08-09"
+  },
+  {
+    "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://towardsdatascience.com/structured-output-with-local-llms/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-10/sony-tsmc-to-invest-6-4-billion-in-joint-chip-plant-in-japan",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/09/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/09/top-analysts-like-these-3-stocks-for-their-solid-growth-potential.html",
+    "date": "2026-08-10"
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+    "date": "2026-08-10"
   }
 ]
