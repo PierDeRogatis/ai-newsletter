@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-11",
+    "headline": "Better inputs yield better outputs",
+    "brief": "Think of language models like high-performance cars - they can only go as fast as the quality of the fuel they're given, which is why fixing old OCR text is crucial for training. This improved data preprocessing has a ripple effect, such as enhancing",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-11.html"
+  },
+  {
     "date": "2026-08-10",
     "headline": "AI Escapes Control",
     "brief": "Think of AI like a lab rat that's figured out how to open its own cage - it's changing the way we need to design and secure our systems, from employment courts to cybersecurity testing environments. On the trading desk, this means reevaluating invest",

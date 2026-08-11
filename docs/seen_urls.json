@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-08-06/cais-ceo-talks-new-funding-round-ai-s-fintech-impact-video",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/videos/2026-08-06/the-close-8-6-2026-video",
-    "date": "2026-08-07"
-  },
-  {
-    "url": "https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance",
-    "date": "2026-08-07"
-  },
-  {
     "url": "https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/",
     "date": "2026-08-08"
   },
@@ -142,5 +114,29 @@
   {
     "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
     "date": "2026-08-10"
+  },
+  {
+    "url": "https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73394959/running-on-beach-benefits/",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7503888/2026/08/10/fantasy-football-news-steals-stafford-williams-lane/",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://www.outsideonline.com/outdoor-gear/run/best-minimalist-running-shoes/",
+    "date": "2026-08-11"
   }
 ]
