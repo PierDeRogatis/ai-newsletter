@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-12",
+    "headline": "Local AI models rival cloud services",
+    "brief": "Think of AI models like a team of specialists: just as a sports team needs the right mix of players to win, an AI system needs the right combination of local and cloud-based models to perform well. As local models become more viable, traders and data",
+    "topics": [
+      "AI & Data Tools",
+      "Research & Academia",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-12.html"
+  },
+  {
     "date": "2026-08-11",
     "headline": "Better inputs yield better outputs",
     "brief": "Think of language models like high-performance cars - they can only go as fast as the quality of the fuel they're given, which is why fixing old OCR text is crucial for training. This improved data preprocessing has a ripple effect, such as enhancing",

@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Wednesday, August 12, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-12.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-12.html</guid>
+    <pubDate>Wed, 12 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like a team of specialists: just as a sports team needs the right mix of players to win, an AI system needs the right combination of local and cloud-based models to perform well. As local models become more viable, traders and data</description>
+    <category>AI &amp; Data Tools</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Wednesday, August 12, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like a team of specialists: just as a sports team needs the right mix of players to win, an AI system needs the right combination of local and cloud-based models to perform well. As local models become more viable, traders and data teams will need to reassess their infrastructure, much like a coach retooling their lineup, to determine when to use local models and when to rely on cloud-based services. One question to consider is whether the convenience of cloud-based services is worth the potential security risks, like the recently discovered vulnerability that allowed researchers to extract encrypted reasoning traces and reveal sensitive information.</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/">Can a Local LLM Run My AI Assistant?</a></h3>
+<p>27 real production tasks were replayed through two local models to determine what it takes to replace Claude as the brain behind a 90-tool personal agent. This changes the approach to building personal AI assistants, allowing developers to consider local LLMs as a viable alternative to cloud-based services like Claude.&ensp;<a href="https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/">Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs</a></h3>
+<p>A complete MiniMax-H3 multimodal generation pipeline can be implemented using ComfyUI as a headless backend, handling hardware profiling, model weight downloading, and dynamic inference. This changes the workflow for multimodal video and audio generation, enabling developers to automate the inference environment and streamline the production process.&ensp;<a href="https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/">But marinade and leaked passwords are what researchers found in ChatGPT&#x27;s hidden reasoning</a></h3>
+<p>Security researchers discovered a vulnerability in OpenAI, Anthropic, and Google APIs that allows extracting encrypted reasoning traces, revealing dozens of passwords and API keys. This changes the security protocol for AI models, requiring developers to re-examine their API security and implement measures to protect sensitive information from being extracted through reasoning traces.&ensp;<a href="https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2506.03922">HSSBench: Benchmarking Humanities and Social Sciences Ability for Multimodal Large Language Models</a></h3>
+<p>Current benchmarks for evaluating Multimodal Large Language Models (MLLMs) primarily emphasize general knowledge and vertical step-by-step reasoning, neglecting humanities and social sciences. This changes the evaluation metrics for MLLMs, requiring a more diverse set of benchmarks to assess their abilities in various domains.&ensp;<a href="https://arxiv.org/abs/2506.03922">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2604.19001">HarmThoughts: A Benchmark for Fine-Grained Harmful Behavior Detection in Reasoning Traces</a></h3>
+<p>Large reasoning models produce complex, multi-step reasoning traces, and safety evaluation should focus on the entire reasoning process, not just the final outputs. This changes the safety evaluation workflow, requiring the development of tools to detect harmful behavior in the reasoning traces of large reasoning models.&ensp;<a href="https://arxiv.org/abs/2604.19001">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2606.03793">Exploring Adversarial Robustness and Safety Alignment in Multilingual Multi-Modal Large Language Models</a></h3>
+<p>Multimodal Large Language Models have a continuous attack surface susceptible to adversarial attacks, and prior work on MLLM robustness has focused largely on English-centric tasks. This changes the adversarial robustness testing tool, requiring the development of multilingual and multi-modal testing frameworks to ensure the safety and reliability of MLLMs.&ensp;<a href="https://arxiv.org/abs/2606.03793">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.latent.space/p/chai-discovery">🔬The BioAI Phase Shift - Matthew McPartlon &amp; Neil Patil, Chai Discovery</a></h3>
+<p>&ensp;<a href="https://www.latent.space/p/chai-discovery">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Tuesday, August 11, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-11.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-11.html</guid>
@@ -17,35 +56,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Tuesday, August 11, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of language models like high-performance cars - they can only go as fast as the quality of the fuel they're given, which is why fixing old OCR text is crucial for training. This improved data preprocessing has a ripple effect, such as enhancing cybersecurity vulnerability assessments, where accurate inputs can mean the difference between finding a threat before or after it's exploited. As you consider how to apply these advancements, ask yourself whether your current data workflow is prioritizing accuracy over speed, and if that tradeoff is still acceptable in your field, whether it's training AI models or optimizing athletic performance.</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/">Old OCR text cripples language model training, and FineBooks wants to fix that at scale</a></h3>
-<p>The FineBooks project tested 14 open-source OCR models on over 2,000 historical book pages, with the top model achieving 97.6 percent character accuracy at under two dollars per thousand pages. This changes the data preprocessing workflow for language model training, allowing developers to use more accurate OCR models for historical texts.&ensp;<a href="https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/">How to Effectively Deploy Code With Claude Code</a></h3>
-<p>Optimizing the CI/CD pipeline with Claude Code can improve coding agent efficiency. This changes the deployment tool for coding agents, enabling developers to streamline their workflow and reduce errors with a more effective CI/CD pipeline.&ensp;<a href="https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/">OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</a></h3>
-<p>The new GPT-5.6-Cyber model can answer up to 98.5 percent of security queries and has already uncovered two previously unknown Chrome vulnerabilities. This changes the vulnerability assessment tool for cybersecurity defenders, allowing them to identify and address potential threats more effectively with the help of AI-powered models.&ensp;<a href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a73394959/running-on-beach-benefits/">Running on the Beach Can Boost Your Fitness. Here’s How and Why to Hit the Sand This Summer, According to Experts</a></h3>
-<p>Running on the beach can improve your VO₂ max, which is a key indicator of cardiovascular fitness. This changes your running route selection, as you may now consider incorporating beach runs into your regular training schedule.&ensp;<a href="https://www.runnersworld.com/training/a73394959/running-on-beach-benefits/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7503888/2026/08/10/fantasy-football-news-steals-stafford-williams-lane/">Matthew Stafford, Kyren Williams are fantasy football steals, plus Ja’Kobi Lane hype</a></h3>
-<p>Matthew Stafford and Kyren Williams are considered fantasy football steals, according to expert analysis. This changes your fantasy football draft picks, as you may now prioritize selecting Stafford and Williams for your team.&ensp;<a href="https://www.nytimes.com/athletic/7503888/2026/08/10/fantasy-football-news-steals-stafford-williams-lane/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.outsideonline.com/outdoor-gear/run/best-minimalist-running-shoes/">The Best Minimalist Running Shoes 2026</a></h3>
-<p>There are 8 low-cushion road and trail running shoes available that can help strengthen your feet. This changes your shoe purchasing decision, as you may now consider opting for minimalist running shoes for your next purchase.&ensp;<a href="https://www.outsideonline.com/outdoor-gear/run/best-minimalist-running-shoes/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-zawinskis-law-of-multiagents">[AINews] Zawinski&#x27;s Law of MultiAgents</a></h3>
-<p>&ensp;<a href="https://www.latent.space/p/ainews-zawinskis-law-of-multiagents">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Monday, August 10, 2026</title>
@@ -234,16 +244,6 @@
     <description>Think of today's stories like a highway system: adding more lanes doesn't always mean faster travel, because bottlenecks can form at intersections and on-ramps, whether it's hundreds of LLM agents slowing down a system or investors re-routing their p</description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Thursday, July 23, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-23.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-23.html</guid>
-    <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a high-performance sports car - speed and efficiency are crucial, whether it's fine-tuning frameworks for developers or training large AI models with gigawatts of GPU power. On the trading desk, this means consid</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>
