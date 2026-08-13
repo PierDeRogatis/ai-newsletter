@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-13",
+    "headline": "New AI models shake up the market",
+    "brief": "Think of the AI market like a sports league, where new players can suddenly change the game by offering similar performance at a lower price, like a younger athlete who can run faster without needing as much training. This shift is already being felt",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-13.html"
+  },
+  {
     "date": "2026-08-12",
     "headline": "Local AI models rival cloud services",
     "brief": "Think of AI models like a team of specialists: just as a sports team needs the right mix of players to win, an AI system needs the right combination of local and cloud-based models to perform well. As local models become more viable, traders and data",
