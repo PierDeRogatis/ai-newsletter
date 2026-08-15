@@ -9,6 +9,67 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Saturday, August 15, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-15.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-15.html</guid>
+    <pubDate>Sat, 15 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI research like a high school essay: just because you can generate words doesn't mean you can write a compelling argument, and recent studies show that autonomous AI research is still far from reaching its claimed potential. This has a ripp</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Research &amp; Academia</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, August 15, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI research like a high school essay: just because you can generate words doesn't mean you can write a compelling argument, and recent studies show that autonomous AI research is still far from reaching its claimed potential. This has a ripple effect on trading desks, where investors need to reassess the risk of AI infrastructure investments, and on sports labs, where the limitations of AI in research could impact the development of personalized training plans. As you consider the implications of these findings, ask yourself: what are the real-world consequences of overestimating AI's capabilities, and how can you separate hype from reality in your own work?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/">Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach</a></h3>
+<p>AI agents were given six days, $3,000 in API credits, and GPU access to write AI research papers, but the results were rated as &#x27;Reject&#x27; by the original authors of unpublished NeurIPS papers. This changes the evaluation criteria for autonomous AI research projects, requiring a more rigorous assessment of their capabilities before investing resources.&ensp;<a href="https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/">I Made an LLM Lay Siege to My Minecraft House</a></h3>
+<p>A language model was used to create live adversarial level design in Minecraft, demonstrating its capability in generating challenging game scenarios. This changes the approach to level design in games, allowing developers to leverage LLMs for creating dynamic and engaging gameplay experiences.&ensp;<a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/">OpenAI&#x27;s Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline</a></h3>
+<p>OpenAI&#x27;s Computer History records user interactions and turns them into a searchable timeline for ChatGPT and Codex, storing the data locally as unencrypted Markdown files. This changes the way users interact with ChatGPT, enabling them to search and reference their previous conversations and activities more efficiently.&ensp;<a href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html">AI’s infrastructure boom is getting more leveraged — and harder to track</a></h3>
+<p>AI infrastructure is being funded through bonds, leases, and private capital, adding a layer of market risk. This changes the risk assessment tool used by investors to evaluate AI infrastructure investments today.&ensp;<a href="https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video">Signs of a Slowing US Consumer | Open Interest 8/14/2026</a></h3>
+<p>US retail sales posted their biggest drop in over a year, indicating a slowdown in consumer spending. This changes the consumer spending forecast used by retailers and economists to make decisions about inventory and pricing strategies.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/videos/2026-08-14/ai-boom-reshapes-commodity-markets-video">AI Boom Reshapes Commodity Markets</a></h3>
+<p>AI&#x27;s massive power needs are driving changes in commodity markets, making uranium and gold attractive and highlighting potential risks in oil markets. This changes the commodity trading workflow used by investors and traders to identify opportunities and manage risk.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-14/ai-boom-reshapes-commodity-markets-video">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a73415626/return-to-running-after-50-tips/">Running Again After 50? These 6 Training Changes Help You Build Back Stronger</a></h3>
+<p>Six training changes can help runners over 50 build back stronger after taking time off, including adjustments to their routine and training habits. This changes the approach to training and workout planning for older runners, allowing them to create a more effective and safe regimen today.&ensp;<a href="https://www.runnersworld.com/training/a73415626/return-to-running-after-50-tips/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/nutrition-weight-loss/a73439247/long-run-fueling-guide/">Don’t Overthink Your Long-Run Fueling. Here’s Exactly What and When to Eat to Perform Your Best, According to Experts</a></h3>
+<p>Experts provide guidance on exactly what and when to eat to perform best during long runs, helping runners optimize their fueling plan. This changes the nutrition and fueling strategy for long runs, enabling runners to dial in their plan and improve performance starting with their next run.&ensp;<a href="https://www.runnersworld.com/nutrition-weight-loss/a73439247/long-run-fueling-guide/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/runners-stories/a73180339/90-year-old-first-time-marathoner-bill-schwarz/">At 90, He Raced His First Marathon. These Training Habits Helped Him Reach the Finish Line.</a></h3>
+<p>90-year-old Bill Schwarz completed his first marathon with the help of carefully curated training habits, which he believes will allow him to continue racing until 100. This changes the perception of age limits in running and the approach to training for older adults, inspiring a new approach to goal-setting and training plans for runners of all ages.&ensp;<a href="https://www.runnersworld.com/runners-stories/a73180339/90-year-old-first-time-marathoner-bill-schwarz/">→ Read</a></p>
+<hr>
+<h2>📚&ensp;Research & Academia</h2>
+<h3><a href="https://arxiv.org/abs/2608.09538">TCS-BENCH: Benchmarking State-of-the-Art Generative AI Theoretical Computer Science Research Ability</a></h3>
+<p>Researchers introduced TCS-Bench, a benchmark for evaluating Large Language Models on research-level Theoretical Computer Science proof generation, consisting of theorem-proving tasks from top theoretical computer science papers. This changes the tool used to evaluate the research ability of generative AI models, allowing for more accurate assessments of their capabilities in theoretical computer science.&ensp;<a href="https://arxiv.org/abs/2608.09538">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2608.12788">ARAC: Benchmarking Auto-Research&#x27;s Alignment and Completeness on End-to-End Researchs</a></h3>
+<p>The ARAC benchmark was proposed to measure the alignment, logical coherence, and evolutionary completeness of Auto-Research with human research behavior, addressing a fundamental evaluation challenge in Auto-Research. This changes the workflow for evaluating Auto-Research systems, enabling more effective assessments of their alignment with human research behaviors and outcomes.&ensp;<a href="https://arxiv.org/abs/2608.12788">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://arxiv.org/abs/2608.13345">Rules or Character? Scaling Laws for AI Safety Design</a></h3>
+<p>Researchers explored the combination of character shaping and rule enforcement in AI safety systems, discussing scaling laws for AI safety design and their implications. This changes the decision-making process for designing AI safety systems, providing new insights into the trade-offs between character shaping and rule enforcement approaches.&ensp;<a href="https://arxiv.org/abs/2608.13345">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773</a></h3>
+<p>Current text-to-image models struggle with generating images of multiple distinct people, specific compositions, or high-resolution images locally, despite being able to produce realistic images. This changes the approach to image generation, requiring developers to prioritize more than just increasing model size to improve performance and accuracy in their image generation workflows.&ensp;<a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Friday, August 14, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-14.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-14.html</guid>
@@ -17,35 +78,6 @@
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Friday, August 14, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI model prices like a falling domino chain, where one cheaper model knocks down the prices of others, changing the budgeting game for developers and researchers. As AI prices drop, investors are taking notice, pouring money into AI-focused funds and stocks, which in turn drives the market toward record highs. Now that affordable AI models like Gemini 3.7 Flash are within reach, what's the one workflow or process in your own project that you've been putting off due to costly AI tools, and how will you revisit it today?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/">Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor&#x27;s price by 50%</a></h3>
-<p>Gemini 3.7 Flash is 50% cheaper than its predecessor and beats Claude Sonnet 5 and GPT-5.6 Terra in coding benchmarks. This changes the budgeting decision for developers and researchers choosing between AI models, as they can now consider Gemini 3.7 Flash as a more affordable option.&ensp;<a href="https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/">Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device</a></h3>
-<p>LFM2.5-VL-3B is a 3.1B-parameter vision-language model that achieves 80.7 on ScreenSpot-v2 and lifts RefCOCO grounding from 57.1 to 87.9. This changes the on-device deployment workflow for vision-language tasks, as developers can now integrate LFM2.5-VL-3B into their applications for improved performance and functionality.&ensp;<a href="https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/">How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs</a></h3>
-<p>Google&#x27;s Open Knowledge Format (OKF) can be reused for agent-to-agent hand-off of pre-tokenized integer arrays between Qwen2.5-Coder models. This changes the knowledge sharing workflow between large language models (LLMs), as developers can now use OKF to enable more efficient and effective knowledge exchange between different models and sizes, such as 7B, 3B, and 1.5B models.&ensp;<a href="https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-14/japan-s-power-futures-get-boost-as-utilities-hedge-price-risk">Japan Power Futures Get Boost as Utilities Hedge Price Risk</a></h3>
-<p>Japanese companies are increasingly using power futures to manage risk from fuel-price volatility, with short-term contracts rising for four straight months. This changes the risk management strategy for utilities and energy companies, which can now use power futures to hedge against price fluctuations.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-14/japan-s-power-futures-get-boost-as-utilities-hedge-price-risk">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-14/thrive-investor-letter-reveals-openai-fueled-growth-stake-sale">Kushner’s Thrive Fund Grows Sevenfold to $3.7 Billion on AI Bets</a></h3>
-<p>Thrive Capital’s 2022 early-stage venture capital fund has grown to $3.7 billion, a sevenfold increase, thanks to early bets on AI companies like OpenAI. This changes the investment strategy for venture capital firms, which can now prioritize AI-focused startups for potential high returns.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-14/thrive-investor-letter-reveals-openai-fueled-growth-stake-sale">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-13/the-close-8-13-2026-video">Easing Inflation and AI Rally Push Stocks Toward Records | The Close 8/13/2026</a></h3>
-<p>Easing inflation and a rally in AI stocks are driving the market toward record highs, with experts weighing in on the trends. This changes the portfolio optimization strategy for investors, who can now consider adding AI stocks and adjusting their inflation expectations to maximize returns.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-13/the-close-8-13-2026-video">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://www.latent.space/p/ainews-spacexai-grok-46-and-grok">AINews</a></h3>
-<p>SpaceXAI has introduced Grok 4.6 and Grok @Bot, marking a significant new entrant in the AI teammate category. This changes the AI-powered tools available for teamwork and collaboration, allowing users to consider Grok 4.6 and Grok @Bot for their workflow and decision-making processes today.&ensp;<a href="https://www.latent.space/p/ainews-spacexai-grok-46-and-grok">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Thursday, August 13, 2026</title>
@@ -231,17 +263,6 @@
     <description>Think of AI development like a high-speed car chase, where the cars are models and the roads are benchmarks - today, Anthropic's Opus 5 just lapped the field on the ARC-AGI-3 track. This raises the stakes for traders, who must now consider how these </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Finance</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Sunday, July 26, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-26.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-26.html</guid>
-    <pubDate>Sun, 26 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI news like a sports draft, where the cost of top talent - like advanced language models - suddenly drops, changing who can afford to play. This shift in costs is already rippling out to trading desks, where portfolio managers are r</description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

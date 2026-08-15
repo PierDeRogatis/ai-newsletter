@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/",
-    "date": "2026-08-11"
-  },
-  {
-    "url": "https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/",
-    "date": "2026-08-11"
-  },
-  {
-    "url": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
-    "date": "2026-08-11"
-  },
-  {
-    "url": "https://www.runnersworld.com/training/a73394959/running-on-beach-benefits/",
-    "date": "2026-08-11"
-  },
-  {
-    "url": "https://www.nytimes.com/athletic/7503888/2026/08/10/fantasy-football-news-steals-stafford-williams-lane/",
-    "date": "2026-08-11"
-  },
-  {
-    "url": "https://www.outsideonline.com/outdoor-gear/run/best-minimalist-running-shoes/",
-    "date": "2026-08-11"
-  },
-  {
     "url": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
     "date": "2026-08-12"
   },
@@ -102,5 +78,57 @@
   {
     "url": "https://www.bloomberg.com/news/videos/2026-08-13/the-close-8-13-2026-video",
     "date": "2026-08-14"
+  },
+  {
+    "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-08-14/ai-boom-reshapes-commodity-markets-video",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73415626/return-to-running-after-50-tips/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.runnersworld.com/nutrition-weight-loss/a73439247/long-run-fueling-guide/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://www.runnersworld.com/runners-stories/a73180339/90-year-old-first-time-marathoner-bill-schwarz/",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.09538",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.12788",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.13345",
+    "date": "2026-08-15"
+  },
+  {
+    "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+    "date": "2026-08-15"
   }
 ]
