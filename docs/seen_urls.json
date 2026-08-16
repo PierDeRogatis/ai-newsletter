@@ -1,33 +1,5 @@
 [
   {
-    "url": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://arxiv.org/abs/2506.03922",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://arxiv.org/abs/2604.19001",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://arxiv.org/abs/2606.03793",
-    "date": "2026-08-12"
-  },
-  {
-    "url": "https://www.latent.space/p/chai-discovery",
-    "date": "2026-08-12"
-  },
-  {
     "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
     "date": "2026-08-13"
   },
@@ -130,5 +102,41 @@
   {
     "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
     "date": "2026-08-15"
+  },
+  {
+    "url": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73413732/strength-training-guide-for-runners-schedule/",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.runnersworld.com/training/a73435325/running-mileage-limit/",
+    "date": "2026-08-16"
+  },
+  {
+    "url": "https://www.nytimes.com/athletic/7511279/2026/08/16/matty-james-wrexham-interview/",
+    "date": "2026-08-16"
   }
 ]

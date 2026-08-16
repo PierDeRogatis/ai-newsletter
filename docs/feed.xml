@@ -9,6 +9,56 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Sunday, August 16, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-16.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-16.html</guid>
+    <pubDate>Sun, 16 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like self-driving cars: they can navigate familiar roads with ease, but struggle to recognize and respond to unexpected visual cues, which is why even the most advanced models can't crack 60 percent accuracy in visual perception. T</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>AI in Sports</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, August 16, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like self-driving cars: they can navigate familiar roads with ease, but struggle to recognize and respond to unexpected visual cues, which is why even the most advanced models can't crack 60 percent accuracy in visual perception. This limitation has significant implications for traders, who rely on AI-driven systems to analyze financial data and make predictions, but may be misled by inaccurate or incomplete visual information. As you consider the potential applications and limitations of AI in your own work, whether it's evaluating investment strategies or optimizing athlete performance, what's the one assumption about AI's capabilities that you're willing to revisit today?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/">New benchmark confirms AI models still perform poorly at visual perception</a></h3>
+<p>No frontier model reaches 60 percent accuracy in visual perception, with GPT-5.6 Sol leading by a narrow margin. This changes the approach to evaluating AI model performance, shifting focus to improving visual perception capabilities in multimodal models.&ensp;<a href="https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/">Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3</a></h3>
+<p>Implementing an end-to-end fine-tuning pipeline for tool-calling language models can be achieved using XYZ-Aquila-SFT and Qwen3. This changes the workflow for fine-tuning LLMs, allowing developers to use PyTorch for efficient LoRA adaptation and Qwen-compatible ChatML rendering.&ensp;<a href="https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/">Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic&#x27;s numbers defy bubble warnings</a></h3>
+<p>Nvidia has cut its guarantee for OpenAI&#x27;s planned data center in Ohio from $250 billion to just under $120 billion due to investor pressure. This changes the investment strategy for AI companies, as investors reassess risks and opportunities in the face of changing market conditions and revenue growth, such as Anthropic&#x27;s jump from $4.7 billion to $11.5 billion.&ensp;<a href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html">Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market</a></h3>
+<p>Investors are flocking to short-term investments like ultra-short bond funds in anticipation of a stock market correction, with over $17 billion added to Berkshire&#x27;s Alphabet stake as a safety trade. This changes the investment strategy for risk-averse investors, who may consider shifting to ultra-short bond funds or other low-risk investments today.&ensp;<a href="https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html">Berkshire adds $17 billion to Alphabet stake</a></h3>
+<p>Berkshire Hathaway has added $17 billion to its Alphabet stake, making Google&#x27;s parent company the third largest holding in its equity portfolio. This changes the portfolio allocation for investors tracking Berkshire&#x27;s moves, who may consider adding Alphabet to their own portfolios today.&ensp;<a href="https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google</a></h3>
+<p>Alibaba&#x27;s open-weight models have reached 3 billion global downloads in the past six months, surpassing Meta, Google, and other domestic peers to become the world&#x27;s No. 1 artificial-intelligence model. This changes the consideration set for companies evaluating AI model providers, who may now prioritize Alibaba&#x27;s models for their own applications and integrations today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">→ Read</a></p>
+<hr>
+<h2>🏃&ensp;AI in Sports</h2>
+<h3><a href="https://www.runnersworld.com/training/a73413732/strength-training-guide-for-runners-schedule/">The Runner’s World Guide to Strength Training: How to Fit Strength Into Your Run Schedule</a></h3>
+<p>Runners can prioritize strength training by incorporating it into their run routine with the right tools and program. This changes the runner&#x27;s workout schedule, allowing them to add strength training sessions to their existing run schedule today.&ensp;<a href="https://www.runnersworld.com/training/a73413732/strength-training-guide-for-runners-schedule/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.runnersworld.com/training/a73435325/running-mileage-limit/">4 Signs More Mileage Is No Longer Helping Your Training—And What to Do About It</a></h3>
+<p>Coaches identify four signs that indicate more mileage is no longer beneficial to a runner&#x27;s training, and provide alternatives to improve performance. This changes the approach to training, shifting from solely increasing mileage to incorporating other methods such as strength training or cross-training into the daily workout routine.&ensp;<a href="https://www.runnersworld.com/training/a73435325/running-mileage-limit/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.nytimes.com/athletic/7511279/2026/08/16/matty-james-wrexham-interview/">Wrexham&#x27;s Matty James: &#x27;I was going to finish playing - and not through my choice&#x27;</a></h3>
+<p>Matty James, a veteran midfielder, was on the verge of ending his playing career due to a lack of offers before receiving a call from Wrexham in October 2024. This changes the way athletes and teams approach recruitment, highlighting the importance of perseverance and the right opportunities for athletes to extend their careers.&ensp;<a href="https://www.nytimes.com/athletic/7511279/2026/08/16/matty-james-wrexham-interview/">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773</a></h3>
+<p>&ensp;<a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Saturday, August 15, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-15.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-15.html</guid>
@@ -19,55 +69,6 @@
     <category>AI in Sports</category>
     <category>Research &amp; Academia</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Saturday, August 15, 2026&ensp;·&ensp;13 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI research like a high school essay: just because you can generate words doesn't mean you can write a compelling argument, and recent studies show that autonomous AI research is still far from reaching its claimed potential. This has a ripple effect on trading desks, where investors need to reassess the risk of AI infrastructure investments, and on sports labs, where the limitations of AI in research could impact the development of personalized training plans. As you consider the implications of these findings, ask yourself: what are the real-world consequences of overestimating AI's capabilities, and how can you separate hype from reality in your own work?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/">Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach</a></h3>
-<p>AI agents were given six days, $3,000 in API credits, and GPU access to write AI research papers, but the results were rated as &#x27;Reject&#x27; by the original authors of unpublished NeurIPS papers. This changes the evaluation criteria for autonomous AI research projects, requiring a more rigorous assessment of their capabilities before investing resources.&ensp;<a href="https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/">I Made an LLM Lay Siege to My Minecraft House</a></h3>
-<p>A language model was used to create live adversarial level design in Minecraft, demonstrating its capability in generating challenging game scenarios. This changes the approach to level design in games, allowing developers to leverage LLMs for creating dynamic and engaging gameplay experiences.&ensp;<a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/">OpenAI&#x27;s Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline</a></h3>
-<p>OpenAI&#x27;s Computer History records user interactions and turns them into a searchable timeline for ChatGPT and Codex, storing the data locally as unencrypted Markdown files. This changes the way users interact with ChatGPT, enabling them to search and reference their previous conversations and activities more efficiently.&ensp;<a href="https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html">AI’s infrastructure boom is getting more leveraged — and harder to track</a></h3>
-<p>AI infrastructure is being funded through bonds, leases, and private capital, adding a layer of market risk. This changes the risk assessment tool used by investors to evaluate AI infrastructure investments today.&ensp;<a href="https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video">Signs of a Slowing US Consumer | Open Interest 8/14/2026</a></h3>
-<p>US retail sales posted their biggest drop in over a year, indicating a slowdown in consumer spending. This changes the consumer spending forecast used by retailers and economists to make decisions about inventory and pricing strategies.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-14/open-interest-8-14-2026-video">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/videos/2026-08-14/ai-boom-reshapes-commodity-markets-video">AI Boom Reshapes Commodity Markets</a></h3>
-<p>AI&#x27;s massive power needs are driving changes in commodity markets, making uranium and gold attractive and highlighting potential risks in oil markets. This changes the commodity trading workflow used by investors and traders to identify opportunities and manage risk.&ensp;<a href="https://www.bloomberg.com/news/videos/2026-08-14/ai-boom-reshapes-commodity-markets-video">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a73415626/return-to-running-after-50-tips/">Running Again After 50? These 6 Training Changes Help You Build Back Stronger</a></h3>
-<p>Six training changes can help runners over 50 build back stronger after taking time off, including adjustments to their routine and training habits. This changes the approach to training and workout planning for older runners, allowing them to create a more effective and safe regimen today.&ensp;<a href="https://www.runnersworld.com/training/a73415626/return-to-running-after-50-tips/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/nutrition-weight-loss/a73439247/long-run-fueling-guide/">Don’t Overthink Your Long-Run Fueling. Here’s Exactly What and When to Eat to Perform Your Best, According to Experts</a></h3>
-<p>Experts provide guidance on exactly what and when to eat to perform best during long runs, helping runners optimize their fueling plan. This changes the nutrition and fueling strategy for long runs, enabling runners to dial in their plan and improve performance starting with their next run.&ensp;<a href="https://www.runnersworld.com/nutrition-weight-loss/a73439247/long-run-fueling-guide/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/runners-stories/a73180339/90-year-old-first-time-marathoner-bill-schwarz/">At 90, He Raced His First Marathon. These Training Habits Helped Him Reach the Finish Line.</a></h3>
-<p>90-year-old Bill Schwarz completed his first marathon with the help of carefully curated training habits, which he believes will allow him to continue racing until 100. This changes the perception of age limits in running and the approach to training for older adults, inspiring a new approach to goal-setting and training plans for runners of all ages.&ensp;<a href="https://www.runnersworld.com/runners-stories/a73180339/90-year-old-first-time-marathoner-bill-schwarz/">→ Read</a></p>
-<hr>
-<h2>📚&ensp;Research & Academia</h2>
-<h3><a href="https://arxiv.org/abs/2608.09538">TCS-BENCH: Benchmarking State-of-the-Art Generative AI Theoretical Computer Science Research Ability</a></h3>
-<p>Researchers introduced TCS-Bench, a benchmark for evaluating Large Language Models on research-level Theoretical Computer Science proof generation, consisting of theorem-proving tasks from top theoretical computer science papers. This changes the tool used to evaluate the research ability of generative AI models, allowing for more accurate assessments of their capabilities in theoretical computer science.&ensp;<a href="https://arxiv.org/abs/2608.09538">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2608.12788">ARAC: Benchmarking Auto-Research&#x27;s Alignment and Completeness on End-to-End Researchs</a></h3>
-<p>The ARAC benchmark was proposed to measure the alignment, logical coherence, and evolutionary completeness of Auto-Research with human research behavior, addressing a fundamental evaluation challenge in Auto-Research. This changes the workflow for evaluating Auto-Research systems, enabling more effective assessments of their alignment with human research behaviors and outcomes.&ensp;<a href="https://arxiv.org/abs/2608.12788">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://arxiv.org/abs/2608.13345">Rules or Character? Scaling Laws for AI Safety Design</a></h3>
-<p>Researchers explored the combination of character shaping and rule enforcement in AI safety systems, discussing scaling laws for AI safety design and their implications. This changes the decision-making process for designing AI safety systems, providing new insights into the trade-offs between character shaping and rule enforcement approaches.&ensp;<a href="https://arxiv.org/abs/2608.13345">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773</a></h3>
-<p>Current text-to-image models struggle with generating images of multiple distinct people, specific compositions, or high-resolution images locally, despite being able to produce realistic images. This changes the approach to image generation, requiring developers to prioritize more than just increasing model size to improve performance and accuracy in their image generation workflows.&ensp;<a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Friday, August 14, 2026</title>
@@ -253,16 +254,6 @@
     <description>Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper </description>
     <category>AI &amp; Data Tools</category>
     <category>AI in Sports</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Monday, July 27, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-27.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-27.html</guid>
-    <pubDate>Mon, 27 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of AI development like a high-speed car chase, where the cars are models and the roads are benchmarks - today, Anthropic's Opus 5 just lapped the field on the ARC-AGI-3 track. This raises the stakes for traders, who must now consider how these </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Finance</category>
     <category>Podcasts</category>
   </item>
 </channel>

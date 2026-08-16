@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-16",
+    "headline": "AI's Blind Spot",
+    "brief": "Think of AI models like self-driving cars: they can navigate familiar roads with ease, but struggle to recognize and respond to unexpected visual cues, which is why even the most advanced models can't crack 60 percent accuracy in visual perception. T",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "AI in Sports",
+      "Podcasts"
+    ],
+    "article_count": 10,
+    "path": "issues/2026-08-16.html"
+  },
+  {
     "date": "2026-08-15",
     "headline": "AI falls short on research",
     "brief": "Think of AI research like a high school essay: just because you can generate words doesn't mean you can write a compelling argument, and recent studies show that autonomous AI research is still far from reaching its claimed potential. This has a ripp",
