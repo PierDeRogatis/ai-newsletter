@@ -9,6 +9,45 @@
   <language>en-us</language>
   <atom:link href="https://pierderogatis.github.io/ai-newsletter/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Gradient Descent — Monday, August 17, 2026</title>
+    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-17.html</link>
+    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-17.html</guid>
+    <pubDate>Mon, 17 Aug 2026 06:00:00 +0000</pubDate>
+    <description>Think of AI models like athletes: you can't just measure their speed on a track, you need to see how they perform on the specific terrain you'll be using them on. This is crucial on a trading desk, where a model's ability to handle your specific data</description>
+    <category>AI &amp; Data Tools</category>
+    <category>AI in Finance</category>
+    <category>Podcasts</category>
+    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Monday, August 17, 2026&ensp;·&ensp;7 articles&ensp;·&ensp;~3 min read</span></p>
+<hr>
+<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like athletes: you can't just measure their speed on a track, you need to see how they perform on the specific terrain you'll be using them on. This is crucial on a trading desk, where a model's ability to handle your specific data and workflows can make or break a strategy, and in sports performance, where custom testing can reveal hidden strengths and weaknesses. As you consider adopting new AI tools, ask yourself: what's the one custom test that could make or break your decision to use a particular model?</p></blockquote>
+<hr>
+<h2>📊&ensp;AI & Data Tools</h2>
+<h3><a href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/">Optima tackles AI benchmarking&#x27;s biggest flaw by letting users test models against their own data</a></h3>
+<p>Optima, a new platform, allows users to build custom AI benchmarks from their own data and workflows, enabling model comparison based on quality, cost, and time per task. This changes the AI model selection tool, as users can now test and choose models based on their specific needs and workflows.&ensp;<a href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/">Top mathematicians say LLMs are strong calculators but poor creative thinkers</a></h3>
+<p>Renowned mathematicians Timothy Gowers and Peter Sarnak state that large language models excel at combining known methods but lack intuition for new mathematical ideas. This changes the approach to mathematical research, as it highlights the limitations of LLMs in creative problem-solving and the need for human intuition.&ensp;<a href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/">When AI models aren&#x27;t allowed to reflect on themselves, it changes their entire worldview</a></h3>
+<p>A study shows that chatbots trained not to claim consciousness also change their stance on animal rights, religion, and life satisfaction, with unbraked models attributing more inner life to animals and affirming an afterlife. This changes the chatbot training workflow, as restricting self-reflection can significantly impact the model&#x27;s worldview and generated responses.&ensp;<a href="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/">→ Read</a></p>
+<hr>
+<h2>📈&ensp;AI in Finance</h2>
+<h3><a href="https://www.bloomberg.com/news/articles/2026-08-17/alphabet-hires-banks-for-inaugural-aussie-dollar-bond-sale">Alphabet Hires Banks for Inaugural Aussie Dollar Bond Sale</a></h3>
+<p>Alphabet Inc. is making its debut in the Australian dollar bond market, hiring banks to manage the sale as US tech firms increase their debt to fund AI investments. This changes the investment strategy for those looking to diversify their bond portfolios, potentially adding Australian dollar bonds to their mix today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-17/alphabet-hires-banks-for-inaugural-aussie-dollar-bond-sale">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/16/cramer-believe-the-unbelievable-in-this-market-things-can-be-different.html">Believe the unbelievable in this market — things can be different this time</a></h3>
+<p>Four stocks that are performing unbelievably well remain the most hated and feared on Wall Street, indicating a potential shift in market sentiment. This changes the stock picking approach for investors, who may want to reevaluate their stance on these underestimated stocks and consider adding them to their portfolios today.&ensp;<a href="https://www.cnbc.com/2026/08/16/cramer-believe-the-unbelievable-in-this-market-things-can-be-different.html">→ Read</a></p>
+<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
+<h3><a href="https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">Top Wall Street analysts like these 3 dividend stocks for steady income</a></h3>
+<p>Top Wall Street analysts are recommending three dividend-paying energy stocks for steady income, which could provide a stable source of returns for investors. This changes the portfolio allocation for income-seeking investors, who may want to add these dividend stocks to their holdings today to generate consistent returns.&ensp;<a href="https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html">→ Read</a></p>
+<hr>
+<h2>🎧&ensp;Podcasts</h2>
+<h3><a href="https://www.nytimes.com/the-daily">What Makes a Killer Thriller?</a></h3>
+<p>&ensp;<a href="https://www.nytimes.com/the-daily">→ Listen</a></p>
+<hr>
+<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
+  </item>
+  <item>
     <title>Gradient Descent — Sunday, August 16, 2026</title>
     <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-08-16.html</link>
     <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-08-16.html</guid>
@@ -18,45 +57,6 @@
     <category>AI in Finance</category>
     <category>AI in Sports</category>
     <category>Podcasts</category>
-    <content:encoded><![CDATA[<p><span style="color:#00C9A7;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:12px;">Gradient Descent</span>&ensp;·&ensp;<span style="color:#6B7280;font-size:13px;">Sunday, August 16, 2026&ensp;·&ensp;10 articles&ensp;·&ensp;~3 min read</span></p>
-<hr>
-<blockquote><p><strong>Today's Brief</strong></p><p>Think of AI models like self-driving cars: they can navigate familiar roads with ease, but struggle to recognize and respond to unexpected visual cues, which is why even the most advanced models can't crack 60 percent accuracy in visual perception. This limitation has significant implications for traders, who rely on AI-driven systems to analyze financial data and make predictions, but may be misled by inaccurate or incomplete visual information. As you consider the potential applications and limitations of AI in your own work, whether it's evaluating investment strategies or optimizing athlete performance, what's the one assumption about AI's capabilities that you're willing to revisit today?</p></blockquote>
-<hr>
-<h2>📊&ensp;AI & Data Tools</h2>
-<h3><a href="https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/">New benchmark confirms AI models still perform poorly at visual perception</a></h3>
-<p>No frontier model reaches 60 percent accuracy in visual perception, with GPT-5.6 Sol leading by a narrow margin. This changes the approach to evaluating AI model performance, shifting focus to improving visual perception capabilities in multimodal models.&ensp;<a href="https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/">Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3</a></h3>
-<p>Implementing an end-to-end fine-tuning pipeline for tool-calling language models can be achieved using XYZ-Aquila-SFT and Qwen3. This changes the workflow for fine-tuning LLMs, allowing developers to use PyTorch for efficient LoRA adaptation and Qwen-compatible ChatML rendering.&ensp;<a href="https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/">Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic&#x27;s numbers defy bubble warnings</a></h3>
-<p>Nvidia has cut its guarantee for OpenAI&#x27;s planned data center in Ohio from $250 billion to just under $120 billion due to investor pressure. This changes the investment strategy for AI companies, as investors reassess risks and opportunities in the face of changing market conditions and revenue growth, such as Anthropic&#x27;s jump from $4.7 billion to $11.5 billion.&ensp;<a href="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/">→ Read</a></p>
-<hr>
-<h2>📈&ensp;AI in Finance</h2>
-<h3><a href="https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html">Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market</a></h3>
-<p>Investors are flocking to short-term investments like ultra-short bond funds in anticipation of a stock market correction, with over $17 billion added to Berkshire&#x27;s Alphabet stake as a safety trade. This changes the investment strategy for risk-averse investors, who may consider shifting to ultra-short bond funds or other low-risk investments today.&ensp;<a href="https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html">Berkshire adds $17 billion to Alphabet stake</a></h3>
-<p>Berkshire Hathaway has added $17 billion to its Alphabet stake, making Google&#x27;s parent company the third largest holding in its equity portfolio. This changes the portfolio allocation for investors tracking Berkshire&#x27;s moves, who may consider adding Alphabet to their own portfolios today.&ensp;<a href="https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google</a></h3>
-<p>Alibaba&#x27;s open-weight models have reached 3 billion global downloads in the past six months, surpassing Meta, Google, and other domestic peers to become the world&#x27;s No. 1 artificial-intelligence model. This changes the consideration set for companies evaluating AI model providers, who may now prioritize Alibaba&#x27;s models for their own applications and integrations today.&ensp;<a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">→ Read</a></p>
-<hr>
-<h2>🏃&ensp;AI in Sports</h2>
-<h3><a href="https://www.runnersworld.com/training/a73413732/strength-training-guide-for-runners-schedule/">The Runner’s World Guide to Strength Training: How to Fit Strength Into Your Run Schedule</a></h3>
-<p>Runners can prioritize strength training by incorporating it into their run routine with the right tools and program. This changes the runner&#x27;s workout schedule, allowing them to add strength training sessions to their existing run schedule today.&ensp;<a href="https://www.runnersworld.com/training/a73413732/strength-training-guide-for-runners-schedule/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.runnersworld.com/training/a73435325/running-mileage-limit/">4 Signs More Mileage Is No Longer Helping Your Training—And What to Do About It</a></h3>
-<p>Coaches identify four signs that indicate more mileage is no longer beneficial to a runner&#x27;s training, and provide alternatives to improve performance. This changes the approach to training, shifting from solely increasing mileage to incorporating other methods such as strength training or cross-training into the daily workout routine.&ensp;<a href="https://www.runnersworld.com/training/a73435325/running-mileage-limit/">→ Read</a></p>
-<hr style="border:none;border-top:1px solid #E5E7EB;margin:12px 0;">
-<h3><a href="https://www.nytimes.com/athletic/7511279/2026/08/16/matty-james-wrexham-interview/">Wrexham&#x27;s Matty James: &#x27;I was going to finish playing - and not through my choice&#x27;</a></h3>
-<p>Matty James, a veteran midfielder, was on the verge of ending his playing career due to a lack of offers before receiving a call from Wrexham in October 2024. This changes the way athletes and teams approach recruitment, highlighting the importance of perseverance and the right opportunities for athletes to extend their careers.&ensp;<a href="https://www.nytimes.com/athletic/7511279/2026/08/16/matty-james-wrexham-interview/">→ Read</a></p>
-<hr>
-<h2>🎧&ensp;Podcasts</h2>
-<h3><a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773</a></h3>
-<p>&ensp;<a href="https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models">→ Listen</a></p>
-<hr>
-<p style="color:#6B7280;font-size:13px;"><em>Gradient Descent is free and automated. <a href="https://pierderogatis.github.io/ai-newsletter">Browse the full archive</a> or <a href="https://pierluigiderogatis.substack.com/subscribe">subscribe</a> to get it every morning.</em></p>]]></content:encoded>
   </item>
   <item>
     <title>Gradient Descent — Saturday, August 15, 2026</title>
@@ -244,16 +244,6 @@
     <description>Think of AI models like high-performance sports cars: they need the right fuel and maintenance to run efficiently, and now we know that running them locally can be cheaper than expected, like finding a secret gas station that saves you money on your </description>
     <category>AI &amp; Data Tools</category>
     <category>Research &amp; Academia</category>
-    <category>Podcasts</category>
-  </item>
-  <item>
-    <title>Gradient Descent — Tuesday, July 28, 2026</title>
-    <link>https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</link>
-    <guid isPermaLink="true">https://pierderogatis.github.io/ai-newsletter/issues/2026-07-28.html</guid>
-    <pubDate>Tue, 28 Jul 2026 06:00:00 +0000</pubDate>
-    <description>Think of today's AI advancements like a price war in the airline industry - as companies like Moonshot AI and Microsoft release more affordable models, the cost of achieving high performance goes down, much like how budget airlines can offer cheaper </description>
-    <category>AI &amp; Data Tools</category>
-    <category>AI in Sports</category>
     <category>Podcasts</category>
   </item>
 </channel>

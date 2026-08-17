@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-17",
+    "headline": "Models need custom tests",
+    "brief": "Think of AI models like athletes: you can't just measure their speed on a track, you need to see how they perform on the specific terrain you'll be using them on. This is crucial on a trading desk, where a model's ability to handle your specific data",
+    "topics": [
+      "AI & Data Tools",
+      "AI in Finance",
+      "Podcasts"
+    ],
+    "article_count": 7,
+    "path": "issues/2026-08-17.html"
+  },
+  {
     "date": "2026-08-16",
     "headline": "AI's Blind Spot",
     "brief": "Think of AI models like self-driving cars: they can navigate familiar roads with ease, but struggle to recognize and respond to unexpected visual cues, which is why even the most advanced models can't crack 60 percent accuracy in visual perception. T",
